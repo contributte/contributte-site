@@ -1,9 +1,6 @@
 # Node
-node_modules
-npm-debug.log
+/node_modules
+/npm-debug.log
 
-# Nuxt build
-.nuxt
-
-# Nuxt generate
-dist
+# VuePress
+/docs/.vuepress/dist

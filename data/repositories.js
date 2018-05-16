@@ -9,6 +9,7 @@ const repositories = {
   },
   "event-dispatcher": {
     "name": "event-dispatcher",
+    "title": "Event Dispatcher",
     "category": "symfony",
     "enabled": true,
     "priority": 99,
@@ -69,6 +70,7 @@ const repositories = {
   },
   "console-extra": {
     "name": "console-extra",
+    "title": "Console Extra",
     "category": "symfony",
     "enabled": false,
     "priority": 0,
@@ -92,6 +94,7 @@ const repositories = {
   },
   "deployer-extension": {
     "name": "deployer-extension",
+    "title": "FTP deployer",
     "enabled": true,
     "priority": 0,
     "docs": "v0",
@@ -106,6 +109,7 @@ const repositories = {
   },
   "di": {
     "name": "di",
+    "title": "Dependency Injection (DI)",
     "category": "nette-contrib",
     "enabled": true,
     "priority": 0,
@@ -114,6 +118,7 @@ const repositories = {
   },
   "dummy-events": {
     "name": "dummy-events",
+    "title": "Dummy Events",
     "enabled": true,
     "priority": 0,
     "docs": "v0",
@@ -135,6 +140,7 @@ const repositories = {
   },
   "event-dispatcher-extra": {
     "name": "event-dispatcher-extra",
+    "title": "Event Dispatcher Extra",
     "category": "symfony",
     "enabled": true,
     "priority": 0,
@@ -238,6 +244,7 @@ const repositories = {
   },
   "middlewares": {
     "name": "middlewares",
+    "category": "psr",
     "enabled": true,
     "priority": 0,
     "docs": "v1",
@@ -266,6 +273,7 @@ const repositories = {
   },
   "nextras-criteria": {
     "name": "nextras-criteria",
+    "category": "nextras",
     "enabled": false,
     "priority": 0,
     "docs": "v1",
@@ -273,6 +281,7 @@ const repositories = {
   },
   "nextras-orm-events": {
     "name": "nextras-orm-events",
+    "category": "nextras",
     "enabled": true,
     "priority": 0,
     "docs": "v0",
@@ -280,6 +289,7 @@ const repositories = {
   },
   "nextras-orm-generator": {
     "name": "nextras-orm-generator",
+    "category": "nextras",
     "enabled": true,
     "priority": 0,
     "docs": "v0",
@@ -287,6 +297,7 @@ const repositories = {
   },
   "nextras-orm-query-object": {
     "name": "nextras-orm-query-object",
+    "category": "nextras",
     "enabled": true,
     "priority": 0,
     "docs": "v0",
@@ -301,6 +312,7 @@ const repositories = {
   },
   "playground": {
     "name": "playground",
+    "category": "playground",
     "enabled": true,
     "priority": 0,
     "docs": "v0",
@@ -308,6 +320,7 @@ const repositories = {
   },
   "psr11-container-interface": {
     "name": "psr11-container-interface",
+    "category": "psr",
     "enabled": false,
     "priority": 0,
     "docs": "v1",
@@ -315,6 +328,7 @@ const repositories = {
   },
   "psr3-logging": {
     "name": "psr3-logging",
+    "category": "psr",
     "enabled": false,
     "priority": 0,
     "docs": "v1",
@@ -322,6 +336,7 @@ const repositories = {
   },
   "psr6-caching": {
     "name": "psr6-caching",
+    "category": "psr",
     "enabled": false,
     "priority": 0,
     "docs": "v1",
@@ -329,6 +344,7 @@ const repositories = {
   },
   "psr7-http-message": {
     "name": "psr7-http-message",
+    "category": "psr",
     "enabled": true,
     "priority": 0,
     "docs": "v1",
@@ -336,6 +352,7 @@ const repositories = {
   },
   "reCAPTCHA": {
     "name": "reCAPTCHA",
+    "title": "reCAPTCHA",
     "enabled": true,
     "priority": 0,
     "docs": "v0",

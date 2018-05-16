@@ -5,35 +5,14 @@
   "author": "Milan Felix Šulc <rkfelix@gmail.com>",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "build-check": "nuxt build --analyse",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
-  "dependencies": {
-    "bootstrap-vue": "^2.0.0-rc.9",
-    "clipboard": "^2.0.1",
-    "highlight.js": "^9.12.0",
-    "lodash": "^4.17.10",
-    "nuxt-edge": "^2.0.0-25440915.dcc92c6",
-    "octicons": "^4.0.0",
-    "twemoji": "^2.5.1"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@nuxtjs/markdownit": "^1.2.1",
-    "babel-eslint": "^8.2.3",
-    "eslint": "^4.19.1",
-    "eslint-friendly-formatter": "^4.0.1",
-    "eslint-loader": "^2.0.0",
-    "eslint-plugin-vue": "^4.5.0",
-    "markdown-it-emoji": "^1.4.0",
-    "markdown-it-github-headings": "^1.1.1",
-    "markdown-it-loader": "^0.7.0",
+    "lodash": "^4.17.10",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
-    "webpack": "^4.8.3"
+    "vuepress": "^0.8.4"
   }
 }

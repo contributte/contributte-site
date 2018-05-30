@@ -402,13 +402,6 @@ const repositories = {
     "docs": "v0",
     "description": ":fries: Social plugins  (facebook, twitter, google) for Nette Framework"
   },
-  "symfonier": {
-    "name": "symfonier",
-    "enabled": false,
-    "priority": 0,
-    "docs": "v1",
-    "description": ":sunflower: Adaptation of Symfony principles to Nette Framework (@nette) "
-  },
   "tracy": {
     "name": "tracy",
     "category": "nette-contrib",

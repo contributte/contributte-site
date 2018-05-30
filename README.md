@@ -28,5 +28,5 @@ npm run docs:dev
 
 ```
 # Compile sources
-npm start docs:build
+npm run docs:build
 ```

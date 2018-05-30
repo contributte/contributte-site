@@ -32,7 +32,7 @@ const sidebar = [
   {
     title: 'Symfony',
     collapsable: false,
-    children: buildSidebarChildren('nette-contrib'),
+    children: buildSidebarChildren('symfony'),
   },
   {
     title: 'Nextras',
@@ -55,6 +55,7 @@ module.exports = {
   title: 'Contributte - First class extensions for Nette Framework',
   description: 'Contributte packages are first class extensions for Nette Framework.',
   keywords: 'contributte, nette, symfony, extensions, mvc, application, http, security, utils, database',
+  ga: 'UA-28123999-19',
   themeConfig: {
     nav: [
       {text: 'Home', link: '/'},

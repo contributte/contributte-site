@@ -62,6 +62,11 @@ module.exports = {
       {text: 'All packages', link: '/packages/'},
       {text: 'About', link: '/team'},
     ],
+    lastUpdated: 'Last Updated',
     sidebar
+  },
+  evergreen: true,
+  markdown: {
+    lineNumbers: true
   }
 };

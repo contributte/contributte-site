@@ -7,14 +7,32 @@ const repositories = {
     "docs": "v1",
     "description": ":boom: Best minimal console (symfony/console) to Nette Framework (@nette)"
   },
+  "console-extra": {
+    "name": "console-extra",
+    "title": "Console Extra",
+    "category": "symfony",
+    "enabled": true,
+    "priority": 99,
+    "docs": "v1",
+    "description": ":recycle: Nette-based console commands for latte, DIC, security, utils and many others.  "
+  },
   "event-dispatcher": {
     "name": "event-dispatcher",
     "title": "Event Dispatcher",
     "category": "symfony",
     "enabled": true,
-    "priority": 99,
+    "priority": 90,
     "docs": "v1",
     "description": ":boom: Best events support (symfony/event-dispatcher) to Nette Framework (@nette)"
+  },
+  "event-dispatcher-extra": {
+    "name": "event-dispatcher-extra",
+    "title": "Event Dispatcher Extra",
+    "category": "symfony",
+    "enabled": true,
+    "priority": 89,
+    "docs": "v1",
+    "description": ":recycle: Nette-based Symfony events for application, presenter, form, latte, templates, security and many others."
   },
   "advisories": {
     "name": "advisories",
@@ -67,15 +85,6 @@ const repositories = {
     "priority": 0,
     "docs": "v1",
     "description": ":arrow_forward: Integration of Nette Framework to Codeception."
-  },
-  "console-extra": {
-    "name": "console-extra",
-    "title": "Console Extra",
-    "category": "symfony",
-    "enabled": false,
-    "priority": 0,
-    "docs": "v1",
-    "description": ":recycle: Nette-based console commands for latte, DIC, security, utils and many others.  "
   },
   "contributte": {
     "name": "contributte",
@@ -137,15 +146,6 @@ const repositories = {
     "priority": 0,
     "docs": "v1",
     "description": "[ARCHIVED] :package: Collection of all event dispatcher bridges (:recycle:) to nette at one place "
-  },
-  "event-dispatcher-extra": {
-    "name": "event-dispatcher-extra",
-    "title": "Event Dispatcher Extra",
-    "category": "symfony",
-    "enabled": true,
-    "priority": 0,
-    "docs": "v1",
-    "description": ":recycle: Nette-based Symfony events for application, presenter, form, latte, templates, security and many others."
   },
   "event-security-bridge": {
     "name": "event-security-bridge",
@@ -431,6 +431,13 @@ const repositories = {
     "priority": 0,
     "docs": "v1",
     "description": ":exclamation: Word based captcha (security) for Nette Framework \\ Forms (@nette)"
+  },
+  "elasticsearch": {
+    "name": "elasticsearch",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":mag: Tiny Elasticsearch integration into Nette Framework"
   }
 };
 

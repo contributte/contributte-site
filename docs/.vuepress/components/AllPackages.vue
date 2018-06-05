@@ -7,7 +7,9 @@
             <h2>
               <a :href="'/packages/' + repository.name + '.html'">{{ repository.name }}</a>
             </h2>
-            <div v-if="repository.description" v-html="repository.description"/>
+            <div v-if="repository.description">
+              {{repository.description}}
+            </div>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                 <a :href="'/packages/' + repository.name + '.html'" class="btn btn-sm btn-outline-secondary">Docs</a>
@@ -28,7 +30,10 @@
   export default {
     data: () => ({
       repositories: getEnabledRepositories()
-    })
+    }),
+    mounted() {
+      console.log(this);
+    }
   }
 </script>
 
@@ -36,7 +41,7 @@
   .packages {
     .card {
       h2 {
-        font-size: 130%;
+        font-size: 140%;
       }
     }
   }

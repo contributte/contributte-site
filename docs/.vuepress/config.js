@@ -66,6 +66,7 @@ module.exports = {
     nav: [
       {text: 'Home', link: '/'},
       {text: 'All packages', link: '/packages/'},
+      {text: 'Latest releases', link: '/releases/'},
       {text: 'About', link: '/team'},
     ],
     lastUpdated: 'Last Updated',

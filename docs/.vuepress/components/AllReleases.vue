@@ -1,0 +1,40 @@
+<template>
+  <div class="releases">
+    <div class="row">
+      <div v-for="(release, id) of releases" :key="id" class="col-md-6 col-lg-4">
+        <div class="card mb-4 box-shadow">
+          <div class="card-body">
+            <h2><a :href="'/packages/'+release.repo+'.html'">{{release.repo}} / {{release.tag}}</a></h2>
+            <div v-html="$options.filters.nl2br(release.body)"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import { getReleases } from "./../utils/releases";
+import nl2br from "./../utils/nl2br";
+
+export default {
+  data: () => ({
+    releases: getReleases()
+  }),
+  filters: {
+    nl2br(s) {
+      return nl2br(s);
+    }
+  }
+};
+</script>
+
+<style lang="scss">
+.releases {
+  .card {
+    h2 {
+      font-size: 140%;
+    }
+  }
+}
+</style>

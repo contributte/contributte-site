@@ -9,7 +9,7 @@ const repositories = {
   },
   "console-extra": {
     "name": "console-extra",
-    "title": "Console Extra",
+    "title": "Console [extra]",
     "category": "symfony",
     "enabled": true,
     "priority": 99,
@@ -27,7 +27,7 @@ const repositories = {
   },
   "event-dispatcher-extra": {
     "name": "event-dispatcher-extra",
-    "title": "Event Dispatcher Extra",
+    "title": "Event Dispatcher [extra]",
     "category": "symfony",
     "enabled": true,
     "priority": 89,
@@ -82,7 +82,7 @@ const repositories = {
   "codeception": {
     "name": "codeception",
     "enabled": false,
-    "priority": 0,
+    "priority": 60,
     "docs": "v1",
     "description": ":arrow_forward: Integration of Nette Framework to Codeception."
   },
@@ -111,6 +111,7 @@ const repositories = {
   },
   "dev": {
     "name": "dev",
+    "category": "development",
     "enabled": true,
     "priority": 0,
     "docs": "v0",
@@ -178,6 +179,7 @@ const repositories = {
   },
   "generator-nette": {
     "name": "generator-nette",
+    "title": "Nette Generator",
     "enabled": true,
     "priority": 0,
     "docs": "v0",
@@ -201,6 +203,7 @@ const repositories = {
   },
   "latte-email": {
     "name": "latte-email",
+    "title": "Latte - Email protection",
     "enabled": true,
     "priority": 0,
     "docs": "v0",
@@ -208,6 +211,7 @@ const repositories = {
   },
   "latte-parsedown-extra": {
     "name": "latte-parsedown-extra",
+    "title": "Latte - Markdown",
     "enabled": true,
     "priority": 0,
     "docs": "v1",
@@ -215,15 +219,16 @@ const repositories = {
   },
   "live-form-validation": {
     "name": "live-form-validation",
+    "title": "Live Form Validation",
     "enabled": true,
-    "priority": 0,
+    "priority": 90,
     "docs": "v0",
     "description": ":no_entry: Nice client-side live form validation for Nette Forms."
   },
   "logging": {
     "name": "logging",
     "enabled": true,
-    "priority": 0,
+    "priority": 20,
     "docs": "v1",
     "description": ":boom: Universal logging support to Tracy / Nette Framework (@nette)"
   },
@@ -238,7 +243,7 @@ const repositories = {
   "mailing": {
     "name": "mailing",
     "enabled": true,
-    "priority": 0,
+    "priority": 100,
     "docs": "v1",
     "description": ":mailbox_with_mail: Sending emails with pleasure and prepared templates."
   },
@@ -266,8 +271,9 @@ const repositories = {
   },
   "neonizer": {
     "name": "neonizer",
+    "category": "development",
     "enabled": true,
-    "priority": 0,
+    "priority": 100,
     "docs": "v0",
     "description": ":wrench: Collection of useful scripts for manipulaton with NEON files. Support composer pre-install / post-install events. Set/get parameters, validate files."
   },
@@ -281,6 +287,7 @@ const repositories = {
   },
   "nextras-orm-events": {
     "name": "nextras-orm-events",
+    "title": "Nextras/ORM Events",
     "category": "nextras",
     "enabled": true,
     "priority": 0,
@@ -289,6 +296,7 @@ const repositories = {
   },
   "nextras-orm-generator": {
     "name": "nextras-orm-generator",
+    "title": "Nextras/ORM Generator",
     "category": "nextras",
     "enabled": true,
     "priority": 0,
@@ -297,6 +305,7 @@ const repositories = {
   },
   "nextras-orm-query-object": {
     "name": "nextras-orm-query-object",
+    "title": "Nextras/ORM Query Object",
     "category": "nextras",
     "enabled": true,
     "priority": 0,
@@ -305,6 +314,7 @@ const repositories = {
   },
   "phpdoc": {
     "name": "phpdoc",
+    "title": "PHPdoc",
     "enabled": true,
     "priority": 0,
     "docs": "v1",
@@ -344,6 +354,7 @@ const repositories = {
   },
   "psr7-http-message": {
     "name": "psr7-http-message",
+    "title": "PSR-7",
     "category": "psr",
     "enabled": true,
     "priority": 0,
@@ -354,7 +365,7 @@ const repositories = {
     "name": "reCAPTCHA",
     "title": "reCAPTCHA",
     "enabled": true,
-    "priority": 0,
+    "priority": 50,
     "docs": "v0",
     "description": ":bangbang: Google reCAPTCHA (security) for Nette Framework \\ Forms"
   },
@@ -369,7 +380,7 @@ const repositories = {
   "scheduler": {
     "name": "scheduler",
     "enabled": true,
-    "priority": 0,
+    "priority": 40,
     "docs": "v1",
     "description": ":hourglass: PHP job scheduler (cron) with locking for Nette Framework"
   },
@@ -390,8 +401,9 @@ const repositories = {
   },
   "seznamcaptcha": {
     "name": "seznamcaptcha",
+    "title": "Seznam Captcha",
     "enabled": true,
-    "priority": 0,
+    "priority": 30,
     "docs": "v1",
     "description": ":exclamation: Seznam captcha (security) for Nette Framework \\ Forms"
   },
@@ -434,6 +446,7 @@ const repositories = {
   },
   "elasticsearch": {
     "name": "elasticsearch",
+    "title": "ElasticSearch",
     "enabled": true,
     "priority": 0,
     "docs": "v1",

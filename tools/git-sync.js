@@ -39,7 +39,7 @@ function cloneRepo(repo) {
 }
 
 function pullRepo(repo) {
-  const p = spawn('git', ['pull'], {cwd: vcsRoot + "/" + repo});
+  const p = spawn('git fetch origin master && git reset --hard origin/master', {shell: true, cwd: vcsRoot + "/" + repo});
   processes.push(p);
 
   p.stdout.on('data', (data) => {

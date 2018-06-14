@@ -12,10 +12,9 @@
             </div>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                <a :href="'/packages/' + repository.name + '.html'" class="btn btn-sm btn-outline-secondary">Docs</a>
-                <a :href="'https://github.com/contributte/'+repository.name" class="btn btn-sm btn-outline-secondary">Github</a>
+                <a :href="'/packages/' + repository.name + '.html'" class="btn btn-xs btn-success">Docs</a>
+                <a :href="'https://github.com/contributte/'+repository.name" class="btn btn-xs btn-warning">Github</a>
               </div>
-              <!--<small class="text-muted">v0.2</small>-->
             </div>
           </div>
         </div>
@@ -30,10 +29,7 @@
   export default {
     data: () => ({
       repositories: getEnabledRepositories()
-    }),
-    mounted() {
-      console.log(this);
-    }
+    })
   }
 </script>
 

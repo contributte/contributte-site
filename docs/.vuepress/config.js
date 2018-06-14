@@ -8,6 +8,7 @@ function buildSidebarChildren(category) {
       if (category === null) return r['category'] === undefined;
       return r.category === category;
     })
+    .orderBy(['priority', 'name'], ['desc', 'asc'])
     .map((r) => [
       `/packages/${r.name}.html`,
       r.title ? r.title : _.capitalize(_.replace(r.name, /-/g, ' '))
@@ -45,10 +46,15 @@ const sidebar = [
     children: buildSidebarChildren('psr'),
   },
   {
+    title: 'Development',
+    collapsable: false,
+    children: buildSidebarChildren('development'),
+  },
+  {
     title: 'Other',
     collapsable: false,
     children: buildSidebarChildren(null),
-  }
+  },
 ];
 
 module.exports = {

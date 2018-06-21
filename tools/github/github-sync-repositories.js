@@ -1,4 +1,4 @@
-const {repositories} = require('../data/repositories');
+const repositories = require('../data/repositories.json');
 const _ = require('lodash');
 
 // https://api.github.com/orgs/contributte/repos?per_page=100

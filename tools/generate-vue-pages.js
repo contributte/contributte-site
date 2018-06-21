@@ -1,4 +1,4 @@
-const {repositories} = require('../data/repositories');
+const repositories = require('../data/repositories.json');
 const _ = require('lodash');
 const fs = require("fs");
 const path = require("path");
@@ -23,6 +23,7 @@ getEnabledRepositories().forEach(r => {
   const compiler = _.template(template);
   const compiled = compiler({
     $readme: fs.readFileSync(loadDoc(r)),
+    $organization: 'contributte',
     $repository: r,
   });
 

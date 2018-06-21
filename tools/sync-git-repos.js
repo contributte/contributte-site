@@ -3,7 +3,7 @@ const {spawn} = require('child_process');
 const _ = require('lodash');
 const fs = require("fs");
 
-const {repositories} = require(__dirname + '/../data/repositories');
+const repositories = require(__dirname + '/../data/repositories.json');
 const vcsRoot = path.resolve(__dirname + '/../data/vcs');
 const processes = [];
 

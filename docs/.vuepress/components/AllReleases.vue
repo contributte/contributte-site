@@ -4,7 +4,12 @@
       <div v-for="(release, id) of releases" :key="id" class="col-md-6 col-lg-4">
         <div class="card mb-4 box-shadow">
           <div class="card-body">
-            <h2><a :href="'/packages/'+release.repo+'.html'">{{release.repo}} / {{release.tag}}</a></h2>
+            <h2>
+              <router-link :to="'/packages/'+release.repo+'.html'">
+                {{release.repo}} / {{release.tag}}
+              </router-link>
+              <small>{{release.created_at|date}}</small>
+            </h2>
             <div v-html="$options.filters.nl2br(release.body)"></div>
           </div>
         </div>
@@ -16,6 +21,7 @@
 <script>
 import { getReleases } from "./../utils/releases";
 import nl2br from "./../utils/nl2br";
+import dayjs from "dayjs";
 
 export default {
   data: () => ({
@@ -24,6 +30,9 @@ export default {
   filters: {
     nl2br(s) {
       return nl2br(s);
+    },
+    date(s) {
+      return dayjs(s).format('DD/MM/YYYY');
     }
   }
 };
@@ -34,6 +43,12 @@ export default {
   .card {
     h2 {
       font-size: 140%;
+
+      small {
+        font-size: 0.7em;
+        margin-left: 10px;
+        color: #888888;
+      }
     }
   }
 }

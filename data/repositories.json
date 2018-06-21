@@ -1,0 +1,928 @@
+{
+  "console": {
+    "name": "console",
+    "category": "symfony",
+    "enabled": true,
+    "priority": 100,
+    "docs": "v1",
+    "description": ":boom: Best minimal console (symfony/console) to Nette Framework (@nette)",
+    "releases": {
+      "last": {
+        "repo": "console",
+        "tag": "v0.4",
+        "name": "v0.4",
+        "created_at": "2018-05-07T12:07:56Z",
+        "published_at": "2018-05-07T12:08:50Z",
+        "html_url": "https://github.com/contributte/console/releases/tag/v0.4",
+        "body": "Bump! 🔩 \r\n\r\nDiff: https://github.com/contributte/console/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- commands can be register in non-sapi mode [#14][#12]\r\n- tune QA:\r\n  - phpstan\r\n  - codesnffer\r\n  - Travis stages \r\n\r\n-----\r\n\r\nBC break:\r\n\r\n```\r\nextensions:\r\n    console: Contributte\\Console\\DI\\ConsoleExtension \r\n```\r\n\r\nto \r\n\r\n```yaml\r\nextensions:\r\n    console: Contributte\\Console\\DI\\ConsoleExtension(%consoleMode%) \r\n```"
+      }
+    }
+  },
+  "console-extra": {
+    "name": "console-extra",
+    "title": "Console [extra]",
+    "category": "symfony",
+    "enabled": true,
+    "priority": 99,
+    "docs": "v1",
+    "description": ":recycle: Nette-based console commands for latte, DIC, security, utils and many others.  ",
+    "releases": {
+      "last": {
+        "repo": "console-extra",
+        "tag": "v0.1",
+        "name": "v0.1",
+        "created_at": "2018-05-11T08:59:40Z",
+        "published_at": "2018-05-11T09:00:05Z",
+        "html_url": "https://github.com/contributte/console-extra/releases/tag/v0.1",
+        "body": "First bump! :fist_oncoming: "
+      }
+    }
+  },
+  "event-dispatcher": {
+    "name": "event-dispatcher",
+    "title": "Event Dispatcher",
+    "category": "symfony",
+    "enabled": true,
+    "priority": 90,
+    "docs": "v1",
+    "description": ":boom: Best events support (symfony/event-dispatcher) to Nette Framework (@nette)",
+    "releases": {
+      "last": {
+        "repo": "event-dispatcher",
+        "tag": "v0.4",
+        "name": "v0.4",
+        "created_at": "2018-02-17T23:51:18Z",
+        "published_at": "2018-02-17T23:52:14Z",
+        "html_url": "https://github.com/contributte/event-dispatcher/releases/tag/v0.4",
+        "body": "Bumped! :boar: \r\n\r\nDiff: https://github.com/contributte/event-dispatcher/compare/v0.3.1...v0.4\r\n\r\nChanges:\r\n- allow symfony 4 [thanks @enumag]\r\n- improve docs"
+      }
+    }
+  },
+  "event-dispatcher-extra": {
+    "name": "event-dispatcher-extra",
+    "title": "Event Dispatcher [extra]",
+    "category": "symfony",
+    "enabled": true,
+    "priority": 89,
+    "docs": "v1",
+    "description": ":recycle: Nette-based Symfony events for application, presenter, form, latte, templates, security and many others.",
+    "releases": {
+      "last": {
+        "repo": "event-dispatcher-extra",
+        "tag": "v0.4.1",
+        "name": "v0.4.1",
+        "created_at": "2018-06-01T08:49:27Z",
+        "published_at": "2018-06-01T08:57:09Z",
+        "html_url": "https://github.com/contributte/event-dispatcher-extra/releases/tag/v0.4.1",
+        "body": "Bump! 🃏 \r\n\r\nDiff: https://github.com/contributte/event-dispatcher-extra/compare/v0.4...v0.4.1\r\n\r\nChanges:\r\n- added more tests on Presenter::onStartup/onShutdown [#17] [#16] [#15] \r\n- allow to pass IPresenter to PresenterStartup/PresenterShutdown event [#17]"
+      }
+    }
+  },
+  "advisories": {
+    "name": "advisories",
+    "enabled": false,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":punch: Collection of Contributte/Nette advisories"
+  },
+  "api": {
+    "name": "api",
+    "enabled": false,
+    "priority": 0,
+    "docs": "v1",
+    "description": "[Moved to @apitte] Powerful API to Nette Framework",
+    "releases": {
+      "last": {
+        "repo": "api",
+        "tag": "v0.3",
+        "name": "v0.3",
+        "created_at": "2017-08-11T14:33:15Z",
+        "published_at": "2017-08-11T14:50:09Z",
+        "html_url": "https://github.com/contributte/api/releases/tag/v0.3",
+        "body": "Bump! 🔪 \r\n\r\nDiff: https://github.com/contributte/api/compare/v0.2.2...v0.3\r\n\r\nChanges:\r\n - namespace refactoring (drop Bridges)\r\n - rename Factory/Generator to Serialization\r\n - rename Validators to Validations\r\n - ApiResponse/ApiRequest don't composite PSR7, they extend\r\n - simplify whole middlewares usage\r\n - simplify ApiExtension\r\n - added new Api2MiddlewaresExtension to easy use of middlewares\r\n - simplify Transformers (from 2 interfaces to 1 interface)\r\n - direct dependencies: contributte/psr7-http-message, contributte/middlewares, contributte/phpdoc\r\n - tiny micro refactorings\r\n - added huge amount of tests \r\n\r\n"
+      }
+    }
+  },
+  "application": {
+    "name": "application",
+    "category": "nette-contrib",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":sparkles: Extra contrib to nette/application (@nette)",
+    "releases": {
+      "last": {
+        "repo": "application",
+        "tag": "v0.3",
+        "name": "v0.3",
+        "created_at": "2018-04-22T11:21:43Z",
+        "published_at": "2018-04-22T11:22:42Z",
+        "html_url": "https://github.com/contributte/application/releases/tag/v0.3",
+        "body": "Bumped! 👜 \r\n\r\nDiff: https://github.com/contributte/application/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- acquire [ublaboo/responses](https://github.com/ublaboo/responses) [#12] (thanks @paveljanda)\r\n- added NullControl, NullComponet [#9][#10]\r\n- added StructuredTemplates (thanks @benijo)"
+      }
+    }
+  },
+  "blogette": {
+    "name": "blogette",
+    "enabled": false,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":postbox: Blogging platform"
+  },
+  "bootstrap": {
+    "name": "bootstrap",
+    "category": "nette-contrib",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":sparkles: Extra contrib to nette/bootstrap (@nette)",
+    "releases": {
+      "last": {
+        "repo": "bootstrap",
+        "tag": "v0.3",
+        "name": "v0.3",
+        "created_at": "2018-06-13T13:17:36Z",
+        "published_at": "2018-06-14T09:18:46Z",
+        "html_url": "https://github.com/contributte/bootstrap/releases/tag/v0.3",
+        "body": "Bump! :abcd: \r\n\r\nDiff: https://github.com/contributte/bootstrap/compare/v0.2.1...v0.3\r\n\r\nChanges:\r\n\r\n- pluggable configurator [#2] \r\n- ability to detect debug mode by file [#4] \r\n- PHP 5.6 -> PHP 7.1 [#5] [#6] \r\n\r\nBC break:\r\n\r\nYou have to enable ENV parsing explicit.\r\n\r\nBefore:\r\n\r\n```php\r\n$configurator = new ExtraConfigurator();\r\n```\r\n\r\nAfter\r\n\r\n```php\r\n$configurator = new ExtraConfigurator();\r\n$configurator->setEnvDebugMode();\r\n```"
+      }
+    }
+  },
+  "cache": {
+    "name": "cache",
+    "category": "nette-contrib",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":sparkles: Extra contrib to nette/caching (@nette)",
+    "releases": {
+      "last": {
+        "repo": "cache",
+        "tag": "v0.1",
+        "name": "v0.1",
+        "created_at": "2017-01-06T20:40:14Z",
+        "published_at": "2017-01-06T20:47:49Z",
+        "html_url": "https://github.com/contributte/cache/releases/tag/v0.1",
+        "body": "First bump! :fist_oncoming: \n"
+      }
+    }
+  },
+  "codeception": {
+    "name": "codeception",
+    "enabled": false,
+    "priority": 60,
+    "docs": "v1",
+    "description": ":arrow_forward: Integration of Nette Framework to Codeception.",
+    "releases": {
+      "last": {
+        "repo": "codeception",
+        "tag": "v0.8.1",
+        "name": "v0.8.1",
+        "created_at": "2017-12-12T22:03:25Z",
+        "published_at": "2017-12-12T22:53:07Z",
+        "html_url": "https://github.com/contributte/codeception/releases/tag/v0.8.1",
+        "body": "- The `useConfigFiles` method now works with absolute paths (by @fmasa)\r\n"
+      }
+    }
+  },
+  "contributte": {
+    "name": "contributte",
+    "enabled": false,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":heart: Contributte organization structure / RFC / Team"
+  },
+  "database": {
+    "name": "database",
+    "category": "nette-contrib",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":sparkles: Extra contrib to nette/database (@nette)",
+    "releases": {
+      "last": {
+        "repo": "database",
+        "tag": "v0.1",
+        "name": "v0.1",
+        "created_at": "2017-03-15T07:23:35Z",
+        "published_at": "2017-03-15T07:24:02Z",
+        "html_url": "https://github.com/contributte/database/releases/tag/v0.1",
+        "body": "Bumped! 👊 "
+      }
+    }
+  },
+  "deployer-extension": {
+    "name": "deployer-extension",
+    "title": "FTP deployer",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v0",
+    "description": ":horse_racing: FTP deployment (by @dg) extension for Nette Framework",
+    "releases": {
+      "last": {
+        "repo": "deployer-extension",
+        "tag": "2.0.0",
+        "name": "v2.0.0",
+        "created_at": "2016-08-05T15:56:38Z",
+        "published_at": "2016-08-05T15:57:41Z",
+        "html_url": "https://github.com/contributte/deployer-extension/releases/tag/2.0.0",
+        "body": "Released v2.0.0 :hocho:!\n\nChanges:\n- drop PHP 5.4\n- support ftp-deployment 2.5\n- added basic tests\n"
+      }
+    }
+  },
+  "dev": {
+    "name": "dev",
+    "category": "development",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v0",
+    "description": ":godmode: Set of tools for development / debugging (@nette)",
+    "releases": {
+      "last": {
+        "repo": "dev",
+        "tag": "v0.1",
+        "name": "v0.1",
+        "created_at": "2017-03-12T18:43:26Z",
+        "published_at": "2017-03-14T15:39:21Z",
+        "html_url": "https://github.com/contributte/dev/releases/tag/v0.1",
+        "body": "Bumped! :fist_oncoming: "
+      }
+    }
+  },
+  "di": {
+    "name": "di",
+    "title": "Dependency Injection (DI)",
+    "category": "nette-contrib",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":sparkles: Extra contrib to nette/di (@nette)",
+    "releases": {
+      "last": {
+        "repo": "di",
+        "tag": "v0.2.2",
+        "name": "v0.2.2",
+        "created_at": "2017-11-21T16:32:18Z",
+        "published_at": "2017-11-21T16:33:12Z",
+        "html_url": "https://github.com/contributte/di/releases/tag/v0.2.2",
+        "body": "Bump! 🍂 \r\n\r\nDiff: https://github.com/contributte/di/compare/v0.2.1...v0.2.2\r\n\r\nChanges:\r\n- compatible with nette/robot-loader >= 3.0.0 [#6]"
+      }
+    }
+  },
+  "dummy-events": {
+    "name": "dummy-events",
+    "title": "Dummy Events",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v0",
+    "description": ":repeat: Ultra simple events system for Nette Framework"
+  },
+  "event-application-bridge": {
+    "name": "event-application-bridge",
+    "enabled": false,
+    "priority": 0,
+    "docs": "v1",
+    "description": "[ARCHIVED] :recycle: Bridge between event dispatcher & nette application ",
+    "releases": {
+      "last": {
+        "repo": "event-application-bridge",
+        "tag": "v0.1.1",
+        "name": "v0.1.1",
+        "created_at": "2017-07-19T13:27:16Z",
+        "published_at": "2017-07-19T13:57:30Z",
+        "html_url": "https://github.com/contributte/event-application-bridge/releases/tag/v0.1.1",
+        "body": "Bumped! 🗝 \r\n\r\nChanges:\r\n- added more tests\r\n- added own ruleset\r\n- fix invalid namespace"
+      }
+    }
+  },
+  "event-bridges": {
+    "name": "event-bridges",
+    "enabled": false,
+    "priority": 0,
+    "docs": "v1",
+    "description": "[ARCHIVED] :package: Collection of all event dispatcher bridges (:recycle:) to nette at one place ",
+    "releases": {
+      "last": {
+        "repo": "event-bridges",
+        "tag": "v0.1",
+        "name": "v0.1",
+        "created_at": "2017-07-27T16:03:04Z",
+        "published_at": "2017-07-28T09:07:23Z",
+        "html_url": "https://github.com/contributte/event-bridges/releases/tag/v0.1",
+        "body": "Bumped! 👊 "
+      }
+    }
+  },
+  "event-security-bridge": {
+    "name": "event-security-bridge",
+    "enabled": false,
+    "priority": 0,
+    "docs": "v1",
+    "description": "[ARCHIVED] :recycle: Bridge between event dispatcher & nette security",
+    "releases": {
+      "last": {
+        "repo": "event-security-bridge",
+        "tag": "v0.1",
+        "name": "v0.1",
+        "created_at": "2017-07-04T14:45:12Z",
+        "published_at": "2017-07-19T12:49:13Z",
+        "html_url": "https://github.com/contributte/event-security-bridge/releases/tag/v0.1",
+        "body": "Bumped! 👊 \r\n"
+      }
+    }
+  },
+  "facebook": {
+    "name": "facebook",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":yum: Tiny Facebook SDK 5.x integration to Nette Framework",
+    "releases": {
+      "last": {
+        "repo": "facebook",
+        "tag": "v0.2",
+        "name": "v0.2",
+        "created_at": "2018-03-07T06:30:51Z",
+        "published_at": "2018-03-09T18:11:57Z",
+        "html_url": "https://github.com/contributte/facebook/releases/tag/v0.2",
+        "body": "Bump! :1st_place_medal: \r\n\r\nDiff: [v0.1...v0.2](https://github.com/contributte/facebook/compare/v0.1...v0.2)\r\n\r\nChanges:\r\n* `Facebook` and `FacebookFactory` are now services\r\n* Default usage of session PersistentDataHandler + session autostart\r\n* You can now specify `state` parameter in `FacebookLogin::getLoginUrl()`\r\n* `defaultGraphVersion` and `persistentDataHandler` added as options"
+      }
+    }
+  },
+  "fio": {
+    "name": "fio",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":euro: Fio API integration for Nette Framework",
+    "releases": {
+      "last": {
+        "repo": "fio",
+        "tag": "v0.2",
+        "name": "v0.2",
+        "created_at": "2018-03-09T18:15:59Z",
+        "published_at": "2018-03-09T19:29:23Z",
+        "html_url": "https://github.com/contributte/fio/releases/tag/v0.2",
+        "body": "Bump! :1st_place_medal: \r\n\r\nDiff: [v0.1...v0.2](https://github.com/contributte/fio/compare/v0.1...v0.2)\r\n\r\nChanges:\r\n- upgrade dependencies\r\n- change namespace `Markette` to `Contributte`\r\n- change spaces to tabs (follow the `.editorconfig`)"
+      }
+    }
+  },
+  "forms": {
+    "name": "forms",
+    "category": "nette-contrib",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":sparkles: Extra contrib to nette/forms (@nette)",
+    "releases": {
+      "last": {
+        "repo": "forms",
+        "tag": "v0.2",
+        "name": "v0.2",
+        "created_at": "2018-05-07T15:11:21Z",
+        "published_at": "2018-05-07T15:12:54Z",
+        "html_url": "https://github.com/contributte/forms/releases/tag/v0.2",
+        "body": "Bump! 🔩 \r\n\r\nDiff: https://github.com/contributte/forms/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- PHP 7.1 [#8]\r\n- Bootstrap 3/4 renderers [#8] \r\n- tune QA:\r\n  - phpstan\r\n  - codesnffer\r\n  - Travis stages "
+      }
+    }
+  },
+  "generator-nette": {
+    "name": "generator-nette",
+    "title": "Nette Generator",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v0",
+    "description": ":man: Yeoman & Nette Framework"
+  },
+  "http": {
+    "name": "http",
+    "category": "nette-contrib",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":sparkles: Extra contrib to nette/http (@nette)",
+    "releases": {
+      "last": {
+        "repo": "http",
+        "tag": "v0.1",
+        "name": "v0.1",
+        "created_at": "2017-01-06T20:34:09Z",
+        "published_at": "2017-01-06T20:34:39Z",
+        "html_url": "https://github.com/contributte/http/releases/tag/v0.1",
+        "body": "First bump! :fist_oncoming: \n"
+      }
+    }
+  },
+  "latte": {
+    "name": "latte",
+    "category": "nette-contrib",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":sparkles: Extra contrib to nette/latte (@nette)",
+    "releases": {
+      "last": {
+        "repo": "latte",
+        "tag": "v0.2",
+        "name": "v0.2",
+        "created_at": "2017-06-16T11:43:34Z",
+        "published_at": "2017-06-16T11:45:56Z",
+        "html_url": "https://github.com/contributte/latte/releases/tag/v0.2",
+        "body": "Bumped! :man_farmer: \r\n\r\nChanges:\r\n- added new filter `filectime` [#2]\r\n- added new filter `email` [#5]\r\n- added new number formatter [#6]\r\n- automatic `{rev}` `{v}` `{build}` in debugMode [#8]\r\n- modular filters [#9]  "
+      }
+    }
+  },
+  "latte-email": {
+    "name": "latte-email",
+    "title": "Latte - Email protection",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v0",
+    "description": ":point_right: Email protection for emails in Latte templates",
+    "releases": {
+      "last": {
+        "repo": "latte-email",
+        "tag": "2.0.0",
+        "name": "v2.0.0",
+        "created_at": "2018-03-12T07:00:01Z",
+        "published_at": "2018-03-12T07:05:24Z",
+        "html_url": "https://github.com/contributte/latte-email/releases/tag/2.0.0",
+        "body": "Bump! �� \r\n\r\nDiff: https://github.com/contributte/latte-email/compare/1.2.1...2.0.0\r\n\r\nChanges:\r\n- PHP 5.4 -> PHP 5.6\r\n- change namespace\r\n- apply codesniffer"
+      }
+    }
+  },
+  "latte-parsedown-extra": {
+    "name": "latte-parsedown-extra",
+    "title": "Latte - Markdown",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":tractor: Parsedown (markdown) template parser for Nette \\ Latte (@nette)",
+    "releases": {
+      "last": {
+        "repo": "latte-parsedown-extra",
+        "tag": "1.2.0",
+        "name": "v1.2.0",
+        "created_at": "2017-07-31T10:13:48Z",
+        "published_at": "2017-07-31T10:32:22Z",
+        "html_url": "https://github.com/contributte/latte-parsedown-extra/releases/tag/1.2.0",
+        "body": "Bump! 🍨 \r\n\r\nChanges: \r\n- refactoring - change to new namespace\r\n- update CI testing\r\n- update readme"
+      }
+    }
+  },
+  "live-form-validation": {
+    "name": "live-form-validation",
+    "title": "Live Form Validation",
+    "enabled": true,
+    "priority": 90,
+    "docs": "v0",
+    "description": ":no_entry: Nice client-side live form validation for Nette Forms.",
+    "releases": {
+      "last": {
+        "repo": "live-form-validation",
+        "tag": "v1.9.0",
+        "name": "v1.9.0",
+        "created_at": "2017-12-20T12:24:39Z",
+        "published_at": "2017-12-20T12:24:53Z",
+        "html_url": "https://github.com/contributte/live-form-validation/releases/tag/v1.9.0",
+        "body": "Bump! 🏭 \r\n\r\nDiff: https://github.com/contributte/live-form-validation/compare/v1.8.0...v1.9.0\r\n\r\nChanges:\r\n- moved under contributte organization\r\n- created NPM package [#35]\r\n- added Travis CI releases\r\n- fixed ReferenceError prop is not defined\r\n- fixed range validator for min & max validator [#38]"
+      }
+    }
+  },
+  "logging": {
+    "name": "logging",
+    "enabled": true,
+    "priority": 20,
+    "docs": "v1",
+    "description": ":boom: Universal logging support to Tracy / Nette Framework (@nette)",
+    "releases": {
+      "last": {
+        "repo": "logging",
+        "tag": "v0.2.1",
+        "name": "v0.2.1",
+        "created_at": "2017-10-23T17:08:35Z",
+        "published_at": "2017-10-30T08:47:21Z",
+        "html_url": "https://github.com/contributte/logging/releases/tag/v0.2.1",
+        "body": "Bump! 🤒 \r\n\r\nDiff: https://github.com/contributte/logging/compare/v0.2...v0.2.1\r\n\r\nChanges:\r\n- fix multiple formatters bug [#7]\r\n- change Throwable to Exception [#8] [#9]  "
+      }
+    }
+  },
+  "mail": {
+    "name": "mail",
+    "category": "nette-contrib",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":sparkles: Extra contrib to nette/mail (@nette)",
+    "releases": {
+      "last": {
+        "repo": "mail",
+        "tag": "v0.1.3",
+        "name": "v0.1.3",
+        "created_at": "2018-01-12T10:24:29Z",
+        "published_at": "2018-01-12T10:24:44Z",
+        "html_url": "https://github.com/contributte/mail/releases/tag/v0.1.3",
+        "body": "Bump! :boat: \r\n\r\nDiff: https://github.com/contributte/mail/compare/v0.1.2...v0.1.3\r\n\r\nChanges:\r\n- QA improvements\r\n- README improvements (thanks @mabar) \r\n- added `DevNullMailer`"
+      }
+    }
+  },
+  "mailing": {
+    "name": "mailing",
+    "enabled": true,
+    "priority": 100,
+    "docs": "v1",
+    "description": ":mailbox_with_mail: Sending emails with pleasure and prepared templates.",
+    "releases": {
+      "last": {
+        "repo": "mailing",
+        "tag": "v0.2",
+        "name": "v0.2",
+        "created_at": "2018-06-14T09:08:58Z",
+        "published_at": "2018-06-14T09:12:04Z",
+        "html_url": "https://github.com/contributte/mailing/releases/tag/v0.2",
+        "body": "Bump! :abcd: \r\n\r\nDiff: https://github.com/contributte/mailing/compare/v0.1...v0.2\r\n\r\nChanges:\r\n\r\n- added MailBuild methods for bcc & cc\r\n- PHP 5.6 -> PHP 7.1\r\n"
+      }
+    }
+  },
+  "middlewares": {
+    "name": "middlewares",
+    "category": "psr",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":boom: Middlewares / Relay / PSR-7 support to Nette Framework (@nette)",
+    "releases": {
+      "last": {
+        "repo": "middlewares",
+        "tag": "v0.6",
+        "name": "v0.6",
+        "created_at": "2018-06-10T19:41:53Z",
+        "published_at": "2018-06-10T19:42:36Z",
+        "html_url": "https://github.com/contributte/middlewares/releases/tag/v0.6",
+        "body": "Bump! 🔤 \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.5...v0.6\r\n\r\nChanges:\r\n- PHP 5.6 => PHP 7.1 [#13] [#2]\r\n- New `MethodOverrideMiddleware` [#10] [#9]  \r\n- QA: codestyles, better CI\r\n- Readme: typos [#11]"
+      }
+    }
+  },
+  "mobilni-platby": {
+    "name": "mobilni-platby",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v0",
+    "description": ":moneybag: MobilniPlatby.cz for Nette Framework"
+  },
+  "model": {
+    "name": "model",
+    "enabled": false,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":boom: View-Model + Model-View layer to Nette Framework (@nette)"
+  },
+  "neonizer": {
+    "name": "neonizer",
+    "category": "development",
+    "enabled": true,
+    "priority": 100,
+    "docs": "v0",
+    "description": ":wrench: Collection of useful scripts for manipulaton with NEON files. Support composer pre-install / post-install events. Set/get parameters, validate files.",
+    "releases": {
+      "last": {
+        "repo": "neonizer",
+        "tag": "v0.2",
+        "name": "v0.2",
+        "created_at": "2018-04-08T17:23:52Z",
+        "published_at": "2018-04-08T17:25:41Z",
+        "html_url": "https://github.com/contributte/neonizer/releases/tag/v0.2",
+        "body": "Bump! :tada: \r\n\r\nDiff: https://github.com/contributte/neonizer/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- internal refactoring\r\n- PHP 7.1 [#3]\r\n- support more commands:\r\n  - validate (thanks @jiripudil) [#2] [#1]\r\n  - set\r\n\r\n-----\r\n\r\n```json\r\n\"scripts\": {\r\n    \"set-config\": [\r\n      \"Contributte\\\\Neonizer\\\\NeonizerExtension::set\"\r\n    ]\r\n}\r\n```\r\n\r\nThen run:\r\n\r\n```sh\r\ncomposer set-config -- $(pwd)/app/config/config.local.neon --database.host=localhost --database.user=neonizer\r\n```\r\n\r\nDo you like **environment variables**? \r\n\r\n\r\n```sh\r\ncomposer set-config -- $(pwd)/app/config/config.local.neon --database.host=$DATABASE_HOST --database.user=$DATABASE_USER\r\n```\r\n"
+      }
+    }
+  },
+  "nextras-criteria": {
+    "name": "nextras-criteria",
+    "category": "nextras",
+    "enabled": false,
+    "priority": 0,
+    "docs": "v1",
+    "description": "Criteria Expression for Nextras\\ORM + Nextras\\DBAL (@nextras)"
+  },
+  "nextras-orm-events": {
+    "name": "nextras-orm-events",
+    "title": "Nextras/ORM Events",
+    "category": "nextras",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v0",
+    "description": ":wolf: Doctrine-like events for Nextras ORM",
+    "releases": {
+      "last": {
+        "repo": "nextras-orm-events",
+        "tag": "0.3",
+        "name": "v0.3",
+        "created_at": "2018-03-09T22:10:52Z",
+        "published_at": "2018-03-11T17:44:13Z",
+        "html_url": "https://github.com/contributte/nextras-orm-events/releases/tag/0.3",
+        "body": "Bumped! :100: \r\n\r\nDiff: https://github.com/contributte/nextras-orm-events/compare/0.2.1...0.3\r\n\r\nChanges:\r\n* Register listeners lazily [#1]\r\n* Added support for [nextras/orm](https://github.com/nextras/orm) ^3.0.1\r\n* Change namespace (`Minetro/*` -> `Contributte/*`) "
+      }
+    }
+  },
+  "nextras-orm-generator": {
+    "name": "nextras-orm-generator",
+    "title": "Nextras/ORM Generator",
+    "category": "nextras",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v0",
+    "description": ":wolf: Nextras\\ORM entity generator",
+    "releases": {
+      "last": {
+        "repo": "nextras-orm-generator",
+        "tag": "0.1",
+        "name": "v0.1",
+        "created_at": "2016-04-03T11:52:10Z",
+        "published_at": "2016-04-03T11:58:17Z",
+        "html_url": "https://github.com/contributte/nextras-orm-generator/releases/tag/0.1",
+        "body": "Development release.\n"
+      }
+    }
+  },
+  "nextras-orm-query-object": {
+    "name": "nextras-orm-query-object",
+    "title": "Nextras/ORM Query Object",
+    "category": "nextras",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v0",
+    "description": ":wolf: Query-objects for Nextras ORM",
+    "releases": {
+      "last": {
+        "repo": "nextras-orm-query-object",
+        "tag": "v0.2",
+        "name": "v0.2",
+        "created_at": "2018-05-19T13:52:52Z",
+        "published_at": "2018-05-19T13:54:04Z",
+        "html_url": "https://github.com/contributte/nextras-orm-query-object/releases/tag/v0.2",
+        "body": "Bump! 🇬🇲 \r\n\r\nDiff: https://github.com/contributte/console/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- change namespace minetro -> contributte\r\n- PHP 7.1\r\n- Quality Assurance"
+      }
+    }
+  },
+  "phpdoc": {
+    "name": "phpdoc",
+    "title": "PHPdoc",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":boom: Enhanced PHPdoc to Nette Framework with annotations (@nette)",
+    "releases": {
+      "last": {
+        "repo": "phpdoc",
+        "tag": "v0.1",
+        "name": "v0.1",
+        "created_at": "2017-08-11T11:49:35Z",
+        "published_at": "2017-08-11T14:20:04Z",
+        "html_url": "https://github.com/contributte/phpdoc/releases/tag/v0.1",
+        "body": "Bump! 👊 "
+      }
+    }
+  },
+  "playground": {
+    "name": "playground",
+    "category": "playground",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v0",
+    "description": ":books: Examples / tutorials / tips / samples | sandbox for @contributte"
+  },
+  "psr11-container-interface": {
+    "name": "psr11-container-interface",
+    "category": "psr",
+    "enabled": false,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":dizzy: PSR #11 [Container Interface] to Nette Framework (@nette)"
+  },
+  "psr3-logging": {
+    "name": "psr3-logging",
+    "category": "psr",
+    "enabled": false,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":dizzy: PSR #3 [Logger Interface] to Nette Framework (@nette)"
+  },
+  "psr6-caching": {
+    "name": "psr6-caching",
+    "category": "psr",
+    "enabled": false,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":dizzy: PSR #6 [Caching Interface] to Nette Framework (@nette)"
+  },
+  "psr7-http-message": {
+    "name": "psr7-http-message",
+    "title": "PSR-7",
+    "category": "psr",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":dizzy: PSR #7 [HTTP Message Interface] to Nette Framework (@nette)",
+    "releases": {
+      "last": {
+        "repo": "psr7-http-message",
+        "tag": "v0.4",
+        "name": "",
+        "created_at": "2018-05-28T09:42:34Z",
+        "published_at": "2018-05-28T09:49:00Z",
+        "html_url": "https://github.com/contributte/psr7-http-message/releases/tag/v0.4",
+        "body": "Bump! 🐗\r\n\r\nDiff:  https://github.com/contributte/psr7-http-message/compare/v0.3.1...v0.4\r\n\r\nChanged:\r\n- PHP 7.1\r\n- Travis stages\r\n\r\nRemoved:\r\n- `$request->getBodyClone()`"
+      }
+    }
+  },
+  "reCAPTCHA": {
+    "name": "reCAPTCHA",
+    "title": "reCAPTCHA",
+    "enabled": true,
+    "priority": 50,
+    "docs": "v0",
+    "description": ":bangbang: Google reCAPTCHA (security) for Nette Framework \\ Forms",
+    "releases": {
+      "last": {
+        "repo": "reCAPTCHA",
+        "tag": "3.0.0",
+        "name": "v3.0.0",
+        "created_at": "2018-04-06T19:18:43Z",
+        "published_at": "2018-04-06T19:19:47Z",
+        "html_url": "https://github.com/contributte/reCAPTCHA/releases/tag/3.0.0",
+        "body": "Bumped! :tada: \r\n\r\nChanges:\r\n- change namespace to Contributte\r\n- update dependencies\r\n- update readmes (added for 2.x)\r\n- added codestyle checker"
+      }
+    }
+  },
+  "routing": {
+    "name": "routing",
+    "category": "nette-contrib",
+    "enabled": false,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":sparkles: Extra contrib to nette/routing (@nette)"
+  },
+  "scheduler": {
+    "name": "scheduler",
+    "enabled": true,
+    "priority": 40,
+    "docs": "v1",
+    "description": ":hourglass: PHP job scheduler (cron) with locking for Nette Framework",
+    "releases": {
+      "last": {
+        "repo": "scheduler",
+        "tag": "v0.2.1",
+        "name": "v0.2.1",
+        "created_at": "2018-06-05T09:32:12Z",
+        "published_at": "2018-06-10T18:37:25Z",
+        "html_url": "https://github.com/contributte/scheduler/releases/tag/v0.2.1",
+        "body": "Bump! 🆎 \r\n\r\nDiff: https://github.com/contributte/scheduler/compare/v0.2...v0.2.1\r\n\r\nChanges:\r\n- QA - improve ruleset\r\n- Bugfix: empty key at job [#4]   "
+      }
+    }
+  },
+  "security": {
+    "name": "security",
+    "category": "nette-contrib",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":sparkles: Extra contrib to nette/security (@nette)",
+    "releases": {
+      "last": {
+        "repo": "security",
+        "tag": "v0.2",
+        "name": "v0.2",
+        "created_at": "2018-05-01T07:39:39Z",
+        "published_at": "2018-05-01T07:44:09Z",
+        "html_url": "https://github.com/contributte/security/releases/tag/v0.2",
+        "body": "Bump! :tada: \r\n\r\nDiff: https://github.com/contributte/security/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- PHP 7.1\r\n- new StaticAuthenticator (#2) [thanks @mabar]\r\n"
+      }
+    }
+  },
+  "server-timing": {
+    "name": "server-timing",
+    "enabled": false,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":watch: Server Timing API profiling for Nette Framework "
+  },
+  "seznamcaptcha": {
+    "name": "seznamcaptcha",
+    "title": "Seznam Captcha",
+    "enabled": true,
+    "priority": 30,
+    "docs": "v1",
+    "description": ":exclamation: Seznam captcha (security) for Nette Framework \\ Forms",
+    "releases": {
+      "last": {
+        "repo": "seznamcaptcha",
+        "tag": "0.3",
+        "name": "v0.3",
+        "created_at": "2017-02-23T12:21:41Z",
+        "published_at": "2017-07-31T09:36:31Z",
+        "html_url": "https://github.com/contributte/seznamcaptcha/releases/tag/0.3",
+        "body": "Bumped! �� \r\n\r\nChanges:\r\n- enhanced readme\r\n- repair validator [#1] "
+      }
+    }
+  },
+  "social": {
+    "name": "social",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v0",
+    "description": ":fries: Social plugins  (facebook, twitter, google) for Nette Framework",
+    "releases": {
+      "last": {
+        "repo": "social",
+        "tag": "v2.0.0",
+        "name": "v2.0.0",
+        "created_at": "2018-06-16T05:40:48Z",
+        "published_at": "2018-06-16T05:54:18Z",
+        "html_url": "https://github.com/contributte/social/releases/tag/v2.0.0",
+        "body": "Bump! 🔩 \r\n\r\nDiff: https://github.com/contributte/social/compare/v1.2.0...2.0.0\r\n\r\nChanges:\r\n- changed namespace (minetro -> contributte)\r\n- PHP 5.6 -> PHP 7.1"
+      }
+    }
+  },
+  "tracy": {
+    "name": "tracy",
+    "category": "nette-contrib",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":sunglasses: Tuned Tracy Bars/Panels/BlueScreens for easy-developing",
+    "releases": {
+      "last": {
+        "repo": "tracy",
+        "tag": "v0.1",
+        "name": "v0.1",
+        "created_at": "2017-11-01T08:13:34Z",
+        "published_at": "2018-02-20T14:23:45Z",
+        "html_url": "https://github.com/contributte/tracy/releases/tag/v0.1",
+        "body": "Bump! 👊 "
+      }
+    }
+  },
+  "utils": {
+    "name": "utils",
+    "category": "nette-contrib",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":sparkles: Extra contrib to nette/utils (@nette)",
+    "releases": {
+      "last": {
+        "repo": "utils",
+        "tag": "v0.2",
+        "name": "v0.2",
+        "created_at": "2018-04-11T20:40:28Z",
+        "published_at": "2018-04-11T20:41:57Z",
+        "html_url": "https://github.com/contributte/utils/releases/tag/v0.2",
+        "body": "Bump! :sagittarius: \r\n\r\nDiff: https://github.com/contributte/utils/compare/v0.1.1...v0.2\r\n\r\nChanges:\r\n- use nette/utils 2.5\r\n- strict ruleset\r\n- added Strings::slashless [#3]"
+      }
+    }
+  },
+  "website": {
+    "name": "website",
+    "enabled": false,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":squirrel: Contributte Website & Docs"
+  },
+  "wordcha": {
+    "name": "wordcha",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":exclamation: Word based captcha (security) for Nette Framework \\ Forms (@nette)",
+    "releases": {
+      "last": {
+        "repo": "wordcha",
+        "tag": "v0.1",
+        "name": "v0.1",
+        "created_at": "2017-06-11T09:41:18Z",
+        "published_at": "2017-06-11T09:41:31Z",
+        "html_url": "https://github.com/contributte/wordcha/releases/tag/v0.1",
+        "body": "Bumped! :fist_oncoming: "
+      }
+    }
+  },
+  "elasticsearch": {
+    "name": "elasticsearch",
+    "title": "ElasticSearch",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":mag: Tiny Elasticsearch integration into Nette Framework",
+    "releases": {
+      "last": {
+        "repo": "elasticsearch",
+        "tag": "v0.1",
+        "name": "v0.1",
+        "created_at": "2018-05-31T07:10:49Z",
+        "published_at": "2018-05-31T07:14:36Z",
+        "html_url": "https://github.com/contributte/elasticsearch/releases/tag/v0.1",
+        "body": "Bumped! :fist_oncoming: "
+      }
+    }
+  }
+}

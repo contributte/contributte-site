@@ -8,3 +8,6 @@
 
 # VuePress
 /docs/.vuepress/dist
+
+# Tools
+/tools/config.js

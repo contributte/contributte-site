@@ -3,7 +3,7 @@ const _ = require('lodash');
 const https = require('https');
 const fs = require('fs');
 
-const TOKEN = '**token**';
+const {TOKEN} = require('./config');
 const releases = {};
 
 function syncAll() {
@@ -13,7 +13,7 @@ function syncAll() {
 function syncRepo(repo) {
     const options = {
         hostname: `api.github.com`,
-        path: `/repos/contributte/${repo.name}/releases?per_page=100&access_token=${TOKEN}`,
+        path: `/repos/contributte/${repo.name}/releases?per_page=200&access_token=${TOKEN}`,
         headers: { 'User-Agent': 'Contributte' }
     };
 

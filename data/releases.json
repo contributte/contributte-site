@@ -132,7 +132,7 @@
     "created_at": "2016-08-09T10:45:08Z",
     "published_at": "2016-08-09T10:59:20Z",
     "html_url": "https://github.com/contributte/social/releases/tag/1.1.0",
-    "body": "Bumped new version :koko: \n\nChanges:\n- compatibility with nette 2.4 [#1]\n"
+    "body": "Bumped new version :koko: \r\n\r\nDiff: https://github.com/contributte/social/compare/v1.0.4...1.1.0\r\n\r\nChanges:\r\n- compatibility with nette 2.4 [#1]\r\n"
   },
   "3845102": {
     "repo": "social",
@@ -141,7 +141,7 @@
     "created_at": "2016-08-09T11:03:48Z",
     "published_at": "2016-08-09T11:19:19Z",
     "html_url": "https://github.com/contributte/social/releases/tag/1.2.0",
-    "body": "Bumped new release :haircut: \n\nChanges:\n- cause of support nette 2.4 drop PHP 5.4 / 5.5 and some dead deprecated code\n"
+    "body": "Bumped new release :haircut: \r\n\r\nDiff: https://github.com/contributte/social/compare/v1.1.0...1.2.0\r\n\r\nChanges:\r\n- cause of support nette 2.4 drop PHP 5.4 / 5.5 and some dead deprecated code\r\n"
   },
   "3880594": {
     "repo": "codeception",
@@ -1050,7 +1050,7 @@
     "created_at": "2017-02-23T12:21:41Z",
     "published_at": "2017-07-31T09:36:31Z",
     "html_url": "https://github.com/contributte/seznamcaptcha/releases/tag/0.3",
-    "body": "Bumped! 🚶 \r\n\r\nChanges:\r\n- enhanced readme\r\n- repair validator [#1] "
+    "body": "Bumped! �� \r\n\r\nChanges:\r\n- enhanced readme\r\n- repair validator [#1] "
   },
   "7226029": {
     "repo": "latte-parsedown-extra",
@@ -1662,7 +1662,7 @@
     "created_at": "2018-03-12T07:00:01Z",
     "published_at": "2018-03-12T07:05:24Z",
     "html_url": "https://github.com/contributte/latte-email/releases/tag/2.0.0",
-    "body": "Bump! 🏭 \r\n\r\nDiff: https://github.com/contributte/latte-email/compare/1.2.1...2.0.0\r\n\r\nChanges:\r\n- PHP 5.4 -> PHP 5.6\r\n- change namespace\r\n- apply codesniffer"
+    "body": "Bump! �� \r\n\r\nDiff: https://github.com/contributte/latte-email/compare/1.2.1...2.0.0\r\n\r\nChanges:\r\n- PHP 5.4 -> PHP 5.6\r\n- change namespace\r\n- apply codesniffer"
   },
   "10041775": {
     "repo": "api-router",
@@ -1906,5 +1906,23 @@
     "published_at": "2018-06-14T09:18:46Z",
     "html_url": "https://github.com/contributte/bootstrap/releases/tag/v0.3",
     "body": "Bump! :abcd: \r\n\r\nDiff: https://github.com/contributte/bootstrap/compare/v0.2.1...v0.3\r\n\r\nChanges:\r\n\r\n- pluggable configurator [#2] \r\n- ability to detect debug mode by file [#4] \r\n- PHP 5.6 -> PHP 7.1 [#5] [#6] \r\n\r\nBC break:\r\n\r\nYou have to enable ENV parsing explicit.\r\n\r\nBefore:\r\n\r\n```php\r\n$configurator = new ExtraConfigurator();\r\n```\r\n\r\nAfter\r\n\r\n```php\r\n$configurator = new ExtraConfigurator();\r\n$configurator->setEnvDebugMode();\r\n```"
+  },
+  "11511237": {
+    "repo": "social",
+    "tag": "v2.0.0",
+    "name": "v2.0.0",
+    "created_at": "2018-06-16T05:40:48Z",
+    "published_at": "2018-06-16T05:54:18Z",
+    "html_url": "https://github.com/contributte/social/releases/tag/v2.0.0",
+    "body": "Bump! 🔩 \r\n\r\nDiff: https://github.com/contributte/social/compare/v1.2.0...2.0.0\r\n\r\nChanges:\r\n- changed namespace (minetro -> contributte)\r\n- PHP 5.6 -> PHP 7.1"
+  },
+  "11511241": {
+    "repo": "social",
+    "tag": "1.0.0",
+    "name": "v1.0.0",
+    "created_at": "2015-03-09T19:03:08Z",
+    "published_at": "2018-06-16T05:56:08Z",
+    "html_url": "https://github.com/contributte/social/releases/tag/1.0.0",
+    "body": "First bump! 👊 "
   }
 }

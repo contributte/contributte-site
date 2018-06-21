@@ -1,4 +1,4 @@
-const {repositories} = require('../data/repositories');
+const repositories = require('../data/repositories.json');
 const _ = require('lodash');
 
 function addRepositoryName() {

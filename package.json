@@ -13,8 +13,8 @@
   },
   "devDependencies": {
     "lodash": "^4.17.10",
-    "node-sass": "^4.9.0",
-    "sass-loader": "^7.0.1",
-    "vuepress": "^0.10.0"
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3",
+    "vuepress": "^0.12.0"
   }
 }

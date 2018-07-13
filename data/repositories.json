@@ -9,12 +9,12 @@
     "releases": {
       "last": {
         "repo": "console",
-        "tag": "v0.4",
-        "name": "v0.4",
-        "created_at": "2018-05-07T12:07:56Z",
-        "published_at": "2018-05-07T12:08:50Z",
-        "html_url": "https://github.com/contributte/console/releases/tag/v0.4",
-        "body": "Bump! 🔩 \r\n\r\nDiff: https://github.com/contributte/console/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- commands can be register in non-sapi mode [#14][#12]\r\n- tune QA:\r\n  - phpstan\r\n  - codesnffer\r\n  - Travis stages \r\n\r\n-----\r\n\r\nBC break:\r\n\r\n```\r\nextensions:\r\n    console: Contributte\\Console\\DI\\ConsoleExtension \r\n```\r\n\r\nto \r\n\r\n```yaml\r\nextensions:\r\n    console: Contributte\\Console\\DI\\ConsoleExtension(%consoleMode%) \r\n```"
+        "tag": "v0.5",
+        "name": "v0.5",
+        "created_at": "2018-06-21T18:48:21Z",
+        "published_at": "2018-06-25T05:03:57Z",
+        "html_url": "https://github.com/contributte/console/releases/tag/v0.5",
+        "body": "Bump! 🤒 \r\n\r\nDiff: https://github.com/contributte/console/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- removed deprecated `AbstractCommand`\r\n- removed deprecated `ContainerHelper` (https://gist.github.com/f3l1x/67841f8c1d1d041e937b4ca92b5b7a01)\r\n- PHP 5.6 -> PHP 7.1 [#16] [#13] \r\n- require symfony/console 4.x"
       }
     }
   },
@@ -29,12 +29,12 @@
     "releases": {
       "last": {
         "repo": "console-extra",
-        "tag": "v0.1",
-        "name": "v0.1",
-        "created_at": "2018-05-11T08:59:40Z",
-        "published_at": "2018-05-11T09:00:05Z",
-        "html_url": "https://github.com/contributte/console-extra/releases/tag/v0.1",
-        "body": "First bump! :fist_oncoming: "
+        "tag": "v0.3",
+        "name": "",
+        "created_at": "2018-07-08T20:14:51Z",
+        "published_at": "2018-07-08T20:26:12Z",
+        "html_url": "https://github.com/contributte/console-extra/releases/tag/v0.3",
+        "body": "Bump! 🥇 \r\n\r\nDiff: https://github.com/contributte/console-extra/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- Commands could be lazy-loaded\r\n- AdvancedCache - cleaned and generator"
       }
     }
   },
@@ -139,12 +139,12 @@
     "releases": {
       "last": {
         "repo": "bootstrap",
-        "tag": "v0.3",
-        "name": "v0.3",
-        "created_at": "2018-06-13T13:17:36Z",
-        "published_at": "2018-06-14T09:18:46Z",
-        "html_url": "https://github.com/contributte/bootstrap/releases/tag/v0.3",
-        "body": "Bump! :abcd: \r\n\r\nDiff: https://github.com/contributte/bootstrap/compare/v0.2.1...v0.3\r\n\r\nChanges:\r\n\r\n- pluggable configurator [#2] \r\n- ability to detect debug mode by file [#4] \r\n- PHP 5.6 -> PHP 7.1 [#5] [#6] \r\n\r\nBC break:\r\n\r\nYou have to enable ENV parsing explicit.\r\n\r\nBefore:\r\n\r\n```php\r\n$configurator = new ExtraConfigurator();\r\n```\r\n\r\nAfter\r\n\r\n```php\r\n$configurator = new ExtraConfigurator();\r\n$configurator->setEnvDebugMode();\r\n```"
+        "tag": "v0.3.1",
+        "name": "v0.3.1",
+        "created_at": "2018-06-25T11:43:49Z",
+        "published_at": "2018-06-25T21:45:46Z",
+        "html_url": "https://github.com/contributte/bootstrap/releases/tag/v0.3.1",
+        "body": "Bump! :abcd: \r\n\r\nDiff: https://github.com/contributte/bootstrap/compare/v0.3...v0.3.1\r\n\r\nChanges:\r\n\r\n-  Bugfix detecting appDir\r\n"
       }
     }
   },
@@ -158,12 +158,12 @@
     "releases": {
       "last": {
         "repo": "cache",
-        "tag": "v0.1",
-        "name": "v0.1",
-        "created_at": "2017-01-06T20:40:14Z",
-        "published_at": "2017-01-06T20:47:49Z",
-        "html_url": "https://github.com/contributte/cache/releases/tag/v0.1",
-        "body": "First bump! :fist_oncoming: \n"
+        "tag": "v0.2",
+        "name": "v0.2",
+        "created_at": "2018-07-07T09:44:38Z",
+        "published_at": "2018-07-07T09:47:50Z",
+        "html_url": "https://github.com/contributte/cache/releases/tag/v0.2",
+        "body": "Bump! 🤒 \r\n\r\nDiff: https://github.com/contributte/cache/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- PHP 5.6 -> PHP 7.1"
       }
     }
   },
@@ -275,7 +275,18 @@
     "enabled": true,
     "priority": 0,
     "docs": "v0",
-    "description": ":repeat: Ultra simple events system for Nette Framework"
+    "description": ":repeat: Ultra simple events system for Nette Framework",
+    "releases": {
+      "last": {
+        "repo": "dummy-events",
+        "tag": "2.0.0",
+        "name": "v2.0.0",
+        "created_at": "2018-06-25T21:59:12Z",
+        "published_at": "2018-06-25T22:01:09Z",
+        "html_url": "https://github.com/contributte/dummy-events/releases/tag/2.0.0",
+        "body": "Bump! :+1: \r\n\r\nDiff: https://github.com/contributte/dummy-events/compare/1.2.0...2.0.0\r\n\r\nChanges:\r\n- changed namespace\r\n- changed composer package\r\n- PHP >= 7.1"
+      }
+    }
   },
   "event-application-bridge": {
     "name": "event-application-bridge",
@@ -377,12 +388,12 @@
     "releases": {
       "last": {
         "repo": "forms",
-        "tag": "v0.2",
-        "name": "v0.2",
-        "created_at": "2018-05-07T15:11:21Z",
-        "published_at": "2018-05-07T15:12:54Z",
-        "html_url": "https://github.com/contributte/forms/releases/tag/v0.2",
-        "body": "Bump! 🔩 \r\n\r\nDiff: https://github.com/contributte/forms/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- PHP 7.1 [#8]\r\n- Bootstrap 3/4 renderers [#8] \r\n- tune QA:\r\n  - phpstan\r\n  - codesnffer\r\n  - Travis stages "
+        "tag": "v0.3",
+        "name": "v0.3",
+        "created_at": "2018-06-25T15:31:29Z",
+        "published_at": "2018-06-25T15:33:37Z",
+        "html_url": "https://github.com/contributte/forms/releases/tag/v0.3",
+        "body": "Bump! 🕳 \r\n\r\nDiff: https://github.com/contributte/forms/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- Split form factory into 2 application and standalone factories [#10]  \r\n  - IFormFactory -> IStandaloneFormFactory\r\n- removed Form class"
       }
     }
   },
@@ -404,12 +415,12 @@
     "releases": {
       "last": {
         "repo": "http",
-        "tag": "v0.1",
-        "name": "v0.1",
-        "created_at": "2017-01-06T20:34:09Z",
-        "published_at": "2017-01-06T20:34:39Z",
-        "html_url": "https://github.com/contributte/http/releases/tag/v0.1",
-        "body": "First bump! :fist_oncoming: \n"
+        "tag": "v0.2",
+        "name": "",
+        "created_at": "2018-07-08T19:12:58Z",
+        "published_at": "2018-07-08T20:21:20Z",
+        "html_url": "https://github.com/contributte/http/releases/tag/v0.2",
+        "body": "Bump! 🍶 \r\n\r\nDiff: https://github.com/contributte/http/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- BasicAuth\r\n- Reorganized namespaces (BC break)\r\n- PHP 7.1"
       }
     }
   },
@@ -423,12 +434,12 @@
     "releases": {
       "last": {
         "repo": "latte",
-        "tag": "v0.2",
-        "name": "v0.2",
-        "created_at": "2017-06-16T11:43:34Z",
-        "published_at": "2017-06-16T11:45:56Z",
-        "html_url": "https://github.com/contributte/latte/releases/tag/v0.2",
-        "body": "Bumped! :man_farmer: \r\n\r\nChanges:\r\n- added new filter `filectime` [#2]\r\n- added new filter `email` [#5]\r\n- added new number formatter [#6]\r\n- automatic `{rev}` `{v}` `{build}` in debugMode [#8]\r\n- modular filters [#9]  "
+        "tag": "v0.3",
+        "name": "v0.3",
+        "created_at": "2018-06-21T10:51:40Z",
+        "published_at": "2018-06-21T10:56:19Z",
+        "html_url": "https://github.com/contributte/latte/releases/tag/v0.3",
+        "body": "Bump! :sa:\r\n\r\nDiff: https://github.com/contributte/latte/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- changed debug to generated [#10]\r\n- PHP 5.6 -> PHP 7.1 [#11]\r\n- dropped TemplateFactory (it's already in nette/application)\r\n"
       }
     }
   },
@@ -447,7 +458,7 @@
         "created_at": "2018-03-12T07:00:01Z",
         "published_at": "2018-03-12T07:05:24Z",
         "html_url": "https://github.com/contributte/latte-email/releases/tag/2.0.0",
-        "body": "Bump! �� \r\n\r\nDiff: https://github.com/contributte/latte-email/compare/1.2.1...2.0.0\r\n\r\nChanges:\r\n- PHP 5.4 -> PHP 5.6\r\n- change namespace\r\n- apply codesniffer"
+        "body": "Bump! ���� \r\n\r\nDiff: https://github.com/contributte/latte-email/compare/1.2.1...2.0.0\r\n\r\nChanges:\r\n- PHP 5.4 -> PHP 5.6\r\n- change namespace\r\n- apply codesniffer"
       }
     }
   },
@@ -461,12 +472,12 @@
     "releases": {
       "last": {
         "repo": "latte-parsedown-extra",
-        "tag": "1.2.0",
-        "name": "v1.2.0",
-        "created_at": "2017-07-31T10:13:48Z",
-        "published_at": "2017-07-31T10:32:22Z",
-        "html_url": "https://github.com/contributte/latte-parsedown-extra/releases/tag/1.2.0",
-        "body": "Bump! 🍨 \r\n\r\nChanges: \r\n- refactoring - change to new namespace\r\n- update CI testing\r\n- update readme"
+        "tag": "1.3.0",
+        "name": "1.3.0",
+        "created_at": "2018-06-21T10:58:25Z",
+        "published_at": "2018-06-21T11:28:33Z",
+        "html_url": "https://github.com/contributte/latte-parsedown-extra/releases/tag/1.3.0",
+        "body": "Bump! :sa:\r\n\r\nDiff: https://github.com/contributte/latte-parsedown-extra/compare/1.2.0...1.3.0\r\n\r\nChanges:\r\n- PHP 5.6 -> PHP 7.1 [#4] [#3] \r\n"
       }
     }
   },
@@ -554,12 +565,12 @@
     "releases": {
       "last": {
         "repo": "middlewares",
-        "tag": "v0.6",
-        "name": "v0.6",
-        "created_at": "2018-06-10T19:41:53Z",
-        "published_at": "2018-06-10T19:42:36Z",
-        "html_url": "https://github.com/contributte/middlewares/releases/tag/v0.6",
-        "body": "Bump! 🔤 \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.5...v0.6\r\n\r\nChanges:\r\n- PHP 5.6 => PHP 7.1 [#13] [#2]\r\n- New `MethodOverrideMiddleware` [#10] [#9]  \r\n- QA: codestyles, better CI\r\n- Readme: typos [#11]"
+        "tag": "v0.7",
+        "name": "",
+        "created_at": "2018-07-11T13:52:53Z",
+        "published_at": "2018-07-12T07:47:01Z",
+        "html_url": "https://github.com/contributte/middlewares/releases/tag/v0.7",
+        "body": "Bump! 📦 \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.6...v0.7\r\n\r\nChanges:\r\n- BasicAuthMiddleware\r\n- TryCatchMiddleware"
       }
     }
   },
@@ -582,17 +593,17 @@
     "category": "development",
     "enabled": true,
     "priority": 100,
-    "docs": "v0",
+    "docs": "v1",
     "description": ":wrench: Collection of useful scripts for manipulaton with NEON files. Support composer pre-install / post-install events. Set/get parameters, validate files.",
     "releases": {
       "last": {
         "repo": "neonizer",
-        "tag": "v0.2",
-        "name": "v0.2",
-        "created_at": "2018-04-08T17:23:52Z",
-        "published_at": "2018-04-08T17:25:41Z",
-        "html_url": "https://github.com/contributte/neonizer/releases/tag/v0.2",
-        "body": "Bump! :tada: \r\n\r\nDiff: https://github.com/contributte/neonizer/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- internal refactoring\r\n- PHP 7.1 [#3]\r\n- support more commands:\r\n  - validate (thanks @jiripudil) [#2] [#1]\r\n  - set\r\n\r\n-----\r\n\r\n```json\r\n\"scripts\": {\r\n    \"set-config\": [\r\n      \"Contributte\\\\Neonizer\\\\NeonizerExtension::set\"\r\n    ]\r\n}\r\n```\r\n\r\nThen run:\r\n\r\n```sh\r\ncomposer set-config -- $(pwd)/app/config/config.local.neon --database.host=localhost --database.user=neonizer\r\n```\r\n\r\nDo you like **environment variables**? \r\n\r\n\r\n```sh\r\ncomposer set-config -- $(pwd)/app/config/config.local.neon --database.host=$DATABASE_HOST --database.user=$DATABASE_USER\r\n```\r\n"
+        "tag": "v0.2.1",
+        "name": "v0.2.1",
+        "created_at": "2018-07-12T09:23:08Z",
+        "published_at": "2018-07-12T09:26:03Z",
+        "html_url": "https://github.com/contributte/neonizer/releases/tag/v0.2.1",
+        "body": "Bump! 🕳 \r\n\r\nDiff: https://github.com/contributte/neonizer/compare/v0.2...v0.2.1\r\n\r\nChanges:\r\n- QA improvements [#7] [#6] \r\n- Readme: contributte's style [#5] [#4]  "
       }
     }
   },
@@ -610,17 +621,17 @@
     "category": "nextras",
     "enabled": true,
     "priority": 0,
-    "docs": "v0",
+    "docs": "v1",
     "description": ":wolf: Doctrine-like events for Nextras ORM",
     "releases": {
       "last": {
         "repo": "nextras-orm-events",
-        "tag": "0.3",
-        "name": "v0.3",
-        "created_at": "2018-03-09T22:10:52Z",
-        "published_at": "2018-03-11T17:44:13Z",
-        "html_url": "https://github.com/contributte/nextras-orm-events/releases/tag/0.3",
-        "body": "Bumped! :100: \r\n\r\nDiff: https://github.com/contributte/nextras-orm-events/compare/0.2.1...0.3\r\n\r\nChanges:\r\n* Register listeners lazily [#1]\r\n* Added support for [nextras/orm](https://github.com/nextras/orm) ^3.0.1\r\n* Change namespace (`Minetro/*` -> `Contributte/*`) "
+        "tag": "0.4",
+        "name": "v0.4",
+        "created_at": "2018-06-21T11:44:11Z",
+        "published_at": "2018-06-21T11:46:47Z",
+        "html_url": "https://github.com/contributte/nextras-orm-events/releases/tag/0.4",
+        "body": "Bumped! :sa: \r\n\r\nDiff: https://github.com/contributte/nextras-orm-events/compare/0.3...0.4\r\n\r\nChanges:\r\n* PHP 5.6 -> PHP 7.1 [#2] [#3] "
       }
     }
   },
@@ -650,7 +661,7 @@
     "category": "nextras",
     "enabled": true,
     "priority": 0,
-    "docs": "v0",
+    "docs": "v1",
     "description": ":wolf: Query-objects for Nextras ORM",
     "releases": {
       "last": {
@@ -726,12 +737,12 @@
     "releases": {
       "last": {
         "repo": "psr7-http-message",
-        "tag": "v0.4",
-        "name": "",
-        "created_at": "2018-05-28T09:42:34Z",
-        "published_at": "2018-05-28T09:49:00Z",
-        "html_url": "https://github.com/contributte/psr7-http-message/releases/tag/v0.4",
-        "body": "Bump! 🐗\r\n\r\nDiff:  https://github.com/contributte/psr7-http-message/compare/v0.3.1...v0.4\r\n\r\nChanged:\r\n- PHP 7.1\r\n- Travis stages\r\n\r\nRemoved:\r\n- `$request->getBodyClone()`"
+        "tag": "v0.5",
+        "name": "v0.5",
+        "created_at": "2018-06-25T21:42:10Z",
+        "published_at": "2018-06-25T21:43:56Z",
+        "html_url": "https://github.com/contributte/psr7-http-message/releases/tag/v0.5",
+        "body": "Bump! :koko: \r\n\r\nDiff:  https://github.com/contributte/psr7-http-message/compare/v0.4...v0.5\r\n\r\nChanged:\r\n- Bugfix return type in traits [#12] \r\n- Bugfix empty upload files [#13] \r\n- Improve docs [#5] "
       }
     }
   },
@@ -821,7 +832,7 @@
         "created_at": "2017-02-23T12:21:41Z",
         "published_at": "2017-07-31T09:36:31Z",
         "html_url": "https://github.com/contributte/seznamcaptcha/releases/tag/0.3",
-        "body": "Bumped! �� \r\n\r\nChanges:\r\n- enhanced readme\r\n- repair validator [#1] "
+        "body": "Bumped! ���� \r\n\r\nChanges:\r\n- enhanced readme\r\n- repair validator [#1] "
       }
     }
   },
@@ -853,12 +864,12 @@
     "releases": {
       "last": {
         "repo": "tracy",
-        "tag": "v0.1",
-        "name": "v0.1",
-        "created_at": "2017-11-01T08:13:34Z",
-        "published_at": "2018-02-20T14:23:45Z",
-        "html_url": "https://github.com/contributte/tracy/releases/tag/v0.1",
-        "body": "Bump! 👊 "
+        "tag": "v0.3",
+        "name": "",
+        "created_at": "2018-07-08T20:12:10Z",
+        "published_at": "2018-07-08T20:17:23Z",
+        "html_url": "https://github.com/contributte/tracy/releases/tag/v0.3",
+        "body": "Bump! 🍄 \r\n\r\nDiff: https://github.com/contributte/tracy/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- Navigation panel"
       }
     }
   },

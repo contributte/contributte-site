@@ -27,7 +27,7 @@ function syncRepo(org, repo) {
     res.on('data', (d) => data += d);
     res.on('end', () => {
       const releases = JSON.parse(data);
-      releases.forEach(release => dumpRelease(repo, release))
+      releases.forEach(release => dumpRelease(org, repo, release))
     });
 
   }).on('error', (e) => {
@@ -35,9 +35,9 @@ function syncRepo(org, repo) {
   });
 }
 
-function dumpRelease(repo, release) {
+function dumpRelease(org, repo, release) {
   releases[release.id] = {
-    org: repo.org,
+    org: org,
     repo: repo.name,
     tag: release.tag_name,
     name: release.name,

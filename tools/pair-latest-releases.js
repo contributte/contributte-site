@@ -27,17 +27,4 @@ function findLastRelease(repo) {
     .head();
 }
 
-function dumpRelease(repo, release) {
-  releases[release.id] = {
-    repo: repo.name,
-    tag: release.tag_name,
-    name: release.name,
-    created_at: release.created_at,
-    published_at: release.published_at,
-    html_url: release.html_url,
-    body: release.body,
-  };
-
-}
-
 syncAll();

@@ -1,5 +1,6 @@
 {
   "1539428": {
+    "org": "contributte",
     "repo": "live-form-validation",
     "tag": "v1.4",
     "name": "v1.4",
@@ -9,6 +10,7 @@
     "body": "Bump! 🇬🇦 \r\n\r\n> Nette Forms 2.3 update and Bootstrap 3 improvements\r\n\r\nChanges:\r\n\r\n- update with netteForms.js code from Nette Forms 2.3\r\n- use better default values for Bootstrap 3\r\n  - add \"text-danger\" to errorMessageClass\r\n  - set glyphicon icon for errorMessagePrefix\r\n- reformat options' comments to new lines\r\n"
   },
   "1572823": {
+    "org": "contributte",
     "repo": "live-form-validation",
     "tag": "v1.4.1",
     "name": "v1.4.1",
@@ -18,6 +20,7 @@
     "body": "Bump! 🅰️ \r\n\r\n> Fix removing errors created by server-validation\r\n\r\nDiff: https://github.com/contributte/live-form-validation/compare/v1.4...v1.4.1\r\n\r\nChanges:\r\n\r\n- Fix removing errors without ID (e.g. created by server-validation)\r\n- Small cleanup\r\n"
   },
   "1866399": {
+    "org": "contributte",
     "repo": "live-form-validation",
     "tag": "v1.5.0",
     "name": "v1.5.0",
@@ -27,6 +30,7 @@
     "body": "Bump! 🥅 \r\n\r\n> On-load validation, better processing server-errors, various fixes\r\n\r\nDiff: https://github.com/contributte/live-form-validation/compare/v1.4.1...v1.5.0\r\n\r\nChanges:\r\n\r\n- Don't append error message to radio/checkbox input's label, but along label\r\n- Fix order of showing error message and focusing element\r\n- Rework processing server-validation errors\r\n- Support for on-load validation\r\n- Add new special class \"enableHiddenMessageClass\"\r\n- Code and options cleanup (renamed various options names)\r\n- Add bower.json\r\n- Various other fixes\r\n"
   },
   "2272198": {
+    "org": "contributte",
     "repo": "live-form-validation",
     "tag": "v1.6.1",
     "name": "v1.6.1",
@@ -36,6 +40,7 @@
     "body": "Bump! 🗡 \r\n\r\n> Useful improvements\r\n\r\nDiff: https://github.com/contributte/live-form-validation/compare/v1.6.0...v1.6.1\r\n\r\nChanges:\r\n\r\n- More convenient way for changing options\r\n- Fix compatibility with Grido\r\n"
   },
   "2272221": {
+    "org": "contributte",
     "repo": "live-form-validation",
     "tag": "v1.6.0",
     "name": "v1.6.0",
@@ -45,6 +50,7 @@
     "body": "Bump! 🤕 \r\n\r\n> Compatibility and special error cases improvements\r\n\r\nDiff: https://github.com/contributte/live-form-validation/compare/v1.5.0...v1.6.0\r\n\r\nChanges:\r\n\r\n- Support for validating forms that weren't initialized properly (compatibility with Grido)\r\n- Support form elements with none or duplicit id\r\n- Small other fixes and changes\r\n"
   },
   "2355207": {
+    "org": "contributte",
     "repo": "reCAPTCHA",
     "tag": "1.5.1",
     "name": "v1.5.1",
@@ -54,6 +60,7 @@
     "body": "# :hamburger: v1.5.1\n- Change addClass -> class (https://github.com/minetro/reCAPTCHA/commit/ae94b6487a82ef593eecd4e2feea30911f442257)\n- More examples in README\n"
   },
   "2703199": {
+    "org": "contributte",
     "repo": "live-form-validation",
     "tag": "v1.6.2",
     "name": "v1.6.2",
@@ -63,6 +70,7 @@
     "body": "Bump! 🌫 \r\n\r\n> New option for message parent\r\n\r\nDiff: https://github.com/contributte/live-form-validation/compare/v1.6.1...v1.6.2\r\n\r\nChanges:\r\n\r\n- Added new option 'messageParentClass' to put message into specific parent (not direct one)\r\n"
   },
   "2941735": {
+    "org": "contributte",
     "repo": "nextras-orm-generator",
     "tag": "0.1",
     "name": "v0.1",
@@ -72,6 +80,7 @@
     "body": "Development release.\n"
   },
   "3122387": {
+    "org": "contributte",
     "repo": "guzzlette",
     "tag": "v0.9.0",
     "name": "v0.9.0",
@@ -81,6 +90,7 @@
     "body": ""
   },
   "3452320": {
+    "org": "contributte",
     "repo": "live-form-validation",
     "tag": "v1.7.0",
     "name": "v1.7.0",
@@ -90,6 +100,7 @@
     "body": "Bump! 🏭 \r\n\r\n> Finally validating multi elements\r\n\r\nDiff: https://github.com/contributte/live-form-validation/compare/v1.6.2...v1.7.0\r\n\r\nChanges:\r\n\r\n- Implement correct handling of multi elements  (e.g. CheckBoxList, RadioList)\r\n- Update netteForms.js code to latest master version\r\n"
   },
   "3484072": {
+    "org": "contributte",
     "repo": "codeception",
     "tag": "v0.7.0",
     "name": "v0.7.0",
@@ -99,6 +110,7 @@
     "body": "- Refactoring.\n- Added [documentation](https://github.com/Arachne/Codeception/blob/master/docs/index.md).\n"
   },
   "3484709": {
+    "org": "contributte",
     "repo": "codeception",
     "tag": "v0.7.1",
     "name": "v0.7.1",
@@ -108,6 +120,7 @@
     "body": "- NetteDIModule: Add `appDir` and `wwwDir` parameters.\n"
   },
   "3516699": {
+    "org": "nettrine",
     "repo": "extensions",
     "tag": "v0.1",
     "name": "v0.1",
@@ -117,6 +130,7 @@
     "body": "Bump :fire: v0.1\n"
   },
   "3553989": {
+    "org": "contributte",
     "repo": "reCAPTCHA",
     "tag": "1.6.0",
     "name": "v1.6.0",
@@ -126,6 +140,7 @@
     "body": "Bumped! :space_invader: \n- Fixed Nette serie ~2.3. \n- This is last release for Nette 2.3.\n"
   },
   "3811502": {
+    "org": "contributte",
     "repo": "deployer-extension",
     "tag": "1.2.0",
     "name": "v1.2.0",
@@ -135,6 +150,7 @@
     "body": "Bumped :jack_o_lantern:!\n\nChanges:\n- opened for nette 2.4\n- removed unused nette/utils\n- code reformating  \n"
   },
   "3823852": {
+    "org": "contributte",
     "repo": "deployer-extension",
     "tag": "v2.0.0",
     "name": "v2.0.0",
@@ -144,6 +160,7 @@
     "body": "Released v2.0.0 :hocho:!\r\n\r\nChanges:\r\n- drop PHP 5.4\r\n- support ftp-deployment 2.5\r\n- added basic tests\r\n"
   },
   "3844939": {
+    "org": "contributte",
     "repo": "social",
     "tag": "1.1.0",
     "name": "v1.1.0",
@@ -153,6 +170,7 @@
     "body": "Bumped new version :koko: \r\n\r\nDiff: https://github.com/contributte/social/compare/v1.0.4...1.1.0\r\n\r\nChanges:\r\n- compatibility with nette 2.4 [#1]\r\n"
   },
   "3845102": {
+    "org": "contributte",
     "repo": "social",
     "tag": "1.2.0",
     "name": "v1.2.0",
@@ -162,6 +180,7 @@
     "body": "Bumped new release :haircut: \r\n\r\nDiff: https://github.com/contributte/social/compare/v1.1.0...1.2.0\r\n\r\nChanges:\r\n- cause of support nette 2.4 drop PHP 5.4 / 5.5 and some dead deprecated code\r\n"
   },
   "3880594": {
+    "org": "contributte",
     "repo": "codeception",
     "tag": "v0.7.3",
     "name": "v0.7.3",
@@ -171,6 +190,7 @@
     "body": "- Add removeDefaultExtensions option to NetteDIModule.\n- Fix compatibility with nette/bootstrap 2.4.\n"
   },
   "3880597": {
+    "org": "contributte",
     "repo": "codeception",
     "tag": "v0.7.2",
     "name": "v0.7.2",
@@ -180,6 +200,7 @@
     "body": "- Fix deletion of files created by doctrine/cache on windows.\n"
   },
   "3994298": {
+    "org": "contributte",
     "repo": "live-form-validation",
     "tag": "v1.8.0",
     "name": "v1.8.0",
@@ -189,6 +210,7 @@
     "body": "Bump! 🍂 \r\n\r\n> Updated for Nette Forms 2.4\r\n\r\nDiff: https://github.com/contributte/live-form-validation/compare/v1.7.0...v1.8.0\r\n\r\nChanges:\r\n\r\n- Updated internal netteForms.js code to latest version.\r\n- Generate nicer ID for some multi-element's message \r\n"
   },
   "4155943": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v4.4.13",
     "name": "v4.4.13",
@@ -198,6 +220,7 @@
     "body": ""
   },
   "4174483": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v4.4.16",
     "name": "v4.4.16",
@@ -207,6 +230,7 @@
     "body": ""
   },
   "4278338": {
+    "org": "contributte",
     "repo": "live-form-validation",
     "tag": "v1.8.1",
     "name": "v1.8.1",
@@ -216,6 +240,7 @@
     "body": "Bump! 😂 \r\n\r\n> Fixed CheckboxList and allow pre-set options\r\n\r\nDiff: https://github.com/contributte/live-form-validation/compare/v1.8.0...v1.8.1\r\n\r\nChanges:\r\n\r\n- Allow setting options before script is loaded\r\n- Fix validation of CheckboxList\r\n"
   },
   "4280747": {
+    "org": "contributte",
     "repo": "codeception",
     "tag": "v0.7.4",
     "name": "v0.7.4",
@@ -225,6 +250,7 @@
     "body": "- Create log directory if not exists (#4) - thanks @jirinapravnik \n"
   },
   "4281392": {
+    "org": "contributte",
     "repo": "codeception",
     "tag": "v0.7.5",
     "name": "v0.7.5",
@@ -234,6 +260,7 @@
     "body": "- Fix code coverage measuring of nette/di extensions with DoctrineModule\n"
   },
   "4287570": {
+    "org": "contributte",
     "repo": "guzzlette",
     "tag": "v0.10.1",
     "name": "v0.10.1",
@@ -243,6 +270,7 @@
     "body": "Bump! 🌴 \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v0.10.0...v0.10.1\r\n\r\nChanges:\r\n- Fixes error, when Content-Type is not set (thanks @vokrik)\r\n"
   },
   "4306679": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v4.4.19",
     "name": "v4.4.19",
@@ -252,6 +280,7 @@
     "body": ""
   },
   "4322161": {
+    "org": "contributte",
     "repo": "seznamcaptcha",
     "tag": "0.1",
     "name": "v0.1",
@@ -261,6 +290,7 @@
     "body": "First bump!\n"
   },
   "4322166": {
+    "org": "contributte",
     "repo": "seznamcaptcha",
     "tag": "0.2",
     "name": "v0.2",
@@ -270,6 +300,7 @@
     "body": "Changes:\n- tiny typos in examples\n- fix binding bug\n"
   },
   "4363041": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v4.4.22",
     "name": "v4.4.22",
@@ -279,6 +310,7 @@
     "body": ""
   },
   "4405027": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.0.0",
     "name": "v5.0.0",
@@ -288,6 +320,7 @@
     "body": "## Added\n- #276: Multi action column. ([documentation](http://ublaboo.org/datagrid/action#multi-action))\n- #386: Escape column identifier in DibiFluentDataSource.\n- #387: Added latte block for outer filter.\n- #388: Collapsible filters. **(Possible BC break)** ([documentation](http://ublaboo.org/datagrid/filter#outer-filters-rendering))\n- #404: Row condition for item detail. ([documentation](http://ublaboo.org/datagrid/action#item-detail-render-condition))\n- #405: Sorting datagrid by multiple columns. ([documentation](http://ublaboo.org/datagrid/column#multiple-columns-sort))\n- #413: Basic support for related columns in nette/database. ([documentation](http://ublaboo.org/datagrid/data-source#nette-database-table-data-source))\n- #417: Improved tests with unix compatibility.\n- Option to show content of non-editable columns when editing. ([documentation](http://ublaboo.org/datagrid/edit#show-non-editing-columns))\n- Option to reset single column filter using icon-remove in column header.\n\n## Fixed\n- #340: Inline edit Uncaught TypeError: `$.nette.ajax(...).success` is not a function.\n- #360: Each column render cycle adds already existing classes.\n- #389: Session filter: Filter not found when modifying grid columns.\n- #390: Fix sorting by date in ArrayDataSource.\n- #395: Syntax error, unrecognized expression: `.datagrid-tree-item[data-id=]`.\n- #397: Icons have been unified to use `<i></i>` tag.\n- #400: Fix double confirmation before ajax call.\n- #406: Fixed array source getCount method.\n- #420: Unable to add placeholders for range filters.\n- Column name escaping for DibiDataSource.\n\n## Dropped\n- Support of PHP 5.5\n\n## Deprecated\n- #393: Wrong method name _deleteSesssionData_.\n- #408: Method name on Filter _getAttribtues_.\n\n[Changelog](https://github.com/ublaboo/datagrid/compare/v4.4.22...v5.0.0)\n\n**Thanks for the contributions:** @dakorpar, @roman-vohnik, @PingusPepan, @attreid, @FVesely & @jakubvojacek.\n"
   },
   "4562585": {
+    "org": "contributte",
     "repo": "reCAPTCHA",
     "tag": "1.4.4",
     "name": "v1.4.4",
@@ -297,6 +330,7 @@
     "body": "Bump! :jordan: \n- fixed support Nette ~2.2.0\n"
   },
   "4579937": {
+    "org": "contributte",
     "repo": "nextras-orm-events",
     "tag": "0.1",
     "name": "v0.1",
@@ -306,6 +340,7 @@
     "body": "First bump! 👊 \r\n"
   },
   "4594773": {
+    "org": "contributte",
     "repo": "reCAPTCHA",
     "tag": "1.6.2",
     "name": "v1.6.2",
@@ -315,6 +350,7 @@
     "body": "Bump! :football: \n\nFixes:\n- bug in ReCaptchaExtension (#5)\n"
   },
   "4697541": {
+    "org": "contributte",
     "repo": "nextras-orm-query-object",
     "tag": "0.1",
     "name": "v0.1",
@@ -324,6 +360,7 @@
     "body": "First bump! :hocho: \n"
   },
   "4728513": {
+    "org": "contributte",
     "repo": "nextras-orm-events",
     "tag": "0.2",
     "name": "v0.2",
@@ -333,6 +370,7 @@
     "body": "Bumped! :ear_of_rice: \r\n\r\nDiff: https://github.com/contributte/nextras-orm-events/compare/0.1...0.2\r\n\r\nChanges:\r\n- open for [nextras/orm](https://github.com/nextras/orm) 2.0 - 2.2\r\n"
   },
   "4841678": {
+    "org": "contributte",
     "repo": "datagrid-nette-database-data-source",
     "tag": "v1.0.8",
     "name": "Compatibility with ublaboo/datagrid v5",
@@ -342,6 +380,7 @@
     "body": ""
   },
   "4856689": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.0.1",
     "name": "v5.0.1",
@@ -351,6 +390,7 @@
     "body": "## Added\n-  #425: `$columnLink->setOpenInNewTab` has been made fluent.\n\n## Fixed\n- Assets: Reseting filter by one column\n\n[Changelog](https://github.com/ublaboo/datagrid/compare/v5.0.0...v5.0.1)\n\n**Thanks for the contributions:** @dakorpar\n"
   },
   "4915056": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.0.2",
     "name": "v5.0.2",
@@ -360,6 +400,7 @@
     "body": "## Added\n- Added icon to columns status list option\n\n## Dropped\n- #428: Don't change collation when searching in DibiFluent. **(Possible BC break)**\n\n[Changelog](https://github.com/ublaboo/datagrid/compare/v5.0.1...v5.0.2)\n\n**Thanks for the contributions:** @dakorpar\n"
   },
   "4966115": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.0.3",
     "name": "v5.0.3",
@@ -369,6 +410,7 @@
     "body": "## Fixed\n- Column\\MultiAction icon\n\n[Changelog](https://github.com/ublaboo/datagrid/compare/v5.0.2...v5.0.3)\n"
   },
   "5004620": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.0.4",
     "name": "v5.0.4",
@@ -378,6 +420,7 @@
     "body": "## Added\n- #426: Added expanding group action selection using shift key.\n- Added \"through-column\" cpecifications for ActiveRow referenced/related columns (see http://ublaboo.org/datagrid/data-source#nette-database-table-data-source)\n\n## Fixed\n- #436: Fix calling referred column.\n\n[Changelog](https://github.com/ublaboo/datagrid/compare/v5.0.3...v5.0.4)\n\n**Thanks for the contributions:** @Kuba93.\n"
   },
   "5089827": {
+    "org": "contributte",
     "repo": "utils",
     "tag": "v0.1",
     "name": "v0.1",
@@ -387,6 +430,7 @@
     "body": "First bump! :fist_oncoming: \n"
   },
   "5089875": {
+    "org": "contributte",
     "repo": "di",
     "tag": "v0.1",
     "name": "v0.1",
@@ -396,6 +440,7 @@
     "body": "First bump! :fist_oncoming: \n"
   },
   "5091200": {
+    "org": "contributte",
     "repo": "forms",
     "tag": "v0.1",
     "name": "v0.1",
@@ -405,6 +450,7 @@
     "body": "First bump! :fist_oncoming: \n"
   },
   "5091532": {
+    "org": "contributte",
     "repo": "application",
     "tag": "v0.1",
     "name": "v0.1",
@@ -414,6 +460,7 @@
     "body": "First bump! :fist_oncoming: \n"
   },
   "5091628": {
+    "org": "contributte",
     "repo": "http",
     "tag": "v0.1",
     "name": "v0.1",
@@ -423,6 +470,7 @@
     "body": "First bump! :fist_oncoming: \n"
   },
   "5091734": {
+    "org": "contributte",
     "repo": "cache",
     "tag": "v0.1",
     "name": "v0.1",
@@ -432,6 +480,7 @@
     "body": "First bump! :fist_oncoming: \n"
   },
   "5091757": {
+    "org": "contributte",
     "repo": "console",
     "tag": "v0.1",
     "name": "v0.1",
@@ -441,6 +490,7 @@
     "body": "First bump! :fist_oncoming: \n"
   },
   "5091760": {
+    "org": "contributte",
     "repo": "event-dispatcher",
     "tag": "v0.1",
     "name": "v0.1",
@@ -450,6 +500,7 @@
     "body": "First release! :fist_oncoming: \n"
   },
   "5091768": {
+    "org": "contributte",
     "repo": "event-dispatcher",
     "tag": "v0.2",
     "name": "v0.2",
@@ -459,6 +510,7 @@
     "body": "Bumped! :apple: \r\n\r\nDiff: https://github.com/contributte/event-dispatcher/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- class renaming EventManager -> EventDispatcher\r\n- update Quality Assurance ([ninjify/qa](https://github.com/ninjify/qa), [ninjify/nunjuck](https://github.com/ninjify/nunjuck))\r\n"
   },
   "5129100": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.0.5",
     "name": "v5.0.5",
@@ -468,6 +520,7 @@
     "body": "## Added\n- #434: Rewrote attributes handling in Filters.\n- #435: Option to disable column translating\n\n## Fixed\n- #436: Fix calling referred column.\n- Fixed `getElementPrototype` to cache returned element\n\n[Changelog](https://github.com/ublaboo/datagrid/compare/v5.0.4...v5.0.5)\n\n**Thanks for the contributions:** @schneidermichal.\n"
   },
   "5133821": {
+    "org": "contributte",
     "repo": "console",
     "tag": "v0.1.1",
     "name": "v0.1.1",
@@ -477,6 +530,7 @@
     "body": "Bumped! :honey_pot: \r\n\r\nDiff: https://github.com/contributte/console/compare/v0.1...v0.1.1\r\n\r\nChanges:\r\n- extension loads by default `Symfony\\Component\\Console\\Command\\Command`\r\n- introduce README\r\n"
   },
   "5135116": {
+    "org": "contributte",
     "repo": "thepay",
     "tag": "v3.1.0",
     "name": "3.1.0",
@@ -486,6 +540,7 @@
     "body": "Update library to version [3.1.0](https://github.com/Trejjam/ThePay-lib/releases/tag/v3.1.0)\n"
   },
   "5164376": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.0.6",
     "name": "v5.0.6",
@@ -495,6 +550,7 @@
     "body": "## Added\n- Configurable attributes to small inline edit select\n\n## Fixed\n- Fixed small inlide edit of type select - after submit - value to html is not a select option value, but name\n\n[Changelog](https://github.com/ublaboo/datagrid/compare/v5.0.5...v5.0.6)\n"
   },
   "5171777": {
+    "org": "contributte",
     "repo": "psr7-http-message",
     "tag": "v0.1",
     "name": "v0.1",
@@ -504,6 +560,7 @@
     "body": "First bump! :fist_oncoming: \n"
   },
   "5206061": {
+    "org": "contributte",
     "repo": "psr7-http-message",
     "tag": "v0.1.1",
     "name": "v0.1.1",
@@ -513,6 +570,7 @@
     "body": "Bumped! :honey_pot: \r\n\r\nDiff: https://github.com/contributte/psr7-http-message/compare/v0.1...v0.1.1\r\n\r\nChanges:\r\n- some Q&A changes\r\n- fix `RequestFactory` with Nette\\Http\\Request\r\n"
   },
   "5207464": {
+    "org": "contributte",
     "repo": "middlewares",
     "tag": "v0.1",
     "name": "v0.1",
@@ -522,6 +580,7 @@
     "body": "Bumped! :fist_oncoming: \n"
   },
   "5209209": {
+    "org": "contributte",
     "repo": "middlewares",
     "tag": "v0.1.1",
     "name": "v0.1.1",
@@ -531,6 +590,7 @@
     "body": "Bump! :boar: \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.1...v0.1.1\r\n\r\nChanges:\r\n- added new methods for `PresenterMiddleware`\r\n"
   },
   "5221836": {
+    "org": "contributte",
     "repo": "psr7-http-message",
     "tag": "v0.1.2",
     "name": "v0.1.2",
@@ -540,6 +600,7 @@
     "body": "Bumped! :hocho: \r\n\r\nDiff: https://github.com/contributte/psr7-http-message/compare/v0.1.1...v0.1.2\r\n\r\nChanges:\r\n- added `Psr7ServerRequestFactory`\r\n- fix `Psr7RequestFactory` headers\r\n- added `NetteHttpTrait`\r\n- relax composer dependencies\r\n"
   },
   "5222384": {
+    "org": "contributte",
     "repo": "middlewares",
     "tag": "v0.1.2",
     "name": "v0.1.2",
@@ -549,6 +610,7 @@
     "body": "Bumped! :spades:\r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.1.1...v0.1.2\r\n\r\nChanges:\r\n- added a few middlewares implementations\r\n  - `ConditionMiddleware`\r\n    - `UrlPathFilter`\r\n  - `GroupMiddleware`\r\n  - `GroupBuilderMiddleware`\r\n  - `ContentNegotiationMiddleware`\r\n    - `SuffixNegotiationStrategy`\r\n      - `JsonNegotiator`\r\n- relax dependencies\r\n"
   },
   "5222640": {
+    "org": "contributte",
     "repo": "api",
     "tag": "v0.1",
     "name": "v0.1",
@@ -558,6 +620,7 @@
     "body": "First bump! :fist_oncoming: \n"
   },
   "5255933": {
+    "org": "contributte",
     "repo": "middlewares",
     "tag": "v0.2",
     "name": "v0.2",
@@ -567,6 +630,7 @@
     "body": "Bumped! :golf: \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.1.2...v0.2\r\n\r\nChanges:\r\n- added some validations\r\n- change *Extension parameters (added middlewares & root key) [BC!]\r\n- added middlewares\r\n  - `AbstractRootMiddleware`\r\n  - `AutoBasePathMiddleware`\r\n  - `RouterMiddleware`\r\n- dropped middlewares:\r\n  - `ContentNegotiationMiddleware`\r\n- renamed middlewares:\r\n  - `ConditionMiddleware` -> `ExcludeConditionMiddleware`\r\n- added `Regex` class \r\n- added factories:\r\n  - `PresenterMiddlewareFactory`\r\n"
   },
   "5256281": {
+    "org": "contributte",
     "repo": "api",
     "tag": "v0.2",
     "name": "v0.2",
@@ -576,6 +640,7 @@
     "body": "Bumped! :dog2: \r\n\r\nDiff: https://github.com/contributte/api/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- rewritten ApiMiddleware (BC!)\r\n- introduced invokers concept:\r\n  - ApiRouter (`maps and parses request URL(s)`)\r\n  - ApiContentNegotiation (`converts data to any formats`)\r\n    - UrlNegotiator (`negotiates content data by URL suffix`)\r\n      - JsonTransformer (`encodes / decodes data`)\r\n  - ApiEmitter (`passes requests to ApiDispatcher`)\r\n  - synchronize trailing slashes (at the start, at the end)\r\n"
   },
   "5283781": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.0.7",
     "name": "",
@@ -585,6 +650,7 @@
     "body": "## Fixed\n- #449: Fixed filter collapsing when multiple datagrids used\n- Fixed broken method chaining in some Filters\n\n[Changelog](https://github.com/ublaboo/datagrid/compare/v5.0.6...v5.0.7)\n"
   },
   "5324569": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.0.8",
     "name": "v5.0.8",
@@ -594,6 +660,7 @@
     "body": "## Added\n- Added group action of type multi select\n- Added option Action::$open_in_new_tab\n\n## Fixed\n- InlineEdit assets fix\n- InlineEdit fixed method chaining\n\n[Changelog](https://github.com/ublaboo/datagrid/compare/v5.0.7...v5.0.8)\n"
   },
   "5401035": {
+    "org": "contributte",
     "repo": "codeception",
     "tag": "v1.0.0-alpha.1",
     "name": "v1.0.0-alpha.1",
@@ -603,6 +670,7 @@
     "body": "- NetteDIModule no longer compiles the Container before each test by default\r\n- Added newContainerForEachTest option (closes #3)\r\n- Removed configurator option\r\n- Removed DoctrineModule\r\n- Added phpstan to CI\r\n- Updated to PHP 7.1 and Nette 3.0\r\n- Added .editorconfig file\r\n- Added scripts section to composer.json\r\n"
   },
   "5401575": {
+    "org": "contributte",
     "repo": "codeception",
     "tag": "v1.0.0-alpha.2",
     "name": "v1.0.0-alpha.2",
@@ -612,6 +680,7 @@
     "body": "- Added PHP 7 strict types to all files\r\n- Removed copyright headers from src directory\r\n"
   },
   "5404511": {
+    "org": "contributte",
     "repo": "codeception",
     "tag": "v1.0.0-alpha.3",
     "name": "v1.0.0-alpha.3",
@@ -621,6 +690,7 @@
     "body": "- Added more type hints\r\n- Removed Nette\\Object\r\n"
   },
   "5547275": {
+    "org": "contributte",
     "repo": "reCAPTCHA",
     "tag": "1.5.2",
     "name": "v1.5.2",
@@ -630,6 +700,7 @@
     "body": "Bumped! :hole: \n\nChanges:\n- fix obtaining `IReCaptchaValidatorFactory`\n"
   },
   "5547280": {
+    "org": "contributte",
     "repo": "reCAPTCHA",
     "tag": "1.6.3",
     "name": "v1.6.3",
@@ -639,6 +710,7 @@
     "body": "Bumped! :hole: :hocho: \n\nChanges:\n- fix obtaining `IReCaptchaValidatorFactory`\n"
   },
   "5549170": {
+    "org": "contributte",
     "repo": "reCAPTCHA",
     "tag": "2.0.0",
     "name": "v2.0.0",
@@ -648,6 +720,7 @@
     "body": "Bumped! Bump, bump, bump. :fist_left: \r\n\r\nDiff: https://github.com/contributte/reCAPTCHA/compare/1.6.3...2.0.0\r\n\r\nChanges:\r\n- completely changed internal API\r\n- major simplification\r\n- changed namespaces\r\n- PHP >=5.6 \r\n"
   },
   "5593562": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.1.0",
     "name": "",
@@ -657,6 +730,7 @@
     "body": "## Added\n- Added option to remove toolbar button\n\n## Fixed\n- #451: Inline edit/add button validation scope\n- #457: Fluent interface improvement\n\n[Changelog](https://github.com/ublaboo/datagrid/compare/v5.0.8...v5.1.0)\n"
   },
   "5604853": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.1.1",
     "name": "v5.1.1",
@@ -666,6 +740,7 @@
     "body": "## Fixed\n- #479: Fixed filter escaping for dibi 2.x.\n- #480: Fixed support of dibi 2.x.\n\n[Changelog](https://github.com/ublaboo/datagrid/compare/v5.1.0...v5.1.1)\n"
   },
   "5689966": {
+    "org": "contributte",
     "repo": "mail",
     "tag": "v0.1",
     "name": "v0.1",
@@ -675,6 +750,7 @@
     "body": "Bumped! :fist_oncoming: "
   },
   "5711511": {
+    "org": "contributte",
     "repo": "codeception",
     "tag": "v1.0.0-alpha.4",
     "name": "v1.0.0-alpha.4",
@@ -684,6 +760,7 @@
     "body": "- Simplified Arachne\\Codeception\\Http\\Request class"
   },
   "5711515": {
+    "org": "contributte",
     "repo": "codeception",
     "tag": "v0.7.6",
     "name": "v0.7.6",
@@ -693,6 +770,7 @@
     "body": "- Fix annotation in NetteDIModule (fixes phpstan issues in other libraries)"
   },
   "5723651": {
+    "org": "contributte",
     "repo": "bootstrap",
     "tag": "v0.1",
     "name": "v0.1",
@@ -702,6 +780,7 @@
     "body": "Bumped! 👊 "
   },
   "5740167": {
+    "org": "contributte",
     "repo": "dev",
     "tag": "v0.1",
     "name": "v0.1",
@@ -711,6 +790,7 @@
     "body": "Bumped! :fist_oncoming: "
   },
   "5740363": {
+    "org": "contributte",
     "repo": "bootstrap",
     "tag": "v0.1.1",
     "name": "v0.1.1",
@@ -720,6 +800,7 @@
     "body": "Bumped! :honey_pot: \r\n\r\nDiff: https://github.com/contributte/bootstrap/compare/v0.1...v0.1.1\r\n\r\nChanges:\r\n- act on (string) `true`, `false`, `0`, `1`"
   },
   "5748656": {
+    "org": "contributte",
     "repo": "application",
     "tag": "v0.2",
     "name": "v0.2",
@@ -729,6 +810,7 @@
     "body": "Bumped! 🔪 \r\n\r\nDiff: https://github.com/contributte/application/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- added FlyResponse [#5]"
   },
   "5748873": {
+    "org": "contributte",
     "repo": "database",
     "tag": "v0.1",
     "name": "v0.1",
@@ -738,6 +820,7 @@
     "body": "Bumped! 👊 "
   },
   "5797872": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.1.2",
     "name": "",
@@ -747,6 +830,7 @@
     "body": "## Fixed\r\n- #447: Switched doctrine parameters to strings\r\n- #483: Fix \"The variable ‚rows‘ already exists\"\r\n- #488: Support for DateTimeImmutable\r\n- #493: Changed number of first record from 0 to 1.\r\n\r\n[Changelog](https://github.com/ublaboo/datagrid/compare/v5.1.1...v5.1.2)\r\n"
   },
   "5871907": {
+    "org": "contributte",
     "repo": "guzzlette",
     "tag": "v0.11.1",
     "name": "v0.11.1",
@@ -756,6 +840,7 @@
     "body": "Bump! 👶 \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v0.11.0...v0.11.1\r\n\r\nChanges:\r\n- textarea with CURL is read-only"
   },
   "5948660": {
+    "org": "contributte",
     "repo": "nextras-orm-events",
     "tag": "0.2.1",
     "name": "v0.2.1",
@@ -765,6 +850,7 @@
     "body": "Bumped! 🔤 \r\n\r\nDiff: https://github.com/contributte/nextras-orm-events/compare/0.2...0.2.1\r\n\r\nChanges:\r\n- open for [nextras/orm](https://github.com/nextras/orm) >=2.0, <=2.3\r\n- fix tests"
   },
   "5982337": {
+    "org": "contributte",
     "repo": "reCAPTCHA",
     "tag": "2.0.1",
     "name": "v2.0.1",
@@ -774,6 +860,7 @@
     "body": "Bumped! :fog: \r\n\r\nDiff: https://github.com/contributte/reCAPTCHA/compare/2.0.0...2.0.1\r\n\r\nChanges:\r\n- fix call `setRequired(TRUE | FALSE)` [thanks @sallyx][#9][#10]"
   },
   "6118283": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.2.0",
     "name": "v5.2.0",
@@ -783,6 +870,7 @@
     "body": "## Added\r\n- #506: DoctrineDataSource: use Paginator only when needed\r\n- #513: Aggregation support for doctrine source\r\n\r\n[Changelog](https://github.com/ublaboo/datagrid/compare/v5.1.2...v5.2.0)\r\n"
   },
   "6126396": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.2.1",
     "name": "",
@@ -792,6 +880,7 @@
     "body": "## Added:\r\n- #507: Add n:block=\"tbody\" to tag tbody.\r\n- #512: Support nextras traversing in basic sortable usage.\r\n- #515: Changed number of first record from 1 to 0, when no records.\r\n- #516: Always show column with checkboxes when group actions is defined.\r\n\r\n## Fixed:\r\n- #518: Fix MultiAction in treeview.\r\n\r\n[Changelog](https://github.com/ublaboo/datagrid/compare/v5.2.0...v5.2.1)"
   },
   "6135526": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.2.2",
     "name": "",
@@ -801,6 +890,7 @@
     "body": "## Added:\r\n- Added custom renderer to SUM aggregation function \r\n- Added IAggregatable interface for datasources\r\n- Added IAggregatable support for DoctrineCollectionDataSource\r\n\r\n## Fixed:\r\n-  Update summary on data reload\r\n\r\n[Changelog](https://github.com/ublaboo/datagrid/compare/v5.2.1...v5.2.2)"
   },
   "6161661": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.2.3",
     "name": "",
@@ -810,6 +900,7 @@
     "body": "## Fixed:\r\n- #520: Fix of ajax response\r\n\r\n[Changelog](https://github.com/ublaboo/datagrid/compare/v5.2.2...v5.2.3)"
   },
   "6173424": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.2.4",
     "name": "",
@@ -819,6 +910,7 @@
     "body": "## Fixed:\r\n- Fixed final enforcement on the SUM Aggregation (removed).\r\n\r\n[Changelog](https://github.com/ublaboo/datagrid/compare/v5.2.3...v5.2.4)"
   },
   "6263832": {
+    "org": "contributte",
     "repo": "psr7-http-message",
     "tag": "v0.1.4",
     "name": "v0.1.4",
@@ -828,6 +920,7 @@
     "body": "Bumped! 🍯 \r\n\r\nDiff: https://github.com/contributte/psr7-http-message/compare/v0.1.3...v0.1.4\r\n\r\nChanges:\r\n- fixed handling uploaded files [#2] "
   },
   "6455003": {
+    "org": "contributte",
     "repo": "event-dispatcher",
     "tag": "v0.3",
     "name": "v0.3",
@@ -837,6 +930,7 @@
     "body": "Bumped! :penguin:\r\n\r\nDiff: https://github.com/contributte/event-dispatcher/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- split **Nette\\Application** events to solo repository ([contributte/event-application-bridge](https://github.com/contributte/event-application-bridge))\r\n- introduce new option `autoload: true/false` for disabling autoregister of the subscribers\r\n- extension lookups for native symfony subscriber (`Symfony\\Component\\EventDispatcher\\EventSubscriberInterface`) instead of contributte's one "
   },
   "6455045": {
+    "org": "contributte",
     "repo": "event-application-bridge",
     "tag": "v0.1",
     "name": "v0.1",
@@ -846,6 +940,7 @@
     "body": "Bumped! :fist_oncoming: "
   },
   "6455048": {
+    "org": "contributte",
     "repo": "console",
     "tag": "v0.1.2",
     "name": "v0.1.2",
@@ -855,6 +950,7 @@
     "body": "Bumped! :football: \r\n\r\nDiff: https://github.com/contributte/console/compare/v0.1.1...v0.1.2\r\n\r\nChanges:\r\n- support custom helperSet [thanks @jankonas][#4]"
   },
   "6493118": {
+    "org": "contributte",
     "repo": "bootstrap",
     "tag": "v0.1.2",
     "name": "v0.1.2",
@@ -864,6 +960,7 @@
     "body": "Bumped! :togo: \r\n\r\nDiff: https://github.com/contributte/bootstrap/compare/v0.1.1...v0.1.2\r\n\r\nChanges:\r\n- repair debug tracing"
   },
   "6493134": {
+    "org": "contributte",
     "repo": "bootstrap",
     "tag": "v0.2",
     "name": "v0.2",
@@ -873,6 +970,7 @@
     "body": "Bumped! :avocado: \r\n\r\nDiff: https://github.com/contributte/bootstrap/compare/v0.1.2...v0.2\r\n\r\nChanges:\r\n- rename `Configurator` to `ExtraConfigurator`\r\n- implement more methods:\r\n  - `ExtraConfigurator::setup`\r\n  - `ExtraConfigurator::wrap`\r\n  - `ExtraConfigurator::parseEnvironmentParameters`\r\n  - `ExtraConfigurator::parseAllEnvironmentParameters`\r\n- rename `setAutoDebugMode` to `setEnvDebugMode`\r\n- wrap parsing env variables to `getenv` method (safety :fist_oncoming: )\r\n"
   },
   "6500382": {
+    "org": "contributte",
     "repo": "bootstrap",
     "tag": "v0.2.1",
     "name": "v0.2.1",
@@ -882,6 +980,7 @@
     "body": "Bumped! :do_not_litter: \r\n\r\nDiff: https://github.com/contributte/bootstrap/compare/v0.2...v0.2.1\r\n\r\nChanges:\r\n- `wrap` calls `setDebugMode` immediately"
   },
   "6587955": {
+    "org": "contributte",
     "repo": "mail",
     "tag": "v0.1.1",
     "name": "v0.1.1",
@@ -891,6 +990,7 @@
     "body": "Bump! :qatar: \r\n\r\nDiff: https://github.com/contributte/mail/compare/v0.1...v0.1.1\r\n\r\nChanges:\r\n- overrides nette.mailer properly"
   },
   "6587969": {
+    "org": "contributte",
     "repo": "mail",
     "tag": "v0.1.2",
     "name": "v0.1.2",
@@ -900,6 +1000,7 @@
     "body": "Bump! :foggy: \r\n\r\nDiff: https://github.com/contributte/mail/compare/v0.1.1...v0.1.2\r\n\r\nChanges:\r\n- clone message in `CompositeMailer` (prevents unwanted changes)"
   },
   "6597424": {
+    "org": "contributte",
     "repo": "api",
     "tag": "v0.2.1",
     "name": "v0.2.1",
@@ -909,6 +1010,7 @@
     "body": "Bump! :no_bicycles: \r\n\r\nhttps://github.com/contributte/api/compare/v0.2...v0.2.1\r\n\r\nChanges:\r\n- strickness `ApiRouter` matching"
   },
   "6597427": {
+    "org": "contributte",
     "repo": "logging",
     "tag": "v0.1",
     "name": "v0.1",
@@ -918,6 +1020,7 @@
     "body": "Bump! :fist_oncoming: "
   },
   "6597438": {
+    "org": "contributte",
     "repo": "psr7-http-message",
     "tag": "v0.1.3",
     "name": "v0.1.3",
@@ -927,6 +1030,7 @@
     "body": "Bump! :fast_forward: \r\n\r\nDiff: https://github.com/contributte/psr7-http-message/compare/v0.1.2...v0.1.3\r\n\r\nChanges:\r\n- create `ServerRequest` with cookies, query params, post and upload files"
   },
   "6597439": {
+    "org": "contributte",
     "repo": "utils",
     "tag": "v0.1.1",
     "name": "v0.1.1",
@@ -936,6 +1040,7 @@
     "body": "Bump! :last_quarter_moon: \r\n\r\nDiff: https://github.com/contributte/utils/compare/v0.1...v0.1.1\r\n\r\nChanges:\r\n - fix invalid namespace"
   },
   "6597445": {
+    "org": "contributte",
     "repo": "middlewares",
     "tag": "v0.2.1",
     "name": "v0.2.1",
@@ -945,6 +1050,7 @@
     "body": "Bump! :fast_forward: \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.2...v0.2.1\r\n\r\nChanges:\r\n- fix `AutoBasePathMiddleware` reducing of the path"
   },
   "6597451": {
+    "org": "contributte",
     "repo": "latte",
     "tag": "v0.1",
     "name": "v0.1",
@@ -954,6 +1060,7 @@
     "body": "Bump! :fist_oncoming: "
   },
   "6647625": {
+    "org": "contributte",
     "repo": "console",
     "tag": "v0.1.3",
     "name": "v0.1.3",
@@ -963,6 +1070,7 @@
     "body": "Bumped! :dancer: \r\n\r\nDiff: https://github.com/contributte/console/compare/v0.1.2...v0.1.3\r\n\r\nChanges:\r\n- calling `setAutoExit` fixed in #5 [thanks @forrest79]"
   },
   "6670914": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.3.0",
     "name": "v5.3.0",
@@ -972,6 +1080,7 @@
     "body": "## Added:\r\n- Enabled FilterSelect::setPrompt($prompt = NULL) for setting/resetting filter select prompt, thx @kuchy\r\n- Added counter for showing selected rows count (could be disabled, but enabled by default) thx @dakorpar\r\n\r\n## Fixed:\r\n- FilterRange + FilterDateRange undefined variables in DoctrineCollectionDataSource, thx @JanGalek\r\n- Addd support for groupped NDBT selection, thx @temistokles\r\n- Data items count after filtering in ArrayDataSource, thx @sallyx\r\n- Some JS (using `.length` instead of `.size()`)\r\n\r\n[Changelog](https://github.com/ublaboo/datagrid/compare/v5.2.4...v5.2.5)"
   },
   "6673066": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.3.1",
     "name": "v5.3.1",
@@ -981,6 +1090,7 @@
     "body": "## Fixed:\r\n- When autosubmit is set to `false` and outer rendering `true`, display submit button in collapsible filter block\r\n- Fix for missing event.path in firefox, thx @jasir\r\n\r\n[Changelog](https://github.com/ublaboo/datagrid/compare/v5.3.0...v5.3.1)"
   },
   "6673205": {
+    "org": "contributte",
     "repo": "wordcha",
     "tag": "v0.1",
     "name": "v0.1",
@@ -990,6 +1100,7 @@
     "body": "Bumped! :fist_oncoming: "
   },
   "6673451": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.3.2",
     "name": "v5.3.2",
@@ -999,6 +1110,7 @@
     "body": "## Fixed:\r\n- InlineAdd: Right click on cancel button does not trigger the cancel event anymore, it is also triggered by left mouseup, not mousedown\r\n\r\n[Changelog](https://github.com/ublaboo/datagrid/compare/v5.3.1...v5.3.2)"
   },
   "6678718": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.3.3",
     "name": "v5.3.3",
@@ -1008,6 +1120,7 @@
     "body": "## Added:\r\n- Added ability to set the number of columns in the outer filters, thx @proki \r\n\r\n[Changelog](https://github.com/ublaboo/datagrid/compare/v5.3.2...v5.3.3)"
   },
   "6691861": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.4.0",
     "name": "v5.4.0",
@@ -1017,6 +1130,7 @@
     "body": "## Added:\r\n- Added a possibility to render different content then is edited in the small inline edit\r\n\r\n[Changelog](https://github.com/ublaboo/datagrid/compare/v5.3.3...v5.4.0)"
   },
   "6737137": {
+    "org": "contributte",
     "repo": "latte",
     "tag": "v0.2",
     "name": "v0.2",
@@ -1026,6 +1140,7 @@
     "body": "Bumped! :man_farmer: \r\n\r\nDiff: https://github.com/contributte/latte/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- added new filter `filectime` [#2]\r\n- added new filter `email` [#5]\r\n- added new number formatter [#6]\r\n- automatic `{rev}` `{v}` `{build}` in debugMode [#8]\r\n- modular filters [#9]  "
   },
   "6909164": {
+    "org": "contributte",
     "repo": "api-router-project",
     "tag": "v1.0.0",
     "name": "v1.0.0",
@@ -1035,6 +1150,7 @@
     "body": "# ublaboo/api-router-project is out!\r\n\r\n- `/api/login` endpoint"
   },
   "6934680": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.4.2",
     "name": "v5.4.2",
@@ -1044,6 +1160,7 @@
     "body": "## Fixed:\r\n- Group action checkboxes: fixed counter showing number of selected rows\r\n\r\n[Changelog](https://github.com/ublaboo/datagrid/compare/v5.4.1...v5.4.2)"
   },
   "6977396": {
+    "org": "contributte",
     "repo": "thepay-api",
     "tag": "v3.1.0",
     "name": "v3.1.0",
@@ -1053,6 +1170,7 @@
     "body": ""
   },
   "6977433": {
+    "org": "contributte",
     "repo": "thepay-api",
     "tag": "v3.2.2",
     "name": "v3.2.2",
@@ -1062,6 +1180,7 @@
     "body": ""
   },
   "7055815": {
+    "org": "contributte",
     "repo": "thepay",
     "tag": "v3.2.2",
     "name": "3.2.2",
@@ -1071,6 +1190,7 @@
     "body": "Update library to version [3.2:2](https://github.com/Trejjam/ThePay-lib/releases/tag/v3.2.2)\r\n"
   },
   "7093529": {
+    "org": "contributte",
     "repo": "event-security-bridge",
     "tag": "v0.1",
     "name": "v0.1",
@@ -1080,6 +1200,7 @@
     "body": "Bumped! 👊 \r\n"
   },
   "7094529": {
+    "org": "contributte",
     "repo": "event-application-bridge",
     "tag": "v0.1.1",
     "name": "v0.1.1",
@@ -1089,6 +1210,7 @@
     "body": "Bumped! 🗝 \r\n\r\nChanges:\r\n- added more tests\r\n- added own ruleset\r\n- fix invalid namespace"
   },
   "7105894": {
+    "org": "contributte",
     "repo": "api-router",
     "tag": "v2.0.0",
     "name": "v2.0.0",
@@ -1098,6 +1220,7 @@
     "body": "## Added\r\n- Composer requires php 7.1\r\n- Travis requires php 7.1\r\n- Using php 7.1 return types + method argument types declarations\r\n\r\n## Fixed\r\n- ApiRouterExtension: add ApiRouter annotated presenter route only if there are some remaining methods without ApiRouter annotated presenter method"
   },
   "7106078": {
+    "org": "contributte",
     "repo": "api-docu",
     "tag": "v2.0.0",
     "name": "v2.0.0",
@@ -1107,6 +1230,7 @@
     "body": "## Added\r\n- Composer requires php 7.1\r\n- Using php 7.1 return types + method argument types declarations"
   },
   "7204236": {
+    "org": "contributte",
     "repo": "event-bridges",
     "tag": "v0.1",
     "name": "v0.1",
@@ -1116,6 +1240,7 @@
     "body": "Bumped! 👊 "
   },
   "7225560": {
+    "org": "contributte",
     "repo": "seznamcaptcha",
     "tag": "0.3",
     "name": "v0.3",
@@ -1125,6 +1250,7 @@
     "body": "Bumped! ��� \r\n\r\nChanges:\r\n- enhanced readme\r\n- repair validator [#1] "
   },
   "7226029": {
+    "org": "contributte",
     "repo": "latte-parsedown-extra",
     "tag": "1.0.0",
     "name": "v1.0.0",
@@ -1134,6 +1260,7 @@
     "body": "Bumped! 👊 "
   },
   "7226042": {
+    "org": "contributte",
     "repo": "latte-parsedown-extra",
     "tag": "1.0.1",
     "name": "v1.0.1",
@@ -1143,6 +1270,7 @@
     "body": "Bumped! 🤕 \r\n\r\nDiff: https://github.com/contributte/latte-parsedown-extra/compare/1.0.0...1.0.1\r\n\r\nChanges:\r\n- introduce default filter name [b143e97]"
   },
   "7226046": {
+    "org": "contributte",
     "repo": "latte-parsedown-extra",
     "tag": "1.0.2",
     "name": "v1.0.2",
@@ -1152,6 +1280,7 @@
     "body": "Bumped! 💃 \r\n\r\nDiff: https://github.com/contributte/latte-parsedown-extra/compare/1.0.1...1.0.2\r\n\r\nChanges:\r\n- update CI testing\r\n- enhance readme"
   },
   "7226055": {
+    "org": "contributte",
     "repo": "latte-parsedown-extra",
     "tag": "1.1.0",
     "name": "v1.1.0",
@@ -1161,6 +1290,7 @@
     "body": "Bump! 🈂️ \r\n\r\nDiff: https://github.com/contributte/latte-parsedown-extra/compare/1.0.2...1.1.0\r\n\r\nChanges:\r\n- drop nette ~2.3.0"
   },
   "7226246": {
+    "org": "contributte",
     "repo": "latte-parsedown-extra",
     "tag": "1.2.0",
     "name": "v1.2.0",
@@ -1170,6 +1300,7 @@
     "body": "Bump! 🍨 \r\n\r\nDiff: https://github.com/contributte/latte-parsedown-extra/compare/1.1.0...1.2.0\r\n\r\nChanges: \r\n- refactoring - change to new namespace\r\n- update CI testing\r\n- update readme"
   },
   "7293733": {
+    "org": "contributte",
     "repo": "api",
     "tag": "v0.2.2",
     "name": "v0.2.2",
@@ -1179,6 +1310,7 @@
     "body": "Bump! :goberserk: \r\n\r\nDiff: https://github.com/contributte/api/compare/v0.2.1...v0.2.2\r\n\r\nChanges:\r\n- added schema validators [#1] [#2]\r\n- analyse via phpstan [#10]\r\n- added content negotiation\r\n- many small improvements\r\n"
   },
   "7306551": {
+    "org": "contributte",
     "repo": "di",
     "tag": "v0.2",
     "name": "v0.2",
@@ -1188,6 +1320,7 @@
     "body": "Bump! :a: \r\n\r\nDiff: https://github.com/contributte/di/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- introduces ContextAware [#3]\r\n- rewrite AutoloadExtension -> ResourceExtension [#2]"
   },
   "7314774": {
+    "org": "contributte",
     "repo": "psr7-http-message",
     "tag": "v0.2",
     "name": "v0.2",
@@ -1197,6 +1330,7 @@
     "body": "Bump! 🔡 \r\n\r\nDiff:  https://github.com/contributte/psr7-http-message/compare/v0.1.4...v0.2\r\n\r\nChanges:\r\n - added request/response factories (`Request::of($request)`\r\n - added some useful methods: `appendBody`, `writeBody`, `writeJsonBody`, `getContents`, `getJsonBody`, `hasQueryParam`, `getQueryParam`, `withAttributes`\r\n - added extra traits for Request, ServerRequest, Response\r\n - added huge amount of tests\r\n\r\n"
   },
   "7314924": {
+    "org": "contributte",
     "repo": "middlewares",
     "tag": "v0.3",
     "name": "v0.3",
@@ -1206,6 +1340,7 @@
     "body": "Bump! 🤒 \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.2.1...v0.3\r\n\r\nChanges:\r\n- added own QA ruleset\r\n- added huge amount of tests\r\n- drop middleware namespace \r\n- make nette/http dependency optional\r\n- remove unused middlewares:\r\n  - `ExcludeConditionMiddleware`\r\n  - `Filter/UrlPathFilter`\r\n  - `GroupMiddleware`\r\n  - `RouterMiddleware`\r\n- use SmartObject instead of custom events \r\n- DI: allow use middlewares as defined services or as string\r\n- ChainBuilder: added useful methods + factory\r\n- rename StandaloneMiddlewareExtension -> MiddlewaresExtension\r\n- rename NetteMiddlewareExtension -> NetteMiddlewaresExtension\r\n- backport manual dispatching of Application events"
   },
   "7362058": {
+    "org": "contributte",
     "repo": "phpdoc",
     "tag": "v0.1",
     "name": "v0.1",
@@ -1215,6 +1350,7 @@
     "body": "Bump! 👊 "
   },
   "7362458": {
+    "org": "contributte",
     "repo": "api",
     "tag": "v0.3",
     "name": "v0.3",
@@ -1224,6 +1360,7 @@
     "body": "Bump! 🔪 \r\n\r\nDiff: https://github.com/contributte/api/compare/v0.2.2...v0.3\r\n\r\nChanges:\r\n - namespace refactoring (drop Bridges)\r\n - rename Factory/Generator to Serialization\r\n - rename Validators to Validations\r\n - ApiResponse/ApiRequest don't composite PSR7, they extend\r\n - simplify whole middlewares usage\r\n - simplify ApiExtension\r\n - added new Api2MiddlewaresExtension to easy use of middlewares\r\n - simplify Transformers (from 2 interfaces to 1 interface)\r\n - direct dependencies: contributte/psr7-http-message, contributte/middlewares, contributte/phpdoc\r\n - tiny micro refactorings\r\n - added huge amount of tests \r\n\r\n"
   },
   "7425895": {
+    "org": "nettrine",
     "repo": "migrations",
     "tag": "v0.1",
     "name": "v0.1",
@@ -1233,6 +1370,7 @@
     "body": "Bump! :fist_oncoming: "
   },
   "7428178": {
+    "org": "contributte",
     "repo": "logging",
     "tag": "v0.2",
     "name": "v0.2",
@@ -1242,6 +1380,7 @@
     "body": "Bump! :denmark: \r\n\r\nDiff: https://github.com/contributte/logging/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- refactoring\r\n- added docs\r\n- added Sentry logging (thanks @benijo)"
   },
   "7535298": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.4.5",
     "name": "v5.4.5",
@@ -1251,6 +1390,7 @@
     "body": "## Added:\r\n- `DataGrid::allowRowsMultiAction`, viz https://ublaboo.org/datagrid/row#allow_action_of_multi_action\r\n\r\n[Changelog](https://github.com/ublaboo/datagrid/compare/v5.4.4...v5.4.5)"
   },
   "7824024": {
+    "org": "nettrine",
     "repo": "fixtures",
     "tag": "v0.1",
     "name": "v0.1",
@@ -1260,6 +1400,7 @@
     "body": "Bump! 👊 "
   },
   "7879673": {
+    "org": "contributte",
     "repo": "di",
     "tag": "v0.2.1",
     "name": "v0.2.1",
@@ -1269,6 +1410,7 @@
     "body": "Bump! 👩 \r\n\r\nDiff: https://github.com/contributte/di/compare/v0.2...v0.2.1\r\n\r\nChanges:\r\n- added **inject** option to ResourceExtension\r\n- added **MutableExtension**"
   },
   "7943286": {
+    "org": "contributte",
     "repo": "codeception",
     "tag": "v0.7.7",
     "name": "v0.7.7",
@@ -1278,6 +1420,7 @@
     "body": "- Fixed compatibility with PHP 7.2"
   },
   "7944303": {
+    "org": "contributte",
     "repo": "codeception",
     "tag": "v1.0.0-alpha.5",
     "name": "v1.0.0-alpha.5",
@@ -1287,6 +1430,7 @@
     "body": "- Improved type hints\r\n- Simplified development dependencies"
   },
   "8010334": {
+    "org": "nettrine",
     "repo": "extensions",
     "tag": "v0.2",
     "name": "v0.2",
@@ -1296,6 +1440,7 @@
     "body": "Bump! 👍 \r\n\r\nDiff: https://github.com/nettrine/extensions/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- changed package name to nettrine/extensions [#3]\r\n- fix namespace autoloading [#4]\r\n- improvements"
   },
   "8058560": {
+    "org": "contributte",
     "repo": "event-dispatcher",
     "tag": "v0.3.1",
     "name": "v0.3.1",
@@ -1305,6 +1450,7 @@
     "body": "Bumped! :vatican_city: \r\n\r\nDiff: https://github.com/contributte/event-dispatcher/compare/v0.3...v0.3.1\r\n\r\nChanges:\r\n- hotfix bug with multiple events triggering\r\n- hotfix extension name [#4]\r\n- use travis stages\r\n- update quality assurances (ninjify)"
   },
   "8065961": {
+    "org": "contributte",
     "repo": "facebook",
     "tag": "v0.1",
     "name": "v0.1",
@@ -1314,6 +1460,7 @@
     "body": "First bump! :fist_oncoming: "
   },
   "8177975": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.4.6",
     "name": "",
@@ -1323,6 +1470,7 @@
     "body": ""
   },
   "8181325": {
+    "org": "contributte",
     "repo": "neonizer",
     "tag": "v0.1",
     "name": "v0.1",
@@ -1332,6 +1480,7 @@
     "body": "First bump! 👊 "
   },
   "8196012": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.4.7",
     "name": "v5.4.7",
@@ -1341,6 +1490,7 @@
     "body": "- Fix for non-functional text filter in PostgreSQL + dibi, thanks @elring "
   },
   "8254191": {
+    "org": "nettrine",
     "repo": "annotations",
     "tag": "v0.1",
     "name": "v0.1",
@@ -1350,6 +1500,7 @@
     "body": "First bump! :fist_oncoming: "
   },
   "8301262": {
+    "org": "contributte",
     "repo": "thepay",
     "tag": "v3.4.0-rc1",
     "name": "3.4.0 RC1",
@@ -1359,6 +1510,7 @@
     "body": "- Update core library\r\n- Update to PHP 7.1\r\n- Add strict signatures"
   },
   "8306992": {
+    "org": "contributte",
     "repo": "logging",
     "tag": "v0.2.1",
     "name": "v0.2.1",
@@ -1368,6 +1520,7 @@
     "body": "Bump! 🤒 \r\n\r\nDiff: https://github.com/contributte/logging/compare/v0.2...v0.2.1\r\n\r\nChanges:\r\n- fix multiple formatters bug [#7]\r\n- change Throwable to Exception [#8] [#9]  "
   },
   "8466600": {
+    "org": "contributte",
     "repo": "psr7-http-message",
     "tag": "v0.3",
     "name": "v0.3",
@@ -1377,6 +1530,7 @@
     "body": "Bump! 🍹 \r\n\r\nDiff:  https://github.com/contributte/psr7-http-message/compare/v0.2...v0.3\r\n\r\nChanges:\r\n - fix using traits [162f371][1faa3e8]\r\n- add simple Micro class to send response [6eb1f8d]\r\n- add ProxyRequest, ProxyResponse [9b1916a]\r\n- fix passing original body [e4ce769][#6]\r\n- micro enhancements\r\n\r\n"
   },
   "8466825": {
+    "org": "contributte",
     "repo": "middlewares",
     "tag": "v0.4",
     "name": "v0.4",
@@ -1386,6 +1540,7 @@
     "body": "Bump! 🤒 \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.3...0.4\r\n\r\nChanges:\r\n- implement security middleware [cb920bd]\r\n- remove SmartObject [eb17e72]\r\n- change attributes name (from C-* to contributte.*) [8baa2a5]\r\n- readme typo [4d94d6c][#7]\r\n- minor typos"
   },
   "8470981": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.4.8",
     "name": "v5.4.8",
@@ -1395,6 +1550,7 @@
     "body": "- DateTimeHelper: added check for unix timestamp (great for displaying date/datetime columns with unix timestamp value set in data)"
   },
   "8471661": {
+    "org": "contributte",
     "repo": "datagrid-elasticsearch-data-source",
     "tag": "v1.0.0",
     "name": "v1.0.0",
@@ -1404,6 +1560,7 @@
     "body": "# First release\r\n\r\n- Complete `ElasticsearchDataSource`\r\n- Complete support class `SearchParamsBuilder`\r\n- Tests for SearchParamsBuilder"
   },
   "8525233": {
+    "org": "contributte",
     "repo": "middlewares",
     "tag": "v0.5",
     "name": "v0.5",
@@ -1413,6 +1570,7 @@
     "body": "Bump! :falkland_islands: \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- [BC] change `onStartup`, `onRequest`, `onResponse`, `onError` to `addListener(type, callback)` ([more in docs](https://github.com/contributte/middlewares/tree/master/.docs#application))"
   },
   "8578597": {
+    "org": "contributte",
     "repo": "console",
     "tag": "v0.2",
     "name": "v0.2",
@@ -1422,6 +1580,7 @@
     "body": "Bump! 🐐  \r\n\r\nDiff: https://github.com/contributte/console/compare/v0.1.3...v0.2\r\n\r\nChanges:\r\n- integrate lazy-command loader (symfony 3.4) [#7]\r\n- deprecate AbstractCommand (thanks @mabar) [#9]\r\n- sync readme"
   },
   "8605600": {
+    "org": "nettrine",
     "repo": "migrations",
     "tag": "v0.2",
     "name": "v0.2",
@@ -1431,6 +1590,7 @@
     "body": "Bump! 💃 \r\n\r\nDiff: https://github.com/nettrine/migrations/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- update CI process\r\n- added phpstan\r\n- update quality assurance\r\n- register helper at compile time (https://github.com/nettrine/migrations/commit/e457045f22f9f5aa9bbea9efa884abf6fe8c2cfe)\r\n- readme for kdyby integration (https://github.com/nettrine/migrations/commit/8410bb0efe6b57c024696c98e3e99b73904f7707)\r\n\r\n-----\r\n\r\nIntegration with Kdyby\\Console.\r\n\r\n```yaml\r\ndecorator:\r\n    Symfony\\Component\\Console\\Command\\Command:\r\n        tags: [kdyby.console.command]\r\n    Symfony\\Component\\Console\\Helper\\Helper:\r\n        tags: [kdyby.console.helper]\r\n```"
   },
   "8605907": {
+    "org": "contributte",
     "repo": "di",
     "tag": "v0.2.2",
     "name": "v0.2.2",
@@ -1440,6 +1600,7 @@
     "body": "Bump! 🍂 \r\n\r\nDiff: https://github.com/contributte/di/compare/v0.2.1...v0.2.2\r\n\r\nChanges:\r\n- compatible with nette/robot-loader >= 3.0.0 [#6]"
   },
   "8668223": {
+    "org": "contributte",
     "repo": "anabelle",
     "tag": "v1.1.11",
     "name": "Version 1.1.11",
@@ -1449,6 +1610,7 @@
     "body": "- add support to include files of every type (e. g. json)"
   },
   "8705766": {
+    "org": "contributte",
     "repo": "codeception",
     "tag": "v0.8.0",
     "name": "v0.8.0",
@@ -1458,6 +1620,7 @@
     "body": "- Added simple extension for PHPStan\r\n- NetteDIModule no longer compiles the Container before each test by default\r\n- Added newContainerForEachTest option (closes #3)\r\n- Removed configurator option\r\n- Removed DoctrineModule\r\n- Added phpstan to CI\r\n- Updated to PHP 7.1\r\n- Added .editorconfig file\r\n- Added scripts section to composer.json\r\n- Added PHP 7 strict types to all files\r\n- Removed copyright headers from src directory\r\n- Removed Nette\\Object\r\n- Simplified Arachne\\Codeception\\Http\\Request class\r\n- Simplified development dependencies\r\n- Remove usage of deprecated method in nette/di"
   },
   "8747013": {
+    "org": "contributte",
     "repo": "anabelle",
     "tag": "v1.1.12",
     "name": "v1.1.12",
@@ -1467,6 +1630,7 @@
     "body": "- FIxed php 7.2 compatibility"
   },
   "8865246": {
+    "org": "contributte",
     "repo": "security",
     "tag": "v0.1",
     "name": "v0.1",
@@ -1476,6 +1640,7 @@
     "body": "First bump! :fist_oncoming: \r\n"
   },
   "8880067": {
+    "org": "contributte",
     "repo": "codeception",
     "tag": "v0.8.1",
     "name": "v0.8.1",
@@ -1485,6 +1650,7 @@
     "body": "- The `useConfigFiles` method now works with absolute paths (by @fmasa)\r\n"
   },
   "8977934": {
+    "org": "contributte",
     "repo": "live-form-validation",
     "tag": "v1.9.0",
     "name": "v1.9.0",
@@ -1494,6 +1660,7 @@
     "body": "Bump! 🏭 \r\n\r\nDiff: https://github.com/contributte/live-form-validation/compare/v1.8.0...v1.9.0\r\n\r\nChanges:\r\n- moved under contributte organization\r\n- created NPM package [#35]\r\n- added Travis CI releases\r\n- fixed ReferenceError prop is not defined\r\n- fixed range validator for min & max validator [#38]"
   },
   "9090371": {
+    "org": "contributte",
     "repo": "reCAPTCHA",
     "tag": "2.1.0",
     "name": "v2.1.0",
@@ -1503,6 +1670,7 @@
     "body": "Bumped! 🉑 \r\n\r\nDiff: https://github.com/contributte/reCAPTCHA/compare/2.0.1...2.1.0\r\n\r\nChanges:\r\n- PHP 7.2 compability [#17][thanks @JanGalek]"
   },
   "9112338": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.4.11",
     "name": "v5.4.11",
@@ -1512,6 +1680,7 @@
     "body": "- Assets: fixed hiding of inline edit button"
   },
   "9133742": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "5.4.12",
     "name": "5.4.12",
@@ -1521,6 +1690,7 @@
     "body": "- TButtonRenderer trait (so even ToolbarButton can be rendered by custom callback)"
   },
   "9133915": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "5.4.13",
     "name": "5.4.13",
@@ -1530,6 +1700,7 @@
     "body": "- Fixed TButtonRenderer to support php < 7.1"
   },
   "9147919": {
+    "org": "apitte",
     "repo": "presenter",
     "tag": "v0.1",
     "name": "v0.1",
@@ -1539,6 +1710,7 @@
     "body": "First bump! 👊"
   },
   "9149128": {
+    "org": "apitte",
     "repo": "core",
     "tag": "v0.1",
     "name": "v0.1",
@@ -1548,6 +1720,7 @@
     "body": "First bump! :fist_oncoming: "
   },
   "9170145": {
+    "org": "contributte",
     "repo": "datagrid-nette-database-data-source",
     "tag": "v1.1.0",
     "name": "v1.1.0",
@@ -1557,6 +1730,7 @@
     "body": "- Support for exactSearch/splitWordsSearch properties in FilterText (thanks @kuchy !)"
   },
   "9170357": {
+    "org": "contributte",
     "repo": "datagrid-nette-database-data-source",
     "tag": "v1.1.1",
     "name": "v1.1.1",
@@ -1566,6 +1740,7 @@
     "body": "- Fix Ambiguous class in tests (thanks @holantomas)"
   },
   "9193573": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.5.0",
     "name": "v5.5.0",
@@ -1575,6 +1750,7 @@
     "body": "## New features\r\n\r\n- Link creation update - look for signal handler in the whole way up to the UI\\Presenter, fixes #592\r\n- ColumnsSummary: added support for custom renderer (thanks @vitkutny)\r\n- Add option to set render condition callback on action (thanks @jankonas)\r\n\r\n## Fixes\r\n\r\n- Fixed sorting on column, which has defined default descending sort (thanks @proki)\r\n- Use single quotes when finding option in inline edit (thanks @FilipLukac)"
   },
   "9208202": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.5.1",
     "name": "v5.5.1",
@@ -1584,6 +1760,7 @@
     "body": "Fixes:\r\n\r\n- TLink: Try to create presenter link when there is a colon in the link string (fixes link creation to presenter action)"
   },
   "9208785": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.5.2",
     "name": "v5.5.2",
@@ -1593,6 +1770,7 @@
     "body": "- Fixed sorting: let the previous remain after filtering"
   },
   "9209875": {
+    "org": "contributte",
     "repo": "mailing",
     "tag": "v0.1",
     "name": "v0.1",
@@ -1602,6 +1780,7 @@
     "body": "First bump! :fist_oncoming: "
   },
   "9209893": {
+    "org": "contributte",
     "repo": "mail",
     "tag": "v0.1.3",
     "name": "v0.1.3",
@@ -1611,6 +1790,7 @@
     "body": "Bump! :boat: \r\n\r\nDiff: https://github.com/contributte/mail/compare/v0.1.2...v0.1.3\r\n\r\nChanges:\r\n- QA improvements\r\n- README improvements (thanks @mabar) \r\n- added `DevNullMailer`"
   },
   "9223958": {
+    "org": "apitte",
     "repo": "core",
     "tag": "v0.1.1",
     "name": "",
@@ -1620,6 +1800,7 @@
     "body": "Bump! :boat: \r\n\r\nDiff: https://github.com/apitte/core/compare/v0.1...v0.1.1\r\n\r\nChanges:\r\n- typo [#5] \r\n- allow prefixed annotations [#6, #7] \r\n- better RequestParameters [#8]"
   },
   "9223959": {
+    "org": "apitte",
     "repo": "openapi",
     "tag": "v0.1",
     "name": "v0.1",
@@ -1629,6 +1810,7 @@
     "body": "First bump! :fist_oncoming: "
   },
   "9223966": {
+    "org": "apitte",
     "repo": "debug",
     "tag": "v0.1",
     "name": "v0.1",
@@ -1638,6 +1820,7 @@
     "body": "First bump! :fist_oncoming: "
   },
   "9223970": {
+    "org": "apitte",
     "repo": "middlewares",
     "tag": "v0.1",
     "name": "v0.1",
@@ -1647,6 +1830,7 @@
     "body": "First bump! :fist_oncoming: "
   },
   "9223971": {
+    "org": "apitte",
     "repo": "negotiation",
     "tag": "v0.1",
     "name": "v0.1",
@@ -1656,6 +1840,7 @@
     "body": "First bump! :fist_oncoming: "
   },
   "9223973": {
+    "org": "apitte",
     "repo": "negotiation",
     "tag": "v0.1.1",
     "name": "v0.1.1",
@@ -1665,6 +1850,7 @@
     "body": "Bump! :boat: \r\n\r\nDiff: https://github.com/apitte/negotiation/compare/v0.1...v0.1.1\r\n\r\nChanges:\r\n- bugfix ResponseEntityDecorator.php"
   },
   "9223975": {
+    "org": "apitte",
     "repo": "fullstack",
     "tag": "v0.1",
     "name": "v0.1",
@@ -1674,6 +1860,7 @@
     "body": "First bump! :fist_oncoming: "
   },
   "9224001": {
+    "org": "apitte",
     "repo": "openapi",
     "tag": "v0.1.1",
     "name": "v0.1.1",
@@ -1683,6 +1870,7 @@
     "body": "Bump! ✈️\r\n\r\nDiff: https://github.com/apitte/openapi/compare/v0.1...v0.1.1\r\n\r\nChanges:\r\n\r\n- extending request params\r\n- allow request body"
   },
   "9227526": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.5.3",
     "name": "v5.5.3",
@@ -1692,6 +1880,7 @@
     "body": "- Assets: added .npmignore for exluding PHP files and other npm-irrelevant files"
   },
   "9278849": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.5.4",
     "name": "v5.5.4",
@@ -1701,6 +1890,7 @@
     "body": "- Fixed sorting of column after returning from different page and then manipulating with filter"
   },
   "9316666": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.5.5",
     "name": "v5.5.5",
@@ -1710,6 +1900,7 @@
     "body": "- package.json update - to latest version"
   },
   "9417760": {
+    "org": "contributte",
     "repo": "thepay-api",
     "tag": "v3.4.0",
     "name": "v3.4.0",
@@ -1719,6 +1910,7 @@
     "body": "Update of official library. Changes in official [library](https://github.com/Trejjam/ThePay-lib/compare/v3.2.2...v3.4.0).\r\n\r\nChanges in namespace [branch](https://github.com/Trejjam/ThePay-lib/compare/3f20273545c2cc9c6f41bc3262c8cf3673dd4caf...aef9b4c8340ede005ba55f0df03188afd21f7d9a)"
   },
   "9417774": {
+    "org": "contributte",
     "repo": "thepay",
     "tag": "v3.4.0",
     "name": "v3.4.0",
@@ -1728,6 +1920,7 @@
     "body": "This release contains\r\n- Update core [library](https://github.com/Trejjam/ThePay-lib/compare/3f20273545c2cc9c6f41bc3262c8cf3673dd4caf...aef9b4c8340ede005ba55f0df03188afd21f7d9a)\r\n- Update to PHP 7.1\r\n- Add strict signatures"
   },
   "9420969": {
+    "org": "contributte",
     "repo": "anabelle",
     "tag": "v1.1.13",
     "name": "v1.1.13",
@@ -1737,6 +1930,7 @@
     "body": "- Added new macro (MacroInlineFileLink) to link external files to documentations output directory"
   },
   "9477589": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.5.6",
     "name": "v5.5.6",
@@ -1746,6 +1940,7 @@
     "body": "- Added possibility to render yet another Nette\\Forms\\Container in inline edit container"
   },
   "9536355": {
+    "org": "contributte",
     "repo": "thepay",
     "tag": "v4.0.0-rc0",
     "name": "v4.0.0 RC0",
@@ -1755,6 +1950,7 @@
     "body": "This release use patched core [library](https://github.com/Trejjam/ThePay-lib/tree/namespaces).  \r\nCore library was migrated to PHP 7.1 with forced types and it is no longer only namespaced official library. It could be **BC break**. But changes in official library will be ported into that core library.\r\n\r\nLibrary return:\r\n- `TRUE`/`FALSE` from bool property which in previous version returns `'1'`/`'0'`.\r\n- `float` number instead of `(string)number_format($number, 2, '.', '')`\r\n- `int` number instead of `(string)$number`\r\n"
   },
   "9536453": {
+    "org": "apitte",
     "repo": "core",
     "tag": "v0.2",
     "name": "v0.2",
@@ -1764,6 +1960,7 @@
     "body": "Bump! 🇫🇰 \r\n\r\nDiff: https://github.com/apitte/core/compare/v0.1.1...v0.2\r\n\r\nChanges:\r\n- added RequestMapper/ResponseMapper + validation\r\n- better ArraySerializator\r\n- added frequently used method to Endpoint\r\n- simplify events in Dispatcher\r\n- pass query parameters into attributes\r\n- validate only fullpath (GroupPath+ControllerPath+Path)\r\n- better exception [#13]"
   },
   "9536469": {
+    "org": "apitte",
     "repo": "openapi",
     "tag": "v0.2",
     "name": "v0.2",
@@ -1773,6 +1970,7 @@
     "body": "Bump! 🇫🇰 \r\n\r\nDiff: https://github.com/apitte/openapi/compare/v0.1.1...v0.2\r\n\r\nChanges:\r\n- just sync with apitte/core"
   },
   "9536475": {
+    "org": "apitte",
     "repo": "negotiation",
     "tag": "v0.2",
     "name": "v0.2",
@@ -1782,6 +1980,7 @@
     "body": "Bump! 🇫🇰 \r\n\r\nDiff: https://github.com/apitte/negotiation/compare/v0.1.1...v0.2\r\n\r\nChanges:\r\n- display better message if there's exception\r\n- added MappingEntity"
   },
   "9536498": {
+    "org": "apitte",
     "repo": "middlewares",
     "tag": "v0.2",
     "name": "v0.2",
@@ -1791,6 +1990,7 @@
     "body": "Bump! 🇫🇰 \r\n\r\nDiff: https://github.com/apitte/middlewares/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- just sync with apitte/core"
   },
   "9536507": {
+    "org": "apitte",
     "repo": "debug",
     "tag": "v0.2",
     "name": "v0.2",
@@ -1800,6 +2000,7 @@
     "body": "Bump! 🇫🇰 \r\n\r\nDiff: https://github.com/apitte/debug/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- added ValidationBlueScreen\r\n- display apitte bluescreens in compile-time also"
   },
   "9536612": {
+    "org": "apitte",
     "repo": "presenter",
     "tag": "v0.2",
     "name": "v0.2",
@@ -1809,6 +2010,7 @@
     "body": "Bump! 🇫🇰 \r\n\r\nDiff: https://github.com/apitte/presenter/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- just sync with apitte/core"
   },
   "9536732": {
+    "org": "apitte",
     "repo": "fullstack",
     "tag": "v0.2",
     "name": "v0.2",
@@ -1818,6 +2020,7 @@
     "body": "Bump! 🇫🇰 \r\n\r\nDiff: https://github.com/apitte/fullstack/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- use apitte v0.2 "
   },
   "9656091": {
+    "org": "contributte",
     "repo": "thepay",
     "tag": "v4.0.0-rc1",
     "name": "v4.0.0 RC1",
@@ -1827,6 +2030,7 @@
     "body": "This release use patched core [library](https://github.com/Trejjam/ThePay-lib/tree/namespaces).  \r\nCore library was migrated to PHP 7.1 with forced types and it is no longer only namespaced official library. It could be **BC break**. But changes in official library will be ported into that core library.\r\nCore library was also migrated from DateTime to DateTimeImmutable, it is also **BC break**.\r\n\r\nLibrary returns (and requires):\r\n- `TRUE`/`FALSE` from bool property which in previous version returns `'1'`/`'0'`.\r\n- `float` number instead of `(string)number_format($number, 2, '.', '')`\r\n- `int` number instead of `(string)$number`\r\n- `DateTimeImmutable` instead of `DateTime`\r\n"
   },
   "9722185": {
+    "org": "contributte",
     "repo": "event-dispatcher",
     "tag": "v0.4",
     "name": "v0.4",
@@ -1836,6 +2040,7 @@
     "body": "Bumped! :boar: \r\n\r\nDiff: https://github.com/contributte/event-dispatcher/compare/v0.3.1...v0.4\r\n\r\nChanges:\r\n- allow symfony 4 [thanks @enumag]\r\n- improve docs"
   },
   "9748457": {
+    "org": "contributte",
     "repo": "scheduler",
     "tag": "v0.1",
     "name": "v0.1",
@@ -1845,6 +2050,7 @@
     "body": "Bump! 👊 "
   },
   "9751032": {
+    "org": "contributte",
     "repo": "anabelle",
     "tag": "v1.1.17",
     "name": "v1.1.17",
@@ -1854,6 +2060,7 @@
     "body": "- Added styles for table"
   },
   "9751741": {
+    "org": "contributte",
     "repo": "tracy",
     "tag": "v0.1",
     "name": "v0.1",
@@ -1863,6 +2070,7 @@
     "body": "Bump! 👊 "
   },
   "9754240": {
+    "org": "apitte",
     "repo": "console",
     "tag": "v0.1",
     "name": "v0.1",
@@ -1872,6 +2080,7 @@
     "body": "Bump! 👊 "
   },
   "9836993": {
+    "org": "nettrine",
     "repo": "dbal",
     "tag": "v0.1",
     "name": "v0.1",
@@ -1881,6 +2090,7 @@
     "body": "Bump! 👊 "
   },
   "9850075": {
+    "org": "contributte",
     "repo": "console",
     "tag": "v0.3",
     "name": "v0.3",
@@ -1890,6 +2100,7 @@
     "body": "Bump! :tropical_drink: \r\n\r\nDiff: https://github.com/contributte/console/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- allow symfony console 4 (thanks @enumag) [ 3f22e3b1e6a830a87c9b451fc9b960acd862c588 ]\r\n- lazy loading fix (thanks @JanTvrdik) [ c7382da15fa12c3372fa7d95ba29c81753f2876c ]"
   },
   "9855144": {
+    "org": "contributte",
     "repo": "anabelle",
     "tag": "v1.1.19",
     "name": "v1.1.19",
@@ -1899,6 +2110,7 @@
     "body": "- MacroBlockVariableOutput: added automatic identation"
   },
   "9855497": {
+    "org": "contributte",
     "repo": "anabelle",
     "tag": "v1.1.20",
     "name": "v1.1.20",
@@ -1908,6 +2120,7 @@
     "body": "- MacroBlockVariable made non-greedy"
   },
   "9878552": {
+    "org": "nettrine",
     "repo": "fixtures",
     "tag": "v0.2",
     "name": "v0.2",
@@ -1917,6 +2130,7 @@
     "body": "Bump! :camera:\r\n\r\nDiff: https://github.com/nettrine/fixtures/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- support Symfony/Console 4.0"
   },
   "9890386": {
+    "org": "contributte",
     "repo": "anabelle",
     "tag": "v1.2.0",
     "name": "v1.2.0",
@@ -1926,6 +2140,7 @@
     "body": "- Added ability to use inline + block macros in block macros and inline macros in inline macros (both to max depth of 3)"
   },
   "10021002": {
+    "org": "contributte",
     "repo": "facebook",
     "tag": "v0.2",
     "name": "v0.2",
@@ -1935,6 +2150,7 @@
     "body": "Bump! :1st_place_medal: \r\n\r\nDiff: [v0.1...v0.2](https://github.com/contributte/facebook/compare/v0.1...v0.2)\r\n\r\nChanges:\r\n* `Facebook` and `FacebookFactory` are now services\r\n* Default usage of session PersistentDataHandler + session autostart\r\n* You can now specify `state` parameter in `FacebookLogin::getLoginUrl()`\r\n* `defaultGraphVersion` and `persistentDataHandler` added as options"
   },
   "10021057": {
+    "org": "contributte",
     "repo": "fio",
     "tag": "v0.1",
     "name": "v0.1",
@@ -1944,6 +2160,7 @@
     "body": "First bump! :fist_oncoming: "
   },
   "10021085": {
+    "org": "contributte",
     "repo": "fio",
     "tag": "v0.2",
     "name": "v0.2",
@@ -1953,6 +2170,7 @@
     "body": "Bump! :1st_place_medal: \r\n\r\nDiff: [v0.1...v0.2](https://github.com/contributte/fio/compare/v0.1...v0.2)\r\n\r\nChanges:\r\n- upgrade dependencies\r\n- change namespace `Markette` to `Contributte`\r\n- change spaces to tabs (follow the `.editorconfig`)"
   },
   "10034762": {
+    "org": "contributte",
     "repo": "nextras-orm-events",
     "tag": "0.3",
     "name": "v0.3",
@@ -1962,6 +2180,7 @@
     "body": "Bumped! :100: \r\n\r\nDiff: https://github.com/contributte/nextras-orm-events/compare/0.2.1...0.3\r\n\r\nChanges:\r\n* Register listeners lazily [#1]\r\n* Added support for [nextras/orm](https://github.com/nextras/orm) ^3.0.1\r\n* Change namespace (`Minetro/*` -> `Contributte/*`) "
   },
   "10038892": {
+    "org": "contributte",
     "repo": "latte-email",
     "tag": "1.0.0",
     "name": "v1.0.0",
@@ -1971,6 +2190,7 @@
     "body": "Bump! 👊 "
   },
   "10038903": {
+    "org": "contributte",
     "repo": "latte-email",
     "tag": "1.1.0",
     "name": "v1.1.0",
@@ -1980,6 +2200,7 @@
     "body": "Bump! 🇫🇰 \r\n\r\nDiff: https://github.com/contributte/latte-email/compare/1.0.0...1.1.0\r\n\r\nChanges:\r\n- update readme\r\n- added gitattributes"
   },
   "10038905": {
+    "org": "contributte",
     "repo": "latte-email",
     "tag": "1.2.0",
     "name": "v1.2.0",
@@ -1989,6 +2210,7 @@
     "body": "Bump! *️⃣ \r\n\r\nDiff: https://github.com/contributte/latte-email/compare/1.1.0...1.2.0\r\n\r\nChanges:\r\n- added support for noescape strings"
   },
   "10038907": {
+    "org": "contributte",
     "repo": "latte-email",
     "tag": "1.2.1",
     "name": "v1.2.1",
@@ -1998,6 +2220,7 @@
     "body": "Bump! 🐨 \r\n\r\nDiff: https://github.com/contributte/latte-email/compare/1.2.0...1.2.1\r\n\r\nChanges:\r\n- update badges\r\n- update tests"
   },
   "10038934": {
+    "org": "contributte",
     "repo": "latte-email",
     "tag": "2.0.0",
     "name": "v2.0.0",
@@ -2007,6 +2230,7 @@
     "body": "Bump! ��� \r\n\r\nDiff: https://github.com/contributte/latte-email/compare/1.2.1...2.0.0\r\n\r\nChanges:\r\n- PHP 5.4 -> PHP 5.6\r\n- change namespace\r\n- apply codesniffer"
   },
   "10041775": {
+    "org": "contributte",
     "repo": "api-router",
     "tag": "v2.0.3",
     "name": "v2.0.3",
@@ -2016,6 +2240,7 @@
     "body": "- Allow ApiRouteSpec::$description to be null"
   },
   "10190969": {
+    "org": "contributte",
     "repo": "thepay-api",
     "tag": "v3.5.1",
     "name": "v3.5.1",
@@ -2025,6 +2250,7 @@
     "body": "Update of an official library. Changes in official https://github.com/Trejjam/ThePay-lib/compare/v3.4.0...v3.5.1\r\n\r\nChanges in namespace [branch](https://github.com/Trejjam/ThePay-lib/compare/aef9b4c8340ede005ba55f0df03188afd21f7d9a...c6c33dd5a90cf32e2c2c456dcfe72ea39bdd234e)"
   },
   "10192178": {
+    "org": "contributte",
     "repo": "thepay",
     "tag": "v4.0.1-rc0",
     "name": "v4.0.1 RC0",
@@ -2034,6 +2260,7 @@
     "body": "This release adds support for Helper\\Card::getCardInfo from the original library"
   },
   "10433537": {
+    "org": "contributte",
     "repo": "reCAPTCHA",
     "tag": "2.1.1",
     "name": "v2.1.1",
@@ -2043,6 +2270,7 @@
     "body": "Bumped! :tropical_drink: \r\n\r\nDiff: https://github.com/contributte/reCAPTCHA/compare/2.1.0...2.1.1\r\n\r\nChanges:\r\n- improved PHP 7.2 (thanks @PavelJurasek)\r\n- use nette/utils 2.5 [#18] (thanks @PavelJurasek)"
   },
   "10433635": {
+    "org": "contributte",
     "repo": "reCAPTCHA",
     "tag": "3.0.0",
     "name": "v3.0.0",
@@ -2052,6 +2280,7 @@
     "body": "Bumped! :tada: \r\n\r\nDiff: https://github.com/contributte/reCAPTCHA/compare/2.1.1...3.0.0\r\n\r\nChanges:\r\n- change namespace to Contributte\r\n- update dependencies\r\n- update readmes (added for 2.x)\r\n- added codestyle checker"
   },
   "10445853": {
+    "org": "contributte",
     "repo": "neonizer",
     "tag": "v0.2",
     "name": "v0.2",
@@ -2061,6 +2290,7 @@
     "body": "Bump! :tada: \r\n\r\nDiff: https://github.com/contributte/neonizer/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- internal refactoring\r\n- PHP 7.1 [#3]\r\n- support more commands:\r\n  - validate (thanks @jiripudil) [#2] [#1]\r\n  - set\r\n\r\n-----\r\n\r\n```json\r\n\"scripts\": {\r\n    \"set-config\": [\r\n      \"Contributte\\\\Neonizer\\\\NeonizerExtension::set\"\r\n    ]\r\n}\r\n```\r\n\r\nThen run:\r\n\r\n```sh\r\ncomposer set-config -- $(pwd)/app/config/config.local.neon --database.host=localhost --database.user=neonizer\r\n```\r\n\r\nDo you like **environment variables**? \r\n\r\n\r\n```sh\r\ncomposer set-config -- $(pwd)/app/config/config.local.neon --database.host=$DATABASE_HOST --database.user=$DATABASE_USER\r\n```\r\n"
   },
   "10504357": {
+    "org": "contributte",
     "repo": "utils",
     "tag": "v0.2",
     "name": "v0.2",
@@ -2070,6 +2300,7 @@
     "body": "Bump! :sagittarius: \r\n\r\nDiff: https://github.com/contributte/utils/compare/v0.1.1...v0.2\r\n\r\nChanges:\r\n- use nette/utils 2.5\r\n- strict ruleset\r\n- added Strings::slashless [#3]"
   },
   "10661185": {
+    "org": "contributte",
     "repo": "application",
     "tag": "v0.3",
     "name": "v0.3",
@@ -2079,6 +2310,7 @@
     "body": "Bumped! 👜 \r\n\r\nDiff: https://github.com/contributte/application/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- acquire [ublaboo/responses](https://github.com/ublaboo/responses) [#12] (thanks @paveljanda)\r\n- added NullControl, NullComponet [#9][#10]\r\n- added StructuredTemplates (thanks @benijo)"
   },
   "10667941": {
+    "org": "contributte",
     "repo": "event-dispatcher-extra",
     "tag": "v0.1",
     "name": "v0.1",
@@ -2088,6 +2320,7 @@
     "body": "First bump! 👊 "
   },
   "10672782": {
+    "org": "nettrine",
     "repo": "dbal",
     "tag": "v0.2",
     "name": "v0.2",
@@ -2097,6 +2330,7 @@
     "body": "Bump! :tropical_drink: \r\n\r\nDiff: https://github.com/nettrine/dbal/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- improve readme [#5] (thanks @benijo)\r\n- added EntityManage\r\n- merge panels together [#4]\r\n- fix connection panel\r\n- added more tests"
   },
   "10673520": {
+    "org": "nettrine",
     "repo": "orm",
     "tag": "v0.1",
     "name": "v0.1",
@@ -2106,6 +2340,7 @@
     "body": "First bump! 👊 "
   },
   "10673697": {
+    "org": "nettrine",
     "repo": "migrations",
     "tag": "v0.3",
     "name": "v0.3",
@@ -2115,6 +2350,7 @@
     "body": "Bump! *️⃣ \r\n\r\nDiff: https://github.com/nettrine/migrations/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- minimal PHP >= 7.1 [#5]\r\n- allow Symfony Console 4.x "
   },
   "10674127": {
+    "org": "nettrine",
     "repo": "dbal",
     "tag": "v0.2.1",
     "name": "v0.2.1",
@@ -2124,6 +2360,7 @@
     "body": "Bump! 👡 \r\n\r\nDiff: https://github.com/nettrine/dbal/compare/v0.2...v0.2.1\r\n\r\nChanges:\r\n- bugfix in DbalExtension"
   },
   "10702380": {
+    "org": "contributte",
     "repo": "psr7-http-message",
     "tag": "v0.3.1",
     "name": "v0.3.1",
@@ -2133,6 +2370,7 @@
     "body": "Bump! 💈 \r\n\r\nDiff:  https://github.com/contributte/psr7-http-message/compare/v0.3...v0.3.1\r\n\r\nChanges:\r\n- upgrade nette/tester to v2.0\r\n\r\nDeprecated:\r\n - `$request->getBodyClone()`\r\n\r\nAdded:\r\n- `$request->getContentsCopy()`\r\n- `$request->getJsonBodyCopy()`"
   },
   "10721826": {
+    "org": "nettrine",
     "repo": "dbal",
     "tag": "v0.2.2",
     "name": "v0.2.2",
@@ -2142,6 +2380,7 @@
     "body": "Bump! 🖖 \r\n\r\nDiff: https://github.com/nettrine/dbal/compare/v0.2.1...v0.2.2\r\n\r\nChanges:\r\n- invalid DebugEventManager [#7] (thanks @uestla) "
   },
   "10739672": {
+    "org": "contributte",
     "repo": "event-dispatcher-extra",
     "tag": "v0.2",
     "name": "v0.2",
@@ -2151,6 +2390,7 @@
     "body": "Bump! :tropical_drink: \r\n\r\nDiff: https://github.com/contributte/event-dispatcher-extra/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- require PHP 7.1 [#8]  (thanks @mabar)\r\n- update codestyle, tests, travis, qa\r\n- added common `EventBridgesExtension` to register all features together"
   },
   "10793648": {
+    "org": "contributte",
     "repo": "security",
     "tag": "v0.2",
     "name": "v0.2",
@@ -2160,6 +2400,7 @@
     "body": "Bump! :tada: \r\n\r\nDiff: https://github.com/contributte/security/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- PHP 7.1\r\n- new StaticAuthenticator (#2) [thanks @mabar]\r\n"
   },
   "10875370": {
+    "org": "nettrine",
     "repo": "dbal",
     "tag": "v0.2.3",
     "name": "v0.2.3",
@@ -2169,6 +2410,7 @@
     "body": "Bump! 🃏 \r\n\r\nDiff: https://github.com/nettrine/dbal/compare/v0.2.2...v0.2.3\r\n\r\nChanges:\r\n- fix filterSchemaAssetsExpression [#9] (thanks @vbejcek) \r\n- ConnectionHelper alias [#10] (thanks @uestla) "
   },
   "10880281": {
+    "org": "contributte",
     "repo": "console",
     "tag": "v0.4",
     "name": "v0.4",
@@ -2178,6 +2420,7 @@
     "body": "Bump! 🔩 \r\n\r\nDiff: https://github.com/contributte/console/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- commands can be register in non-sapi mode [#14][#12]\r\n- tune QA:\r\n  - phpstan\r\n  - codesnffer\r\n  - Travis stages \r\n\r\n-----\r\n\r\nBC break:\r\n\r\n```\r\nextensions:\r\n    console: Contributte\\Console\\DI\\ConsoleExtension \r\n```\r\n\r\nto \r\n\r\n```yaml\r\nextensions:\r\n    console: Contributte\\Console\\DI\\ConsoleExtension(%consoleMode%) \r\n```"
   },
   "10881357": {
+    "org": "contributte",
     "repo": "scheduler",
     "tag": "v0.2",
     "name": "v0.2",
@@ -2187,6 +2430,7 @@
     "body": "Bump! 🔩 \r\n\r\nDiff: https://github.com/contributte/scheduler/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- PHP 7.1 [#2]"
   },
   "10883610": {
+    "org": "contributte",
     "repo": "forms",
     "tag": "v0.2",
     "name": "v0.2",
@@ -2196,6 +2440,7 @@
     "body": "Bump! 🔩 \r\n\r\nDiff: https://github.com/contributte/forms/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- PHP 7.1 [#8]\r\n- Bootstrap 3/4 renderers [#8] \r\n- tune QA:\r\n  - phpstan\r\n  - codesnffer\r\n  - Travis stages "
   },
   "10954782": {
+    "org": "contributte",
     "repo": "console-extra",
     "tag": "v0.2",
     "name": "v0.2",
@@ -2205,6 +2450,7 @@
     "body": "Bump! :sa: \r\n\r\nDiff: https://github.com/contributte/console-extra/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- PHP 5.6 -> PHP 7.1 [#5] [#7] [#1]\r\n- Readme [#4]\r\n- Typo in utils command [#3]  "
   },
   "10983878": {
+    "org": "nettrine",
     "repo": "dbal",
     "tag": "v0.2.4",
     "name": "v0.2.4",
@@ -2214,6 +2460,7 @@
     "body": "Bump! 💃 \r\n\r\nDiff: https://github.com/nettrine/dbal/compare/v0.2.3...v0.2.4\r\n\r\nChanges:\r\n- allow doctrine/dbal 2.7"
   },
   "10984074": {
+    "org": "contributte",
     "repo": "event-dispatcher-extra",
     "tag": "v0.3",
     "name": "v0.3",
@@ -2223,6 +2470,7 @@
     "body": "Bump! 🖖 \r\n\r\nDiff: https://github.com/contributte/event-dispatcher-extra/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- added new events [#10][#6][#11] "
   },
   "11062262": {
+    "org": "apitte",
     "repo": "negotiation",
     "tag": "v0.2.1",
     "name": "v0.2.1",
@@ -2232,6 +2480,7 @@
     "body": "Bump! 🇧🇩 \r\n\r\nDiff: https://github.com/apitte/negotiation/compare/v0.2...v0.2.1\r\n\r\nChanges:\r\n- added ObjectEntity [#3] "
   },
   "11080226": {
+    "org": "contributte",
     "repo": "nextras-orm-query-object",
     "tag": "v0.2",
     "name": "v0.2",
@@ -2241,6 +2490,7 @@
     "body": "Bump! 🇬🇲 \r\n\r\nDiff: https://github.com/contributte/console/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- change namespace minetro -> contributte\r\n- PHP 7.1\r\n- Quality Assurance"
   },
   "11095947": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.6.0",
     "name": "v5.6.0",
@@ -2250,6 +2500,7 @@
     "body": "Bump! :jack_o_lantern: \r\n\r\nDiff: https://github.com/ublaboo/datagrid/compare/v5.5.6...v5.6.0\r\n\r\nFeatures:\r\n- allow symofny/property-accessor v4.0\r\n- run PHP 7.2 tests \r\n- call addComponent on control (due to change in nette/application)\r\n\r\nBugfix:\r\n- failing DibiFluent vs Dibi\\Fluent tests\r\n- failing NextrasORM v2.0 tests\r\n- render url for signal in parent control"
   },
   "11095966": {
+    "org": "contributte",
     "repo": "datagrid",
     "tag": "v5.4.9",
     "name": "v5.4.9",
@@ -2259,6 +2510,7 @@
     "body": "- PHP 7.2 support: removed usage of Nette\\Object -> using Nette\\SmartObject trait instead"
   },
   "11194782": {
+    "org": "contributte",
     "repo": "event-dispatcher-extra",
     "tag": "v0.4",
     "name": "v0.4",
@@ -2268,6 +2520,7 @@
     "body": "Bump! 🤕 \r\n\r\nDiff: https://github.com/contributte/event-dispatcher-extra/compare/v0.3...v0.4\r\n\r\nChanges:\r\n\r\n- added TemplateCreateEvent [#3]\r\n- fixed PresenterShutdownEvent [#12]"
   },
   "11201489": {
+    "org": "contributte",
     "repo": "psr7-http-message",
     "tag": "v0.4",
     "name": "",
@@ -2277,6 +2530,7 @@
     "body": "Bump! 🐗\r\n\r\nDiff:  https://github.com/contributte/psr7-http-message/compare/v0.3.1...v0.4\r\n\r\nChanged:\r\n- PHP 7.1\r\n- Travis stages\r\n\r\nRemoved:\r\n- `$request->getBodyClone()`"
   },
   "11219770": {
+    "org": "nettrine",
     "repo": "extensions",
     "tag": "v0.3",
     "name": "v0.3",
@@ -2286,6 +2540,7 @@
     "body": "Bump! 🍭 \r\n\r\nDiff: https://github.com/nettrine/extensions/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- switch Kdyby -> Nettrine\r\n- require PHP 7.1"
   },
   "11255111": {
+    "org": "contributte",
     "repo": "elasticsearch",
     "tag": "v0.1",
     "name": "v0.1",
@@ -2295,6 +2550,7 @@
     "body": "Bumped! :fist_oncoming: "
   },
   "11263274": {
+    "org": "nettrine",
     "repo": "annotations",
     "tag": "v0.2",
     "name": "v0.2",
@@ -2304,6 +2560,7 @@
     "body": "Bump! 🍭 \r\n\r\nDiff: https://github.com/nettrine/annotations/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- require PHP 7.1 [#4]\r\n- unlock dependencies [#5][#3]  \r\n- use registerUniqueLoader [#2] \r\n\r\n   "
   },
   "11276321": {
+    "org": "contributte",
     "repo": "event-dispatcher-extra",
     "tag": "v0.4.1",
     "name": "v0.4.1",
@@ -2313,6 +2570,7 @@
     "body": "Bump! 🃏 \r\n\r\nDiff: https://github.com/contributte/event-dispatcher-extra/compare/v0.4...v0.4.1\r\n\r\nChanges:\r\n- added more tests on Presenter::onStartup/onShutdown [#17] [#16] [#15] \r\n- allow to pass IPresenter to PresenterStartup/PresenterShutdown event [#17]"
   },
   "11350227": {
+    "org": "nettrine",
     "repo": "dbal",
     "tag": "v0.2.5",
     "name": "v0.2.5",
@@ -2322,6 +2580,7 @@
     "body": "Bumped! :sa: \r\n\r\nDiff: https://github.com/nettrine/dbal/compare/v0.2.4...v0.2.5\r\n\r\nChanges:\r\n- added console.command tag for commands [#11]  \r\n- added wrapperClass to configuration [#14] [#15] \r\n- added typesMapping\r\n- improved README\r\n- improved Tracy panel"
   },
   "11410747": {
+    "org": "contributte",
     "repo": "scheduler",
     "tag": "v0.2.1",
     "name": "v0.2.1",
@@ -2331,6 +2590,7 @@
     "body": "Bump! 🆎 \r\n\r\nDiff: https://github.com/contributte/scheduler/compare/v0.2...v0.2.1\r\n\r\nChanges:\r\n- QA - improve ruleset\r\n- Bugfix: empty key at job [#4]   "
   },
   "11411032": {
+    "org": "contributte",
     "repo": "middlewares",
     "tag": "v0.6",
     "name": "v0.6",
@@ -2340,6 +2600,7 @@
     "body": "Bump! 🔤 \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.5...v0.6\r\n\r\nChanges:\r\n- PHP 5.6 => PHP 7.1 [#13] [#2]\r\n- New `MethodOverrideMiddleware` [#10] [#9]  \r\n- QA: codestyles, better CI\r\n- Readme: typos [#11]"
   },
   "11439383": {
+    "org": "contributte",
     "repo": "flysystem",
     "tag": "v0.1",
     "name": "v0.1",
@@ -2349,6 +2610,7 @@
     "body": "First bump! 👊 "
   },
   "11477095": {
+    "org": "contributte",
     "repo": "mailing",
     "tag": "v0.2",
     "name": "v0.2",
@@ -2358,6 +2620,7 @@
     "body": "Bump! :abcd: \r\n\r\nDiff: https://github.com/contributte/mailing/compare/v0.1...v0.2\r\n\r\nChanges:\r\n\r\n- added MailBuild methods for bcc & cc\r\n- PHP 5.6 -> PHP 7.1\r\n"
   },
   "11477207": {
+    "org": "contributte",
     "repo": "bootstrap",
     "tag": "v0.3",
     "name": "v0.3",
@@ -2367,6 +2630,7 @@
     "body": "Bump! :abcd: \r\n\r\nDiff: https://github.com/contributte/bootstrap/compare/v0.2.1...v0.3\r\n\r\nChanges:\r\n\r\n- pluggable configurator [#2] \r\n- ability to detect debug mode by file [#4] \r\n- PHP 5.6 -> PHP 7.1 [#5] [#6] \r\n\r\nBC break:\r\n\r\nYou have to enable ENV parsing explicit.\r\n\r\nBefore:\r\n\r\n```php\r\n$configurator = new ExtraConfigurator();\r\n```\r\n\r\nAfter\r\n\r\n```php\r\n$configurator = new ExtraConfigurator();\r\n$configurator->setEnvDebugMode();\r\n```"
   },
   "11495804": {
+    "org": "nettrine",
     "repo": "orm",
     "tag": "v0.2",
     "name": "v0.2",
@@ -2376,6 +2640,7 @@
     "body": "Bumped! :abcd: \r\n\r\nDiff: https://github.com/nettrine/orm/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- cache drivers are not autowired (thanks @jiripudil) [#23]\r\n- DI: setClass -> setType/setFactory (thanks @MartkCz) [#20]\r\n- better cache handling/configuring [#12]\r\n- Annotations: excludePaths (thanks @jankonas) [#19]\r\n- EntityManagerFactory: autowire event manager [#11]\r\n- CacheReader: debug parameter (thanks @kedlas) [#13]\r\n- Console commands: added tags for contributte/console [#14] (common tag `console.command`) "
   },
   "11495921": {
+    "org": "nettrine",
     "repo": "annotations",
     "tag": "v0.3",
     "name": "v0.3",
@@ -2385,6 +2650,7 @@
     "body": "Bump! :falkland_islands: \r\n\r\nDiff: https://github.com/nettrine/annotations/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- Turn off autowiring for cache drivers (thanks @jiripudil) [#6] "
   },
   "11511237": {
+    "org": "contributte",
     "repo": "social",
     "tag": "v2.0.0",
     "name": "v2.0.0",
@@ -2394,6 +2660,7 @@
     "body": "Bump! 🔩 \r\n\r\nDiff: https://github.com/contributte/social/compare/v1.2.0...2.0.0\r\n\r\nChanges:\r\n- changed namespace (minetro -> contributte)\r\n- PHP 5.6 -> PHP 7.1"
   },
   "11511241": {
+    "org": "contributte",
     "repo": "social",
     "tag": "1.0.0",
     "name": "v1.0.0",
@@ -2403,6 +2670,7 @@
     "body": "First bump! 👊 "
   },
   "11562345": {
+    "org": "nettrine",
     "repo": "fixtures",
     "tag": "v0.3",
     "name": "v0.3",
@@ -2412,6 +2680,7 @@
     "body": "Bump! 🈁 \r\n\r\nDiff: https://github.com/nettrine/fixtures/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- PHP 7.1"
   },
   "11562865": {
+    "org": "nettrine",
     "repo": "dbal",
     "tag": "v0.2.6",
     "name": "v0.2.6",
@@ -2421,6 +2690,7 @@
     "body": "Bumped! *️⃣ \r\n\r\nDiff: https://github.com/nettrine/dbal/compare/v0.2.5...v0.2.6\r\n\r\nChanges:\r\n- require doctrine/dbal >=2.7.1\r\n- added console mode into `DbalConsoleExtension` [#16] (thanks @jiripudil)"
   },
   "11562942": {
+    "org": "nettrine",
     "repo": "orm",
     "tag": "v0.2.1",
     "name": "v0.2.1",
@@ -2430,6 +2700,7 @@
     "body": "Bumped! 🈂️ \r\n\r\nDiff: https://github.com/nettrine/orm/compare/v0.2...v0.2.1\r\n\r\nChanges:\r\n- add console mode into console extension [#25] (thanks @jiripudil)\r\n- enhanced annotation cache [#26] (thanks @jiripudil)  "
   },
   "11585618": {
+    "org": "contributte",
     "repo": "latte",
     "tag": "v0.3",
     "name": "v0.3",
@@ -2439,6 +2710,7 @@
     "body": "Bump! :sa:\r\n\r\nDiff: https://github.com/contributte/latte/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- changed debug to generated [#10]\r\n- PHP 5.6 -> PHP 7.1 [#11]\r\n- dropped TemplateFactory (it's already in nette/application)\r\n"
   },
   "11586026": {
+    "org": "contributte",
     "repo": "latte-parsedown-extra",
     "tag": "1.3.0",
     "name": "1.3.0",
@@ -2448,6 +2720,7 @@
     "body": "Bump! :sa:\r\n\r\nDiff: https://github.com/contributte/latte-parsedown-extra/compare/1.2.0...1.3.0\r\n\r\nChanges:\r\n- PHP 5.6 -> PHP 7.1 [#4] [#3] \r\n"
   },
   "11586280": {
+    "org": "contributte",
     "repo": "nextras-orm-events",
     "tag": "0.4",
     "name": "v0.4",
@@ -2457,6 +2730,7 @@
     "body": "Bumped! :sa: \r\n\r\nDiff: https://github.com/contributte/nextras-orm-events/compare/0.3...0.4\r\n\r\nChanges:\r\n* PHP 5.6 -> PHP 7.1 [#2] [#3] "
   },
   "11617683": {
+    "org": "contributte",
     "repo": "tracy",
     "tag": "v0.2",
     "name": "v0.2",
@@ -2466,6 +2740,7 @@
     "body": "Bump! 🔩 \r\n\r\nDiff: https://github.com/contributte/tracy/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- PHP 5.6 -> PHP 7.1 [#4] [#3] \r\n- allow Tracy 2.5"
   },
   "11626461": {
+    "org": "contributte",
     "repo": "console",
     "tag": "v0.5",
     "name": "v0.5",
@@ -2475,6 +2750,7 @@
     "body": "Bump! 🤒 \r\n\r\nDiff: https://github.com/contributte/console/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- removed deprecated `AbstractCommand`\r\n- removed deprecated `ContainerHelper` (https://gist.github.com/f3l1x/67841f8c1d1d041e937b4ca92b5b7a01)\r\n- PHP 5.6 -> PHP 7.1 [#16] [#13] \r\n- require symfony/console 4.x"
   },
   "11635716": {
+    "org": "contributte",
     "repo": "forms",
     "tag": "v0.3",
     "name": "v0.3",
@@ -2484,6 +2760,7 @@
     "body": "Bump! 🕳 \r\n\r\nDiff: https://github.com/contributte/forms/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- Split form factory into 2 application and standalone factories [#10]  \r\n  - IFormFactory -> IStandaloneFormFactory\r\n- removed Form class"
   },
   "11641756": {
+    "org": "contributte",
     "repo": "psr7-http-message",
     "tag": "v0.5",
     "name": "v0.5",
@@ -2493,6 +2770,7 @@
     "body": "Bump! :koko: \r\n\r\nDiff:  https://github.com/contributte/psr7-http-message/compare/v0.4...v0.5\r\n\r\nChanged:\r\n- Bugfix return type in traits [#12] \r\n- Bugfix empty upload files [#13] \r\n- Improve docs [#5] "
   },
   "11641781": {
+    "org": "contributte",
     "repo": "bootstrap",
     "tag": "v0.3.1",
     "name": "v0.3.1",
@@ -2502,6 +2780,7 @@
     "body": "Bump! :abcd: \r\n\r\nDiff: https://github.com/contributte/bootstrap/compare/v0.3...v0.3.1\r\n\r\nChanges:\r\n\r\n-  Bugfix detecting appDir\r\n"
   },
   "11641952": {
+    "org": "contributte",
     "repo": "dummy-events",
     "tag": "2.0.0",
     "name": "v2.0.0",
@@ -2511,6 +2790,7 @@
     "body": "Bump! :+1: \r\n\r\nDiff: https://github.com/contributte/dummy-events/compare/1.2.0...2.0.0\r\n\r\nChanges:\r\n- changed namespace\r\n- changed composer package\r\n- PHP >= 7.1"
   },
   "11773378": {
+    "org": "apitte",
     "repo": "core",
     "tag": "v0.3",
     "name": "v0.3",
@@ -2520,6 +2800,7 @@
     "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/core/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- Mapping: normalize request parameter with respect to parameter IN [#14] (thanks @Trejjam)\r\n- Openapi: extend configuration [#17] (thanks @Trejjam)\r\n- Fix bug with required non-empty parameter [#15] (thanks @Trejjam)\r\n\r\nThis is last PHP 5.6 release."
   },
   "11773565": {
+    "org": "apitte",
     "repo": "debug",
     "tag": "v0.3",
     "name": "v0.3",
@@ -2529,6 +2810,7 @@
     "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/debug/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- allow to disable debug panel [#1]\r\n- allow tracy v2.5\r\n\r\nThis is last release for PHP 5.6."
   },
   "11773680": {
+    "org": "apitte",
     "repo": "middlewares",
     "tag": "v0.3",
     "name": "v0.3",
@@ -2538,6 +2820,7 @@
     "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/middlewares/compare/v0.2...v0.3\r\n\r\nThis is last release for PHP 5.6."
   },
   "11773687": {
+    "org": "apitte",
     "repo": "negotiation",
     "tag": "v0.3",
     "name": "v0.3",
@@ -2547,6 +2830,7 @@
     "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/negotiation/compare/v0.2.1...v0.3\r\n\r\nThis is last release for PHP 5.6."
   },
   "11773750": {
+    "org": "apitte",
     "repo": "openapi",
     "tag": "v0.3",
     "name": "v0.3",
@@ -2556,6 +2840,7 @@
     "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/openapi/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- OpenApiService: export multi method on single path (thanks @Trejjam)\r\n- OpenApiService: extend configuration options (thanks @Trejjam)\r\n\r\nThis is last release for PHP 5.6."
   },
   "11773820": {
+    "org": "apitte",
     "repo": "presenter",
     "tag": "v0.3",
     "name": "v0.3",
@@ -2565,6 +2850,7 @@
     "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/presenter/compare/v0.2...v0.3\r\n\r\nThis is last release for PHP 5.6."
   },
   "11773966": {
+    "org": "apitte",
     "repo": "console",
     "tag": "v0.2",
     "name": "v0.2",
@@ -2574,6 +2860,7 @@
     "body": "Bump! 👔  \r\n\r\nDiff: https://github.com/apitte/console/compare/v0.1...v0.2\r\n"
   },
   "11773971": {
+    "org": "apitte",
     "repo": "console",
     "tag": "v0.3",
     "name": "v0.3",
@@ -2583,6 +2870,7 @@
     "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/console/compare/v0.2...v0.3\r\n\r\nThis is last PHP 5.6 release."
   },
   "11774015": {
+    "org": "apitte",
     "repo": "fullstack",
     "tag": "v0.3",
     "name": "v0.3",
@@ -2592,6 +2880,7 @@
     "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/fullstack/compare/v0.2...v0.3\r\n\r\nThis is last PHP 5.6 release."
   },
   "11780060": {
+    "org": "apitte",
     "repo": "debug",
     "tag": "v0.3.1",
     "name": "v0.3.1",
@@ -2601,6 +2890,7 @@
     "body": "Bump! 🈁 \r\n\r\nDiff: https://github.com/apitte/debug/compare/v0.3...v0.3.1\r\n\r\nChanges:\r\n- bugfix registering DebugPanel according to global debug and plugin debug"
   },
   "11822032": {
+    "org": "contributte",
     "repo": "cache",
     "tag": "v0.2",
     "name": "v0.2",
@@ -2610,6 +2900,7 @@
     "body": "Bump! 🤒 \r\n\r\nDiff: https://github.com/contributte/cache/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- PHP 5.6 -> PHP 7.1"
   },
   "11828755": {
+    "org": "contributte",
     "repo": "tracy",
     "tag": "v0.3",
     "name": "",
@@ -2619,6 +2910,7 @@
     "body": "Bump! 🍄 \r\n\r\nDiff: https://github.com/contributte/tracy/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- Navigation panel"
   },
   "11828775": {
+    "org": "contributte",
     "repo": "http",
     "tag": "v0.2",
     "name": "",
@@ -2628,6 +2920,7 @@
     "body": "Bump! 🍶 \r\n\r\nDiff: https://github.com/contributte/http/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- BasicAuth\r\n- Reorganized namespaces (BC break)\r\n- PHP 7.1"
   },
   "11828801": {
+    "org": "contributte",
     "repo": "console-extra",
     "tag": "v0.3",
     "name": "",
@@ -2637,6 +2930,7 @@
     "body": "Bump! 🥇 \r\n\r\nDiff: https://github.com/contributte/console-extra/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- Commands could be lazy-loaded\r\n- AdvancedCache - cleaned and generator"
   },
   "11831019": {
+    "org": "contributte",
     "repo": "console-extra",
     "tag": "v0.1",
     "name": "v0.1",
@@ -2646,6 +2940,7 @@
     "body": "First bump! :fist_oncoming: "
   },
   "11890586": {
+    "org": "contributte",
     "repo": "middlewares",
     "tag": "v0.7",
     "name": "",
@@ -2655,6 +2950,7 @@
     "body": "Bump! 📦 \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.6...v0.7\r\n\r\nChanges:\r\n- BasicAuthMiddleware [#17]\r\n- TryCatchMiddleware [#16] [#14] [#15] "
   },
   "11892201": {
+    "org": "contributte",
     "repo": "neonizer",
     "tag": "v0.2.1",
     "name": "v0.2.1",
@@ -2664,6 +2960,7 @@
     "body": "Bump! 🕳 \r\n\r\nDiff: https://github.com/contributte/neonizer/compare/v0.2...v0.2.1\r\n\r\nChanges:\r\n- QA improvements [#7] [#6] \r\n- Readme: contributte's style [#5] [#4]  "
   },
   "11994564": {
+    "org": "contributte",
     "repo": "mail",
     "tag": "v0.2.0",
     "name": "",
@@ -2673,6 +2970,7 @@
     "body": "Bump! 🍼 \r\n\r\nDiff: https://github.com/contributte/mail/compare/v0.1.3...v0.2.0\r\n\r\nChanges:\r\n- PHP 7.1 [#7] [#6] \r\n- Debug panel [#5] [#2] \r\n- Replaced MessageFactory with IMessageFactory (BC break)"
   },
   "11995104": {
+    "org": "contributte",
     "repo": "guzzlette",
     "tag": "v2.0.0",
     "name": "",
@@ -2682,6 +2980,7 @@
     "body": "Bump! 👊 \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v1.1.0...v2.0.0\r\n\r\nChanges:\r\n- Matyx -> Contributte\r\n- PHP 7.1\r\n- Reorganized configuration (see docs)\r\n"
   },
   "12054180": {
+    "org": "contributte",
     "repo": "di",
     "tag": "v0.3.0",
     "name": "",
@@ -2691,6 +2990,7 @@
     "body": "Bump! 🐰 \r\n\r\nDiff: https://github.com/contributte/di/compare/v0.2.2...v0.3.0\r\n\r\nChanges:\r\n- PHP 7.1\r\n- NewExtensionsExtension"
   },
   "12058413": {
+    "org": "contributte",
     "repo": "deployer-extension",
     "tag": "v3.0.0",
     "name": "v3.0.0",
@@ -2700,6 +3000,7 @@
     "body": "Bump! 👊 \r\n\r\nDiff: https://github.com/contributte/deployer-extension/compare/2.0.0...v3.0.0\r\n\r\nChanges:\r\n- PHP 7.1\r\n- Minetro -> Contributte [#2] \r\n- (thanks @Deepress)"
   },
   "12131727": {
+    "org": "contributte",
     "repo": "neonizer",
     "tag": "v0.2.2",
     "name": "v0.2.2",
@@ -2709,6 +3010,7 @@
     "body": "Bump! 🤒 \r\n\r\nDiff: https://github.com/contributte/neonizer/compare/v0.2.1...v0.2.2\r\n\r\nChanges:\r\n- Better config merging [#8] [#9] "
   },
   "12146934": {
+    "org": "contributte",
     "repo": "utils",
     "tag": "v0.3",
     "name": "v0.3",
@@ -2718,6 +3020,7 @@
     "body": "Bump! 🏣 \r\n\r\nDiff: https://github.com/contributte/utils/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- php 7.1 [#8]"
   },
   "12146968": {
+    "org": "contributte",
     "repo": "phpdoc",
     "tag": "v0.2",
     "name": "v0.2",
@@ -2727,6 +3030,7 @@
     "body": "Bump! 🏣 \r\n\r\nDiff: https://github.com/contributte/phpdoc/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- php 7.1 [#2]"
   },
   "12147564": {
+    "org": "contributte",
     "repo": "application",
     "tag": "v0.3.1",
     "name": "v0.3.1",
@@ -2736,6 +3040,7 @@
     "body": "Bumped! 🔷 \r\n\r\nDiff: https://github.com/contributte/application/compare/v0.3...v0.3.1\r\n\r\nChanges:\r\n- added XmlResponse [#13]\r\n- improved StructuredTemplates trait [#15]"
   },
   "12149967": {
+    "org": "contributte",
     "repo": "tracy",
     "tag": "v0.3.1",
     "name": "v0.3.1",
@@ -2745,6 +3050,7 @@
     "body": "Bump! 🍎 \r\n\r\nDiff: https://github.com/contributte/tracy/compare/v0.3...v0.3.1\r\n\r\nChanges:\r\n- Fixed invalid version constraint"
   },
   "12278632": {
+    "org": "contributte",
     "repo": "guzzlette",
     "tag": "v0.10.0",
     "name": "v0.10.0",
@@ -2754,6 +3060,7 @@
     "body": "Bump! 🤒 \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v0.9.0...v0.10.0\r\n\r\nChanges:\r\n- Tracy - Decode request body, if it is JSON\r\n- Enable only if debug bar is enabled"
   },
   "12278775": {
+    "org": "contributte",
     "repo": "guzzlette",
     "tag": "v0.11.0",
     "name": "v0.11.0",
@@ -2763,6 +3070,7 @@
     "body": "Bump! 🐤 \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v0.10.1...v0.11.0\r\n\r\nChanges:\r\n- Allow exporting requests as CURL call"
   },
   "12278877": {
+    "org": "contributte",
     "repo": "guzzlette",
     "tag": "v0.9.9",
     "name": "v0.9.9",
@@ -2772,6 +3080,7 @@
     "body": "Bump! 🍼 \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v0.9.0...v0.9.9\r\n\r\nChanges:\r\n- Tracy - Decode request body, if it is JSON\r\n- Enable only if debug bar is enabled\r\n- Allow exporting requests as CURL call\r\n- Make textarea with curl read-only\r\n"
   },
   "12278903": {
+    "org": "contributte",
     "repo": "guzzlette",
     "tag": "v1.0.0",
     "name": "v1.0.0",
@@ -2781,6 +3090,7 @@
     "body": "Bump! 🍂 \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v0.11.1...v1.0.0\r\n\r\nChanges:\r\n- GuzzletteExtension\r\n- Nette best practices"
   },
   "12278931": {
+    "org": "contributte",
     "repo": "guzzlette",
     "tag": "v1.1.0",
     "name": "v1.1.0",
@@ -2790,6 +3100,7 @@
     "body": "Bump! 😋 \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v1.0.0...v1.1.0\r\n\r\nChanges:\r\n- Configuration for Guzzle Client"
   },
   "12279267": {
+    "org": "contributte",
     "repo": "psr11-container-interface",
     "tag": "v0.1.0",
     "name": "v0.1.0",
@@ -2799,6 +3110,7 @@
     "body": "First bump! 👊 "
   },
   "12356937": {
+    "org": "contributte",
     "repo": "model",
     "tag": "v0.1.0",
     "name": "v0.1.0",
@@ -2808,6 +3120,7 @@
     "body": "First bump! 👊 \r\n\r\nAdded:\r\n - Email\r\n - LazyCollection"
   },
   "12436539": {
+    "org": "contributte",
     "repo": "event-dispatcher",
     "tag": "v0.5",
     "name": "v0.5",
@@ -2817,6 +3130,7 @@
     "body": "Bumped! 🤖  \r\n\r\nDiff: https://github.com/contributte/event-dispatcher/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- php 7.1 https://github.com/contributte/event-dispatcher/commit/c73737297c9848fb9ab198c48f1719ce829e7501\r\n- droped unused AbstractEvent [commit](https://github.com/contributte/event-dispatcher/commit/c73737297c9848fb9ab198c48f1719ce829e7501#diff-e5c1365777a9c98233a7d8a7dcf0d9d6)\r\n- implemented priorities properly https://github.com/contributte/event-dispatcher/commit/edadc7b3fefba2704e6f5eacc1023c69f2e36c49"
   },
   "12436657": {
+    "org": "contributte",
     "repo": "cache",
     "tag": "v0.3",
     "name": "v0.3",
@@ -2826,6 +3140,7 @@
     "body": "Bump! 🤖 \r\n\r\nDiff: https://github.com/contributte/cache/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- MemoryAdapterStorage"
   },
   "12455259": {
+    "org": "contributte",
     "repo": "anabelle",
     "tag": "v1.3.0",
     "name": "v1.3.0",
@@ -2835,6 +3150,7 @@
     "body": "- composer.json: require symfony console v3 | v4"
   },
   "12573051": {
+    "org": "contributte",
     "repo": "thepay-api",
     "tag": "v4.0.0",
     "name": "v4.0.0",
@@ -2844,6 +3160,7 @@
     "body": "The library was migrated to PHP 7.1 with forced types and it is no longer only namespaced official library. It could be BC break. But changes in the official library will be ported into this library (the official library is tracked by branch [track-official-library](https://github.com/Trejjam/ThePay-lib/tree/track-official-library)).\r\n\r\nLibrary return:\r\n\r\nTRUE/FALSE from bool property which in previous version returns '1'/'0'.\r\nfloat number instead of (string)number_format($number, 2, '.', '')\r\nint number instead of (string)$number"
   },
   "12573296": {
+    "org": "contributte",
     "repo": "thepay",
     "tag": "v4.0.1",
     "name": "v4.0.1",
@@ -2853,6 +3170,7 @@
     "body": "This release uses the [thepay-lib](https://github.com/Trejjam/ThePay-lib) branch master (with proper releases) starting from release [4.0.0](https://github.com/Trejjam/ThePay-lib/releases/tag/v4.0.0)."
   },
   "12578177": {
+    "org": "contributte",
     "repo": "thepay",
     "tag": "v4.0.2",
     "name": "v4.0.2",
@@ -2862,6 +3180,7 @@
     "body": "First release with [contributte/thepay-api](https://github.com/contributte/thepay-api) instead of abandoned `trejjam/thepay-lib`."
   },
   "12614975": {
+    "org": "contributte",
     "repo": "utils",
     "tag": "v0.3.1",
     "name": "v0.3.1",
@@ -2871,6 +3190,7 @@
     "body": "Bump! 💩 \r\n\r\nDiff: https://github.com/contributte/utils/compare/v0.3...v0.3.1\r\n\r\nChanges:\r\n- fixed FileSystem::purge - rmdir and unlink expects string, not object"
   },
   "12630362": {
+    "org": "contributte",
     "repo": "reCAPTCHA",
     "tag": "3.1.0",
     "name": "v3.1.0",

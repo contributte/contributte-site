@@ -1,5 +1,5 @@
 <section class="container homepage">
-  <h1>Contributte</h1>
+  <h1>Contributte - First class extensions for Nette Framework</h1>
   <div class="card">
     <img class="card-img-top" src="/misc/welcome.jpg" alt="Contributte for ALL">
     <div class="card-body">

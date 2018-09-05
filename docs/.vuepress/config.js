@@ -1,7 +1,7 @@
 const {buildSidebar} = require('./utils/buildSidebar');
 
 module.exports = {
-  title: 'Contributte - First class extensions for Nette Framework',
+  title: 'Contributte',
   description: 'Contributte packages are first class extensions for Nette Framework.',
   keywords: 'contributte, nette, symfony, extensions, mvc, application, http, security, utils, database',
   ga: 'UA-28123999-19',

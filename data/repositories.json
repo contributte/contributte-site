@@ -1015,5 +1015,86 @@
         "body": "Bumped! :fist_oncoming: "
       }
     }
+  },
+  "apitte/core": {
+    "org": "apitte",
+    "name": "core",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": "",
+    "category": "apitte"
+  },
+  "apitte/debug": {
+    "org": "apitte",
+    "name": "debug",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": "",
+    "category": "apitte"
+  },
+  "apitte/console": {
+    "org": "apitte",
+    "name": "console",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": "",
+    "category": "apitte"
+  },
+  "apitte/openapi": {
+    "org": "apitte",
+    "name": "openapi",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": "",
+    "category": "apitte"
+  },
+  "apitte/middlewares": {
+    "org": "apitte",
+    "name": "middlewares",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": "",
+    "category": "apitte"
+  },
+  "apitte/negotiation": {
+    "org": "apitte",
+    "name": "negotiation",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": "",
+    "category": "apitte"
+  },
+  "apitte/presenter": {
+    "org": "apitte",
+    "name": "presenter",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": "",
+    "category": "apitte"
+  },
+  "apitte/fullstack": {
+    "org": "apitte",
+    "name": "fullstack",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v0",
+    "description": "",
+    "category": "apitte"
+  },
+  "apitte/playground": {
+    "org": "apitte",
+    "name": "playground",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v0",
+    "description": "",
+    "category": "apitte"
   }
 }

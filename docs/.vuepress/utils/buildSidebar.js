@@ -44,6 +44,11 @@ module.exports = {
         children: buildChildren('symfony'),
       },
       {
+        title: 'Apitte',
+        collapsable: false,
+        children: buildChildren('apitte'),
+      },
+      {
         title: 'Nextras',
         collapsable: false,
         children: buildChildren('nextras'),

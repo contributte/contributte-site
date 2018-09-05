@@ -118,12 +118,12 @@
   },
   "3823852": {
     "repo": "deployer-extension",
-    "tag": "2.0.0",
+    "tag": "v2.0.0",
     "name": "v2.0.0",
-    "created_at": "2016-08-05T15:56:38Z",
+    "created_at": "2018-07-23T14:11:14Z",
     "published_at": "2016-08-05T15:57:41Z",
-    "html_url": "https://github.com/contributte/deployer-extension/releases/tag/2.0.0",
-    "body": "Released v2.0.0 :hocho:!\n\nChanges:\n- drop PHP 5.4\n- support ftp-deployment 2.5\n- added basic tests\n"
+    "html_url": "https://github.com/contributte/deployer-extension/releases/tag/v2.0.0",
+    "body": "Released v2.0.0 :hocho:!\r\n\r\nChanges:\r\n- drop PHP 5.4\r\n- support ftp-deployment 2.5\r\n- added basic tests\r\n"
   },
   "3844939": {
     "repo": "social",
@@ -609,7 +609,7 @@
     "created_at": "2017-02-23T15:00:06Z",
     "published_at": "2017-02-28T10:46:08Z",
     "html_url": "https://github.com/contributte/reCAPTCHA/releases/tag/2.0.0",
-    "body": "Bumped! Bump, bump, bump. :fist_left: \n\nChanges:\n- completely changed internal API\n- major simplification\n- changed namespaces\n- PHP >=5.6 \n"
+    "body": "Bumped! Bump, bump, bump. :fist_left: \r\n\r\nDiff: https://github.com/contributte/reCAPTCHA/compare/1.6.3...2.0.0\r\n\r\nChanges:\r\n- completely changed internal API\r\n- major simplification\r\n- changed namespaces\r\n- PHP >=5.6 \r\n"
   },
   "5593562": {
     "repo": "datagrid",
@@ -726,7 +726,7 @@
     "created_at": "2017-04-05T09:25:36Z",
     "published_at": "2017-04-05T09:26:26Z",
     "html_url": "https://github.com/contributte/reCAPTCHA/releases/tag/2.0.1",
-    "body": "Bumped! :fog: \r\n\r\nChanges:\r\n- fix call `setRequired(TRUE | FALSE)` [thanks @sallyx][#9][#10]"
+    "body": "Bumped! :fog: \r\n\r\nDiff: https://github.com/contributte/reCAPTCHA/compare/2.0.0...2.0.1\r\n\r\nChanges:\r\n- fix call `setRequired(TRUE | FALSE)` [thanks @sallyx][#9][#10]"
   },
   "6118283": {
     "repo": "datagrid",
@@ -1050,7 +1050,7 @@
     "created_at": "2017-02-23T12:21:41Z",
     "published_at": "2017-07-31T09:36:31Z",
     "html_url": "https://github.com/contributte/seznamcaptcha/releases/tag/0.3",
-    "body": "Bumped! ���� \r\n\r\nChanges:\r\n- enhanced readme\r\n- repair validator [#1] "
+    "body": "Bumped! ��� \r\n\r\nChanges:\r\n- enhanced readme\r\n- repair validator [#1] "
   },
   "7226029": {
     "repo": "latte-parsedown-extra",
@@ -1374,7 +1374,7 @@
     "created_at": "2018-04-06T19:11:30Z",
     "published_at": "2018-04-06T19:12:02Z",
     "html_url": "https://github.com/contributte/reCAPTCHA/releases/tag/2.1.0",
-    "body": "Bumped! 🉑 \r\n\r\nChanges:\r\n- PHP 7.2 compability [#17][thanks @JanGalek]"
+    "body": "Bumped! 🉑 \r\n\r\nDiff: https://github.com/contributte/reCAPTCHA/compare/2.0.1...2.1.0\r\n\r\nChanges:\r\n- PHP 7.2 compability [#17][thanks @JanGalek]"
   },
   "9112338": {
     "repo": "datagrid",
@@ -1662,7 +1662,7 @@
     "created_at": "2018-03-12T07:00:01Z",
     "published_at": "2018-03-12T07:05:24Z",
     "html_url": "https://github.com/contributte/latte-email/releases/tag/2.0.0",
-    "body": "Bump! ���� \r\n\r\nDiff: https://github.com/contributte/latte-email/compare/1.2.1...2.0.0\r\n\r\nChanges:\r\n- PHP 5.4 -> PHP 5.6\r\n- change namespace\r\n- apply codesniffer"
+    "body": "Bump! ��� \r\n\r\nDiff: https://github.com/contributte/latte-email/compare/1.2.1...2.0.0\r\n\r\nChanges:\r\n- PHP 5.4 -> PHP 5.6\r\n- change namespace\r\n- apply codesniffer"
   },
   "10041775": {
     "repo": "api-router",
@@ -1680,7 +1680,7 @@
     "created_at": "2018-04-06T19:11:17Z",
     "published_at": "2018-04-06T19:13:04Z",
     "html_url": "https://github.com/contributte/reCAPTCHA/releases/tag/2.1.1",
-    "body": "Bumped! :tropical_drink: \r\n\r\nChanges:\r\n- improved PHP 7.2 (thanks @PavelJurasek)\r\n- use nette/utils 2.5 [#18] (thanks @PavelJurasek)"
+    "body": "Bumped! :tropical_drink: \r\n\r\nDiff: https://github.com/contributte/reCAPTCHA/compare/2.1.0...2.1.1\r\n\r\nChanges:\r\n- improved PHP 7.2 (thanks @PavelJurasek)\r\n- use nette/utils 2.5 [#18] (thanks @PavelJurasek)"
   },
   "10433635": {
     "repo": "reCAPTCHA",
@@ -1689,7 +1689,7 @@
     "created_at": "2018-04-06T19:18:43Z",
     "published_at": "2018-04-06T19:19:47Z",
     "html_url": "https://github.com/contributte/reCAPTCHA/releases/tag/3.0.0",
-    "body": "Bumped! :tada: \r\n\r\nChanges:\r\n- change namespace to Contributte\r\n- update dependencies\r\n- update readmes (added for 2.x)\r\n- added codestyle checker"
+    "body": "Bumped! :tada: \r\n\r\nDiff: https://github.com/contributte/reCAPTCHA/compare/2.1.1...3.0.0\r\n\r\nChanges:\r\n- change namespace to Contributte\r\n- update dependencies\r\n- update readmes (added for 2.x)\r\n- added codestyle checker"
   },
   "10445853": {
     "repo": "neonizer",
@@ -2058,7 +2058,7 @@
     "created_at": "2018-07-11T13:52:53Z",
     "published_at": "2018-07-12T07:47:01Z",
     "html_url": "https://github.com/contributte/middlewares/releases/tag/v0.7",
-    "body": "Bump! 📦 \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.6...v0.7\r\n\r\nChanges:\r\n- BasicAuthMiddleware\r\n- TryCatchMiddleware"
+    "body": "Bump! 📦 \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.6...v0.7\r\n\r\nChanges:\r\n- BasicAuthMiddleware [#17]\r\n- TryCatchMiddleware [#16] [#14] [#15] "
   },
   "11892201": {
     "repo": "neonizer",
@@ -2068,5 +2068,140 @@
     "published_at": "2018-07-12T09:26:03Z",
     "html_url": "https://github.com/contributte/neonizer/releases/tag/v0.2.1",
     "body": "Bump! 🕳 \r\n\r\nDiff: https://github.com/contributte/neonizer/compare/v0.2...v0.2.1\r\n\r\nChanges:\r\n- QA improvements [#7] [#6] \r\n- Readme: contributte's style [#5] [#4]  "
+  },
+  "11994564": {
+    "repo": "mail",
+    "tag": "v0.2.0",
+    "name": "",
+    "created_at": "2018-07-18T19:35:19Z",
+    "published_at": "2018-07-18T20:05:23Z",
+    "html_url": "https://github.com/contributte/mail/releases/tag/v0.2.0",
+    "body": "Bump! 🍼 \r\n\r\nDiff: https://github.com/contributte/mail/compare/v0.1.3...v0.2.0\r\n\r\nChanges:\r\n- PHP 7.1 [#7] [#6] \r\n- Debug panel [#5] [#2] \r\n- Replaced MessageFactory with IMessageFactory (BC break)"
+  },
+  "12054180": {
+    "repo": "di",
+    "tag": "v0.3.0",
+    "name": "",
+    "created_at": "2018-07-19T09:38:18Z",
+    "published_at": "2018-07-23T12:15:14Z",
+    "html_url": "https://github.com/contributte/di/releases/tag/v0.3.0",
+    "body": "Bump! 🐰 \r\n\r\nDiff: https://github.com/contributte/di/compare/v0.2.2...v0.3.0\r\n\r\nChanges:\r\n- PHP 7.1\r\n- NewExtensionsExtension"
+  },
+  "12058413": {
+    "repo": "deployer-extension",
+    "tag": "v3.0.0",
+    "name": "v3.0.0",
+    "created_at": "2018-07-23T14:11:14Z",
+    "published_at": "2018-07-23T15:31:01Z",
+    "html_url": "https://github.com/contributte/deployer-extension/releases/tag/v3.0.0",
+    "body": "Bump! 👊 \r\n\r\nDiff: https://github.com/contributte/deployer-extension/compare/2.0.0...v3.0.0\r\n\r\nChanges:\r\n- PHP 7.1\r\n- Minetro -> Contributte [#2] \r\n- (thanks @Deepress)"
+  },
+  "12131727": {
+    "repo": "neonizer",
+    "tag": "v0.2.2",
+    "name": "v0.2.2",
+    "created_at": "2018-07-27T08:22:54Z",
+    "published_at": "2018-07-27T08:29:34Z",
+    "html_url": "https://github.com/contributte/neonizer/releases/tag/v0.2.2",
+    "body": "Bump! 🤒 \r\n\r\nDiff: https://github.com/contributte/neonizer/compare/v0.2.1...v0.2.2\r\n\r\nChanges:\r\n- Better config merging [#8] [#9] "
+  },
+  "12146934": {
+    "repo": "utils",
+    "tag": "v0.3",
+    "name": "v0.3",
+    "created_at": "2018-07-26T10:34:07Z",
+    "published_at": "2018-07-28T07:25:31Z",
+    "html_url": "https://github.com/contributte/utils/releases/tag/v0.3",
+    "body": "Bump! 🏣 \r\n\r\nDiff: https://github.com/contributte/utils/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- php 7.1 [#8]"
+  },
+  "12146968": {
+    "repo": "phpdoc",
+    "tag": "v0.2",
+    "name": "v0.2",
+    "created_at": "2018-07-26T16:34:46Z",
+    "published_at": "2018-07-28T07:36:07Z",
+    "html_url": "https://github.com/contributte/phpdoc/releases/tag/v0.2",
+    "body": "Bump! 🏣 \r\n\r\nDiff: https://github.com/contributte/phpdoc/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- php 7.1 [#2]"
+  },
+  "12147564": {
+    "repo": "application",
+    "tag": "v0.3.1",
+    "name": "v0.3.1",
+    "created_at": "2018-07-28T09:23:54Z",
+    "published_at": "2018-07-28T09:46:26Z",
+    "html_url": "https://github.com/contributte/application/releases/tag/v0.3.1",
+    "body": "Bumped! 🔷 \r\n\r\nDiff: https://github.com/contributte/application/compare/v0.3...v0.3.1\r\n\r\nChanges:\r\n- added XmlResponse [#13]\r\n- improved StructuredTemplates trait [#15]"
+  },
+  "12149967": {
+    "repo": "tracy",
+    "tag": "v0.3.1",
+    "name": "v0.3.1",
+    "created_at": "2018-07-28T20:13:59Z",
+    "published_at": "2018-07-28T20:15:09Z",
+    "html_url": "https://github.com/contributte/tracy/releases/tag/v0.3.1",
+    "body": "Bump! 🍎 \r\n\r\nDiff: https://github.com/contributte/tracy/compare/v0.3...v0.3.1\r\n\r\nChanges:\r\n- Fixed invalid version constraint"
+  },
+  "12279267": {
+    "repo": "psr11-container-interface",
+    "tag": "v0.1.0",
+    "name": "v0.1.0",
+    "created_at": "2018-08-06T20:53:51Z",
+    "published_at": "2018-08-06T22:27:06Z",
+    "html_url": "https://github.com/contributte/psr11-container-interface/releases/tag/v0.1.0",
+    "body": "First bump! 👊 "
+  },
+  "12356937": {
+    "repo": "model",
+    "tag": "v0.1.0",
+    "name": "v0.1.0",
+    "created_at": "2018-08-10T01:10:24Z",
+    "published_at": "2018-08-10T21:15:54Z",
+    "html_url": "https://github.com/contributte/model/releases/tag/v0.1.0",
+    "body": "First bump! 👊 \r\n\r\nAdded:\r\n - Email\r\n - LazyCollection"
+  },
+  "12436539": {
+    "repo": "event-dispatcher",
+    "tag": "v0.5",
+    "name": "v0.5",
+    "created_at": "2018-08-16T07:56:14Z",
+    "published_at": "2018-08-16T14:42:31Z",
+    "html_url": "https://github.com/contributte/event-dispatcher/releases/tag/v0.5",
+    "body": "Bumped! 🤖  \r\n\r\nDiff: https://github.com/contributte/event-dispatcher/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- php 7.1 https://github.com/contributte/event-dispatcher/commit/c73737297c9848fb9ab198c48f1719ce829e7501\r\n- droped unused AbstractEvent [commit](https://github.com/contributte/event-dispatcher/commit/c73737297c9848fb9ab198c48f1719ce829e7501#diff-e5c1365777a9c98233a7d8a7dcf0d9d6)\r\n- implemented priorities properly https://github.com/contributte/event-dispatcher/commit/edadc7b3fefba2704e6f5eacc1023c69f2e36c49"
+  },
+  "12436657": {
+    "repo": "cache",
+    "tag": "v0.3",
+    "name": "v0.3",
+    "created_at": "2018-08-16T07:58:50Z",
+    "published_at": "2018-08-16T14:46:41Z",
+    "html_url": "https://github.com/contributte/cache/releases/tag/v0.3",
+    "body": "Bump! 🤖 \r\n\r\nDiff: https://github.com/contributte/cache/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- MemoryAdapterStorage"
+  },
+  "12455259": {
+    "repo": "anabelle",
+    "tag": "v1.3.0",
+    "name": "v1.3.0",
+    "created_at": "2018-08-17T14:04:02Z",
+    "published_at": "2018-08-17T14:05:22Z",
+    "html_url": "https://github.com/contributte/anabelle/releases/tag/v1.3.0",
+    "body": "- composer.json: require symfony console v3 | v4"
+  },
+  "12614975": {
+    "repo": "utils",
+    "tag": "v0.3.1",
+    "name": "v0.3.1",
+    "created_at": "2018-08-27T18:59:32Z",
+    "published_at": "2018-08-28T16:03:47Z",
+    "html_url": "https://github.com/contributte/utils/releases/tag/v0.3.1",
+    "body": "Bump! 💩 \r\n\r\nDiff: https://github.com/contributte/utils/compare/v0.3...v0.3.1\r\n\r\nChanges:\r\n- fixed FileSystem::purge - rmdir and unlink expects string, not object"
+  },
+  "12630362": {
+    "repo": "reCAPTCHA",
+    "tag": "3.1.0",
+    "name": "v3.1.0",
+    "created_at": "2018-08-22T13:31:56Z",
+    "published_at": "2018-08-29T11:23:13Z",
+    "html_url": "https://github.com/contributte/reCAPTCHA/releases/tag/3.1.0",
+    "body": "Bumped! 🍶\r\n\r\nDiff: https://github.com/contributte/reCAPTCHA/compare/3.0.0...3.1.0\r\n\r\nChanges:\r\n- added Invisible reCAPTCHA [#21] (thanks @JanGalek) \r\n- enhanced readme (thanks @Gappa)"
   }
 }

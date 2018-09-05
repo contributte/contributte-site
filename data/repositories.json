@@ -49,12 +49,12 @@
     "releases": {
       "last": {
         "repo": "event-dispatcher",
-        "tag": "v0.4",
-        "name": "v0.4",
-        "created_at": "2018-02-17T23:51:18Z",
-        "published_at": "2018-02-17T23:52:14Z",
-        "html_url": "https://github.com/contributte/event-dispatcher/releases/tag/v0.4",
-        "body": "Bumped! :boar: \r\n\r\nDiff: https://github.com/contributte/event-dispatcher/compare/v0.3.1...v0.4\r\n\r\nChanges:\r\n- allow symfony 4 [thanks @enumag]\r\n- improve docs"
+        "tag": "v0.5",
+        "name": "v0.5",
+        "created_at": "2018-08-16T07:56:14Z",
+        "published_at": "2018-08-16T14:42:31Z",
+        "html_url": "https://github.com/contributte/event-dispatcher/releases/tag/v0.5",
+        "body": "Bumped! 🤖  \r\n\r\nDiff: https://github.com/contributte/event-dispatcher/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- php 7.1 https://github.com/contributte/event-dispatcher/commit/c73737297c9848fb9ab198c48f1719ce829e7501\r\n- droped unused AbstractEvent [commit](https://github.com/contributte/event-dispatcher/commit/c73737297c9848fb9ab198c48f1719ce829e7501#diff-e5c1365777a9c98233a7d8a7dcf0d9d6)\r\n- implemented priorities properly https://github.com/contributte/event-dispatcher/commit/edadc7b3fefba2704e6f5eacc1023c69f2e36c49"
       }
     }
   },
@@ -113,12 +113,12 @@
     "releases": {
       "last": {
         "repo": "application",
-        "tag": "v0.3",
-        "name": "v0.3",
-        "created_at": "2018-04-22T11:21:43Z",
-        "published_at": "2018-04-22T11:22:42Z",
-        "html_url": "https://github.com/contributte/application/releases/tag/v0.3",
-        "body": "Bumped! 👜 \r\n\r\nDiff: https://github.com/contributte/application/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- acquire [ublaboo/responses](https://github.com/ublaboo/responses) [#12] (thanks @paveljanda)\r\n- added NullControl, NullComponet [#9][#10]\r\n- added StructuredTemplates (thanks @benijo)"
+        "tag": "v0.3.1",
+        "name": "v0.3.1",
+        "created_at": "2018-07-28T09:23:54Z",
+        "published_at": "2018-07-28T09:46:26Z",
+        "html_url": "https://github.com/contributte/application/releases/tag/v0.3.1",
+        "body": "Bumped! 🔷 \r\n\r\nDiff: https://github.com/contributte/application/compare/v0.3...v0.3.1\r\n\r\nChanges:\r\n- added XmlResponse [#13]\r\n- improved StructuredTemplates trait [#15]"
       }
     }
   },
@@ -158,12 +158,12 @@
     "releases": {
       "last": {
         "repo": "cache",
-        "tag": "v0.2",
-        "name": "v0.2",
-        "created_at": "2018-07-07T09:44:38Z",
-        "published_at": "2018-07-07T09:47:50Z",
-        "html_url": "https://github.com/contributte/cache/releases/tag/v0.2",
-        "body": "Bump! 🤒 \r\n\r\nDiff: https://github.com/contributte/cache/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- PHP 5.6 -> PHP 7.1"
+        "tag": "v0.3",
+        "name": "v0.3",
+        "created_at": "2018-08-16T07:58:50Z",
+        "published_at": "2018-08-16T14:46:41Z",
+        "html_url": "https://github.com/contributte/cache/releases/tag/v0.3",
+        "body": "Bump! 🤖 \r\n\r\nDiff: https://github.com/contributte/cache/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- MemoryAdapterStorage"
       }
     }
   },
@@ -221,12 +221,12 @@
     "releases": {
       "last": {
         "repo": "deployer-extension",
-        "tag": "2.0.0",
+        "tag": "v2.0.0",
         "name": "v2.0.0",
-        "created_at": "2016-08-05T15:56:38Z",
+        "created_at": "2018-07-23T14:11:14Z",
         "published_at": "2016-08-05T15:57:41Z",
-        "html_url": "https://github.com/contributte/deployer-extension/releases/tag/2.0.0",
-        "body": "Released v2.0.0 :hocho:!\n\nChanges:\n- drop PHP 5.4\n- support ftp-deployment 2.5\n- added basic tests\n"
+        "html_url": "https://github.com/contributte/deployer-extension/releases/tag/v2.0.0",
+        "body": "Released v2.0.0 :hocho:!\r\n\r\nChanges:\r\n- drop PHP 5.4\r\n- support ftp-deployment 2.5\r\n- added basic tests\r\n"
       }
     }
   },
@@ -260,12 +260,12 @@
     "releases": {
       "last": {
         "repo": "di",
-        "tag": "v0.2.2",
-        "name": "v0.2.2",
-        "created_at": "2017-11-21T16:32:18Z",
-        "published_at": "2017-11-21T16:33:12Z",
-        "html_url": "https://github.com/contributte/di/releases/tag/v0.2.2",
-        "body": "Bump! 🍂 \r\n\r\nDiff: https://github.com/contributte/di/compare/v0.2.1...v0.2.2\r\n\r\nChanges:\r\n- compatible with nette/robot-loader >= 3.0.0 [#6]"
+        "tag": "v0.3.0",
+        "name": "",
+        "created_at": "2018-07-19T09:38:18Z",
+        "published_at": "2018-07-23T12:15:14Z",
+        "html_url": "https://github.com/contributte/di/releases/tag/v0.3.0",
+        "body": "Bump! 🐰 \r\n\r\nDiff: https://github.com/contributte/di/compare/v0.2.2...v0.3.0\r\n\r\nChanges:\r\n- PHP 7.1\r\n- NewExtensionsExtension"
       }
     }
   },
@@ -458,7 +458,7 @@
         "created_at": "2018-03-12T07:00:01Z",
         "published_at": "2018-03-12T07:05:24Z",
         "html_url": "https://github.com/contributte/latte-email/releases/tag/2.0.0",
-        "body": "Bump! ���� \r\n\r\nDiff: https://github.com/contributte/latte-email/compare/1.2.1...2.0.0\r\n\r\nChanges:\r\n- PHP 5.4 -> PHP 5.6\r\n- change namespace\r\n- apply codesniffer"
+        "body": "Bump! ��� \r\n\r\nDiff: https://github.com/contributte/latte-email/compare/1.2.1...2.0.0\r\n\r\nChanges:\r\n- PHP 5.4 -> PHP 5.6\r\n- change namespace\r\n- apply codesniffer"
       }
     }
   },
@@ -528,12 +528,12 @@
     "releases": {
       "last": {
         "repo": "mail",
-        "tag": "v0.1.3",
-        "name": "v0.1.3",
-        "created_at": "2018-01-12T10:24:29Z",
-        "published_at": "2018-01-12T10:24:44Z",
-        "html_url": "https://github.com/contributte/mail/releases/tag/v0.1.3",
-        "body": "Bump! :boat: \r\n\r\nDiff: https://github.com/contributte/mail/compare/v0.1.2...v0.1.3\r\n\r\nChanges:\r\n- QA improvements\r\n- README improvements (thanks @mabar) \r\n- added `DevNullMailer`"
+        "tag": "v0.2.0",
+        "name": "",
+        "created_at": "2018-07-18T19:35:19Z",
+        "published_at": "2018-07-18T20:05:23Z",
+        "html_url": "https://github.com/contributte/mail/releases/tag/v0.2.0",
+        "body": "Bump! 🍼 \r\n\r\nDiff: https://github.com/contributte/mail/compare/v0.1.3...v0.2.0\r\n\r\nChanges:\r\n- PHP 7.1 [#7] [#6] \r\n- Debug panel [#5] [#2] \r\n- Replaced MessageFactory with IMessageFactory (BC break)"
       }
     }
   },
@@ -570,7 +570,7 @@
         "created_at": "2018-07-11T13:52:53Z",
         "published_at": "2018-07-12T07:47:01Z",
         "html_url": "https://github.com/contributte/middlewares/releases/tag/v0.7",
-        "body": "Bump! 📦 \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.6...v0.7\r\n\r\nChanges:\r\n- BasicAuthMiddleware\r\n- TryCatchMiddleware"
+        "body": "Bump! 📦 \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.6...v0.7\r\n\r\nChanges:\r\n- BasicAuthMiddleware [#17]\r\n- TryCatchMiddleware [#16] [#14] [#15] "
       }
     }
   },
@@ -586,7 +586,18 @@
     "enabled": false,
     "priority": 0,
     "docs": "v1",
-    "description": ":boom: View-Model + Model-View layer to Nette Framework (@nette)"
+    "description": ":boom: View-Model + Model-View layer to Nette Framework (@nette)",
+    "releases": {
+      "last": {
+        "repo": "model",
+        "tag": "v0.1.0",
+        "name": "v0.1.0",
+        "created_at": "2018-08-10T01:10:24Z",
+        "published_at": "2018-08-10T21:15:54Z",
+        "html_url": "https://github.com/contributte/model/releases/tag/v0.1.0",
+        "body": "First bump! 👊 \r\n\r\nAdded:\r\n - Email\r\n - LazyCollection"
+      }
+    }
   },
   "neonizer": {
     "name": "neonizer",
@@ -598,12 +609,12 @@
     "releases": {
       "last": {
         "repo": "neonizer",
-        "tag": "v0.2.1",
-        "name": "v0.2.1",
-        "created_at": "2018-07-12T09:23:08Z",
-        "published_at": "2018-07-12T09:26:03Z",
-        "html_url": "https://github.com/contributte/neonizer/releases/tag/v0.2.1",
-        "body": "Bump! 🕳 \r\n\r\nDiff: https://github.com/contributte/neonizer/compare/v0.2...v0.2.1\r\n\r\nChanges:\r\n- QA improvements [#7] [#6] \r\n- Readme: contributte's style [#5] [#4]  "
+        "tag": "v0.2.2",
+        "name": "v0.2.2",
+        "created_at": "2018-07-27T08:22:54Z",
+        "published_at": "2018-07-27T08:29:34Z",
+        "html_url": "https://github.com/contributte/neonizer/releases/tag/v0.2.2",
+        "body": "Bump! 🤒 \r\n\r\nDiff: https://github.com/contributte/neonizer/compare/v0.2.1...v0.2.2\r\n\r\nChanges:\r\n- Better config merging [#8] [#9] "
       }
     }
   },
@@ -685,12 +696,12 @@
     "releases": {
       "last": {
         "repo": "phpdoc",
-        "tag": "v0.1",
-        "name": "v0.1",
-        "created_at": "2017-08-11T11:49:35Z",
-        "published_at": "2017-08-11T14:20:04Z",
-        "html_url": "https://github.com/contributte/phpdoc/releases/tag/v0.1",
-        "body": "Bump! 👊 "
+        "tag": "v0.2",
+        "name": "v0.2",
+        "created_at": "2018-07-26T16:34:46Z",
+        "published_at": "2018-07-28T07:36:07Z",
+        "html_url": "https://github.com/contributte/phpdoc/releases/tag/v0.2",
+        "body": "Bump! 🏣 \r\n\r\nDiff: https://github.com/contributte/phpdoc/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- php 7.1 [#2]"
       }
     }
   },
@@ -708,7 +719,18 @@
     "enabled": false,
     "priority": 0,
     "docs": "v1",
-    "description": ":dizzy: PSR #11 [Container Interface] to Nette Framework (@nette)"
+    "description": ":dizzy: PSR #11 [Container Interface] to Nette Framework (@nette)",
+    "releases": {
+      "last": {
+        "repo": "psr11-container-interface",
+        "tag": "v0.1.0",
+        "name": "v0.1.0",
+        "created_at": "2018-08-06T20:53:51Z",
+        "published_at": "2018-08-06T22:27:06Z",
+        "html_url": "https://github.com/contributte/psr11-container-interface/releases/tag/v0.1.0",
+        "body": "First bump! 👊 "
+      }
+    }
   },
   "psr3-logging": {
     "name": "psr3-logging",
@@ -756,12 +778,12 @@
     "releases": {
       "last": {
         "repo": "reCAPTCHA",
-        "tag": "3.0.0",
-        "name": "v3.0.0",
-        "created_at": "2018-04-06T19:18:43Z",
-        "published_at": "2018-04-06T19:19:47Z",
-        "html_url": "https://github.com/contributte/reCAPTCHA/releases/tag/3.0.0",
-        "body": "Bumped! :tada: \r\n\r\nChanges:\r\n- change namespace to Contributte\r\n- update dependencies\r\n- update readmes (added for 2.x)\r\n- added codestyle checker"
+        "tag": "3.1.0",
+        "name": "v3.1.0",
+        "created_at": "2018-08-22T13:31:56Z",
+        "published_at": "2018-08-29T11:23:13Z",
+        "html_url": "https://github.com/contributte/reCAPTCHA/releases/tag/3.1.0",
+        "body": "Bumped! 🍶\r\n\r\nDiff: https://github.com/contributte/reCAPTCHA/compare/3.0.0...3.1.0\r\n\r\nChanges:\r\n- added Invisible reCAPTCHA [#21] (thanks @JanGalek) \r\n- enhanced readme (thanks @Gappa)"
       }
     }
   },
@@ -832,7 +854,7 @@
         "created_at": "2017-02-23T12:21:41Z",
         "published_at": "2017-07-31T09:36:31Z",
         "html_url": "https://github.com/contributte/seznamcaptcha/releases/tag/0.3",
-        "body": "Bumped! ���� \r\n\r\nChanges:\r\n- enhanced readme\r\n- repair validator [#1] "
+        "body": "Bumped! ��� \r\n\r\nChanges:\r\n- enhanced readme\r\n- repair validator [#1] "
       }
     }
   },
@@ -864,12 +886,12 @@
     "releases": {
       "last": {
         "repo": "tracy",
-        "tag": "v0.3",
-        "name": "",
-        "created_at": "2018-07-08T20:12:10Z",
-        "published_at": "2018-07-08T20:17:23Z",
-        "html_url": "https://github.com/contributte/tracy/releases/tag/v0.3",
-        "body": "Bump! 🍄 \r\n\r\nDiff: https://github.com/contributte/tracy/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- Navigation panel"
+        "tag": "v0.3.1",
+        "name": "v0.3.1",
+        "created_at": "2018-07-28T20:13:59Z",
+        "published_at": "2018-07-28T20:15:09Z",
+        "html_url": "https://github.com/contributte/tracy/releases/tag/v0.3.1",
+        "body": "Bump! 🍎 \r\n\r\nDiff: https://github.com/contributte/tracy/compare/v0.3...v0.3.1\r\n\r\nChanges:\r\n- Fixed invalid version constraint"
       }
     }
   },
@@ -883,12 +905,12 @@
     "releases": {
       "last": {
         "repo": "utils",
-        "tag": "v0.2",
-        "name": "v0.2",
-        "created_at": "2018-04-11T20:40:28Z",
-        "published_at": "2018-04-11T20:41:57Z",
-        "html_url": "https://github.com/contributte/utils/releases/tag/v0.2",
-        "body": "Bump! :sagittarius: \r\n\r\nDiff: https://github.com/contributte/utils/compare/v0.1.1...v0.2\r\n\r\nChanges:\r\n- use nette/utils 2.5\r\n- strict ruleset\r\n- added Strings::slashless [#3]"
+        "tag": "v0.3.1",
+        "name": "v0.3.1",
+        "created_at": "2018-08-27T18:59:32Z",
+        "published_at": "2018-08-28T16:03:47Z",
+        "html_url": "https://github.com/contributte/utils/releases/tag/v0.3.1",
+        "body": "Bump! 💩 \r\n\r\nDiff: https://github.com/contributte/utils/compare/v0.3...v0.3.1\r\n\r\nChanges:\r\n- fixed FileSystem::purge - rmdir and unlink expects string, not object"
       }
     }
   },

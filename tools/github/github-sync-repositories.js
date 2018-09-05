@@ -19,6 +19,11 @@ function syncRepo(org, repo) {
   }
 
   CONFIG.repositories[key].description = repo.description;
+
+  fs.writeFileSync(
+    __dirname + "/../../data/repositories.json",
+    JSON.stringify(CONFIG.repositories, null, 2)
+  );
 }
 
 syncAll();

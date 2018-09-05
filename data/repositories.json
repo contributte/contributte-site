@@ -66,7 +66,7 @@
     "enabled": true,
     "priority": 99,
     "docs": "v1",
-    "description": ":recycle: Nette-based console commands for latte, DIC, security, utils and many others.  ",
+    "description": ":recycle: Nette-based console commands for latte, DIC, MVC, security, utils and many others.  ",
     "releases": {
       "last": {
         "repo": "console-extra",
@@ -291,7 +291,7 @@
     "enabled": false,
     "priority": 0,
     "docs": "v1",
-    "description": ":postbox: Blogging platform"
+    "description": ":postbox: Blogging platform [proof of concept]"
   },
   "contributte/bootstrap": {
     "org": "contributte",
@@ -771,7 +771,7 @@
     "enabled": true,
     "priority": 0,
     "docs": "v0",
-    "description": ":wolf: Nextras\\ORM entity generator",
+    "description": ":wolf: [experimental] Nextras\\ORM entity generator",
     "releases": {
       "last": {
         "repo": "nextras-orm-generator",
@@ -1022,7 +1022,7 @@
     "enabled": true,
     "priority": 0,
     "docs": "v1",
-    "description": "",
+    "description": ":wrench: Core API library in Apitte stack. Also work standalone.",
     "category": "apitte"
   },
   "apitte/debug": {
@@ -1031,7 +1031,7 @@
     "enabled": true,
     "priority": 0,
     "docs": "v1",
-    "description": "",
+    "description": ":interrobang: Debugging tools for Apitte stack",
     "category": "apitte"
   },
   "apitte/console": {
@@ -1040,7 +1040,7 @@
     "enabled": true,
     "priority": 0,
     "docs": "v1",
-    "description": "",
+    "description": ":pill: Symfony\\Console bridge for Apitte stack",
     "category": "apitte"
   },
   "apitte/openapi": {
@@ -1049,7 +1049,7 @@
     "enabled": true,
     "priority": 0,
     "docs": "v1",
-    "description": "",
+    "description": ":family: OpenAPI specification for Apitte stack",
     "category": "apitte"
   },
   "apitte/middlewares": {
@@ -1058,7 +1058,7 @@
     "enabled": true,
     "priority": 0,
     "docs": "v1",
-    "description": "",
+    "description": ":speedboat: Middlewares support for Apitte stack",
     "category": "apitte"
   },
   "apitte/negotiation": {
@@ -1067,7 +1067,7 @@
     "enabled": true,
     "priority": 0,
     "docs": "v1",
-    "description": "",
+    "description": ":art: Content-Negotiation support for Apitte stack",
     "category": "apitte"
   },
   "apitte/presenter": {
@@ -1076,7 +1076,7 @@
     "enabled": true,
     "priority": 0,
     "docs": "v1",
-    "description": "",
+    "description": ":sunflower: PSR-7 for Nette\\Presenters with Apitte stack",
     "category": "apitte"
   },
   "apitte/fullstack": {
@@ -1085,7 +1085,7 @@
     "enabled": true,
     "priority": 0,
     "docs": "v0",
-    "description": "",
+    "description": ":thumbsup: Apitte meta package with all features",
     "category": "apitte"
   },
   "apitte/playground": {
@@ -1094,7 +1094,7 @@
     "enabled": true,
     "priority": 0,
     "docs": "v0",
-    "description": "",
+    "description": ":baby: Apitte playground with examples",
     "category": "apitte"
   }
 }

@@ -1,8 +1,8 @@
-const repositories = require('../data/repositories.json');
+const repositories = require('./../../data/repositories.json');
 const _ = require('lodash');
 
 // https://api.github.com/orgs/contributte/repos?per_page=100
-const response = require('./response.json');
+const response = require('./../../data/orgs/contributte.json');
 
 function syncAll() {
   _.forEach(response, r => syncRepo(r));

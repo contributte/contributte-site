@@ -10,4 +10,4 @@
 /docs/.vuepress/dist
 
 # Tools
-/tools/config.js
+/tools/secret.js

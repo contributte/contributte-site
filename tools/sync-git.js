@@ -1,24 +1,25 @@
-const path = require('path');
-const {spawn} = require('child_process');
 const _ = require('lodash');
+const {spawn} = require('child_process');
 const fs = require("fs");
 
-const repositories = require(__dirname + '/../data/repositories.json');
-const vcsRoot = path.resolve(__dirname + '/../data/vcs');
+// Global
+const CONFIG = require('./config');
+
+// Vars
 const processes = [];
 
 function sync() {
-  _.forEach(repositories, repo => {
-    if (fs.existsSync(`${vcsRoot}/${repo.name}`)) {
-      pullRepo(repo.name);
+  _.forEach(CONFIG.repositories, repo => {
+    if (fs.existsSync(`${CONFIG.vcsRoot}/${repo.org}/${repo.name}`)) {
+      pullRepo(repo);
     } else {
-      cloneRepo(repo.name);
+      cloneRepo(repo);
     }
   })
 }
 
 function cloneRepo(repo) {
-  const p = spawn('git', ['clone', `https://github.com/contributte/${repo}.git`], {cwd: vcsRoot});
+  const p = spawn('git', ['clone', `https://github.com/${repo.org}/${repo.name}.git`], {cwd: `${CONFIG.vcsRoot}/${repo.org}`});
   processes.push(p);
 
   p.stdout.on('data', (data) => {
@@ -39,7 +40,10 @@ function cloneRepo(repo) {
 }
 
 function pullRepo(repo) {
-  const p = spawn('git fetch origin master && git reset --hard origin/master', {shell: true, cwd: vcsRoot + "/" + repo});
+  const p = spawn('git fetch origin master && git reset --hard origin/master', {
+    shell: true,
+    cwd: `${CONFIG.vcsRoot}/${repo.org}/${repo.name}`
+  });
   processes.push(p);
 
   p.stdout.on('data', (data) => {
@@ -58,7 +62,5 @@ function pullRepo(repo) {
     }
   });
 }
-
-// ===========================
 
 sync();

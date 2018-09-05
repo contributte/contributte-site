@@ -8,7 +8,7 @@
               <a :href="'/packages/' + repository.name + '.html'">{{ repository.name }}</a>
             </h2>
             <div v-if="repository.description">
-              {{repository.description}}
+              <div v-html="md.render(repository.description)"></div>
             </div>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
@@ -17,28 +17,30 @@
               </div>
             </div>
           </div>
-        </div>
+        </div>  
       </div>
     </div>
   </div>
 </template>
 
 <script>
-  import {getEnabledRepositories} from "./../utils/repositories";
+import { getEnabledRepositories } from "./../utils/repositories";
+import { createMarkdown } from "./../utils/markdown";
 
-  export default {
-    data: () => ({
-      repositories: getEnabledRepositories()
-    })
-  }
+export default {
+  data: () => ({
+    repositories: getEnabledRepositories(),
+    md: createMarkdown()
+  })
+};
 </script>
 
 <style lang="scss">
-  .packages {
-    .card {
-      h2 {
-        font-size: 140%;
-      }
+.packages {
+  .card {
+    h2 {
+      font-size: 140%;
     }
   }
+}
 </style>

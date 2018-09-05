@@ -10,7 +10,7 @@
               </router-link>
               <small>{{release.created_at|date}}</small>
             </h2>
-            <div v-html="$options.filters.nl2br(release.body)"></div>
+            <div v-html="md.render(release.body)"></div>
           </div>
         </div>
       </div>
@@ -20,19 +20,21 @@
 
 <script>
 import { getReleases } from "./../utils/releases";
+import { createMarkdown } from "./../utils/markdown";
 import nl2br from "./../utils/nl2br";
 import dayjs from "dayjs";
 
 export default {
   data: () => ({
-    releases: getReleases()
+    releases: getReleases(),
+    md: createMarkdown()
   }),
   filters: {
     nl2br(s) {
       return nl2br(s);
     },
     date(s) {
-      return dayjs(s).format('DD/MM/YYYY');
+      return dayjs(s).format("DD/MM/YYYY");
     }
   }
 };

@@ -8,10 +8,12 @@ const organizations = {
 };
 
 const repositories = require('./../data/repositories.json');
+const releases = require('./../data/releases.json');
 const vcsRoot = path.resolve(__dirname + '/../data/vcs');
 
 module.exports = {
   organizations,
   repositories,
+  releases,
   vcsRoot
 };

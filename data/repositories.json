@@ -9,6 +9,7 @@
     "description": ":boom: Best minimal console (symfony/console) to Nette Framework (@nette)",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "console",
         "tag": "v0.5",
         "name": "v0.5",
@@ -28,6 +29,7 @@
     "description": ":mailbox_with_mail: Sending emails with pleasure and prepared templates.",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "mailing",
         "tag": "v0.2",
         "name": "v0.2",
@@ -48,6 +50,7 @@
     "description": ":wrench: Collection of useful scripts for manipulaton with NEON files. Support composer pre-install / post-install events. Set/get parameters, validate files.",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "neonizer",
         "tag": "v0.2.2",
         "name": "v0.2.2",
@@ -69,6 +72,7 @@
     "description": ":recycle: Nette-based console commands for latte, DIC, MVC, security, utils and many others.  ",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "console-extra",
         "tag": "v0.3",
         "name": "",
@@ -90,6 +94,7 @@
     "description": ":boom: Best events support (symfony/event-dispatcher) to Nette Framework (@nette)",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "event-dispatcher",
         "tag": "v0.5",
         "name": "v0.5",
@@ -110,6 +115,7 @@
     "description": ":no_entry: Nice client-side live form validation for Nette Forms.",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "live-form-validation",
         "tag": "v1.9.0",
         "name": "v1.9.0",
@@ -131,6 +137,7 @@
     "description": ":recycle: Nette-based Symfony events for application, presenter, form, latte, templates, security and many others.",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "event-dispatcher-extra",
         "tag": "v0.4.1",
         "name": "v0.4.1",
@@ -150,6 +157,7 @@
     "description": ":arrow_forward: Integration of Nette Framework to Codeception.",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "codeception",
         "tag": "v0.8.1",
         "name": "v0.8.1",
@@ -170,6 +178,7 @@
     "description": ":bangbang: Google reCAPTCHA (security) for Nette Framework \\ Forms",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "reCAPTCHA",
         "tag": "3.1.0",
         "name": "v3.1.0",
@@ -189,6 +198,7 @@
     "description": ":hourglass: PHP job scheduler (cron) with locking for Nette Framework",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "scheduler",
         "tag": "v0.2.1",
         "name": "v0.2.1",
@@ -209,6 +219,7 @@
     "description": ":exclamation: Seznam captcha (security) for Nette Framework \\ Forms",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "seznamcaptcha",
         "tag": "0.3",
         "name": "v0.3",
@@ -228,6 +239,7 @@
     "description": ":boom: Universal logging support to Tracy / Nette Framework (@nette)",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "logging",
         "tag": "v0.2.1",
         "name": "v0.2.1",
@@ -255,6 +267,7 @@
     "description": "[Moved to @apitte] Powerful API to Nette Framework",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "api",
         "tag": "v0.3",
         "name": "v0.3",
@@ -275,6 +288,7 @@
     "description": ":sparkles: Extra contrib to nette/application (@nette)",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "application",
         "tag": "v0.3.1",
         "name": "v0.3.1",
@@ -303,6 +317,7 @@
     "description": ":sparkles: Extra contrib to nette/bootstrap (@nette)",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "bootstrap",
         "tag": "v0.3.1",
         "name": "v0.3.1",
@@ -323,6 +338,7 @@
     "description": ":sparkles: Extra contrib to nette/caching (@nette)",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "cache",
         "tag": "v0.3",
         "name": "v0.3",
@@ -351,6 +367,7 @@
     "description": ":sparkles: Extra contrib to nette/database (@nette)",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "database",
         "tag": "v0.1",
         "name": "v0.1",
@@ -371,6 +388,7 @@
     "description": ":horse_racing: FTP deployment (by @dg) extension for Nette Framework",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "deployer-extension",
         "tag": "v2.0.0",
         "name": "v2.0.0",
@@ -391,6 +409,7 @@
     "description": ":godmode: Set of tools for development / debugging (@nette)",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "dev",
         "tag": "v0.1",
         "name": "v0.1",
@@ -412,6 +431,7 @@
     "description": ":sparkles: Extra contrib to nette/di (@nette)",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "di",
         "tag": "v0.3.0",
         "name": "",
@@ -432,6 +452,7 @@
     "description": ":repeat: Ultra simple events system for Nette Framework",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "dummy-events",
         "tag": "2.0.0",
         "name": "v2.0.0",
@@ -452,6 +473,7 @@
     "description": ":mag: Tiny Elasticsearch integration into Nette Framework",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "elasticsearch",
         "tag": "v0.1",
         "name": "v0.1",
@@ -471,6 +493,7 @@
     "description": "[ARCHIVED] :recycle: Bridge between event dispatcher & nette application ",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "event-application-bridge",
         "tag": "v0.1.1",
         "name": "v0.1.1",
@@ -490,6 +513,7 @@
     "description": "[ARCHIVED] :package: Collection of all event dispatcher bridges (:recycle:) to nette at one place ",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "event-bridges",
         "tag": "v0.1",
         "name": "v0.1",
@@ -509,6 +533,7 @@
     "description": "[ARCHIVED] :recycle: Bridge between event dispatcher & nette security",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "event-security-bridge",
         "tag": "v0.1",
         "name": "v0.1",
@@ -528,6 +553,7 @@
     "description": ":yum: Tiny Facebook SDK 5.x integration to Nette Framework",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "facebook",
         "tag": "v0.2",
         "name": "v0.2",
@@ -547,6 +573,7 @@
     "description": ":euro: Fio API integration for Nette Framework",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "fio",
         "tag": "v0.2",
         "name": "v0.2",
@@ -567,6 +594,7 @@
     "description": ":sparkles: Extra contrib to nette/forms (@nette)",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "forms",
         "tag": "v0.3",
         "name": "v0.3",
@@ -596,6 +624,7 @@
     "description": ":sparkles: Extra contrib to nette/http (@nette)",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "http",
         "tag": "v0.2",
         "name": "",
@@ -616,6 +645,7 @@
     "description": ":sparkles: Extra contrib to nette/latte (@nette)",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "latte",
         "tag": "v0.3",
         "name": "v0.3",
@@ -636,6 +666,7 @@
     "description": ":point_right: Email protection for emails in Latte templates",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "latte-email",
         "tag": "2.0.0",
         "name": "v2.0.0",
@@ -656,6 +687,7 @@
     "description": ":tractor: Parsedown (markdown) template parser for Nette \\ Latte (@nette)",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "latte-parsedown-extra",
         "tag": "1.3.0",
         "name": "1.3.0",
@@ -676,6 +708,7 @@
     "description": ":sparkles: Extra contrib to nette/mail (@nette)",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "mail",
         "tag": "v0.2.0",
         "name": "",
@@ -696,6 +729,7 @@
     "description": ":boom: Middlewares / Relay / PSR-7 support to Nette Framework (@nette)",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "middlewares",
         "tag": "v0.7",
         "name": "",
@@ -723,6 +757,7 @@
     "description": ":boom: View-Model + Model-View layer to Nette Framework (@nette)",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "model",
         "tag": "v0.1.0",
         "name": "v0.1.0",
@@ -753,6 +788,7 @@
     "description": ":wolf: Doctrine-like events for Nextras ORM",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "nextras-orm-events",
         "tag": "0.4",
         "name": "v0.4",
@@ -774,6 +810,7 @@
     "description": ":wolf: [experimental] Nextras\\ORM entity generator",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "nextras-orm-generator",
         "tag": "0.1",
         "name": "v0.1",
@@ -795,6 +832,7 @@
     "description": ":wolf: Query-objects for Nextras ORM",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "nextras-orm-query-object",
         "tag": "v0.2",
         "name": "v0.2",
@@ -815,6 +853,7 @@
     "description": ":boom: Enhanced PHPdoc to Nette Framework with annotations (@nette)",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "phpdoc",
         "tag": "v0.2",
         "name": "v0.2",
@@ -844,6 +883,7 @@
     "description": ":dizzy: PSR #11 [Container Interface] to Nette Framework (@nette)",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "psr11-container-interface",
         "tag": "v0.1.0",
         "name": "v0.1.0",
@@ -883,6 +923,7 @@
     "description": ":dizzy: PSR #7 [HTTP Message Interface] to Nette Framework (@nette)",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "psr7-http-message",
         "tag": "v0.5",
         "name": "v0.5",
@@ -912,6 +953,7 @@
     "description": ":sparkles: Extra contrib to nette/security (@nette)",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "security",
         "tag": "v0.2",
         "name": "v0.2",
@@ -939,6 +981,7 @@
     "description": ":fries: Social plugins  (facebook, twitter, google) for Nette Framework",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "social",
         "tag": "v2.0.0",
         "name": "v2.0.0",
@@ -959,6 +1002,7 @@
     "description": ":sunglasses: Tuned Tracy Bars/Panels/BlueScreens for easy-developing",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "tracy",
         "tag": "v0.3.1",
         "name": "v0.3.1",
@@ -979,6 +1023,7 @@
     "description": ":sparkles: Extra contrib to nette/utils (@nette)",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "utils",
         "tag": "v0.3.1",
         "name": "v0.3.1",
@@ -1006,6 +1051,7 @@
     "description": ":exclamation: Word based captcha (security) for Nette Framework \\ Forms (@nette)",
     "releases": {
       "last": {
+        "org": "contributte",
         "repo": "wordcha",
         "tag": "v0.1",
         "name": "v0.1",
@@ -1023,7 +1069,19 @@
     "priority": 0,
     "docs": "v1",
     "description": ":wrench: Core API library in Apitte stack. Also work standalone.",
-    "category": "apitte"
+    "category": "apitte",
+    "releases": {
+      "last": {
+        "org": "apitte",
+        "repo": "core",
+        "tag": "v0.3",
+        "name": "v0.3",
+        "created_at": "2018-07-04T08:44:11Z",
+        "published_at": "2018-07-04T08:44:27Z",
+        "html_url": "https://github.com/apitte/core/releases/tag/v0.3",
+        "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/core/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- Mapping: normalize request parameter with respect to parameter IN [#14] (thanks @Trejjam)\r\n- Openapi: extend configuration [#17] (thanks @Trejjam)\r\n- Fix bug with required non-empty parameter [#15] (thanks @Trejjam)\r\n\r\nThis is last PHP 5.6 release."
+      }
+    }
   },
   "apitte/debug": {
     "org": "apitte",
@@ -1032,7 +1090,19 @@
     "priority": 0,
     "docs": "v1",
     "description": ":interrobang: Debugging tools for Apitte stack",
-    "category": "apitte"
+    "category": "apitte",
+    "releases": {
+      "last": {
+        "org": "apitte",
+        "repo": "debug",
+        "tag": "v0.3.1",
+        "name": "v0.3.1",
+        "created_at": "2018-07-04T15:22:14Z",
+        "published_at": "2018-07-04T15:23:04Z",
+        "html_url": "https://github.com/apitte/debug/releases/tag/v0.3.1",
+        "body": "Bump! 🈁 \r\n\r\nDiff: https://github.com/apitte/debug/compare/v0.3...v0.3.1\r\n\r\nChanges:\r\n- bugfix registering DebugPanel according to global debug and plugin debug"
+      }
+    }
   },
   "apitte/console": {
     "org": "apitte",
@@ -1041,7 +1111,19 @@
     "priority": 0,
     "docs": "v1",
     "description": ":pill: Symfony\\Console bridge for Apitte stack",
-    "category": "apitte"
+    "category": "apitte",
+    "releases": {
+      "last": {
+        "org": "apitte",
+        "repo": "console",
+        "tag": "v0.3",
+        "name": "v0.3",
+        "created_at": "2018-07-04T09:16:25Z",
+        "published_at": "2018-07-04T09:19:09Z",
+        "html_url": "https://github.com/apitte/console/releases/tag/v0.3",
+        "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/console/compare/v0.2...v0.3\r\n\r\nThis is last PHP 5.6 release."
+      }
+    }
   },
   "apitte/openapi": {
     "org": "apitte",
@@ -1050,7 +1132,19 @@
     "priority": 0,
     "docs": "v1",
     "description": ":family: OpenAPI specification for Apitte stack",
-    "category": "apitte"
+    "category": "apitte",
+    "releases": {
+      "last": {
+        "org": "apitte",
+        "repo": "openapi",
+        "tag": "v0.3",
+        "name": "v0.3",
+        "created_at": "2018-07-04T09:06:20Z",
+        "published_at": "2018-07-04T09:07:24Z",
+        "html_url": "https://github.com/apitte/openapi/releases/tag/v0.3",
+        "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/openapi/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- OpenApiService: export multi method on single path (thanks @Trejjam)\r\n- OpenApiService: extend configuration options (thanks @Trejjam)\r\n\r\nThis is last release for PHP 5.6."
+      }
+    }
   },
   "apitte/middlewares": {
     "org": "apitte",
@@ -1059,7 +1153,19 @@
     "priority": 0,
     "docs": "v1",
     "description": ":speedboat: Middlewares support for Apitte stack",
-    "category": "apitte"
+    "category": "apitte",
+    "releases": {
+      "last": {
+        "org": "apitte",
+        "repo": "middlewares",
+        "tag": "v0.3",
+        "name": "v0.3",
+        "created_at": "2018-07-04T09:00:18Z",
+        "published_at": "2018-07-04T09:02:51Z",
+        "html_url": "https://github.com/apitte/middlewares/releases/tag/v0.3",
+        "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/middlewares/compare/v0.2...v0.3\r\n\r\nThis is last release for PHP 5.6."
+      }
+    }
   },
   "apitte/negotiation": {
     "org": "apitte",
@@ -1068,7 +1174,19 @@
     "priority": 0,
     "docs": "v1",
     "description": ":art: Content-Negotiation support for Apitte stack",
-    "category": "apitte"
+    "category": "apitte",
+    "releases": {
+      "last": {
+        "org": "apitte",
+        "repo": "negotiation",
+        "tag": "v0.3",
+        "name": "v0.3",
+        "created_at": "2018-07-04T09:02:02Z",
+        "published_at": "2018-07-04T09:03:19Z",
+        "html_url": "https://github.com/apitte/negotiation/releases/tag/v0.3",
+        "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/negotiation/compare/v0.2.1...v0.3\r\n\r\nThis is last release for PHP 5.6."
+      }
+    }
   },
   "apitte/presenter": {
     "org": "apitte",
@@ -1077,7 +1195,19 @@
     "priority": 0,
     "docs": "v1",
     "description": ":sunflower: PSR-7 for Nette\\Presenters with Apitte stack",
-    "category": "apitte"
+    "category": "apitte",
+    "releases": {
+      "last": {
+        "org": "apitte",
+        "repo": "presenter",
+        "tag": "v0.3",
+        "name": "v0.3",
+        "created_at": "2018-07-04T09:35:39Z",
+        "published_at": "2018-07-04T09:35:56Z",
+        "html_url": "https://github.com/apitte/presenter/releases/tag/v0.3",
+        "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/presenter/compare/v0.2...v0.3\r\n\r\nThis is last release for PHP 5.6."
+      }
+    }
   },
   "apitte/fullstack": {
     "org": "apitte",
@@ -1086,7 +1216,19 @@
     "priority": 0,
     "docs": "v0",
     "description": ":thumbsup: Apitte meta package with all features",
-    "category": "apitte"
+    "category": "apitte",
+    "releases": {
+      "last": {
+        "org": "apitte",
+        "repo": "fullstack",
+        "tag": "v0.3",
+        "name": "v0.3",
+        "created_at": "2018-07-04T09:21:10Z",
+        "published_at": "2018-07-04T09:21:33Z",
+        "html_url": "https://github.com/apitte/fullstack/releases/tag/v0.3",
+        "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/fullstack/compare/v0.2...v0.3\r\n\r\nThis is last PHP 5.6 release."
+      }
+    }
   },
   "apitte/playground": {
     "org": "apitte",

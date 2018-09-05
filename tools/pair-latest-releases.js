@@ -1,11 +1,12 @@
-const repositories = require('../data/repositories.json');
-const releases = require('../data/releases.json');
 const _ = require('lodash');
 const fs = require('fs');
 
+// Global
+const CONFIG = require('./config');
+
 function syncAll() {
-  _.forEach(repositories, r => syncRepo(r));
-  fs.writeFileSync(__dirname + '/../data/repositories.json', JSON.stringify(repositories, null, 2));
+  _.forEach(CONFIG.repositories, r => syncRepo(r));
+  fs.writeFileSync(__dirname + '/../data/repositories.json', JSON.stringify(CONFIG.repositories, null, 2));
 }
 
 function syncRepo(repo) {
@@ -21,8 +22,8 @@ function syncRepo(repo) {
 }
 
 function findLastRelease(repo) {
-  return _(releases)
-    .filter(r => r.repo === repo.name)
+  return _(CONFIG.releases)
+    .filter(r => r.repo + '/' + r.org === repo.name + '/' + repo.org)
     .orderBy(['created_at'], ['desc'])
     .head();
 }

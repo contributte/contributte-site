@@ -10,6 +10,11 @@ const processes = [];
 
 function sync() {
   _.forEach(CONFIG.repositories, repo => {
+
+    if (!fs.existsSync(`${CONFIG.vcsRoot}/${repo.org}`)) {
+      fs.mkdirSync(`${CONFIG.vcsRoot}/${repo.org}`);
+    }
+
     if (fs.existsSync(`${CONFIG.vcsRoot}/${repo.org}/${repo.name}`)) {
       pullRepo(repo);
     } else {

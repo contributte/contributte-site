@@ -1,21 +1,24 @@
-const repositories = require('./../../data/repositories.json');
 const _ = require('lodash');
+const fs = require('fs');
 
-// https://api.github.com/orgs/contributte/repos?per_page=100
-const response = require('./../../data/orgs/contributte.json');
+// Global
+const CONFIG = require('./../config');
 
 function syncAll() {
-  _.forEach(response, r => syncRepo(r));
+  _.forEach(CONFIG.organizations, (repositories, org) => {
+    _.forEach(repositories, r => syncRepo(org, r));
+  });
 }
 
-function syncRepo(repo) {
-  if (repositories[repo.name] === undefined) {
-    console.log(`Repository ${repo.name} not found`);
+function syncRepo(org, repo) {
+  const key = org + '/' + repo.name;
+
+  if (CONFIG.repositories[key] === undefined) {
+    console.log(`Repository ${key} not found`);
     return;
   }
 
-  repositories[repo.name].description = repo.description;
+  CONFIG.repositories[key].description = repo.description;
 }
 
 syncAll();
-console.log(JSON.stringify(repositories, null, 2));

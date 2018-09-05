@@ -19,6 +19,45 @@
       }
     }
   },
+  "mailing": {
+    "org": "contributte",
+    "name": "mailing",
+    "enabled": true,
+    "priority": 100,
+    "docs": "v1",
+    "description": ":mailbox_with_mail: Sending emails with pleasure and prepared templates.",
+    "releases": {
+      "last": {
+        "repo": "mailing",
+        "tag": "v0.2",
+        "name": "v0.2",
+        "created_at": "2018-06-14T09:08:58Z",
+        "published_at": "2018-06-14T09:12:04Z",
+        "html_url": "https://github.com/contributte/mailing/releases/tag/v0.2",
+        "body": "Bump! :abcd: \r\n\r\nDiff: https://github.com/contributte/mailing/compare/v0.1...v0.2\r\n\r\nChanges:\r\n\r\n- added MailBuild methods for bcc & cc\r\n- PHP 5.6 -> PHP 7.1\r\n"
+      }
+    }
+  },
+  "neonizer": {
+    "org": "contributte",
+    "name": "neonizer",
+    "category": "development",
+    "enabled": true,
+    "priority": 100,
+    "docs": "v1",
+    "description": ":wrench: Collection of useful scripts for manipulaton with NEON files. Support composer pre-install / post-install events. Set/get parameters, validate files.",
+    "releases": {
+      "last": {
+        "repo": "neonizer",
+        "tag": "v0.2.2",
+        "name": "v0.2.2",
+        "created_at": "2018-07-27T08:22:54Z",
+        "published_at": "2018-07-27T08:29:34Z",
+        "html_url": "https://github.com/contributte/neonizer/releases/tag/v0.2.2",
+        "body": "Bump! 🤒 \r\n\r\nDiff: https://github.com/contributte/neonizer/compare/v0.2.1...v0.2.2\r\n\r\nChanges:\r\n- Better config merging [#8] [#9] "
+      }
+    }
+  },
   "console-extra": {
     "org": "contributte",
     "name": "console-extra",
@@ -61,6 +100,26 @@
       }
     }
   },
+  "live-form-validation": {
+    "org": "contributte",
+    "name": "live-form-validation",
+    "title": "Live Form Validation",
+    "enabled": true,
+    "priority": 90,
+    "docs": "v0",
+    "description": ":no_entry: Nice client-side live form validation for Nette Forms.",
+    "releases": {
+      "last": {
+        "repo": "live-form-validation",
+        "tag": "v1.9.0",
+        "name": "v1.9.0",
+        "created_at": "2017-12-20T12:24:39Z",
+        "published_at": "2017-12-20T12:24:53Z",
+        "html_url": "https://github.com/contributte/live-form-validation/releases/tag/v1.9.0",
+        "body": "Bump! 🏭 \r\n\r\nDiff: https://github.com/contributte/live-form-validation/compare/v1.8.0...v1.9.0\r\n\r\nChanges:\r\n- moved under contributte organization\r\n- created NPM package [#35]\r\n- added Travis CI releases\r\n- fixed ReferenceError prop is not defined\r\n- fixed range validator for min & max validator [#38]"
+      }
+    }
+  },
   "event-dispatcher-extra": {
     "org": "contributte",
     "name": "event-dispatcher-extra",
@@ -79,6 +138,103 @@
         "published_at": "2018-06-01T08:57:09Z",
         "html_url": "https://github.com/contributte/event-dispatcher-extra/releases/tag/v0.4.1",
         "body": "Bump! 🃏 \r\n\r\nDiff: https://github.com/contributte/event-dispatcher-extra/compare/v0.4...v0.4.1\r\n\r\nChanges:\r\n- added more tests on Presenter::onStartup/onShutdown [#17] [#16] [#15] \r\n- allow to pass IPresenter to PresenterStartup/PresenterShutdown event [#17]"
+      }
+    }
+  },
+  "codeception": {
+    "org": "contributte",
+    "name": "codeception",
+    "enabled": false,
+    "priority": 60,
+    "docs": "v1",
+    "description": ":arrow_forward: Integration of Nette Framework to Codeception.",
+    "releases": {
+      "last": {
+        "repo": "codeception",
+        "tag": "v0.8.1",
+        "name": "v0.8.1",
+        "created_at": "2017-12-12T22:03:25Z",
+        "published_at": "2017-12-12T22:53:07Z",
+        "html_url": "https://github.com/contributte/codeception/releases/tag/v0.8.1",
+        "body": "- The `useConfigFiles` method now works with absolute paths (by @fmasa)\r\n"
+      }
+    }
+  },
+  "reCAPTCHA": {
+    "org": "contributte",
+    "name": "reCAPTCHA",
+    "title": "reCAPTCHA",
+    "enabled": true,
+    "priority": 50,
+    "docs": "v0",
+    "description": ":bangbang: Google reCAPTCHA (security) for Nette Framework \\ Forms",
+    "releases": {
+      "last": {
+        "repo": "reCAPTCHA",
+        "tag": "3.1.0",
+        "name": "v3.1.0",
+        "created_at": "2018-08-22T13:31:56Z",
+        "published_at": "2018-08-29T11:23:13Z",
+        "html_url": "https://github.com/contributte/reCAPTCHA/releases/tag/3.1.0",
+        "body": "Bumped! 🍶\r\n\r\nDiff: https://github.com/contributte/reCAPTCHA/compare/3.0.0...3.1.0\r\n\r\nChanges:\r\n- added Invisible reCAPTCHA [#21] (thanks @JanGalek) \r\n- enhanced readme (thanks @Gappa)"
+      }
+    }
+  },
+  "scheduler": {
+    "org": "contributte",
+    "name": "scheduler",
+    "enabled": true,
+    "priority": 40,
+    "docs": "v1",
+    "description": ":hourglass: PHP job scheduler (cron) with locking for Nette Framework",
+    "releases": {
+      "last": {
+        "repo": "scheduler",
+        "tag": "v0.2.1",
+        "name": "v0.2.1",
+        "created_at": "2018-06-05T09:32:12Z",
+        "published_at": "2018-06-10T18:37:25Z",
+        "html_url": "https://github.com/contributte/scheduler/releases/tag/v0.2.1",
+        "body": "Bump! 🆎 \r\n\r\nDiff: https://github.com/contributte/scheduler/compare/v0.2...v0.2.1\r\n\r\nChanges:\r\n- QA - improve ruleset\r\n- Bugfix: empty key at job [#4]   "
+      }
+    }
+  },
+  "seznamcaptcha": {
+    "org": "contributte",
+    "name": "seznamcaptcha",
+    "title": "Seznam Captcha",
+    "enabled": true,
+    "priority": 30,
+    "docs": "v1",
+    "description": ":exclamation: Seznam captcha (security) for Nette Framework \\ Forms",
+    "releases": {
+      "last": {
+        "repo": "seznamcaptcha",
+        "tag": "0.3",
+        "name": "v0.3",
+        "created_at": "2017-02-23T12:21:41Z",
+        "published_at": "2017-07-31T09:36:31Z",
+        "html_url": "https://github.com/contributte/seznamcaptcha/releases/tag/0.3",
+        "body": "Bumped! ��� \r\n\r\nChanges:\r\n- enhanced readme\r\n- repair validator [#1] "
+      }
+    }
+  },
+  "logging": {
+    "org": "contributte",
+    "name": "logging",
+    "enabled": true,
+    "priority": 20,
+    "docs": "v1",
+    "description": ":boom: Universal logging support to Tracy / Nette Framework (@nette)",
+    "releases": {
+      "last": {
+        "repo": "logging",
+        "tag": "v0.2.1",
+        "name": "v0.2.1",
+        "created_at": "2017-10-23T17:08:35Z",
+        "published_at": "2017-10-30T08:47:21Z",
+        "html_url": "https://github.com/contributte/logging/releases/tag/v0.2.1",
+        "body": "Bump! 🤒 \r\n\r\nDiff: https://github.com/contributte/logging/compare/v0.2...v0.2.1\r\n\r\nChanges:\r\n- fix multiple formatters bug [#7]\r\n- change Throwable to Exception [#8] [#9]  "
       }
     }
   },
@@ -174,25 +330,6 @@
         "published_at": "2018-08-16T14:46:41Z",
         "html_url": "https://github.com/contributte/cache/releases/tag/v0.3",
         "body": "Bump! 🤖 \r\n\r\nDiff: https://github.com/contributte/cache/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- MemoryAdapterStorage"
-      }
-    }
-  },
-  "codeception": {
-    "org": "contributte",
-    "name": "codeception",
-    "enabled": false,
-    "priority": 60,
-    "docs": "v1",
-    "description": ":arrow_forward: Integration of Nette Framework to Codeception.",
-    "releases": {
-      "last": {
-        "repo": "codeception",
-        "tag": "v0.8.1",
-        "name": "v0.8.1",
-        "created_at": "2017-12-12T22:03:25Z",
-        "published_at": "2017-12-12T22:53:07Z",
-        "html_url": "https://github.com/contributte/codeception/releases/tag/v0.8.1",
-        "body": "- The `useConfigFiles` method now works with absolute paths (by @fmasa)\r\n"
       }
     }
   },
@@ -302,6 +439,26 @@
         "published_at": "2018-06-25T22:01:09Z",
         "html_url": "https://github.com/contributte/dummy-events/releases/tag/2.0.0",
         "body": "Bump! :+1: \r\n\r\nDiff: https://github.com/contributte/dummy-events/compare/1.2.0...2.0.0\r\n\r\nChanges:\r\n- changed namespace\r\n- changed composer package\r\n- PHP >= 7.1"
+      }
+    }
+  },
+  "elasticsearch": {
+    "org": "contributte",
+    "name": "elasticsearch",
+    "title": "ElasticSearch",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":mag: Tiny Elasticsearch integration into Nette Framework",
+    "releases": {
+      "last": {
+        "repo": "elasticsearch",
+        "tag": "v0.1",
+        "name": "v0.1",
+        "created_at": "2018-05-31T07:10:49Z",
+        "published_at": "2018-05-31T07:14:36Z",
+        "html_url": "https://github.com/contributte/elasticsearch/releases/tag/v0.1",
+        "body": "Bumped! :fist_oncoming: "
       }
     }
   },
@@ -509,45 +666,6 @@
       }
     }
   },
-  "live-form-validation": {
-    "org": "contributte",
-    "name": "live-form-validation",
-    "title": "Live Form Validation",
-    "enabled": true,
-    "priority": 90,
-    "docs": "v0",
-    "description": ":no_entry: Nice client-side live form validation for Nette Forms.",
-    "releases": {
-      "last": {
-        "repo": "live-form-validation",
-        "tag": "v1.9.0",
-        "name": "v1.9.0",
-        "created_at": "2017-12-20T12:24:39Z",
-        "published_at": "2017-12-20T12:24:53Z",
-        "html_url": "https://github.com/contributte/live-form-validation/releases/tag/v1.9.0",
-        "body": "Bump! 🏭 \r\n\r\nDiff: https://github.com/contributte/live-form-validation/compare/v1.8.0...v1.9.0\r\n\r\nChanges:\r\n- moved under contributte organization\r\n- created NPM package [#35]\r\n- added Travis CI releases\r\n- fixed ReferenceError prop is not defined\r\n- fixed range validator for min & max validator [#38]"
-      }
-    }
-  },
-  "logging": {
-    "org": "contributte",
-    "name": "logging",
-    "enabled": true,
-    "priority": 20,
-    "docs": "v1",
-    "description": ":boom: Universal logging support to Tracy / Nette Framework (@nette)",
-    "releases": {
-      "last": {
-        "repo": "logging",
-        "tag": "v0.2.1",
-        "name": "v0.2.1",
-        "created_at": "2017-10-23T17:08:35Z",
-        "published_at": "2017-10-30T08:47:21Z",
-        "html_url": "https://github.com/contributte/logging/releases/tag/v0.2.1",
-        "body": "Bump! 🤒 \r\n\r\nDiff: https://github.com/contributte/logging/compare/v0.2...v0.2.1\r\n\r\nChanges:\r\n- fix multiple formatters bug [#7]\r\n- change Throwable to Exception [#8] [#9]  "
-      }
-    }
-  },
   "mail": {
     "org": "contributte",
     "name": "mail",
@@ -565,25 +683,6 @@
         "published_at": "2018-07-18T20:05:23Z",
         "html_url": "https://github.com/contributte/mail/releases/tag/v0.2.0",
         "body": "Bump! 🍼 \r\n\r\nDiff: https://github.com/contributte/mail/compare/v0.1.3...v0.2.0\r\n\r\nChanges:\r\n- PHP 7.1 [#7] [#6] \r\n- Debug panel [#5] [#2] \r\n- Replaced MessageFactory with IMessageFactory (BC break)"
-      }
-    }
-  },
-  "mailing": {
-    "org": "contributte",
-    "name": "mailing",
-    "enabled": true,
-    "priority": 100,
-    "docs": "v1",
-    "description": ":mailbox_with_mail: Sending emails with pleasure and prepared templates.",
-    "releases": {
-      "last": {
-        "repo": "mailing",
-        "tag": "v0.2",
-        "name": "v0.2",
-        "created_at": "2018-06-14T09:08:58Z",
-        "published_at": "2018-06-14T09:12:04Z",
-        "html_url": "https://github.com/contributte/mailing/releases/tag/v0.2",
-        "body": "Bump! :abcd: \r\n\r\nDiff: https://github.com/contributte/mailing/compare/v0.1...v0.2\r\n\r\nChanges:\r\n\r\n- added MailBuild methods for bcc & cc\r\n- PHP 5.6 -> PHP 7.1\r\n"
       }
     }
   },
@@ -631,26 +730,6 @@
         "published_at": "2018-08-10T21:15:54Z",
         "html_url": "https://github.com/contributte/model/releases/tag/v0.1.0",
         "body": "First bump! 👊 \r\n\r\nAdded:\r\n - Email\r\n - LazyCollection"
-      }
-    }
-  },
-  "neonizer": {
-    "org": "contributte",
-    "name": "neonizer",
-    "category": "development",
-    "enabled": true,
-    "priority": 100,
-    "docs": "v1",
-    "description": ":wrench: Collection of useful scripts for manipulaton with NEON files. Support composer pre-install / post-install events. Set/get parameters, validate files.",
-    "releases": {
-      "last": {
-        "repo": "neonizer",
-        "tag": "v0.2.2",
-        "name": "v0.2.2",
-        "created_at": "2018-07-27T08:22:54Z",
-        "published_at": "2018-07-27T08:29:34Z",
-        "html_url": "https://github.com/contributte/neonizer/releases/tag/v0.2.2",
-        "body": "Bump! 🤒 \r\n\r\nDiff: https://github.com/contributte/neonizer/compare/v0.2.1...v0.2.2\r\n\r\nChanges:\r\n- Better config merging [#8] [#9] "
       }
     }
   },
@@ -814,26 +893,6 @@
       }
     }
   },
-  "reCAPTCHA": {
-    "org": "contributte",
-    "name": "reCAPTCHA",
-    "title": "reCAPTCHA",
-    "enabled": true,
-    "priority": 50,
-    "docs": "v0",
-    "description": ":bangbang: Google reCAPTCHA (security) for Nette Framework \\ Forms",
-    "releases": {
-      "last": {
-        "repo": "reCAPTCHA",
-        "tag": "3.1.0",
-        "name": "v3.1.0",
-        "created_at": "2018-08-22T13:31:56Z",
-        "published_at": "2018-08-29T11:23:13Z",
-        "html_url": "https://github.com/contributte/reCAPTCHA/releases/tag/3.1.0",
-        "body": "Bumped! 🍶\r\n\r\nDiff: https://github.com/contributte/reCAPTCHA/compare/3.0.0...3.1.0\r\n\r\nChanges:\r\n- added Invisible reCAPTCHA [#21] (thanks @JanGalek) \r\n- enhanced readme (thanks @Gappa)"
-      }
-    }
-  },
   "routing": {
     "org": "contributte",
     "name": "routing",
@@ -842,25 +901,6 @@
     "priority": 0,
     "docs": "v1",
     "description": ":sparkles: Extra contrib to nette/routing (@nette)"
-  },
-  "scheduler": {
-    "org": "contributte",
-    "name": "scheduler",
-    "enabled": true,
-    "priority": 40,
-    "docs": "v1",
-    "description": ":hourglass: PHP job scheduler (cron) with locking for Nette Framework",
-    "releases": {
-      "last": {
-        "repo": "scheduler",
-        "tag": "v0.2.1",
-        "name": "v0.2.1",
-        "created_at": "2018-06-05T09:32:12Z",
-        "published_at": "2018-06-10T18:37:25Z",
-        "html_url": "https://github.com/contributte/scheduler/releases/tag/v0.2.1",
-        "body": "Bump! 🆎 \r\n\r\nDiff: https://github.com/contributte/scheduler/compare/v0.2...v0.2.1\r\n\r\nChanges:\r\n- QA - improve ruleset\r\n- Bugfix: empty key at job [#4]   "
-      }
-    }
   },
   "security": {
     "org": "contributte",
@@ -889,26 +929,6 @@
     "priority": 0,
     "docs": "v1",
     "description": ":watch: Server Timing API profiling for Nette Framework "
-  },
-  "seznamcaptcha": {
-    "org": "contributte",
-    "name": "seznamcaptcha",
-    "title": "Seznam Captcha",
-    "enabled": true,
-    "priority": 30,
-    "docs": "v1",
-    "description": ":exclamation: Seznam captcha (security) for Nette Framework \\ Forms",
-    "releases": {
-      "last": {
-        "repo": "seznamcaptcha",
-        "tag": "0.3",
-        "name": "v0.3",
-        "created_at": "2017-02-23T12:21:41Z",
-        "published_at": "2017-07-31T09:36:31Z",
-        "html_url": "https://github.com/contributte/seznamcaptcha/releases/tag/0.3",
-        "body": "Bumped! ��� \r\n\r\nChanges:\r\n- enhanced readme\r\n- repair validator [#1] "
-      }
-    }
   },
   "social": {
     "org": "contributte",
@@ -992,26 +1012,6 @@
         "created_at": "2017-06-11T09:41:18Z",
         "published_at": "2017-06-11T09:41:31Z",
         "html_url": "https://github.com/contributte/wordcha/releases/tag/v0.1",
-        "body": "Bumped! :fist_oncoming: "
-      }
-    }
-  },
-  "elasticsearch": {
-    "org": "contributte",
-    "name": "elasticsearch",
-    "title": "ElasticSearch",
-    "enabled": true,
-    "priority": 0,
-    "docs": "v1",
-    "description": ":mag: Tiny Elasticsearch integration into Nette Framework",
-    "releases": {
-      "last": {
-        "repo": "elasticsearch",
-        "tag": "v0.1",
-        "name": "v0.1",
-        "created_at": "2018-05-31T07:10:49Z",
-        "published_at": "2018-05-31T07:14:36Z",
-        "html_url": "https://github.com/contributte/elasticsearch/releases/tag/v0.1",
         "body": "Bumped! :fist_oncoming: "
       }
     }

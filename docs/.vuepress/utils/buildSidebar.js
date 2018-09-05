@@ -1,4 +1,4 @@
-const repositories = require('../../../data/repositories.json');
+const repositories = require('./../../../data/repositories.json');
 const _ = require('lodash');
 
 function buildChildren(category) {
@@ -15,7 +15,7 @@ function buildChildren(category) {
       const lastTag = r.releases ? r.releases.last : null;
 
       return [
-        `/packages/${r.name}.html`,
+        `/packages/${r.org}/${r.name}.html`,
         title
       ]
     })

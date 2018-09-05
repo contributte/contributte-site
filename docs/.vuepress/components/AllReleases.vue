@@ -5,7 +5,7 @@
         <div class="card mb-4 box-shadow">
           <div class="card-body">
             <h2>
-              <router-link :to="'/packages/'+release.repo+'.html'">
+              <router-link :to="'/packages/'+release.org+'/'+release.repo+'.html'">
                 {{release.repo}} / {{release.tag}}
               </router-link>
               <small>{{release.created_at|date}}</small>

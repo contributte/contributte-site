@@ -49,6 +49,11 @@ module.exports = {
         children: buildChildren('apitte'),
       },
       {
+        title: 'Nettrine',
+        collapsable: false,
+        children: buildChildren('nettrine'),
+      },
+      {
         title: 'Nextras',
         collapsable: false,
         children: buildChildren('nextras'),
@@ -70,4 +75,4 @@ module.exports = {
       },
     ];
   }
-}
+};

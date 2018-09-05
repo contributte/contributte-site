@@ -1238,5 +1238,189 @@
     "docs": "v0",
     "description": ":baby: Apitte playground with examples",
     "category": "apitte"
+  },
+  "nettrine/dbal": {
+    "org": "nettrine",
+    "name": "dbal",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":bulb: Well-integrated Doctrine2 DBAL for Nette Framework",
+    "category": "nettrine",
+    "releases": {
+      "last": {
+        "org": "nettrine",
+        "repo": "dbal",
+        "tag": "v0.2.6",
+        "name": "v0.2.6",
+        "created_at": "2018-06-20T07:36:47Z",
+        "published_at": "2018-06-20T07:44:52Z",
+        "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.2.6",
+        "body": "Bumped! *️⃣ \r\n\r\nDiff: https://github.com/nettrine/dbal/compare/v0.2.5...v0.2.6\r\n\r\nChanges:\r\n- require doctrine/dbal >=2.7.1\r\n- added console mode into `DbalConsoleExtension` [#16] (thanks @jiripudil)"
+      }
+    }
+  },
+  "nettrine/orm": {
+    "org": "nettrine",
+    "name": "orm",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":fire: Well-integrated Doctrine2 ORM for Nette Framework",
+    "category": "nettrine",
+    "releases": {
+      "last": {
+        "org": "nettrine",
+        "repo": "orm",
+        "tag": "v0.2.1",
+        "name": "v0.2.1",
+        "created_at": "2018-06-18T07:01:27Z",
+        "published_at": "2018-06-20T07:49:32Z",
+        "html_url": "https://github.com/nettrine/orm/releases/tag/v0.2.1",
+        "body": "Bumped! 🈂️ \r\n\r\nDiff: https://github.com/nettrine/orm/compare/v0.2...v0.2.1\r\n\r\nChanges:\r\n- add console mode into console extension [#25] (thanks @jiripudil)\r\n- enhanced annotation cache [#26] (thanks @jiripudil)  "
+      }
+    }
+  },
+  "nettrine/fixtures": {
+    "org": "nettrine",
+    "name": "fixtures",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":wrench: Doctrine Fixtures for Nette Framework",
+    "category": "nettrine",
+    "releases": {
+      "last": {
+        "org": "nettrine",
+        "repo": "fixtures",
+        "tag": "v0.3",
+        "name": "v0.3",
+        "created_at": "2018-05-21T12:45:22Z",
+        "published_at": "2018-06-20T06:57:44Z",
+        "html_url": "https://github.com/nettrine/fixtures/releases/tag/v0.3",
+        "body": "Bump! 🈁 \r\n\r\nDiff: https://github.com/nettrine/fixtures/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- PHP 7.1"
+      }
+    }
+  },
+  "nettrine/migrations": {
+    "org": "nettrine",
+    "name": "migrations",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":running: Doctrine Migrations for Nette Framework",
+    "category": "nettrine",
+    "releases": {
+      "last": {
+        "org": "nettrine",
+        "repo": "migrations",
+        "tag": "v0.3",
+        "name": "v0.3",
+        "created_at": "2018-02-28T13:09:06Z",
+        "published_at": "2018-04-23T13:13:48Z",
+        "html_url": "https://github.com/nettrine/migrations/releases/tag/v0.3",
+        "body": "Bump! *️⃣ \r\n\r\nDiff: https://github.com/nettrine/migrations/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- minimal PHP >= 7.1 [#5]\r\n- allow Symfony Console 4.x "
+      }
+    }
+  },
+  "nettrine/extensions": {
+    "org": "nettrine",
+    "name": "extensions",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":mag: Doctrine2 behavioral extensions for Nette Framework",
+    "category": "nettrine",
+    "releases": {
+      "last": {
+        "org": "nettrine",
+        "repo": "extensions",
+        "tag": "v0.3",
+        "name": "v0.3",
+        "created_at": "2018-05-29T13:34:02Z",
+        "published_at": "2018-05-29T13:34:13Z",
+        "html_url": "https://github.com/nettrine/extensions/releases/tag/v0.3",
+        "body": "Bump! 🍭 \r\n\r\nDiff: https://github.com/nettrine/extensions/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- switch Kdyby -> Nettrine\r\n- require PHP 7.1"
+      }
+    }
+  },
+  "nettrine/annotations": {
+    "org": "nettrine",
+    "name": "annotations",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":memo: Standalone Doctrine Annotations for Nette Framework",
+    "category": "nettrine",
+    "releases": {
+      "last": {
+        "org": "nettrine",
+        "repo": "annotations",
+        "tag": "v0.3",
+        "name": "v0.3",
+        "created_at": "2018-06-14T21:41:57Z",
+        "published_at": "2018-06-15T07:54:55Z",
+        "html_url": "https://github.com/nettrine/annotations/releases/tag/v0.3",
+        "body": "Bump! :falkland_islands: \r\n\r\nDiff: https://github.com/nettrine/annotations/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- Turn off autowiring for cache drivers (thanks @jiripudil) [#6] "
+      }
+    }
+  },
+  "nettrine/cache": {
+    "org": "nettrine",
+    "name": "cache",
+    "enabled": false,
+    "priority": 0,
+    "docs": "v0",
+    "description": ":arrows_clockwise: Doctrine Cache adapter for Nette Framework ",
+    "category": "nettrine"
+  },
+  "nettrine/playground": {
+    "org": "nettrine",
+    "name": "playground",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v0",
+    "description": ":shipit: Examples of @nettrine packages",
+    "category": "nettrine"
+  },
+  "contributte/flysystem": {
+    "org": "contributte",
+    "name": "flysystem",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":airplane: Smart integration of Flysystem into Nette Framework",
+    "releases": {
+      "last": {
+        "org": "contributte",
+        "repo": "flysystem",
+        "tag": "v0.1",
+        "name": "v0.1",
+        "created_at": "2018-06-12T12:18:37Z",
+        "published_at": "2018-06-12T12:46:09Z",
+        "html_url": "https://github.com/contributte/flysystem/releases/tag/v0.1",
+        "body": "First bump! 👊 "
+      }
+    }
+  },
+  "contributte/guzzlette": {
+    "org": "contributte",
+    "name": "guzzlette",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":cyclone: Guzzle integration into Nette Framework",
+    "releases": {
+      "last": {
+        "org": "contributte",
+        "repo": "guzzlette",
+        "tag": "v2.0.0",
+        "name": "",
+        "created_at": "2018-07-18T20:27:30Z",
+        "published_at": "2018-07-18T20:31:59Z",
+        "html_url": "https://github.com/contributte/guzzlette/releases/tag/v2.0.0",
+        "body": "Bump! 👊 \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v1.1.0...v2.0.0\r\n\r\nChanges:\r\n- Matyx -> Contributte\r\n- PHP 7.1\r\n- Reorganized configuration (see docs)\r\n"
+      }
+    }
   }
 }

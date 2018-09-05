@@ -1,5 +1,5 @@
 {
-  "console": {
+  "contributte/console": {
     "org": "contributte",
     "name": "console",
     "category": "symfony",
@@ -19,7 +19,7 @@
       }
     }
   },
-  "mailing": {
+  "contributte/mailing": {
     "org": "contributte",
     "name": "mailing",
     "enabled": true,
@@ -38,7 +38,7 @@
       }
     }
   },
-  "neonizer": {
+  "contributte/neonizer": {
     "org": "contributte",
     "name": "neonizer",
     "category": "development",
@@ -58,7 +58,7 @@
       }
     }
   },
-  "console-extra": {
+  "contributte/console-extra": {
     "org": "contributte",
     "name": "console-extra",
     "title": "Console [extra]",
@@ -79,7 +79,7 @@
       }
     }
   },
-  "event-dispatcher": {
+  "contributte/event-dispatcher": {
     "org": "contributte",
     "name": "event-dispatcher",
     "title": "Event Dispatcher",
@@ -100,7 +100,7 @@
       }
     }
   },
-  "live-form-validation": {
+  "contributte/live-form-validation": {
     "org": "contributte",
     "name": "live-form-validation",
     "title": "Live Form Validation",
@@ -120,7 +120,7 @@
       }
     }
   },
-  "event-dispatcher-extra": {
+  "contributte/event-dispatcher-extra": {
     "org": "contributte",
     "name": "event-dispatcher-extra",
     "title": "Event Dispatcher [extra]",
@@ -141,7 +141,7 @@
       }
     }
   },
-  "codeception": {
+  "contributte/codeception": {
     "org": "contributte",
     "name": "codeception",
     "enabled": false,
@@ -160,7 +160,7 @@
       }
     }
   },
-  "reCAPTCHA": {
+  "contributte/reCAPTCHA": {
     "org": "contributte",
     "name": "reCAPTCHA",
     "title": "reCAPTCHA",
@@ -180,7 +180,7 @@
       }
     }
   },
-  "scheduler": {
+  "contributte/scheduler": {
     "org": "contributte",
     "name": "scheduler",
     "enabled": true,
@@ -199,7 +199,7 @@
       }
     }
   },
-  "seznamcaptcha": {
+  "contributte/seznamcaptcha": {
     "org": "contributte",
     "name": "seznamcaptcha",
     "title": "Seznam Captcha",
@@ -219,7 +219,7 @@
       }
     }
   },
-  "logging": {
+  "contributte/logging": {
     "org": "contributte",
     "name": "logging",
     "enabled": true,
@@ -238,7 +238,7 @@
       }
     }
   },
-  "advisories": {
+  "contributte/advisories": {
     "org": "contributte",
     "name": "advisories",
     "enabled": false,
@@ -246,7 +246,7 @@
     "docs": "v1",
     "description": ":punch: Collection of Contributte/Nette advisories"
   },
-  "api": {
+  "contributte/api": {
     "org": "contributte",
     "name": "api",
     "enabled": false,
@@ -265,7 +265,7 @@
       }
     }
   },
-  "application": {
+  "contributte/application": {
     "org": "contributte",
     "name": "application",
     "category": "nette-contrib",
@@ -285,7 +285,7 @@
       }
     }
   },
-  "blogette": {
+  "contributte/blogette": {
     "org": "contributte",
     "name": "blogette",
     "enabled": false,
@@ -293,7 +293,7 @@
     "docs": "v1",
     "description": ":postbox: Blogging platform"
   },
-  "bootstrap": {
+  "contributte/bootstrap": {
     "org": "contributte",
     "name": "bootstrap",
     "category": "nette-contrib",
@@ -313,7 +313,7 @@
       }
     }
   },
-  "cache": {
+  "contributte/cache": {
     "org": "contributte",
     "name": "cache",
     "category": "nette-contrib",
@@ -333,7 +333,7 @@
       }
     }
   },
-  "contributte": {
+  "contributte/contributte": {
     "org": "contributte",
     "name": "contributte",
     "enabled": false,
@@ -341,7 +341,7 @@
     "docs": "v1",
     "description": ":heart: Contributte organization structure / RFC / Team"
   },
-  "database": {
+  "contributte/database": {
     "org": "contributte",
     "name": "database",
     "category": "nette-contrib",
@@ -361,7 +361,7 @@
       }
     }
   },
-  "deployer-extension": {
+  "contributte/deployer-extension": {
     "org": "contributte",
     "name": "deployer-extension",
     "title": "FTP deployer",
@@ -381,7 +381,7 @@
       }
     }
   },
-  "dev": {
+  "contributte/dev": {
     "org": "contributte",
     "name": "dev",
     "category": "development",
@@ -401,7 +401,7 @@
       }
     }
   },
-  "di": {
+  "contributte/di": {
     "org": "contributte",
     "name": "di",
     "title": "Dependency Injection (DI)",
@@ -422,7 +422,7 @@
       }
     }
   },
-  "dummy-events": {
+  "contributte/dummy-events": {
     "org": "contributte",
     "name": "dummy-events",
     "title": "Dummy Events",
@@ -442,7 +442,7 @@
       }
     }
   },
-  "elasticsearch": {
+  "contributte/elasticsearch": {
     "org": "contributte",
     "name": "elasticsearch",
     "title": "ElasticSearch",
@@ -462,7 +462,7 @@
       }
     }
   },
-  "event-application-bridge": {
+  "contributte/event-application-bridge": {
     "org": "contributte",
     "name": "event-application-bridge",
     "enabled": false,
@@ -481,7 +481,7 @@
       }
     }
   },
-  "event-bridges": {
+  "contributte/event-bridges": {
     "org": "contributte",
     "name": "event-bridges",
     "enabled": false,
@@ -500,7 +500,7 @@
       }
     }
   },
-  "event-security-bridge": {
+  "contributte/event-security-bridge": {
     "org": "contributte",
     "name": "event-security-bridge",
     "enabled": false,
@@ -519,7 +519,7 @@
       }
     }
   },
-  "facebook": {
+  "contributte/facebook": {
     "org": "contributte",
     "name": "facebook",
     "enabled": true,
@@ -538,7 +538,7 @@
       }
     }
   },
-  "fio": {
+  "contributte/fio": {
     "org": "contributte",
     "name": "fio",
     "enabled": true,
@@ -557,7 +557,7 @@
       }
     }
   },
-  "forms": {
+  "contributte/forms": {
     "org": "contributte",
     "name": "forms",
     "category": "nette-contrib",
@@ -577,7 +577,7 @@
       }
     }
   },
-  "generator-nette": {
+  "contributte/generator-nette": {
     "org": "contributte",
     "name": "generator-nette",
     "title": "Nette Generator",
@@ -586,7 +586,7 @@
     "docs": "v0",
     "description": ":man: Yeoman & Nette Framework"
   },
-  "http": {
+  "contributte/http": {
     "org": "contributte",
     "name": "http",
     "category": "nette-contrib",
@@ -606,7 +606,7 @@
       }
     }
   },
-  "latte": {
+  "contributte/latte": {
     "org": "contributte",
     "name": "latte",
     "category": "nette-contrib",
@@ -626,7 +626,7 @@
       }
     }
   },
-  "latte-email": {
+  "contributte/latte-email": {
     "org": "contributte",
     "name": "latte-email",
     "title": "Latte - Email protection",
@@ -646,7 +646,7 @@
       }
     }
   },
-  "latte-parsedown-extra": {
+  "contributte/latte-parsedown-extra": {
     "org": "contributte",
     "name": "latte-parsedown-extra",
     "title": "Latte - Markdown",
@@ -666,7 +666,7 @@
       }
     }
   },
-  "mail": {
+  "contributte/mail": {
     "org": "contributte",
     "name": "mail",
     "category": "nette-contrib",
@@ -686,7 +686,7 @@
       }
     }
   },
-  "middlewares": {
+  "contributte/middlewares": {
     "org": "contributte",
     "name": "middlewares",
     "category": "psr",
@@ -706,7 +706,7 @@
       }
     }
   },
-  "mobilni-platby": {
+  "contributte/mobilni-platby": {
     "org": "contributte",
     "name": "mobilni-platby",
     "enabled": true,
@@ -714,7 +714,7 @@
     "docs": "v0",
     "description": ":moneybag: MobilniPlatby.cz for Nette Framework"
   },
-  "model": {
+  "contributte/model": {
     "org": "contributte",
     "name": "model",
     "enabled": false,
@@ -733,7 +733,7 @@
       }
     }
   },
-  "nextras-criteria": {
+  "contributte/nextras-criteria": {
     "org": "contributte",
     "name": "nextras-criteria",
     "category": "nextras",
@@ -742,7 +742,7 @@
     "docs": "v1",
     "description": "Criteria Expression for Nextras\\ORM + Nextras\\DBAL (@nextras)"
   },
-  "nextras-orm-events": {
+  "contributte/nextras-orm-events": {
     "org": "contributte",
     "name": "nextras-orm-events",
     "title": "Nextras/ORM Events",
@@ -763,7 +763,7 @@
       }
     }
   },
-  "nextras-orm-generator": {
+  "contributte/nextras-orm-generator": {
     "org": "contributte",
     "name": "nextras-orm-generator",
     "title": "Nextras/ORM Generator",
@@ -784,7 +784,7 @@
       }
     }
   },
-  "nextras-orm-query-object": {
+  "contributte/nextras-orm-query-object": {
     "org": "contributte",
     "name": "nextras-orm-query-object",
     "title": "Nextras/ORM Query Object",
@@ -805,7 +805,7 @@
       }
     }
   },
-  "phpdoc": {
+  "contributte/phpdoc": {
     "org": "contributte",
     "name": "phpdoc",
     "title": "PHPdoc",
@@ -825,7 +825,7 @@
       }
     }
   },
-  "playground": {
+  "contributte/playground": {
     "org": "contributte",
     "name": "playground",
     "category": "playground",
@@ -834,7 +834,7 @@
     "docs": "v0",
     "description": ":books: Examples / tutorials / tips / samples | sandbox for @contributte"
   },
-  "psr11-container-interface": {
+  "contributte/psr11-container-interface": {
     "org": "contributte",
     "name": "psr11-container-interface",
     "category": "psr",
@@ -854,7 +854,7 @@
       }
     }
   },
-  "psr3-logging": {
+  "contributte/psr3-logging": {
     "org": "contributte",
     "name": "psr3-logging",
     "category": "psr",
@@ -863,7 +863,7 @@
     "docs": "v1",
     "description": ":dizzy: PSR #3 [Logger Interface] to Nette Framework (@nette)"
   },
-  "psr6-caching": {
+  "contributte/psr6-caching": {
     "org": "contributte",
     "name": "psr6-caching",
     "category": "psr",
@@ -872,7 +872,7 @@
     "docs": "v1",
     "description": ":dizzy: PSR #6 [Caching Interface] to Nette Framework (@nette)"
   },
-  "psr7-http-message": {
+  "contributte/psr7-http-message": {
     "org": "contributte",
     "name": "psr7-http-message",
     "title": "PSR-7",
@@ -893,7 +893,7 @@
       }
     }
   },
-  "routing": {
+  "contributte/routing": {
     "org": "contributte",
     "name": "routing",
     "category": "nette-contrib",
@@ -902,7 +902,7 @@
     "docs": "v1",
     "description": ":sparkles: Extra contrib to nette/routing (@nette)"
   },
-  "security": {
+  "contributte/security": {
     "org": "contributte",
     "name": "security",
     "category": "nette-contrib",
@@ -922,7 +922,7 @@
       }
     }
   },
-  "server-timing": {
+  "contributte/server-timing": {
     "org": "contributte",
     "name": "server-timing",
     "enabled": false,
@@ -930,7 +930,7 @@
     "docs": "v1",
     "description": ":watch: Server Timing API profiling for Nette Framework "
   },
-  "social": {
+  "contributte/social": {
     "org": "contributte",
     "name": "social",
     "enabled": true,
@@ -949,7 +949,7 @@
       }
     }
   },
-  "tracy": {
+  "contributte/tracy": {
     "org": "contributte",
     "name": "tracy",
     "category": "nette-contrib",
@@ -969,7 +969,7 @@
       }
     }
   },
-  "utils": {
+  "contributte/utils": {
     "org": "contributte",
     "name": "utils",
     "category": "nette-contrib",
@@ -989,7 +989,7 @@
       }
     }
   },
-  "website": {
+  "contributte/website": {
     "org": "contributte",
     "name": "website",
     "enabled": false,
@@ -997,7 +997,7 @@
     "docs": "v1",
     "description": ":squirrel: Contributte Website & Docs"
   },
-  "wordcha": {
+  "contributte/wordcha": {
     "org": "contributte",
     "name": "wordcha",
     "enabled": true,

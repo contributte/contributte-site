@@ -1,5 +1,6 @@
 const path = require('path');
 
+// https://api.github.com/orgs/contributte/repos?per_page=100
 const organizations = {
   contributte: require('./../data/orgs/contributte.json'),
   apitte: require('./../data/orgs/apitte.json'),

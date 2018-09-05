@@ -71,6 +71,15 @@
     "html_url": "https://github.com/contributte/nextras-orm-generator/releases/tag/0.1",
     "body": "Development release.\n"
   },
+  "3122387": {
+    "repo": "guzzlette",
+    "tag": "v0.9.0",
+    "name": "v0.9.0",
+    "created_at": "2016-04-28T20:37:43Z",
+    "published_at": "2016-04-28T20:30:27Z",
+    "html_url": "https://github.com/contributte/guzzlette/releases/tag/v0.9.0",
+    "body": ""
+  },
   "3452320": {
     "repo": "live-form-validation",
     "tag": "v1.7.0",
@@ -97,6 +106,15 @@
     "published_at": "2016-06-20T21:09:23Z",
     "html_url": "https://github.com/contributte/codeception/releases/tag/v0.7.1",
     "body": "- NetteDIModule: Add `appDir` and `wwwDir` parameters.\n"
+  },
+  "3516699": {
+    "repo": "extensions",
+    "tag": "v0.1",
+    "name": "v0.1",
+    "created_at": "2016-06-23T13:37:24Z",
+    "published_at": "2016-06-24T12:00:22Z",
+    "html_url": "https://github.com/nettrine/extensions/releases/tag/v0.1",
+    "body": "Bump :fire: v0.1\n"
   },
   "3553989": {
     "repo": "reCAPTCHA",
@@ -214,6 +232,15 @@
     "published_at": "2016-10-01T21:23:42Z",
     "html_url": "https://github.com/contributte/codeception/releases/tag/v0.7.5",
     "body": "- Fix code coverage measuring of nette/di extensions with DoctrineModule\n"
+  },
+  "4287570": {
+    "repo": "guzzlette",
+    "tag": "v0.10.1",
+    "name": "v0.10.1",
+    "created_at": "2016-10-03T10:45:48Z",
+    "published_at": "2016-10-03T10:50:52Z",
+    "html_url": "https://github.com/contributte/guzzlette/releases/tag/v0.10.1",
+    "body": "Bump! 🌴 \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v0.10.0...v0.10.1\r\n\r\nChanges:\r\n- Fixes error, when Content-Type is not set (thanks @vokrik)\r\n"
   },
   "4306679": {
     "repo": "datagrid",
@@ -448,6 +475,15 @@
     "published_at": "2017-01-11T20:57:08Z",
     "html_url": "https://github.com/contributte/console/releases/tag/v0.1.1",
     "body": "Bumped! :honey_pot: \r\n\r\nDiff: https://github.com/contributte/console/compare/v0.1...v0.1.1\r\n\r\nChanges:\r\n- extension loads by default `Symfony\\Component\\Console\\Command\\Command`\r\n- introduce README\r\n"
+  },
+  "5135116": {
+    "repo": "thepay",
+    "tag": "v3.1.0",
+    "name": "3.1.0",
+    "created_at": "2016-08-29T09:10:25Z",
+    "published_at": "2017-01-11T23:33:32Z",
+    "html_url": "https://github.com/contributte/thepay/releases/tag/v3.1.0",
+    "body": "Update library to version [3.1.0](https://github.com/Trejjam/ThePay-lib/releases/tag/v3.1.0)\n"
   },
   "5164376": {
     "repo": "datagrid",
@@ -709,6 +745,15 @@
     "published_at": "2017-03-20T07:22:40Z",
     "html_url": "https://github.com/contributte/datagrid/releases/tag/v5.1.2",
     "body": "## Fixed\r\n- #447: Switched doctrine parameters to strings\r\n- #483: Fix \"The variable ‚rows‘ already exists\"\r\n- #488: Support for DateTimeImmutable\r\n- #493: Changed number of first record from 0 to 1.\r\n\r\n[Changelog](https://github.com/ublaboo/datagrid/compare/v5.1.1...v5.1.2)\r\n"
+  },
+  "5871907": {
+    "repo": "guzzlette",
+    "tag": "v0.11.1",
+    "name": "v0.11.1",
+    "created_at": "2017-03-26T17:25:26Z",
+    "published_at": "2017-03-26T16:39:48Z",
+    "html_url": "https://github.com/contributte/guzzlette/releases/tag/v0.11.1",
+    "body": "Bump! 👶 \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v0.11.0...v0.11.1\r\n\r\nChanges:\r\n- textarea with CURL is read-only"
   },
   "5948660": {
     "repo": "nextras-orm-events",
@@ -998,6 +1043,33 @@
     "html_url": "https://github.com/contributte/datagrid/releases/tag/v5.4.2",
     "body": "## Fixed:\r\n- Group action checkboxes: fixed counter showing number of selected rows\r\n\r\n[Changelog](https://github.com/ublaboo/datagrid/compare/v5.4.1...v5.4.2)"
   },
+  "6977396": {
+    "repo": "thepay-api",
+    "tag": "v3.1.0",
+    "name": "v3.1.0",
+    "created_at": "2016-08-29T08:43:34Z",
+    "published_at": "2017-07-09T15:37:48Z",
+    "html_url": "https://github.com/contributte/thepay-api/releases/tag/v3.1.0",
+    "body": ""
+  },
+  "6977433": {
+    "repo": "thepay-api",
+    "tag": "v3.2.2",
+    "name": "v3.2.2",
+    "created_at": "2017-07-09T15:53:26Z",
+    "published_at": "2017-07-09T15:53:48Z",
+    "html_url": "https://github.com/contributte/thepay-api/releases/tag/v3.2.2",
+    "body": ""
+  },
+  "7055815": {
+    "repo": "thepay",
+    "tag": "v3.2.2",
+    "name": "3.2.2",
+    "created_at": "2017-07-09T16:24:20Z",
+    "published_at": "2017-07-16T13:38:49Z",
+    "html_url": "https://github.com/contributte/thepay/releases/tag/v3.2.2",
+    "body": "Update library to version [3.2:2](https://github.com/Trejjam/ThePay-lib/releases/tag/v3.2.2)\r\n"
+  },
   "7093529": {
     "repo": "event-security-bridge",
     "tag": "v0.1",
@@ -1151,6 +1223,15 @@
     "html_url": "https://github.com/contributte/api/releases/tag/v0.3",
     "body": "Bump! 🔪 \r\n\r\nDiff: https://github.com/contributte/api/compare/v0.2.2...v0.3\r\n\r\nChanges:\r\n - namespace refactoring (drop Bridges)\r\n - rename Factory/Generator to Serialization\r\n - rename Validators to Validations\r\n - ApiResponse/ApiRequest don't composite PSR7, they extend\r\n - simplify whole middlewares usage\r\n - simplify ApiExtension\r\n - added new Api2MiddlewaresExtension to easy use of middlewares\r\n - simplify Transformers (from 2 interfaces to 1 interface)\r\n - direct dependencies: contributte/psr7-http-message, contributte/middlewares, contributte/phpdoc\r\n - tiny micro refactorings\r\n - added huge amount of tests \r\n\r\n"
   },
+  "7425895": {
+    "repo": "migrations",
+    "tag": "v0.1",
+    "name": "v0.1",
+    "created_at": "2017-08-17T13:29:53Z",
+    "published_at": "2017-08-17T13:35:16Z",
+    "html_url": "https://github.com/nettrine/migrations/releases/tag/v0.1",
+    "body": "Bump! :fist_oncoming: "
+  },
   "7428178": {
     "repo": "logging",
     "tag": "v0.2",
@@ -1168,6 +1249,15 @@
     "published_at": "2017-08-27T14:31:28Z",
     "html_url": "https://github.com/contributte/datagrid/releases/tag/v5.4.5",
     "body": "## Added:\r\n- `DataGrid::allowRowsMultiAction`, viz https://ublaboo.org/datagrid/row#allow_action_of_multi_action\r\n\r\n[Changelog](https://github.com/ublaboo/datagrid/compare/v5.4.4...v5.4.5)"
+  },
+  "7824024": {
+    "repo": "fixtures",
+    "tag": "v0.1",
+    "name": "v0.1",
+    "created_at": "2017-08-29T11:19:50Z",
+    "published_at": "2017-09-20T13:24:42Z",
+    "html_url": "https://github.com/nettrine/fixtures/releases/tag/v0.1",
+    "body": "Bump! 👊 "
   },
   "7879673": {
     "repo": "di",
@@ -1195,6 +1285,15 @@
     "published_at": "2017-09-29T16:17:36Z",
     "html_url": "https://github.com/contributte/codeception/releases/tag/v1.0.0-alpha.5",
     "body": "- Improved type hints\r\n- Simplified development dependencies"
+  },
+  "8010334": {
+    "repo": "extensions",
+    "tag": "v0.2",
+    "name": "v0.2",
+    "created_at": "2017-10-05T13:27:53Z",
+    "published_at": "2017-10-09T07:33:13Z",
+    "html_url": "https://github.com/nettrine/extensions/releases/tag/v0.2",
+    "body": "Bump! 👍 \r\n\r\nDiff: https://github.com/nettrine/extensions/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- changed package name to nettrine/extensions [#3]\r\n- fix namespace autoloading [#4]\r\n- improvements"
   },
   "8058560": {
     "repo": "event-dispatcher",
@@ -1240,6 +1339,24 @@
     "published_at": "2017-10-20T12:23:43Z",
     "html_url": "https://github.com/contributte/datagrid/releases/tag/v5.4.7",
     "body": "- Fix for non-functional text filter in PostgreSQL + dibi, thanks @elring "
+  },
+  "8254191": {
+    "repo": "annotations",
+    "tag": "v0.1",
+    "name": "v0.1",
+    "created_at": "2017-10-24T13:15:43Z",
+    "published_at": "2017-10-25T13:08:32Z",
+    "html_url": "https://github.com/nettrine/annotations/releases/tag/v0.1",
+    "body": "First bump! :fist_oncoming: "
+  },
+  "8301262": {
+    "repo": "thepay",
+    "tag": "v3.4.0-rc1",
+    "name": "3.4.0 RC1",
+    "created_at": "2017-10-29T11:59:56Z",
+    "published_at": "2017-10-29T12:02:33Z",
+    "html_url": "https://github.com/contributte/thepay/releases/tag/v3.4.0-rc1",
+    "body": "- Update core library\r\n- Update to PHP 7.1\r\n- Add strict signatures"
   },
   "8306992": {
     "repo": "logging",
@@ -1303,6 +1420,15 @@
     "published_at": "2017-11-19T18:39:26Z",
     "html_url": "https://github.com/contributte/console/releases/tag/v0.2",
     "body": "Bump! 🐐  \r\n\r\nDiff: https://github.com/contributte/console/compare/v0.1.3...v0.2\r\n\r\nChanges:\r\n- integrate lazy-command loader (symfony 3.4) [#7]\r\n- deprecate AbstractCommand (thanks @mabar) [#9]\r\n- sync readme"
+  },
+  "8605600": {
+    "repo": "migrations",
+    "tag": "v0.2",
+    "name": "v0.2",
+    "created_at": "2017-11-21T16:14:09Z",
+    "published_at": "2017-11-21T16:16:26Z",
+    "html_url": "https://github.com/nettrine/migrations/releases/tag/v0.2",
+    "body": "Bump! 💃 \r\n\r\nDiff: https://github.com/nettrine/migrations/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- update CI process\r\n- added phpstan\r\n- update quality assurance\r\n- register helper at compile time (https://github.com/nettrine/migrations/commit/e457045f22f9f5aa9bbea9efa884abf6fe8c2cfe)\r\n- readme for kdyby integration (https://github.com/nettrine/migrations/commit/8410bb0efe6b57c024696c98e3e99b73904f7707)\r\n\r\n-----\r\n\r\nIntegration with Kdyby\\Console.\r\n\r\n```yaml\r\ndecorator:\r\n    Symfony\\Component\\Console\\Command\\Command:\r\n        tags: [kdyby.console.command]\r\n    Symfony\\Component\\Console\\Helper\\Helper:\r\n        tags: [kdyby.console.helper]\r\n```"
   },
   "8605907": {
     "repo": "di",
@@ -1403,6 +1529,24 @@
     "html_url": "https://github.com/contributte/datagrid/releases/tag/5.4.13",
     "body": "- Fixed TButtonRenderer to support php < 7.1"
   },
+  "9147919": {
+    "repo": "presenter",
+    "tag": "v0.1",
+    "name": "v0.1",
+    "created_at": "2018-01-08T16:53:30Z",
+    "published_at": "2018-01-08T16:53:38Z",
+    "html_url": "https://github.com/apitte/presenter/releases/tag/v0.1",
+    "body": "First bump! 👊"
+  },
+  "9149128": {
+    "repo": "core",
+    "tag": "v0.1",
+    "name": "v0.1",
+    "created_at": "2017-11-23T12:48:12Z",
+    "published_at": "2018-01-08T17:22:47Z",
+    "html_url": "https://github.com/apitte/core/releases/tag/v0.1",
+    "body": "First bump! :fist_oncoming: "
+  },
   "9170145": {
     "repo": "datagrid-nette-database-data-source",
     "tag": "v1.1.0",
@@ -1466,6 +1610,78 @@
     "html_url": "https://github.com/contributte/mail/releases/tag/v0.1.3",
     "body": "Bump! :boat: \r\n\r\nDiff: https://github.com/contributte/mail/compare/v0.1.2...v0.1.3\r\n\r\nChanges:\r\n- QA improvements\r\n- README improvements (thanks @mabar) \r\n- added `DevNullMailer`"
   },
+  "9223958": {
+    "repo": "core",
+    "tag": "v0.1.1",
+    "name": "",
+    "created_at": "2018-01-13T12:27:27Z",
+    "published_at": "2018-01-13T16:04:25Z",
+    "html_url": "https://github.com/apitte/core/releases/tag/v0.1.1",
+    "body": "Bump! :boat: \r\n\r\nDiff: https://github.com/apitte/core/compare/v0.1...v0.1.1\r\n\r\nChanges:\r\n- typo [#5] \r\n- allow prefixed annotations [#6, #7] \r\n- better RequestParameters [#8]"
+  },
+  "9223959": {
+    "repo": "openapi",
+    "tag": "v0.1",
+    "name": "v0.1",
+    "created_at": "2017-11-23T13:06:01Z",
+    "published_at": "2018-01-13T16:05:05Z",
+    "html_url": "https://github.com/apitte/openapi/releases/tag/v0.1",
+    "body": "First bump! :fist_oncoming: "
+  },
+  "9223966": {
+    "repo": "debug",
+    "tag": "v0.1",
+    "name": "v0.1",
+    "created_at": "2017-11-23T12:51:27Z",
+    "published_at": "2018-01-13T16:06:52Z",
+    "html_url": "https://github.com/apitte/debug/releases/tag/v0.1",
+    "body": "First bump! :fist_oncoming: "
+  },
+  "9223970": {
+    "repo": "middlewares",
+    "tag": "v0.1",
+    "name": "v0.1",
+    "created_at": "2017-11-23T12:55:41Z",
+    "published_at": "2018-01-13T16:07:39Z",
+    "html_url": "https://github.com/apitte/middlewares/releases/tag/v0.1",
+    "body": "First bump! :fist_oncoming: "
+  },
+  "9223971": {
+    "repo": "negotiation",
+    "tag": "v0.1",
+    "name": "v0.1",
+    "created_at": "2017-11-23T13:03:59Z",
+    "published_at": "2018-01-13T16:07:59Z",
+    "html_url": "https://github.com/apitte/negotiation/releases/tag/v0.1",
+    "body": "First bump! :fist_oncoming: "
+  },
+  "9223973": {
+    "repo": "negotiation",
+    "tag": "v0.1.1",
+    "name": "v0.1.1",
+    "created_at": "2017-11-24T10:19:17Z",
+    "published_at": "2018-01-13T16:09:15Z",
+    "html_url": "https://github.com/apitte/negotiation/releases/tag/v0.1.1",
+    "body": "Bump! :boat: \r\n\r\nDiff: https://github.com/apitte/negotiation/compare/v0.1...v0.1.1\r\n\r\nChanges:\r\n- bugfix ResponseEntityDecorator.php"
+  },
+  "9223975": {
+    "repo": "fullstack",
+    "tag": "v0.1",
+    "name": "v0.1",
+    "created_at": "2017-11-23T13:07:34Z",
+    "published_at": "2018-01-13T16:09:35Z",
+    "html_url": "https://github.com/apitte/fullstack/releases/tag/v0.1",
+    "body": "First bump! :fist_oncoming: "
+  },
+  "9224001": {
+    "repo": "openapi",
+    "tag": "v0.1.1",
+    "name": "v0.1.1",
+    "created_at": "2018-01-13T16:05:22Z",
+    "published_at": "2018-01-13T16:16:23Z",
+    "html_url": "https://github.com/apitte/openapi/releases/tag/v0.1.1",
+    "body": "Bump! ✈️\r\n\r\nDiff: https://github.com/apitte/openapi/compare/v0.1...v0.1.1\r\n\r\nChanges:\r\n\r\n- extending request params\r\n- allow request body"
+  },
   "9227526": {
     "repo": "datagrid",
     "tag": "v5.5.3",
@@ -1493,6 +1709,24 @@
     "html_url": "https://github.com/contributte/datagrid/releases/tag/v5.5.5",
     "body": "- package.json update - to latest version"
   },
+  "9417760": {
+    "repo": "thepay-api",
+    "tag": "v3.4.0",
+    "name": "v3.4.0",
+    "created_at": "2018-01-28T10:45:30Z",
+    "published_at": "2018-01-28T10:53:44Z",
+    "html_url": "https://github.com/contributte/thepay-api/releases/tag/v3.4.0",
+    "body": "Update of official library. Changes in official [library](https://github.com/Trejjam/ThePay-lib/compare/v3.2.2...v3.4.0).\r\n\r\nChanges in namespace [branch](https://github.com/Trejjam/ThePay-lib/compare/3f20273545c2cc9c6f41bc3262c8cf3673dd4caf...aef9b4c8340ede005ba55f0df03188afd21f7d9a)"
+  },
+  "9417774": {
+    "repo": "thepay",
+    "tag": "v3.4.0",
+    "name": "v3.4.0",
+    "created_at": "2018-01-28T10:55:00Z",
+    "published_at": "2018-01-28T10:57:49Z",
+    "html_url": "https://github.com/contributte/thepay/releases/tag/v3.4.0",
+    "body": "This release contains\r\n- Update core [library](https://github.com/Trejjam/ThePay-lib/compare/3f20273545c2cc9c6f41bc3262c8cf3673dd4caf...aef9b4c8340ede005ba55f0df03188afd21f7d9a)\r\n- Update to PHP 7.1\r\n- Add strict signatures"
+  },
   "9420969": {
     "repo": "anabelle",
     "tag": "v1.1.13",
@@ -1510,6 +1744,87 @@
     "published_at": "2018-01-31T23:05:35Z",
     "html_url": "https://github.com/contributte/datagrid/releases/tag/v5.5.6",
     "body": "- Added possibility to render yet another Nette\\Forms\\Container in inline edit container"
+  },
+  "9536355": {
+    "repo": "thepay",
+    "tag": "v4.0.0-rc0",
+    "name": "v4.0.0 RC0",
+    "created_at": "2018-02-05T14:35:20Z",
+    "published_at": "2018-02-05T14:46:37Z",
+    "html_url": "https://github.com/contributte/thepay/releases/tag/v4.0.0-rc0",
+    "body": "This release use patched core [library](https://github.com/Trejjam/ThePay-lib/tree/namespaces).  \r\nCore library was migrated to PHP 7.1 with forced types and it is no longer only namespaced official library. It could be **BC break**. But changes in official library will be ported into that core library.\r\n\r\nLibrary return:\r\n- `TRUE`/`FALSE` from bool property which in previous version returns `'1'`/`'0'`.\r\n- `float` number instead of `(string)number_format($number, 2, '.', '')`\r\n- `int` number instead of `(string)$number`\r\n"
+  },
+  "9536453": {
+    "repo": "core",
+    "tag": "v0.2",
+    "name": "v0.2",
+    "created_at": "2018-02-05T14:36:17Z",
+    "published_at": "2018-02-05T14:52:38Z",
+    "html_url": "https://github.com/apitte/core/releases/tag/v0.2",
+    "body": "Bump! 🇫🇰 \r\n\r\nDiff: https://github.com/apitte/core/compare/v0.1.1...v0.2\r\n\r\nChanges:\r\n- added RequestMapper/ResponseMapper + validation\r\n- better ArraySerializator\r\n- added frequently used method to Endpoint\r\n- simplify events in Dispatcher\r\n- pass query parameters into attributes\r\n- validate only fullpath (GroupPath+ControllerPath+Path)\r\n- better exception [#13]"
+  },
+  "9536469": {
+    "repo": "openapi",
+    "tag": "v0.2",
+    "name": "v0.2",
+    "created_at": "2018-02-05T14:45:21Z",
+    "published_at": "2018-02-05T14:53:32Z",
+    "html_url": "https://github.com/apitte/openapi/releases/tag/v0.2",
+    "body": "Bump! 🇫🇰 \r\n\r\nDiff: https://github.com/apitte/openapi/compare/v0.1.1...v0.2\r\n\r\nChanges:\r\n- just sync with apitte/core"
+  },
+  "9536475": {
+    "repo": "negotiation",
+    "tag": "v0.2",
+    "name": "v0.2",
+    "created_at": "2018-02-05T14:44:25Z",
+    "published_at": "2018-02-05T14:53:47Z",
+    "html_url": "https://github.com/apitte/negotiation/releases/tag/v0.2",
+    "body": "Bump! 🇫🇰 \r\n\r\nDiff: https://github.com/apitte/negotiation/compare/v0.1.1...v0.2\r\n\r\nChanges:\r\n- display better message if there's exception\r\n- added MappingEntity"
+  },
+  "9536498": {
+    "repo": "middlewares",
+    "tag": "v0.2",
+    "name": "v0.2",
+    "created_at": "2018-02-05T14:42:47Z",
+    "published_at": "2018-02-05T14:54:47Z",
+    "html_url": "https://github.com/apitte/middlewares/releases/tag/v0.2",
+    "body": "Bump! 🇫🇰 \r\n\r\nDiff: https://github.com/apitte/middlewares/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- just sync with apitte/core"
+  },
+  "9536507": {
+    "repo": "debug",
+    "tag": "v0.2",
+    "name": "v0.2",
+    "created_at": "2018-02-05T14:41:17Z",
+    "published_at": "2018-02-05T14:55:16Z",
+    "html_url": "https://github.com/apitte/debug/releases/tag/v0.2",
+    "body": "Bump! 🇫🇰 \r\n\r\nDiff: https://github.com/apitte/debug/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- added ValidationBlueScreen\r\n- display apitte bluescreens in compile-time also"
+  },
+  "9536612": {
+    "repo": "presenter",
+    "tag": "v0.2",
+    "name": "v0.2",
+    "created_at": "2018-02-05T15:01:07Z",
+    "published_at": "2018-02-05T15:01:25Z",
+    "html_url": "https://github.com/apitte/presenter/releases/tag/v0.2",
+    "body": "Bump! 🇫🇰 \r\n\r\nDiff: https://github.com/apitte/presenter/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- just sync with apitte/core"
+  },
+  "9536732": {
+    "repo": "fullstack",
+    "tag": "v0.2",
+    "name": "v0.2",
+    "created_at": "2018-02-05T15:07:09Z",
+    "published_at": "2018-02-05T15:07:36Z",
+    "html_url": "https://github.com/apitte/fullstack/releases/tag/v0.2",
+    "body": "Bump! 🇫🇰 \r\n\r\nDiff: https://github.com/apitte/fullstack/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- use apitte v0.2 "
+  },
+  "9656091": {
+    "repo": "thepay",
+    "tag": "v4.0.0-rc1",
+    "name": "v4.0.0 RC1",
+    "created_at": "2018-02-13T14:37:28Z",
+    "published_at": "2018-02-13T14:43:31Z",
+    "html_url": "https://github.com/contributte/thepay/releases/tag/v4.0.0-rc1",
+    "body": "This release use patched core [library](https://github.com/Trejjam/ThePay-lib/tree/namespaces).  \r\nCore library was migrated to PHP 7.1 with forced types and it is no longer only namespaced official library. It could be **BC break**. But changes in official library will be ported into that core library.\r\nCore library was also migrated from DateTime to DateTimeImmutable, it is also **BC break**.\r\n\r\nLibrary returns (and requires):\r\n- `TRUE`/`FALSE` from bool property which in previous version returns `'1'`/`'0'`.\r\n- `float` number instead of `(string)number_format($number, 2, '.', '')`\r\n- `int` number instead of `(string)$number`\r\n- `DateTimeImmutable` instead of `DateTime`\r\n"
   },
   "9722185": {
     "repo": "event-dispatcher",
@@ -1547,6 +1862,24 @@
     "html_url": "https://github.com/contributte/tracy/releases/tag/v0.1",
     "body": "Bump! 👊 "
   },
+  "9754240": {
+    "repo": "console",
+    "tag": "v0.1",
+    "name": "v0.1",
+    "created_at": "2018-02-20T16:25:22Z",
+    "published_at": "2018-02-20T16:25:49Z",
+    "html_url": "https://github.com/apitte/console/releases/tag/v0.1",
+    "body": "Bump! 👊 "
+  },
+  "9836993": {
+    "repo": "dbal",
+    "tag": "v0.1",
+    "name": "v0.1",
+    "created_at": "2018-01-29T14:29:35Z",
+    "published_at": "2018-02-26T15:38:46Z",
+    "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.1",
+    "body": "Bump! 👊 "
+  },
   "9850075": {
     "repo": "console",
     "tag": "v0.3",
@@ -1573,6 +1906,15 @@
     "published_at": "2018-02-27T15:15:22Z",
     "html_url": "https://github.com/contributte/anabelle/releases/tag/v1.1.20",
     "body": "- MacroBlockVariable made non-greedy"
+  },
+  "9878552": {
+    "repo": "fixtures",
+    "tag": "v0.2",
+    "name": "v0.2",
+    "created_at": "2018-02-28T15:45:00Z",
+    "published_at": "2018-02-28T17:28:06Z",
+    "html_url": "https://github.com/nettrine/fixtures/releases/tag/v0.2",
+    "body": "Bump! :camera:\r\n\r\nDiff: https://github.com/nettrine/fixtures/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- support Symfony/Console 4.0"
   },
   "9890386": {
     "repo": "anabelle",
@@ -1673,6 +2015,24 @@
     "html_url": "https://github.com/contributte/api-router/releases/tag/v2.0.3",
     "body": "- Allow ApiRouteSpec::$description to be null"
   },
+  "10190969": {
+    "repo": "thepay-api",
+    "tag": "v3.5.1",
+    "name": "v3.5.1",
+    "created_at": "2018-03-21T13:55:04Z",
+    "published_at": "2018-03-21T14:02:07Z",
+    "html_url": "https://github.com/contributte/thepay-api/releases/tag/v3.5.1",
+    "body": "Update of an official library. Changes in official https://github.com/Trejjam/ThePay-lib/compare/v3.4.0...v3.5.1\r\n\r\nChanges in namespace [branch](https://github.com/Trejjam/ThePay-lib/compare/aef9b4c8340ede005ba55f0df03188afd21f7d9a...c6c33dd5a90cf32e2c2c456dcfe72ea39bdd234e)"
+  },
+  "10192178": {
+    "repo": "thepay",
+    "tag": "v4.0.1-rc0",
+    "name": "v4.0.1 RC0",
+    "created_at": "2018-03-21T14:51:14Z",
+    "published_at": "2018-03-21T14:56:46Z",
+    "html_url": "https://github.com/contributte/thepay/releases/tag/v4.0.1-rc0",
+    "body": "This release adds support for Helper\\Card::getCardInfo from the original library"
+  },
   "10433537": {
     "repo": "reCAPTCHA",
     "tag": "2.1.1",
@@ -1727,6 +2087,42 @@
     "html_url": "https://github.com/contributte/event-dispatcher-extra/releases/tag/v0.1",
     "body": "First bump! 👊 "
   },
+  "10672782": {
+    "repo": "dbal",
+    "tag": "v0.2",
+    "name": "v0.2",
+    "created_at": "2018-04-23T12:26:27Z",
+    "published_at": "2018-04-23T12:28:12Z",
+    "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.2",
+    "body": "Bump! :tropical_drink: \r\n\r\nDiff: https://github.com/nettrine/dbal/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- improve readme [#5] (thanks @benijo)\r\n- added EntityManage\r\n- merge panels together [#4]\r\n- fix connection panel\r\n- added more tests"
+  },
+  "10673520": {
+    "repo": "orm",
+    "tag": "v0.1",
+    "name": "v0.1",
+    "created_at": "2018-04-23T13:04:09Z",
+    "published_at": "2018-04-23T13:05:41Z",
+    "html_url": "https://github.com/nettrine/orm/releases/tag/v0.1",
+    "body": "First bump! 👊 "
+  },
+  "10673697": {
+    "repo": "migrations",
+    "tag": "v0.3",
+    "name": "v0.3",
+    "created_at": "2018-02-28T13:09:06Z",
+    "published_at": "2018-04-23T13:13:48Z",
+    "html_url": "https://github.com/nettrine/migrations/releases/tag/v0.3",
+    "body": "Bump! *️⃣ \r\n\r\nDiff: https://github.com/nettrine/migrations/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- minimal PHP >= 7.1 [#5]\r\n- allow Symfony Console 4.x "
+  },
+  "10674127": {
+    "repo": "dbal",
+    "tag": "v0.2.1",
+    "name": "v0.2.1",
+    "created_at": "2018-04-23T13:33:46Z",
+    "published_at": "2018-04-23T13:35:14Z",
+    "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.2.1",
+    "body": "Bump! 👡 \r\n\r\nDiff: https://github.com/nettrine/dbal/compare/v0.2...v0.2.1\r\n\r\nChanges:\r\n- bugfix in DbalExtension"
+  },
   "10702380": {
     "repo": "psr7-http-message",
     "tag": "v0.3.1",
@@ -1735,6 +2131,15 @@
     "published_at": "2018-04-24T20:33:58Z",
     "html_url": "https://github.com/contributte/psr7-http-message/releases/tag/v0.3.1",
     "body": "Bump! 💈 \r\n\r\nDiff:  https://github.com/contributte/psr7-http-message/compare/v0.3...v0.3.1\r\n\r\nChanges:\r\n- upgrade nette/tester to v2.0\r\n\r\nDeprecated:\r\n - `$request->getBodyClone()`\r\n\r\nAdded:\r\n- `$request->getContentsCopy()`\r\n- `$request->getJsonBodyCopy()`"
+  },
+  "10721826": {
+    "repo": "dbal",
+    "tag": "v0.2.2",
+    "name": "v0.2.2",
+    "created_at": "2018-04-25T19:57:24Z",
+    "published_at": "2018-04-25T19:58:45Z",
+    "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.2.2",
+    "body": "Bump! 🖖 \r\n\r\nDiff: https://github.com/nettrine/dbal/compare/v0.2.1...v0.2.2\r\n\r\nChanges:\r\n- invalid DebugEventManager [#7] (thanks @uestla) "
   },
   "10739672": {
     "repo": "event-dispatcher-extra",
@@ -1753,6 +2158,15 @@
     "published_at": "2018-05-01T07:44:09Z",
     "html_url": "https://github.com/contributte/security/releases/tag/v0.2",
     "body": "Bump! :tada: \r\n\r\nDiff: https://github.com/contributte/security/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- PHP 7.1\r\n- new StaticAuthenticator (#2) [thanks @mabar]\r\n"
+  },
+  "10875370": {
+    "repo": "dbal",
+    "tag": "v0.2.3",
+    "name": "v0.2.3",
+    "created_at": "2018-05-07T04:55:41Z",
+    "published_at": "2018-05-07T04:58:30Z",
+    "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.2.3",
+    "body": "Bump! 🃏 \r\n\r\nDiff: https://github.com/nettrine/dbal/compare/v0.2.2...v0.2.3\r\n\r\nChanges:\r\n- fix filterSchemaAssetsExpression [#9] (thanks @vbejcek) \r\n- ConnectionHelper alias [#10] (thanks @uestla) "
   },
   "10880281": {
     "repo": "console",
@@ -1790,6 +2204,15 @@
     "html_url": "https://github.com/contributte/console-extra/releases/tag/v0.2",
     "body": "Bump! :sa: \r\n\r\nDiff: https://github.com/contributte/console-extra/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- PHP 5.6 -> PHP 7.1 [#5] [#7] [#1]\r\n- Readme [#4]\r\n- Typo in utils command [#3]  "
   },
+  "10983878": {
+    "repo": "dbal",
+    "tag": "v0.2.4",
+    "name": "v0.2.4",
+    "created_at": "2018-05-07T13:37:28Z",
+    "published_at": "2018-05-14T10:29:07Z",
+    "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.2.4",
+    "body": "Bump! 💃 \r\n\r\nDiff: https://github.com/nettrine/dbal/compare/v0.2.3...v0.2.4\r\n\r\nChanges:\r\n- allow doctrine/dbal 2.7"
+  },
   "10984074": {
     "repo": "event-dispatcher-extra",
     "tag": "v0.3",
@@ -1798,6 +2221,15 @@
     "published_at": "2018-05-14T10:41:47Z",
     "html_url": "https://github.com/contributte/event-dispatcher-extra/releases/tag/v0.3",
     "body": "Bump! 🖖 \r\n\r\nDiff: https://github.com/contributte/event-dispatcher-extra/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- added new events [#10][#6][#11] "
+  },
+  "11062262": {
+    "repo": "negotiation",
+    "tag": "v0.2.1",
+    "name": "v0.2.1",
+    "created_at": "2018-05-18T07:49:15Z",
+    "published_at": "2018-05-18T07:50:10Z",
+    "html_url": "https://github.com/apitte/negotiation/releases/tag/v0.2.1",
+    "body": "Bump! 🇧🇩 \r\n\r\nDiff: https://github.com/apitte/negotiation/compare/v0.2...v0.2.1\r\n\r\nChanges:\r\n- added ObjectEntity [#3] "
   },
   "11080226": {
     "repo": "nextras-orm-query-object",
@@ -1844,6 +2276,15 @@
     "html_url": "https://github.com/contributte/psr7-http-message/releases/tag/v0.4",
     "body": "Bump! 🐗\r\n\r\nDiff:  https://github.com/contributte/psr7-http-message/compare/v0.3.1...v0.4\r\n\r\nChanged:\r\n- PHP 7.1\r\n- Travis stages\r\n\r\nRemoved:\r\n- `$request->getBodyClone()`"
   },
+  "11219770": {
+    "repo": "extensions",
+    "tag": "v0.3",
+    "name": "v0.3",
+    "created_at": "2018-05-29T13:34:02Z",
+    "published_at": "2018-05-29T13:34:13Z",
+    "html_url": "https://github.com/nettrine/extensions/releases/tag/v0.3",
+    "body": "Bump! 🍭 \r\n\r\nDiff: https://github.com/nettrine/extensions/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- switch Kdyby -> Nettrine\r\n- require PHP 7.1"
+  },
   "11255111": {
     "repo": "elasticsearch",
     "tag": "v0.1",
@@ -1853,6 +2294,15 @@
     "html_url": "https://github.com/contributte/elasticsearch/releases/tag/v0.1",
     "body": "Bumped! :fist_oncoming: "
   },
+  "11263274": {
+    "repo": "annotations",
+    "tag": "v0.2",
+    "name": "v0.2",
+    "created_at": "2018-05-31T15:11:15Z",
+    "published_at": "2018-05-31T15:13:21Z",
+    "html_url": "https://github.com/nettrine/annotations/releases/tag/v0.2",
+    "body": "Bump! 🍭 \r\n\r\nDiff: https://github.com/nettrine/annotations/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- require PHP 7.1 [#4]\r\n- unlock dependencies [#5][#3]  \r\n- use registerUniqueLoader [#2] \r\n\r\n   "
+  },
   "11276321": {
     "repo": "event-dispatcher-extra",
     "tag": "v0.4.1",
@@ -1861,6 +2311,15 @@
     "published_at": "2018-06-01T08:57:09Z",
     "html_url": "https://github.com/contributte/event-dispatcher-extra/releases/tag/v0.4.1",
     "body": "Bump! 🃏 \r\n\r\nDiff: https://github.com/contributte/event-dispatcher-extra/compare/v0.4...v0.4.1\r\n\r\nChanges:\r\n- added more tests on Presenter::onStartup/onShutdown [#17] [#16] [#15] \r\n- allow to pass IPresenter to PresenterStartup/PresenterShutdown event [#17]"
+  },
+  "11350227": {
+    "repo": "dbal",
+    "tag": "v0.2.5",
+    "name": "v0.2.5",
+    "created_at": "2018-06-06T14:02:48Z",
+    "published_at": "2018-06-06T14:06:31Z",
+    "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.2.5",
+    "body": "Bumped! :sa: \r\n\r\nDiff: https://github.com/nettrine/dbal/compare/v0.2.4...v0.2.5\r\n\r\nChanges:\r\n- added console.command tag for commands [#11]  \r\n- added wrapperClass to configuration [#14] [#15] \r\n- added typesMapping\r\n- improved README\r\n- improved Tracy panel"
   },
   "11410747": {
     "repo": "scheduler",
@@ -1907,6 +2366,24 @@
     "html_url": "https://github.com/contributte/bootstrap/releases/tag/v0.3",
     "body": "Bump! :abcd: \r\n\r\nDiff: https://github.com/contributte/bootstrap/compare/v0.2.1...v0.3\r\n\r\nChanges:\r\n\r\n- pluggable configurator [#2] \r\n- ability to detect debug mode by file [#4] \r\n- PHP 5.6 -> PHP 7.1 [#5] [#6] \r\n\r\nBC break:\r\n\r\nYou have to enable ENV parsing explicit.\r\n\r\nBefore:\r\n\r\n```php\r\n$configurator = new ExtraConfigurator();\r\n```\r\n\r\nAfter\r\n\r\n```php\r\n$configurator = new ExtraConfigurator();\r\n$configurator->setEnvDebugMode();\r\n```"
   },
+  "11495804": {
+    "repo": "orm",
+    "tag": "v0.2",
+    "name": "v0.2",
+    "created_at": "2018-06-14T21:41:27Z",
+    "published_at": "2018-06-15T07:46:24Z",
+    "html_url": "https://github.com/nettrine/orm/releases/tag/v0.2",
+    "body": "Bumped! :abcd: \r\n\r\nDiff: https://github.com/nettrine/orm/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- cache drivers are not autowired (thanks @jiripudil) [#23]\r\n- DI: setClass -> setType/setFactory (thanks @MartkCz) [#20]\r\n- better cache handling/configuring [#12]\r\n- Annotations: excludePaths (thanks @jankonas) [#19]\r\n- EntityManagerFactory: autowire event manager [#11]\r\n- CacheReader: debug parameter (thanks @kedlas) [#13]\r\n- Console commands: added tags for contributte/console [#14] (common tag `console.command`) "
+  },
+  "11495921": {
+    "repo": "annotations",
+    "tag": "v0.3",
+    "name": "v0.3",
+    "created_at": "2018-06-14T21:41:57Z",
+    "published_at": "2018-06-15T07:54:55Z",
+    "html_url": "https://github.com/nettrine/annotations/releases/tag/v0.3",
+    "body": "Bump! :falkland_islands: \r\n\r\nDiff: https://github.com/nettrine/annotations/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- Turn off autowiring for cache drivers (thanks @jiripudil) [#6] "
+  },
   "11511237": {
     "repo": "social",
     "tag": "v2.0.0",
@@ -1924,6 +2401,33 @@
     "published_at": "2018-06-16T05:56:08Z",
     "html_url": "https://github.com/contributte/social/releases/tag/1.0.0",
     "body": "First bump! 👊 "
+  },
+  "11562345": {
+    "repo": "fixtures",
+    "tag": "v0.3",
+    "name": "v0.3",
+    "created_at": "2018-05-21T12:45:22Z",
+    "published_at": "2018-06-20T06:57:44Z",
+    "html_url": "https://github.com/nettrine/fixtures/releases/tag/v0.3",
+    "body": "Bump! 🈁 \r\n\r\nDiff: https://github.com/nettrine/fixtures/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- PHP 7.1"
+  },
+  "11562865": {
+    "repo": "dbal",
+    "tag": "v0.2.6",
+    "name": "v0.2.6",
+    "created_at": "2018-06-20T07:36:47Z",
+    "published_at": "2018-06-20T07:44:52Z",
+    "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.2.6",
+    "body": "Bumped! *️⃣ \r\n\r\nDiff: https://github.com/nettrine/dbal/compare/v0.2.5...v0.2.6\r\n\r\nChanges:\r\n- require doctrine/dbal >=2.7.1\r\n- added console mode into `DbalConsoleExtension` [#16] (thanks @jiripudil)"
+  },
+  "11562942": {
+    "repo": "orm",
+    "tag": "v0.2.1",
+    "name": "v0.2.1",
+    "created_at": "2018-06-18T07:01:27Z",
+    "published_at": "2018-06-20T07:49:32Z",
+    "html_url": "https://github.com/nettrine/orm/releases/tag/v0.2.1",
+    "body": "Bumped! 🈂️ \r\n\r\nDiff: https://github.com/nettrine/orm/compare/v0.2...v0.2.1\r\n\r\nChanges:\r\n- add console mode into console extension [#25] (thanks @jiripudil)\r\n- enhanced annotation cache [#26] (thanks @jiripudil)  "
   },
   "11585618": {
     "repo": "latte",
@@ -2006,6 +2510,96 @@
     "html_url": "https://github.com/contributte/dummy-events/releases/tag/2.0.0",
     "body": "Bump! :+1: \r\n\r\nDiff: https://github.com/contributte/dummy-events/compare/1.2.0...2.0.0\r\n\r\nChanges:\r\n- changed namespace\r\n- changed composer package\r\n- PHP >= 7.1"
   },
+  "11773378": {
+    "repo": "core",
+    "tag": "v0.3",
+    "name": "v0.3",
+    "created_at": "2018-07-04T08:44:11Z",
+    "published_at": "2018-07-04T08:44:27Z",
+    "html_url": "https://github.com/apitte/core/releases/tag/v0.3",
+    "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/core/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- Mapping: normalize request parameter with respect to parameter IN [#14] (thanks @Trejjam)\r\n- Openapi: extend configuration [#17] (thanks @Trejjam)\r\n- Fix bug with required non-empty parameter [#15] (thanks @Trejjam)\r\n\r\nThis is last PHP 5.6 release."
+  },
+  "11773565": {
+    "repo": "debug",
+    "tag": "v0.3",
+    "name": "v0.3",
+    "created_at": "2018-07-04T08:56:04Z",
+    "published_at": "2018-07-04T08:57:04Z",
+    "html_url": "https://github.com/apitte/debug/releases/tag/v0.3",
+    "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/debug/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- allow to disable debug panel [#1]\r\n- allow tracy v2.5\r\n\r\nThis is last release for PHP 5.6."
+  },
+  "11773680": {
+    "repo": "middlewares",
+    "tag": "v0.3",
+    "name": "v0.3",
+    "created_at": "2018-07-04T09:00:18Z",
+    "published_at": "2018-07-04T09:02:51Z",
+    "html_url": "https://github.com/apitte/middlewares/releases/tag/v0.3",
+    "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/middlewares/compare/v0.2...v0.3\r\n\r\nThis is last release for PHP 5.6."
+  },
+  "11773687": {
+    "repo": "negotiation",
+    "tag": "v0.3",
+    "name": "v0.3",
+    "created_at": "2018-07-04T09:02:02Z",
+    "published_at": "2018-07-04T09:03:19Z",
+    "html_url": "https://github.com/apitte/negotiation/releases/tag/v0.3",
+    "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/negotiation/compare/v0.2.1...v0.3\r\n\r\nThis is last release for PHP 5.6."
+  },
+  "11773750": {
+    "repo": "openapi",
+    "tag": "v0.3",
+    "name": "v0.3",
+    "created_at": "2018-07-04T09:06:20Z",
+    "published_at": "2018-07-04T09:07:24Z",
+    "html_url": "https://github.com/apitte/openapi/releases/tag/v0.3",
+    "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/openapi/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- OpenApiService: export multi method on single path (thanks @Trejjam)\r\n- OpenApiService: extend configuration options (thanks @Trejjam)\r\n\r\nThis is last release for PHP 5.6."
+  },
+  "11773820": {
+    "repo": "presenter",
+    "tag": "v0.3",
+    "name": "v0.3",
+    "created_at": "2018-07-04T09:35:39Z",
+    "published_at": "2018-07-04T09:35:56Z",
+    "html_url": "https://github.com/apitte/presenter/releases/tag/v0.3",
+    "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/presenter/compare/v0.2...v0.3\r\n\r\nThis is last release for PHP 5.6."
+  },
+  "11773966": {
+    "repo": "console",
+    "tag": "v0.2",
+    "name": "v0.2",
+    "created_at": "2018-07-04T09:16:12Z",
+    "published_at": "2018-07-04T09:18:52Z",
+    "html_url": "https://github.com/apitte/console/releases/tag/v0.2",
+    "body": "Bump! 👔  \r\n\r\nDiff: https://github.com/apitte/console/compare/v0.1...v0.2\r\n"
+  },
+  "11773971": {
+    "repo": "console",
+    "tag": "v0.3",
+    "name": "v0.3",
+    "created_at": "2018-07-04T09:16:25Z",
+    "published_at": "2018-07-04T09:19:09Z",
+    "html_url": "https://github.com/apitte/console/releases/tag/v0.3",
+    "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/console/compare/v0.2...v0.3\r\n\r\nThis is last PHP 5.6 release."
+  },
+  "11774015": {
+    "repo": "fullstack",
+    "tag": "v0.3",
+    "name": "v0.3",
+    "created_at": "2018-07-04T09:21:10Z",
+    "published_at": "2018-07-04T09:21:33Z",
+    "html_url": "https://github.com/apitte/fullstack/releases/tag/v0.3",
+    "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/fullstack/compare/v0.2...v0.3\r\n\r\nThis is last PHP 5.6 release."
+  },
+  "11780060": {
+    "repo": "debug",
+    "tag": "v0.3.1",
+    "name": "v0.3.1",
+    "created_at": "2018-07-04T15:22:14Z",
+    "published_at": "2018-07-04T15:23:04Z",
+    "html_url": "https://github.com/apitte/debug/releases/tag/v0.3.1",
+    "body": "Bump! 🈁 \r\n\r\nDiff: https://github.com/apitte/debug/compare/v0.3...v0.3.1\r\n\r\nChanges:\r\n- bugfix registering DebugPanel according to global debug and plugin debug"
+  },
   "11822032": {
     "repo": "cache",
     "tag": "v0.2",
@@ -2078,6 +2672,15 @@
     "html_url": "https://github.com/contributte/mail/releases/tag/v0.2.0",
     "body": "Bump! 🍼 \r\n\r\nDiff: https://github.com/contributte/mail/compare/v0.1.3...v0.2.0\r\n\r\nChanges:\r\n- PHP 7.1 [#7] [#6] \r\n- Debug panel [#5] [#2] \r\n- Replaced MessageFactory with IMessageFactory (BC break)"
   },
+  "11995104": {
+    "repo": "guzzlette",
+    "tag": "v2.0.0",
+    "name": "",
+    "created_at": "2018-07-18T20:27:30Z",
+    "published_at": "2018-07-18T20:31:59Z",
+    "html_url": "https://github.com/contributte/guzzlette/releases/tag/v2.0.0",
+    "body": "Bump! 👊 \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v1.1.0...v2.0.0\r\n\r\nChanges:\r\n- Matyx -> Contributte\r\n- PHP 7.1\r\n- Reorganized configuration (see docs)\r\n"
+  },
   "12054180": {
     "repo": "di",
     "tag": "v0.3.0",
@@ -2141,6 +2744,51 @@
     "html_url": "https://github.com/contributte/tracy/releases/tag/v0.3.1",
     "body": "Bump! 🍎 \r\n\r\nDiff: https://github.com/contributte/tracy/compare/v0.3...v0.3.1\r\n\r\nChanges:\r\n- Fixed invalid version constraint"
   },
+  "12278632": {
+    "repo": "guzzlette",
+    "tag": "v0.10.0",
+    "name": "v0.10.0",
+    "created_at": "2016-07-25T13:47:00Z",
+    "published_at": "2018-08-06T21:39:55Z",
+    "html_url": "https://github.com/contributte/guzzlette/releases/tag/v0.10.0",
+    "body": "Bump! 🤒 \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v0.9.0...v0.10.0\r\n\r\nChanges:\r\n- Tracy - Decode request body, if it is JSON\r\n- Enable only if debug bar is enabled"
+  },
+  "12278775": {
+    "repo": "guzzlette",
+    "tag": "v0.11.0",
+    "name": "v0.11.0",
+    "created_at": "2017-03-26T16:39:11Z",
+    "published_at": "2018-08-06T21:44:09Z",
+    "html_url": "https://github.com/contributte/guzzlette/releases/tag/v0.11.0",
+    "body": "Bump! 🐤 \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v0.10.1...v0.11.0\r\n\r\nChanges:\r\n- Allow exporting requests as CURL call"
+  },
+  "12278877": {
+    "repo": "guzzlette",
+    "tag": "v0.9.9",
+    "name": "v0.9.9",
+    "created_at": "2017-06-05T10:10:14Z",
+    "published_at": "2018-08-06T21:50:35Z",
+    "html_url": "https://github.com/contributte/guzzlette/releases/tag/v0.9.9",
+    "body": "Bump! 🍼 \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v0.9.0...v0.9.9\r\n\r\nChanges:\r\n- Tracy - Decode request body, if it is JSON\r\n- Enable only if debug bar is enabled\r\n- Allow exporting requests as CURL call\r\n- Make textarea with curl read-only\r\n"
+  },
+  "12278903": {
+    "repo": "guzzlette",
+    "tag": "v1.0.0",
+    "name": "v1.0.0",
+    "created_at": "2017-12-29T20:57:48Z",
+    "published_at": "2018-08-06T21:53:40Z",
+    "html_url": "https://github.com/contributte/guzzlette/releases/tag/v1.0.0",
+    "body": "Bump! 🍂 \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v0.11.1...v1.0.0\r\n\r\nChanges:\r\n- GuzzletteExtension\r\n- Nette best practices"
+  },
+  "12278931": {
+    "repo": "guzzlette",
+    "tag": "v1.1.0",
+    "name": "v1.1.0",
+    "created_at": "2018-04-04T21:43:22Z",
+    "published_at": "2018-08-06T21:55:47Z",
+    "html_url": "https://github.com/contributte/guzzlette/releases/tag/v1.1.0",
+    "body": "Bump! 😋 \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v1.0.0...v1.1.0\r\n\r\nChanges:\r\n- Configuration for Guzzle Client"
+  },
   "12279267": {
     "repo": "psr11-container-interface",
     "tag": "v0.1.0",
@@ -2185,6 +2833,33 @@
     "published_at": "2018-08-17T14:05:22Z",
     "html_url": "https://github.com/contributte/anabelle/releases/tag/v1.3.0",
     "body": "- composer.json: require symfony console v3 | v4"
+  },
+  "12573051": {
+    "repo": "thepay-api",
+    "tag": "v4.0.0",
+    "name": "v4.0.0",
+    "created_at": "2018-08-25T08:11:10Z",
+    "published_at": "2018-08-25T08:16:43Z",
+    "html_url": "https://github.com/contributte/thepay-api/releases/tag/v4.0.0",
+    "body": "The library was migrated to PHP 7.1 with forced types and it is no longer only namespaced official library. It could be BC break. But changes in the official library will be ported into this library (the official library is tracked by branch [track-official-library](https://github.com/Trejjam/ThePay-lib/tree/track-official-library)).\r\n\r\nLibrary return:\r\n\r\nTRUE/FALSE from bool property which in previous version returns '1'/'0'.\r\nfloat number instead of (string)number_format($number, 2, '.', '')\r\nint number instead of (string)$number"
+  },
+  "12573296": {
+    "repo": "thepay",
+    "tag": "v4.0.1",
+    "name": "v4.0.1",
+    "created_at": "2018-08-25T09:13:22Z",
+    "published_at": "2018-08-25T09:17:37Z",
+    "html_url": "https://github.com/contributte/thepay/releases/tag/v4.0.1",
+    "body": "This release uses the [thepay-lib](https://github.com/Trejjam/ThePay-lib) branch master (with proper releases) starting from release [4.0.0](https://github.com/Trejjam/ThePay-lib/releases/tag/v4.0.0)."
+  },
+  "12578177": {
+    "repo": "thepay",
+    "tag": "v4.0.2",
+    "name": "v4.0.2",
+    "created_at": "2018-08-26T08:33:54Z",
+    "published_at": "2018-08-26T08:55:53Z",
+    "html_url": "https://github.com/contributte/thepay/releases/tag/v4.0.2",
+    "body": "First release with [contributte/thepay-api](https://github.com/contributte/thepay-api) instead of abandoned `trejjam/thepay-lib`."
   },
   "12614975": {
     "repo": "utils",

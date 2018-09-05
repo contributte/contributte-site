@@ -9,20 +9,24 @@
 npm install
 ```
 
-*Just once*
-
-```
-# Clone repositories
-node tools/git-tools.js
-
-# Generate pages from readme(s)
-node tools/generate-pages.js 
-```
-
 ```
 # Start dev server 
 npm run docs:dev
 ```
+
+### First time
+
+For the first time, you will have empty `data/vcs` folder. You gonna needed
+to download the repositories. And then generate markdown pages from the readmes.
+
+```
+# Clone wanted repositories
+node tools/sync-git.js
+
+# Generate pages from readme(s)
+node tools/generate-vue-pages.js 
+```
+
 
 **Production**
 

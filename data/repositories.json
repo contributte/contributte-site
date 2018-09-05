@@ -216,7 +216,7 @@
     "title": "FTP deployer",
     "enabled": true,
     "priority": 0,
-    "docs": "v0",
+    "docs": "v1",
     "description": ":horse_racing: FTP deployment (by @dg) extension for Nette Framework",
     "releases": {
       "last": {
@@ -274,7 +274,7 @@
     "title": "Dummy Events",
     "enabled": true,
     "priority": 0,
-    "docs": "v0",
+    "docs": "v1",
     "description": ":repeat: Ultra simple events system for Nette Framework",
     "releases": {
       "last": {

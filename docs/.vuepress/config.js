@@ -6,6 +6,10 @@ module.exports = {
   keywords: 'contributte, nette, symfony, extensions, mvc, application, http, security, utils, database',
   ga: 'UA-28123999-19',
   themeConfig: {
+    algolia: {
+      apiKey: 'e2015bc524d8c80d122709059789e90f',
+      indexName: 'contributte'
+    },
     nav: [
       {text: 'Home', link: '/'},
       {text: 'All packages', link: '/packages/'},

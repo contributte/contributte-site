@@ -74,12 +74,12 @@
       "last": {
         "org": "contributte",
         "repo": "console-extra",
-        "tag": "v0.3",
-        "name": "",
-        "created_at": "2018-07-08T20:14:51Z",
-        "published_at": "2018-07-08T20:26:12Z",
-        "html_url": "https://github.com/contributte/console-extra/releases/tag/v0.3",
-        "body": "Bump! 🥇 \r\n\r\nDiff: https://github.com/contributte/console-extra/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- Commands could be lazy-loaded\r\n- AdvancedCache - cleaned and generator"
+        "tag": "v0.4",
+        "name": "v0.4",
+        "created_at": "2018-11-07T12:02:45Z",
+        "published_at": "2018-11-07T12:08:44Z",
+        "html_url": "https://github.com/contributte/console-extra/releases/tag/v0.4",
+        "body": "Bump! 🍑 \r\n\r\nDiff: https://github.com/contributte/console-extra/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Improved UX\r\n- excludeDirs option for latte compilers (BC break, changed arguments order)\r\n- DiContainersCacheGenerator don't run container\r\n- LatteTemplatesCacheGenerator uses TemplateFactory (should fix most of compilation failures)"
       }
     }
   },
@@ -101,7 +101,7 @@
         "created_at": "2018-08-16T07:56:14Z",
         "published_at": "2018-08-16T14:42:31Z",
         "html_url": "https://github.com/contributte/event-dispatcher/releases/tag/v0.5",
-        "body": "Bumped! 🤖  \r\n\r\nDiff: https://github.com/contributte/event-dispatcher/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- php 7.1 https://github.com/contributte/event-dispatcher/commit/c73737297c9848fb9ab198c48f1719ce829e7501\r\n- droped unused AbstractEvent [commit](https://github.com/contributte/event-dispatcher/commit/c73737297c9848fb9ab198c48f1719ce829e7501#diff-e5c1365777a9c98233a7d8a7dcf0d9d6)\r\n- implemented priorities properly https://github.com/contributte/event-dispatcher/commit/edadc7b3fefba2704e6f5eacc1023c69f2e36c49"
+        "body": "Bumped! 🤖  \r\n\r\nDiff: https://github.com/contributte/event-dispatcher/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- php 7.1 https://github.com/contributte/event-dispatcher/commit/c73737297c9848fb9ab198c48f1719ce829e7501\r\n- droped unused AbstractEvent [[commit](https://github.com/contributte/event-dispatcher/commit/c73737297c9848fb9ab198c48f1719ce829e7501#diff-e5c1365777a9c98233a7d8a7dcf0d9d6)]\r\n- implemented priorities properly (https://github.com/contributte/event-dispatcher/commit/edadc7b3fefba2704e6f5eacc1023c69f2e36c49)"
       }
     }
   },
@@ -226,7 +226,7 @@
         "created_at": "2017-02-23T12:21:41Z",
         "published_at": "2017-07-31T09:36:31Z",
         "html_url": "https://github.com/contributte/seznamcaptcha/releases/tag/0.3",
-        "body": "Bumped! ��� \r\n\r\nChanges:\r\n- enhanced readme\r\n- repair validator [#1] "
+        "body": "Bumped! 🚶 \r\n\r\nChanges:\r\n- enhanced readme\r\n- repair validator [#1] "
       }
     }
   },
@@ -241,12 +241,12 @@
       "last": {
         "org": "contributte",
         "repo": "logging",
-        "tag": "v0.2.1",
-        "name": "v0.2.1",
-        "created_at": "2017-10-23T17:08:35Z",
-        "published_at": "2017-10-30T08:47:21Z",
-        "html_url": "https://github.com/contributte/logging/releases/tag/v0.2.1",
-        "body": "Bump! 🤒 \r\n\r\nDiff: https://github.com/contributte/logging/compare/v0.2...v0.2.1\r\n\r\nChanges:\r\n- fix multiple formatters bug [#7]\r\n- change Throwable to Exception [#8] [#9]  "
+        "tag": "v0.2.2",
+        "name": "v0.2.2",
+        "created_at": "2018-09-09T11:40:03Z",
+        "published_at": "2018-09-09T15:54:02Z",
+        "html_url": "https://github.com/contributte/logging/releases/tag/v0.2.2",
+        "body": "Bump! 🤒 \r\n\r\nDiff: https://github.com/contributte/logging/compare/v0.2.1...v0.2.2\r\n\r\nChanges:\r\n- Feature: turn on/off Sentry logger [#11] \r\n- Bugfix: logging directory [#12] "
       }
     }
   },
@@ -290,12 +290,12 @@
       "last": {
         "org": "contributte",
         "repo": "application",
-        "tag": "v0.3.1",
-        "name": "v0.3.1",
-        "created_at": "2018-07-28T09:23:54Z",
-        "published_at": "2018-07-28T09:46:26Z",
-        "html_url": "https://github.com/contributte/application/releases/tag/v0.3.1",
-        "body": "Bumped! 🔷 \r\n\r\nDiff: https://github.com/contributte/application/compare/v0.3...v0.3.1\r\n\r\nChanges:\r\n- added XmlResponse [#13]\r\n- improved StructuredTemplates trait [#15]"
+        "tag": "v0.3.2",
+        "name": "v0.3.2",
+        "created_at": "2018-09-11T11:18:34Z",
+        "published_at": "2018-10-04T08:06:24Z",
+        "html_url": "https://github.com/contributte/application/releases/tag/v0.3.2",
+        "body": "Bumped! 📦 \r\n\r\nDiff: https://github.com/contributte/application/compare/v0.3.1...v0.3.2\r\n\r\nChanges:\r\n- fixed StructuredTemplates trait\r\n- added ImageResponse options to configure type and quality"
       }
     }
   },
@@ -673,7 +673,7 @@
         "created_at": "2018-03-12T07:00:01Z",
         "published_at": "2018-03-12T07:05:24Z",
         "html_url": "https://github.com/contributte/latte-email/releases/tag/2.0.0",
-        "body": "Bump! ��� \r\n\r\nDiff: https://github.com/contributte/latte-email/compare/1.2.1...2.0.0\r\n\r\nChanges:\r\n- PHP 5.4 -> PHP 5.6\r\n- change namespace\r\n- apply codesniffer"
+        "body": "Bump! 🏭 \r\n\r\nDiff: https://github.com/contributte/latte-email/compare/1.2.1...2.0.0\r\n\r\nChanges:\r\n- PHP 5.4 -> PHP 5.6\r\n- change namespace\r\n- apply codesniffer"
       }
     }
   },
@@ -736,7 +736,7 @@
         "created_at": "2018-07-11T13:52:53Z",
         "published_at": "2018-07-12T07:47:01Z",
         "html_url": "https://github.com/contributte/middlewares/releases/tag/v0.7",
-        "body": "Bump! 📦 \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.6...v0.7\r\n\r\nChanges:\r\n- BasicAuthMiddleware [#17]\r\n- TryCatchMiddleware [#16] [#14] [#15] "
+        "body": "Bump! �� \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.6...v0.7\r\n\r\nChanges:\r\n- BasicAuthMiddleware [#17]\r\n- TryCatchMiddleware [#16] [#14] [#15] "
       }
     }
   },
@@ -1074,12 +1074,12 @@
       "last": {
         "org": "apitte",
         "repo": "core",
-        "tag": "v0.3",
-        "name": "v0.3",
-        "created_at": "2018-07-04T08:44:11Z",
-        "published_at": "2018-07-04T08:44:27Z",
-        "html_url": "https://github.com/apitte/core/releases/tag/v0.3",
-        "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/core/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- Mapping: normalize request parameter with respect to parameter IN [#14] (thanks @Trejjam)\r\n- Openapi: extend configuration [#17] (thanks @Trejjam)\r\n- Fix bug with required non-empty parameter [#15] (thanks @Trejjam)\r\n\r\nThis is last PHP 5.6 release."
+        "tag": "v0.4",
+        "name": "v0.4",
+        "created_at": "2018-10-04T11:17:49Z",
+        "published_at": "2018-10-04T12:07:41Z",
+        "html_url": "https://github.com/apitte/core/releases/tag/v0.4",
+        "body": "Bump! 🎉\r\n\r\nDiff: https://github.com/apitte/core/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Strict types and native typehints (#18)\r\n- phpstan 0.10\r\n- rewrited exceptions - more consistent and meaningful\r\n- normalized behavior for tags - all tags could have an optional value (#27)\r\n- router throws 405 instead of 404 for methods which are unsupported by endpoint (#54)\r\n- removed BadRequestException and RequestException (api should use ClientErrorException and ServerErrorException only) (#60)\r\n- fully implemented request parameters (#44, #40, #52)\r\n    - check format of variable instead of magical typecasting\r\n    - implemented datetime and boolean\r\n    - removed scalar (use string instead) and object (not implemented)\r\n    - removed support for custom types (in consistence with openapi - only object type may be returned in future)\r\n- validations\r\n    - each request parameter in path must be defined in mask and each mask parameter must be defined in request parameters\r\n    - check validity of request parameter attributes and validity of combination of these attributes\r\n    - allow only one default suffix for response mappers and require all suffixes to be unique\r\n    - check validity of negotiations (#28)\r\n- optimizations\r\n    - check renderers, request and response entities validity in compile-time\r\n- fixes\r\n    - fix case where non-last decorator returned null\r\n    - Method::addArguments - arguments order (affects only very low-level usage)"
       }
     }
   },
@@ -1095,12 +1095,12 @@
       "last": {
         "org": "apitte",
         "repo": "debug",
-        "tag": "v0.3.1",
-        "name": "v0.3.1",
-        "created_at": "2018-07-04T15:22:14Z",
-        "published_at": "2018-07-04T15:23:04Z",
-        "html_url": "https://github.com/apitte/debug/releases/tag/v0.3.1",
-        "body": "Bump! 🈁 \r\n\r\nDiff: https://github.com/apitte/debug/compare/v0.3...v0.3.1\r\n\r\nChanges:\r\n- bugfix registering DebugPanel according to global debug and plugin debug"
+        "tag": "v0.4",
+        "name": "v0.4",
+        "created_at": "2018-08-30T09:21:51Z",
+        "published_at": "2018-10-04T12:08:31Z",
+        "html_url": "https://github.com/apitte/debug/releases/tag/v0.4",
+        "body": "Bump! 🎉 \r\n\r\nDiff: https://github.com/apitte/debug/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Strict types and native typehints\r\n- Register panel only if apitte debug and DebugPlugin debug is enabled"
       }
     }
   },
@@ -1116,12 +1116,12 @@
       "last": {
         "org": "apitte",
         "repo": "console",
-        "tag": "v0.3",
-        "name": "v0.3",
-        "created_at": "2018-07-04T09:16:25Z",
-        "published_at": "2018-07-04T09:19:09Z",
-        "html_url": "https://github.com/apitte/console/releases/tag/v0.3",
-        "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/console/compare/v0.2...v0.3\r\n\r\nThis is last PHP 5.6 release."
+        "tag": "v0.4",
+        "name": "v0.4",
+        "created_at": "2018-10-04T11:58:33Z",
+        "published_at": "2018-10-04T12:09:11Z",
+        "html_url": "https://github.com/apitte/console/releases/tag/v0.4",
+        "body": "Bump! 🎉 \r\n\r\nDiff: https://github.com/apitte/console/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Strict types and native typehints\r\n- Allow command lazyloading"
       }
     }
   },
@@ -1137,12 +1137,12 @@
       "last": {
         "org": "apitte",
         "repo": "openapi",
-        "tag": "v0.3",
-        "name": "v0.3",
-        "created_at": "2018-07-04T09:06:20Z",
-        "published_at": "2018-07-04T09:07:24Z",
-        "html_url": "https://github.com/apitte/openapi/releases/tag/v0.3",
-        "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/openapi/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- OpenApiService: export multi method on single path (thanks @Trejjam)\r\n- OpenApiService: extend configuration options (thanks @Trejjam)\r\n\r\nThis is last release for PHP 5.6."
+        "tag": "v0.4",
+        "name": "v0.4",
+        "created_at": "2018-10-04T08:38:05Z",
+        "published_at": "2018-10-04T12:08:00Z",
+        "html_url": "https://github.com/apitte/openapi/releases/tag/v0.4",
+        "body": "Bump! 🎉 \r\n\r\nDiff: https://github.com/apitte/openapi/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Strict types and native typehints\r\n- Tracy panel is draggable"
       }
     }
   },
@@ -1158,12 +1158,12 @@
       "last": {
         "org": "apitte",
         "repo": "middlewares",
-        "tag": "v0.3",
-        "name": "v0.3",
-        "created_at": "2018-07-04T09:00:18Z",
-        "published_at": "2018-07-04T09:02:51Z",
-        "html_url": "https://github.com/apitte/middlewares/releases/tag/v0.3",
-        "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/middlewares/compare/v0.2...v0.3\r\n\r\nThis is last release for PHP 5.6."
+        "tag": "v0.4",
+        "name": "v0.4",
+        "created_at": "2018-10-03T19:19:56Z",
+        "published_at": "2018-10-04T12:08:21Z",
+        "html_url": "https://github.com/apitte/middlewares/releases/tag/v0.4",
+        "body": "Bump! 🎉 \r\n\r\nDiff: https://github.com/apitte/middlewares/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Strict types and native typehints\r\n- Simplified ApiMiddleware (#5)"
       }
     }
   },
@@ -1179,12 +1179,12 @@
       "last": {
         "org": "apitte",
         "repo": "negotiation",
-        "tag": "v0.3",
-        "name": "v0.3",
-        "created_at": "2018-07-04T09:02:02Z",
-        "published_at": "2018-07-04T09:03:19Z",
-        "html_url": "https://github.com/apitte/negotiation/releases/tag/v0.3",
-        "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/negotiation/compare/v0.2.1...v0.3\r\n\r\nThis is last release for PHP 5.6."
+        "tag": "v0.4",
+        "name": "v0.4",
+        "created_at": "2018-10-04T10:39:56Z",
+        "published_at": "2018-10-04T12:07:52Z",
+        "html_url": "https://github.com/apitte/negotiation/releases/tag/v0.4",
+        "body": "Bump! 🎉 \r\n\r\nDiff: https://github.com/apitte/negotiation/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Strict types and native typehints\r\n- Handle errors properly\r\n\t- each transformer (csv, json) transform exception messages which are not designed to be displayed for user into a general message (in production mode only, it's a security feature)\r\n    - each transformer set http code and error message into response properly"
       }
     }
   },
@@ -1200,12 +1200,12 @@
       "last": {
         "org": "apitte",
         "repo": "presenter",
-        "tag": "v0.3",
-        "name": "v0.3",
-        "created_at": "2018-07-04T09:35:39Z",
-        "published_at": "2018-07-04T09:35:56Z",
-        "html_url": "https://github.com/apitte/presenter/releases/tag/v0.3",
-        "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/presenter/compare/v0.2...v0.3\r\n\r\nThis is last release for PHP 5.6."
+        "tag": "v0.4",
+        "name": "v0.4",
+        "created_at": "2018-08-14T17:22:01Z",
+        "published_at": "2018-10-04T12:08:40Z",
+        "html_url": "https://github.com/apitte/presenter/releases/tag/v0.4",
+        "body": "Bump! 🎉 \r\n\r\nDiff: https://github.com/apitte/presenter/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Strict types and native typehints"
       }
     }
   },
@@ -1221,12 +1221,12 @@
       "last": {
         "org": "apitte",
         "repo": "fullstack",
-        "tag": "v0.3",
-        "name": "v0.3",
-        "created_at": "2018-07-04T09:21:10Z",
-        "published_at": "2018-07-04T09:21:33Z",
-        "html_url": "https://github.com/apitte/fullstack/releases/tag/v0.3",
-        "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/apitte/fullstack/compare/v0.2...v0.3\r\n\r\nThis is last PHP 5.6 release."
+        "tag": "v0.4",
+        "name": "v0.4",
+        "created_at": "2018-10-04T14:51:24Z",
+        "published_at": "2018-10-04T14:53:44Z",
+        "html_url": "https://github.com/apitte/fullstack/releases/tag/v0.4",
+        "body": "Bump! 🎉 \r\n\r\nDiff: https://github.com/apitte/fullstack/compare/v0.3...v0.4\r\n"
       }
     }
   },
@@ -1251,12 +1251,12 @@
       "last": {
         "org": "nettrine",
         "repo": "dbal",
-        "tag": "v0.2.6",
-        "name": "v0.2.6",
-        "created_at": "2018-06-20T07:36:47Z",
-        "published_at": "2018-06-20T07:44:52Z",
-        "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.2.6",
-        "body": "Bumped! *️⃣ \r\n\r\nDiff: https://github.com/nettrine/dbal/compare/v0.2.5...v0.2.6\r\n\r\nChanges:\r\n- require doctrine/dbal >=2.7.1\r\n- added console mode into `DbalConsoleExtension` [#16] (thanks @jiripudil)"
+        "tag": "v0.2.7",
+        "name": "v0.2.7",
+        "created_at": "2018-10-12T11:08:33Z",
+        "published_at": "2018-11-02T09:35:40Z",
+        "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.2.7",
+        "body": "Bumped! ♐️ \r\n\r\nDiff: https://github.com/nettrine/dbal/compare/v0.2.6...v0.2.7\r\n\r\nChanges:\r\n- Tracy panel icon [bb9ffa6]\r\n- Phpstan v0.10\r\n- Tracy: escaping [8ebddc3143d88ac2ad2e78c7fad731f03cfccf32]"
       }
     }
   },
@@ -1272,12 +1272,12 @@
       "last": {
         "org": "nettrine",
         "repo": "orm",
-        "tag": "v0.2.1",
-        "name": "v0.2.1",
-        "created_at": "2018-06-18T07:01:27Z",
-        "published_at": "2018-06-20T07:49:32Z",
-        "html_url": "https://github.com/nettrine/orm/releases/tag/v0.2.1",
-        "body": "Bumped! 🈂️ \r\n\r\nDiff: https://github.com/nettrine/orm/compare/v0.2...v0.2.1\r\n\r\nChanges:\r\n- add console mode into console extension [#25] (thanks @jiripudil)\r\n- enhanced annotation cache [#26] (thanks @jiripudil)  "
+        "tag": "v0.2.2",
+        "name": "v0.2.2",
+        "created_at": "2018-09-24T13:09:48Z",
+        "published_at": "2018-11-02T09:24:36Z",
+        "html_url": "https://github.com/nettrine/orm/releases/tag/v0.2.2",
+        "body": "Bumped! 🕳 \r\n\r\nDiff: https://github.com/nettrine/orm/compare/v0.2.1...v0.2.2\r\n\r\nChanges:\r\n- use Phpstan v0.10\r\n- OrmCacheExtension: assert there's some cache\r\n- OrmAnnotationExtension: refactor cache handling\r\n- readme: synchronize\r\n- command: added orm:clear-cache:metadata [#31]\r\n- added TEntityMapping class for modular systems [#34]\r\n- added SecondLevelCache [#37] "
       }
     }
   },
@@ -1420,6 +1420,46 @@
         "published_at": "2018-07-18T20:31:59Z",
         "html_url": "https://github.com/contributte/guzzlette/releases/tag/v2.0.0",
         "body": "Bump! 👊 \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v1.1.0...v2.0.0\r\n\r\nChanges:\r\n- Matyx -> Contributte\r\n- PHP 7.1\r\n- Reorganized configuration (see docs)\r\n"
+      }
+    }
+  },
+  "contributte/redis": {
+    "org": "contributte",
+    "name": "redis",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":floppy_disk: Redis (predis) for Nette Framework (@nette)",
+    "releases": {
+      "last": {
+        "org": "contributte",
+        "repo": "redis",
+        "tag": "v0.1",
+        "name": "v0.1",
+        "created_at": "2018-11-02T21:39:53Z",
+        "published_at": "2018-11-04T11:28:00Z",
+        "html_url": "https://github.com/contributte/redis/releases/tag/v0.1",
+        "body": "First bump! :fist_oncoming: \r\n"
+      }
+    }
+  },
+  "contributte/monolog": {
+    "org": "contributte",
+    "name": "monolog",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":memo: Best logging support into Nette Framework (@nette)",
+    "releases": {
+      "last": {
+        "org": "contributte",
+        "repo": "monolog",
+        "tag": "v0.1.0",
+        "name": "v0.1.0",
+        "created_at": "2018-10-16T16:00:31Z",
+        "published_at": "2018-10-16T16:44:53Z",
+        "html_url": "https://github.com/contributte/monolog/releases/tag/v0.1.0",
+        "body": "First bump! :fist_oncoming: "
       }
     }
   }

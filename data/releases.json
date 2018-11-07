@@ -1247,7 +1247,7 @@
     "created_at": "2017-02-23T12:21:41Z",
     "published_at": "2017-07-31T09:36:31Z",
     "html_url": "https://github.com/contributte/seznamcaptcha/releases/tag/0.3",
-    "body": "Bumped! ��� \r\n\r\nChanges:\r\n- enhanced readme\r\n- repair validator [#1] "
+    "body": "Bumped! 🚶 \r\n\r\nChanges:\r\n- enhanced readme\r\n- repair validator [#1] "
   },
   "7226029": {
     "org": "contributte",
@@ -2227,7 +2227,7 @@
     "created_at": "2018-03-12T07:00:01Z",
     "published_at": "2018-03-12T07:05:24Z",
     "html_url": "https://github.com/contributte/latte-email/releases/tag/2.0.0",
-    "body": "Bump! ��� \r\n\r\nDiff: https://github.com/contributte/latte-email/compare/1.2.1...2.0.0\r\n\r\nChanges:\r\n- PHP 5.4 -> PHP 5.6\r\n- change namespace\r\n- apply codesniffer"
+    "body": "Bump! 🏭 \r\n\r\nDiff: https://github.com/contributte/latte-email/compare/1.2.1...2.0.0\r\n\r\nChanges:\r\n- PHP 5.4 -> PHP 5.6\r\n- change namespace\r\n- apply codesniffer"
   },
   "10041775": {
     "org": "contributte",
@@ -2947,7 +2947,7 @@
     "created_at": "2018-07-11T13:52:53Z",
     "published_at": "2018-07-12T07:47:01Z",
     "html_url": "https://github.com/contributte/middlewares/releases/tag/v0.7",
-    "body": "Bump! 📦 \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.6...v0.7\r\n\r\nChanges:\r\n- BasicAuthMiddleware [#17]\r\n- TryCatchMiddleware [#16] [#14] [#15] "
+    "body": "Bump! �� \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.6...v0.7\r\n\r\nChanges:\r\n- BasicAuthMiddleware [#17]\r\n- TryCatchMiddleware [#16] [#14] [#15] "
   },
   "11892201": {
     "org": "contributte",
@@ -3097,7 +3097,7 @@
     "created_at": "2018-04-04T21:43:22Z",
     "published_at": "2018-08-06T21:55:47Z",
     "html_url": "https://github.com/contributte/guzzlette/releases/tag/v1.1.0",
-    "body": "Bump! 😋 \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v1.0.0...v1.1.0\r\n\r\nChanges:\r\n- Configuration for Guzzle Client"
+    "body": "Bump! ��� \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v1.0.0...v1.1.0\r\n\r\nChanges:\r\n- Configuration for Guzzle Client"
   },
   "12279267": {
     "org": "contributte",
@@ -3127,7 +3127,7 @@
     "created_at": "2018-08-16T07:56:14Z",
     "published_at": "2018-08-16T14:42:31Z",
     "html_url": "https://github.com/contributte/event-dispatcher/releases/tag/v0.5",
-    "body": "Bumped! 🤖  \r\n\r\nDiff: https://github.com/contributte/event-dispatcher/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- php 7.1 https://github.com/contributte/event-dispatcher/commit/c73737297c9848fb9ab198c48f1719ce829e7501\r\n- droped unused AbstractEvent [commit](https://github.com/contributte/event-dispatcher/commit/c73737297c9848fb9ab198c48f1719ce829e7501#diff-e5c1365777a9c98233a7d8a7dcf0d9d6)\r\n- implemented priorities properly https://github.com/contributte/event-dispatcher/commit/edadc7b3fefba2704e6f5eacc1023c69f2e36c49"
+    "body": "Bumped! 🤖  \r\n\r\nDiff: https://github.com/contributte/event-dispatcher/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- php 7.1 https://github.com/contributte/event-dispatcher/commit/c73737297c9848fb9ab198c48f1719ce829e7501\r\n- droped unused AbstractEvent [[commit](https://github.com/contributte/event-dispatcher/commit/c73737297c9848fb9ab198c48f1719ce829e7501#diff-e5c1365777a9c98233a7d8a7dcf0d9d6)]\r\n- implemented priorities properly (https://github.com/contributte/event-dispatcher/commit/edadc7b3fefba2704e6f5eacc1023c69f2e36c49)"
   },
   "12436657": {
     "org": "contributte",
@@ -3198,5 +3198,165 @@
     "published_at": "2018-08-29T11:23:13Z",
     "html_url": "https://github.com/contributte/reCAPTCHA/releases/tag/3.1.0",
     "body": "Bumped! 🍶\r\n\r\nDiff: https://github.com/contributte/reCAPTCHA/compare/3.0.0...3.1.0\r\n\r\nChanges:\r\n- added Invisible reCAPTCHA [#21] (thanks @JanGalek) \r\n- enhanced readme (thanks @Gappa)"
+  },
+  "12804306": {
+    "org": "contributte",
+    "repo": "logging",
+    "tag": "v0.2.2",
+    "name": "v0.2.2",
+    "created_at": "2018-09-09T11:40:03Z",
+    "published_at": "2018-09-09T15:54:02Z",
+    "html_url": "https://github.com/contributte/logging/releases/tag/v0.2.2",
+    "body": "Bump! 🤒 \r\n\r\nDiff: https://github.com/contributte/logging/compare/v0.2.1...v0.2.2\r\n\r\nChanges:\r\n- Feature: turn on/off Sentry logger [#11] \r\n- Bugfix: logging directory [#12] "
+  },
+  "13239201": {
+    "org": "contributte",
+    "repo": "application",
+    "tag": "v0.3.2",
+    "name": "v0.3.2",
+    "created_at": "2018-09-11T11:18:34Z",
+    "published_at": "2018-10-04T08:06:24Z",
+    "html_url": "https://github.com/contributte/application/releases/tag/v0.3.2",
+    "body": "Bumped! 📦 \r\n\r\nDiff: https://github.com/contributte/application/compare/v0.3.1...v0.3.2\r\n\r\nChanges:\r\n- fixed StructuredTemplates trait\r\n- added ImageResponse options to configure type and quality"
+  },
+  "13242517": {
+    "org": "apitte",
+    "repo": "core",
+    "tag": "v0.4",
+    "name": "v0.4",
+    "created_at": "2018-10-04T11:17:49Z",
+    "published_at": "2018-10-04T12:07:41Z",
+    "html_url": "https://github.com/apitte/core/releases/tag/v0.4",
+    "body": "Bump! 🎉\r\n\r\nDiff: https://github.com/apitte/core/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Strict types and native typehints (#18)\r\n- phpstan 0.10\r\n- rewrited exceptions - more consistent and meaningful\r\n- normalized behavior for tags - all tags could have an optional value (#27)\r\n- router throws 405 instead of 404 for methods which are unsupported by endpoint (#54)\r\n- removed BadRequestException and RequestException (api should use ClientErrorException and ServerErrorException only) (#60)\r\n- fully implemented request parameters (#44, #40, #52)\r\n    - check format of variable instead of magical typecasting\r\n    - implemented datetime and boolean\r\n    - removed scalar (use string instead) and object (not implemented)\r\n    - removed support for custom types (in consistence with openapi - only object type may be returned in future)\r\n- validations\r\n    - each request parameter in path must be defined in mask and each mask parameter must be defined in request parameters\r\n    - check validity of request parameter attributes and validity of combination of these attributes\r\n    - allow only one default suffix for response mappers and require all suffixes to be unique\r\n    - check validity of negotiations (#28)\r\n- optimizations\r\n    - check renderers, request and response entities validity in compile-time\r\n- fixes\r\n    - fix case where non-last decorator returned null\r\n    - Method::addArguments - arguments order (affects only very low-level usage)"
+  },
+  "13242843": {
+    "org": "apitte",
+    "repo": "negotiation",
+    "tag": "v0.4",
+    "name": "v0.4",
+    "created_at": "2018-10-04T10:39:56Z",
+    "published_at": "2018-10-04T12:07:52Z",
+    "html_url": "https://github.com/apitte/negotiation/releases/tag/v0.4",
+    "body": "Bump! 🎉 \r\n\r\nDiff: https://github.com/apitte/negotiation/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Strict types and native typehints\r\n- Handle errors properly\r\n\t- each transformer (csv, json) transform exception messages which are not designed to be displayed for user into a general message (in production mode only, it's a security feature)\r\n    - each transformer set http code and error message into response properly"
+  },
+  "13242890": {
+    "org": "apitte",
+    "repo": "openapi",
+    "tag": "v0.4",
+    "name": "v0.4",
+    "created_at": "2018-10-04T08:38:05Z",
+    "published_at": "2018-10-04T12:08:00Z",
+    "html_url": "https://github.com/apitte/openapi/releases/tag/v0.4",
+    "body": "Bump! 🎉 \r\n\r\nDiff: https://github.com/apitte/openapi/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Strict types and native typehints\r\n- Tracy panel is draggable"
+  },
+  "13242918": {
+    "org": "apitte",
+    "repo": "middlewares",
+    "tag": "v0.4",
+    "name": "v0.4",
+    "created_at": "2018-10-03T19:19:56Z",
+    "published_at": "2018-10-04T12:08:21Z",
+    "html_url": "https://github.com/apitte/middlewares/releases/tag/v0.4",
+    "body": "Bump! 🎉 \r\n\r\nDiff: https://github.com/apitte/middlewares/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Strict types and native typehints\r\n- Simplified ApiMiddleware (#5)"
+  },
+  "13242959": {
+    "org": "apitte",
+    "repo": "debug",
+    "tag": "v0.4",
+    "name": "v0.4",
+    "created_at": "2018-08-30T09:21:51Z",
+    "published_at": "2018-10-04T12:08:31Z",
+    "html_url": "https://github.com/apitte/debug/releases/tag/v0.4",
+    "body": "Bump! 🎉 \r\n\r\nDiff: https://github.com/apitte/debug/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Strict types and native typehints\r\n- Register panel only if apitte debug and DebugPlugin debug is enabled"
+  },
+  "13242977": {
+    "org": "apitte",
+    "repo": "presenter",
+    "tag": "v0.4",
+    "name": "v0.4",
+    "created_at": "2018-08-14T17:22:01Z",
+    "published_at": "2018-10-04T12:08:40Z",
+    "html_url": "https://github.com/apitte/presenter/releases/tag/v0.4",
+    "body": "Bump! 🎉 \r\n\r\nDiff: https://github.com/apitte/presenter/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Strict types and native typehints"
+  },
+  "13242994": {
+    "org": "apitte",
+    "repo": "console",
+    "tag": "v0.4",
+    "name": "v0.4",
+    "created_at": "2018-10-04T11:58:33Z",
+    "published_at": "2018-10-04T12:09:11Z",
+    "html_url": "https://github.com/apitte/console/releases/tag/v0.4",
+    "body": "Bump! 🎉 \r\n\r\nDiff: https://github.com/apitte/console/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Strict types and native typehints\r\n- Allow command lazyloading"
+  },
+  "13247019": {
+    "org": "apitte",
+    "repo": "fullstack",
+    "tag": "v0.4",
+    "name": "v0.4",
+    "created_at": "2018-10-04T14:51:24Z",
+    "published_at": "2018-10-04T14:53:44Z",
+    "html_url": "https://github.com/apitte/fullstack/releases/tag/v0.4",
+    "body": "Bump! 🎉 \r\n\r\nDiff: https://github.com/apitte/fullstack/compare/v0.3...v0.4\r\n"
+  },
+  "13300240": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v5.7.0",
+    "name": "v5.7.0",
+    "created_at": "2018-10-08T10:51:45Z",
+    "published_at": "2018-10-08T11:03:12Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v5.7.0",
+    "body": "Bump! 😲 \r\n\r\nDiff: https://github.com/ublaboo/datagrid/compare/v5.6.0...v5.7.0\r\n\r\nFeatures:\r\n- initial markdown docs (@paveljanda)\r\n- add the object to string cast to the Row::getId method [#704]\r\n- added `setPositionTop` to columns summary (@vladimirbiro)\r\n- append all defined attributes to (@paveljanda)\r\n- allow zero value in custom editable value (@lukascellar)\r\n- column - added condition callback to allow/disallow inline editing on each row (@radekprokes)\r\n- allows set custom paginator template before datagrid component is attached to presenter component (@mhucik)\r\n- support Bootstrap 4 [#416][#593][#678][#699][#700]\r\n- regenereate CSS/JS files [#704]\r\n\r\nBugfix:\r\n- don't include vendor in NPM [#676] (@f3l1x)\r\n- action: fixed return annotation [#659] (@radekprokes)\r\n- fix for DibiFluent vs Dibi\\Fluent sort (@elring)\r\n- fix ItemDetailForm for PHP7.2 (@oldamalec)\r\n- fix default sort when column sort was changed and remember state is enabled (@pavelkovar)\r\n- fixed showing summary columns [#686] (@radekprokes)\r\n- empty values are not sending (@MilanPala)\r\n\r\nBC:\r\n- dropped minified CSS/JS files, you have to manage by yourself (@f3l1x)\r\n\r\n----\r\n\r\nInstall via NPM (https://www.npmjs.com/package/ublaboo-datagrid).\r\n\r\n```\r\nnpm i ublaboo-datagrid\r\n```\r\n\r\nOr you can use assets from rawgit. Just try it:\r\n\r\n- https://cdn.rawgit.com/contributte/datagrid/v5.7.0/assets/dist/datagrid.js\r\n- https://cdn.rawgit.com/contributte/datagrid/v5.7.0/assets/dist/datagrid.css"
+  },
+  "13456661": {
+    "org": "contributte",
+    "repo": "monolog",
+    "tag": "v0.1.0",
+    "name": "v0.1.0",
+    "created_at": "2018-10-16T16:00:31Z",
+    "published_at": "2018-10-16T16:44:53Z",
+    "html_url": "https://github.com/contributte/monolog/releases/tag/v0.1.0",
+    "body": "First bump! :fist_oncoming: "
+  },
+  "13793849": {
+    "org": "nettrine",
+    "repo": "orm",
+    "tag": "v0.2.2",
+    "name": "v0.2.2",
+    "created_at": "2018-09-24T13:09:48Z",
+    "published_at": "2018-11-02T09:24:36Z",
+    "html_url": "https://github.com/nettrine/orm/releases/tag/v0.2.2",
+    "body": "Bumped! 🕳 \r\n\r\nDiff: https://github.com/nettrine/orm/compare/v0.2.1...v0.2.2\r\n\r\nChanges:\r\n- use Phpstan v0.10\r\n- OrmCacheExtension: assert there's some cache\r\n- OrmAnnotationExtension: refactor cache handling\r\n- readme: synchronize\r\n- command: added orm:clear-cache:metadata [#31]\r\n- added TEntityMapping class for modular systems [#34]\r\n- added SecondLevelCache [#37] "
+  },
+  "13794049": {
+    "org": "nettrine",
+    "repo": "dbal",
+    "tag": "v0.2.7",
+    "name": "v0.2.7",
+    "created_at": "2018-10-12T11:08:33Z",
+    "published_at": "2018-11-02T09:35:40Z",
+    "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.2.7",
+    "body": "Bumped! ♐️ \r\n\r\nDiff: https://github.com/nettrine/dbal/compare/v0.2.6...v0.2.7\r\n\r\nChanges:\r\n- Tracy panel icon [bb9ffa6]\r\n- Phpstan v0.10\r\n- Tracy: escaping [8ebddc3143d88ac2ad2e78c7fad731f03cfccf32]"
+  },
+  "13817286": {
+    "org": "contributte",
+    "repo": "redis",
+    "tag": "v0.1",
+    "name": "v0.1",
+    "created_at": "2018-11-02T21:39:53Z",
+    "published_at": "2018-11-04T11:28:00Z",
+    "html_url": "https://github.com/contributte/redis/releases/tag/v0.1",
+    "body": "First bump! :fist_oncoming: \r\n"
+  },
+  "13873840": {
+    "org": "contributte",
+    "repo": "console-extra",
+    "tag": "v0.4",
+    "name": "v0.4",
+    "created_at": "2018-11-07T12:02:45Z",
+    "published_at": "2018-11-07T12:08:44Z",
+    "html_url": "https://github.com/contributte/console-extra/releases/tag/v0.4",
+    "body": "Bump! 🍑 \r\n\r\nDiff: https://github.com/contributte/console-extra/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Improved UX\r\n- excludeDirs option for latte compilers (BC break, changed arguments order)\r\n- DiContainersCacheGenerator don't run container\r\n- LatteTemplatesCacheGenerator uses TemplateFactory (should fix most of compilation failures)"
   }
 }

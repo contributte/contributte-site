@@ -9,12 +9,13 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
-    "dayjs": "^1.7.5"
+    "dayjs": "^1.7.7"
   },
   "devDependencies": {
-    "lodash": "^4.17.10",
-    "node-sass": "^4.9.3",
+    "lodash": "^4.17.11",
+    "node-sass": "^4.10.0",
     "sass-loader": "^7.1.0",
-    "vuepress": "^0.14.2"
+    "vuepress": "^0.14.4",
+    "docsearch.js": "2.5.2"
   }
 }

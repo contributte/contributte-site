@@ -30,7 +30,7 @@ module.exports = {
         collapsable: false,
         children: [
           '/guide/',
-          ['/packages/playground', 'Playground'],
+          ['/packages/contributte/playground', 'Playground'],
         ]
       },
       {

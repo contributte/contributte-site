@@ -5,7 +5,7 @@
         <div class="card mb-4 box-shadow">
           <div class="card-body">
             <h2>
-              <a :href="'/packages/'+repository.org+'/'+repository.name+'.html'">{{ repository.name }}</a>
+              <a :href="'/packages/'+repository.org+'/'+repository.name+'.html'">{{ repository.org }} / {{ repository.name }}</a>
             </h2>
             <div v-if="repository.description">
               <div v-html="md.render(repository.description)"></div>

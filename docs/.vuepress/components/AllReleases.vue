@@ -6,7 +6,7 @@
           <div class="card-body">
             <h2>
               <router-link :to="'/packages/'+release.org+'/'+release.repo+'.html'">
-                {{release.repo}} / {{release.tag}}
+                [{{release.tag}}] {{ release.org }} / {{release.repo}}
               </router-link>
               <small>{{release.created_at|date}}</small>
             </h2>

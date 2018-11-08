@@ -15,7 +15,6 @@
     "lodash": "^4.17.11",
     "node-sass": "^4.10.0",
     "sass-loader": "^7.1.0",
-    "vuepress": "^0.14.4",
-    "docsearch.js": "2.5.2"
+    "vuepress": "^0.14.4"
   }
 }

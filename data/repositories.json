@@ -744,7 +744,7 @@
     "org": "contributte",
     "name": "psr11-container-interface",
     "category": "psr",
-    "enabled": false,
+    "enabled": true,
     "priority": 0,
     "docs": "v1",
     "description": ":dizzy: PSR #11 [Container Interface] to Nette Framework (@nette)",

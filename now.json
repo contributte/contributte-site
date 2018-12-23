@@ -1,6 +1,7 @@
 {
     "version": 2,
     "name": "contributte",
+    "alias": ["contributte.org"],
     "builds": [
         { "src": "package.json", "use": "@now/static-build", "config": { "distDir": "docs/.vuepress/dist" } }
     ]

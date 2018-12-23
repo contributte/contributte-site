@@ -7,7 +7,7 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "now-build": "npm run docs:build"
+    "now-build": "echo 'OK'"
   },
   "dependencies": {
     "dayjs": "^1.7.8"

@@ -200,12 +200,12 @@
       "last": {
         "org": "contributte",
         "repo": "scheduler",
-        "tag": "v0.2.1",
-        "name": "v0.2.1",
-        "created_at": "2018-06-05T09:32:12Z",
-        "published_at": "2018-06-10T18:37:25Z",
-        "html_url": "https://github.com/contributte/scheduler/releases/tag/v0.2.1",
-        "body": "Bump! 🆎 \r\n\r\nDiff: https://github.com/contributte/scheduler/compare/v0.2...v0.2.1\r\n\r\nChanges:\r\n- QA - improve ruleset\r\n- Bugfix: empty key at job [#4]   "
+        "tag": "v0.4.0",
+        "name": "v0.4.0",
+        "created_at": "2018-12-16T16:16:33Z",
+        "published_at": "2018-12-16T16:18:44Z",
+        "html_url": "https://github.com/contributte/scheduler/releases/tag/v0.4.0",
+        "body": "Bump! 😹 \r\n\r\nDiff: https://github.com/contributte/scheduler/compare/v0.3.0...v0.4.0\r\n\r\nChanges:\r\n- Use symfony/console >= 4.2\r\n- Use dragonmantank/cron-expression > 2.2"
       }
     }
   },
@@ -390,12 +390,12 @@
       "last": {
         "org": "contributte",
         "repo": "deployer-extension",
-        "tag": "v2.0.0",
-        "name": "v2.0.0",
-        "created_at": "2018-07-23T14:11:14Z",
-        "published_at": "2016-08-05T15:57:41Z",
-        "html_url": "https://github.com/contributte/deployer-extension/releases/tag/v2.0.0",
-        "body": "Released v2.0.0 :hocho:!\r\n\r\nChanges:\r\n- drop PHP 5.4\r\n- support ftp-deployment 2.5\r\n- added basic tests\r\n"
+        "tag": "v3.0.1",
+        "name": "v3.0.1",
+        "created_at": "2018-11-10T10:05:52Z",
+        "published_at": "2018-11-10T10:08:06Z",
+        "html_url": "https://github.com/contributte/deployer-extension/releases/tag/v3.0.1",
+        "body": "Bump! 🍔 \r\n\r\nDiff: https://github.com/contributte/deployer-extension/compare/v3.0.0...v3.0.1\r\n\r\nChanges:\r\n- Fixed all namespace usages"
       }
     }
   },
@@ -731,12 +731,33 @@
       "last": {
         "org": "contributte",
         "repo": "middlewares",
-        "tag": "v0.7",
-        "name": "",
-        "created_at": "2018-07-11T13:52:53Z",
-        "published_at": "2018-07-12T07:47:01Z",
-        "html_url": "https://github.com/contributte/middlewares/releases/tag/v0.7",
-        "body": "Bump! �� \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.6...v0.7\r\n\r\nChanges:\r\n- BasicAuthMiddleware [#17]\r\n- TryCatchMiddleware [#16] [#14] [#15] "
+        "tag": "v0.8",
+        "name": "v0.8",
+        "created_at": "2018-11-09T23:20:59Z",
+        "published_at": "2018-11-09T23:33:41Z",
+        "html_url": "https://github.com/contributte/middlewares/releases/tag/v0.8",
+        "body": "Bump! 😋 \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.7...v0.8\r\n\r\nChanges:\r\n- Drop BaseMiddleware in favor of IMiddleware (BC break)\r\n- EnforceHttpsMiddleware\r\n- TryCatchMiddleware\r\n\t- logging support\r\n\t- error message replace with generic message\r\n\t- improved configuration (BC break)\r\n- LoggingMiddleware - for logging of each requested url\r\n- Tracy panel - displays which middlewares were used\r\n- Removed root support (BC break)"
+      }
+    }
+  },
+  "contributte/psr11-container-interface": {
+    "org": "contributte",
+    "name": "psr11-container-interface",
+    "category": "psr",
+    "enabled": false,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":dizzy: PSR #11 [Container Interface] to Nette Framework (@nette)",
+    "releases": {
+      "last": {
+        "org": "contributte",
+        "repo": "psr11-container-interface",
+        "tag": "v0.2.0",
+        "name": "v0.2.0",
+        "created_at": "2018-12-21T13:25:48Z",
+        "published_at": "2018-12-21T14:27:09Z",
+        "html_url": "https://github.com/contributte/psr11-container-interface/releases/tag/v0.2.0",
+        "body": "Bump! 🧀 \r\n\r\nDiff: https://github.com/contributte/psr11-container-interface/compare/v0.1.0...v0.2.0\r\n\r\nChanges:\r\n- `getByType` support https://github.com/contributte/psr11-container-interface/commit/365de023a49601015a8f8e38aa80628dbab18343"
       }
     }
   },
@@ -873,27 +894,6 @@
     "docs": "v0",
     "description": ":books: Examples / tutorials / tips / samples | sandbox for @contributte"
   },
-  "contributte/psr11-container-interface": {
-    "org": "contributte",
-    "name": "psr11-container-interface",
-    "category": "psr",
-    "enabled": false,
-    "priority": 0,
-    "docs": "v1",
-    "description": ":dizzy: PSR #11 [Container Interface] to Nette Framework (@nette)",
-    "releases": {
-      "last": {
-        "org": "contributte",
-        "repo": "psr11-container-interface",
-        "tag": "v0.1.0",
-        "name": "v0.1.0",
-        "created_at": "2018-08-06T20:53:51Z",
-        "published_at": "2018-08-06T22:27:06Z",
-        "html_url": "https://github.com/contributte/psr11-container-interface/releases/tag/v0.1.0",
-        "body": "First bump! 👊 "
-      }
-    }
-  },
   "contributte/psr3-logging": {
     "org": "contributte",
     "name": "psr3-logging",
@@ -925,12 +925,12 @@
       "last": {
         "org": "contributte",
         "repo": "psr7-http-message",
-        "tag": "v0.5",
-        "name": "v0.5",
-        "created_at": "2018-06-25T21:42:10Z",
-        "published_at": "2018-06-25T21:43:56Z",
-        "html_url": "https://github.com/contributte/psr7-http-message/releases/tag/v0.5",
-        "body": "Bump! :koko: \r\n\r\nDiff:  https://github.com/contributte/psr7-http-message/compare/v0.4...v0.5\r\n\r\nChanged:\r\n- Bugfix return type in traits [#12] \r\n- Bugfix empty upload files [#13] \r\n- Improve docs [#5] "
+        "tag": "v0.5.1",
+        "name": "v0.5.1",
+        "created_at": "2018-11-09T11:56:55Z",
+        "published_at": "2018-11-09T23:43:59Z",
+        "html_url": "https://github.com/contributte/psr7-http-message/releases/tag/v0.5.1",
+        "body": "Bump! ✌️ \r\n\r\nDiff: https://github.com/contributte/psr7-http-message/compare/v0.5...v0.5.1\r\n\r\nChanged:\r\n- Improved typehints (for less complicated extending)"
       }
     }
   },
@@ -1293,12 +1293,12 @@
       "last": {
         "org": "nettrine",
         "repo": "fixtures",
-        "tag": "v0.3",
-        "name": "v0.3",
-        "created_at": "2018-05-21T12:45:22Z",
-        "published_at": "2018-06-20T06:57:44Z",
-        "html_url": "https://github.com/nettrine/fixtures/releases/tag/v0.3",
-        "body": "Bump! 🈁 \r\n\r\nDiff: https://github.com/nettrine/fixtures/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- PHP 7.1"
+        "tag": "v0.4",
+        "name": "v0.4",
+        "created_at": "2018-12-19T12:04:58Z",
+        "published_at": "2018-12-19T12:06:08Z",
+        "html_url": "https://github.com/nettrine/fixtures/releases/tag/v0.4",
+        "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/nettrine/fixtures/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Upgrade deps (use symfony/console >=4.2)\r\n- Commands in DI have `console.command` tag (@mabar)\r\n- Typos"
       }
     }
   },
@@ -1356,12 +1356,12 @@
       "last": {
         "org": "nettrine",
         "repo": "annotations",
-        "tag": "v0.3",
-        "name": "v0.3",
-        "created_at": "2018-06-14T21:41:57Z",
-        "published_at": "2018-06-15T07:54:55Z",
-        "html_url": "https://github.com/nettrine/annotations/releases/tag/v0.3",
-        "body": "Bump! :falkland_islands: \r\n\r\nDiff: https://github.com/nettrine/annotations/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- Turn off autowiring for cache drivers (thanks @jiripudil) [#6] "
+        "tag": "v0.4",
+        "name": "v0.4",
+        "created_at": "2018-12-19T12:09:11Z",
+        "published_at": "2018-12-19T12:10:20Z",
+        "html_url": "https://github.com/nettrine/annotations/releases/tag/v0.4",
+        "body": "Bump! 🕹 \r\nDiff: https://github.com/nettrine/annotations/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Upgrade composer dependencies\r\n- Require doctrine/cache >=1.7.1\r\n- More tests"
       }
     }
   },

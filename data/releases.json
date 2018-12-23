@@ -2947,7 +2947,7 @@
     "created_at": "2018-07-11T13:52:53Z",
     "published_at": "2018-07-12T07:47:01Z",
     "html_url": "https://github.com/contributte/middlewares/releases/tag/v0.7",
-    "body": "Bump! �� \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.6...v0.7\r\n\r\nChanges:\r\n- BasicAuthMiddleware [#17]\r\n- TryCatchMiddleware [#16] [#14] [#15] "
+    "body": "Bump! 📦 \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.6...v0.7\r\n\r\nChanges:\r\n- BasicAuthMiddleware [#17]\r\n- TryCatchMiddleware [#16] [#14] [#15] "
   },
   "11892201": {
     "org": "contributte",
@@ -3097,7 +3097,7 @@
     "created_at": "2018-04-04T21:43:22Z",
     "published_at": "2018-08-06T21:55:47Z",
     "html_url": "https://github.com/contributte/guzzlette/releases/tag/v1.1.0",
-    "body": "Bump! ��� \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v1.0.0...v1.1.0\r\n\r\nChanges:\r\n- Configuration for Guzzle Client"
+    "body": "Bump! 😋 \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v1.0.0...v1.1.0\r\n\r\nChanges:\r\n- Configuration for Guzzle Client"
   },
   "12279267": {
     "org": "contributte",
@@ -3358,5 +3358,95 @@
     "published_at": "2018-11-07T12:08:44Z",
     "html_url": "https://github.com/contributte/console-extra/releases/tag/v0.4",
     "body": "Bump! 🍑 \r\n\r\nDiff: https://github.com/contributte/console-extra/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Improved UX\r\n- excludeDirs option for latte compilers (BC break, changed arguments order)\r\n- DiContainersCacheGenerator don't run container\r\n- LatteTemplatesCacheGenerator uses TemplateFactory (should fix most of compilation failures)"
+  },
+  "13931300": {
+    "org": "contributte",
+    "repo": "middlewares",
+    "tag": "v0.8",
+    "name": "v0.8",
+    "created_at": "2018-11-09T23:20:59Z",
+    "published_at": "2018-11-09T23:33:41Z",
+    "html_url": "https://github.com/contributte/middlewares/releases/tag/v0.8",
+    "body": "Bump! 😋 \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.7...v0.8\r\n\r\nChanges:\r\n- Drop BaseMiddleware in favor of IMiddleware (BC break)\r\n- EnforceHttpsMiddleware\r\n- TryCatchMiddleware\r\n\t- logging support\r\n\t- error message replace with generic message\r\n\t- improved configuration (BC break)\r\n- LoggingMiddleware - for logging of each requested url\r\n- Tracy panel - displays which middlewares were used\r\n- Removed root support (BC break)"
+  },
+  "13931411": {
+    "org": "contributte",
+    "repo": "psr7-http-message",
+    "tag": "v0.5.1",
+    "name": "v0.5.1",
+    "created_at": "2018-11-09T11:56:55Z",
+    "published_at": "2018-11-09T23:43:59Z",
+    "html_url": "https://github.com/contributte/psr7-http-message/releases/tag/v0.5.1",
+    "body": "Bump! ✌️ \r\n\r\nDiff: https://github.com/contributte/psr7-http-message/compare/v0.5...v0.5.1\r\n\r\nChanged:\r\n- Improved typehints (for less complicated extending)"
+  },
+  "13933937": {
+    "org": "contributte",
+    "repo": "deployer-extension",
+    "tag": "v3.0.1",
+    "name": "v3.0.1",
+    "created_at": "2018-11-10T10:05:52Z",
+    "published_at": "2018-11-10T10:08:06Z",
+    "html_url": "https://github.com/contributte/deployer-extension/releases/tag/v3.0.1",
+    "body": "Bump! 🍔 \r\n\r\nDiff: https://github.com/contributte/deployer-extension/compare/v3.0.0...v3.0.1\r\n\r\nChanges:\r\n- Fixed all namespace usages"
+  },
+  "14095624": {
+    "org": "contributte",
+    "repo": "anabelle",
+    "tag": "v1.4.0",
+    "name": "v1.4.0",
+    "created_at": "2018-11-20T11:29:00Z",
+    "published_at": "2018-11-20T11:32:09Z",
+    "html_url": "https://github.com/contributte/anabelle/releases/tag/v1.4.0",
+    "body": "- Added \"## / h2\" option to index.md"
+  },
+  "14558561": {
+    "org": "contributte",
+    "repo": "scheduler",
+    "tag": "v0.3.0",
+    "name": "v0.3.0",
+    "created_at": "2018-12-16T16:15:34Z",
+    "published_at": "2018-12-16T16:17:34Z",
+    "html_url": "https://github.com/contributte/scheduler/releases/tag/v0.3.0",
+    "body": "Bump! 😂 \r\n\r\nDiff: https://github.com/contributte/scheduler/compare/v0.2.1...v0.3.0\r\n\r\nChanges:\r\n- QA - improve ruleset\r\n- Upgrade dependencies\r\n- Improve build"
+  },
+  "14558568": {
+    "org": "contributte",
+    "repo": "scheduler",
+    "tag": "v0.4.0",
+    "name": "v0.4.0",
+    "created_at": "2018-12-16T16:16:33Z",
+    "published_at": "2018-12-16T16:18:44Z",
+    "html_url": "https://github.com/contributte/scheduler/releases/tag/v0.4.0",
+    "body": "Bump! 😹 \r\n\r\nDiff: https://github.com/contributte/scheduler/compare/v0.3.0...v0.4.0\r\n\r\nChanges:\r\n- Use symfony/console >= 4.2\r\n- Use dragonmantank/cron-expression > 2.2"
+  },
+  "14613625": {
+    "org": "nettrine",
+    "repo": "fixtures",
+    "tag": "v0.4",
+    "name": "v0.4",
+    "created_at": "2018-12-19T12:04:58Z",
+    "published_at": "2018-12-19T12:06:08Z",
+    "html_url": "https://github.com/nettrine/fixtures/releases/tag/v0.4",
+    "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/nettrine/fixtures/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Upgrade deps (use symfony/console >=4.2)\r\n- Commands in DI have `console.command` tag (@mabar)\r\n- Typos"
+  },
+  "14613714": {
+    "org": "nettrine",
+    "repo": "annotations",
+    "tag": "v0.4",
+    "name": "v0.4",
+    "created_at": "2018-12-19T12:09:11Z",
+    "published_at": "2018-12-19T12:10:20Z",
+    "html_url": "https://github.com/nettrine/annotations/releases/tag/v0.4",
+    "body": "Bump! 🕹 \r\nDiff: https://github.com/nettrine/annotations/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Upgrade composer dependencies\r\n- Require doctrine/cache >=1.7.1\r\n- More tests"
+  },
+  "14660459": {
+    "org": "contributte",
+    "repo": "psr11-container-interface",
+    "tag": "v0.2.0",
+    "name": "v0.2.0",
+    "created_at": "2018-12-21T13:25:48Z",
+    "published_at": "2018-12-21T14:27:09Z",
+    "html_url": "https://github.com/contributte/psr11-container-interface/releases/tag/v0.2.0",
+    "body": "Bump! 🧀 \r\n\r\nDiff: https://github.com/contributte/psr11-container-interface/compare/v0.1.0...v0.2.0\r\n\r\nChanges:\r\n- `getByType` support https://github.com/contributte/psr11-container-interface/commit/365de023a49601015a8f8e38aa80628dbab18343"
   }
 }

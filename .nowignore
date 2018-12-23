@@ -1,4 +1,7 @@
-.idea
-node_modules
-data/vcs
-docs/.vuepress/dist
+/*.*
+/.idea
+/data
+/node_modules
+/tools
+
+!/package.json

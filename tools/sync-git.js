@@ -1,12 +1,9 @@
 const _ = require('lodash');
-const {spawn} = require('child_process');
+const { spawnSync } = require('child_process');
 const fs = require("fs");
 
 // Global
 const CONFIG = require('./config');
-
-// Vars
-const processes = [];
 
 function sync() {
   _.forEach(CONFIG.repositories, repo => {
@@ -24,48 +21,21 @@ function sync() {
 }
 
 function cloneRepo(repo) {
-  const p = spawn('git', ['clone', `https://github.com/${repo.org}/${repo.name}.git`], {cwd: `${CONFIG.vcsRoot}/${repo.org}`});
-  processes.push(p);
-
-  p.stdout.on('data', (data) => {
-    console.log(`[${repo}]: ${data}`);
-  });
-
-  p.stderr.on('data', (data) => {
-    console.log(`![${repo}]: ${data}`);
-  });
-
-  p.on('close', (code) => {
-    if (code === 0) {
-      console.log(`Clonning [${repo}]: DONE`);
-    } else {
-      console.log(`Clonning [${repo}]: FAILED`);
-    }
-  });
+  console.log(`Clonning [${repo.org}/${repo.name}]: START`);
+  const output = spawnSync('git', ['clone', `https://github.com/${repo.org}/${repo.name}.git`], { cwd: `${CONFIG.vcsRoot}/${repo.org}` });
+  console.log(`[${repo.org}/${repo.name}]: ${output.status === 0 ? output.stdout : output.stderr}`);
+  console.log(`Clonning [${repo.org}/${repo.name}]: DONE`);
 }
 
 function pullRepo(repo) {
-  const p = spawn('git fetch origin master && git reset --hard origin/master', {
+
+  console.log(`Pulling [${repo.org}/${repo.name}]: START`);
+  const output = spawnSync('git fetch origin master && git reset --hard origin/master', {
     shell: true,
     cwd: `${CONFIG.vcsRoot}/${repo.org}/${repo.name}`
   });
-  processes.push(p);
-
-  p.stdout.on('data', (data) => {
-    console.log(`[${repo}]: ${data}`);
-  });
-
-  p.stderr.on('data', (data) => {
-    console.log(`![${repo}]: ${data}`);
-  });
-
-  p.on('close', (code) => {
-    if (code === 0) {
-      console.log(`Pulling [${repo}]: DONE`);
-    } else {
-      console.log(`Pulling [${repo}]: FAILED`);
-    }
-  });
+  console.log(`[${repo.org}/${repo.name}]: ${output.status === 0 ? output.stdout : output.stderr}`);
+  console.log(`Pulling [${repo.org}/${repo.name}]: DONE`);
 }
 
 sync();

@@ -11,14 +11,14 @@ const releases = {};
 
 function syncAll() {
   _.forEach(CONFIG.organizations, (repositories, org) => {
-    _.forEach(repositories, r => syncRepo(org, r));
+    _.forEach(repositories, r => syncRepo(r));
   });
 }
 
-function syncRepo(org, repo) {
+function syncRepo(repo) {
   const options = {
     hostname: `api.github.com`,
-    path: `/repos/${org}/${repo.name}/releases?per_page=200&access_token=${TOKEN}`,
+    path: `/repos/${repo.full_name}/releases?per_page=200&access_token=${TOKEN}`,
     headers: {'User-Agent': 'Contributte'}
   };
 
@@ -27,7 +27,11 @@ function syncRepo(org, repo) {
     res.on('data', (d) => data += d);
     res.on('end', () => {
       const releases = JSON.parse(data);
-      releases.forEach(release => dumpRelease(org, repo, release))
+      if (Array.isArray(releases)) {
+        releases.forEach(release => dumpRelease(repo, release))
+      } else {
+        console.error(`${repo.full_name} has no releases`);
+      }
     });
 
   }).on('error', (e) => {
@@ -35,9 +39,9 @@ function syncRepo(org, repo) {
   });
 }
 
-function dumpRelease(org, repo, release) {
+function dumpRelease(repo, release) {
   releases[release.id] = {
-    org: org,
+    org: repo.owner.login,
     repo: repo.name,
     tag: release.tag_name,
     name: release.name,

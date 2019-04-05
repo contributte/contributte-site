@@ -1,9 +1,7 @@
 <section class="container homepage">
-  <h1>Contributte - First class extensions for Nette Framework</h1>
+  <h2>Contributte is first class extensions for Nette Framework</h2>
   <div class="card">
-    <img class="card-img-top" src="/misc/welcome.jpg" alt="Contributte for ALL">
     <div class="card-body">
-      <p class="card-text">Hi! You're seeing <strong>development</strong> version of our website. Please be patient.</p>
       <a href="/packages/" class="btn btn-primary">Take a look to all packages.</a>
     </div>
   </div>

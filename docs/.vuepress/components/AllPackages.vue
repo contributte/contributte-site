@@ -1,7 +1,7 @@
 <template>
   <div class="packages">
     <div class="row">
-      <div v-for="(repository) of repositories" :key="repository.name" class="col-md-6 col-lg-4">
+      <div v-for="(repository) of repositories" :key="repository.org + '-' + repository.name" class="col-md-6 col-lg-4">
         <div class="card mb-4 box-shadow">
           <div class="card-body">
             <h2>

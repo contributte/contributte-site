@@ -1,4 +1,4 @@
-# Team
+# About
 
 ## Milan Felix Šulc ([@f3l1x](https://github.com/f3l1x))
 

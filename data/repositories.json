@@ -159,12 +159,12 @@
       "last": {
         "org": "contributte",
         "repo": "codeception",
-        "tag": "v0.8.1",
-        "name": "v0.8.1",
-        "created_at": "2017-12-12T22:03:25Z",
-        "published_at": "2017-12-12T22:53:07Z",
-        "html_url": "https://github.com/contributte/codeception/releases/tag/v0.8.1",
-        "body": "- The `useConfigFiles` method now works with absolute paths (by @fmasa)\r\n"
+        "tag": "v1.0.1",
+        "name": "v1.0.1",
+        "created_at": "2019-01-15T09:32:13Z",
+        "published_at": "2019-01-15T11:02:45Z",
+        "html_url": "https://github.com/contributte/codeception/releases/tag/v1.0.1",
+        "body": "Bump! 🥇 \r\n\r\nDiff: https://github.com/contributte/codeception/compare/v1.0.0...v1.0.1\r\n\r\nChanges:\r\n- improved compatibility with phpstan (extension.neon)"
       }
     }
   },
@@ -241,12 +241,12 @@
       "last": {
         "org": "contributte",
         "repo": "logging",
-        "tag": "v0.2.2",
-        "name": "v0.2.2",
-        "created_at": "2018-09-09T11:40:03Z",
-        "published_at": "2018-09-09T15:54:02Z",
-        "html_url": "https://github.com/contributte/logging/releases/tag/v0.2.2",
-        "body": "Bump! 🤒 \r\n\r\nDiff: https://github.com/contributte/logging/compare/v0.2.1...v0.2.2\r\n\r\nChanges:\r\n- Feature: turn on/off Sentry logger [#11] \r\n- Bugfix: logging directory [#12] "
+        "tag": "v0.3.0",
+        "name": "v0.3.0",
+        "created_at": "2019-01-11T22:37:24Z",
+        "published_at": "2019-01-12T14:38:47Z",
+        "html_url": "https://github.com/contributte/logging/releases/tag/v0.3.0",
+        "body": "Bump! 🥕\r\n\r\nDiff: https://github.com/contributte/logging/compare/v0.2.2...v0.3.0\r\n\r\nChanges:\r\n- lots of bc breaks (added typehints to interface)\r\n- support only 2.5.x tracy\r\n\r\n- TracyLoggingExtension\r\n    - keep original Tracy Logger in DIC with different key logging.originalLogger\r\n\r\n- SendMailLogger\r\n    - not filter only Exception [#22]\r\n    - sending also string messages with critical/error/exception priority (as in the original Logger)\r\n    - configurable priority\r\n\r\n- SentryLogger\r\n    - removed final\r\n    - added priority level\r\n    - sending also string messages with critical/error/exception priority\r\n    - configurable priority\r\n\r\n- FileLogger\r\n    - renamed from ExceptionFileLogger (because it does not log only exceptions but<priority>.log)\r\n\r\n- NullLogger\r\n    - with Tracy/ILogger interface [#10]\r\n\r\n- Utils\r\n    - used static methods formatLogLine,formatMessage from original Tracy\\Logger"
       }
     }
   },
@@ -369,12 +369,12 @@
       "last": {
         "org": "contributte",
         "repo": "database",
-        "tag": "v0.1",
-        "name": "v0.1",
-        "created_at": "2017-03-15T07:23:35Z",
-        "published_at": "2017-03-15T07:24:02Z",
-        "html_url": "https://github.com/contributte/database/releases/tag/v0.1",
-        "body": "Bumped! 👊 "
+        "tag": "v0.2",
+        "name": "v0.2",
+        "created_at": "2019-01-07T10:45:05Z",
+        "published_at": "2019-01-07T10:46:25Z",
+        "html_url": "https://github.com/contributte/database/releases/tag/v0.2",
+        "body": "Bump! *️⃣ \r\n\r\nDiff: https://github.com/contributte/database/compare/v0.1...v0.2\r\n\r\nChanged:\r\n- `>= PHP 7.1`\r\n- codestyle"
       }
     }
   },
@@ -743,6 +743,7 @@
   "contributte/psr11-container-interface": {
     "org": "contributte",
     "name": "psr11-container-interface",
+    "title": "PSR-11 [container]",
     "category": "psr",
     "enabled": true,
     "priority": 0,
@@ -752,12 +753,12 @@
       "last": {
         "org": "contributte",
         "repo": "psr11-container-interface",
-        "tag": "v0.2.0",
-        "name": "v0.2.0",
-        "created_at": "2018-12-21T13:25:48Z",
-        "published_at": "2018-12-21T14:27:09Z",
-        "html_url": "https://github.com/contributte/psr11-container-interface/releases/tag/v0.2.0",
-        "body": "Bump! 🧀 \r\n\r\nDiff: https://github.com/contributte/psr11-container-interface/compare/v0.1.0...v0.2.0\r\n\r\nChanges:\r\n- `getByType` support https://github.com/contributte/psr11-container-interface/commit/365de023a49601015a8f8e38aa80628dbab18343"
+        "tag": "v0.3.0",
+        "name": "v0.3.0",
+        "created_at": "2019-02-07T14:35:12Z",
+        "published_at": "2019-02-07T14:42:26Z",
+        "html_url": "https://github.com/contributte/psr11-container-interface/releases/tag/v0.3.0",
+        "body": "Bump! 🥇 \r\n\r\nDiff: https://github.com/contributte/psr11-container-interface/compare/v0.2.0...v0.3.0\r\n\r\nChanges:\r\n- `getByType` support for interfaces https://github.com/contributte/psr11-container-interface/pull/4"
       }
     }
   },
@@ -833,12 +834,12 @@
       "last": {
         "org": "contributte",
         "repo": "nextras-orm-generator",
-        "tag": "0.1",
-        "name": "v0.1",
-        "created_at": "2016-04-03T11:52:10Z",
-        "published_at": "2016-04-03T11:58:17Z",
-        "html_url": "https://github.com/contributte/nextras-orm-generator/releases/tag/0.1",
-        "body": "Development release.\n"
+        "tag": "0.2",
+        "name": "v0.2",
+        "created_at": "2019-03-22T17:58:34Z",
+        "published_at": "2019-03-22T18:40:27Z",
+        "html_url": "https://github.com/contributte/nextras-orm-generator/releases/tag/0.2",
+        "body": "Bump! ⌛️ \r\n\r\nDiff: https://github.com/contributte/nextras-orm-generator/compare/0.1...0.2\r\n\r\nChanges:\r\n\r\n- change name to contributte/nextras-orm-generator\r\n- support only for PHP7.1+\r\n- generate getEntityClassNames method on repository\r\n- singularization (converting plural table name to singular class names)\r\n- use Nextras\\Dbal\\Utils\\DateTimeImmutable for dates\r\n- option to generate column constants\r\n- model generator\r\n- compatibility with php-generator 3+\r\n- add config for (not) generating relations\r\n- set primary key on generated entities"
       }
     }
   },
@@ -894,15 +895,6 @@
     "docs": "v0",
     "description": ":books: Examples / tutorials / tips / samples | sandbox for @contributte"
   },
-  "contributte/psr3-logging": {
-    "org": "contributte",
-    "name": "psr3-logging",
-    "category": "psr",
-    "enabled": false,
-    "priority": 0,
-    "docs": "v1",
-    "description": ":dizzy: PSR #3 [Logger Interface] to Nette Framework (@nette)"
-  },
   "contributte/psr6-caching": {
     "org": "contributte",
     "name": "psr6-caching",
@@ -915,7 +907,7 @@
   "contributte/psr7-http-message": {
     "org": "contributte",
     "name": "psr7-http-message",
-    "title": "PSR-7",
+    "title": "PSR-7 [http]",
     "category": "psr",
     "enabled": true,
     "priority": 0,
@@ -925,23 +917,14 @@
       "last": {
         "org": "contributte",
         "repo": "psr7-http-message",
-        "tag": "v0.5.1",
-        "name": "v0.5.1",
-        "created_at": "2018-11-09T11:56:55Z",
-        "published_at": "2018-11-09T23:43:59Z",
-        "html_url": "https://github.com/contributte/psr7-http-message/releases/tag/v0.5.1",
-        "body": "Bump! ✌️ \r\n\r\nDiff: https://github.com/contributte/psr7-http-message/compare/v0.5...v0.5.1\r\n\r\nChanged:\r\n- Improved typehints (for less complicated extending)"
+        "tag": "v0.5.2",
+        "name": "v0.5.2",
+        "created_at": "2018-12-04T11:04:35Z",
+        "published_at": "2019-01-02T09:38:29Z",
+        "html_url": "https://github.com/contributte/psr7-http-message/releases/tag/v0.5.2",
+        "body": "Bump! *️⃣ \r\n\r\nDiff: https://github.com/contributte/psr7-http-message/compare/v0.5.1...v0.5.2\r\n\r\nChanged:\r\n- allow guzzlehttp/psr7 v1.5.0"
       }
     }
-  },
-  "contributte/routing": {
-    "org": "contributte",
-    "name": "routing",
-    "category": "nette-contrib",
-    "enabled": false,
-    "priority": 0,
-    "docs": "v1",
-    "description": ":sparkles: Extra contrib to nette/routing (@nette)"
   },
   "contributte/security": {
     "org": "contributte",
@@ -1067,7 +1050,7 @@
     "name": "core",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": "v0",
     "description": ":wrench: Core API library in Apitte stack. Also work standalone.",
     "category": "apitte",
     "releases": {
@@ -1251,12 +1234,12 @@
       "last": {
         "org": "nettrine",
         "repo": "dbal",
-        "tag": "v0.2.7",
-        "name": "v0.2.7",
-        "created_at": "2018-10-12T11:08:33Z",
-        "published_at": "2018-11-02T09:35:40Z",
-        "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.2.7",
-        "body": "Bumped! ♐️ \r\n\r\nDiff: https://github.com/nettrine/dbal/compare/v0.2.6...v0.2.7\r\n\r\nChanges:\r\n- Tracy panel icon [bb9ffa6]\r\n- Phpstan v0.10\r\n- Tracy: escaping [8ebddc3143d88ac2ad2e78c7fad731f03cfccf32]"
+        "tag": "v0.3",
+        "name": "v0.3",
+        "created_at": "2019-02-25T14:06:18Z",
+        "published_at": "2019-02-25T14:07:14Z",
+        "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.3",
+        "body": "Bumped! 🏷  \r\n\r\nDiff: https://github.com/nettrine/dbal/compare/v0.2.7...v0.3\r\n\r\nChanges:\r\n- require doctrine/dbal ~2.9.2\r\n- added `unix_socket` to configuration (thanks  @kubarta)\r\n- ContainerAwareEventManager: support subscribers as anonymous services (thanks @jiripudil)\r\n- use phpsta 0.11, phpunit 8"
       }
     }
   },
@@ -1272,12 +1255,12 @@
       "last": {
         "org": "nettrine",
         "repo": "orm",
-        "tag": "v0.2.2",
-        "name": "v0.2.2",
-        "created_at": "2018-09-24T13:09:48Z",
-        "published_at": "2018-11-02T09:24:36Z",
-        "html_url": "https://github.com/nettrine/orm/releases/tag/v0.2.2",
-        "body": "Bumped! 🕳 \r\n\r\nDiff: https://github.com/nettrine/orm/compare/v0.2.1...v0.2.2\r\n\r\nChanges:\r\n- use Phpstan v0.10\r\n- OrmCacheExtension: assert there's some cache\r\n- OrmAnnotationExtension: refactor cache handling\r\n- readme: synchronize\r\n- command: added orm:clear-cache:metadata [#31]\r\n- added TEntityMapping class for modular systems [#34]\r\n- added SecondLevelCache [#37] "
+        "tag": "v0.3",
+        "name": "v0.3",
+        "created_at": "2019-02-25T13:41:24Z",
+        "published_at": "2019-02-25T13:42:07Z",
+        "html_url": "https://github.com/nettrine/orm/releases/tag/v0.3",
+        "body": "Bumped! 🏷  \r\n\r\nDiff: https://github.com/nettrine/orm/compare/v0.2.2...v0.3\r\n\r\nChanges:\r\n- added EntityManagerDecorator, because EntityManager is final [#22][#41]\r\n- added XML bridge [#42](thanks @JanMikes + @JanGalek)\r\n- added configurationClass [#46](thanks @aleswita)\r\n- use Phpstan v0.11\r\n- improve docs (@mabar, @Gappa)\r\n- upgrade minimal deps (nette/di, nette/utils, symfony/console, doctrine/orm, doctrine/cache)"
       }
     }
   },
@@ -1314,12 +1297,12 @@
       "last": {
         "org": "nettrine",
         "repo": "migrations",
-        "tag": "v0.3",
-        "name": "v0.3",
-        "created_at": "2018-02-28T13:09:06Z",
-        "published_at": "2018-04-23T13:13:48Z",
-        "html_url": "https://github.com/nettrine/migrations/releases/tag/v0.3",
-        "body": "Bump! *️⃣ \r\n\r\nDiff: https://github.com/nettrine/migrations/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- minimal PHP >= 7.1 [#5]\r\n- allow Symfony Console 4.x "
+        "tag": "v0.5",
+        "name": "v0.5",
+        "created_at": "2019-02-25T15:01:07Z",
+        "published_at": "2019-02-25T15:01:59Z",
+        "html_url": "https://github.com/nettrine/migrations/releases/tag/v0.5",
+        "body": "Bump! 🏷  \r\n\r\nDiff: https://github.com/nettrine/migrations/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- use doctrine/migrations 2.0\r\n- added `customTemplate` (thanks @RiKap)"
       }
     }
   },
@@ -1462,5 +1445,112 @@
         "body": "First bump! :fist_oncoming: "
       }
     }
+  },
+  "contributte/image-storage": {
+    "org": "contributte",
+    "name": "image-storage",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v0",
+    "description": ":stars: Image storage for Nette framework",
+    "releases": {}
+  },
+  "contributte/thepay-api": {
+    "org": "contributte",
+    "name": "thepay-api",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v0",
+    "description": ":dollar: Port of ThePay library",
+    "releases": {
+      "last": {
+        "org": "contributte",
+        "repo": "thepay-api",
+        "tag": "v4.0.1",
+        "name": "v4.0.1",
+        "created_at": "2019-03-20T14:10:50Z",
+        "published_at": "2019-03-21T11:58:40Z",
+        "html_url": "https://github.com/contributte/thepay-api/releases/tag/v4.0.1",
+        "body": "94094f9 Fix int cast for rawurlencode(string)"
+      }
+    }
+  },
+  "contributte/thepay": {
+    "org": "contributte",
+    "name": "thepay",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":dollar: ThePay integration for Nette Framework",
+    "releases": {
+      "last": {
+        "org": "contributte",
+        "repo": "thepay",
+        "tag": "v4.1.0",
+        "name": "v4.1.0",
+        "created_at": "2019-03-20T14:29:35Z",
+        "published_at": "2019-03-20T14:36:47Z",
+        "html_url": "https://github.com/contributte/thepay/releases/tag/v4.1.0",
+        "body": "cd6c8ee Intorduce IDivMerchant factory\r\n03e2768 Compatibility with Nette\\\\DI 3.0"
+      }
+    }
+  },
+  "contributte/anabelle": {
+    "org": "contributte",
+    "name": "anabelle",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v0",
+    "description": ":princess: API documentation generator (JSON-RPC / REST)",
+    "releases": {
+      "last": {
+        "org": "contributte",
+        "repo": "anabelle",
+        "tag": "v1.6.0",
+        "name": "v1.6.0",
+        "created_at": "2019-03-08T14:58:29Z",
+        "published_at": "2019-03-08T14:59:48Z",
+        "html_url": "https://github.com/contributte/anabelle/releases/tag/v1.6.0",
+        "body": "Features\r\n\r\n- When key \"F\" is pressed, focus to search input"
+      }
+    }
+  },
+  "contributte/replacus": {
+    "org": "contributte",
+    "name": "replacus",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v1",
+    "description": ":basketball: :soccer: :baseball: :tennis: :8ball: Latte-based replacer for simple texts",
+    "releases": {
+      "last": {
+        "org": "contributte",
+        "repo": "replacus",
+        "tag": "v0.1",
+        "name": "v0.1",
+        "created_at": "2018-12-16T00:59:21Z",
+        "published_at": "2019-01-21T06:05:55Z",
+        "html_url": "https://github.com/contributte/replacus/releases/tag/v0.1",
+        "body": "Bump! :fist_oncoming: "
+      }
+    }
+  },
+  "contributte/forms-multiplier": {
+    "org": "contributte",
+    "name": "forms-multiplier",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v0",
+    "description": ":repeat: Form multiplier & replicator for Nette Framework",
+    "releases": {}
+  },
+  "contributte/forms-wizard": {
+    "org": "contributte",
+    "name": "forms-wizard",
+    "enabled": true,
+    "priority": 0,
+    "docs": "v0",
+    "description": ":tophat: Easy to use step-by-step form for Nette Framework",
+    "releases": {}
   }
 }

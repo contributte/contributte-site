@@ -1,9 +1,15 @@
-# How to start
+---
+pageClass: page-wide
+---
+
+# Introduction
 
 Contributte organization focus on 3 main parts:
 
 - Nette contrib - featured original Nette packages
 - Symfony integration - easily integrate Symfony components
-- Other - cool other adaptations
+- Other - cool other integrations
 
-Don't hesitate and take a look at sidebar, pick for example [console](/packages/contributte/console.html).
+# Our Packages
+
+<AllPackages/>

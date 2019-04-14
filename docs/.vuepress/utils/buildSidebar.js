@@ -24,55 +24,57 @@ function buildChildren(category) {
 
 module.exports = {
   buildSidebar() {
-    return [
-      {
-        title: 'Get started',
-        collapsable: false,
-        children: [
-          '/guide/',
-          ['/packages/contributte/playground', 'Playground'],
-        ]
-      },
-      {
-        title: 'Nette',
-        collapsable: false,
-        children: buildChildren('nette-contrib'),
-      },
-      {
-        title: 'Symfony',
-        collapsable: false,
-        children: buildChildren('symfony'),
-      },
-      {
-        title: 'Apitte',
-        collapsable: false,
-        children: buildChildren('apitte'),
-      },
-      {
-        title: 'Nettrine',
-        collapsable: false,
-        children: buildChildren('nettrine'),
-      },
-      {
-        title: 'Nextras',
-        collapsable: false,
-        children: buildChildren('nextras'),
-      },
-      {
-        title: 'PSR',
-        collapsable: false,
-        children: buildChildren('psr'),
-      },
-      {
-        title: 'Development',
-        collapsable: false,
-        children: buildChildren('development'),
-      },
-      {
-        title: 'Other',
-        collapsable: false,
-        children: buildChildren(null),
-      },
-    ];
+    return {
+      '/packages/': [
+        {
+          title: 'Get started',
+          collapsable: false,
+          children: [
+            '/guide/',
+            ['/packages/contributte/playground', 'Playground'],
+          ]
+        },
+        {
+          title: 'Nette',
+          collapsable: false,
+          children: buildChildren('nette-contrib'),
+        },
+        {
+          title: 'Symfony',
+          collapsable: false,
+          children: buildChildren('symfony'),
+        },
+        {
+          title: 'Apitte',
+          collapsable: false,
+          children: buildChildren('apitte'),
+        },
+        {
+          title: 'Nettrine',
+          collapsable: false,
+          children: buildChildren('nettrine'),
+        },
+        {
+          title: 'Nextras',
+          collapsable: false,
+          children: buildChildren('nextras'),
+        },
+        {
+          title: 'PSR',
+          collapsable: false,
+          children: buildChildren('psr'),
+        },
+        {
+          title: 'Development',
+          collapsable: false,
+          children: buildChildren('development'),
+        },
+        {
+          title: 'Other',
+          collapsable: false,
+          children: buildChildren(null),
+        },
+      ]
+    }
   }
 };

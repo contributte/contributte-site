@@ -5,17 +5,21 @@ module.exports = {
   description: "Contributte packages are first class extensions for Nette Framework.",
   keywords: "contributte, nette, symfony, extensions, mvc, application, http, security, utils, database",
   themeConfig: {
+    repo: 'contributte/website',
+    docsDir: 'docs',
+    docsBranch: 'master',
+    editLinks: false,
+    editLinkText: 'Help us improve this page!',
     algolia: {
       apiKey: "e2015bc524d8c80d122709059789e90f",
       indexName: "contributte"
     },
     nav: [
       { text: "Home", link: "/" },
-      { text: "All packages", link: "/packages/" },
-      { text: "Latest releases", link: "/releases/" },
+      { text: "Releases", link: "/releases/" },
       {
         text: "Chat",
-        link: "https://gitter.im/contributte/contributte?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"
+        link: "https://gitter.im/contributte/contributte"
       },
       { text: "About", link: "/about" }
     ],

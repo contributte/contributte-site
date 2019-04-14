@@ -1,3 +1,12 @@
+---
+metaTitle: '<%= $repository.org+" / "+$repository.name %> - <%= $repository.description %>'
+meta:
+  - name: description
+    content: '<%= $repository.description %>'
+  - name: keywords
+    content: php, nette, <%= $repository.org %>, <%= $repository.name %>
+---
+
 <div class="metainfo">
   <% if ($repository.releases && $repository.releases.last) { %>
   <div class="text-left">

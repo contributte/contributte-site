@@ -3,7 +3,7 @@ home: true
 heroText: Contributte
 tagline: First class extensions for Nette Framework
 actionText: Get Started →
-actionLink: /guide/
+actionLink: /guide
 features:
 - title: Up to date
   details: We follow latest principles and support latest version of Nette.

@@ -30,8 +30,7 @@ module.exports = {
           title: 'Get started',
           collapsable: false,
           children: [
-            '/guide/',
-            ['/packages/contributte/playground', 'Playground'],
+            '/guide',
           ]
         },
         {

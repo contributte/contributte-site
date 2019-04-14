@@ -22,6 +22,7 @@
     "node-sass": "^4.10.0",
     "sass-loader": "^7.1.0",
     "twemoji": "^12.0.0",
-    "vuepress": "^1.0.0-alpha.47"
+    "vuepress": "^1.0.0-alpha.47",
+    "vuepress-plugin-sitemap": "^2.1.2"
   }
 }

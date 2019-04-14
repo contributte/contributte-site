@@ -36,6 +36,12 @@ module.exports = {
       {
         ga: "UA-28123999-19"
       }
-    ]
+    ],
+    [
+      "vuepress-plugin-sitemap",
+      {
+        hostname: 'https://contributte.org'
+      }
+    ],
   ]
 };

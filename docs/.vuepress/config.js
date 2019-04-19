@@ -16,7 +16,8 @@ module.exports = {
     },
     nav: [
       { text: "Home", link: "/" },
-      { text: "Releases", link: "/releases/" },
+      { text: "Releases", link: "/releases/" }, 
+      { text: "Examples", link: "/packages/planette/playground/" }, 
       {
         text: "Chat",
         link: "https://gitter.im/contributte/contributte"

@@ -69,6 +69,66 @@
     "html_url": "https://github.com/contributte/reCAPTCHA/releases/tag/1.5.1",
     "body": "# :hamburger: v1.5.1\n- Change addClass -> class (https://github.com/minetro/reCAPTCHA/commit/ae94b6487a82ef593eecd4e2feea30911f442257)\n- More examples in README\n"
   },
+  "2418971": {
+    "org": "planette",
+    "repo": "componette.com",
+    "tag": "v1.0.1",
+    "name": "v1.0.1",
+    "created_at": "2016-01-13T11:04:49Z",
+    "published_at": "2016-01-13T11:19:31Z",
+    "html_url": "https://github.com/planette/componette.com/releases/tag/v1.0.1",
+    "body": "## :boar: v1.0.1\n- Feature: Nextras\\ORM 2.0@dev\n- Feature: addon charts (stats)\n- Feature: footer stats\n- Improved: split entity to addon => github, composer & bower\n- Typo: package -> addon\n- Other: new domain\n- Other: docker configuration\n\n#### alpha2 [7.10.2015]\n- Feature: bower packages\n- Fixed: routing with dot(.)\n- Improved: CLI tasks\n- Improved: search degisn\n- Improved: meta info design (thanks to looky)\n- Improved: few tiny things\n\n#### alpha1 [5.10.2015]\n- Feature: new landing page\n- Feature: new searching / sorting / ordering\n- Feature: modal for new packages\n- Fixed: bold font in `<pre><code>`\n- Improved: responsibility\n"
+  },
+  "2418974": {
+    "org": "planette",
+    "repo": "componette.com",
+    "tag": "v1.0.0",
+    "name": "v1.0.0",
+    "created_at": "2016-01-13T11:17:05Z",
+    "published_at": "2016-01-13T11:20:14Z",
+    "html_url": "https://github.com/planette/componette.com/releases/tag/v1.0.0",
+    "body": "## :horse: v1.0.0\n- First version\n"
+  },
+  "2434687": {
+    "org": "planette",
+    "repo": "componette.com",
+    "tag": "v1.0.2",
+    "name": "v1.0.2",
+    "created_at": "2016-01-24T18:17:39Z",
+    "published_at": "2016-01-24T18:17:52Z",
+    "html_url": "https://github.com/planette/componette.com/releases/tag/v1.0.2",
+    "body": "## :dog2: v1.0.2\n- Improvement: rename choosen -> chosen, fix chosen sprite\n- Feature: added less task to gulp [#31]\n- Feature: click & copy composer require in addon detail\n- Feature: added gulp\n- Improvement: templates optimization (seo, alt, title, microformat, twitter)\n- Feature: added github ribbon\n- Fixed: cli processing\n- Feature: added links on categories at homepage\n- Feature: added new sorting by last added\n- Feature: design tables in addon detail [#20]\n- Fixed: layout on ipad2 and all others [#24]\n- Feature: count queued addons in footer statistics\n- Improvement: added google validation meta tag\n- Improvement: mobile layouts [#25] [#26]\n- Feature: sitemap generator [#27]\n- Improvement: markdown relative link overriding [#22]\n"
+  },
+  "2514539": {
+    "org": "planette",
+    "repo": "componette.com",
+    "tag": "v1.0.3",
+    "name": "v1.0.3",
+    "created_at": "2016-01-29T08:07:54Z",
+    "published_at": "2016-01-29T08:09:16Z",
+    "html_url": "https://github.com/planette/componette.com/releases/tag/v1.0.3",
+    "body": "## :book: v1.0.3\n- Feature: added new relic monitoring\n- Improvement: added tooltip in addon requirements [#28]\n- Improvement: use latests hightligh.js (yaml plugin)\n- Improvement: use https at badges\n- Feature: added rss [#30]\n- Docker/Nginx: provide HSTS [#33]\n"
+  },
+  "2602242": {
+    "org": "planette",
+    "repo": "componette.com",
+    "tag": "v1.0.4",
+    "name": "v1.0.4",
+    "created_at": "2016-02-12T12:41:39Z",
+    "published_at": "2016-02-12T12:55:20Z",
+    "html_url": "https://github.com/planette/componette.com/releases/tag/v1.0.4",
+    "body": "## :gem: v1.0.4\n- Fix: change gitter link\n- Improvement: update links at github readmes\n- Improvement: don't link php-ext dependencies in addon detail to packagist [#42]\n- Feature: change menu structure (show connected addons at badge, added highlighted items) [#43]\n- Feature: download readme in HTML format from Github, use github design for addon detail, change syntax highlighter\n- Feature: added theme for chrome on mobile\n- Improvement: revert addon fullname to `owner/name` [#41]\n- Improvement: layout\n- Improvement: added final to classes\n- Feature: added google analytics campaigns (rss + opensearch)\n- Improvement: simplify RSS (move logic to RssFactory)\n"
+  },
+  "2696923": {
+    "org": "planette",
+    "repo": "componette.com",
+    "tag": "v1.0.5",
+    "name": "v1.0.5",
+    "created_at": "2016-02-26T15:08:50Z",
+    "published_at": "2016-02-26T15:09:59Z",
+    "html_url": "https://github.com/planette/componette.com/releases/tag/v1.0.5",
+    "body": "## :fire: v1.0.5\n- Feature: opensearch suggestion\n- Feature: display all addons byt categories\n- Feature: split front modules to Api & Portal\n- Improvement: added some addon tags\n- Feature: added simple admin module\n- Fix: replace & with &amp; at opensearch\n- Fix: RSS feed \n- Fix: gitter link\n"
+  },
   "2703199": {
     "org": "contributte",
     "repo": "live-form-validation",
@@ -78,6 +138,16 @@
     "published_at": "2016-02-27T20:36:34Z",
     "html_url": "https://github.com/contributte/live-form-validation/releases/tag/v1.6.2",
     "body": "Bump! 🌫 \r\n\r\n> New option for message parent\r\n\r\nDiff: https://github.com/contributte/live-form-validation/compare/v1.6.1...v1.6.2\r\n\r\nChanges:\r\n\r\n- Added new option 'messageParentClass' to put message into specific parent (not direct one)\r\n"
+  },
+  "2791180": {
+    "org": "planette",
+    "repo": "componette.com",
+    "tag": "v1.0.6",
+    "name": "v1.0.6",
+    "created_at": "2016-03-11T09:10:31Z",
+    "published_at": "2016-03-11T09:10:59Z",
+    "html_url": "https://github.com/planette/componette.com/releases/tag/v1.0.6",
+    "body": "## :fallen_leaf: v1.0.6\n- Cron: weekly tasks\n- Improvement: added simple lightbox [#49]\n- Improvement: cache page all [#51]\n- Improvement: fixed too long package name overflows [#47]\n- Improvement: search autofocus only on homepage [#48]\n- Feature: cleaning avatars over CLI\n"
   },
   "2941735": {
     "org": "contributte",
@@ -98,6 +168,16 @@
     "published_at": "2016-04-28T20:30:27Z",
     "html_url": "https://github.com/contributte/guzzlette/releases/tag/v0.9.0",
     "body": ""
+  },
+  "3387868": {
+    "org": "planette",
+    "repo": "componette.com",
+    "tag": "v1.0.7",
+    "name": "v1.0.7",
+    "created_at": "2016-06-07T07:43:35Z",
+    "published_at": "2016-06-07T07:44:41Z",
+    "html_url": "https://github.com/planette/componette.com/releases/tag/v1.0.7",
+    "body": "## :fallen_leaf:  v1.0.7\n- Improvement: added waffle badge to Readme\n- Improvement: added github-like buttons\n- Improvement: addon detail - added link to github [#55]\n- Feature: added bower install (same as composer require)\n- Improvement: github-like copy & paste title\n- Fix: autofocus search form on Homepage\n- Feature: change opensearch suggestion\n- Fix: default ordering by owner / tag [#52]\n- Monitoring: monitor composer clipboard && opening embedded images\n"
   },
   "3452320": {
     "org": "contributte",
@@ -328,6 +408,16 @@
     "published_at": "2016-12-04T12:30:37Z",
     "html_url": "https://github.com/contributte/datagrid/releases/tag/v5.0.0",
     "body": "## Added\n- #276: Multi action column. ([documentation](http://ublaboo.org/datagrid/action#multi-action))\n- #386: Escape column identifier in DibiFluentDataSource.\n- #387: Added latte block for outer filter.\n- #388: Collapsible filters. **(Possible BC break)** ([documentation](http://ublaboo.org/datagrid/filter#outer-filters-rendering))\n- #404: Row condition for item detail. ([documentation](http://ublaboo.org/datagrid/action#item-detail-render-condition))\n- #405: Sorting datagrid by multiple columns. ([documentation](http://ublaboo.org/datagrid/column#multiple-columns-sort))\n- #413: Basic support for related columns in nette/database. ([documentation](http://ublaboo.org/datagrid/data-source#nette-database-table-data-source))\n- #417: Improved tests with unix compatibility.\n- Option to show content of non-editable columns when editing. ([documentation](http://ublaboo.org/datagrid/edit#show-non-editing-columns))\n- Option to reset single column filter using icon-remove in column header.\n\n## Fixed\n- #340: Inline edit Uncaught TypeError: `$.nette.ajax(...).success` is not a function.\n- #360: Each column render cycle adds already existing classes.\n- #389: Session filter: Filter not found when modifying grid columns.\n- #390: Fix sorting by date in ArrayDataSource.\n- #395: Syntax error, unrecognized expression: `.datagrid-tree-item[data-id=]`.\n- #397: Icons have been unified to use `<i></i>` tag.\n- #400: Fix double confirmation before ajax call.\n- #406: Fixed array source getCount method.\n- #420: Unable to add placeholders for range filters.\n- Column name escaping for DibiDataSource.\n\n## Dropped\n- Support of PHP 5.5\n\n## Deprecated\n- #393: Wrong method name _deleteSesssionData_.\n- #408: Method name on Filter _getAttribtues_.\n\n[Changelog](https://github.com/ublaboo/datagrid/compare/v4.4.22...v5.0.0)\n\n**Thanks for the contributions:** @dakorpar, @roman-vohnik, @PingusPepan, @attreid, @FVesely & @jakubvojacek.\n"
+  },
+  "4420626": {
+    "org": "planette",
+    "repo": "componette.com",
+    "tag": "v1.1.0",
+    "name": "v1.1.0",
+    "created_at": "2016-10-18T16:26:33Z",
+    "published_at": "2016-10-18T16:36:56Z",
+    "html_url": "https://github.com/planette/componette.com/releases/tag/v1.1.0",
+    "body": "## :sleeping: v1.1.0\n- Improvement: download github releases in html mode\n- Improvement: better readme [#78]\n- Improvement: addon sidebar [#77]\n- Feature: added addon releases\n- Improvement: common curl client\n- Improvement: finalize symfony commands\n- Fix: do not disable curl ssl verify [#60]\n- Feature: added report page/link [#29]\n- Fix: image resolving also over src [#64]\n- Improvement: sync homepage headline links \n- Improvement: convert EOF to unix style [#57]\n- Improvement: update composer.json (autoloading, classmap, etc) \n- Feature: added editorconfig [#57]\n- Feature: track composer.json [#59]\n- Feature: update to Nette 2.4, Nette\\Tester 1.7\n"
   },
   "4562585": {
     "org": "contributte",
@@ -809,6 +899,26 @@
     "html_url": "https://github.com/contributte/bootstrap/releases/tag/v0.1.1",
     "body": "Bumped! :honey_pot: \r\n\r\nDiff: https://github.com/contributte/bootstrap/compare/v0.1...v0.1.1\r\n\r\nChanges:\r\n- act on (string) `true`, `false`, `0`, `1`"
   },
+  "5740388": {
+    "org": "ninjify",
+    "repo": "nunjuck",
+    "tag": "v0.1",
+    "name": "v0.1",
+    "created_at": "2016-12-12T20:52:15Z",
+    "published_at": "2017-03-14T15:52:34Z",
+    "html_url": "https://github.com/ninjify/nunjuck/releases/tag/v0.1",
+    "body": "Bumped! :fist_oncoming: "
+  },
+  "5740405": {
+    "org": "ninjify",
+    "repo": "qa",
+    "tag": "0.1",
+    "name": "v0.1",
+    "created_at": "2016-11-04T17:34:39Z",
+    "published_at": "2017-03-14T15:53:50Z",
+    "html_url": "https://github.com/ninjify/qa/releases/tag/0.1",
+    "body": "Bumped! :fist_oncoming: "
+  },
   "5748656": {
     "org": "contributte",
     "repo": "application",
@@ -868,6 +978,16 @@
     "published_at": "2017-04-05T09:26:26Z",
     "html_url": "https://github.com/contributte/reCAPTCHA/releases/tag/2.0.1",
     "body": "Bumped! :fog: \r\n\r\nDiff: https://github.com/contributte/reCAPTCHA/compare/2.0.0...2.0.1\r\n\r\nChanges:\r\n- fix call `setRequired(TRUE | FALSE)` [thanks @sallyx][#9][#10]"
+  },
+  "6002989": {
+    "org": "planette",
+    "repo": "componette.com",
+    "tag": "v1.2.0",
+    "name": "v1.2.0",
+    "created_at": "2017-04-06T18:18:33Z",
+    "published_at": "2017-04-06T18:19:32Z",
+    "html_url": "https://github.com/planette/componette.com/releases/tag/v1.2.0",
+    "body": "## :joystick: v1.2.0\r\n\r\n- Feature: PHP 7.1 [#87]\r\n- Feature: layout 2.0 [#86]\r\n- Feature: strict coding standard\r\n- Feature: PSR4\r\n- Drop: support bower\r\n- Fix: order addons releases [#84]\r\n- Fix: addons tabs URL [#85]\r\n- Feature: improve search (thanks @artemevsin)[#81][#67]\r\n- Composer: update dependencies\r\n- Fix: Bower/Composer URL in http client\r\n- Feature: added smartlook\r\n- Improvement: load github images via GithubService\r\n- Improvement: synchronize Github commands\r\n- Fix: fix status page"
   },
   "6118283": {
     "org": "contributte",
@@ -939,6 +1059,46 @@
     "html_url": "https://github.com/contributte/psr7-http-message/releases/tag/v0.1.4",
     "body": "Bumped! 🍯 \r\n\r\nDiff: https://github.com/contributte/psr7-http-message/compare/v0.1.3...v0.1.4\r\n\r\nChanges:\r\n- fixed handling uploaded files [#2] "
   },
+  "6369804": {
+    "org": "ninjify",
+    "repo": "coding-standard",
+    "tag": "v0.1",
+    "name": "v0.1",
+    "created_at": "2017-08-24T07:53:56Z",
+    "published_at": "2017-05-12T17:49:41Z",
+    "html_url": "https://github.com/ninjify/coding-standard/releases/tag/v0.1",
+    "body": "Bumped! 👊 "
+  },
+  "6369812": {
+    "org": "ninjify",
+    "repo": "coding-standard",
+    "tag": "v0.2",
+    "name": "v0.2",
+    "created_at": "2017-08-24T07:53:44Z",
+    "published_at": "2017-08-24T07:55:00Z",
+    "html_url": "https://github.com/ninjify/coding-standard/releases/tag/v0.2",
+    "body": "Bumped! 🏈 \r\n\r\nDiff: https://github.com/ninjify/coding-standard/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- added nette ruleset"
+  },
+  "6369820": {
+    "org": "ninjify",
+    "repo": "coding-standard",
+    "tag": "v0.2.1",
+    "name": "v0.2.1",
+    "created_at": "2017-08-24T07:53:32Z",
+    "published_at": "2017-05-12T17:51:08Z",
+    "html_url": "https://github.com/ninjify/coding-standard/releases/tag/v0.2.1",
+    "body": "Bumped! 🐕 \r\n\r\nDiff: https://github.com/ninjify/coding-standard/compare/v0.2...v0.2.1\r\n\r\nChanges:\r\n- fix path to Slevomat ruleset (relative to vendor)"
+  },
+  "6369826": {
+    "org": "ninjify",
+    "repo": "coding-standard",
+    "tag": "v0.3.0",
+    "name": "v0.3.0",
+    "created_at": "2017-08-24T07:51:49Z",
+    "published_at": "2017-05-12T17:51:35Z",
+    "html_url": "https://github.com/ninjify/coding-standard/releases/tag/v0.3.0",
+    "body": "Bumped! 🤖 \r\n\r\nDiff: https://github.com/ninjify/coding-standard/compare/v0.2.1...v0.3.0\r\n\r\nChanges:\r\n- upgrade to Slevomat 2.0 & PHP 7.1"
+  },
   "6455003": {
     "org": "contributte",
     "repo": "event-dispatcher",
@@ -998,6 +1158,86 @@
     "published_at": "2017-05-25T08:22:39Z",
     "html_url": "https://github.com/contributte/bootstrap/releases/tag/v0.2.1",
     "body": "Bumped! :do_not_litter: \r\n\r\nDiff: https://github.com/contributte/bootstrap/compare/v0.2...v0.2.1\r\n\r\nChanges:\r\n- `wrap` calls `setDebugMode` immediately"
+  },
+  "6506619": {
+    "org": "ninjify",
+    "repo": "coding-standard",
+    "tag": "v0.3.1",
+    "name": "v0.3.1",
+    "created_at": "2017-05-25T18:29:17Z",
+    "published_at": "2017-05-25T18:30:25Z",
+    "html_url": "https://github.com/ninjify/coding-standard/releases/tag/v0.3.1",
+    "body": "Bumped! :last_quarter_moon: \r\n\r\nDiff: https://github.com/ninjify/coding-standard/compare/v0.3.0...v0.3.1\r\n\r\nChanges:\r\n- include more slevomat sniffs"
+  },
+  "6568017": {
+    "org": "ninjify",
+    "repo": "coding-standard",
+    "tag": "v0.3.2",
+    "name": "v0.3.2",
+    "created_at": "2017-06-01T07:10:24Z",
+    "published_at": "2017-06-01T07:10:58Z",
+    "html_url": "https://github.com/ninjify/coding-standard/releases/tag/v0.3.2",
+    "body": "Bump! :goal_net: \r\n\r\nDiff: https://github.com/ninjify/coding-standard/compare/v0.3.1...v0.3.2\r\n\r\nChanges:\r\n- upgrade to slevomat/coding-standard: v2.0.2\r\n- update readme"
+  },
+  "6568052": {
+    "org": "ninjify",
+    "repo": "qa",
+    "tag": "0.2",
+    "name": "v0.2",
+    "created_at": "2016-11-05T12:46:46Z",
+    "published_at": "2017-06-01T07:15:00Z",
+    "html_url": "https://github.com/ninjify/qa/releases/tag/0.2",
+    "body": "Bump! :joystick: \r\n\r\nDiff: https://github.com/ninjify/qa/compare/0.1...0.2\r\n\r\nChanges:\r\n- added composer scripts (Linter, CodeFixer, CodeSniffer)"
+  },
+  "6568060": {
+    "org": "ninjify",
+    "repo": "qa",
+    "tag": "0.3",
+    "name": "v0.3",
+    "created_at": "2016-11-16T19:26:29Z",
+    "published_at": "2017-06-01T07:15:41Z",
+    "html_url": "https://github.com/ninjify/qa/releases/tag/0.3",
+    "body": "Bump! :point_left: \r\n\r\nDiff: https://github.com/ninjify/qa/compare/0.2...0.3\r\n\r\nChanges:\r\n- update binaries (default folders, default ruleset)"
+  },
+  "6568064": {
+    "org": "ninjify",
+    "repo": "qa",
+    "tag": "0.3.1",
+    "name": "v0.3.1",
+    "created_at": "2016-11-27T16:25:41Z",
+    "published_at": "2017-06-01T07:16:07Z",
+    "html_url": "https://github.com/ninjify/qa/releases/tag/0.3.1",
+    "body": "Bump! :point_right: \r\n\r\nDiff: https://github.com/ninjify/qa/compare/0.3...0.3.1\r\n\r\nChanges:\r\n- include nette/tester"
+  },
+  "6568082": {
+    "org": "ninjify",
+    "repo": "qa",
+    "tag": "0.3.2",
+    "name": "v0.3.2",
+    "created_at": "2016-11-27T17:38:02Z",
+    "published_at": "2017-06-01T07:18:02Z",
+    "html_url": "https://github.com/ninjify/qa/releases/tag/0.3.2",
+    "body": "Bump! :point_up: \r\n\r\nDiff: https://github.com/ninjify/qa/compare/0.3.1...0.3.2\r\n\r\nChanges:\r\n- improve ruleset looking [a24a48e576d82b9fe44786bb7ea4c1beee14b4a4]"
+  },
+  "6568093": {
+    "org": "ninjify",
+    "repo": "qa",
+    "tag": "0.3.3",
+    "name": "v0.3.3",
+    "created_at": "2016-12-13T15:44:38Z",
+    "published_at": "2017-06-01T07:18:54Z",
+    "html_url": "https://github.com/ninjify/qa/releases/tag/0.3.3",
+    "body": "Bump! :point_up_2: \r\n\r\nDiff: https://github.com/ninjify/qa/compare/0.3.2...0.3.3\r\n\r\nChanges:\r\n- drop nette/tester\r\n- added exit codes only if its 0\r\n- added editorconfig"
+  },
+  "6568129": {
+    "org": "ninjify",
+    "repo": "qa",
+    "tag": "0.5.0",
+    "name": "v0.5.0",
+    "created_at": "2017-06-01T07:14:04Z",
+    "published_at": "2017-06-01T07:21:42Z",
+    "html_url": "https://github.com/ninjify/qa/releases/tag/0.5.0",
+    "body": "Bump! :factory: \r\n\r\nDiff: https://github.com/ninjify/qa/compare/0.4.0...0.5.0\r\n\r\nChanges:\r\n- require PHP 7.1 (welcome :tada:)"
   },
   "6587955": {
     "org": "contributte",
@@ -1079,6 +1319,16 @@
     "html_url": "https://github.com/contributte/latte/releases/tag/v0.1",
     "body": "Bump! :fist_oncoming: "
   },
+  "6616879": {
+    "org": "ninjify",
+    "repo": "coding-standard",
+    "tag": "v0.4.0",
+    "name": "v0.4.0",
+    "created_at": "2017-06-06T08:45:55Z",
+    "published_at": "2017-06-06T12:07:37Z",
+    "html_url": "https://github.com/ninjify/coding-standard/releases/tag/v0.4.0",
+    "body": "Bump! :baby_bottle: \r\n\r\nDiff: https://github.com/ninjify/coding-standard/compare/v0.3.2...v0.4.0\r\n\r\nChanges:\r\n- upgrade to slevomat/coding-standard: v2.4.2 [#5][#6]"
+  },
   "6647625": {
     "org": "contributte",
     "repo": "console",
@@ -1098,6 +1348,16 @@
     "published_at": "2017-06-08T13:38:07Z",
     "html_url": "https://github.com/contributte/forms-wizard/releases/tag/2.0",
     "body": "php 7.1 and above required"
+  },
+  "6664103": {
+    "org": "ninjify",
+    "repo": "qa",
+    "tag": "0.4.0",
+    "name": "v0.4.0",
+    "created_at": "2017-06-09T15:48:15Z",
+    "published_at": "2017-06-09T15:50:19Z",
+    "html_url": "https://github.com/ninjify/qa/releases/tag/0.4.0",
+    "body": "Bump! :foggy: \r\n\r\nDiff: https://github.com/ninjify/qa/compare/0.3.3...0.4.0\r\n\r\nChanges:\r\n- drop composer scripts\r\n- Travis tests only PHP 7.1\r\n\r\nNotice: **This is last release minor version of PHP 5.6**"
   },
   "6670914": {
     "org": "contributte",
@@ -1219,6 +1479,26 @@
     "html_url": "https://github.com/contributte/thepay-api/releases/tag/v3.2.2",
     "body": ""
   },
+  "7055413": {
+    "org": "ninjify",
+    "repo": "coding-standard",
+    "tag": "v0.5.0",
+    "name": "v0.5.0",
+    "created_at": "2017-07-10T13:45:44Z",
+    "published_at": "2017-07-16T11:34:15Z",
+    "html_url": "https://github.com/ninjify/coding-standard/releases/tag/v0.5.0",
+    "body": "Bump! :asterisk: \r\n\r\nDiff: https://github.com/ninjify/coding-standard/compare/v0.4.0...v0.5.0\r\n\r\nChanges:\r\n- new slevomat/coding-standard v3 [#7]\r\n- new squizlabs/php_codesniffer v3 [#7]"
+  },
+  "7055420": {
+    "org": "ninjify",
+    "repo": "qa",
+    "tag": "0.6.0",
+    "name": "v0.6.0",
+    "created_at": "2017-07-16T11:35:42Z",
+    "published_at": "2017-07-16T11:36:43Z",
+    "html_url": "https://github.com/ninjify/qa/releases/tag/0.6.0",
+    "body": "Bumped! 👨‍🚀 \r\n\r\nDiff: https://github.com/ninjify/qa/compare/0.5.0...0.6.0\r\n\r\nChanges:\r\n- use coding-standard v0.5"
+  },
   "7055815": {
     "org": "contributte",
     "repo": "thepay",
@@ -1339,6 +1619,16 @@
     "html_url": "https://github.com/contributte/latte-parsedown-extra/releases/tag/1.2.0",
     "body": "Bump! 🍨 \r\n\r\nDiff: https://github.com/contributte/latte-parsedown-extra/compare/1.1.0...1.2.0\r\n\r\nChanges: \r\n- refactoring - change to new namespace\r\n- update CI testing\r\n- update readme"
   },
+  "7268406": {
+    "org": "ninjify",
+    "repo": "coding-standard",
+    "tag": "v0.5.1",
+    "name": "v0.5.1",
+    "created_at": "2017-08-03T10:08:21Z",
+    "published_at": "2017-08-03T10:09:18Z",
+    "html_url": "https://github.com/ninjify/coding-standard/releases/tag/v0.5.1",
+    "body": "Bumped! 🖖 \r\n\r\nDiff: https://github.com/ninjify/coding-standard/compare/v0.5.0...v0.5.1\r\n\r\nChanges:\r\n- be more strict on namespaces (#8)"
+  },
   "7293733": {
     "org": "contributte",
     "repo": "api",
@@ -1348,6 +1638,46 @@
     "published_at": "2017-08-05T13:39:33Z",
     "html_url": "https://github.com/contributte/api/releases/tag/v0.2.2",
     "body": "Bump! :goberserk: \r\n\r\nDiff: https://github.com/contributte/api/compare/v0.2.1...v0.2.2\r\n\r\nChanges:\r\n- added schema validators [#1] [#2]\r\n- analyse via phpstan [#10]\r\n- added content negotiation\r\n- many small improvements\r\n"
+  },
+  "7293775": {
+    "org": "ninjify",
+    "repo": "nunjuck",
+    "tag": "v0.1.1",
+    "name": "v0.1.1",
+    "created_at": "2016-12-13T11:01:08Z",
+    "published_at": "2017-08-05T14:02:08Z",
+    "html_url": "https://github.com/ninjify/nunjuck/releases/tag/v0.1.1",
+    "body": "Bump! 👶 \r\n\r\nDiff: https://github.com/ninjify/nunjuck/compare/v0.1...v0.1.1\r\n\r\nChanges:\r\n- colored output "
+  },
+  "7293783": {
+    "org": "ninjify",
+    "repo": "nunjuck",
+    "tag": "v0.1.2",
+    "name": "v0.1.2",
+    "created_at": "2016-12-13T11:22:12Z",
+    "published_at": "2017-08-05T14:06:56Z",
+    "html_url": "https://github.com/ninjify/nunjuck/releases/tag/v0.1.2",
+    "body": "Bump! 🕹 \r\n\r\nDiff: https://github.com/ninjify/nunjuck/compare/v0.1.1...v0.1.2\r\n\r\nChanges:\r\n- fix PSR4"
+  },
+  "7293790": {
+    "org": "ninjify",
+    "repo": "nunjuck",
+    "tag": "v0.1.3",
+    "name": "v0.1.3",
+    "created_at": "2016-12-13T14:40:01Z",
+    "published_at": "2017-08-05T14:07:57Z",
+    "html_url": "https://github.com/ninjify/nunjuck/releases/tag/v0.1.3",
+    "body": "Bump! 🏷 \r\n\r\nDiff: https://github.com/ninjify/nunjuck/compare/v0.1.2...v0.1.3\r\n\r\nChanges:\r\n- many Environment improvements\r\n"
+  },
+  "7293793": {
+    "org": "ninjify",
+    "repo": "nunjuck",
+    "tag": "v0.1.4",
+    "name": "v1.1.4",
+    "created_at": "2016-12-20T13:48:13Z",
+    "published_at": "2017-08-05T14:09:44Z",
+    "html_url": "https://github.com/ninjify/nunjuck/releases/tag/v0.1.4",
+    "body": "Bump! 🇻🇺 \r\n\r\nDiff: https://github.com/ninjify/nunjuck/compare/v0.1.3...v0.1.4\r\n\r\nChanges:\r\n- code sniffer improvements\r\n - added useful functions: `mocki`, `mockis`, `mockisr` & `test `"
   },
   "7306551": {
     "org": "contributte",
@@ -1418,6 +1748,16 @@
     "published_at": "2017-08-17T15:55:47Z",
     "html_url": "https://github.com/contributte/logging/releases/tag/v0.2",
     "body": "Bump! :denmark: \r\n\r\nDiff: https://github.com/contributte/logging/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- refactoring\r\n- added docs\r\n- added Sentry logging (thanks @benijo)"
+  },
+  "7504959": {
+    "org": "ninjify",
+    "repo": "nunjuck",
+    "tag": "v0.2",
+    "name": "v0.2",
+    "created_at": "2017-08-24T07:48:04Z",
+    "published_at": "2017-08-24T07:49:31Z",
+    "html_url": "https://github.com/ninjify/nunjuck/releases/tag/v0.2",
+    "body": "Bump! 🏭 \r\n\r\nDiff: https://github.com/ninjify/nunjuck/compare/v0.1.4...v0.2\r\n\r\nChanges:\r\n- added `Toolkit` class [#1]\r\n- upgrade to nette/tester v2.0.0 [#2]"
   },
   "7516112": {
     "org": "contributte",
@@ -1499,6 +1839,16 @@
     "html_url": "https://github.com/contributte/event-dispatcher/releases/tag/v0.3.1",
     "body": "Bumped! :vatican_city: \r\n\r\nDiff: https://github.com/contributte/event-dispatcher/compare/v0.3...v0.3.1\r\n\r\nChanges:\r\n- hotfix bug with multiple events triggering\r\n- hotfix extension name [#4]\r\n- use travis stages\r\n- update quality assurances (ninjify)"
   },
+  "8058967": {
+    "org": "ninjify",
+    "repo": "coding-standard",
+    "tag": "v0.6",
+    "name": "v0.6",
+    "created_at": "2017-10-05T12:56:28Z",
+    "published_at": "2017-10-10T08:59:09Z",
+    "html_url": "https://github.com/ninjify/coding-standard/releases/tag/v0.6",
+    "body": "Bumped! :feet: \r\n\r\nDiff: https://github.com/ninjify/coding-standard/compare/v0.5.1...v0.6\r\n\r\nChanges:\r\n- upgrade to Slevomat 4.0"
+  },
   "8065961": {
     "org": "contributte",
     "repo": "facebook",
@@ -1508,6 +1858,16 @@
     "published_at": "2017-10-10T16:47:08Z",
     "html_url": "https://github.com/contributte/facebook/releases/tag/v0.1",
     "body": "First bump! :fist_oncoming: "
+  },
+  "8073056": {
+    "org": "ninjify",
+    "repo": "qa",
+    "tag": "0.7.0",
+    "name": "v0.7",
+    "created_at": "2017-10-10T20:08:50Z",
+    "published_at": "2017-10-11T05:32:45Z",
+    "html_url": "https://github.com/ninjify/qa/releases/tag/0.7.0",
+    "body": "Bumped! :hong_kong: \r\n\r\nDiff: https://github.com/ninjify/qa/compare/0.6.0...0.7.0\r\n\r\nChanges:\r\n- use coding-standard v0.6\r\n- **don't** use `no-patch` in codefixer"
   },
   "8177975": {
     "org": "contributte",
@@ -2188,6 +2548,16 @@
     "published_at": "2018-03-01T10:16:36Z",
     "html_url": "https://github.com/contributte/anabelle/releases/tag/v1.2.0",
     "body": "- Added ability to use inline + block macros in block macros and inline macros in inline macros (both to max depth of 3)"
+  },
+  "10019262": {
+    "org": "ninjify",
+    "repo": "qa",
+    "tag": "0.7.1",
+    "name": "v0.7.1",
+    "created_at": "2018-02-25T18:33:15Z",
+    "published_at": "2018-03-09T16:19:09Z",
+    "html_url": "https://github.com/ninjify/qa/releases/tag/0.7.1",
+    "body": "Bumped! :boar: \r\n\r\nDiff: https://github.com/ninjify/qa/compare/0.7.0...0.7.1\r\n\r\nChanges:\r\n- use newest version of `jakub-onderka/php-parallel-lint` : `^1.0.0`"
   },
   "10021002": {
     "org": "contributte",
@@ -3409,6 +3779,26 @@
     "html_url": "https://github.com/contributte/redis/releases/tag/v0.1",
     "body": "First bump! :fist_oncoming: \r\n"
   },
+  "13819824": {
+    "org": "ninjify",
+    "repo": "qa",
+    "tag": "0.8",
+    "name": "v0.8",
+    "created_at": "2018-11-04T19:47:27Z",
+    "published_at": "2018-11-04T19:47:44Z",
+    "html_url": "https://github.com/ninjify/qa/releases/tag/0.8",
+    "body": "Bumped! 🏑 \r\n\r\nDiff: https://github.com/ninjify/qa/compare/0.7.1...0.8\r\n\r\nChanges:\r\n- allow PHP 7.3 in CI\r\n- upgrade deps\r\n- don't lint php3, php4, php5 files"
+  },
+  "13819862": {
+    "org": "ninjify",
+    "repo": "coding-standard",
+    "tag": "v0.7",
+    "name": "v0.7",
+    "created_at": "2018-11-04T19:49:24Z",
+    "published_at": "2018-11-04T19:53:55Z",
+    "html_url": "https://github.com/ninjify/coding-standard/releases/tag/v0.7",
+    "body": "Bumped! 🍎  \r\n\r\nDiff: https://github.com/ninjify/coding-standard/compare/v0.6...v0.7\r\n\r\nChanges:\r\n- skip some sniffs from slevomat/coding-standard [#16][#15][#14][#13][#12]\r\n- added phpstorm codestyle [#11] \r\n- ignore `@testCase` annotation"
+  },
   "13873840": {
     "org": "contributte",
     "repo": "console-extra",
@@ -3448,6 +3838,16 @@
     "published_at": "2018-11-10T10:08:06Z",
     "html_url": "https://github.com/contributte/deployer-extension/releases/tag/v3.0.1",
     "body": "Bump! 🍔 \r\n\r\nDiff: https://github.com/contributte/deployer-extension/compare/v3.0.0...v3.0.1\r\n\r\nChanges:\r\n- Fixed all namespace usages"
+  },
+  "14091157": {
+    "org": "ninjify",
+    "repo": "nunjuck",
+    "tag": "v0.2.1",
+    "name": "v0.2.1",
+    "created_at": "2018-11-20T07:01:00Z",
+    "published_at": "2018-11-20T07:02:05Z",
+    "html_url": "https://github.com/ninjify/nunjuck/releases/tag/v0.2.1",
+    "body": "Bump! 😨 \r\n\r\nDiff: https://github.com/ninjify/nunjuck/compare/v0.2...v0.2.1\r\n\r\nChanges:\r\n- require PHP >= 7.1 [#4]\r\n- use nette/tester 2.1.0 [#4]\r\n- fix robot loader [#3]\r\n- better CI [#4]"
   },
   "14095624": {
     "org": "contributte",
@@ -3518,6 +3918,16 @@
     "published_at": "2018-12-25T13:34:07Z",
     "html_url": "https://github.com/nettrine/migrations/releases/tag/v0.4",
     "body": "Bump! 🔒 \r\n\r\nDiff: https://github.com/nettrine/migrations/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- upgrade deps\r\n- added console.command for DIC services (@mabar)\r\n- improve docs (@JanMikes)"
+  },
+  "14714681": {
+    "org": "planette",
+    "repo": "componette.com",
+    "tag": "v1.3.0",
+    "name": "v1.3.0",
+    "created_at": "2018-12-27T12:47:29Z",
+    "published_at": "2018-12-27T12:49:15Z",
+    "html_url": "https://github.com/planette/componette.com/releases/tag/v1.3.0",
+    "body": "## 🍂 v1.3.0\r\n\r\n- Feature: accurate authors sorting in the footer\r\n- Command: addon content has utf8mb4_general_ci collate\r\n- Fix: syntax typo in GithubLinker\r\n- Fix: after deploy errors\r\n- Fix: invalid links on homepage [#88]\r\n- Feature: implement phpstan [#83]\r\n- Fix: search, empty search, sorting\r\n- Refactoring: drow bower, drop old cron\r\n- Feature: improve design [#90]\r\n- Feature: added disqus to addon detail [#75]\r\n- Fix: relative links in readme [#104] [#105]\r\n- Feature: upgrade nextras/orm+dbal to v3.0\r\n- Feature: simplify docker image (based on Caddy server)\r\n- Feature: use PHP 7.3\r\n- Fix: URL in Caddy [#110][#111]\r\n- Feature: upgrade composer deps, npm deps"
   },
   "14763387": {
     "org": "contributte",
@@ -3598,6 +4008,26 @@
     "published_at": "2019-02-07T14:42:26Z",
     "html_url": "https://github.com/contributte/psr11-container-interface/releases/tag/v0.3.0",
     "body": "Bump! 🥇 \r\n\r\nDiff: https://github.com/contributte/psr11-container-interface/compare/v0.2.0...v0.3.0\r\n\r\nChanges:\r\n- `getByType` support for interfaces https://github.com/contributte/psr11-container-interface/pull/4"
+  },
+  "15743495": {
+    "org": "ninjify",
+    "repo": "coding-standard",
+    "tag": "v0.8",
+    "name": "v0.8",
+    "created_at": "2019-02-24T16:05:27Z",
+    "published_at": "2019-02-24T20:16:55Z",
+    "html_url": "https://github.com/ninjify/coding-standard/releases/tag/v0.8",
+    "body": "Bumped! 🥇 \r\n\r\nDiff: https://github.com/ninjify/coding-standard/compare/v0.7...v0.8\r\n\r\nChanges:\r\n- slevomat/coding-standard 5.0.0"
+  },
+  "15743515": {
+    "org": "ninjify",
+    "repo": "qa",
+    "tag": "v0.9",
+    "name": "v0.9",
+    "created_at": "2019-02-24T11:31:23Z",
+    "published_at": "2019-02-24T20:20:06Z",
+    "html_url": "https://github.com/ninjify/qa/releases/tag/v0.9",
+    "body": "Bumped! 🏅 \r\n\r\nDiff: https://github.com/ninjify/qa/compare/0.8...v0.9\r\n\r\nChanges:\r\n- ninjify/coding-standard v0.8"
   },
   "15755254": {
     "org": "nettrine",

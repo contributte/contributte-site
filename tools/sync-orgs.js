@@ -3,13 +3,13 @@ const fs = require("fs");
 const httpclient = require("./utils/httpclient");
 
 // Global
-const CONFIG = require("./config");
+const organizations = require("./../data/organizations.json");
 const { TOKEN } = require("./secret");
 
 function sync() {
-  _.forEach(CONFIG.organizations, async (repos, org) => {
-    const response = await httpclient.get(`/orgs/${org}/repos?per_page=200&access_token=${TOKEN}`);
-    fs.writeFileSync(__dirname + `/../data/orgs/${org}.json`, JSON.stringify(response, null, 2));
+  _.forEach(organizations, async ({name}) => {
+    const response = await httpclient.get(`/orgs/${name}/repos?per_page=200&access_token=${TOKEN}`);
+    fs.writeFileSync(__dirname + `/../data/orgs/${name}.json`, JSON.stringify(response, null, 2));
   });
 }
 

@@ -5,6 +5,8 @@ const organizations = {
   contributte: require('./../data/orgs/contributte.json'),
   apitte: require('./../data/orgs/apitte.json'),
   nettrine: require('./../data/orgs/nettrine.json'),
+  ninjify: require('./../data/orgs/planette.json'),
+  planette: require('./../data/orgs/ninjify.json'),
 };
 
 const repositories = require('./../data/repositories.json');

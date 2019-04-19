@@ -4,11 +4,19 @@ pageClass: page-wide
 
 # Introduction
 
-Contributte organization focus on 3 main parts:
+Contributte organization is focucing on these main parts:
 
-- Nette contrib - featured original Nette packages
-- Symfony integration - easily integrate Symfony components
-- Other - cool other integrations
+- easy to use
+- setup PHP standards and consistency
+- apply latest developement experience
+- feature original Nette packages
+- easily integrate Symfony components
+- integrate other cool PHP packages
+
+# Example
+
+Do you looking for some examples? Take a look at [examples](/packages/planette/playground) 
+page or [planette](https://github.com/planette) organization on Github.
 
 # Our Packages
 

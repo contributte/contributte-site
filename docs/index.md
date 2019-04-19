@@ -4,6 +4,10 @@ heroText: Contributte
 tagline: First class extensions for Nette Framework
 actionText: Get Started →
 actionLink: /guide
+metaTitle: Contributte - First class extensions for Nette Framework
+meta:
+  - name: keywords
+    content: php, nette, nette framework, contributte, tracy, latte, templates, database, extensions, addons, plugins
 features:
 - title: Up to date
   details: We follow latest principles and support latest version of Nette.

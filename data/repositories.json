@@ -886,8 +886,8 @@
       }
     }
   },
-  "contributte/playground": {
-    "org": "contributte",
+  "planette/playground": {
+    "org": "planette",
     "name": "playground",
     "category": "playground",
     "enabled": true,
@@ -1213,15 +1213,6 @@
       }
     }
   },
-  "apitte/playground": {
-    "org": "apitte",
-    "name": "playground",
-    "enabled": true,
-    "priority": 0,
-    "docs": "v0",
-    "description": ":baby: Apitte playground with examples",
-    "category": "apitte"
-  },
   "nettrine/dbal": {
     "org": "nettrine",
     "name": "dbal",
@@ -1355,15 +1346,6 @@
     "priority": 0,
     "docs": "v0",
     "description": ":arrows_clockwise: Doctrine Cache adapter for Nette Framework ",
-    "category": "nettrine"
-  },
-  "nettrine/playground": {
-    "org": "nettrine",
-    "name": "playground",
-    "enabled": true,
-    "priority": 0,
-    "docs": "v0",
-    "description": ":shipit: Examples of @nettrine packages",
     "category": "nettrine"
   },
   "contributte/flysystem": {

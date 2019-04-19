@@ -19,6 +19,16 @@
     "html_url": "https://github.com/contributte/live-form-validation/releases/tag/v1.4.1",
     "body": "Bump! 🅰️ \r\n\r\n> Fix removing errors created by server-validation\r\n\r\nDiff: https://github.com/contributte/live-form-validation/compare/v1.4...v1.4.1\r\n\r\nChanges:\r\n\r\n- Fix removing errors without ID (e.g. created by server-validation)\r\n- Small cleanup\r\n"
   },
+  "1592370": {
+    "org": "contributte",
+    "repo": "forms-multiplier",
+    "tag": "1.0",
+    "name": "Version 1.0",
+    "created_at": "2015-07-27T19:08:17Z",
+    "published_at": "2015-07-27T19:08:58Z",
+    "html_url": "https://github.com/contributte/forms-multiplier/releases/tag/1.0",
+    "body": ""
+  },
   "1866399": {
     "org": "contributte",
     "repo": "live-form-validation",
@@ -889,6 +899,16 @@
     "html_url": "https://github.com/contributte/datagrid/releases/tag/v5.2.2",
     "body": "## Added:\r\n- Added custom renderer to SUM aggregation function \r\n- Added IAggregatable interface for datasources\r\n- Added IAggregatable support for DoctrineCollectionDataSource\r\n\r\n## Fixed:\r\n-  Update summary on data reload\r\n\r\n[Changelog](https://github.com/ublaboo/datagrid/compare/v5.2.1...v5.2.2)"
   },
+  "6146781": {
+    "org": "contributte",
+    "repo": "forms-wizard",
+    "tag": "1.2.1",
+    "name": "1.2.1",
+    "created_at": "2017-04-21T10:12:46Z",
+    "published_at": "2017-04-21T10:13:04Z",
+    "html_url": "https://github.com/contributte/forms-wizard/releases/tag/1.2.1",
+    "body": "php 5.6"
+  },
   "6161661": {
     "org": "contributte",
     "repo": "datagrid",
@@ -1069,6 +1089,16 @@
     "html_url": "https://github.com/contributte/console/releases/tag/v0.1.3",
     "body": "Bumped! :dancer: \r\n\r\nDiff: https://github.com/contributte/console/compare/v0.1.2...v0.1.3\r\n\r\nChanges:\r\n- calling `setAutoExit` fixed in #5 [thanks @forrest79]"
   },
+  "6648654": {
+    "org": "contributte",
+    "repo": "forms-wizard",
+    "tag": "2.0",
+    "name": "",
+    "created_at": "2017-06-08T13:37:21Z",
+    "published_at": "2017-06-08T13:38:07Z",
+    "html_url": "https://github.com/contributte/forms-wizard/releases/tag/2.0",
+    "body": "php 7.1 and above required"
+  },
   "6670914": {
     "org": "contributte",
     "repo": "datagrid",
@@ -1128,6 +1158,16 @@
     "published_at": "2017-06-13T08:16:55Z",
     "html_url": "https://github.com/contributte/datagrid/releases/tag/v5.4.0",
     "body": "## Added:\r\n- Added a possibility to render different content then is edited in the small inline edit\r\n\r\n[Changelog](https://github.com/ublaboo/datagrid/compare/v5.3.3...v5.4.0)"
+  },
+  "6698004": {
+    "org": "contributte",
+    "repo": "invoice",
+    "tag": "1.1.3",
+    "name": "",
+    "created_at": "2017-06-01T11:24:59Z",
+    "published_at": "2017-06-13T15:51:51Z",
+    "html_url": "https://github.com/contributte/invoice/releases/tag/1.1.3",
+    "body": ""
   },
   "6737137": {
     "org": "contributte",
@@ -1378,6 +1418,16 @@
     "published_at": "2017-08-17T15:55:47Z",
     "html_url": "https://github.com/contributte/logging/releases/tag/v0.2",
     "body": "Bump! :denmark: \r\n\r\nDiff: https://github.com/contributte/logging/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- refactoring\r\n- added docs\r\n- added Sentry logging (thanks @benijo)"
+  },
+  "7516112": {
+    "org": "contributte",
+    "repo": "invoice",
+    "tag": "2.0.1",
+    "name": "",
+    "created_at": "2017-08-24T13:53:24Z",
+    "published_at": "2017-08-24T21:23:47Z",
+    "html_url": "https://github.com/contributte/invoice/releases/tag/2.0.1",
+    "body": ""
   },
   "7535298": {
     "org": "contributte",
@@ -2489,6 +2539,16 @@
     "html_url": "https://github.com/contributte/nextras-orm-query-object/releases/tag/v0.2",
     "body": "Bump! 🇬🇲 \r\n\r\nDiff: https://github.com/contributte/console/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- change namespace minetro -> contributte\r\n- PHP 7.1\r\n- Quality Assurance"
   },
+  "11094941": {
+    "org": "contributte",
+    "repo": "invoice",
+    "tag": "v3.0.0",
+    "name": "",
+    "created_at": "2018-05-21T13:22:16Z",
+    "published_at": "2018-05-21T13:22:46Z",
+    "html_url": "https://github.com/contributte/invoice/releases/tag/v3.0.0",
+    "body": ""
+  },
   "11095947": {
     "org": "contributte",
     "repo": "datagrid",
@@ -3097,7 +3157,7 @@
     "created_at": "2018-04-04T21:43:22Z",
     "published_at": "2018-08-06T21:55:47Z",
     "html_url": "https://github.com/contributte/guzzlette/releases/tag/v1.1.0",
-    "body": "Bump! ���� \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v1.0.0...v1.1.0\r\n\r\nChanges:\r\n- Configuration for Guzzle Client"
+    "body": "Bump! ��� \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v1.0.0...v1.1.0\r\n\r\nChanges:\r\n- Configuration for Guzzle Client"
   },
   "12279267": {
     "org": "contributte",
@@ -3519,6 +3579,16 @@
     "html_url": "https://github.com/contributte/replacus/releases/tag/v0.1",
     "body": "Bump! :fist_oncoming: "
   },
+  "15263617": {
+    "org": "contributte",
+    "repo": "czech-post",
+    "tag": "v0.1.0",
+    "name": "v0.1.0",
+    "created_at": "2019-01-30T12:11:25Z",
+    "published_at": "2019-01-30T12:13:48Z",
+    "html_url": "https://github.com/contributte/czech-post/releases/tag/v0.1.0",
+    "body": "First bump! :fist_oncoming: \r\n"
+  },
   "15424326": {
     "org": "contributte",
     "repo": "psr11-container-interface",
@@ -3558,6 +3628,16 @@
     "published_at": "2019-02-25T15:01:59Z",
     "html_url": "https://github.com/nettrine/migrations/releases/tag/v0.5",
     "body": "Bump! 🏷  \r\n\r\nDiff: https://github.com/nettrine/migrations/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- use doctrine/migrations 2.0\r\n- added `customTemplate` (thanks @RiKap)"
+  },
+  "15761705": {
+    "org": "contributte",
+    "repo": "gosms",
+    "tag": "v0.1",
+    "name": "v0.1",
+    "created_at": "2019-02-25T17:22:00Z",
+    "published_at": "2019-02-25T17:59:40Z",
+    "html_url": "https://github.com/contributte/gosms/releases/tag/v0.1",
+    "body": "First bump! :fist_oncoming: "
   },
   "15806712": {
     "org": "contributte",
@@ -3629,6 +3709,46 @@
     "html_url": "https://github.com/contributte/nextras-orm-generator/releases/tag/0.2",
     "body": "Bump! ⌛️ \r\n\r\nDiff: https://github.com/contributte/nextras-orm-generator/compare/0.1...0.2\r\n\r\nChanges:\r\n\r\n- change name to contributte/nextras-orm-generator\r\n- support only for PHP7.1+\r\n- generate getEntityClassNames method on repository\r\n- singularization (converting plural table name to singular class names)\r\n- use Nextras\\Dbal\\Utils\\DateTimeImmutable for dates\r\n- option to generate column constants\r\n- model generator\r\n- compatibility with php-generator 3+\r\n- add config for (not) generating relations\r\n- set primary key on generated entities"
   },
+  "16405225": {
+    "org": "contributte",
+    "repo": "translation",
+    "tag": "0.0.1",
+    "name": "v0.0.1",
+    "created_at": "2019-03-28T10:00:48Z",
+    "published_at": "2019-03-28T10:04:17Z",
+    "html_url": "https://github.com/contributte/translation/releases/tag/0.0.1",
+    "body": "- first stable version for Nette 3"
+  },
+  "16428594": {
+    "org": "contributte",
+    "repo": "translation",
+    "tag": "0.0.2",
+    "name": "v0.0.2",
+    "created_at": "2019-03-29T06:54:05Z",
+    "published_at": "2019-03-29T07:02:02Z",
+    "html_url": "https://github.com/contributte/translation/releases/tag/0.0.2",
+    "body": "- added translate macro ({translate}, n:translate)\r\n- fixed compatibiliti with Nette\\DI 3.0.0-RC3\r\n- removed dependency to Nette\\Utils 2.5 and Nette\\DI 2.4\r\n"
+  },
+  "16432105": {
+    "org": "contributte",
+    "repo": "translation",
+    "tag": "0.0.3",
+    "name": "v0.0.3",
+    "created_at": "2019-03-29T10:15:06Z",
+    "published_at": "2019-03-29T10:20:50Z",
+    "html_url": "https://github.com/contributte/translation/releases/tag/0.0.3",
+    "body": "- support for absolute translation ( {_//domain.message} )"
+  },
+  "16451540": {
+    "org": "contributte",
+    "repo": "translation",
+    "tag": "0.0.4",
+    "name": "v0.0.4",
+    "created_at": "2019-03-30T08:04:12Z",
+    "published_at": "2019-03-30T08:13:38Z",
+    "html_url": "https://github.com/contributte/translation/releases/tag/0.0.4",
+    "body": "- added missing translation to Tracy panel\r\n- fixed prefix macro"
+  },
   "16455347": {
     "org": "contributte",
     "repo": "datagrid-elasticsearch-data-source",
@@ -3638,6 +3758,36 @@
     "published_at": "2019-03-30T20:35:10Z",
     "html_url": "https://github.com/contributte/datagrid-elasticsearch-data-source/releases/tag/v1.1.0",
     "body": "- Allow custom row factory for search result (thanks @MilanPala)"
+  },
+  "16465585": {
+    "org": "contributte",
+    "repo": "translation",
+    "tag": "0.0.5",
+    "name": "v0.0.5",
+    "created_at": "2019-03-31T08:25:36Z",
+    "published_at": "2019-04-01T03:51:15Z",
+    "html_url": "https://github.com/contributte/translation/releases/tag/0.0.5",
+    "body": "- fixed plural translation\r\n- added PrefixedTranslator"
+  },
+  "16468878": {
+    "org": "contributte",
+    "repo": "translation",
+    "tag": "0.0.6",
+    "name": "v0.0.6",
+    "created_at": "2019-04-01T08:14:02Z",
+    "published_at": "2019-04-01T08:17:28Z",
+    "html_url": "https://github.com/contributte/translation/releases/tag/0.0.6",
+    "body": "- Tracy panel improvments"
+  },
+  "16603016": {
+    "org": "contributte",
+    "repo": "translation",
+    "tag": "0.1.0",
+    "name": "v0.1",
+    "created_at": "2019-04-06T09:10:17Z",
+    "published_at": "2019-04-07T09:06:03Z",
+    "html_url": "https://github.com/contributte/translation/releases/tag/0.1.0",
+    "body": "- change namespace from **Translette** to **Contributte** (BC break)\r\n- added new locale resolver **Router**\r\n- fix for Parameter locale resolver\r\n- added experiment loader for Doctrine (read more in docs)\r\n- change dependencies to stable Nette versions\r\n"
   },
   "16603522": {
     "org": "contributte",

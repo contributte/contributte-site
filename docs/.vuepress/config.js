@@ -15,6 +15,7 @@ module.exports = {
     },
     nav: [
       { text: "Home", link: "/" },
+      { text: "Packages", link: "/packages/" }, 
       { text: "Releases", link: "/releases/" }, 
       { text: "Examples", link: "/packages/planette/playground/" }, 
       {

@@ -1,3 +1,4 @@
 # Dynamic pages
 *
-!.gitignore
+!/.gitignore
+!/index.md

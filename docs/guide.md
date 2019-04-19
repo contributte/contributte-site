@@ -15,7 +15,7 @@ Contributte organization is focucing on these main parts:
 
 # Example
 
-Do you looking for some examples? Take a look at [examples](/packages/planette/playground) 
+Do you looking for some examples? Take a look at [examples](/packages/planette/playground.html) 
 page or [planette](https://github.com/planette) organization on Github.
 
 # Our Packages

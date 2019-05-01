@@ -172,7 +172,7 @@
   "contributte/codeception": {
     "org": "contributte",
     "name": "codeception",
-    "enabled": false,
+    "enabled": true,
     "priority": 60,
     "docs": "v1",
     "description": ":arrow_forward: Integration of Nette Framework to Codeception.",
@@ -256,7 +256,7 @@
         "created_at": "2017-02-23T12:21:41Z",
         "published_at": "2017-07-31T09:36:31Z",
         "html_url": "https://github.com/contributte/seznamcaptcha/releases/tag/0.3",
-        "body": "Bumped! 🚶 \r\n\r\nChanges:\r\n- enhanced readme\r\n- repair validator [#1] "
+        "body": "Bumped! ���� \r\n\r\nChanges:\r\n- enhanced readme\r\n- repair validator [#1] "
       }
     },
     "stars": 1,
@@ -297,29 +297,6 @@
     "watchers": 0,
     "forks": 0
   },
-  "contributte/api": {
-    "org": "contributte",
-    "name": "api",
-    "enabled": false,
-    "priority": 0,
-    "docs": "v1",
-    "description": "[Moved to @apitte] Powerful API to Nette Framework",
-    "releases": {
-      "last": {
-        "org": "contributte",
-        "repo": "api",
-        "tag": "v0.3",
-        "name": "v0.3",
-        "created_at": "2017-08-11T14:33:15Z",
-        "published_at": "2017-08-11T14:50:09Z",
-        "html_url": "https://github.com/contributte/api/releases/tag/v0.3",
-        "body": "Bump! 🔪 \r\n\r\nDiff: https://github.com/contributte/api/compare/v0.2.2...v0.3\r\n\r\nChanges:\r\n - namespace refactoring (drop Bridges)\r\n - rename Factory/Generator to Serialization\r\n - rename Validators to Validations\r\n - ApiResponse/ApiRequest don't composite PSR7, they extend\r\n - simplify whole middlewares usage\r\n - simplify ApiExtension\r\n - added new Api2MiddlewaresExtension to easy use of middlewares\r\n - simplify Transformers (from 2 interfaces to 1 interface)\r\n - direct dependencies: contributte/psr7-http-message, contributte/middlewares, contributte/phpdoc\r\n - tiny micro refactorings\r\n - added huge amount of tests \r\n\r\n"
-      }
-    },
-    "stars": 11,
-    "watchers": 11,
-    "forks": 1
-  },
   "contributte/application": {
     "org": "contributte",
     "name": "application",
@@ -343,17 +320,6 @@
     "stars": 6,
     "watchers": 6,
     "forks": 4
-  },
-  "contributte/blogette": {
-    "org": "contributte",
-    "name": "blogette",
-    "enabled": false,
-    "priority": 0,
-    "docs": "v1",
-    "description": ":postbox: Blogging platform [proof of concept]",
-    "stars": 1,
-    "watchers": 1,
-    "forks": 0
   },
   "contributte/bootstrap": {
     "org": "contributte",
@@ -402,17 +368,6 @@
     "stars": 4,
     "watchers": 4,
     "forks": 2
-  },
-  "contributte/contributte": {
-    "org": "contributte",
-    "name": "contributte",
-    "enabled": false,
-    "priority": 0,
-    "docs": "v1",
-    "description": ":heart: Contributte organization structure / RFC / Team",
-    "stars": 4,
-    "watchers": 4,
-    "forks": 0
   },
   "contributte/database": {
     "org": "contributte",
@@ -558,75 +513,6 @@
     "stars": 1,
     "watchers": 1,
     "forks": 2
-  },
-  "contributte/event-application-bridge": {
-    "org": "contributte",
-    "name": "event-application-bridge",
-    "enabled": false,
-    "priority": 0,
-    "docs": "v1",
-    "description": "[ARCHIVED] :recycle: Bridge between event dispatcher & nette application ",
-    "releases": {
-      "last": {
-        "org": "contributte",
-        "repo": "event-application-bridge",
-        "tag": "v0.1.1",
-        "name": "v0.1.1",
-        "created_at": "2017-07-19T13:27:16Z",
-        "published_at": "2017-07-19T13:57:30Z",
-        "html_url": "https://github.com/contributte/event-application-bridge/releases/tag/v0.1.1",
-        "body": "Bumped! 🗝 \r\n\r\nChanges:\r\n- added more tests\r\n- added own ruleset\r\n- fix invalid namespace"
-      }
-    },
-    "stars": 2,
-    "watchers": 2,
-    "forks": 0
-  },
-  "contributte/event-bridges": {
-    "org": "contributte",
-    "name": "event-bridges",
-    "enabled": false,
-    "priority": 0,
-    "docs": "v1",
-    "description": "[ARCHIVED] :package: Collection of all event dispatcher bridges (:recycle:) to nette at one place ",
-    "releases": {
-      "last": {
-        "org": "contributte",
-        "repo": "event-bridges",
-        "tag": "v0.1",
-        "name": "v0.1",
-        "created_at": "2017-07-27T16:03:04Z",
-        "published_at": "2017-07-28T09:07:23Z",
-        "html_url": "https://github.com/contributte/event-bridges/releases/tag/v0.1",
-        "body": "Bumped! 👊 "
-      }
-    },
-    "stars": 1,
-    "watchers": 1,
-    "forks": 0
-  },
-  "contributte/event-security-bridge": {
-    "org": "contributte",
-    "name": "event-security-bridge",
-    "enabled": false,
-    "priority": 0,
-    "docs": "v1",
-    "description": "[ARCHIVED] :recycle: Bridge between event dispatcher & nette security",
-    "releases": {
-      "last": {
-        "org": "contributte",
-        "repo": "event-security-bridge",
-        "tag": "v0.1",
-        "name": "v0.1",
-        "created_at": "2017-07-04T14:45:12Z",
-        "published_at": "2017-07-19T12:49:13Z",
-        "html_url": "https://github.com/contributte/event-security-bridge/releases/tag/v0.1",
-        "body": "Bumped! 👊 \r\n"
-      }
-    },
-    "stars": 2,
-    "watchers": 2,
-    "forks": 0
   },
   "contributte/facebook": {
     "org": "contributte",
@@ -775,7 +661,7 @@
         "created_at": "2018-03-12T07:00:01Z",
         "published_at": "2018-03-12T07:05:24Z",
         "html_url": "https://github.com/contributte/latte-email/releases/tag/2.0.0",
-        "body": "Bump! 🏭 \r\n\r\nDiff: https://github.com/contributte/latte-email/compare/1.2.1...2.0.0\r\n\r\nChanges:\r\n- PHP 5.4 -> PHP 5.6\r\n- change namespace\r\n- apply codesniffer"
+        "body": "Bump! ���� \r\n\r\nDiff: https://github.com/contributte/latte-email/compare/1.2.1...2.0.0\r\n\r\nChanges:\r\n- PHP 5.4 -> PHP 5.6\r\n- change namespace\r\n- apply codesniffer"
       }
     },
     "stars": 6,
@@ -818,12 +704,12 @@
       "last": {
         "org": "contributte",
         "repo": "mail",
-        "tag": "v0.2.0",
-        "name": "",
-        "created_at": "2018-07-18T19:35:19Z",
-        "published_at": "2018-07-18T20:05:23Z",
-        "html_url": "https://github.com/contributte/mail/releases/tag/v0.2.0",
-        "body": "Bump! 🍼 \r\n\r\nDiff: https://github.com/contributte/mail/compare/v0.1.3...v0.2.0\r\n\r\nChanges:\r\n- PHP 7.1 [#7] [#6] \r\n- Debug panel [#5] [#2] \r\n- Replaced MessageFactory with IMessageFactory (BC break)"
+        "tag": "v0.3.0",
+        "name": "v0.3.0",
+        "created_at": "2019-04-25T05:56:27Z",
+        "published_at": "2019-04-25T05:58:18Z",
+        "html_url": "https://github.com/contributte/mail/releases/tag/v0.3.0",
+        "body": "Bump! 🕳 \r\n\r\nDiff: https://github.com/contributte/mail/compare/v0.2.0...v0.3.0\r\n\r\nChanges:\r\n- Readme: improvements\r\n- CI: improvements\r\n- CompositeMailer: throw exception by default\r\n\r\nℹ️ This is last version for Nette 2.4 and PHP 7.1.\r\n"
       }
     },
     "stars": 5,
@@ -847,7 +733,7 @@
         "created_at": "2018-11-09T23:20:59Z",
         "published_at": "2018-11-09T23:33:41Z",
         "html_url": "https://github.com/contributte/middlewares/releases/tag/v0.8",
-        "body": "Bump! 😋 \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.7...v0.8\r\n\r\nChanges:\r\n- Drop BaseMiddleware in favor of IMiddleware (BC break)\r\n- EnforceHttpsMiddleware\r\n- TryCatchMiddleware\r\n\t- logging support\r\n\t- error message replace with generic message\r\n\t- improved configuration (BC break)\r\n- LoggingMiddleware - for logging of each requested url\r\n- Tracy panel - displays which middlewares were used\r\n- Removed root support (BC break)"
+        "body": "Bump! ��� \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.7...v0.8\r\n\r\nChanges:\r\n- Drop BaseMiddleware in favor of IMiddleware (BC break)\r\n- EnforceHttpsMiddleware\r\n- TryCatchMiddleware\r\n\t- logging support\r\n\t- error message replace with generic message\r\n\t- improved configuration (BC break)\r\n- LoggingMiddleware - for logging of each requested url\r\n- Tracy panel - displays which middlewares were used\r\n- Removed root support (BC break)"
       }
     },
     "stars": 8,
@@ -893,7 +779,7 @@
   "contributte/model": {
     "org": "contributte",
     "name": "model",
-    "enabled": false,
+    "enabled": true,
     "priority": 0,
     "docs": "v1",
     "description": ":boom: View-Model + Model-View layer to Nette Framework (@nette)",
@@ -911,18 +797,6 @@
     },
     "stars": 1,
     "watchers": 1,
-    "forks": 0
-  },
-  "contributte/nextras-criteria": {
-    "org": "contributte",
-    "name": "nextras-criteria",
-    "category": "nextras",
-    "enabled": false,
-    "priority": 0,
-    "docs": "v1",
-    "description": "Criteria Expression for Nextras\\ORM + Nextras\\DBAL (@nextras)",
-    "stars": 2,
-    "watchers": 2,
     "forks": 0
   },
   "contributte/nextras-orm-events": {
@@ -1036,18 +910,6 @@
     "watchers": 7,
     "forks": 6
   },
-  "contributte/psr6-caching": {
-    "org": "contributte",
-    "name": "psr6-caching",
-    "category": "psr",
-    "enabled": false,
-    "priority": 0,
-    "docs": "v1",
-    "description": ":dizzy: PSR #6 [Caching Interface] to Nette Framework (@nette)",
-    "stars": 1,
-    "watchers": 1,
-    "forks": 1
-  },
   "contributte/psr7-http-message": {
     "org": "contributte",
     "name": "psr7-http-message",
@@ -1096,17 +958,6 @@
     "stars": 5,
     "watchers": 5,
     "forks": 2
-  },
-  "contributte/server-timing": {
-    "org": "contributte",
-    "name": "server-timing",
-    "enabled": false,
-    "priority": 0,
-    "docs": "v1",
-    "description": ":watch: Server Timing API profiling for Nette Framework ",
-    "stars": 0,
-    "watchers": 0,
-    "forks": 0
   },
   "contributte/social": {
     "org": "contributte",
@@ -1565,7 +1416,7 @@
   "nettrine/hydrator": {
     "org": "nettrine",
     "name": "hydrator",
-    "enabled": false,
+    "enabled": true,
     "priority": 0,
     "docs": "v0",
     "description": ":arrow_left: :arrow_right: Convert Doctrine entity to array and conversely",
@@ -1827,12 +1678,12 @@
       "last": {
         "org": "contributte",
         "repo": "datagrid",
-        "tag": "v5.7.1",
-        "name": "v5.7.1",
-        "created_at": "2019-02-28T13:57:58Z",
-        "published_at": "2019-02-28T15:21:43Z",
-        "html_url": "https://github.com/contributte/datagrid/releases/tag/v5.7.1",
-        "body": "Bump! ⌛️ \r\n\r\nDiff: https://github.com/ublaboo/datagrid/compare/v5.7.0...v5.7.1\r\n\r\nChanges:\r\n- Added support for Export button confirm dialog (@Arziel)\r\n- Bump 5.7.0 NPM package\r\n- DoctrineDataSource - clean DQL orderBy (@JKoty) \r\n- Bootstrap 4 calendar icon (@radekdostal) [#706]\r\n- Repair paginator (@romanmatyus) [#645]\r\n- NextrasDataSource - fix multiselect (@martenb) [#653]\r\n- DoctrineCollectionDataSource - protectec properties [#672]\r\n- Bugfix: throwing exception on null parent. [#721]\r\n- Datagrid: setDataSource - allow NextrasDataSource [#737]"
+        "tag": "v5.7.2",
+        "name": "v5.7.2",
+        "created_at": "2019-04-23T17:34:42Z",
+        "published_at": "2019-04-23T17:55:45Z",
+        "html_url": "https://github.com/contributte/datagrid/releases/tag/v5.7.2",
+        "body": "Bump! ⌛️ \r\n\r\nDiff: https://github.com/ublaboo/datagrid/compare/v5.7.1...v5.7.2\r\n\r\nChanges:\r\n- Handle the invalid date values in the date and date range filters (@petaak )\r\n- Add check for __toString() in array row value (@Rixafy )\r\n- Added method ::getOptions() for FilterSelect and FilterMultiSelect (@stanislav-janu )"
       }
     },
     "stars": 163,
@@ -1920,7 +1771,7 @@
         "org": "contributte",
         "repo": "translation",
         "tag": "0.1.0",
-        "name": "v0.1",
+        "name": "v0.1.0",
         "created_at": "2019-04-06T09:10:17Z",
         "published_at": "2019-04-07T09:06:03Z",
         "html_url": "https://github.com/contributte/translation/releases/tag/0.1.0",

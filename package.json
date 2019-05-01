@@ -10,7 +10,8 @@
     "now-build": "echo 'OK'"
   },
   "dependencies": {
-    "dayjs": "^1.8.13"
+    "dayjs": "^1.8.13",
+    "lodash-es": "^4.17.11"
   },
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.0.0-alpha.47",

@@ -1567,7 +1567,7 @@
     "created_at": "2017-02-23T12:21:41Z",
     "published_at": "2017-07-31T09:36:31Z",
     "html_url": "https://github.com/contributte/seznamcaptcha/releases/tag/0.3",
-    "body": "Bumped! 🚶 \r\n\r\nChanges:\r\n- enhanced readme\r\n- repair validator [#1] "
+    "body": "Bumped! ���� \r\n\r\nChanges:\r\n- enhanced readme\r\n- repair validator [#1] "
   },
   "7226029": {
     "org": "contributte",
@@ -2647,7 +2647,7 @@
     "created_at": "2018-03-12T07:00:01Z",
     "published_at": "2018-03-12T07:05:24Z",
     "html_url": "https://github.com/contributte/latte-email/releases/tag/2.0.0",
-    "body": "Bump! 🏭 \r\n\r\nDiff: https://github.com/contributte/latte-email/compare/1.2.1...2.0.0\r\n\r\nChanges:\r\n- PHP 5.4 -> PHP 5.6\r\n- change namespace\r\n- apply codesniffer"
+    "body": "Bump! ���� \r\n\r\nDiff: https://github.com/contributte/latte-email/compare/1.2.1...2.0.0\r\n\r\nChanges:\r\n- PHP 5.4 -> PHP 5.6\r\n- change namespace\r\n- apply codesniffer"
   },
   "10041775": {
     "org": "contributte",
@@ -3527,7 +3527,7 @@
     "created_at": "2018-04-04T21:43:22Z",
     "published_at": "2018-08-06T21:55:47Z",
     "html_url": "https://github.com/contributte/guzzlette/releases/tag/v1.1.0",
-    "body": "Bump! ��� \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v1.0.0...v1.1.0\r\n\r\nChanges:\r\n- Configuration for Guzzle Client"
+    "body": "Bump! 😋 \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v1.0.0...v1.1.0\r\n\r\nChanges:\r\n- Configuration for Guzzle Client"
   },
   "12279267": {
     "org": "contributte",
@@ -3817,7 +3817,7 @@
     "created_at": "2018-11-09T23:20:59Z",
     "published_at": "2018-11-09T23:33:41Z",
     "html_url": "https://github.com/contributte/middlewares/releases/tag/v0.8",
-    "body": "Bump! 😋 \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.7...v0.8\r\n\r\nChanges:\r\n- Drop BaseMiddleware in favor of IMiddleware (BC break)\r\n- EnforceHttpsMiddleware\r\n- TryCatchMiddleware\r\n\t- logging support\r\n\t- error message replace with generic message\r\n\t- improved configuration (BC break)\r\n- LoggingMiddleware - for logging of each requested url\r\n- Tracy panel - displays which middlewares were used\r\n- Removed root support (BC break)"
+    "body": "Bump! ��� \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.7...v0.8\r\n\r\nChanges:\r\n- Drop BaseMiddleware in favor of IMiddleware (BC break)\r\n- EnforceHttpsMiddleware\r\n- TryCatchMiddleware\r\n\t- logging support\r\n\t- error message replace with generic message\r\n\t- improved configuration (BC break)\r\n- LoggingMiddleware - for logging of each requested url\r\n- Tracy panel - displays which middlewares were used\r\n- Removed root support (BC break)"
   },
   "13931411": {
     "org": "contributte",
@@ -4213,7 +4213,7 @@
     "org": "contributte",
     "repo": "translation",
     "tag": "0.1.0",
-    "name": "v0.1",
+    "name": "v0.1.0",
     "created_at": "2019-04-06T09:10:17Z",
     "published_at": "2019-04-07T09:06:03Z",
     "html_url": "https://github.com/contributte/translation/releases/tag/0.1.0",
@@ -4228,5 +4228,25 @@
     "published_at": "2019-04-07T10:42:11Z",
     "html_url": "https://github.com/contributte/datagrid-nette-database-data-source/releases/tag/v2.0.0",
     "body": "- Added phpstan, code sniffer, updated to datagrid v6"
+  },
+  "16928415": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v5.7.2",
+    "name": "v5.7.2",
+    "created_at": "2019-04-23T17:34:42Z",
+    "published_at": "2019-04-23T17:55:45Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v5.7.2",
+    "body": "Bump! ⌛️ \r\n\r\nDiff: https://github.com/ublaboo/datagrid/compare/v5.7.1...v5.7.2\r\n\r\nChanges:\r\n- Handle the invalid date values in the date and date range filters (@petaak )\r\n- Add check for __toString() in array row value (@Rixafy )\r\n- Added method ::getOptions() for FilterSelect and FilterMultiSelect (@stanislav-janu )"
+  },
+  "16966111": {
+    "org": "contributte",
+    "repo": "mail",
+    "tag": "v0.3.0",
+    "name": "v0.3.0",
+    "created_at": "2019-04-25T05:56:27Z",
+    "published_at": "2019-04-25T05:58:18Z",
+    "html_url": "https://github.com/contributte/mail/releases/tag/v0.3.0",
+    "body": "Bump! 🕳 \r\n\r\nDiff: https://github.com/contributte/mail/compare/v0.2.0...v0.3.0\r\n\r\nChanges:\r\n- Readme: improvements\r\n- CI: improvements\r\n- CompositeMailer: throw exception by default\r\n\r\nℹ️ This is last version for Nette 2.4 and PHP 7.1.\r\n"
   }
 }

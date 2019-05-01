@@ -10,7 +10,7 @@
     "now-build": "echo 'OK'"
   },
   "dependencies": {
-    "dayjs": "^1.7.8"
+    "dayjs": "^1.8.13"
   },
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.0.0-alpha.47",
@@ -20,9 +20,9 @@
     "markdown-it-anchor": "^5.0.2",
     "markdown-it-emoji": "^1.4.0",
     "markdown-it-table-of-contents": "^0.4.4",
-    "node-sass": "^4.10.0",
+    "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0",
-    "twemoji": "^12.0.0",
+    "twemoji": "^12.0.1",
     "vuepress": "^1.0.0-alpha.47",
     "vuepress-plugin-sitemap": "^2.1.2"
   }

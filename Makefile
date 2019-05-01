@@ -5,4 +5,3 @@ sync:
 	node tools/sync-releases
 	node tools/sync-latest-release
 	node tools/generate-vue-pages
-

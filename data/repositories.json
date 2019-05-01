@@ -18,7 +18,10 @@
         "html_url": "https://github.com/contributte/console/releases/tag/v0.5",
         "body": "Bump! 🤒 \r\n\r\nDiff: https://github.com/contributte/console/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- removed deprecated `AbstractCommand`\r\n- removed deprecated `ContainerHelper` (https://gist.github.com/f3l1x/67841f8c1d1d041e937b4ca92b5b7a01)\r\n- PHP 5.6 -> PHP 7.1 [#16] [#13] \r\n- require symfony/console 4.x"
       }
-    }
+    },
+    "stars": 39,
+    "watchers": 39,
+    "forks": 11
   },
   "contributte/mailing": {
     "org": "contributte",
@@ -38,7 +41,10 @@
         "html_url": "https://github.com/contributte/mailing/releases/tag/v0.2",
         "body": "Bump! :abcd: \r\n\r\nDiff: https://github.com/contributte/mailing/compare/v0.1...v0.2\r\n\r\nChanges:\r\n\r\n- added MailBuild methods for bcc & cc\r\n- PHP 5.6 -> PHP 7.1\r\n"
       }
-    }
+    },
+    "stars": 7,
+    "watchers": 7,
+    "forks": 1
   },
   "contributte/neonizer": {
     "org": "contributte",
@@ -59,7 +65,10 @@
         "html_url": "https://github.com/contributte/neonizer/releases/tag/v0.2.2",
         "body": "Bump! 🤒 \r\n\r\nDiff: https://github.com/contributte/neonizer/compare/v0.2.1...v0.2.2\r\n\r\nChanges:\r\n- Better config merging [#8] [#9] "
       }
-    }
+    },
+    "stars": 9,
+    "watchers": 9,
+    "forks": 3
   },
   "contributte/console-extra": {
     "org": "contributte",
@@ -81,7 +90,10 @@
         "html_url": "https://github.com/contributte/console-extra/releases/tag/v0.4",
         "body": "Bump! 🍑 \r\n\r\nDiff: https://github.com/contributte/console-extra/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Improved UX\r\n- excludeDirs option for latte compilers (BC break, changed arguments order)\r\n- DiContainersCacheGenerator don't run container\r\n- LatteTemplatesCacheGenerator uses TemplateFactory (should fix most of compilation failures)"
       }
-    }
+    },
+    "stars": 12,
+    "watchers": 12,
+    "forks": 5
   },
   "contributte/event-dispatcher": {
     "org": "contributte",
@@ -103,7 +115,10 @@
         "html_url": "https://github.com/contributte/event-dispatcher/releases/tag/v0.5",
         "body": "Bumped! 🤖  \r\n\r\nDiff: https://github.com/contributte/event-dispatcher/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- php 7.1 https://github.com/contributte/event-dispatcher/commit/c73737297c9848fb9ab198c48f1719ce829e7501\r\n- droped unused AbstractEvent [[commit](https://github.com/contributte/event-dispatcher/commit/c73737297c9848fb9ab198c48f1719ce829e7501#diff-e5c1365777a9c98233a7d8a7dcf0d9d6)]\r\n- implemented priorities properly (https://github.com/contributte/event-dispatcher/commit/edadc7b3fefba2704e6f5eacc1023c69f2e36c49)"
       }
-    }
+    },
+    "stars": 12,
+    "watchers": 12,
+    "forks": 3
   },
   "contributte/live-form-validation": {
     "org": "contributte",
@@ -124,7 +139,10 @@
         "html_url": "https://github.com/contributte/live-form-validation/releases/tag/v1.9.0",
         "body": "Bump! 🏭 \r\n\r\nDiff: https://github.com/contributte/live-form-validation/compare/v1.8.0...v1.9.0\r\n\r\nChanges:\r\n- moved under contributte organization\r\n- created NPM package [#35]\r\n- added Travis CI releases\r\n- fixed ReferenceError prop is not defined\r\n- fixed range validator for min & max validator [#38]"
       }
-    }
+    },
+    "stars": 48,
+    "watchers": 48,
+    "forks": 19
   },
   "contributte/event-dispatcher-extra": {
     "org": "contributte",
@@ -146,7 +164,10 @@
         "html_url": "https://github.com/contributte/event-dispatcher-extra/releases/tag/v0.4.1",
         "body": "Bump! 🃏 \r\n\r\nDiff: https://github.com/contributte/event-dispatcher-extra/compare/v0.4...v0.4.1\r\n\r\nChanges:\r\n- added more tests on Presenter::onStartup/onShutdown [#17] [#16] [#15] \r\n- allow to pass IPresenter to PresenterStartup/PresenterShutdown event [#17]"
       }
-    }
+    },
+    "stars": 4,
+    "watchers": 4,
+    "forks": 6
   },
   "contributte/codeception": {
     "org": "contributte",
@@ -166,7 +187,10 @@
         "html_url": "https://github.com/contributte/codeception/releases/tag/v1.0.1",
         "body": "Bump! 🥇 \r\n\r\nDiff: https://github.com/contributte/codeception/compare/v1.0.0...v1.0.1\r\n\r\nChanges:\r\n- improved compatibility with phpstan (extension.neon)"
       }
-    }
+    },
+    "stars": 27,
+    "watchers": 27,
+    "forks": 7
   },
   "contributte/reCAPTCHA": {
     "org": "contributte",
@@ -187,7 +211,10 @@
         "html_url": "https://github.com/contributte/reCAPTCHA/releases/tag/3.1.0",
         "body": "Bumped! 🍶\r\n\r\nDiff: https://github.com/contributte/reCAPTCHA/compare/3.0.0...3.1.0\r\n\r\nChanges:\r\n- added Invisible reCAPTCHA [#21] (thanks @JanGalek) \r\n- enhanced readme (thanks @Gappa)"
       }
-    }
+    },
+    "stars": 24,
+    "watchers": 24,
+    "forks": 13
   },
   "contributte/scheduler": {
     "org": "contributte",
@@ -207,7 +234,10 @@
         "html_url": "https://github.com/contributte/scheduler/releases/tag/v0.4.0",
         "body": "Bump! 😹 \r\n\r\nDiff: https://github.com/contributte/scheduler/compare/v0.3.0...v0.4.0\r\n\r\nChanges:\r\n- Use symfony/console >= 4.2\r\n- Use dragonmantank/cron-expression > 2.2"
       }
-    }
+    },
+    "stars": 16,
+    "watchers": 16,
+    "forks": 4
   },
   "contributte/seznamcaptcha": {
     "org": "contributte",
@@ -228,7 +258,10 @@
         "html_url": "https://github.com/contributte/seznamcaptcha/releases/tag/0.3",
         "body": "Bumped! 🚶 \r\n\r\nChanges:\r\n- enhanced readme\r\n- repair validator [#1] "
       }
-    }
+    },
+    "stars": 1,
+    "watchers": 1,
+    "forks": 0
   },
   "contributte/logging": {
     "org": "contributte",
@@ -248,7 +281,10 @@
         "html_url": "https://github.com/contributte/logging/releases/tag/v0.3.0",
         "body": "Bump! 🥕\r\n\r\nDiff: https://github.com/contributte/logging/compare/v0.2.2...v0.3.0\r\n\r\nChanges:\r\n- lots of bc breaks (added typehints to interface)\r\n- support only 2.5.x tracy\r\n\r\n- TracyLoggingExtension\r\n    - keep original Tracy Logger in DIC with different key logging.originalLogger\r\n\r\n- SendMailLogger\r\n    - not filter only Exception [#22]\r\n    - sending also string messages with critical/error/exception priority (as in the original Logger)\r\n    - configurable priority\r\n\r\n- SentryLogger\r\n    - removed final\r\n    - added priority level\r\n    - sending also string messages with critical/error/exception priority\r\n    - configurable priority\r\n\r\n- FileLogger\r\n    - renamed from ExceptionFileLogger (because it does not log only exceptions but<priority>.log)\r\n\r\n- NullLogger\r\n    - with Tracy/ILogger interface [#10]\r\n\r\n- Utils\r\n    - used static methods formatLogLine,formatMessage from original Tracy\\Logger"
       }
-    }
+    },
+    "stars": 7,
+    "watchers": 7,
+    "forks": 9
   },
   "contributte/advisories": {
     "org": "contributte",
@@ -256,7 +292,10 @@
     "enabled": false,
     "priority": 0,
     "docs": "v1",
-    "description": ":punch: Collection of Contributte/Nette advisories"
+    "description": ":punch: Collection of Contributte/Nette advisories",
+    "stars": 0,
+    "watchers": 0,
+    "forks": 0
   },
   "contributte/api": {
     "org": "contributte",
@@ -276,7 +315,10 @@
         "html_url": "https://github.com/contributte/api/releases/tag/v0.3",
         "body": "Bump! 🔪 \r\n\r\nDiff: https://github.com/contributte/api/compare/v0.2.2...v0.3\r\n\r\nChanges:\r\n - namespace refactoring (drop Bridges)\r\n - rename Factory/Generator to Serialization\r\n - rename Validators to Validations\r\n - ApiResponse/ApiRequest don't composite PSR7, they extend\r\n - simplify whole middlewares usage\r\n - simplify ApiExtension\r\n - added new Api2MiddlewaresExtension to easy use of middlewares\r\n - simplify Transformers (from 2 interfaces to 1 interface)\r\n - direct dependencies: contributte/psr7-http-message, contributte/middlewares, contributte/phpdoc\r\n - tiny micro refactorings\r\n - added huge amount of tests \r\n\r\n"
       }
-    }
+    },
+    "stars": 11,
+    "watchers": 11,
+    "forks": 1
   },
   "contributte/application": {
     "org": "contributte",
@@ -297,7 +339,10 @@
         "html_url": "https://github.com/contributte/application/releases/tag/v0.3.2",
         "body": "Bumped! 📦 \r\n\r\nDiff: https://github.com/contributte/application/compare/v0.3.1...v0.3.2\r\n\r\nChanges:\r\n- fixed StructuredTemplates trait\r\n- added ImageResponse options to configure type and quality"
       }
-    }
+    },
+    "stars": 6,
+    "watchers": 6,
+    "forks": 4
   },
   "contributte/blogette": {
     "org": "contributte",
@@ -305,7 +350,10 @@
     "enabled": false,
     "priority": 0,
     "docs": "v1",
-    "description": ":postbox: Blogging platform [proof of concept]"
+    "description": ":postbox: Blogging platform [proof of concept]",
+    "stars": 1,
+    "watchers": 1,
+    "forks": 0
   },
   "contributte/bootstrap": {
     "org": "contributte",
@@ -326,7 +374,10 @@
         "html_url": "https://github.com/contributte/bootstrap/releases/tag/v0.3.1",
         "body": "Bump! :abcd: \r\n\r\nDiff: https://github.com/contributte/bootstrap/compare/v0.3...v0.3.1\r\n\r\nChanges:\r\n\r\n-  Bugfix detecting appDir\r\n"
       }
-    }
+    },
+    "stars": 8,
+    "watchers": 8,
+    "forks": 2
   },
   "contributte/cache": {
     "org": "contributte",
@@ -347,7 +398,10 @@
         "html_url": "https://github.com/contributte/cache/releases/tag/v0.3",
         "body": "Bump! 🤖 \r\n\r\nDiff: https://github.com/contributte/cache/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- MemoryAdapterStorage"
       }
-    }
+    },
+    "stars": 4,
+    "watchers": 4,
+    "forks": 2
   },
   "contributte/contributte": {
     "org": "contributte",
@@ -355,7 +409,10 @@
     "enabled": false,
     "priority": 0,
     "docs": "v1",
-    "description": ":heart: Contributte organization structure / RFC / Team"
+    "description": ":heart: Contributte organization structure / RFC / Team",
+    "stars": 4,
+    "watchers": 4,
+    "forks": 0
   },
   "contributte/database": {
     "org": "contributte",
@@ -376,7 +433,10 @@
         "html_url": "https://github.com/contributte/database/releases/tag/v0.2",
         "body": "Bump! *️⃣ \r\n\r\nDiff: https://github.com/contributte/database/compare/v0.1...v0.2\r\n\r\nChanged:\r\n- `>= PHP 7.1`\r\n- codestyle"
       }
-    }
+    },
+    "stars": 1,
+    "watchers": 1,
+    "forks": 1
   },
   "contributte/deployer-extension": {
     "org": "contributte",
@@ -397,7 +457,10 @@
         "html_url": "https://github.com/contributte/deployer-extension/releases/tag/v3.0.1",
         "body": "Bump! 🍔 \r\n\r\nDiff: https://github.com/contributte/deployer-extension/compare/v3.0.0...v3.0.1\r\n\r\nChanges:\r\n- Fixed all namespace usages"
       }
-    }
+    },
+    "stars": 8,
+    "watchers": 8,
+    "forks": 3
   },
   "contributte/dev": {
     "org": "contributte",
@@ -418,7 +481,10 @@
         "html_url": "https://github.com/contributte/dev/releases/tag/v0.1",
         "body": "Bumped! :fist_oncoming: "
       }
-    }
+    },
+    "stars": 2,
+    "watchers": 2,
+    "forks": 0
   },
   "contributte/di": {
     "org": "contributte",
@@ -440,7 +506,10 @@
         "html_url": "https://github.com/contributte/di/releases/tag/v0.3.0",
         "body": "Bump! 🐰 \r\n\r\nDiff: https://github.com/contributte/di/compare/v0.2.2...v0.3.0\r\n\r\nChanges:\r\n- PHP 7.1\r\n- NewExtensionsExtension"
       }
-    }
+    },
+    "stars": 9,
+    "watchers": 9,
+    "forks": 7
   },
   "contributte/dummy-events": {
     "org": "contributte",
@@ -461,7 +530,10 @@
         "html_url": "https://github.com/contributte/dummy-events/releases/tag/2.0.0",
         "body": "Bump! :+1: \r\n\r\nDiff: https://github.com/contributte/dummy-events/compare/1.2.0...2.0.0\r\n\r\nChanges:\r\n- changed namespace\r\n- changed composer package\r\n- PHP >= 7.1"
       }
-    }
+    },
+    "stars": 4,
+    "watchers": 4,
+    "forks": 1
   },
   "contributte/elasticsearch": {
     "org": "contributte",
@@ -482,7 +554,10 @@
         "html_url": "https://github.com/contributte/elasticsearch/releases/tag/v0.1",
         "body": "Bumped! :fist_oncoming: "
       }
-    }
+    },
+    "stars": 1,
+    "watchers": 1,
+    "forks": 2
   },
   "contributte/event-application-bridge": {
     "org": "contributte",
@@ -502,7 +577,10 @@
         "html_url": "https://github.com/contributte/event-application-bridge/releases/tag/v0.1.1",
         "body": "Bumped! 🗝 \r\n\r\nChanges:\r\n- added more tests\r\n- added own ruleset\r\n- fix invalid namespace"
       }
-    }
+    },
+    "stars": 2,
+    "watchers": 2,
+    "forks": 0
   },
   "contributte/event-bridges": {
     "org": "contributte",
@@ -522,7 +600,10 @@
         "html_url": "https://github.com/contributte/event-bridges/releases/tag/v0.1",
         "body": "Bumped! 👊 "
       }
-    }
+    },
+    "stars": 1,
+    "watchers": 1,
+    "forks": 0
   },
   "contributte/event-security-bridge": {
     "org": "contributte",
@@ -542,7 +623,10 @@
         "html_url": "https://github.com/contributte/event-security-bridge/releases/tag/v0.1",
         "body": "Bumped! 👊 \r\n"
       }
-    }
+    },
+    "stars": 2,
+    "watchers": 2,
+    "forks": 0
   },
   "contributte/facebook": {
     "org": "contributte",
@@ -562,7 +646,10 @@
         "html_url": "https://github.com/contributte/facebook/releases/tag/v0.2",
         "body": "Bump! :1st_place_medal: \r\n\r\nDiff: [v0.1...v0.2](https://github.com/contributte/facebook/compare/v0.1...v0.2)\r\n\r\nChanges:\r\n* `Facebook` and `FacebookFactory` are now services\r\n* Default usage of session PersistentDataHandler + session autostart\r\n* You can now specify `state` parameter in `FacebookLogin::getLoginUrl()`\r\n* `defaultGraphVersion` and `persistentDataHandler` added as options"
       }
-    }
+    },
+    "stars": 6,
+    "watchers": 6,
+    "forks": 4
   },
   "contributte/fio": {
     "org": "contributte",
@@ -582,7 +669,10 @@
         "html_url": "https://github.com/contributte/fio/releases/tag/v0.2",
         "body": "Bump! :1st_place_medal: \r\n\r\nDiff: [v0.1...v0.2](https://github.com/contributte/fio/compare/v0.1...v0.2)\r\n\r\nChanges:\r\n- upgrade dependencies\r\n- change namespace `Markette` to `Contributte`\r\n- change spaces to tabs (follow the `.editorconfig`)"
       }
-    }
+    },
+    "stars": 2,
+    "watchers": 2,
+    "forks": 1
   },
   "contributte/forms": {
     "org": "contributte",
@@ -603,7 +693,10 @@
         "html_url": "https://github.com/contributte/forms/releases/tag/v0.3",
         "body": "Bump! 🕳 \r\n\r\nDiff: https://github.com/contributte/forms/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- Split form factory into 2 application and standalone factories [#10]  \r\n  - IFormFactory -> IStandaloneFormFactory\r\n- removed Form class"
       }
-    }
+    },
+    "stars": 6,
+    "watchers": 6,
+    "forks": 2
   },
   "contributte/generator-nette": {
     "org": "contributte",
@@ -612,7 +705,10 @@
     "enabled": true,
     "priority": 0,
     "docs": "v0",
-    "description": ":man: Yeoman & Nette Framework"
+    "description": ":man: Yeoman & Nette Framework",
+    "stars": 18,
+    "watchers": 18,
+    "forks": 2
   },
   "contributte/http": {
     "org": "contributte",
@@ -633,7 +729,10 @@
         "html_url": "https://github.com/contributte/http/releases/tag/v0.2",
         "body": "Bump! 🍶 \r\n\r\nDiff: https://github.com/contributte/http/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- BasicAuth\r\n- Reorganized namespaces (BC break)\r\n- PHP 7.1"
       }
-    }
+    },
+    "stars": 2,
+    "watchers": 2,
+    "forks": 2
   },
   "contributte/latte": {
     "org": "contributte",
@@ -654,7 +753,10 @@
         "html_url": "https://github.com/contributte/latte/releases/tag/v0.3",
         "body": "Bump! :sa:\r\n\r\nDiff: https://github.com/contributte/latte/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- changed debug to generated [#10]\r\n- PHP 5.6 -> PHP 7.1 [#11]\r\n- dropped TemplateFactory (it's already in nette/application)\r\n"
       }
-    }
+    },
+    "stars": 5,
+    "watchers": 5,
+    "forks": 2
   },
   "contributte/latte-email": {
     "org": "contributte",
@@ -675,7 +777,10 @@
         "html_url": "https://github.com/contributte/latte-email/releases/tag/2.0.0",
         "body": "Bump! 🏭 \r\n\r\nDiff: https://github.com/contributte/latte-email/compare/1.2.1...2.0.0\r\n\r\nChanges:\r\n- PHP 5.4 -> PHP 5.6\r\n- change namespace\r\n- apply codesniffer"
       }
-    }
+    },
+    "stars": 6,
+    "watchers": 6,
+    "forks": 2
   },
   "contributte/latte-parsedown-extra": {
     "org": "contributte",
@@ -696,7 +801,10 @@
         "html_url": "https://github.com/contributte/latte-parsedown-extra/releases/tag/1.3.0",
         "body": "Bump! :sa:\r\n\r\nDiff: https://github.com/contributte/latte-parsedown-extra/compare/1.2.0...1.3.0\r\n\r\nChanges:\r\n- PHP 5.6 -> PHP 7.1 [#4] [#3] \r\n"
       }
-    }
+    },
+    "stars": 8,
+    "watchers": 8,
+    "forks": 2
   },
   "contributte/mail": {
     "org": "contributte",
@@ -717,7 +825,10 @@
         "html_url": "https://github.com/contributte/mail/releases/tag/v0.2.0",
         "body": "Bump! 🍼 \r\n\r\nDiff: https://github.com/contributte/mail/compare/v0.1.3...v0.2.0\r\n\r\nChanges:\r\n- PHP 7.1 [#7] [#6] \r\n- Debug panel [#5] [#2] \r\n- Replaced MessageFactory with IMessageFactory (BC break)"
       }
-    }
+    },
+    "stars": 5,
+    "watchers": 5,
+    "forks": 2
   },
   "contributte/middlewares": {
     "org": "contributte",
@@ -738,7 +849,10 @@
         "html_url": "https://github.com/contributte/middlewares/releases/tag/v0.8",
         "body": "Bump! 😋 \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.7...v0.8\r\n\r\nChanges:\r\n- Drop BaseMiddleware in favor of IMiddleware (BC break)\r\n- EnforceHttpsMiddleware\r\n- TryCatchMiddleware\r\n\t- logging support\r\n\t- error message replace with generic message\r\n\t- improved configuration (BC break)\r\n- LoggingMiddleware - for logging of each requested url\r\n- Tracy panel - displays which middlewares were used\r\n- Removed root support (BC break)"
       }
-    }
+    },
+    "stars": 8,
+    "watchers": 8,
+    "forks": 8
   },
   "contributte/psr11-container-interface": {
     "org": "contributte",
@@ -760,7 +874,10 @@
         "html_url": "https://github.com/contributte/psr11-container-interface/releases/tag/v0.3.0",
         "body": "Bump! 🥇 \r\n\r\nDiff: https://github.com/contributte/psr11-container-interface/compare/v0.2.0...v0.3.0\r\n\r\nChanges:\r\n- `getByType` support for interfaces https://github.com/contributte/psr11-container-interface/pull/4"
       }
-    }
+    },
+    "stars": 4,
+    "watchers": 4,
+    "forks": 3
   },
   "contributte/mobilni-platby": {
     "org": "contributte",
@@ -768,7 +885,10 @@
     "enabled": true,
     "priority": 0,
     "docs": "v0",
-    "description": ":moneybag: MobilniPlatby.cz for Nette Framework"
+    "description": ":moneybag: MobilniPlatby.cz for Nette Framework",
+    "stars": 5,
+    "watchers": 5,
+    "forks": 0
   },
   "contributte/model": {
     "org": "contributte",
@@ -788,7 +908,10 @@
         "html_url": "https://github.com/contributte/model/releases/tag/v0.1.0",
         "body": "First bump! 👊 \r\n\r\nAdded:\r\n - Email\r\n - LazyCollection"
       }
-    }
+    },
+    "stars": 1,
+    "watchers": 1,
+    "forks": 0
   },
   "contributte/nextras-criteria": {
     "org": "contributte",
@@ -797,7 +920,10 @@
     "enabled": false,
     "priority": 0,
     "docs": "v1",
-    "description": "Criteria Expression for Nextras\\ORM + Nextras\\DBAL (@nextras)"
+    "description": "Criteria Expression for Nextras\\ORM + Nextras\\DBAL (@nextras)",
+    "stars": 2,
+    "watchers": 2,
+    "forks": 0
   },
   "contributte/nextras-orm-events": {
     "org": "contributte",
@@ -819,7 +945,10 @@
         "html_url": "https://github.com/contributte/nextras-orm-events/releases/tag/0.4",
         "body": "Bumped! :sa: \r\n\r\nDiff: https://github.com/contributte/nextras-orm-events/compare/0.3...0.4\r\n\r\nChanges:\r\n* PHP 5.6 -> PHP 7.1 [#2] [#3] "
       }
-    }
+    },
+    "stars": 6,
+    "watchers": 6,
+    "forks": 0
   },
   "contributte/nextras-orm-generator": {
     "org": "contributte",
@@ -841,7 +970,10 @@
         "html_url": "https://github.com/contributte/nextras-orm-generator/releases/tag/0.2",
         "body": "Bump! ⌛️ \r\n\r\nDiff: https://github.com/contributte/nextras-orm-generator/compare/0.1...0.2\r\n\r\nChanges:\r\n\r\n- change name to contributte/nextras-orm-generator\r\n- support only for PHP7.1+\r\n- generate getEntityClassNames method on repository\r\n- singularization (converting plural table name to singular class names)\r\n- use Nextras\\Dbal\\Utils\\DateTimeImmutable for dates\r\n- option to generate column constants\r\n- model generator\r\n- compatibility with php-generator 3+\r\n- add config for (not) generating relations\r\n- set primary key on generated entities"
       }
-    }
+    },
+    "stars": 10,
+    "watchers": 10,
+    "forks": 8
   },
   "contributte/nextras-orm-query-object": {
     "org": "contributte",
@@ -863,7 +995,10 @@
         "html_url": "https://github.com/contributte/nextras-orm-query-object/releases/tag/v0.2",
         "body": "Bump! 🇬🇲 \r\n\r\nDiff: https://github.com/contributte/console/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- change namespace minetro -> contributte\r\n- PHP 7.1\r\n- Quality Assurance"
       }
-    }
+    },
+    "stars": 3,
+    "watchers": 3,
+    "forks": 1
   },
   "contributte/phpdoc": {
     "org": "contributte",
@@ -884,7 +1019,10 @@
         "html_url": "https://github.com/contributte/phpdoc/releases/tag/v0.2",
         "body": "Bump! 🏣 \r\n\r\nDiff: https://github.com/contributte/phpdoc/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- php 7.1 [#2]"
       }
-    }
+    },
+    "stars": 2,
+    "watchers": 2,
+    "forks": 0
   },
   "planette/playground": {
     "org": "planette",
@@ -893,7 +1031,10 @@
     "enabled": true,
     "priority": 0,
     "docs": "v0",
-    "description": ":books: Examples / tutorials / tips / samples | sandbox for @contributte"
+    "description": ":books: Examples / tutorials / tips / samples | sandbox for @contributte",
+    "stars": 7,
+    "watchers": 7,
+    "forks": 6
   },
   "contributte/psr6-caching": {
     "org": "contributte",
@@ -902,7 +1043,10 @@
     "enabled": false,
     "priority": 0,
     "docs": "v1",
-    "description": ":dizzy: PSR #6 [Caching Interface] to Nette Framework (@nette)"
+    "description": ":dizzy: PSR #6 [Caching Interface] to Nette Framework (@nette)",
+    "stars": 1,
+    "watchers": 1,
+    "forks": 1
   },
   "contributte/psr7-http-message": {
     "org": "contributte",
@@ -924,7 +1068,10 @@
         "html_url": "https://github.com/contributte/psr7-http-message/releases/tag/v0.5.2",
         "body": "Bump! *️⃣ \r\n\r\nDiff: https://github.com/contributte/psr7-http-message/compare/v0.5.1...v0.5.2\r\n\r\nChanged:\r\n- allow guzzlehttp/psr7 v1.5.0"
       }
-    }
+    },
+    "stars": 17,
+    "watchers": 17,
+    "forks": 1
   },
   "contributte/security": {
     "org": "contributte",
@@ -945,7 +1092,10 @@
         "html_url": "https://github.com/contributte/security/releases/tag/v0.2",
         "body": "Bump! :tada: \r\n\r\nDiff: https://github.com/contributte/security/compare/v0.1...v0.2\r\n\r\nChanges:\r\n- PHP 7.1\r\n- new StaticAuthenticator (#2) [thanks @mabar]\r\n"
       }
-    }
+    },
+    "stars": 5,
+    "watchers": 5,
+    "forks": 2
   },
   "contributte/server-timing": {
     "org": "contributte",
@@ -953,7 +1103,10 @@
     "enabled": false,
     "priority": 0,
     "docs": "v1",
-    "description": ":watch: Server Timing API profiling for Nette Framework "
+    "description": ":watch: Server Timing API profiling for Nette Framework ",
+    "stars": 0,
+    "watchers": 0,
+    "forks": 0
   },
   "contributte/social": {
     "org": "contributte",
@@ -973,7 +1126,10 @@
         "html_url": "https://github.com/contributte/social/releases/tag/v2.0.0",
         "body": "Bump! 🔩 \r\n\r\nDiff: https://github.com/contributte/social/compare/v1.2.0...2.0.0\r\n\r\nChanges:\r\n- changed namespace (minetro -> contributte)\r\n- PHP 5.6 -> PHP 7.1"
       }
-    }
+    },
+    "stars": 6,
+    "watchers": 6,
+    "forks": 2
   },
   "contributte/tracy": {
     "org": "contributte",
@@ -994,7 +1150,10 @@
         "html_url": "https://github.com/contributte/tracy/releases/tag/v0.3.1",
         "body": "Bump! 🍎 \r\n\r\nDiff: https://github.com/contributte/tracy/compare/v0.3...v0.3.1\r\n\r\nChanges:\r\n- Fixed invalid version constraint"
       }
-    }
+    },
+    "stars": 5,
+    "watchers": 5,
+    "forks": 2
   },
   "contributte/utils": {
     "org": "contributte",
@@ -1015,7 +1174,10 @@
         "html_url": "https://github.com/contributte/utils/releases/tag/v0.3.1",
         "body": "Bump! 💩 \r\n\r\nDiff: https://github.com/contributte/utils/compare/v0.3...v0.3.1\r\n\r\nChanges:\r\n- fixed FileSystem::purge - rmdir and unlink expects string, not object"
       }
-    }
+    },
+    "stars": 5,
+    "watchers": 5,
+    "forks": 4
   },
   "contributte/wordcha": {
     "org": "contributte",
@@ -1035,7 +1197,10 @@
         "html_url": "https://github.com/contributte/wordcha/releases/tag/v0.1",
         "body": "Bumped! :fist_oncoming: "
       }
-    }
+    },
+    "stars": 1,
+    "watchers": 1,
+    "forks": 0
   },
   "apitte/core": {
     "org": "apitte",
@@ -1056,7 +1221,10 @@
         "html_url": "https://github.com/apitte/core/releases/tag/v0.4",
         "body": "Bump! 🎉\r\n\r\nDiff: https://github.com/apitte/core/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Strict types and native typehints (#18)\r\n- phpstan 0.10\r\n- rewrited exceptions - more consistent and meaningful\r\n- normalized behavior for tags - all tags could have an optional value (#27)\r\n- router throws 405 instead of 404 for methods which are unsupported by endpoint (#54)\r\n- removed BadRequestException and RequestException (api should use ClientErrorException and ServerErrorException only) (#60)\r\n- fully implemented request parameters (#44, #40, #52)\r\n    - check format of variable instead of magical typecasting\r\n    - implemented datetime and boolean\r\n    - removed scalar (use string instead) and object (not implemented)\r\n    - removed support for custom types (in consistence with openapi - only object type may be returned in future)\r\n- validations\r\n    - each request parameter in path must be defined in mask and each mask parameter must be defined in request parameters\r\n    - check validity of request parameter attributes and validity of combination of these attributes\r\n    - allow only one default suffix for response mappers and require all suffixes to be unique\r\n    - check validity of negotiations (#28)\r\n- optimizations\r\n    - check renderers, request and response entities validity in compile-time\r\n- fixes\r\n    - fix case where non-last decorator returned null\r\n    - Method::addArguments - arguments order (affects only very low-level usage)"
       }
-    }
+    },
+    "stars": 23,
+    "watchers": 23,
+    "forks": 10
   },
   "apitte/debug": {
     "org": "apitte",
@@ -1077,7 +1245,10 @@
         "html_url": "https://github.com/apitte/debug/releases/tag/v0.4",
         "body": "Bump! 🎉 \r\n\r\nDiff: https://github.com/apitte/debug/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Strict types and native typehints\r\n- Register panel only if apitte debug and DebugPlugin debug is enabled"
       }
-    }
+    },
+    "stars": 3,
+    "watchers": 3,
+    "forks": 1
   },
   "apitte/console": {
     "org": "apitte",
@@ -1098,7 +1269,10 @@
         "html_url": "https://github.com/apitte/console/releases/tag/v0.4",
         "body": "Bump! 🎉 \r\n\r\nDiff: https://github.com/apitte/console/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Strict types and native typehints\r\n- Allow command lazyloading"
       }
-    }
+    },
+    "stars": 3,
+    "watchers": 3,
+    "forks": 1
   },
   "apitte/openapi": {
     "org": "apitte",
@@ -1119,7 +1293,10 @@
         "html_url": "https://github.com/apitte/openapi/releases/tag/v0.4",
         "body": "Bump! 🎉 \r\n\r\nDiff: https://github.com/apitte/openapi/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Strict types and native typehints\r\n- Tracy panel is draggable"
       }
-    }
+    },
+    "stars": 6,
+    "watchers": 6,
+    "forks": 3
   },
   "apitte/middlewares": {
     "org": "apitte",
@@ -1140,7 +1317,10 @@
         "html_url": "https://github.com/apitte/middlewares/releases/tag/v0.4",
         "body": "Bump! 🎉 \r\n\r\nDiff: https://github.com/apitte/middlewares/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Strict types and native typehints\r\n- Simplified ApiMiddleware (#5)"
       }
-    }
+    },
+    "stars": 4,
+    "watchers": 4,
+    "forks": 1
   },
   "apitte/negotiation": {
     "org": "apitte",
@@ -1161,7 +1341,10 @@
         "html_url": "https://github.com/apitte/negotiation/releases/tag/v0.4",
         "body": "Bump! 🎉 \r\n\r\nDiff: https://github.com/apitte/negotiation/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Strict types and native typehints\r\n- Handle errors properly\r\n\t- each transformer (csv, json) transform exception messages which are not designed to be displayed for user into a general message (in production mode only, it's a security feature)\r\n    - each transformer set http code and error message into response properly"
       }
-    }
+    },
+    "stars": 3,
+    "watchers": 3,
+    "forks": 0
   },
   "apitte/presenter": {
     "org": "apitte",
@@ -1182,7 +1365,10 @@
         "html_url": "https://github.com/apitte/presenter/releases/tag/v0.4",
         "body": "Bump! 🎉 \r\n\r\nDiff: https://github.com/apitte/presenter/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Strict types and native typehints"
       }
-    }
+    },
+    "stars": 4,
+    "watchers": 4,
+    "forks": 1
   },
   "apitte/fullstack": {
     "org": "apitte",
@@ -1203,7 +1389,10 @@
         "html_url": "https://github.com/apitte/fullstack/releases/tag/v0.4",
         "body": "Bump! 🎉 \r\n\r\nDiff: https://github.com/apitte/fullstack/compare/v0.3...v0.4\r\n"
       }
-    }
+    },
+    "stars": 5,
+    "watchers": 5,
+    "forks": 1
   },
   "apitte/openapi-toolkit": {
     "org": "apitte",
@@ -1212,7 +1401,10 @@
     "priority": 0,
     "docs": "v0",
     "description": ":diamonds: Simple and intuitive OpenApi/Swagger compatible UI toolkit",
-    "category": "apitte"
+    "category": "apitte",
+    "stars": 3,
+    "watchers": 3,
+    "forks": 0
   },
   "nettrine/dbal": {
     "org": "nettrine",
@@ -1233,7 +1425,10 @@
         "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.3",
         "body": "Bumped! 🏷  \r\n\r\nDiff: https://github.com/nettrine/dbal/compare/v0.2.7...v0.3\r\n\r\nChanges:\r\n- require doctrine/dbal ~2.9.2\r\n- added `unix_socket` to configuration (thanks  @kubarta)\r\n- ContainerAwareEventManager: support subscribers as anonymous services (thanks @jiripudil)\r\n- use phpstan 0.11, phpunit 8"
       }
-    }
+    },
+    "stars": 7,
+    "watchers": 7,
+    "forks": 13
   },
   "nettrine/orm": {
     "org": "nettrine",
@@ -1254,7 +1449,10 @@
         "html_url": "https://github.com/nettrine/orm/releases/tag/v0.3",
         "body": "Bumped! 🏷  \r\n\r\nDiff: https://github.com/nettrine/orm/compare/v0.2.2...v0.3\r\n\r\nChanges:\r\n- added EntityManagerDecorator, because EntityManager is final [#22][#41]\r\n- added XML bridge [#42](thanks @JanMikes + @JanGalek)\r\n- added configurationClass [#46](thanks @aleswita)\r\n- use Phpstan v0.11\r\n- improve docs (@mabar, @Gappa)\r\n- upgrade minimal deps (nette/di, nette/utils, symfony/console, doctrine/orm, doctrine/cache)"
       }
-    }
+    },
+    "stars": 29,
+    "watchers": 29,
+    "forks": 20
   },
   "nettrine/fixtures": {
     "org": "nettrine",
@@ -1275,7 +1473,10 @@
         "html_url": "https://github.com/nettrine/fixtures/releases/tag/v0.4",
         "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/nettrine/fixtures/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Upgrade deps (use symfony/console >=4.2)\r\n- Commands in DI have `console.command` tag (@mabar)\r\n- Typos"
       }
-    }
+    },
+    "stars": 5,
+    "watchers": 5,
+    "forks": 0
   },
   "nettrine/migrations": {
     "org": "nettrine",
@@ -1296,7 +1497,10 @@
         "html_url": "https://github.com/nettrine/migrations/releases/tag/v0.5",
         "body": "Bump! 🏷  \r\n\r\nDiff: https://github.com/nettrine/migrations/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- use doctrine/migrations 2.0\r\n- added `customTemplate` (thanks @RiKap)"
       }
-    }
+    },
+    "stars": 21,
+    "watchers": 21,
+    "forks": 7
   },
   "nettrine/extensions": {
     "org": "nettrine",
@@ -1317,7 +1521,10 @@
         "html_url": "https://github.com/nettrine/extensions/releases/tag/v0.3",
         "body": "Bump! 🍭 \r\n\r\nDiff: https://github.com/nettrine/extensions/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- switch Kdyby -> Nettrine\r\n- require PHP 7.1"
       }
-    }
+    },
+    "stars": 4,
+    "watchers": 4,
+    "forks": 6
   },
   "nettrine/annotations": {
     "org": "nettrine",
@@ -1338,7 +1545,10 @@
         "html_url": "https://github.com/nettrine/annotations/releases/tag/v0.4",
         "body": "Bump! 🕹 \r\nDiff: https://github.com/nettrine/annotations/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Upgrade composer dependencies\r\n- Require doctrine/cache >=1.7.1\r\n- More tests"
       }
-    }
+    },
+    "stars": 3,
+    "watchers": 3,
+    "forks": 2
   },
   "nettrine/cache": {
     "org": "nettrine",
@@ -1347,7 +1557,10 @@
     "priority": 0,
     "docs": "v0",
     "description": ":arrows_clockwise: Doctrine Cache adapter for Nette Framework",
-    "category": "nettrine"
+    "category": "nettrine",
+    "stars": 3,
+    "watchers": 3,
+    "forks": 2
   },
   "nettrine/hydrator": {
     "org": "nettrine",
@@ -1356,7 +1569,10 @@
     "priority": 0,
     "docs": "v0",
     "description": ":arrow_left: :arrow_right: Convert Doctrine entity to array and conversely",
-    "category": "nettrine"
+    "category": "nettrine",
+    "stars": 2,
+    "watchers": 2,
+    "forks": 0
   },
   "contributte/flysystem": {
     "org": "contributte",
@@ -1376,7 +1592,10 @@
         "html_url": "https://github.com/contributte/flysystem/releases/tag/v0.1",
         "body": "First bump! 👊 "
       }
-    }
+    },
+    "stars": 4,
+    "watchers": 4,
+    "forks": 7
   },
   "contributte/guzzlette": {
     "org": "contributte",
@@ -1396,7 +1615,10 @@
         "html_url": "https://github.com/contributte/guzzlette/releases/tag/v2.0.0",
         "body": "Bump! 👊 \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v1.1.0...v2.0.0\r\n\r\nChanges:\r\n- Matyx -> Contributte\r\n- PHP 7.1\r\n- Reorganized configuration (see docs)\r\n"
       }
-    }
+    },
+    "stars": 12,
+    "watchers": 12,
+    "forks": 7
   },
   "contributte/redis": {
     "org": "contributte",
@@ -1416,7 +1638,10 @@
         "html_url": "https://github.com/contributte/redis/releases/tag/v0.1",
         "body": "First bump! :fist_oncoming: \r\n"
       }
-    }
+    },
+    "stars": 5,
+    "watchers": 5,
+    "forks": 3
   },
   "contributte/monolog": {
     "org": "contributte",
@@ -1436,7 +1661,10 @@
         "html_url": "https://github.com/contributte/monolog/releases/tag/v0.1.0",
         "body": "First bump! :fist_oncoming: "
       }
-    }
+    },
+    "stars": 9,
+    "watchers": 9,
+    "forks": 3
   },
   "contributte/image-storage": {
     "org": "contributte",
@@ -1445,7 +1673,10 @@
     "priority": 0,
     "docs": "v0",
     "description": ":stars: Image storage for Nette framework",
-    "releases": {}
+    "releases": {},
+    "stars": 19,
+    "watchers": 19,
+    "forks": 10
   },
   "contributte/thepay-api": {
     "org": "contributte",
@@ -1465,7 +1696,10 @@
         "html_url": "https://github.com/contributte/thepay-api/releases/tag/v4.0.1",
         "body": "94094f9 Fix int cast for rawurlencode(string)"
       }
-    }
+    },
+    "stars": 3,
+    "watchers": 3,
+    "forks": 1
   },
   "contributte/thepay": {
     "org": "contributte",
@@ -1485,7 +1719,10 @@
         "html_url": "https://github.com/contributte/thepay/releases/tag/v4.1.0",
         "body": "cd6c8ee Intorduce IDivMerchant factory\r\n03e2768 Compatibility with Nette\\\\DI 3.0"
       }
-    }
+    },
+    "stars": 2,
+    "watchers": 2,
+    "forks": 1
   },
   "contributte/anabelle": {
     "org": "contributte",
@@ -1505,7 +1742,10 @@
         "html_url": "https://github.com/contributte/anabelle/releases/tag/v1.6.0",
         "body": "Features\r\n\r\n- When key \"F\" is pressed, focus to search input"
       }
-    }
+    },
+    "stars": 14,
+    "watchers": 14,
+    "forks": 2
   },
   "contributte/replacus": {
     "org": "contributte",
@@ -1525,7 +1765,10 @@
         "html_url": "https://github.com/contributte/replacus/releases/tag/v0.1",
         "body": "Bump! :fist_oncoming: "
       }
-    }
+    },
+    "stars": 2,
+    "watchers": 2,
+    "forks": 0
   },
   "contributte/forms-multiplier": {
     "org": "contributte",
@@ -1545,7 +1788,10 @@
         "html_url": "https://github.com/contributte/forms-multiplier/releases/tag/1.0",
         "body": ""
       }
-    }
+    },
+    "stars": 10,
+    "watchers": 10,
+    "forks": 7
   },
   "contributte/forms-wizard": {
     "org": "contributte",
@@ -1565,7 +1811,10 @@
         "html_url": "https://github.com/contributte/forms-wizard/releases/tag/2.0",
         "body": "php 7.1 and above required"
       }
-    }
+    },
+    "stars": 7,
+    "watchers": 7,
+    "forks": 3
   },
   "contributte/datagrid": {
     "org": "contributte",
@@ -1585,7 +1834,10 @@
         "html_url": "https://github.com/contributte/datagrid/releases/tag/v5.7.1",
         "body": "Bump! ⌛️ \r\n\r\nDiff: https://github.com/ublaboo/datagrid/compare/v5.7.0...v5.7.1\r\n\r\nChanges:\r\n- Added support for Export button confirm dialog (@Arziel)\r\n- Bump 5.7.0 NPM package\r\n- DoctrineDataSource - clean DQL orderBy (@JKoty) \r\n- Bootstrap 4 calendar icon (@radekdostal) [#706]\r\n- Repair paginator (@romanmatyus) [#645]\r\n- NextrasDataSource - fix multiselect (@martenb) [#653]\r\n- DoctrineCollectionDataSource - protectec properties [#672]\r\n- Bugfix: throwing exception on null parent. [#721]\r\n- Datagrid: setDataSource - allow NextrasDataSource [#737]"
       }
-    }
+    },
+    "stars": 163,
+    "watchers": 163,
+    "forks": 127
   },
   "contributte/api-router": {
     "org": "contributte",
@@ -1605,7 +1857,10 @@
         "html_url": "https://github.com/contributte/api-router/releases/tag/v2.0.3",
         "body": "- Allow ApiRouteSpec::$description to be null"
       }
-    }
+    },
+    "stars": 11,
+    "watchers": 11,
+    "forks": 15
   },
   "contributte/api-docu": {
     "org": "contributte",
@@ -1625,7 +1880,10 @@
         "html_url": "https://github.com/contributte/api-docu/releases/tag/v2.0.0",
         "body": "## Added\r\n- Composer requires php 7.1\r\n- Using php 7.1 return types + method argument types declarations"
       }
-    }
+    },
+    "stars": 3,
+    "watchers": 3,
+    "forks": 0
   },
   "contributte/invoice": {
     "org": "contributte",
@@ -1645,7 +1903,10 @@
         "html_url": "https://github.com/contributte/invoice/releases/tag/v3.0.0",
         "body": ""
       }
-    }
+    },
+    "stars": 30,
+    "watchers": 30,
+    "forks": 8
   },
   "contributte/translation": {
     "org": "contributte",
@@ -1665,7 +1926,10 @@
         "html_url": "https://github.com/contributte/translation/releases/tag/0.1.0",
         "body": "- change namespace from **Translette** to **Contributte** (BC break)\r\n- added new locale resolver **Router**\r\n- fix for Parameter locale resolver\r\n- added experiment loader for Doctrine (read more in docs)\r\n- change dependencies to stable Nette versions\r\n"
       }
-    }
+    },
+    "stars": 12,
+    "watchers": 12,
+    "forks": 0
   },
   "contributte/gosms": {
     "org": "contributte",
@@ -1685,7 +1949,10 @@
         "html_url": "https://github.com/contributte/gosms/releases/tag/v0.1",
         "body": "First bump! :fist_oncoming: "
       }
-    }
+    },
+    "stars": 0,
+    "watchers": 0,
+    "forks": 0
   },
   "contributte/czech-post": {
     "org": "contributte",
@@ -1705,6 +1972,9 @@
         "html_url": "https://github.com/contributte/czech-post/releases/tag/v0.1.0",
         "body": "First bump! :fist_oncoming: \r\n"
       }
-    }
+    },
+    "stars": 2,
+    "watchers": 2,
+    "forks": 1
   }
 }

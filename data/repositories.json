@@ -21,7 +21,16 @@
     },
     "stars": 39,
     "watchers": 39,
-    "forks": 11
+    "forks": 11,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": [
+        "2.4"
+      ]
+    }
   },
   "contributte/mailing": {
     "org": "contributte",
@@ -44,7 +53,16 @@
     },
     "stars": 7,
     "watchers": 7,
-    "forks": 1
+    "forks": 1,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "contributte/neonizer": {
     "org": "contributte",
@@ -68,7 +86,17 @@
     },
     "stars": 9,
     "watchers": 9,
-    "forks": 3
+    "forks": 3,
+    "composer": {
+      "nette": [
+        "2.4",
+        "3.0"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "contributte/console-extra": {
     "org": "contributte",
@@ -93,7 +121,14 @@
     },
     "stars": 12,
     "watchers": 12,
-    "forks": 5
+    "forks": 5,
+    "composer": {
+      "nette": [],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "contributte/event-dispatcher": {
     "org": "contributte",
@@ -118,7 +153,16 @@
     },
     "stars": 12,
     "watchers": 12,
-    "forks": 3
+    "forks": 3,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": [
+        "2.4"
+      ]
+    }
   },
   "contributte/live-form-validation": {
     "org": "contributte",
@@ -167,7 +211,16 @@
     },
     "stars": 4,
     "watchers": 4,
-    "forks": 6
+    "forks": 6,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "contributte/codeception": {
     "org": "contributte",
@@ -190,7 +243,16 @@
     },
     "stars": 27,
     "watchers": 27,
-    "forks": 7
+    "forks": 7,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": [
+        "2.4"
+      ]
+    }
   },
   "contributte/reCAPTCHA": {
     "org": "contributte",
@@ -214,7 +276,16 @@
     },
     "stars": 24,
     "watchers": 24,
-    "forks": 13
+    "forks": 13,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "contributte/scheduler": {
     "org": "contributte",
@@ -237,7 +308,16 @@
     },
     "stars": 16,
     "watchers": 16,
-    "forks": 4
+    "forks": 4,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": [
+        "2.4"
+      ]
+    }
   },
   "contributte/seznamcaptcha": {
     "org": "contributte",
@@ -261,7 +341,14 @@
     },
     "stars": 1,
     "watchers": 1,
-    "forks": 0
+    "forks": 0,
+    "composer": {
+      "nette": [],
+      "php": [
+        "5.6",
+        "8.0"
+      ]
+    }
   },
   "contributte/logging": {
     "org": "contributte",
@@ -284,7 +371,17 @@
     },
     "stars": 7,
     "watchers": 7,
-    "forks": 9
+    "forks": 9,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": [
+        "2.4",
+        "3.0"
+      ]
+    }
   },
   "contributte/advisories": {
     "org": "contributte",
@@ -319,7 +416,16 @@
     },
     "stars": 6,
     "watchers": 6,
-    "forks": 4
+    "forks": 4,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "contributte/bootstrap": {
     "org": "contributte",
@@ -343,7 +449,16 @@
     },
     "stars": 8,
     "watchers": 8,
-    "forks": 2
+    "forks": 2,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "contributte/cache": {
     "org": "contributte",
@@ -367,7 +482,16 @@
     },
     "stars": 4,
     "watchers": 4,
-    "forks": 2
+    "forks": 2,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "contributte/database": {
     "org": "contributte",
@@ -391,7 +515,16 @@
     },
     "stars": 1,
     "watchers": 1,
-    "forks": 1
+    "forks": 1,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "contributte/deployer-extension": {
     "org": "contributte",
@@ -415,7 +548,16 @@
     },
     "stars": 8,
     "watchers": 8,
-    "forks": 3
+    "forks": 3,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "contributte/dev": {
     "org": "contributte",
@@ -439,7 +581,13 @@
     },
     "stars": 2,
     "watchers": 2,
-    "forks": 0
+    "forks": 0,
+    "composer": {
+      "php": [
+        "5.6",
+        "8.0"
+      ]
+    }
   },
   "contributte/di": {
     "org": "contributte",
@@ -464,7 +612,16 @@
     },
     "stars": 9,
     "watchers": 9,
-    "forks": 7
+    "forks": 7,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "contributte/dummy-events": {
     "org": "contributte",
@@ -488,7 +645,16 @@
     },
     "stars": 4,
     "watchers": 4,
-    "forks": 1
+    "forks": 1,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "contributte/elasticsearch": {
     "org": "contributte",
@@ -512,7 +678,16 @@
     },
     "stars": 1,
     "watchers": 1,
-    "forks": 2
+    "forks": 2,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "contributte/facebook": {
     "org": "contributte",
@@ -535,7 +710,16 @@
     },
     "stars": 6,
     "watchers": 6,
-    "forks": 4
+    "forks": 4,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": [
+        "2.4"
+      ]
+    }
   },
   "contributte/fio": {
     "org": "contributte",
@@ -558,7 +742,16 @@
     },
     "stars": 2,
     "watchers": 2,
-    "forks": 1
+    "forks": 1,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": [
+        "2.4"
+      ]
+    }
   },
   "contributte/forms": {
     "org": "contributte",
@@ -582,7 +775,16 @@
     },
     "stars": 6,
     "watchers": 6,
-    "forks": 2
+    "forks": 2,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "contributte/generator-nette": {
     "org": "contributte",
@@ -618,7 +820,16 @@
     },
     "stars": 2,
     "watchers": 2,
-    "forks": 2
+    "forks": 2,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "contributte/latte": {
     "org": "contributte",
@@ -642,7 +853,16 @@
     },
     "stars": 5,
     "watchers": 5,
-    "forks": 2
+    "forks": 2,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": [
+        "2.4"
+      ]
+    }
   },
   "contributte/latte-email": {
     "org": "contributte",
@@ -666,7 +886,16 @@
     },
     "stars": 6,
     "watchers": 6,
-    "forks": 2
+    "forks": 2,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "5.6",
+        "8.0"
+      ]
+    }
   },
   "contributte/latte-parsedown-extra": {
     "org": "contributte",
@@ -690,7 +919,16 @@
     },
     "stars": 8,
     "watchers": 8,
-    "forks": 2
+    "forks": 2,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "contributte/mail": {
     "org": "contributte",
@@ -714,7 +952,16 @@
     },
     "stars": 5,
     "watchers": 5,
-    "forks": 2
+    "forks": 2,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.2",
+        "7.4"
+      ]
+    }
   },
   "contributte/middlewares": {
     "org": "contributte",
@@ -738,7 +985,16 @@
     },
     "stars": 8,
     "watchers": 8,
-    "forks": 8
+    "forks": 8,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": [
+        "2.4"
+      ]
+    }
   },
   "contributte/psr11-container-interface": {
     "org": "contributte",
@@ -763,7 +1019,16 @@
     },
     "stars": 4,
     "watchers": 4,
-    "forks": 3
+    "forks": 3,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "contributte/mobilni-platby": {
     "org": "contributte",
@@ -774,7 +1039,16 @@
     "description": ":moneybag: MobilniPlatby.cz for Nette Framework",
     "stars": 5,
     "watchers": 5,
-    "forks": 0
+    "forks": 0,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "contributte/model": {
     "org": "contributte",
@@ -797,7 +1071,16 @@
     },
     "stars": 1,
     "watchers": 1,
-    "forks": 0
+    "forks": 0,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "contributte/nextras-orm-events": {
     "org": "contributte",
@@ -822,7 +1105,16 @@
     },
     "stars": 6,
     "watchers": 6,
-    "forks": 0
+    "forks": 0,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "contributte/nextras-orm-generator": {
     "org": "contributte",
@@ -832,7 +1124,7 @@
     "enabled": true,
     "priority": 0,
     "docs": "v0",
-    "description": ":wolf: [experimental] Nextras\\ORM entity generator",
+    "description": ":wolf: Rich Nextras\\ORM entity generator for fast prototyping your new project.",
     "releases": {
       "last": {
         "org": "contributte",
@@ -847,7 +1139,16 @@
     },
     "stars": 10,
     "watchers": 10,
-    "forks": 8
+    "forks": 8,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "contributte/nextras-orm-query-object": {
     "org": "contributte",
@@ -872,7 +1173,16 @@
     },
     "stars": 3,
     "watchers": 3,
-    "forks": 1
+    "forks": 1,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": [
+        "2.4"
+      ]
+    }
   },
   "contributte/phpdoc": {
     "org": "contributte",
@@ -896,7 +1206,16 @@
     },
     "stars": 2,
     "watchers": 2,
-    "forks": 0
+    "forks": 0,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "planette/playground": {
     "org": "planette",
@@ -933,7 +1252,16 @@
     },
     "stars": 17,
     "watchers": 17,
-    "forks": 1
+    "forks": 1,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": [
+        "2.4"
+      ]
+    }
   },
   "contributte/security": {
     "org": "contributte",
@@ -957,7 +1285,16 @@
     },
     "stars": 5,
     "watchers": 5,
-    "forks": 2
+    "forks": 2,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "contributte/social": {
     "org": "contributte",
@@ -980,7 +1317,16 @@
     },
     "stars": 6,
     "watchers": 6,
-    "forks": 2
+    "forks": 2,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "contributte/tracy": {
     "org": "contributte",
@@ -1004,7 +1350,16 @@
     },
     "stars": 5,
     "watchers": 5,
-    "forks": 2
+    "forks": 2,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": [
+        "2.4"
+      ]
+    }
   },
   "contributte/utils": {
     "org": "contributte",
@@ -1028,7 +1383,16 @@
     },
     "stars": 5,
     "watchers": 5,
-    "forks": 4
+    "forks": 4,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.2",
+        "7.4"
+      ]
+    }
   },
   "contributte/wordcha": {
     "org": "contributte",
@@ -1051,7 +1415,16 @@
     },
     "stars": 1,
     "watchers": 1,
-    "forks": 0
+    "forks": 0,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "apitte/core": {
     "org": "apitte",
@@ -1059,7 +1432,7 @@
     "enabled": true,
     "priority": 0,
     "docs": "v0",
-    "description": ":wrench: Core API library in Apitte stack. Also work standalone.",
+    "description": ":wrench: PSR-7 based API framework. Heart of the apitte stack. Suitable to use with Nette Framework.",
     "category": "apitte",
     "releases": {
       "last": {
@@ -1075,7 +1448,16 @@
     },
     "stars": 23,
     "watchers": 23,
-    "forks": 10
+    "forks": 10,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": [
+        "2.4"
+      ]
+    }
   },
   "apitte/debug": {
     "org": "apitte",
@@ -1099,7 +1481,16 @@
     },
     "stars": 3,
     "watchers": 3,
-    "forks": 1
+    "forks": 1,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": [
+        "2.4"
+      ]
+    }
   },
   "apitte/console": {
     "org": "apitte",
@@ -1123,7 +1514,16 @@
     },
     "stars": 3,
     "watchers": 3,
-    "forks": 1
+    "forks": 1,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": [
+        "2.4"
+      ]
+    }
   },
   "apitte/openapi": {
     "org": "apitte",
@@ -1147,7 +1547,16 @@
     },
     "stars": 6,
     "watchers": 6,
-    "forks": 3
+    "forks": 3,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": [
+        "2.4"
+      ]
+    }
   },
   "apitte/middlewares": {
     "org": "apitte",
@@ -1171,7 +1580,16 @@
     },
     "stars": 4,
     "watchers": 4,
-    "forks": 1
+    "forks": 1,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": [
+        "2.4"
+      ]
+    }
   },
   "apitte/negotiation": {
     "org": "apitte",
@@ -1195,7 +1613,16 @@
     },
     "stars": 3,
     "watchers": 3,
-    "forks": 0
+    "forks": 0,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": [
+        "2.4"
+      ]
+    }
   },
   "apitte/presenter": {
     "org": "apitte",
@@ -1219,7 +1646,16 @@
     },
     "stars": 4,
     "watchers": 4,
-    "forks": 1
+    "forks": 1,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": [
+        "2.4"
+      ]
+    }
   },
   "apitte/fullstack": {
     "org": "apitte",
@@ -1243,7 +1679,13 @@
     },
     "stars": 5,
     "watchers": 5,
-    "forks": 1
+    "forks": 1,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "apitte/openapi-toolkit": {
     "org": "apitte",
@@ -1279,7 +1721,16 @@
     },
     "stars": 7,
     "watchers": 7,
-    "forks": 13
+    "forks": 13,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "nettrine/orm": {
     "org": "nettrine",
@@ -1303,7 +1754,17 @@
     },
     "stars": 29,
     "watchers": 29,
-    "forks": 20
+    "forks": 20,
+    "composer": {
+      "nette": [
+        "2.4",
+        "3.0"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "nettrine/fixtures": {
     "org": "nettrine",
@@ -1327,7 +1788,16 @@
     },
     "stars": 5,
     "watchers": 5,
-    "forks": 0
+    "forks": 0,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "nettrine/migrations": {
     "org": "nettrine",
@@ -1351,7 +1821,16 @@
     },
     "stars": 21,
     "watchers": 21,
-    "forks": 7
+    "forks": 7,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": [
+        "2.4"
+      ]
+    }
   },
   "nettrine/extensions": {
     "org": "nettrine",
@@ -1375,7 +1854,16 @@
     },
     "stars": 4,
     "watchers": 4,
-    "forks": 6
+    "forks": 6,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "nettrine/annotations": {
     "org": "nettrine",
@@ -1399,7 +1887,16 @@
     },
     "stars": 3,
     "watchers": 3,
-    "forks": 2
+    "forks": 2,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": [
+        "2.4"
+      ]
+    }
   },
   "nettrine/cache": {
     "org": "nettrine",
@@ -1407,11 +1904,21 @@
     "enabled": false,
     "priority": 0,
     "docs": "v0",
-    "description": ":arrows_clockwise: Doctrine Cache adapter for Nette Framework",
+    "description": ":arrows_clockwise: Doctrine Cache adapter for Nette Framework ",
     "category": "nettrine",
     "stars": 3,
     "watchers": 3,
-    "forks": 2
+    "forks": 2,
+    "composer": {
+      "nette": [
+        "2.4",
+        "3.0"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "nettrine/hydrator": {
     "org": "nettrine",
@@ -1423,7 +1930,16 @@
     "category": "nettrine",
     "stars": 2,
     "watchers": 2,
-    "forks": 0
+    "forks": 0,
+    "composer": {
+      "php": [
+        "7.2",
+        "8.0"
+      ],
+      "nette": [
+        "3.0"
+      ]
+    }
   },
   "contributte/flysystem": {
     "org": "contributte",
@@ -1446,7 +1962,16 @@
     },
     "stars": 4,
     "watchers": 4,
-    "forks": 7
+    "forks": 7,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": [
+        "2.4"
+      ]
+    }
   },
   "contributte/guzzlette": {
     "org": "contributte",
@@ -1469,7 +1994,14 @@
     },
     "stars": 12,
     "watchers": 12,
-    "forks": 7
+    "forks": 7,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": []
+    }
   },
   "contributte/redis": {
     "org": "contributte",
@@ -1492,7 +2024,13 @@
     },
     "stars": 5,
     "watchers": 5,
-    "forks": 3
+    "forks": 3,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": []
+    }
   },
   "contributte/monolog": {
     "org": "contributte",
@@ -1515,7 +2053,16 @@
     },
     "stars": 9,
     "watchers": 9,
-    "forks": 3
+    "forks": 3,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": [
+        "2.4"
+      ]
+    }
   },
   "contributte/image-storage": {
     "org": "contributte",
@@ -1527,7 +2074,16 @@
     "releases": {},
     "stars": 19,
     "watchers": 19,
-    "forks": 10
+    "forks": 10,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "contributte/thepay-api": {
     "org": "contributte",
@@ -1550,7 +2106,17 @@
     },
     "stars": 3,
     "watchers": 3,
-    "forks": 1
+    "forks": 1,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": [
+        "2.4",
+        "3.0"
+      ]
+    }
   },
   "contributte/thepay": {
     "org": "contributte",
@@ -1573,7 +2139,16 @@
     },
     "stars": 2,
     "watchers": 2,
-    "forks": 1
+    "forks": 1,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": [
+        "2.4"
+      ]
+    }
   },
   "contributte/anabelle": {
     "org": "contributte",
@@ -1596,7 +2171,16 @@
     },
     "stars": 14,
     "watchers": 14,
-    "forks": 2
+    "forks": 2,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": [
+        "2.4"
+      ]
+    }
   },
   "contributte/replacus": {
     "org": "contributte",
@@ -1604,7 +2188,7 @@
     "enabled": true,
     "priority": 0,
     "docs": "v1",
-    "description": ":basketball: :soccer: :baseball: :tennis: :8ball: Latte-based replacer for simple texts",
+    "description": ":basketball: :soccer: :baseball: :tennis: :8ball: Latte-based replacer for simple texts.",
     "releases": {
       "last": {
         "org": "contributte",
@@ -1619,7 +2203,16 @@
     },
     "stars": 2,
     "watchers": 2,
-    "forks": 0
+    "forks": 0,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": [
+        "2.4"
+      ]
+    }
   },
   "contributte/forms-multiplier": {
     "org": "contributte",
@@ -1642,7 +2235,16 @@
     },
     "stars": 10,
     "watchers": 10,
-    "forks": 7
+    "forks": 7,
+    "composer": {
+      "nette": [
+        "3.0"
+      ],
+      "php": [
+        "7.2",
+        "8.0"
+      ]
+    }
   },
   "contributte/forms-wizard": {
     "org": "contributte",
@@ -1665,7 +2267,16 @@
     },
     "stars": 7,
     "watchers": 7,
-    "forks": 3
+    "forks": 3,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "contributte/datagrid": {
     "org": "contributte",
@@ -1688,7 +2299,16 @@
     },
     "stars": 163,
     "watchers": 163,
-    "forks": 127
+    "forks": 127,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "5.6",
+        "7.4"
+      ]
+    }
   },
   "contributte/api-router": {
     "org": "contributte",
@@ -1711,7 +2331,16 @@
     },
     "stars": 11,
     "watchers": 11,
-    "forks": 15
+    "forks": 15,
+    "composer": {
+      "nette": [
+        "2.4"
+      ],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "contributte/api-docu": {
     "org": "contributte",
@@ -1734,7 +2363,14 @@
     },
     "stars": 3,
     "watchers": 3,
-    "forks": 0
+    "forks": 0,
+    "composer": {
+      "nette": [],
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   },
   "contributte/invoice": {
     "org": "contributte",
@@ -1742,7 +2378,7 @@
     "enabled": true,
     "priority": 0,
     "docs": "v0",
-    "description": ":memo: PDF invoice generator",
+    "description": ":memo: PDF invoice generator ",
     "releases": {
       "last": {
         "org": "contributte",
@@ -1757,7 +2393,16 @@
     },
     "stars": 30,
     "watchers": 30,
-    "forks": 8
+    "forks": 8,
+    "composer": {
+      "nette": [
+        "3.0"
+      ],
+      "php": [
+        "7.2",
+        "8.0"
+      ]
+    }
   },
   "contributte/translation": {
     "org": "contributte",
@@ -1780,7 +2425,16 @@
     },
     "stars": 12,
     "watchers": 12,
-    "forks": 0
+    "forks": 0,
+    "composer": {
+      "php": [
+        "7.1",
+        "7.4"
+      ],
+      "nette": [
+        "2.4"
+      ]
+    }
   },
   "contributte/gosms": {
     "org": "contributte",
@@ -1788,7 +2442,7 @@
     "enabled": true,
     "priority": 0,
     "docs": "v0",
-    "description": ":speech_balloon: GoSMS.cz HTTP client for Nette",
+    "description": ":speech_balloon: GoSMS.cz HTTP client for Nette ",
     "releases": {
       "last": {
         "org": "contributte",
@@ -1803,7 +2457,16 @@
     },
     "stars": 0,
     "watchers": 0,
-    "forks": 0
+    "forks": 0,
+    "composer": {
+      "php": [
+        "7.2",
+        "8.0"
+      ],
+      "nette": [
+        "2.4"
+      ]
+    }
   },
   "contributte/czech-post": {
     "org": "contributte",
@@ -1826,6 +2489,15 @@
     },
     "stars": 2,
     "watchers": 2,
-    "forks": 1
+    "forks": 1,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": [
+        "2.4"
+      ]
+    }
   }
 }

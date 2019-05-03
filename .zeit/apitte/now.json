@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "apitte",
+  "scope": "contributte",
+  "alias": ["apitte.org", "www.apitte.org"],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": { "Location": "https://contributte.org/apitte/" }
+    }
+  ]
+}

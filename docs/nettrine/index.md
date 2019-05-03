@@ -1,4 +1,5 @@
 ---
+layout: HighLayout
 home: true
 heroText: Nettrine
 tagline: Easy & smart integration of Doctrine2 to Nette Framework

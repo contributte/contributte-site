@@ -1,4 +1,5 @@
 ---
+layout: HighLayout
 home: true
 heroText: Apitte
 tagline: Modern PHP/PSR7 API framework build on top of Nette Framework

@@ -1,4 +1,5 @@
 ---
+layout: HighLayout
 pageClass: page-wide
 ---
 

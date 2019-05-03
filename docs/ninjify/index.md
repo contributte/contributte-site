@@ -1,4 +1,5 @@
 ---
+layout: HighLayout
 home: true
 heroText: Ninjify
 tagline: PHP nunchucks for you coding dojo

@@ -1,4 +1,5 @@
 ---
+layout: HighLayout
 home: true
 heroText: Contributte
 tagline: First class extensions for Nette Framework

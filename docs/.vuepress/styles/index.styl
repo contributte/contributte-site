@@ -1,77 +1,126 @@
 .btn
-    display: inline-block
-    margin-bottom: 0
-    font-weight: 400
-    text-align: center
-    white-space: nowrap
-    vertical-align: middle
-    touch-action: manipulation
-    cursor: pointer
-    user-select: none
-    background-image: none
-    border: 1px solid transparent
-    border-radius: 3px
-    padding: 2px 5px
-    line-height: 1em
+  display: inline-block
+  margin-bottom: 0
+  font-weight: 400
+  text-align: center
+  white-space: nowrap
+  vertical-align: middle
+  touch-action: manipulation
+  cursor: pointer
+  user-select: none
+  background-image: none
+  border: 1px solid transparent
+  border-radius: 3px
+  padding: 2px 5px
+  line-height: 1em
 
 .btn-success
-    color: #fff
-    background-color: #5cb85c
-    border-color: #4cae4c
+  color: #fff
+  background-color: #5cb85c
+  border-color: #4cae4c
 
 .btn-warning
-    color: #fff
-    background-color: #f0ad4e
-    border-color: #eea236
+  color: #fff
+  background-color: #f0ad4e
+  border-color: #eea236
 
 .btn-xs
-    padding: 1px 5px
-    font-size: 12px
-    line-height: 1.5
-    border-radius: 3px
+  padding: 1px 5px
+  font-size: 12px
+  line-height: 1.5
+  border-radius: 3px
 
 .text-left
-    text-align: left
+  text-align: left
 
 .text-right
-    text-align: right
+  text-align: right
 
 .metainfo
-    display: flex
-    flex-direction: row
-    padding: 10px;
-    background: #d3d3d35e;
-
-    a
-      margin: 0 2px
-
-    div
-      flex-grow: 1
+  display: flex
+  flex-direction: row
+  padding: 10px;
+  background: #d3d3d35e;
+  a
+    margin: 0 2px
+  div
+    flex-grow: 1
 
 .theme-container.page-wide
   .content
     max-width: 900px
 
 .badge
-    display: inline-block
-    font-size: 14px
-    height: 18px
-    line-height: 18px
-    border-radius: 3px
-    padding: 0 6px
-    color: #fff
-    white-space: nowrap
+  display: inline-block
+  font-size: 14px
+  height: 18px
+  line-height: 18px
+  border-radius: 3px
+  padding: 0 6px
+  color: #fff
+  white-space: nowrap
 
 .badge--success
-    background-color: #42b983
+  background-color: #42b983
 
 .badge--nette
-    border: 1px solid $accentColor
-    color: $accentColor
+  border: 1px solid $accentColor
+  color: $accentColor
 
 .badge--nette--30
-    background-color: $accentColor
-    color: #fff
+  background-color: $accentColor
+  color: #fff
 
 .badge--php
-    background-color: $accentColor
+  background-color: $accentColor
+
+.text-center
+  text-align: center
+
+.text-left
+  text-align: left
+
+.text-right
+  text-align: right
+
+.row
+  display: flex
+  flex-wrap: wrap
+
+.box-6
+  width: 16%
+
+.cfooter
+  margin-top: 4em;
+  background: #222;
+  color: #606060;
+  padding: 30px 0;
+  .inner
+    margin: 0 auto
+    max-width: 960px
+    width: 100%
+  ul
+    list-style-type: none
+    margin: 0
+    padding: 0
+  a
+    color: #bdbdbd
+  strong
+    font-weight: 800
+  .highlight
+    color: #4a4a4a;
+    font-size: 1.8125rem
+    font-weight: 500
+  .navigation
+    margin-top: 15px
+  .copy
+    font-size: 0.8rem
+
+@media only screen and (max-width: 960px)
+  .cfooter
+    padding: 30px
+
+@media only screen and (max-width: 768px)
+  .box-6
+    width: 33%
+

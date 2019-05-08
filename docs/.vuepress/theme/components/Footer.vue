@@ -3,7 +3,7 @@
     <div class="inner">
       <div class="row">
         <div class="highlight">
-          There is more links to follow...
+          There are more links to follow...
         </div>
       </div>
       <div class="row navigation">

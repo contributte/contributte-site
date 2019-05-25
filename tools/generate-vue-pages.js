@@ -35,7 +35,7 @@ function generateTemplate(repo, srcPath, destPath) {
   });
 
   if (!fs.existsSync(path.dirname(destPath))) {
-    fs.mkdirSync(path.dirname(destPath));
+    fs.mkdirSync(path.dirname(destPath), { recursive: true });
   }
   fs.writeFileSync(destPath, compiled);
 }

@@ -35,13 +35,6 @@ module.exports = {
     return {
       '/packages/': [
         {
-          title: 'Get started',
-          collapsable: false,
-          children: [
-            '/guide',
-          ]
-        },
-        {
           title: 'Nette',
           collapsable: false,
           children: buildChildren('nette-contrib'),

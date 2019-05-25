@@ -9,15 +9,23 @@ function buildChildren(category) {
       return r.category === category;
     })
     .orderBy(['priority', 'name'], ['desc', 'asc'])
-    .map((r) => {
-
+    .map(r => {
       const title = r.title ? r.title : _.capitalize(_.replace(r.name, /-/g, ' '));
-      const lastTag = r.releases ? r.releases.last : null;
 
-      return [
-        `/packages/${r.org}/${r.name}.html`,
-        title
-      ]
+      if (r.docs.v === 'v2') {
+        return {
+          title,
+          path: `/packages/${r.org}/${r.name}/`,
+          children: _(r.docs.pages).map((title, path) => {
+            return [`/packages/${r.org}/${r.name}/${path}`, title];
+          }).value(),
+        };
+      } else {
+        return {
+          path: `/packages/${r.org}/${r.name}.html`,
+          title
+        };
+      }
     })
     .value();
 }

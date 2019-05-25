@@ -5,7 +5,7 @@
     "category": "symfony",
     "enabled": true,
     "priority": 100,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":boom: Best minimal console (symfony/console) to Nette Framework (@nette)",
     "releases": {
       "last": {
@@ -37,7 +37,7 @@
     "name": "mailing",
     "enabled": true,
     "priority": 100,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":mailbox_with_mail: Sending emails with pleasure and prepared templates.",
     "releases": {
       "last": {
@@ -70,7 +70,7 @@
     "category": "development",
     "enabled": true,
     "priority": 100,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":wrench: Collection of useful scripts for manipulaton with NEON files. Support composer pre-install / post-install events. Set/get parameters, validate files.",
     "releases": {
       "last": {
@@ -105,7 +105,7 @@
     "category": "symfony",
     "enabled": true,
     "priority": 99,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":recycle: Nette-based console commands for latte, DIC, MVC, security, utils and many others.  ",
     "releases": {
       "last": {
@@ -137,7 +137,7 @@
     "category": "symfony",
     "enabled": true,
     "priority": 90,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":boom: Best events support (symfony/event-dispatcher) to Nette Framework (@nette)",
     "releases": {
       "last": {
@@ -170,7 +170,7 @@
     "title": "Live Form Validation",
     "enabled": true,
     "priority": 90,
-    "docs": "v0",
+    "docs": { "v": "v0"},
     "description": ":no_entry: Nice client-side live form validation for Nette Forms.",
     "releases": {
       "last": {
@@ -195,7 +195,7 @@
     "category": "symfony",
     "enabled": true,
     "priority": 89,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":recycle: Nette-based Symfony events for application, presenter, form, latte, templates, security and many others.",
     "releases": {
       "last": {
@@ -227,7 +227,7 @@
     "name": "codeception",
     "enabled": true,
     "priority": 60,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":arrow_forward: Integration of Nette Framework to Codeception.",
     "releases": {
       "last": {
@@ -260,7 +260,7 @@
     "title": "reCAPTCHA",
     "enabled": true,
     "priority": 50,
-    "docs": "v0",
+    "docs": { "v": "v0"},
     "description": ":bangbang: Google reCAPTCHA (security) for Nette Framework \\ Forms",
     "releases": {
       "last": {
@@ -292,7 +292,7 @@
     "name": "scheduler",
     "enabled": true,
     "priority": 40,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":hourglass: PHP job scheduler (cron) with locking for Nette Framework",
     "releases": {
       "last": {
@@ -325,7 +325,7 @@
     "title": "Seznam Captcha",
     "enabled": true,
     "priority": 30,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":exclamation: Seznam captcha (security) for Nette Framework \\ Forms",
     "releases": {
       "last": {
@@ -355,7 +355,7 @@
     "name": "logging",
     "enabled": true,
     "priority": 20,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":boom: Universal logging support to Tracy / Nette Framework (@nette)",
     "releases": {
       "last": {
@@ -388,7 +388,7 @@
     "name": "advisories",
     "enabled": false,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":punch: Collection of Contributte/Nette advisories",
     "stars": 0,
     "watchers": 0,
@@ -400,7 +400,7 @@
     "category": "nette-contrib",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":sparkles: Extra contrib to nette/application (@nette)",
     "releases": {
       "last": {
@@ -433,7 +433,7 @@
     "category": "nette-contrib",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":sparkles: Extra contrib to nette/bootstrap (@nette)",
     "releases": {
       "last": {
@@ -466,7 +466,7 @@
     "category": "nette-contrib",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":sparkles: Extra contrib to nette/caching (@nette)",
     "releases": {
       "last": {
@@ -499,7 +499,7 @@
     "category": "nette-contrib",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":sparkles: Extra contrib to nette/database (@nette)",
     "releases": {
       "last": {
@@ -532,7 +532,7 @@
     "title": "FTP deployer",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":horse_racing: FTP deployment (by @dg) extension for Nette Framework",
     "releases": {
       "last": {
@@ -565,7 +565,7 @@
     "category": "development",
     "enabled": true,
     "priority": 0,
-    "docs": "v0",
+    "docs": { "v": "v0"},
     "description": ":godmode: Set of tools for development / debugging (@nette)",
     "releases": {
       "last": {
@@ -596,7 +596,7 @@
     "category": "nette-contrib",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":sparkles: Extra contrib to nette/di (@nette)",
     "releases": {
       "last": {
@@ -629,7 +629,7 @@
     "title": "Dummy Events",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":repeat: Ultra simple events system for Nette Framework",
     "releases": {
       "last": {
@@ -662,7 +662,7 @@
     "title": "ElasticSearch",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":mag: Tiny Elasticsearch integration into Nette Framework",
     "releases": {
       "last": {
@@ -694,7 +694,7 @@
     "name": "facebook",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":yum: Tiny Facebook SDK 5.x integration to Nette Framework",
     "releases": {
       "last": {
@@ -726,7 +726,7 @@
     "name": "fio",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":euro: Fio API integration for Nette Framework",
     "releases": {
       "last": {
@@ -759,7 +759,7 @@
     "category": "nette-contrib",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":sparkles: Extra contrib to nette/forms (@nette)",
     "releases": {
       "last": {
@@ -792,7 +792,7 @@
     "title": "Nette Generator",
     "enabled": true,
     "priority": 0,
-    "docs": "v0",
+    "docs": { "v": "v0"},
     "description": ":man: Yeoman & Nette Framework",
     "stars": 18,
     "watchers": 18,
@@ -804,7 +804,7 @@
     "category": "nette-contrib",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":sparkles: Extra contrib to nette/http (@nette)",
     "releases": {
       "last": {
@@ -837,7 +837,7 @@
     "category": "nette-contrib",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":sparkles: Extra contrib to nette/latte (@nette)",
     "releases": {
       "last": {
@@ -870,7 +870,7 @@
     "title": "Latte - Email protection",
     "enabled": true,
     "priority": 0,
-    "docs": "v0",
+    "docs": { "v": "v0"},
     "description": ":point_right: Email protection for emails in Latte templates",
     "releases": {
       "last": {
@@ -903,7 +903,7 @@
     "title": "Latte - Markdown",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":tractor: Parsedown (markdown) template parser for Nette \\ Latte (@nette)",
     "releases": {
       "last": {
@@ -936,7 +936,7 @@
     "category": "nette-contrib",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":sparkles: Extra contrib to nette/mail (@nette)",
     "releases": {
       "last": {
@@ -969,7 +969,7 @@
     "category": "psr",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":boom: Middlewares / Relay / PSR-7 support to Nette Framework (@nette)",
     "releases": {
       "last": {
@@ -1003,7 +1003,7 @@
     "category": "psr",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":dizzy: PSR #11 [Container Interface] to Nette Framework (@nette)",
     "releases": {
       "last": {
@@ -1035,7 +1035,7 @@
     "name": "mobilni-platby",
     "enabled": true,
     "priority": 0,
-    "docs": "v0",
+    "docs": { "v": "v0"},
     "description": ":moneybag: MobilniPlatby.cz for Nette Framework",
     "stars": 5,
     "watchers": 5,
@@ -1055,7 +1055,7 @@
     "name": "model",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":boom: View-Model + Model-View layer to Nette Framework (@nette)",
     "releases": {
       "last": {
@@ -1089,7 +1089,7 @@
     "category": "nextras",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":wolf: Doctrine-like events for Nextras ORM",
     "releases": {
       "last": {
@@ -1123,7 +1123,7 @@
     "category": "nextras",
     "enabled": true,
     "priority": 0,
-    "docs": "v0",
+    "docs": { "v": "v0"},
     "description": ":wolf: Rich Nextras\\ORM entity generator for fast prototyping your new project.",
     "releases": {
       "last": {
@@ -1157,7 +1157,7 @@
     "category": "nextras",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":wolf: Query-objects for Nextras ORM",
     "releases": {
       "last": {
@@ -1190,7 +1190,7 @@
     "title": "PHPdoc",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":boom: Enhanced PHPdoc to Nette Framework with annotations (@nette)",
     "releases": {
       "last": {
@@ -1223,7 +1223,7 @@
     "category": "playground",
     "enabled": true,
     "priority": 0,
-    "docs": "v0",
+    "docs": { "v": "v0"},
     "description": ":books: Examples / tutorials / tips / samples | sandbox for @contributte",
     "stars": 7,
     "watchers": 7,
@@ -1236,7 +1236,7 @@
     "category": "psr",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":dizzy: PSR #7 [HTTP Message Interface] to Nette Framework (@nette)",
     "releases": {
       "last": {
@@ -1269,7 +1269,7 @@
     "category": "nette-contrib",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":sparkles: Extra contrib to nette/security (@nette)",
     "releases": {
       "last": {
@@ -1301,7 +1301,7 @@
     "name": "social",
     "enabled": true,
     "priority": 0,
-    "docs": "v0",
+    "docs": { "v": "v0"},
     "description": ":fries: Social plugins  (facebook, twitter, google) for Nette Framework",
     "releases": {
       "last": {
@@ -1334,7 +1334,7 @@
     "category": "nette-contrib",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":sunglasses: Tuned Tracy Bars/Panels/BlueScreens for easy-developing",
     "releases": {
       "last": {
@@ -1367,7 +1367,7 @@
     "category": "nette-contrib",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":sparkles: Extra contrib to nette/utils (@nette)",
     "releases": {
       "last": {
@@ -1399,7 +1399,7 @@
     "name": "wordcha",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":exclamation: Word based captcha (security) for Nette Framework \\ Forms (@nette)",
     "releases": {
       "last": {
@@ -1431,7 +1431,20 @@
     "name": "core",
     "enabled": true,
     "priority": 0,
-    "docs": "v0",
+    "docs": {
+      "v": "v2",
+      "pages": {
+        "architecture": "Architecture",
+        "endpoints": "Endpoints",
+        "schema": "Schema",
+        "dispatcher": "Dispatcher",
+        "request-and-response": "Request & Response",
+        "router": "Router",
+        "errors": "Errors",
+        "mapping": "Mapping",
+        "decorators": "Decorators"
+      }
+    },
     "description": ":wrench: PSR-7 based API framework. Heart of the apitte stack. Suitable to use with Nette Framework.",
     "category": "apitte",
     "releases": {
@@ -1464,7 +1477,7 @@
     "name": "debug",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":interrobang: Debugging tools for Apitte stack",
     "category": "apitte",
     "releases": {
@@ -1497,7 +1510,7 @@
     "name": "console",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":pill: Symfony\\Console bridge for Apitte stack",
     "category": "apitte",
     "releases": {
@@ -1530,7 +1543,7 @@
     "name": "openapi",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":family: OpenAPI specification for Apitte stack",
     "category": "apitte",
     "releases": {
@@ -1563,7 +1576,7 @@
     "name": "middlewares",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":speedboat: Middlewares support for Apitte stack",
     "category": "apitte",
     "releases": {
@@ -1596,7 +1609,7 @@
     "name": "negotiation",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":art: Content-Negotiation support for Apitte stack",
     "category": "apitte",
     "releases": {
@@ -1629,7 +1642,7 @@
     "name": "presenter",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":sunflower: PSR-7 for Nette\\Presenters with Apitte stack",
     "category": "apitte",
     "releases": {
@@ -1662,7 +1675,7 @@
     "name": "fullstack",
     "enabled": true,
     "priority": 0,
-    "docs": "v0",
+    "docs": { "v": "v0"},
     "description": ":thumbsup: Apitte meta package with all features",
     "category": "apitte",
     "releases": {
@@ -1692,7 +1705,7 @@
     "name": "openapi-toolkit",
     "enabled": true,
     "priority": 0,
-    "docs": "v0",
+    "docs": { "v": "v0"},
     "description": ":diamonds: Simple and intuitive OpenApi/Swagger compatible UI toolkit",
     "category": "apitte",
     "stars": 3,
@@ -1704,7 +1717,7 @@
     "name": "dbal",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":bulb: Well-integrated Doctrine2 DBAL for Nette Framework",
     "category": "nettrine",
     "releases": {
@@ -1737,7 +1750,7 @@
     "name": "orm",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":fire: Well-integrated Doctrine2 ORM for Nette Framework",
     "category": "nettrine",
     "releases": {
@@ -1771,7 +1784,7 @@
     "name": "fixtures",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":wrench: Doctrine Fixtures for Nette Framework",
     "category": "nettrine",
     "releases": {
@@ -1804,7 +1817,7 @@
     "name": "migrations",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":running: Doctrine Migrations for Nette Framework",
     "category": "nettrine",
     "releases": {
@@ -1837,7 +1850,7 @@
     "name": "extensions",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":mag: Doctrine2 behavioral extensions for Nette Framework",
     "category": "nettrine",
     "releases": {
@@ -1870,7 +1883,7 @@
     "name": "annotations",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":memo: Standalone Doctrine Annotations for Nette Framework",
     "category": "nettrine",
     "releases": {
@@ -1903,7 +1916,7 @@
     "name": "cache",
     "enabled": false,
     "priority": 0,
-    "docs": "v0",
+    "docs": { "v": "v0"},
     "description": ":arrows_clockwise: Doctrine Cache adapter for Nette Framework ",
     "category": "nettrine",
     "stars": 3,
@@ -1925,7 +1938,7 @@
     "name": "hydrator",
     "enabled": true,
     "priority": 0,
-    "docs": "v0",
+    "docs": { "v": "v0"},
     "description": ":arrow_left: :arrow_right: Convert Doctrine entity to array and conversely",
     "category": "nettrine",
     "stars": 2,
@@ -1946,7 +1959,7 @@
     "name": "flysystem",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":airplane: Smart integration of Flysystem into Nette Framework",
     "releases": {
       "last": {
@@ -1978,7 +1991,7 @@
     "name": "guzzlette",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":cyclone: Guzzle integration into Nette Framework",
     "releases": {
       "last": {
@@ -2008,7 +2021,7 @@
     "name": "redis",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":floppy_disk: Redis (predis) for Nette Framework (@nette)",
     "releases": {
       "last": {
@@ -2037,7 +2050,7 @@
     "name": "monolog",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":memo: Best logging support into Nette Framework (@nette)",
     "releases": {
       "last": {
@@ -2069,7 +2082,7 @@
     "name": "image-storage",
     "enabled": true,
     "priority": 0,
-    "docs": "v0",
+    "docs": { "v": "v0"},
     "description": ":stars: Image storage for Nette framework",
     "releases": {},
     "stars": 19,
@@ -2090,7 +2103,7 @@
     "name": "thepay-api",
     "enabled": true,
     "priority": 0,
-    "docs": "v0",
+    "docs": { "v": "v0"},
     "description": ":dollar: Port of ThePay library",
     "releases": {
       "last": {
@@ -2123,7 +2136,7 @@
     "name": "thepay",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":dollar: ThePay integration for Nette Framework",
     "releases": {
       "last": {
@@ -2155,7 +2168,7 @@
     "name": "anabelle",
     "enabled": true,
     "priority": 0,
-    "docs": "v0",
+    "docs": { "v": "v0"},
     "description": ":princess: API documentation generator (JSON-RPC / REST)",
     "releases": {
       "last": {
@@ -2187,7 +2200,7 @@
     "name": "replacus",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":basketball: :soccer: :baseball: :tennis: :8ball: Latte-based replacer for simple texts.",
     "releases": {
       "last": {
@@ -2219,7 +2232,7 @@
     "name": "forms-multiplier",
     "enabled": true,
     "priority": 0,
-    "docs": "v0",
+    "docs": { "v": "v0"},
     "description": ":repeat: Form multiplier & replicator for Nette Framework",
     "releases": {
       "last": {
@@ -2251,7 +2264,7 @@
     "name": "forms-wizard",
     "enabled": true,
     "priority": 0,
-    "docs": "v0",
+    "docs": { "v": "v0"},
     "description": ":tophat: Easy to use step-by-step form for Nette Framework",
     "releases": {
       "last": {
@@ -2283,7 +2296,7 @@
     "name": "datagrid",
     "enabled": true,
     "priority": 0,
-    "docs": "v0",
+    "docs": { "v": "v0"},
     "description": ":muscle: DataGrid for Nette Framework: filtering, sorting, pagination, tree view, table view, translator, etc",
     "releases": {
       "last": {
@@ -2315,7 +2328,7 @@
     "name": "api-router",
     "enabled": true,
     "priority": 0,
-    "docs": "v0",
+    "docs": { "v": "v0"},
     "description": ":man: RESTful router for your API in Nette Framework - created either directly or via annotation",
     "releases": {
       "last": {
@@ -2347,7 +2360,7 @@
     "name": "api-docu",
     "enabled": true,
     "priority": 0,
-    "docs": "v0",
+    "docs": { "v": "v0"},
     "description": ":woman: Document generator for ApiRouter routes - awesome runtime documentation",
     "releases": {
       "last": {
@@ -2377,7 +2390,7 @@
     "name": "invoice",
     "enabled": true,
     "priority": 0,
-    "docs": "v0",
+    "docs": { "v": "v0"},
     "description": ":memo: PDF invoice generator ",
     "releases": {
       "last": {
@@ -2409,7 +2422,7 @@
     "name": "translation",
     "enabled": true,
     "priority": 0,
-    "docs": "v1",
+    "docs": { "v": "v1"},
     "description": ":gb: :de: :it: Translations (symfony/translation) to Nette Framework (@nette)",
     "releases": {
       "last": {
@@ -2441,7 +2454,7 @@
     "name": "gosms",
     "enabled": true,
     "priority": 0,
-    "docs": "v0",
+    "docs": { "v": "v0"},
     "description": ":speech_balloon: GoSMS.cz HTTP client for Nette ",
     "releases": {
       "last": {
@@ -2473,7 +2486,7 @@
     "name": "czech-post",
     "enabled": true,
     "priority": 0,
-    "docs": "v0",
+    "docs": { "v": "v0"},
     "description": ":postbox: Czech Post API client",
     "releases": {
       "last": {

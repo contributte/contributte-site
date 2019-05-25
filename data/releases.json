@@ -1567,7 +1567,7 @@
     "created_at": "2017-02-23T12:21:41Z",
     "published_at": "2017-07-31T09:36:31Z",
     "html_url": "https://github.com/contributte/seznamcaptcha/releases/tag/0.3",
-    "body": "Bumped! ���� \r\n\r\nChanges:\r\n- enhanced readme\r\n- repair validator [#1] "
+    "body": "Bumped! 🚶 \r\n\r\nChanges:\r\n- enhanced readme\r\n- repair validator [#1] "
   },
   "7226029": {
     "org": "contributte",
@@ -2647,7 +2647,7 @@
     "created_at": "2018-03-12T07:00:01Z",
     "published_at": "2018-03-12T07:05:24Z",
     "html_url": "https://github.com/contributte/latte-email/releases/tag/2.0.0",
-    "body": "Bump! ���� \r\n\r\nDiff: https://github.com/contributte/latte-email/compare/1.2.1...2.0.0\r\n\r\nChanges:\r\n- PHP 5.4 -> PHP 5.6\r\n- change namespace\r\n- apply codesniffer"
+    "body": "Bump! 🏭 \r\n\r\nDiff: https://github.com/contributte/latte-email/compare/1.2.1...2.0.0\r\n\r\nChanges:\r\n- PHP 5.4 -> PHP 5.6\r\n- change namespace\r\n- apply codesniffer"
   },
   "10041775": {
     "org": "contributte",
@@ -3817,7 +3817,7 @@
     "created_at": "2018-11-09T23:20:59Z",
     "published_at": "2018-11-09T23:33:41Z",
     "html_url": "https://github.com/contributte/middlewares/releases/tag/v0.8",
-    "body": "Bump! ��� \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.7...v0.8\r\n\r\nChanges:\r\n- Drop BaseMiddleware in favor of IMiddleware (BC break)\r\n- EnforceHttpsMiddleware\r\n- TryCatchMiddleware\r\n\t- logging support\r\n\t- error message replace with generic message\r\n\t- improved configuration (BC break)\r\n- LoggingMiddleware - for logging of each requested url\r\n- Tracy panel - displays which middlewares were used\r\n- Removed root support (BC break)"
+    "body": "Bump! 😋 \r\n\r\nDiff: https://github.com/contributte/middlewares/compare/v0.7...v0.8\r\n\r\nChanges:\r\n- Drop BaseMiddleware in favor of IMiddleware (BC break)\r\n- EnforceHttpsMiddleware\r\n- TryCatchMiddleware\r\n\t- logging support\r\n\t- error message replace with generic message\r\n\t- improved configuration (BC break)\r\n- LoggingMiddleware - for logging of each requested url\r\n- Tracy panel - displays which middlewares were used\r\n- Removed root support (BC break)"
   },
   "13931411": {
     "org": "contributte",
@@ -4248,5 +4248,135 @@
     "published_at": "2019-04-25T05:58:18Z",
     "html_url": "https://github.com/contributte/mail/releases/tag/v0.3.0",
     "body": "Bump! 🕳 \r\n\r\nDiff: https://github.com/contributte/mail/compare/v0.2.0...v0.3.0\r\n\r\nChanges:\r\n- Readme: improvements\r\n- CI: improvements\r\n- CompositeMailer: throw exception by default\r\n\r\nℹ️ This is last version for Nette 2.4 and PHP 7.1.\r\n"
+  },
+  "17198719": {
+    "org": "ninjify",
+    "repo": "coding-standard",
+    "tag": "v0.9",
+    "name": "v0.9",
+    "created_at": "2019-04-27T17:14:05Z",
+    "published_at": "2019-05-07T15:03:48Z",
+    "html_url": "https://github.com/ninjify/coding-standard/releases/tag/v0.9",
+    "body": "Bumped! 👍 \r\n\r\nDiff: https://github.com/ninjify/coding-standard/compare/v0.8...v0.9\r\n\r\nChanges:\r\n- Added [Gamee](https://github.com/gameeapp) ruleset [#20] \r\n- Skip some sniffs from slevomat/coding-standard https://github.com/ninjify/coding-standard/commit/b377e66856a9798fbf8b1547b9e684f035df636d https://github.com/ninjify/coding-standard/commit/123c81daf8623afde8b5728e8d1a2f664452dbf3"
+  },
+  "17244937": {
+    "org": "contributte",
+    "repo": "translation",
+    "tag": "v0.2.0",
+    "name": "v0.2.0",
+    "created_at": "2019-05-09T09:27:47Z",
+    "published_at": "2019-05-09T09:37:14Z",
+    "html_url": "https://github.com/contributte/translation/releases/tag/v0.2.0",
+    "body": "Bump! 📤\r\n\r\nDiff: https://github.com/contributte/translation/compare/0.1.0...v0.2.0\r\n\r\nChanges:\r\n- stable loaders for **Doctrine 2** and **Nette Database**\r\n- bug fix for pluralizations, if count param is float\r\n"
+  },
+  "17291368": {
+    "org": "contributte",
+    "repo": "translation",
+    "tag": "v0.2.1",
+    "name": "v0.2.1",
+    "created_at": "2019-05-11T11:56:50Z",
+    "published_at": "2019-05-11T12:01:22Z",
+    "html_url": "https://github.com/contributte/translation/releases/tag/v0.2.1",
+    "body": "Bump!\r\n\r\nDiff: https://github.com/contributte/translation/compare/v0.2.0...v0.2.1\r\n\r\nChanges:\r\n- bug fix for null message ID (tnx **@jtojnat**)"
+  },
+  "17307799": {
+    "org": "apitte",
+    "repo": "core",
+    "tag": "v0.5",
+    "name": "v0.5",
+    "created_at": "2019-04-16T06:01:54Z",
+    "published_at": "2019-05-13T14:03:07Z",
+    "html_url": "https://github.com/apitte/core/releases/tag/v0.5",
+    "body": "Diff: https://github.com/apitte/core/compare/v0.4...v0.5\r\n\r\nNew: \r\n- rewrited documentation\r\n- Apitte is now wrapped into own `Application` class which must be used for proper functioning (see [documentation](https://github.com/apitte/core/tree/v0.5/.docs/setup.md#setup))\r\n- error handler\r\n  - transforms all thrown errors into response\r\n    - could be disabled by option `catchException: false` in debug mode\r\n    - apitte/negotiation is used for error transformation instead, if installed\r\n  - if an PSR-3 compatible logger (like Monolog) is register in DIC then all errors except our special `ApiException` and it's descendants (`ServerErrorException`, `ClientErrorException`, ...) are logged with `error` severity\r\n    - also previous errors from `ApiException` (`$exception->withPrevious($anotherException)`) are logged\r\n- `ClientErrorException` and `ServerErrorException` have default error message https://github.com/apitte/core/commit/866418deffcdcdf031def983f5720bfcc402b1bc\r\n- new `Request`, `Response` and `OpenApi` annotations (used by apitte/openapi) https://github.com/apitte/core/commit/31d700820036f1487dab9fbbfb197fb06f29a9c8\r\n- `ApiResponse` contain constants with all HTTP response codes https://github.com/apitte/core/commit/342311bb41e00bbf43dc613959cff4728acf4eab\r\n- request parameters with type `int` and `float` accept numbers prefixed with `+` https://github.com/apitte/core/commit/969f9d5c0309d7c029322eabb73cdffe6e90c1ab\r\n- apitte/playground merged with [planette/playground](https://github.com/planette/playground)\r\n\r\nChanges:\r\n- simplified `ServiceHandler`, overriding implementations need changes https://github.com/apitte/core/commit/ccafbd4b6dcafe7a01a52d9e0744568a5ec2cc91\r\n- `FileResponseDecorator` changed to static `FileResponseAdjuster` https://github.com/apitte/core/commit/2337b4e15204a613bf0cf0650a3c90f6c003bbdd\r\n- `IRequestEntity` implementation is now optional for request mapper entities https://github.com/apitte/core/commit/38785e12df7bf2906100c748afedb880ee707948\r\n- `IDecorator` splitted into strictly-typed interfaces https://github.com/apitte/core/commit/73597e713e958778c06f17753caa1441f8397778\r\n- `ApiRequest` and `ApiResponse` are now required by all layers instead of `ServerRequestInterface` and `ResponseInterface` https://github.com/apitte/core/commit/d3c4ceb23ca8cc490d28027d6b34fc3c3dda2b53\r\n\r\nRemovals:\r\n- support for alternative, undocumented syntax for most annotations https://github.com/apitte/core/commit/e7fced3e67d104548058a61630a172123f35cf63\r\n- `Controller` annotation, controllers are now required to only implement `IController` https://github.com/apitte/core/commit/d0e38d9f0242f28a51ffe3c282b8b7f7b3c4411e\r\n- `Schema` from request attributes, as it could be get from DIC https://github.com/apitte/core/commit/44c2e28d071c5971c5c127bbb351dd9fbc9fb5e1\r\n\r\nFixes:\r\n- tags without value https://github.com/apitte/core/commit/028ee61b7a9fff7bf93b46048d0a5212509a3cd7\r\n- url suffixes used in apitte/negotiation now support urls with variable parameter at the end (like `/users/{id}.debug`) https://github.com/apitte/core/commit/5c0ea433b184c17503870909549271978746dc94\r\n- MessageException - default error code https://github.com/apitte/core/commit/1cf0d89840b063f893c632d69eef5f0aaa9cb36b"
+  },
+  "17309296": {
+    "org": "apitte",
+    "repo": "console",
+    "tag": "v0.5",
+    "name": "v0.5",
+    "created_at": "2019-03-31T00:00:07Z",
+    "published_at": "2019-05-13T14:21:45Z",
+    "html_url": "https://github.com/apitte/console/releases/tag/v0.5",
+    "body": "Diff: https://github.com/apitte/console/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- core v0.5\r\n- rewrited documentation"
+  },
+  "17309333": {
+    "org": "apitte",
+    "repo": "debug",
+    "tag": "v0.5",
+    "name": "v0.5",
+    "created_at": "2019-03-31T00:04:48Z",
+    "published_at": "2019-05-13T14:23:43Z",
+    "html_url": "https://github.com/apitte/debug/releases/tag/v0.5",
+    "body": "Diff: https://github.com/apitte/debug/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- core v0.5\r\n- allows tracy 2.6\r\n- rewrited documentation"
+  },
+  "17309408": {
+    "org": "apitte",
+    "repo": "openapi",
+    "tag": "v0.5",
+    "name": "v0.5",
+    "created_at": "2019-03-31T00:15:02Z",
+    "published_at": "2019-05-13T14:19:46Z",
+    "html_url": "https://github.com/apitte/openapi/releases/tag/v0.5",
+    "body": "Diff: https://github.com/apitte/openapi/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- core v0.5\r\n- rewriten from scratch, supports complete openapi schema - see documentation"
+  },
+  "17309450": {
+    "org": "apitte",
+    "repo": "presenter",
+    "tag": "v0.5",
+    "name": "v0.5",
+    "created_at": "2019-04-01T13:51:04Z",
+    "published_at": "2019-05-13T14:30:55Z",
+    "html_url": "https://github.com/apitte/presenter/releases/tag/v0.5",
+    "body": "Diff: https://github.com/apitte/presenter/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- rewrited documentation\r\n- core 0.5\r\n- internally uses new `Application` instead of `IDispatcher`"
+  },
+  "17309760": {
+    "org": "apitte",
+    "repo": "negotiation",
+    "tag": "v0.5",
+    "name": "v0.5",
+    "created_at": "2019-05-09T13:45:17Z",
+    "published_at": "2019-05-13T14:17:30Z",
+    "html_url": "https://github.com/apitte/negotiation/releases/tag/v0.5",
+    "body": "Diff: https://github.com/apitte/negotiation/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- rewrited documentation\r\n- core v0.5\r\n- negotiator tags are optional https://github.com/apitte/negotiation/commit/ddef7bf0bc80e327fed2354e6eca308b8806a572\r\n- removed option `catchException`, it's now configured in core https://github.com/apitte/negotiation/commit/0a1848df13fc620b90270528460bce31a4c47394\r\n- add context from error to response only if not empty https://github.com/apitte/negotiation/commit/22a1e60b4977fc4ed5f035691ed76484761c8568"
+  },
+  "17309868": {
+    "org": "apitte",
+    "repo": "fullstack",
+    "tag": "v0.5",
+    "name": "v0.5",
+    "created_at": "2019-03-04T14:04:23Z",
+    "published_at": "2019-05-13T14:43:08Z",
+    "html_url": "https://github.com/apitte/fullstack/releases/tag/v0.5",
+    "body": "Diff: https://github.com/apitte/fullstack/compare/v0.4...v0.5"
+  },
+  "17309888": {
+    "org": "apitte",
+    "repo": "middlewares",
+    "tag": "v0.5",
+    "name": "v0.5",
+    "created_at": "2019-04-01T13:51:16Z",
+    "published_at": "2019-05-13T14:38:42Z",
+    "html_url": "https://github.com/apitte/middlewares/releases/tag/v0.5",
+    "body": "Diff: https://github.com/apitte/middlewares/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- rewrited documentation\r\n- core 0.5\r\n- be aware: middlewares use it's own `Application` class as in previous releases until next version"
+  },
+  "17317774": {
+    "org": "contributte",
+    "repo": "psr7-http-message",
+    "tag": "v0.5.3",
+    "name": "v0.5.3",
+    "created_at": "2019-04-02T12:35:59Z",
+    "published_at": "2019-05-13T15:32:22Z",
+    "html_url": "https://github.com/contributte/psr7-http-message/releases/tag/v0.5.3",
+    "body": "Diff: https://github.com/contributte/psr7-http-message/compare/v0.5.2...v0.5.3\r\n\r\nChanges:\r\n- improved typehints"
+  },
+  "17458850": {
+    "org": "contributte",
+    "repo": "translation",
+    "tag": "v0.3.0",
+    "name": "v0.3.0",
+    "created_at": "2019-05-20T10:25:08Z",
+    "published_at": "2019-05-20T10:40:47Z",
+    "html_url": "https://github.com/contributte/translation/releases/tag/v0.3.0",
+    "body": "Bump!\r\n\r\nDiff: https://github.com/contributte/translation/compare/v0.2.1...v0.3.0\r\n\r\nChanges:\r\n- added **Message wrapper** for message pluralize, eg. in Nette/Forms without doubled translate (tnx @jtojnar for hints)\r\n- added **NotTranslate wrapper** for some user cases, eg. select box options loaded from database (tnx @jtojnar for hints)\r\n- added TranslationProviderInterface for loading resources from another extension (tnx @MajklNajt for hints)\r\n- bug fix, when neon file is empty (tnx @MajklNajt)\r\n- some minor improvements"
   }
 }

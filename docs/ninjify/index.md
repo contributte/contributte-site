@@ -66,3 +66,19 @@ vendor/bin/codesniffer src tests
 ```
 vendor/bin/codefixer src tests
 ```
+
+## Demo
+
+This is example of running codesniffer.
+
+```
+vendor/bin/codesniffer src tests
+```
+
+Or via composer script.
+
+```
+vendor/bin/codesniffer src tests
+```
+
+![Codesniffer](/misc/ninjify-console.png "Ninjify Codesniffer")

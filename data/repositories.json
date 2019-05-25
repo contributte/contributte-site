@@ -2296,7 +2296,21 @@
     "name": "datagrid",
     "enabled": true,
     "priority": 0,
-    "docs": { "v": "v0"},
+    "docs": {
+      "v": "v2",
+      "pages": {
+        "dataSource": "DataSource",
+        "column": "Column",
+        "action": "Action",
+        "row": "Row",
+        "template": "Template",
+        "add": "Insert row",
+        "edit": "Edit row",
+        "export": "Export",
+        "treeView": "Tree-View",
+        "localization": "Localization"
+      }
+    },
     "description": ":muscle: DataGrid for Nette Framework: filtering, sorting, pagination, tree view, table view, translator, etc",
     "releases": {
       "last": {

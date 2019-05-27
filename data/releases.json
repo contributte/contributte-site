@@ -4378,5 +4378,15 @@
     "published_at": "2019-05-20T10:40:47Z",
     "html_url": "https://github.com/contributte/translation/releases/tag/v0.3.0",
     "body": "Bump!\r\n\r\nDiff: https://github.com/contributte/translation/compare/v0.2.1...v0.3.0\r\n\r\nChanges:\r\n- added **Message wrapper** for message pluralize, eg. in Nette/Forms without doubled translate (tnx @jtojnar for hints)\r\n- added **NotTranslate wrapper** for some user cases, eg. select box options loaded from database (tnx @jtojnar for hints)\r\n- added TranslationProviderInterface for loading resources from another extension (tnx @MajklNajt for hints)\r\n- bug fix, when neon file is empty (tnx @MajklNajt)\r\n- some minor improvements"
+  },
+  "17586947": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v6.0.0",
+    "name": "v6.0.0",
+    "created_at": "2019-05-25T10:32:19Z",
+    "published_at": "2019-05-25T13:11:53Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.0.0",
+    "body": "*Bump V6!*\r\n\r\n![IMG_2014](https://user-images.githubusercontent.com/1488874/58368079-26cd1e00-7ee8-11e9-833e-34259484bda3.JPG)\r\n\r\nDiff: https://github.com/ublaboo/datagrid/compare/v5.7.2...v6.0.0\r\n\r\n*Features*\r\n\r\n- Using Nette v3\r\n- Using PHP 7.2 including strinct types\r\n\r\n*BC Breaks:*\r\n\r\n- Changed method name: `Ublaboo\\DataGrid\\Column\\Column::addAttributes() -> ::addCellAttributes()`:\r\n\t- `Ublaboo\\DataGrid\\Column\\Action::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\ColumnDateTime::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\ColumnLink::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\ColumnNumber::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\ColumnStatus::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\ColumnText::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\MultiAction::addAttributes()` -> `::addCellAttributes()`\r\n- Changed method name and method parameters:\r\n\t- `Ublaboo\\DataGrid\\Column\\Action::setConfirm(some mixed thing)` -> `::setConfirmation(IConfirmation $confirmation)`\r\n\t\t- There are 2 IConfirmation implementations: `StringConfirmation` and `StringConfirmation`\r\n- Names of template variables changed from snake_case to camelCase:\r\n\t- `$columns_visibility` -> `$columnsVisibility`\r\n\t- `$original_template` -> `$originalTemplate`\r\n\t- etc ...\r\n- Changed method parameter:\r\n\t- `Ublaboo\\DataGrid\\Column\\Column::setSort(array $sort)` -> `::setSort(string $sort)` (Before: [`'status'` => `'ASC'`], after: `'ASC'`)\r\n- Dropped coffescritpt/sass assets -> using only JS/CSS assets now\r\n"
   }
 }

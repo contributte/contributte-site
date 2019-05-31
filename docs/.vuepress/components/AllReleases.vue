@@ -1,32 +1,33 @@
 <template>
   <div class="releases">
-    <div class="row">
-      <div v-for="(release, id) of releases" :key="id" class="col-md-6 col-lg-4">
-        <div class="card mb-4 box-shadow">
-          <div class="card-body">
-            <h2>
-              <router-link :to="'/packages/'+release.org+'/'+release.repo+'.html'">
-                [{{release.tag}}] {{ release.org }} / {{release.repo}}
-              </router-link>
-              <small>{{release.created_at|date}}</small>
-            </h2>
-            <div v-html="md.render(release.body)"></div>
-          </div>
+    <div v-for="(release, id) of releases" :key="id" class="col-md-6 col-lg-4">
+      <div class="card mb-4 box-shadow">
+        <div class="card-body">
+          <h2>
+            <router-link
+              :to="'/packages/'+release.org+'/'+release.repo+'.html'"
+            >[{{release.tag}}] {{ release.org }} / {{release.repo}}</router-link>
+            <small>{{release.created_at|date}}</small>
+          </h2>
+          <div v-html="md.render(release.body)"></div>
         </div>
       </div>
     </div>
+    <center>
+      <a v-if="releases.length < 15" @click.prevent="onLoadAll" class="action-button">Load all</a>
+    </center>
   </div>
 </template>
 
 <script>
-import { getReleases } from "./../utils/releases";
+import { getReleases, getFewReleases } from "./../utils/releases";
 import { createMarkdown } from "./../utils/markdown";
 import nl2br from "./../utils/nl2br";
 import dayjs from "dayjs";
 
 export default {
   data: () => ({
-    releases: getReleases(),
+    releases: getFewReleases(10),
     md: createMarkdown()
   }),
   filters: {
@@ -35,6 +36,11 @@ export default {
     },
     date(s) {
       return dayjs(s).format("DD/MM/YYYY");
+    }
+  },
+  methods: {
+    onLoadAll() {
+      this.releases = getReleases();
     }
   }
 };

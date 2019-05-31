@@ -1,7 +1,5 @@
 const emoji = require("markdown-it-emoji");
 const anchor = require("markdown-it-anchor");
-const toc = require("markdown-it-table-of-contents");
-const linkify = require("linkify-it");
 
 export function createMarkdown() {
   const md = require("markdown-it")({
@@ -9,7 +7,7 @@ export function createMarkdown() {
     linkify: false,
   })
     .use(emoji)
-    .use(anchor, {
+    .use(anchor.default, {
       permalink: true,
       permalinkBefore: true,
       permalinkSymbol: "#"

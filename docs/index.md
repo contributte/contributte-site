@@ -20,7 +20,8 @@ footer: MIT Licensed | Copyright © 2018-2019 Felix
     </p>
     <p class="action">
       <a href="/releases/" class="nav-link action-button">Last Releases</a>
-      <a href="/packages/planette/playground" class="nav-link action-button">Show Examples →</a>
+      <a href="/packages/" class="nav-link action-button action-button-2x">Packages →</a>
+      <a href="/packages/planette/playground" class="nav-link action-button">Examples</a>
     </p>
   </header>
 

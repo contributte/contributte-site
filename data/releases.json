@@ -3527,7 +3527,7 @@
     "created_at": "2018-04-04T21:43:22Z",
     "published_at": "2018-08-06T21:55:47Z",
     "html_url": "https://github.com/contributte/guzzlette/releases/tag/v1.1.0",
-    "body": "Bump! 😋 \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v1.0.0...v1.1.0\r\n\r\nChanges:\r\n- Configuration for Guzzle Client"
+    "body": "Bump! ��� \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v1.0.0...v1.1.0\r\n\r\nChanges:\r\n- Configuration for Guzzle Client"
   },
   "12279267": {
     "org": "contributte",
@@ -4388,5 +4388,75 @@
     "published_at": "2019-05-25T13:11:53Z",
     "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.0.0",
     "body": "*Bump V6!*\r\n\r\n![IMG_2014](https://user-images.githubusercontent.com/1488874/58368079-26cd1e00-7ee8-11e9-833e-34259484bda3.JPG)\r\n\r\nDiff: https://github.com/ublaboo/datagrid/compare/v5.7.2...v6.0.0\r\n\r\n*Features*\r\n\r\n- Using Nette v3\r\n- Using PHP 7.2 including strinct types\r\n\r\n*BC Breaks:*\r\n\r\n- Changed method name: `Ublaboo\\DataGrid\\Column\\Column::addAttributes() -> ::addCellAttributes()`:\r\n\t- `Ublaboo\\DataGrid\\Column\\Action::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\ColumnDateTime::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\ColumnLink::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\ColumnNumber::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\ColumnStatus::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\ColumnText::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\MultiAction::addAttributes()` -> `::addCellAttributes()`\r\n- Changed method name and method parameters:\r\n\t- `Ublaboo\\DataGrid\\Column\\Action::setConfirm(some mixed thing)` -> `::setConfirmation(IConfirmation $confirmation)`\r\n\t\t- There are 2 IConfirmation implementations: `StringConfirmation` and `StringConfirmation`\r\n- Names of template variables changed from snake_case to camelCase:\r\n\t- `$columns_visibility` -> `$columnsVisibility`\r\n\t- `$original_template` -> `$originalTemplate`\r\n\t- etc ...\r\n- Changed method parameter:\r\n\t- `Ublaboo\\DataGrid\\Column\\Column::setSort(array $sort)` -> `::setSort(string $sort)` (Before: [`'status'` => `'ASC'`], after: `'ASC'`)\r\n- Dropped coffescritpt/sass assets -> using only JS/CSS assets now\r\n"
+  },
+  "17605474": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v6.0.1",
+    "name": "v6.0.1",
+    "created_at": "2019-05-27T11:43:54Z",
+    "published_at": "2019-05-27T11:48:53Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.0.1",
+    "body": "Bump! 👻\r\n\r\nDiff: https://github.com/contributte/datagrid/compare/v6.0.0...v6.0.1\r\n\r\nFeatures:\r\n- Completed documentation\r\n\r\nBugfix:\r\n- Replacement of `::getName()` with `::lookupPath()` (@peldax)\r\n- datagrid.latte template (missing class with padding-bottom)\r\n- phpstan, code sniffer\r\n"
+  },
+  "17635168": {
+    "org": "contributte",
+    "repo": "neonizer",
+    "tag": "v0.3.0",
+    "name": "v0.3.0",
+    "created_at": "2019-05-28T17:15:17Z",
+    "published_at": "2019-05-29T07:51:17Z",
+    "html_url": "https://github.com/contributte/neonizer/releases/tag/v0.3.0",
+    "body": "Diff: https://github.com/contributte/neonizer/compare/v0.2.2...v0.3.0\r\n\r\nChanges:\r\n- Allow use int, float, boolean, null and neon entities in template files"
+  },
+  "17647264": {
+    "org": "contributte",
+    "repo": "monolog",
+    "tag": "v0.2.0",
+    "name": "v0.2.0",
+    "created_at": "2019-05-29T04:26:55Z",
+    "published_at": "2019-05-29T07:12:08Z",
+    "html_url": "https://github.com/contributte/monolog/releases/tag/v0.2.0",
+    "body": "Diff: https://github.com/contributte/monolog/compare/v0.1.0...v0.2.0\r\n\r\nChanges:\r\n- Instead of Monolog is used PSR LoggerInterface in typehints. https://github.com/contributte/monolog/commit/d621f62a11f1de89766f78c1ae6b4b64f6a0f7ba\r\n- Lazy LoggerHolder https://github.com/contributte/monolog/commit/57988c7322a307c64fbf5679aee1dfa936f219e2\r\n- Lazy-only LoggerManager, dropped ILoggerManager interface https://github.com/contributte/monolog/commit/9eae477f8489bf249681d76d2f4d74bdffbca1c5\r\n- Removed Doctrine SqlLogger (available in [nettrine/dbal](https://github.com/nettrine/dbal)) https://github.com/contributte/monolog/commit/43f3abf047c0221dbdfd43f7c77e3926c3f85878\r\n- Tracy hook now works in both directions (logging through Tracy into Monolog and through Monolog to Tracy) https://github.com/contributte/monolog/commit/9aed0c2b666f01c34de9b83c588f506e5bbbdb99\r\n- Tracy adapter of Monolog loads Monolog lazy https://github.com/contributte/monolog/commit/2ae8e6c128a87af435a497e973c1c2ab440da1df\r\n"
+  },
+  "17654838": {
+    "org": "contributte",
+    "repo": "monolog",
+    "tag": "v0.2.1",
+    "name": "v0.2.1",
+    "created_at": "2019-05-29T12:41:37Z",
+    "published_at": "2019-05-29T12:46:37Z",
+    "html_url": "https://github.com/contributte/monolog/releases/tag/v0.2.1",
+    "body": "Diff: https://github.com/contributte/monolog/compare/v0.2.0...v0.2.1\r\n\r\nChanges:\r\n- fixed LoggerHolder registration"
+  },
+  "17672700": {
+    "org": "contributte",
+    "repo": "console",
+    "tag": "v0.6",
+    "name": "v0.6",
+    "created_at": "2019-05-30T05:02:05Z",
+    "published_at": "2019-05-30T05:06:14Z",
+    "html_url": "https://github.com/contributte/console/releases/tag/v0.6",
+    "body": "Bump! 🆖3️⃣\r\n\r\nDiff: https://github.com/contributte/console/compare/v0.5...v0.6\r\n\r\nChanges:\r\n- removed ContainerHelper from readme\r\n- improved CI\r\n- improved readme\r\n- lazy by default\r\n- PHP ^7.2\r\n- support Nette 3"
+  },
+  "17675845": {
+    "org": "contributte",
+    "repo": "monolog",
+    "tag": "v0.2.2",
+    "name": "v0.2.2",
+    "created_at": "2019-05-30T08:51:35Z",
+    "published_at": "2019-05-30T09:04:04Z",
+    "html_url": "https://github.com/contributte/monolog/releases/tag/v0.2.2",
+    "body": "Diff: https://github.com/contributte/monolog/compare/v0.2.1...v0.2.2\r\n\r\nChanges:\r\n- Tracy\\ILogger could be autowired\r\n- Prevent looping of hook from Tracy in itself"
+  },
+  "17699865": {
+    "org": "contributte",
+    "repo": "monolog",
+    "tag": "v0.3.0",
+    "name": "v0.3.0",
+    "created_at": "2019-05-31T08:26:48Z",
+    "published_at": "2019-05-31T08:29:26Z",
+    "html_url": "https://github.com/contributte/monolog/releases/tag/v0.3.0",
+    "body": "Diff: https://github.com/contributte/monolog/compare/v0.2.2...v0.3.0\r\n\r\nChanges:\r\n- Supports Nette 3 https://github.com/contributte/monolog/commit/53e99b7bb7ddf3a533ab571f5d306baf35e44542\r\n- PHP ^7.2"
   }
 }

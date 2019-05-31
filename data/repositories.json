@@ -13,12 +13,12 @@
       "last": {
         "org": "contributte",
         "repo": "console",
-        "tag": "v0.5",
-        "name": "v0.5",
-        "created_at": "2018-06-21T18:48:21Z",
-        "published_at": "2018-06-25T05:03:57Z",
-        "html_url": "https://github.com/contributte/console/releases/tag/v0.5",
-        "body": "Bump! 🤒 \r\n\r\nDiff: https://github.com/contributte/console/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- removed deprecated `AbstractCommand`\r\n- removed deprecated `ContainerHelper` (https://gist.github.com/f3l1x/67841f8c1d1d041e937b4ca92b5b7a01)\r\n- PHP 5.6 -> PHP 7.1 [#16] [#13] \r\n- require symfony/console 4.x"
+        "tag": "v0.6",
+        "name": "v0.6",
+        "created_at": "2019-05-30T05:02:05Z",
+        "published_at": "2019-05-30T05:06:14Z",
+        "html_url": "https://github.com/contributte/console/releases/tag/v0.6",
+        "body": "Bump! 🆖3️⃣\r\n\r\nDiff: https://github.com/contributte/console/compare/v0.5...v0.6\r\n\r\nChanges:\r\n- removed ContainerHelper from readme\r\n- improved CI\r\n- improved readme\r\n- lazy by default\r\n- PHP ^7.2\r\n- support Nette 3"
       }
     },
     "stars": 39,
@@ -82,12 +82,12 @@
       "last": {
         "org": "contributte",
         "repo": "neonizer",
-        "tag": "v0.2.2",
-        "name": "v0.2.2",
-        "created_at": "2018-07-27T08:22:54Z",
-        "published_at": "2018-07-27T08:29:34Z",
-        "html_url": "https://github.com/contributte/neonizer/releases/tag/v0.2.2",
-        "body": "Bump! 🤒 \r\n\r\nDiff: https://github.com/contributte/neonizer/compare/v0.2.1...v0.2.2\r\n\r\nChanges:\r\n- Better config merging [#8] [#9] "
+        "tag": "v0.3.0",
+        "name": "v0.3.0",
+        "created_at": "2019-05-28T17:15:17Z",
+        "published_at": "2019-05-29T07:51:17Z",
+        "html_url": "https://github.com/contributte/neonizer/releases/tag/v0.3.0",
+        "body": "Diff: https://github.com/contributte/neonizer/compare/v0.2.2...v0.3.0\r\n\r\nChanges:\r\n- Allow use int, float, boolean, null and neon entities in template files"
       }
     },
     "stars": 9,
@@ -2188,12 +2188,12 @@
       "last": {
         "org": "contributte",
         "repo": "monolog",
-        "tag": "v0.1.0",
-        "name": "v0.1.0",
-        "created_at": "2018-10-16T16:00:31Z",
-        "published_at": "2018-10-16T16:44:53Z",
-        "html_url": "https://github.com/contributte/monolog/releases/tag/v0.1.0",
-        "body": "First bump! :fist_oncoming: "
+        "tag": "v0.3.0",
+        "name": "v0.3.0",
+        "created_at": "2019-05-31T08:26:48Z",
+        "published_at": "2019-05-31T08:29:26Z",
+        "html_url": "https://github.com/contributte/monolog/releases/tag/v0.3.0",
+        "body": "Diff: https://github.com/contributte/monolog/compare/v0.2.2...v0.3.0\r\n\r\nChanges:\r\n- Supports Nette 3 https://github.com/contributte/monolog/commit/53e99b7bb7ddf3a533ab571f5d306baf35e44542\r\n- PHP ^7.2"
       }
     },
     "stars": 9,
@@ -2445,15 +2445,15 @@
     "docs": {
       "v": "v2",
       "pages": {
-        "dataSource": "DataSource",
+        "data-source": "DataSource",
         "column": "Column",
-        "action": "Action",
+        "actions": "Actions",
         "row": "Row",
         "template": "Template",
-        "add": "Insert row",
-        "edit": "Edit row",
+        "inline-add": "Insert row",
+        "inline-edit": "Edit row",
         "export": "Export",
-        "treeView": "Tree-View",
+        "tree-view": "Tree-View",
         "localization": "Localization"
       }
     },
@@ -2462,12 +2462,12 @@
       "last": {
         "org": "contributte",
         "repo": "datagrid",
-        "tag": "v6.0.0",
-        "name": "v6.0.0",
-        "created_at": "2019-05-25T10:32:19Z",
-        "published_at": "2019-05-25T13:11:53Z",
-        "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.0.0",
-        "body": "*Bump V6!*\r\n\r\n![IMG_2014](https://user-images.githubusercontent.com/1488874/58368079-26cd1e00-7ee8-11e9-833e-34259484bda3.JPG)\r\n\r\nDiff: https://github.com/ublaboo/datagrid/compare/v5.7.2...v6.0.0\r\n\r\n*Features*\r\n\r\n- Using Nette v3\r\n- Using PHP 7.2 including strinct types\r\n\r\n*BC Breaks:*\r\n\r\n- Changed method name: `Ublaboo\\DataGrid\\Column\\Column::addAttributes() -> ::addCellAttributes()`:\r\n\t- `Ublaboo\\DataGrid\\Column\\Action::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\ColumnDateTime::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\ColumnLink::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\ColumnNumber::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\ColumnStatus::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\ColumnText::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\MultiAction::addAttributes()` -> `::addCellAttributes()`\r\n- Changed method name and method parameters:\r\n\t- `Ublaboo\\DataGrid\\Column\\Action::setConfirm(some mixed thing)` -> `::setConfirmation(IConfirmation $confirmation)`\r\n\t\t- There are 2 IConfirmation implementations: `StringConfirmation` and `StringConfirmation`\r\n- Names of template variables changed from snake_case to camelCase:\r\n\t- `$columns_visibility` -> `$columnsVisibility`\r\n\t- `$original_template` -> `$originalTemplate`\r\n\t- etc ...\r\n- Changed method parameter:\r\n\t- `Ublaboo\\DataGrid\\Column\\Column::setSort(array $sort)` -> `::setSort(string $sort)` (Before: [`'status'` => `'ASC'`], after: `'ASC'`)\r\n- Dropped coffescritpt/sass assets -> using only JS/CSS assets now\r\n"
+        "tag": "v6.0.1",
+        "name": "v6.0.1",
+        "created_at": "2019-05-27T11:43:54Z",
+        "published_at": "2019-05-27T11:48:53Z",
+        "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.0.1",
+        "body": "Bump! 👻\r\n\r\nDiff: https://github.com/contributte/datagrid/compare/v6.0.0...v6.0.1\r\n\r\nFeatures:\r\n- Completed documentation\r\n\r\nBugfix:\r\n- Replacement of `::getName()` with `::lookupPath()` (@peldax)\r\n- datagrid.latte template (missing class with padding-bottom)\r\n- phpstan, code sniffer\r\n"
       }
     },
     "stars": 163,

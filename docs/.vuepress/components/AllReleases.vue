@@ -5,7 +5,7 @@
         <div class="card-body">
           <h2>
             <router-link
-              :to="'/packages/'+release.org+'/'+release.repo+'.html'"
+              :to="release | link"
             >[{{release.tag}}] {{ release.org }} / {{release.repo}}</router-link>
             <small>{{release.created_at|date}}</small>
           </h2>
@@ -20,10 +20,12 @@
 </template>
 
 <script>
+import dayjs from "dayjs";
 import { getReleases, getFewReleases } from "./../utils/releases";
+import { findRepository } from "./../utils/repositories";
 import { createMarkdown } from "./../utils/markdown";
 import nl2br from "./../utils/nl2br";
-import dayjs from "dayjs";
+import { link } from "./../utils/linker";
 
 export default {
   data: () => ({
@@ -36,6 +38,10 @@ export default {
     },
     date(s) {
       return dayjs(s).format("DD/MM/YYYY");
+    },
+    link(release) {
+      const repo = findRepository({org: release.org, name: release.repo});
+      return link(repo);
     }
   },
   methods: {

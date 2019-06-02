@@ -16,7 +16,7 @@
         <tr>
           <td class="name" rowspan="2">
             <a
-              :href="'/packages/'+repository.org+'/'+repository.name+'.html'"
+              :href="repository | link"
             >{{ repository.name }} <br> <small>{{ repository.org }}</small></a>
           </td>
           <td>
@@ -52,9 +52,10 @@
 </template>
 
 <script>
+import { sortBy } from "lodash-es";
 import { getEnabledRepositories } from "./../utils/repositories";
 import { createMarkdown } from "./../utils/markdown";
-import { sortBy } from "lodash-es";
+import { link } from "./../utils/linker";
 
 export default {
   data: () => ({
@@ -65,6 +66,9 @@ export default {
     total() {
       return this.repositories.length;
     }
+  },
+  filters: {
+    link
   }
 };
 </script>

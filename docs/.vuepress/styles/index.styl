@@ -37,15 +37,44 @@
   text-align: right
 
 .metainfo
-  display: flex
-  flex-direction: row
-  padding: 10px
-  background: #d3d3d35e
-  a
-    margin: 0 2px
-  div
-    flex-grow: 1
+  padding-bottom: 1rem
 
+.gbuttons
+   display: flex
+   flex-direction: row
+   list-style: none
+   margin: 0
+   padding: 0
+
+  .button-group
+    display: inline-flex
+    flex-direction: row
+    font-size: 0.8rem
+    margin: 0.1rem
+    .button-label
+      background-color: #eff3f6
+      background-image: linear-gradient(-180deg,#fafbfc,#eff3f6 90%)
+      color: #24292e
+      border: 1px solid rgba(27,31,35,.2)
+      border-bottom-left-radius: 3px
+      border-top-left-radius: 3px
+      padding: 3px 10px
+      vertical-align: middle
+    .button-value
+      background-color: #fff
+      border: 1px solid rgba(27,31,35,.2)
+      border-left: 0
+      border-bottom-right-radius: 3px
+      border-top-right-radius: 3px
+      color: #24292e
+      font-weight: 600
+      padding: 3px 10px
+      vertical-align: middle
+    a
+      color: #000
+      &:hover
+        color: #3c6fc0
+        text-decoration: none
 .theme-container.page-wide
   .content
     max-width: 900px
@@ -159,7 +188,7 @@
   .feature
     flex-grow: 1
     flex-basis: 30%
-    max-width: 30%;
+    max-width: 30%
     h2
       border-bottom: 0
     p

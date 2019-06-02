@@ -38,6 +38,7 @@ function mergeGithub(repo) {
   repo.stars = matchedRepo.stargazers_count;
   repo.watchers = matchedRepo.watchers_count;
   repo.forks = matchedRepo.forks_count;
+  repo.issues = matchedRepo.open_issues;
   repo.description = matchedRepo.description;
 }
 

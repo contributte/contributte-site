@@ -32,12 +32,19 @@ function generateTemplate(repo, srcPath, destPath) {
   const compiled = compiler({
     $readme: fs.readFileSync(srcPath),
     $repository: repo,
+    $_packagist: resolvePackagist(repo)
   });
 
   if (!fs.existsSync(path.dirname(destPath))) {
     fs.mkdirSync(path.dirname(destPath), { recursive: true });
   }
   fs.writeFileSync(destPath, compiled);
+}
+
+function resolvePackagist(repo) {
+  if (repo.releases && repo.releases.last) return repo.releases.last.tag;
+  if ((repo.options && !repo.options.packagist) || true) return 'Packagist';
+  return 'Undefined';
 }
 
 getEnabledRepositories().forEach(repo => {

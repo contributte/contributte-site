@@ -30,7 +30,8 @@
         "7.4"
       ],
       "nette": []
-    }
+    },
+    "issues": 5
   },
   "contributte/mailing": {
     "org": "contributte",
@@ -64,7 +65,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 1
   },
   "contributte/neonizer": {
     "org": "contributte",
@@ -100,7 +102,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 0
   },
   "contributte/console-extra": {
     "org": "contributte",
@@ -134,7 +137,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 1
   },
   "contributte/event-dispatcher": {
     "org": "contributte",
@@ -170,7 +174,8 @@
       "nette": [
         "2.4"
       ]
-    }
+    },
+    "issues": 2
   },
   "contributte/live-form-validation": {
     "org": "contributte",
@@ -196,7 +201,8 @@
     },
     "stars": 48,
     "watchers": 48,
-    "forks": 19
+    "forks": 19,
+    "issues": 18
   },
   "contributte/event-dispatcher-extra": {
     "org": "contributte",
@@ -232,7 +238,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 3
   },
   "contributte/codeception": {
     "org": "contributte",
@@ -266,7 +273,8 @@
       "nette": [
         "2.4"
       ]
-    }
+    },
+    "issues": 1
   },
   "contributte/reCAPTCHA": {
     "org": "contributte",
@@ -301,7 +309,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 1
   },
   "contributte/scheduler": {
     "org": "contributte",
@@ -335,7 +344,8 @@
       "nette": [
         "2.4"
       ]
-    }
+    },
+    "issues": 0
   },
   "contributte/seznamcaptcha": {
     "org": "contributte",
@@ -368,7 +378,8 @@
         "5.6",
         "8.0"
       ]
-    }
+    },
+    "issues": 0
   },
   "contributte/logging": {
     "org": "contributte",
@@ -403,7 +414,8 @@
         "2.4",
         "3.0"
       ]
-    }
+    },
+    "issues": 5
   },
   "contributte/advisories": {
     "org": "contributte",
@@ -416,7 +428,8 @@
     "description": ":punch: Collection of Contributte/Nette advisories",
     "stars": 0,
     "watchers": 0,
-    "forks": 0
+    "forks": 0,
+    "issues": 0
   },
   "contributte/application": {
     "org": "contributte",
@@ -451,7 +464,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 5
   },
   "contributte/bootstrap": {
     "org": "contributte",
@@ -486,7 +500,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 1
   },
   "contributte/cache": {
     "org": "contributte",
@@ -521,7 +536,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 0
   },
   "contributte/database": {
     "org": "contributte",
@@ -556,7 +572,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 0
   },
   "contributte/deployer-extension": {
     "org": "contributte",
@@ -591,7 +608,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 1
   },
   "contributte/dev": {
     "org": "contributte",
@@ -623,7 +641,8 @@
         "5.6",
         "8.0"
       ]
-    }
+    },
+    "issues": 0
   },
   "contributte/di": {
     "org": "contributte",
@@ -659,7 +678,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 3
   },
   "contributte/dummy-events": {
     "org": "contributte",
@@ -694,7 +714,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 0
   },
   "contributte/elasticsearch": {
     "org": "contributte",
@@ -729,7 +750,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 1
   },
   "contributte/facebook": {
     "org": "contributte",
@@ -763,7 +785,8 @@
       "nette": [
         "2.4"
       ]
-    }
+    },
+    "issues": 1
   },
   "contributte/fio": {
     "org": "contributte",
@@ -797,7 +820,8 @@
       "nette": [
         "2.4"
       ]
-    }
+    },
+    "issues": 0
   },
   "contributte/forms": {
     "org": "contributte",
@@ -832,7 +856,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 10
   },
   "contributte/generator-nette": {
     "org": "contributte",
@@ -846,7 +871,8 @@
     "description": ":man: Yeoman & Nette Framework",
     "stars": 18,
     "watchers": 18,
-    "forks": 2
+    "forks": 2,
+    "issues": 6
   },
   "contributte/http": {
     "org": "contributte",
@@ -881,7 +907,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 4
   },
   "contributte/latte": {
     "org": "contributte",
@@ -916,7 +943,8 @@
       "nette": [
         "2.4"
       ]
-    }
+    },
+    "issues": 2
   },
   "contributte/latte-email": {
     "org": "contributte",
@@ -951,7 +979,8 @@
         "5.6",
         "8.0"
       ]
-    }
+    },
+    "issues": 1
   },
   "contributte/latte-parsedown-extra": {
     "org": "contributte",
@@ -986,7 +1015,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 0
   },
   "contributte/mail": {
     "org": "contributte",
@@ -1021,7 +1051,8 @@
         "7.2",
         "7.4"
       ]
-    }
+    },
+    "issues": 1
   },
   "contributte/middlewares": {
     "org": "contributte",
@@ -1056,7 +1087,8 @@
       "nette": [
         "2.4"
       ]
-    }
+    },
+    "issues": 2
   },
   "contributte/psr11-container-interface": {
     "org": "contributte",
@@ -1093,7 +1125,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 2
   },
   "contributte/mobilni-platby": {
     "org": "contributte",
@@ -1115,7 +1148,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 0
   },
   "contributte/model": {
     "org": "contributte",
@@ -1149,7 +1183,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 0
   },
   "contributte/nextras-orm-events": {
     "org": "contributte",
@@ -1185,7 +1220,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 2
   },
   "contributte/nextras-orm-generator": {
     "org": "contributte",
@@ -1221,7 +1257,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 0
   },
   "contributte/nextras-orm-query-object": {
     "org": "contributte",
@@ -1257,7 +1294,8 @@
       "nette": [
         "2.4"
       ]
-    }
+    },
+    "issues": 1
   },
   "contributte/phpdoc": {
     "org": "contributte",
@@ -1292,7 +1330,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 1
   },
   "planette/playground": {
     "org": "planette",
@@ -1306,7 +1345,8 @@
     "description": ":books: Examples / tutorials / tips / samples | sandbox for @contributte",
     "stars": 7,
     "watchers": 7,
-    "forks": 6
+    "forks": 6,
+    "issues": 1
   },
   "contributte/psr7-http-message": {
     "org": "contributte",
@@ -1342,7 +1382,8 @@
       "nette": [
         "2.4"
       ]
-    }
+    },
+    "issues": 0
   },
   "contributte/security": {
     "org": "contributte",
@@ -1377,7 +1418,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 1
   },
   "contributte/social": {
     "org": "contributte",
@@ -1411,7 +1453,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 0
   },
   "contributte/tracy": {
     "org": "contributte",
@@ -1446,7 +1489,8 @@
       "nette": [
         "2.4"
       ]
-    }
+    },
+    "issues": 6
   },
   "contributte/utils": {
     "org": "contributte",
@@ -1481,7 +1525,8 @@
         "7.2",
         "7.4"
       ]
-    }
+    },
+    "issues": 3
   },
   "contributte/wordcha": {
     "org": "contributte",
@@ -1515,7 +1560,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 1
   },
   "apitte/core": {
     "org": "apitte",
@@ -1561,7 +1607,8 @@
       "nette": [
         "2.4"
       ]
-    }
+    },
+    "issues": 11
   },
   "apitte/debug": {
     "org": "apitte",
@@ -1596,7 +1643,8 @@
       "nette": [
         "2.4"
       ]
-    }
+    },
+    "issues": 0
   },
   "apitte/console": {
     "org": "apitte",
@@ -1631,7 +1679,8 @@
       "nette": [
         "2.4"
       ]
-    }
+    },
+    "issues": 0
   },
   "apitte/openapi": {
     "org": "apitte",
@@ -1666,7 +1715,8 @@
       "nette": [
         "2.4"
       ]
-    }
+    },
+    "issues": 2
   },
   "apitte/middlewares": {
     "org": "apitte",
@@ -1701,7 +1751,8 @@
       "nette": [
         "2.4"
       ]
-    }
+    },
+    "issues": 0
   },
   "apitte/negotiation": {
     "org": "apitte",
@@ -1736,7 +1787,8 @@
       "nette": [
         "2.4"
       ]
-    }
+    },
+    "issues": 3
   },
   "apitte/presenter": {
     "org": "apitte",
@@ -1771,7 +1823,8 @@
       "nette": [
         "2.4"
       ]
-    }
+    },
+    "issues": 0
   },
   "apitte/fullstack": {
     "org": "apitte",
@@ -1803,7 +1856,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 0
   },
   "apitte/openapi-toolkit": {
     "org": "apitte",
@@ -1817,7 +1871,8 @@
     "category": "apitte",
     "stars": 3,
     "watchers": 3,
-    "forks": 0
+    "forks": 0,
+    "issues": 5
   },
   "nettrine/dbal": {
     "org": "nettrine",
@@ -1852,7 +1907,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 4
   },
   "nettrine/orm": {
     "org": "nettrine",
@@ -1888,7 +1944,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 9
   },
   "nettrine/fixtures": {
     "org": "nettrine",
@@ -1923,7 +1980,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 3
   },
   "nettrine/migrations": {
     "org": "nettrine",
@@ -1958,7 +2016,8 @@
       "nette": [
         "2.4"
       ]
-    }
+    },
+    "issues": 2
   },
   "nettrine/extensions": {
     "org": "nettrine",
@@ -1993,7 +2052,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 4
   },
   "nettrine/annotations": {
     "org": "nettrine",
@@ -2028,7 +2088,8 @@
       "nette": [
         "2.4"
       ]
-    }
+    },
+    "issues": 1
   },
   "nettrine/cache": {
     "org": "nettrine",
@@ -2052,7 +2113,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 1
   },
   "nettrine/hydrator": {
     "org": "nettrine",
@@ -2075,7 +2137,8 @@
       "nette": [
         "3.0"
       ]
-    }
+    },
+    "issues": 1
   },
   "contributte/flysystem": {
     "org": "contributte",
@@ -2109,7 +2172,8 @@
       "nette": [
         "2.4"
       ]
-    }
+    },
+    "issues": 1
   },
   "contributte/guzzlette": {
     "org": "contributte",
@@ -2141,7 +2205,8 @@
         "8.0"
       ],
       "nette": []
-    }
+    },
+    "issues": 2
   },
   "contributte/redis": {
     "org": "contributte",
@@ -2172,7 +2237,8 @@
         "2.4"
       ],
       "php": []
-    }
+    },
+    "issues": 2
   },
   "contributte/monolog": {
     "org": "contributte",
@@ -2206,7 +2272,8 @@
       "nette": [
         "2.4"
       ]
-    }
+    },
+    "issues": 2
   },
   "contributte/image-storage": {
     "org": "contributte",
@@ -2229,7 +2296,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 4
   },
   "contributte/thepay-api": {
     "org": "contributte",
@@ -2264,7 +2332,8 @@
         "2.4",
         "3.0"
       ]
-    }
+    },
+    "issues": 0
   },
   "contributte/thepay": {
     "org": "contributte",
@@ -2298,7 +2367,8 @@
       "nette": [
         "2.4"
       ]
-    }
+    },
+    "issues": 0
   },
   "contributte/anabelle": {
     "org": "contributte",
@@ -2332,7 +2402,8 @@
       "nette": [
         "2.4"
       ]
-    }
+    },
+    "issues": 6
   },
   "contributte/replacus": {
     "org": "contributte",
@@ -2366,7 +2437,8 @@
       "nette": [
         "2.4"
       ]
-    }
+    },
+    "issues": 0
   },
   "contributte/forms-multiplier": {
     "org": "contributte",
@@ -2400,7 +2472,8 @@
         "7.2",
         "8.0"
       ]
-    }
+    },
+    "issues": 3
   },
   "contributte/forms-wizard": {
     "org": "contributte",
@@ -2434,7 +2507,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 1
   },
   "contributte/datagrid": {
     "org": "contributte",
@@ -2480,7 +2554,8 @@
         "7.2",
         "7.4"
       ]
-    }
+    },
+    "issues": 86
   },
   "contributte/api-router": {
     "org": "contributte",
@@ -2514,7 +2589,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 7
   },
   "contributte/api-docu": {
     "org": "contributte",
@@ -2546,7 +2622,8 @@
         "7.1",
         "8.0"
       ]
-    }
+    },
+    "issues": 0
   },
   "contributte/invoice": {
     "org": "contributte",
@@ -2580,7 +2657,8 @@
         "7.2",
         "8.0"
       ]
-    }
+    },
+    "issues": 3
   },
   "contributte/translation": {
     "org": "contributte",
@@ -2614,7 +2692,8 @@
       "nette": [
         "2.4"
       ]
-    }
+    },
+    "issues": 0
   },
   "contributte/gosms": {
     "org": "contributte",
@@ -2648,7 +2727,8 @@
       "nette": [
         "2.4"
       ]
-    }
+    },
+    "issues": 0
   },
   "contributte/czech-post": {
     "org": "contributte",
@@ -2682,6 +2762,7 @@
       "nette": [
         "2.4"
       ]
-    }
+    },
+    "issues": 0
   }
 }

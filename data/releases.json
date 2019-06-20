@@ -1497,7 +1497,7 @@
     "created_at": "2017-07-16T11:35:42Z",
     "published_at": "2017-07-16T11:36:43Z",
     "html_url": "https://github.com/ninjify/qa/releases/tag/0.6.0",
-    "body": "Bumped! 👨‍��� \r\n\r\nDiff: https://github.com/ninjify/qa/compare/0.5.0...0.6.0\r\n\r\nChanges:\r\n- use coding-standard v0.5"
+    "body": "Bumped! 👨‍🚀 \r\n\r\nDiff: https://github.com/ninjify/qa/compare/0.5.0...0.6.0\r\n\r\nChanges:\r\n- use coding-standard v0.5"
   },
   "7055815": {
     "org": "contributte",
@@ -1887,7 +1887,7 @@
     "created_at": "2017-10-18T12:17:49Z",
     "published_at": "2017-10-19T13:13:59Z",
     "html_url": "https://github.com/contributte/neonizer/releases/tag/v0.1",
-    "body": "First bump! 👊 "
+    "body": "First bump! ��� "
   },
   "8196012": {
     "org": "contributte",
@@ -3897,7 +3897,7 @@
     "created_at": "2018-12-19T12:09:11Z",
     "published_at": "2018-12-19T12:10:20Z",
     "html_url": "https://github.com/nettrine/annotations/releases/tag/v0.4",
-    "body": "Bump! ���� \r\nDiff: https://github.com/nettrine/annotations/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Upgrade composer dependencies\r\n- Require doctrine/cache >=1.7.1\r\n- More tests"
+    "body": "Bump! 🕹 \r\nDiff: https://github.com/nettrine/annotations/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Upgrade composer dependencies\r\n- Require doctrine/cache >=1.7.1\r\n- More tests"
   },
   "14660459": {
     "org": "contributte",
@@ -4057,7 +4057,7 @@
     "created_at": "2019-02-25T15:01:07Z",
     "published_at": "2019-02-25T15:01:59Z",
     "html_url": "https://github.com/nettrine/migrations/releases/tag/v0.5",
-    "body": "Bump! ��  \r\n\r\nDiff: https://github.com/nettrine/migrations/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- use doctrine/migrations 2.0\r\n- added `customTemplate` (thanks @RiKap)"
+    "body": "Bump! 🏷  \r\n\r\nDiff: https://github.com/nettrine/migrations/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- use doctrine/migrations 2.0\r\n- added `customTemplate` (thanks @RiKap)"
   },
   "15761705": {
     "org": "contributte",

@@ -1497,7 +1497,7 @@
     "created_at": "2017-07-16T11:35:42Z",
     "published_at": "2017-07-16T11:36:43Z",
     "html_url": "https://github.com/ninjify/qa/releases/tag/0.6.0",
-    "body": "Bumped! 👨‍🚀 \r\n\r\nDiff: https://github.com/ninjify/qa/compare/0.5.0...0.6.0\r\n\r\nChanges:\r\n- use coding-standard v0.5"
+    "body": "Bumped! 👨‍��� \r\n\r\nDiff: https://github.com/ninjify/qa/compare/0.5.0...0.6.0\r\n\r\nChanges:\r\n- use coding-standard v0.5"
   },
   "7055815": {
     "org": "contributte",
@@ -2967,7 +2967,7 @@
     "created_at": "2018-05-29T13:34:02Z",
     "published_at": "2018-05-29T13:34:13Z",
     "html_url": "https://github.com/nettrine/extensions/releases/tag/v0.3",
-    "body": "Bump! 🍭 \r\n\r\nDiff: https://github.com/nettrine/extensions/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- switch Kdyby -> Nettrine\r\n- require PHP 7.1"
+    "body": "Bump! �� \r\n\r\nDiff: https://github.com/nettrine/extensions/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- switch Kdyby -> Nettrine\r\n- require PHP 7.1"
   },
   "11255111": {
     "org": "contributte",
@@ -3527,7 +3527,7 @@
     "created_at": "2018-04-04T21:43:22Z",
     "published_at": "2018-08-06T21:55:47Z",
     "html_url": "https://github.com/contributte/guzzlette/releases/tag/v1.1.0",
-    "body": "Bump! ��� \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v1.0.0...v1.1.0\r\n\r\nChanges:\r\n- Configuration for Guzzle Client"
+    "body": "Bump! 😋 \r\n\r\nDiff: https://github.com/contributte/guzzlette/compare/v1.0.0...v1.1.0\r\n\r\nChanges:\r\n- Configuration for Guzzle Client"
   },
   "12279267": {
     "org": "contributte",
@@ -3897,7 +3897,7 @@
     "created_at": "2018-12-19T12:09:11Z",
     "published_at": "2018-12-19T12:10:20Z",
     "html_url": "https://github.com/nettrine/annotations/releases/tag/v0.4",
-    "body": "Bump! 🕹 \r\nDiff: https://github.com/nettrine/annotations/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Upgrade composer dependencies\r\n- Require doctrine/cache >=1.7.1\r\n- More tests"
+    "body": "Bump! ���� \r\nDiff: https://github.com/nettrine/annotations/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Upgrade composer dependencies\r\n- Require doctrine/cache >=1.7.1\r\n- More tests"
   },
   "14660459": {
     "org": "contributte",
@@ -4057,7 +4057,7 @@
     "created_at": "2019-02-25T15:01:07Z",
     "published_at": "2019-02-25T15:01:59Z",
     "html_url": "https://github.com/nettrine/migrations/releases/tag/v0.5",
-    "body": "Bump! 🏷  \r\n\r\nDiff: https://github.com/nettrine/migrations/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- use doctrine/migrations 2.0\r\n- added `customTemplate` (thanks @RiKap)"
+    "body": "Bump! ��  \r\n\r\nDiff: https://github.com/nettrine/migrations/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- use doctrine/migrations 2.0\r\n- added `customTemplate` (thanks @RiKap)"
   },
   "15761705": {
     "org": "contributte",
@@ -4387,7 +4387,7 @@
     "created_at": "2019-05-25T10:32:19Z",
     "published_at": "2019-05-25T13:11:53Z",
     "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.0.0",
-    "body": "*Bump V6!*\r\n\r\n![IMG_2014](https://user-images.githubusercontent.com/1488874/58368079-26cd1e00-7ee8-11e9-833e-34259484bda3.JPG)\r\n\r\nDiff: https://github.com/ublaboo/datagrid/compare/v5.7.2...v6.0.0\r\n\r\n*Features*\r\n\r\n- Using Nette v3\r\n- Using PHP 7.2 including strinct types\r\n\r\n*BC Breaks:*\r\n\r\n- Changed method name: `Ublaboo\\DataGrid\\Column\\Column::addAttributes() -> ::addCellAttributes()`:\r\n\t- `Ublaboo\\DataGrid\\Column\\Action::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\ColumnDateTime::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\ColumnLink::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\ColumnNumber::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\ColumnStatus::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\ColumnText::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\MultiAction::addAttributes()` -> `::addCellAttributes()`\r\n- Changed method name and method parameters:\r\n\t- `Ublaboo\\DataGrid\\Column\\Action::setConfirm(some mixed thing)` -> `::setConfirmation(IConfirmation $confirmation)`\r\n\t\t- There are 2 IConfirmation implementations: `StringConfirmation` and `StringConfirmation`\r\n- Names of template variables changed from snake_case to camelCase:\r\n\t- `$columns_visibility` -> `$columnsVisibility`\r\n\t- `$original_template` -> `$originalTemplate`\r\n\t- etc ...\r\n- Changed method parameter:\r\n\t- `Ublaboo\\DataGrid\\Column\\Column::setSort(array $sort)` -> `::setSort(string $sort)` (Before: [`'status'` => `'ASC'`], after: `'ASC'`)\r\n- Dropped coffescritpt/sass assets -> using only JS/CSS assets now\r\n"
+    "body": "**Bump V6!**\r\n\r\n![IMG_2014](https://user-images.githubusercontent.com/1488874/58368079-26cd1e00-7ee8-11e9-833e-34259484bda3.JPG)\r\n\r\nDiff: https://github.com/ublaboo/datagrid/compare/v5.7.2...v6.0.0\r\n\r\n**Features**\r\n\r\n- Using Nette v3\r\n- Using PHP 7.2 including strinct types\r\n\r\n**BC Breaks:**\r\n\r\n- Changed method name: `Ublaboo\\DataGrid\\Column\\Column::addAttributes() -> ::addCellAttributes()`:\r\n\t- `Ublaboo\\DataGrid\\Column\\Action::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\ColumnDateTime::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\ColumnLink::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\ColumnNumber::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\ColumnStatus::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\ColumnText::addAttributes()` -> `::addCellAttributes()`\r\n\t- `Ublaboo\\DataGrid\\Column\\MultiAction::addAttributes()` -> `::addCellAttributes()`\r\n- Changed method name and method parameters:\r\n\t- `Ublaboo\\DataGrid\\Column\\Action::setConfirm(some mixed thing)` -> `::setConfirmation(IConfirmation $confirmation)`\r\n\t\t- There are 2 IConfirmation implementations: `StringConfirmation` and `CallbackConfirmation`\r\n- Names of template variables changed from snake_case to camelCase:\r\n\t- `$columns_visibility` -> `$columnsVisibility`\r\n\t- `$original_template` -> `$originalTemplate`\r\n\t- etc ...\r\n- Changed method parameter:\r\n\t- `Ublaboo\\DataGrid\\Column\\Column::setSort(array $sort)` -> `::setSort(string $sort)` (Before: [`'status'` => `'ASC'`], after: `'ASC'`)\r\n- Dropped coffescritpt/sass assets -> using only JS/CSS assets now\r\n"
   },
   "17605474": {
     "org": "contributte",
@@ -4398,6 +4398,16 @@
     "published_at": "2019-05-27T11:48:53Z",
     "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.0.1",
     "body": "Bump! 👻\r\n\r\nDiff: https://github.com/contributte/datagrid/compare/v6.0.0...v6.0.1\r\n\r\nFeatures:\r\n- Completed documentation\r\n\r\nBugfix:\r\n- Replacement of `::getName()` with `::lookupPath()` (@peldax)\r\n- datagrid.latte template (missing class with padding-bottom)\r\n- phpstan, code sniffer\r\n"
+  },
+  "17607221": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v6.1.0",
+    "name": "v6.1.0",
+    "created_at": "2019-06-11T22:56:28Z",
+    "published_at": "2019-06-11T22:57:22Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.1.0",
+    "body": "Bump! 🐟\r\n\r\nDiff: https://github.com/contributte/datagrid/compare/v6.0.1...v6.1.0\r\n\r\nFeatures:\r\n- Render condition within `ColumnStatus` (@peldax)\r\n\r\nBugfixes:\r\n- `DateTimeHelper` & `ColumnDateTime`: handling of `null` values\r\n- Rendering of inline add inside a component"
   },
   "17635168": {
     "org": "contributte",
@@ -4437,7 +4447,7 @@
     "created_at": "2019-05-30T05:02:05Z",
     "published_at": "2019-05-30T05:06:14Z",
     "html_url": "https://github.com/contributte/console/releases/tag/v0.6",
-    "body": "Bump! 🆖3️⃣\r\n\r\nDiff: https://github.com/contributte/console/compare/v0.5...v0.6\r\n\r\nChanges:\r\n- removed ContainerHelper from readme\r\n- improved CI\r\n- improved readme\r\n- lazy by default\r\n- PHP ^7.2\r\n- support Nette 3"
+    "body": "Bump! ���3️⃣\r\n\r\nDiff: https://github.com/contributte/console/compare/v0.5...v0.6\r\n\r\nChanges:\r\n- removed ContainerHelper from readme\r\n- improved CI\r\n- improved readme\r\n- lazy by default\r\n- PHP ^7.2\r\n- support Nette 3"
   },
   "17675845": {
     "org": "contributte",
@@ -4458,5 +4468,265 @@
     "published_at": "2019-05-31T08:29:26Z",
     "html_url": "https://github.com/contributte/monolog/releases/tag/v0.3.0",
     "body": "Diff: https://github.com/contributte/monolog/compare/v0.2.2...v0.3.0\r\n\r\nChanges:\r\n- Supports Nette 3 https://github.com/contributte/monolog/commit/53e99b7bb7ddf3a533ab571f5d306baf35e44542\r\n- PHP ^7.2"
+  },
+  "17787879": {
+    "org": "contributte",
+    "repo": "translation",
+    "tag": "v0.4.0",
+    "name": "v0.4.0",
+    "created_at": "2019-06-05T04:25:03Z",
+    "published_at": "2019-06-05T04:48:39Z",
+    "html_url": "https://github.com/contributte/translation/releases/tag/v0.4.0",
+    "body": "Bump!\r\n\r\nDiff: https://github.com/contributte/translation/compare/v0.3.0...v0.4.0\r\n\r\nChanges:\r\n- move exceptions to standalove namespace (BC break)\r\n- possibility overwrite default extension settings for fallback and locale resolvers (may BC break)\r\n- fix valid HTML in Tracy panel\r\n- add PsrLogger support\r\n- split translators: Translator -> LoggerTranslator -> DebuggerTranslator (tnx f3l1x for idea)"
+  },
+  "17789003": {
+    "org": "contributte",
+    "repo": "reCAPTCHA",
+    "tag": "3.2.0",
+    "name": "v3.2.0",
+    "created_at": "2019-06-05T06:34:31Z",
+    "published_at": "2019-06-05T06:36:08Z",
+    "html_url": "https://github.com/contributte/reCAPTCHA/releases/tag/3.2.0",
+    "body": "Bumped! 👈 \r\n\r\nDiff: https://github.com/contributte/reCAPTCHA/compare/3.1.0...3.2.0\r\n\r\nChanges:\r\n- Nette 3.0 [#27] (thanks @PavelJurasek)\r\n- Fix validation message [#26]  "
+  },
+  "17948720": {
+    "org": "contributte",
+    "repo": "latte-email",
+    "tag": "v2.0.1",
+    "name": "v2.0.1",
+    "created_at": "2019-06-12T16:46:41Z",
+    "published_at": "2019-06-12T16:48:46Z",
+    "html_url": "https://github.com/contributte/latte-email/releases/tag/v2.0.1",
+    "body": "Diff: https://github.com/contributte/latte-email/compare/2.0.0...2.0.1\r\n\r\nChanges:\r\n- allow nette/utils 2.5"
+  },
+  "17956301": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v6.1.1",
+    "name": "v6.1.1",
+    "created_at": "2019-06-12T22:16:43Z",
+    "published_at": "2019-06-12T22:17:53Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.1.1",
+    "body": "Bump! 🐒\r\n\r\nDiff: https://github.com/contributte/datagrid/compare/v6.1.0...v6.1.1\r\n\r\nBugfixes:\r\n- DataGrid: fixed resetting filter session"
+  },
+  "18023193": {
+    "org": "contributte",
+    "repo": "forms",
+    "tag": "v0.4.0",
+    "name": "v0.4.0",
+    "created_at": "2019-06-16T13:58:26Z",
+    "published_at": "2019-06-16T16:28:27Z",
+    "html_url": "https://github.com/contributte/forms/releases/tag/v0.4.0",
+    "body": "Diff: https://github.com/contributte/forms/compare/v0.3...v0.4.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/forms/commit/c58723613f866ac28fbffe1f4c90530beec7d105\r\n- Contributte\\Forms\\(Renderers -> Rendering) https://github.com/contributte/forms/commit/7994e661dd5a0d58b80f783732c4d50a34ccda19\r\n- ProtectionFastInput https://github.com/contributte/forms/commit/d27f2f60d5de7b22a1139be96c7cac4012e407f0"
+  },
+  "18023201": {
+    "org": "contributte",
+    "repo": "cache",
+    "tag": "v0.4.0",
+    "name": "v0.4.0",
+    "created_at": "2019-06-16T13:59:42Z",
+    "published_at": "2019-06-16T16:30:42Z",
+    "html_url": "https://github.com/contributte/cache/releases/tag/v0.4.0",
+    "body": "Diff: https://github.com/contributte/cache/compare/v0.3...v0.4.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/cache/commit/16d9bcfc187103ed3319e15c51a662acbf278157"
+  },
+  "18023218": {
+    "org": "contributte",
+    "repo": "http",
+    "tag": "v0.3.0",
+    "name": "v0.3.0",
+    "created_at": "2019-06-16T14:00:48Z",
+    "published_at": "2019-06-16T16:34:12Z",
+    "html_url": "https://github.com/contributte/http/releases/tag/v0.3.0",
+    "body": "Diff: https://github.com/contributte/http/compare/v0.2...v0.3.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/http/commit/7ebc43afe521b9a877686046ec5c2a8450057571\r\n- Removed url from SapiRequestExtension::__construct()\r\n"
+  },
+  "18023231": {
+    "org": "contributte",
+    "repo": "latte",
+    "tag": "v0.4.0",
+    "name": "v0.4.0",
+    "created_at": "2019-06-16T14:01:16Z",
+    "published_at": "2019-06-16T16:36:15Z",
+    "html_url": "https://github.com/contributte/latte/releases/tag/v0.4.0",
+    "body": "Diff: https://github.com/contributte/latte/compare/v0.3...v0.4.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/latte/commit/0538b5e893ce9f38409f08fbc89b918bc20ca810\r\n- Gravatar filter https://github.com/contributte/latte/commit/964ca109ffa43d84ef5a6ccccc371a53b891b409"
+  },
+  "18023245": {
+    "org": "contributte",
+    "repo": "mail",
+    "tag": "v0.4.0",
+    "name": "v0.4.0",
+    "created_at": "2019-06-16T14:01:40Z",
+    "published_at": "2019-06-16T16:38:34Z",
+    "html_url": "https://github.com/contributte/mail/releases/tag/v0.4.0",
+    "body": "Diff: https://github.com/contributte/mail/compare/v0.3.0...v0.4.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3"
+  },
+  "18023264": {
+    "org": "contributte",
+    "repo": "security",
+    "tag": "v0.3.0",
+    "name": "v0.3.0",
+    "created_at": "2019-06-16T14:03:07Z",
+    "published_at": "2019-06-16T16:41:13Z",
+    "html_url": "https://github.com/contributte/security/releases/tag/v0.3.0",
+    "body": "Diff: https://github.com/contributte/security/compare/v0.2...v0.3.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/security/commit/d5b7fce36de5265dbe59c9bb3c0c851e02968f83\r\n- StaticAuthenticator: Removed deprecated syntax https://github.com/contributte/security/commit/07e07895c0c918e6815555c3c05727120e2f5ee1\r\n- SecurityExtension: Removed completely, no added value https://github.com/contributte/security/commit/f0e668226c8329bef9c19bb0170f29962d4c3ae7"
+  },
+  "18023304": {
+    "org": "contributte",
+    "repo": "utils",
+    "tag": "v0.4.0",
+    "name": "v0.4.0",
+    "created_at": "2019-06-16T14:03:32Z",
+    "published_at": "2019-06-16T16:46:47Z",
+    "html_url": "https://github.com/contributte/utils/releases/tag/v0.4.0",
+    "body": "Diff: https://github.com/contributte/utils/compare/v0.3.1...v0.4.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/utils/commit/459026d1cd1b6114cbce072735ee0ed6659be09c\r\n- Merger https://github.com/contributte/utils/commit/091fbf1de8b8ccb8d70b2e2a6b867791eaeb8c60\r\n- Deeper https://github.com/contributte/utils/commit/423534612feb014bf1bb65715e2200e655da81ca\r\n- Arrays::hash() https://github.com/contributte/utils/commit/920b4c89a517bedf0ff959be6a89803162dbd994\r\n- Optional https://github.com/contributte/utils/commit/3afb4010ee60fd01307850c13000b1918dc90859\r\n- Config https://github.com/contributte/utils/commit/6fd69ab3d43a8f2a3cd59ac9f0f090395d9fc461\r\n- IDateTimeFactory - time parameter https://github.com/contributte/utils/commit/da4ef03031831b68c0a5726a28835244998ac814\r\n- FileSystem: change to adapter internally https://github.com/contributte/utils/commit/1110e50c76c181c2a95ae6fbde2f6f32dafe1545\r\n- Http::metadata() https://github.com/contributte/utils/commit/acb2be7cb360f3499536d45b21fdb1ce66526584"
+  },
+  "18023316": {
+    "org": "contributte",
+    "repo": "tracy",
+    "tag": "v0.4.0",
+    "name": "v0.4.0",
+    "created_at": "2019-06-16T14:04:06Z",
+    "published_at": "2019-06-16T16:49:00Z",
+    "html_url": "https://github.com/contributte/tracy/releases/tag/v0.4.0",
+    "body": "Diff: https://github.com/contributte/tracy/compare/v0.3.1...v0.4.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/tracy/commit/5276a428243d7778b6f74f5d9b731af333401310"
+  },
+  "18023328": {
+    "org": "contributte",
+    "repo": "model",
+    "tag": "v0.2.0",
+    "name": "v0.2.0",
+    "created_at": "2019-06-16T14:05:07Z",
+    "published_at": "2019-06-16T16:50:49Z",
+    "html_url": "https://github.com/contributte/model/releases/tag/v0.2.0",
+    "body": "Diff: https://github.com/contributte/model/compare/v0.1.0...v0.2.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/model/commit/ea4b10c9e6a61fa3cd0b319d63bdc821154064f4"
+  },
+  "18023351": {
+    "org": "contributte",
+    "repo": "facebook",
+    "tag": "v0.3.0",
+    "name": "v0.3.0",
+    "created_at": "2019-06-16T14:05:57Z",
+    "published_at": "2019-06-16T16:54:24Z",
+    "html_url": "https://github.com/contributte/facebook/releases/tag/v0.3.0",
+    "body": "Diff: https://github.com/contributte/facebook/compare/v0.2...v0.3.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/facebook/commit/332b6927b6811af2e6afdc8622922f99ce948b70\r\n- FacebookLogin::getMe((string -> string|AccessToken) $accessToken) https://github.com/contributte/facebook/commit/c08153c1b6e2890660ce27e2f1cdf217155925a3"
+  },
+  "18023372": {
+    "org": "contributte",
+    "repo": "latte-email",
+    "tag": "v3.0.0",
+    "name": "v3.0.0",
+    "created_at": "2019-06-16T14:06:34Z",
+    "published_at": "2019-06-16T16:57:15Z",
+    "html_url": "https://github.com/contributte/latte-email/releases/tag/v3.0.0",
+    "body": "Diff: https://github.com/contributte/latte-email/compare/v2.0.1...v3.0.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/latte-email/commit/ddff9aa6bb27ac1ab6afd6d860c4b17a9ce912ad"
+  },
+  "18023388": {
+    "org": "contributte",
+    "repo": "replacus",
+    "tag": "v0.2.0",
+    "name": "v0.2.0",
+    "created_at": "2019-06-16T14:07:44Z",
+    "published_at": "2019-06-16T16:59:39Z",
+    "html_url": "https://github.com/contributte/replacus/releases/tag/v0.2.0",
+    "body": "Diff: https://github.com/contributte/replacus/compare/v0.1...v0.2.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Latte 2.5"
+  },
+  "18023406": {
+    "org": "contributte",
+    "repo": "guzzlette",
+    "tag": "v3.0.0",
+    "name": "v3.0.0",
+    "created_at": "2019-06-16T14:08:49Z",
+    "published_at": "2019-06-16T17:01:36Z",
+    "html_url": "https://github.com/contributte/guzzlette/releases/tag/v3.0.0",
+    "body": "Diff: https://github.com/contributte/guzzlette/compare/v2.0.0...v3.0.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/guzzlette/commit/c3c660cc4f850d1d05070d3171948d209f01f73d"
+  },
+  "18034538": {
+    "org": "contributte",
+    "repo": "translation",
+    "tag": "v0.4.1",
+    "name": "v0.4.1",
+    "created_at": "2019-06-17T11:27:50Z",
+    "published_at": "2019-06-17T11:33:45Z",
+    "html_url": "https://github.com/contributte/translation/releases/tag/v0.4.1",
+    "body": ""
+  },
+  "18048861": {
+    "org": "contributte",
+    "repo": "application",
+    "tag": "v0.4.0",
+    "name": "v0.4.0",
+    "created_at": "2019-06-17T19:30:31Z",
+    "published_at": "2019-06-17T22:17:46Z",
+    "html_url": "https://github.com/contributte/application/releases/tag/v0.4.0",
+    "body": "Diff: https://github.com/contributte/application/compare/v0.3.2...v0.4.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/application/commit/3e93c7862c0356753b629306a17ed057e7283089\r\n- Removed LinkGenerator https://github.com/contributte/application/commit/a61f9a53f161d116960f671a52b0eee91d079afc\r\n- StringResponse https://github.com/contributte/application/commit/8b2288ada856f5d1bb3a2c2563a6ed759803e61e"
+  },
+  "18048908": {
+    "org": "contributte",
+    "repo": "bootstrap",
+    "tag": "v0.4.0",
+    "name": "v0.4.0",
+    "created_at": "2019-06-17T19:29:38Z",
+    "published_at": "2019-06-17T22:20:46Z",
+    "html_url": "https://github.com/contributte/bootstrap/releases/tag/v0.4.0",
+    "body": "Diff: https://github.com/contributte/bootstrap/compare/v0.3.1...v0.4.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/bootstrap/commit/2e34ab3186dfc0a00656863d5acba5fd3aaf8f8e\r\n- ExtraConfigurator: Environment parameters parsing is configurable https://github.com/contributte/bootstrap/commit/a4e4cbce8d120b993eab16bfbc2ff311868cb3b9 and https://github.com/contributte/bootstrap/commit/925d394a7b58e34909ac93f154f080ebac530387\r\n"
+  },
+  "18048933": {
+    "org": "contributte",
+    "repo": "oauth2-client",
+    "tag": "v0.1.0",
+    "name": "v0.1.0",
+    "created_at": "2019-04-28T15:07:29Z",
+    "published_at": "2019-06-17T22:22:39Z",
+    "html_url": "https://github.com/contributte/oauth2-client/releases/tag/v0.1.0",
+    "body": "Initial release"
+  },
+  "18048963": {
+    "org": "contributte",
+    "repo": "oauth2-client",
+    "tag": "v0.2.0",
+    "name": "v0.2.0",
+    "created_at": "2019-06-17T18:00:34Z",
+    "published_at": "2019-06-17T22:24:51Z",
+    "html_url": "https://github.com/contributte/oauth2-client/releases/tag/v0.2.0",
+    "body": "Diff: https://github.com/contributte/oauth2-client/compare/v0.1.0...v0.2.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/oauth2-client/commit/100be8161790baab12c8f18654a912555a07a257"
+  },
+  "18048978": {
+    "org": "contributte",
+    "repo": "neonizer",
+    "tag": "v0.4.0",
+    "name": "v0.4.0",
+    "created_at": "2019-06-17T17:59:52Z",
+    "published_at": "2019-06-17T22:26:18Z",
+    "html_url": "https://github.com/contributte/neonizer/releases/tag/v0.4.0",
+    "body": "Diff: https://github.com/contributte/neonizer/compare/v0.3.0...v0.4.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/neonizer/commit/831ee0d0d0d058f8e851db7670590b4002a5f5d8"
+  },
+  "18048999": {
+    "org": "contributte",
+    "repo": "mailing",
+    "tag": "v0.3.0",
+    "name": "v0.3.0",
+    "created_at": "2019-06-17T17:59:19Z",
+    "published_at": "2019-06-17T22:27:57Z",
+    "html_url": "https://github.com/contributte/mailing/releases/tag/v0.3.0",
+    "body": "Diff: https://github.com/contributte/mailing/compare/v0.2...v0.3.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/mailing/commit/0e446f2f9dbf1593638801c45966ef3419e330e5"
+  },
+  "18049098": {
+    "org": "contributte",
+    "repo": "redis",
+    "tag": "v0.2.0",
+    "name": "v0.2.0",
+    "created_at": "2019-06-17T17:58:20Z",
+    "published_at": "2019-06-17T22:36:12Z",
+    "html_url": "https://github.com/contributte/redis/releases/tag/v0.2.0",
+    "body": "Diff: https://github.com/contributte/redis/compare/4f72a75d263def90a018be0f67d5b43b660274b7...v0.2.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/redis/commit/958ef6c4ec4d7964832f3ef1c2dc0826eb52ed64\r\n- Removed custom data serialization via `json_encode` (**BC break** - data from redis must be re-persisted decoded or droped) https://github.com/contributte/redis/commit/8c5e5fca34bdb16c319360b254f4dd43ddb17f3b\r\n- Fixed session handler https://github.com/contributte/redis/commit/007ac14cc226e9c4a76cc985e70cf200f1ae6680\r\n- Fixed complex configuration rendering in Tracy https://github.com/contributte/redis/commit/3ea6da90109f433b25f61e229a1ad5766c0090e2"
+  },
+  "18059469": {
+    "org": "contributte",
+    "repo": "psr7-http-message",
+    "tag": "v0.6.0",
+    "name": "v0.6.0",
+    "created_at": "2019-06-18T10:32:29Z",
+    "published_at": "2019-06-18T10:35:52Z",
+    "html_url": "https://github.com/contributte/psr7-http-message/releases/tag/v0.6.0",
+    "body": "Diff: https://github.com/contributte/psr7-http-message/compare/v0.5.3...v0.6.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/psr7-http-message/commit/3475b4b909fd7089c006c4ac10a3440853484962"
   }
 }

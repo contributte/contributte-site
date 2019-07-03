@@ -1339,16 +1339,6 @@
     "html_url": "https://github.com/contributte/console/releases/tag/v0.1.3",
     "body": "Bumped! :dancer: \r\n\r\nDiff: https://github.com/contributte/console/compare/v0.1.2...v0.1.3\r\n\r\nChanges:\r\n- calling `setAutoExit` fixed in #5 [thanks @forrest79]"
   },
-  "6648654": {
-    "org": "contributte",
-    "repo": "forms-wizard",
-    "tag": "2.0",
-    "name": "",
-    "created_at": "2017-06-08T13:37:21Z",
-    "published_at": "2017-06-08T13:38:07Z",
-    "html_url": "https://github.com/contributte/forms-wizard/releases/tag/2.0",
-    "body": "php 7.1 and above required"
-  },
   "6664103": {
     "org": "ninjify",
     "repo": "qa",
@@ -1497,7 +1487,7 @@
     "created_at": "2017-07-16T11:35:42Z",
     "published_at": "2017-07-16T11:36:43Z",
     "html_url": "https://github.com/ninjify/qa/releases/tag/0.6.0",
-    "body": "Bumped! 👨‍🚀 \r\n\r\nDiff: https://github.com/ninjify/qa/compare/0.5.0...0.6.0\r\n\r\nChanges:\r\n- use coding-standard v0.5"
+    "body": "Bumped! 👨‍��� \r\n\r\nDiff: https://github.com/ninjify/qa/compare/0.5.0...0.6.0\r\n\r\nChanges:\r\n- use coding-standard v0.5"
   },
   "7055815": {
     "org": "contributte",
@@ -2967,7 +2957,7 @@
     "created_at": "2018-05-29T13:34:02Z",
     "published_at": "2018-05-29T13:34:13Z",
     "html_url": "https://github.com/nettrine/extensions/releases/tag/v0.3",
-    "body": "Bump! �� \r\n\r\nDiff: https://github.com/nettrine/extensions/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- switch Kdyby -> Nettrine\r\n- require PHP 7.1"
+    "body": "Bump! 🍭 \r\n\r\nDiff: https://github.com/nettrine/extensions/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- switch Kdyby -> Nettrine\r\n- require PHP 7.1"
   },
   "11255111": {
     "org": "contributte",
@@ -4447,7 +4437,7 @@
     "created_at": "2019-05-30T05:02:05Z",
     "published_at": "2019-05-30T05:06:14Z",
     "html_url": "https://github.com/contributte/console/releases/tag/v0.6",
-    "body": "Bump! ���3️⃣\r\n\r\nDiff: https://github.com/contributte/console/compare/v0.5...v0.6\r\n\r\nChanges:\r\n- removed ContainerHelper from readme\r\n- improved CI\r\n- improved readme\r\n- lazy by default\r\n- PHP ^7.2\r\n- support Nette 3"
+    "body": "Bump! 🆖3️⃣\r\n\r\nDiff: https://github.com/contributte/console/compare/v0.5...v0.6\r\n\r\nChanges:\r\n- removed ContainerHelper from readme\r\n- improved CI\r\n- improved readme\r\n- lazy by default\r\n- PHP ^7.2\r\n- support Nette 3"
   },
   "17675845": {
     "org": "contributte",
@@ -4577,7 +4567,7 @@
     "created_at": "2019-06-16T14:03:32Z",
     "published_at": "2019-06-16T16:46:47Z",
     "html_url": "https://github.com/contributte/utils/releases/tag/v0.4.0",
-    "body": "Diff: https://github.com/contributte/utils/compare/v0.3.1...v0.4.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/utils/commit/459026d1cd1b6114cbce072735ee0ed6659be09c\r\n- Merger https://github.com/contributte/utils/commit/091fbf1de8b8ccb8d70b2e2a6b867791eaeb8c60\r\n- Deeper https://github.com/contributte/utils/commit/423534612feb014bf1bb65715e2200e655da81ca\r\n- Arrays::hash() https://github.com/contributte/utils/commit/920b4c89a517bedf0ff959be6a89803162dbd994\r\n- Optional https://github.com/contributte/utils/commit/3afb4010ee60fd01307850c13000b1918dc90859\r\n- Config https://github.com/contributte/utils/commit/6fd69ab3d43a8f2a3cd59ac9f0f090395d9fc461\r\n- IDateTimeFactory - time parameter https://github.com/contributte/utils/commit/da4ef03031831b68c0a5726a28835244998ac814\r\n- FileSystem: change to adapter internally https://github.com/contributte/utils/commit/1110e50c76c181c2a95ae6fbde2f6f32dafe1545\r\n- Http::metadata() https://github.com/contributte/utils/commit/acb2be7cb360f3499536d45b21fdb1ce66526584"
+    "body": "Diff: https://github.com/contributte/utils/compare/v0.3.2...v0.4.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/utils/commit/459026d1cd1b6114cbce072735ee0ed6659be09c\r\n"
   },
   "18023316": {
     "org": "contributte",
@@ -4587,7 +4577,7 @@
     "created_at": "2019-06-16T14:04:06Z",
     "published_at": "2019-06-16T16:49:00Z",
     "html_url": "https://github.com/contributte/tracy/releases/tag/v0.4.0",
-    "body": "Diff: https://github.com/contributte/tracy/compare/v0.3.1...v0.4.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/tracy/commit/5276a428243d7778b6f74f5d9b731af333401310"
+    "body": "Diff: https://github.com/contributte/tracy/compare/v0.3.2...v0.4.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/tracy/commit/5276a428243d7778b6f74f5d9b731af333401310"
   },
   "18023328": {
     "org": "contributte",
@@ -4637,7 +4627,7 @@
     "created_at": "2019-06-16T14:08:49Z",
     "published_at": "2019-06-16T17:01:36Z",
     "html_url": "https://github.com/contributte/guzzlette/releases/tag/v3.0.0",
-    "body": "Diff: https://github.com/contributte/guzzlette/compare/v2.0.0...v3.0.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/guzzlette/commit/c3c660cc4f850d1d05070d3171948d209f01f73d"
+    "body": "Diff: https://github.com/contributte/guzzlette/compare/v2.1.0...v3.0.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/guzzlette/commit/c3c660cc4f850d1d05070d3171948d209f01f73d"
   },
   "18034538": {
     "org": "contributte",
@@ -4728,5 +4718,175 @@
     "published_at": "2019-06-18T10:35:52Z",
     "html_url": "https://github.com/contributte/psr7-http-message/releases/tag/v0.6.0",
     "body": "Diff: https://github.com/contributte/psr7-http-message/compare/v0.5.3...v0.6.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/psr7-http-message/commit/3475b4b909fd7089c006c4ac10a3440853484962"
+  },
+  "18142559": {
+    "org": "contributte",
+    "repo": "utils",
+    "tag": "v0.3.2",
+    "name": "v0.3.2",
+    "created_at": "2019-05-13T20:15:11Z",
+    "published_at": "2019-06-21T12:28:34Z",
+    "html_url": "https://github.com/contributte/utils/releases/tag/v0.3.2",
+    "body": "Diff: https://github.com/contributte/utils/compare/v0.3.1...v0.3.2\r\n\r\nChanges:\r\n- Merger https://github.com/contributte/utils/commit/091fbf1de8b8ccb8d70b2e2a6b867791eaeb8c60\r\n- Deeper https://github.com/contributte/utils/commit/423534612feb014bf1bb65715e2200e655da81ca\r\n- Arrays::hash() https://github.com/contributte/utils/commit/920b4c89a517bedf0ff959be6a89803162dbd994\r\n- Optional https://github.com/contributte/utils/commit/3afb4010ee60fd01307850c13000b1918dc90859\r\n- Config https://github.com/contributte/utils/commit/6fd69ab3d43a8f2a3cd59ac9f0f090395d9fc461\r\n- IDateTimeFactory - time parameter https://github.com/contributte/utils/commit/da4ef03031831b68c0a5726a28835244998ac814\r\n- FileSystem: change to adapter internally https://github.com/contributte/utils/commit/1110e50c76c181c2a95ae6fbde2f6f32dafe1545\r\n- Http::metadata() https://github.com/contributte/utils/commit/acb2be7cb360f3499536d45b21fdb1ce66526584"
+  },
+  "18154998": {
+    "org": "contributte",
+    "repo": "tracy",
+    "tag": "v0.3.2",
+    "name": "v0.3.2",
+    "created_at": "2019-02-25T12:50:46Z",
+    "published_at": "2019-06-21T22:36:19Z",
+    "html_url": "https://github.com/contributte/tracy/releases/tag/v0.3.2",
+    "body": "Diff: https://github.com/contributte/tracy/compare/v0.3.1...v0.3.2\r\n\r\nChanges:\r\n- Allow Tracy 2.6"
+  },
+  "18176814": {
+    "org": "contributte",
+    "repo": "guzzlette",
+    "tag": "v2.1.0",
+    "name": "v2.1.0",
+    "created_at": "2019-03-22T17:57:46Z",
+    "published_at": "2019-06-24T10:06:26Z",
+    "html_url": "https://github.com/contributte/guzzlette/releases/tag/v2.1.0",
+    "body": "Diff: https://github.com/contributte/guzzlette/compare/v2.0.0...v2.1.0\r\n\r\nChanges:\r\n- Allow Tracy 2.6"
+  },
+  "18272093": {
+    "org": "contributte",
+    "repo": "forms-wizard",
+    "tag": "2.0.1",
+    "name": "",
+    "created_at": "2019-06-27T16:05:38Z",
+    "published_at": "2019-06-27T16:06:12Z",
+    "html_url": "https://github.com/contributte/forms-wizard/releases/tag/2.0.1",
+    "body": ""
+  },
+  "18276226": {
+    "org": "contributte",
+    "repo": "di",
+    "tag": "v0.3.1",
+    "name": "v0.3.1",
+    "created_at": "2019-06-27T18:56:48Z",
+    "published_at": "2019-06-27T18:58:47Z",
+    "html_url": "https://github.com/contributte/di/releases/tag/v0.3.1",
+    "body": "Diff: https://github.com/contributte/di/compare/v0.3.0...v0.3.1\r\n\r\nChanges:\r\n- Added Decorator https://github.com/contributte/di/commit/9a7e485a2094465fb67ed6da998e34ee0d97aad3 and https://github.com/contributte/di/commit/29d7adc9b71b0c92314b6911522349514de67f88\r\n- Allow nette/robot-loader 3.1.0\r\n- InjectExtension - fix non-string values https://github.com/contributte/di/commit/de531e26ba4b70d570b59a28cfd81cc17de6800a"
+  },
+  "18276308": {
+    "org": "contributte",
+    "repo": "di",
+    "tag": "v0.4.0",
+    "name": "v0.4.0",
+    "created_at": "2019-06-27T18:23:41Z",
+    "published_at": "2019-06-27T19:01:52Z",
+    "html_url": "https://github.com/contributte/di/releases/tag/v0.4.0",
+    "body": "Diff: https://github.com/contributte/di/compare/v0.3.1...v0.4.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/di/commit/4d2e57ce03e021b60ede62d94cd41c9f0682d518\r\n- Added ExtensionDefinitionsHelper\r\n- Removed Config (in behalf of nette/schema)\r\n- Removed NewExtensionsExtension (ExtensionsExtension is final and cannot be replaced)"
+  },
+  "18293256": {
+    "org": "contributte",
+    "repo": "redis",
+    "tag": "v0.2.1",
+    "name": "v0.2.1",
+    "created_at": "2019-06-28T12:57:57Z",
+    "published_at": "2019-06-28T13:01:11Z",
+    "html_url": "https://github.com/contributte/redis/releases/tag/v0.2.1",
+    "body": "Diff: https://github.com/contributte/redis/compare/v0.2.0...v0.2.1\r\n\r\nChanges:\r\n- Fixed DI extension - cannot access to stdClass as an array https://github.com/contributte/redis/commit/c9e6d338c088e3cae8cef7102012d68071ce71a7"
+  },
+  "18304416": {
+    "org": "contributte",
+    "repo": "console",
+    "tag": "v0.7.0",
+    "name": "v0.7.0",
+    "created_at": "2019-06-28T19:07:01Z",
+    "published_at": "2019-06-29T12:39:58Z",
+    "html_url": "https://github.com/contributte/console/releases/tag/v0.7.0",
+    "body": "Diff: https://github.com/contributte/console/compare/v0.6...v0.7.0\r\n\r\nChanges:\r\n- Autoconfigure EventDispatcher, if available https://github.com/contributte/console/commit/b69b5432a3ed2756b2e31116fe1fdea6969cf07d\r\n- Console version could be numeric https://github.com/contributte/console/commit/b1d1cc489de11e4ddb279fbfee37d7b6ae72728b\r\n- Flexible configuration of helpers and helperSet https://github.com/contributte/console/commit/cfb1e9297fee75b3024a46faf47e80735bef8a9d"
+  },
+  "18304437": {
+    "org": "contributte",
+    "repo": "flysystem",
+    "tag": "v0.2.0",
+    "name": "v0.2.0",
+    "created_at": "2019-06-28T19:08:07Z",
+    "published_at": "2019-06-28T21:17:13Z",
+    "html_url": "https://github.com/contributte/flysystem/releases/tag/v0.2.0",
+    "body": "Diff: https://github.com/contributte/flysystem/compare/v0.1...v0.2.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/flysystem/commit/4834f8b580cc37255fde26dd6f59169c10b86d87"
+  },
+  "18304451": {
+    "org": "contributte",
+    "repo": "phpdoc",
+    "tag": "v0.3.0",
+    "name": "v0.3.0",
+    "created_at": "2019-06-28T19:09:34Z",
+    "published_at": "2019-06-28T21:18:06Z",
+    "html_url": "https://github.com/contributte/phpdoc/releases/tag/v0.3.0",
+    "body": "Diff: https://github.com/contributte/phpdoc/compare/v0.2...v0.3.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/phpdoc/commit/972b5b51772b033952d0ef74faa9a50c47b8cc03"
+  },
+  "18304498": {
+    "org": "contributte",
+    "repo": "console-extra",
+    "tag": "v0.5.0",
+    "name": "v0.5.0",
+    "created_at": "2019-06-28T19:10:41Z",
+    "published_at": "2019-06-28T21:21:04Z",
+    "html_url": "https://github.com/contributte/console-extra/releases/tag/v0.5.0",
+    "body": "Diff: https://github.com/contributte/console-extra/compare/v0.4...v0.5.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/console-extra/commit/1d5c773d1690e0a7f0b5d6128344478d776015c4\r\n- Database backup commands https://github.com/contributte/console-extra/commit/8b5cca783b927cc244e64c3f64b83cb6e2c2fbc0"
+  },
+  "18304554": {
+    "org": "contributte",
+    "repo": "nextras-orm-events",
+    "tag": "v0.5.0",
+    "name": "v0.5.0",
+    "created_at": "2019-06-28T21:08:42Z",
+    "published_at": "2019-06-28T21:23:50Z",
+    "html_url": "https://github.com/contributte/nextras-orm-events/releases/tag/v0.5.0",
+    "body": "Diff: https://github.com/contributte/nextras-orm-events/compare/0.4...v0.5.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/nextras-orm-events/commit/ad71ea203e45cca249f97790bf20b468990bc0e3"
+  },
+  "18304589": {
+    "org": "contributte",
+    "repo": "elasticsearch",
+    "tag": "v0.2.0",
+    "name": "v0.2.0",
+    "created_at": "2019-06-28T21:07:34Z",
+    "published_at": "2019-06-28T21:26:22Z",
+    "html_url": "https://github.com/contributte/elasticsearch/releases/tag/v0.2.0",
+    "body": "Diff: https://github.com/contributte/elasticsearch/compare/v0.1...v0.2.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/elasticsearch/commit/02bb8262457dbcbe02c673f0942ba16c392a7222 and https://github.com/contributte/elasticsearch/commit/ac3dbce107d44e1845f42ba1cc2fc3ca032ba46b\r\n- Requires elasticsearch ^6.5, allows ^7.0 https://github.com/contributte/elasticsearch/commit/59e61c9e4e61a69c335ce5b80d70ee596d3792b1"
+  },
+  "18304696": {
+    "org": "contributte",
+    "repo": "middlewares",
+    "tag": "v0.9.0",
+    "name": "v0.9.0",
+    "created_at": "2019-06-28T21:31:14Z",
+    "published_at": "2019-06-28T21:34:27Z",
+    "html_url": "https://github.com/contributte/middlewares/releases/tag/v0.9.0",
+    "body": "Diff: https://github.com/contributte/middlewares/compare/v0.8...v0.9.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/middlewares/commit/b74ec0676058ebebc50e36ace2aa7f5474c8f7d7\r\n- Debug panel is shown only if middlewares are used https://github.com/contributte/middlewares/commit/5f8e9fe98eb0ec991f5de23363563926b9cd2e48\r\n- Prevent Content-Type to be sent multiple times https://github.com/contributte/middlewares/commit/a7e81c9da403ea7dee47a7ccab162fe7bf4ee841"
+  },
+  "18323573": {
+    "org": "contributte",
+    "repo": "codeception",
+    "tag": "v1.1.0",
+    "name": "v1.1.0",
+    "created_at": "2019-06-28T21:05:52Z",
+    "published_at": "2019-07-01T07:19:57Z",
+    "html_url": "https://github.com/contributte/codeception/releases/tag/v1.1.0",
+    "body": "Diff: https://github.com/contributte/codeception/compare/v1.0.1...v1.1.0\r\n\r\nChanges:\r\n- Allow Codeception v3 https://github.com/contributte/codeception/commit/0671e715d27848b3a5c9678dd37bef244afb9d03"
+  },
+  "18323752": {
+    "org": "contributte",
+    "repo": "scheduler",
+    "tag": "v0.5.0",
+    "name": "v0.5.0",
+    "created_at": "2019-06-30T20:30:42Z",
+    "published_at": "2019-07-01T07:29:49Z",
+    "html_url": "https://github.com/contributte/scheduler/releases/tag/v0.5.0",
+    "body": "Diff: https://github.com/contributte/scheduler/compare/v0.4.0...v0.5.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/scheduler/commit/11cc942d7cd7b0bc1bae28096013229888572f9b\r\n- Fixed callbacks defined as arrays https://github.com/contributte/scheduler/commit/84c58891e5fc99c10b83726772ef39bdd95527f4\r\n- support command lazy-loading https://github.com/contributte/scheduler/commit/681b4f94858d523ab4ec0afca7e3ede9a150a699"
+  },
+  "18323823": {
+    "org": "contributte",
+    "repo": "event-dispatcher",
+    "tag": "v0.6.0",
+    "name": "v0.6.0",
+    "created_at": "2019-06-30T20:24:32Z",
+    "published_at": "2019-07-01T07:33:13Z",
+    "html_url": "https://github.com/contributte/event-dispatcher/releases/tag/v0.6.0",
+    "body": "Diff: https://github.com/contributte/event-dispatcher/compare/v0.5...v0.6.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/event-dispatcher/commit/06858f84184a82f6f0ab4607ec9ba0eed0707c98\r\n- Dropped EventDispatcher interface (use EventDispatcherInterface from Symfony instead) https://github.com/contributte/event-dispatcher/commit/e8a9b55a520f7046545cccee597efd9805c9d2fd"
   }
 }

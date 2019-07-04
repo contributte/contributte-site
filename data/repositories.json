@@ -21,9 +21,9 @@
         "body": "Diff: https://github.com/contributte/console/compare/v0.6...v0.7.0\r\n\r\nChanges:\r\n- Autoconfigure EventDispatcher, if available https://github.com/contributte/console/commit/b69b5432a3ed2756b2e31116fe1fdea6969cf07d\r\n- Console version could be numeric https://github.com/contributte/console/commit/b1d1cc489de11e4ddb279fbfee37d7b6ae72728b\r\n- Flexible configuration of helpers and helperSet https://github.com/contributte/console/commit/cfb1e9297fee75b3024a46faf47e80735bef8a9d"
       }
     },
-    "stars": 39,
-    "watchers": 39,
-    "forks": 11,
+    "stars": 45,
+    "watchers": 45,
+    "forks": 12,
     "composer": {
       "php": [
         "7.2",
@@ -31,7 +31,7 @@
       ],
       "nette": []
     },
-    "issues": 5
+    "issues": 0
   },
   "contributte/mailing": {
     "org": "contributte",
@@ -56,7 +56,7 @@
     },
     "stars": 7,
     "watchers": 7,
-    "forks": 1,
+    "forks": 0,
     "composer": {
       "nette": [
         "2.4"
@@ -66,7 +66,7 @@
         "7.4"
       ]
     },
-    "issues": 1
+    "issues": 0
   },
   "contributte/neonizer": {
     "org": "contributte",
@@ -102,7 +102,7 @@
         "7.4"
       ]
     },
-    "issues": 0
+    "issues": 1
   },
   "contributte/console-extra": {
     "org": "contributte",
@@ -127,9 +127,9 @@
         "body": "Diff: https://github.com/contributte/console-extra/compare/v0.4...v0.5.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/console-extra/commit/1d5c773d1690e0a7f0b5d6128344478d776015c4\r\n- Database backup commands https://github.com/contributte/console-extra/commit/8b5cca783b927cc244e64c3f64b83cb6e2c2fbc0"
       }
     },
-    "stars": 12,
-    "watchers": 12,
-    "forks": 5,
+    "stars": 15,
+    "watchers": 15,
+    "forks": 4,
     "composer": {
       "nette": [
         "3.0"
@@ -139,7 +139,7 @@
         "7.4"
       ]
     },
-    "issues": 1
+    "issues": 0
   },
   "contributte/event-dispatcher": {
     "org": "contributte",
@@ -164,8 +164,8 @@
         "body": "Diff: https://github.com/contributte/event-dispatcher/compare/v0.5...v0.6.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/event-dispatcher/commit/06858f84184a82f6f0ab4607ec9ba0eed0707c98\r\n- Dropped EventDispatcher interface (use EventDispatcherInterface from Symfony instead) https://github.com/contributte/event-dispatcher/commit/e8a9b55a520f7046545cccee597efd9805c9d2fd"
       }
     },
-    "stars": 12,
-    "watchers": 12,
+    "stars": 15,
+    "watchers": 15,
     "forks": 3,
     "composer": {
       "php": [
@@ -176,7 +176,7 @@
         "3.0"
       ]
     },
-    "issues": 2
+    "issues": 0
   },
   "contributte/live-form-validation": {
     "org": "contributte",
@@ -200,10 +200,10 @@
         "body": "Bump! 🏭 \r\n\r\nDiff: https://github.com/contributte/live-form-validation/compare/v1.8.0...v1.9.0\r\n\r\nChanges:\r\n- moved under contributte organization\r\n- created NPM package [#35]\r\n- added Travis CI releases\r\n- fixed ReferenceError prop is not defined\r\n- fixed range validator for min & max validator [#38]"
       }
     },
-    "stars": 48,
-    "watchers": 48,
-    "forks": 19,
-    "issues": 18
+    "stars": 49,
+    "watchers": 49,
+    "forks": 20,
+    "issues": 17
   },
   "contributte/event-dispatcher-extra": {
     "org": "contributte",
@@ -230,7 +230,7 @@
     },
     "stars": 4,
     "watchers": 4,
-    "forks": 6,
+    "forks": 5,
     "composer": {
       "nette": [
         "2.4"
@@ -265,7 +265,7 @@
     },
     "stars": 27,
     "watchers": 27,
-    "forks": 7,
+    "forks": 8,
     "composer": {
       "php": [
         "7.1",
@@ -299,9 +299,9 @@
         "body": "Bumped! 👈 \r\n\r\nDiff: https://github.com/contributte/reCAPTCHA/compare/3.1.0...3.2.0\r\n\r\nChanges:\r\n- Nette 3.0 [#27] (thanks @PavelJurasek)\r\n- Fix validation message [#26]  "
       }
     },
-    "stars": 24,
-    "watchers": 24,
-    "forks": 13,
+    "stars": 25,
+    "watchers": 25,
+    "forks": 12,
     "composer": {
       "nette": [
         "3.0"
@@ -336,7 +336,7 @@
     },
     "stars": 16,
     "watchers": 16,
-    "forks": 4,
+    "forks": 5,
     "composer": {
       "php": [
         "7.2",
@@ -403,9 +403,9 @@
         "body": "Bump! 🥕\r\n\r\nDiff: https://github.com/contributte/logging/compare/v0.2.2...v0.3.0\r\n\r\nChanges:\r\n- lots of bc breaks (added typehints to interface)\r\n- support only 2.5.x tracy\r\n\r\n- TracyLoggingExtension\r\n    - keep original Tracy Logger in DIC with different key logging.originalLogger\r\n\r\n- SendMailLogger\r\n    - not filter only Exception [#22]\r\n    - sending also string messages with critical/error/exception priority (as in the original Logger)\r\n    - configurable priority\r\n\r\n- SentryLogger\r\n    - removed final\r\n    - added priority level\r\n    - sending also string messages with critical/error/exception priority\r\n    - configurable priority\r\n\r\n- FileLogger\r\n    - renamed from ExceptionFileLogger (because it does not log only exceptions but<priority>.log)\r\n\r\n- NullLogger\r\n    - with Tracy/ILogger interface [#10]\r\n\r\n- Utils\r\n    - used static methods formatLogLine,formatMessage from original Tracy\\Logger"
       }
     },
-    "stars": 7,
-    "watchers": 7,
-    "forks": 9,
+    "stars": 9,
+    "watchers": 9,
+    "forks": 8,
     "composer": {
       "php": [
         "7.1",
@@ -454,8 +454,8 @@
         "body": "Diff: https://github.com/contributte/application/compare/v0.3.2...v0.4.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/application/commit/3e93c7862c0356753b629306a17ed057e7283089\r\n- Removed LinkGenerator https://github.com/contributte/application/commit/a61f9a53f161d116960f671a52b0eee91d079afc\r\n- StringResponse https://github.com/contributte/application/commit/8b2288ada856f5d1bb3a2c2563a6ed759803e61e"
       }
     },
-    "stars": 6,
-    "watchers": 6,
+    "stars": 7,
+    "watchers": 7,
     "forks": 4,
     "composer": {
       "nette": [
@@ -466,7 +466,7 @@
         "7.4"
       ]
     },
-    "issues": 5
+    "issues": 4
   },
   "contributte/bootstrap": {
     "org": "contributte",
@@ -492,7 +492,7 @@
     },
     "stars": 8,
     "watchers": 8,
-    "forks": 2,
+    "forks": 1,
     "composer": {
       "nette": [],
       "php": [
@@ -500,7 +500,7 @@
         "7.4"
       ]
     },
-    "issues": 1
+    "issues": 0
   },
   "contributte/cache": {
     "org": "contributte",
@@ -632,8 +632,8 @@
         "body": "Bumped! :fist_oncoming: "
       }
     },
-    "stars": 2,
-    "watchers": 2,
+    "stars": 4,
+    "watchers": 4,
     "forks": 0,
     "composer": {
       "php": [
@@ -666,9 +666,9 @@
         "body": "Diff: https://github.com/contributte/di/compare/v0.3.0...v0.3.1\r\n\r\nChanges:\r\n- Added Decorator https://github.com/contributte/di/commit/9a7e485a2094465fb67ed6da998e34ee0d97aad3 and https://github.com/contributte/di/commit/29d7adc9b71b0c92314b6911522349514de67f88\r\n- Allow nette/robot-loader 3.1.0\r\n- InjectExtension - fix non-string values https://github.com/contributte/di/commit/de531e26ba4b70d570b59a28cfd81cc17de6800a"
       }
     },
-    "stars": 9,
-    "watchers": 9,
-    "forks": 7,
+    "stars": 11,
+    "watchers": 11,
+    "forks": 6,
     "composer": {
       "nette": [
         "3.0"
@@ -678,7 +678,7 @@
         "7.4"
       ]
     },
-    "issues": 3
+    "issues": 1
   },
   "contributte/dummy-events": {
     "org": "contributte",
@@ -738,9 +738,9 @@
         "body": "Diff: https://github.com/contributte/elasticsearch/compare/v0.1...v0.2.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/elasticsearch/commit/02bb8262457dbcbe02c673f0942ba16c392a7222 and https://github.com/contributte/elasticsearch/commit/ac3dbce107d44e1845f42ba1cc2fc3ca032ba46b\r\n- Requires elasticsearch ^6.5, allows ^7.0 https://github.com/contributte/elasticsearch/commit/59e61c9e4e61a69c335ce5b80d70ee596d3792b1"
       }
     },
-    "stars": 1,
-    "watchers": 1,
-    "forks": 2,
+    "stars": 2,
+    "watchers": 2,
+    "forks": 1,
     "composer": {
       "nette": [
         "3.0"
@@ -775,7 +775,7 @@
     },
     "stars": 6,
     "watchers": 6,
-    "forks": 4,
+    "forks": 5,
     "composer": {
       "php": [
         "7.2",
@@ -808,7 +808,7 @@
     },
     "stars": 2,
     "watchers": 2,
-    "forks": 1,
+    "forks": 0,
     "composer": {
       "php": [
         "7.1",
@@ -842,8 +842,8 @@
         "body": "Diff: https://github.com/contributte/forms/compare/v0.3...v0.4.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/forms/commit/c58723613f866ac28fbffe1f4c90530beec7d105\r\n- Contributte\\Forms\\(Renderers -> Rendering) https://github.com/contributte/forms/commit/7994e661dd5a0d58b80f783732c4d50a34ccda19\r\n- ProtectionFastInput https://github.com/contributte/forms/commit/d27f2f60d5de7b22a1139be96c7cac4012e407f0"
       }
     },
-    "stars": 6,
-    "watchers": 6,
+    "stars": 7,
+    "watchers": 7,
     "forks": 2,
     "composer": {
       "nette": [
@@ -854,7 +854,7 @@
         "7.4"
       ]
     },
-    "issues": 10
+    "issues": 9
   },
   "contributte/generator-nette": {
     "org": "contributte",
@@ -905,7 +905,7 @@
         "7.4"
       ]
     },
-    "issues": 4
+    "issues": 3
   },
   "contributte/latte": {
     "org": "contributte",
@@ -941,7 +941,7 @@
         "3.0"
       ]
     },
-    "issues": 2
+    "issues": 1
   },
   "contributte/latte-email": {
     "org": "contributte",
@@ -967,7 +967,7 @@
     },
     "stars": 6,
     "watchers": 6,
-    "forks": 2,
+    "forks": 1,
     "composer": {
       "nette": [
         "3.0"
@@ -977,7 +977,7 @@
         "7.4"
       ]
     },
-    "issues": 1
+    "issues": 0
   },
   "contributte/latte-parsedown-extra": {
     "org": "contributte",
@@ -1073,9 +1073,9 @@
         "body": "Diff: https://github.com/contributte/middlewares/compare/v0.8...v0.9.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/middlewares/commit/b74ec0676058ebebc50e36ace2aa7f5474c8f7d7\r\n- Debug panel is shown only if middlewares are used https://github.com/contributte/middlewares/commit/5f8e9fe98eb0ec991f5de23363563926b9cd2e48\r\n- Prevent Content-Type to be sent multiple times https://github.com/contributte/middlewares/commit/a7e81c9da403ea7dee47a7ccab162fe7bf4ee841"
       }
     },
-    "stars": 8,
-    "watchers": 8,
-    "forks": 8,
+    "stars": 10,
+    "watchers": 10,
+    "forks": 6,
     "composer": {
       "php": [
         "7.2",
@@ -1085,7 +1085,7 @@
         "2.4"
       ]
     },
-    "issues": 2
+    "issues": 0
   },
   "contributte/psr11-container-interface": {
     "org": "contributte",
@@ -1123,7 +1123,7 @@
         "8.0"
       ]
     },
-    "issues": 2
+    "issues": 1
   },
   "contributte/mobilni-platby": {
     "org": "contributte",
@@ -1204,8 +1204,8 @@
         "body": "Diff: https://github.com/contributte/nextras-orm-events/compare/0.4...v0.5.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/nextras-orm-events/commit/ad71ea203e45cca249f97790bf20b468990bc0e3"
       }
     },
-    "stars": 6,
-    "watchers": 6,
+    "stars": 7,
+    "watchers": 7,
     "forks": 0,
     "composer": {
       "nette": [
@@ -1241,9 +1241,9 @@
         "body": "Bump! ⌛️ \r\n\r\nDiff: https://github.com/contributte/nextras-orm-generator/compare/0.1...0.2\r\n\r\nChanges:\r\n\r\n- change name to contributte/nextras-orm-generator\r\n- support only for PHP7.1+\r\n- generate getEntityClassNames method on repository\r\n- singularization (converting plural table name to singular class names)\r\n- use Nextras\\Dbal\\Utils\\DateTimeImmutable for dates\r\n- option to generate column constants\r\n- model generator\r\n- compatibility with php-generator 3+\r\n- add config for (not) generating relations\r\n- set primary key on generated entities"
       }
     },
-    "stars": 10,
-    "watchers": 10,
-    "forks": 8,
+    "stars": 12,
+    "watchers": 12,
+    "forks": 9,
     "composer": {
       "nette": [
         "2.4"
@@ -1253,7 +1253,7 @@
         "8.0"
       ]
     },
-    "issues": 0
+    "issues": 1
   },
   "contributte/nextras-orm-query-object": {
     "org": "contributte",
@@ -1338,8 +1338,8 @@
       "v": "v0"
     },
     "description": ":books: Examples / tutorials / tips / samples | sandbox for @contributte",
-    "stars": 7,
-    "watchers": 7,
+    "stars": 9,
+    "watchers": 9,
     "forks": 6,
     "issues": 1
   },
@@ -1366,8 +1366,8 @@
         "body": "Diff: https://github.com/contributte/psr7-http-message/compare/v0.5.3...v0.6.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/psr7-http-message/commit/3475b4b909fd7089c006c4ac10a3440853484962"
       }
     },
-    "stars": 17,
-    "watchers": 17,
+    "stars": 18,
+    "watchers": 18,
     "forks": 1,
     "composer": {
       "php": [
@@ -1402,7 +1402,7 @@
     },
     "stars": 5,
     "watchers": 5,
-    "forks": 2,
+    "forks": 1,
     "composer": {
       "nette": [
         "3.0"
@@ -1412,7 +1412,7 @@
         "7.4"
       ]
     },
-    "issues": 1
+    "issues": 0
   },
   "contributte/social": {
     "org": "contributte",
@@ -1471,8 +1471,8 @@
         "body": "Diff: https://github.com/contributte/tracy/compare/v0.3.2...v0.4.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/tracy/commit/5276a428243d7778b6f74f5d9b731af333401310"
       }
     },
-    "stars": 5,
-    "watchers": 5,
+    "stars": 6,
+    "watchers": 6,
     "forks": 2,
     "composer": {
       "php": [
@@ -1481,7 +1481,7 @@
       ],
       "nette": []
     },
-    "issues": 6
+    "issues": 7
   },
   "contributte/utils": {
     "org": "contributte",
@@ -1505,9 +1505,9 @@
         "body": "Diff: https://github.com/contributte/utils/compare/v0.3.2...v0.4.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/utils/commit/459026d1cd1b6114cbce072735ee0ed6659be09c\r\n"
       }
     },
-    "stars": 5,
-    "watchers": 5,
-    "forks": 4,
+    "stars": 6,
+    "watchers": 6,
+    "forks": 2,
     "composer": {
       "nette": [
         "3.0"
@@ -1517,7 +1517,7 @@
         "7.4"
       ]
     },
-    "issues": 3
+    "issues": 2
   },
   "contributte/wordcha": {
     "org": "contributte",
@@ -1587,9 +1587,9 @@
         "body": "Diff: https://github.com/apitte/core/compare/v0.4...v0.5\r\n\r\nNew: \r\n- rewrited documentation\r\n- Apitte is now wrapped into own `Application` class which must be used for proper functioning (see [documentation](https://github.com/apitte/core/tree/v0.5/.docs/setup.md#setup))\r\n- error handler\r\n  - transforms all thrown errors into response\r\n    - could be disabled by option `catchException: false` in debug mode\r\n    - apitte/negotiation is used for error transformation instead, if installed\r\n  - if an PSR-3 compatible logger (like Monolog) is register in DIC then all errors except our special `ApiException` and it's descendants (`ServerErrorException`, `ClientErrorException`, ...) are logged with `error` severity\r\n    - also previous errors from `ApiException` (`$exception->withPrevious($anotherException)`) are logged\r\n- `ClientErrorException` and `ServerErrorException` have default error message https://github.com/apitte/core/commit/866418deffcdcdf031def983f5720bfcc402b1bc\r\n- new `Request`, `Response` and `OpenApi` annotations (used by apitte/openapi) https://github.com/apitte/core/commit/31d700820036f1487dab9fbbfb197fb06f29a9c8\r\n- `ApiResponse` contain constants with all HTTP response codes https://github.com/apitte/core/commit/342311bb41e00bbf43dc613959cff4728acf4eab\r\n- request parameters with type `int` and `float` accept numbers prefixed with `+` https://github.com/apitte/core/commit/969f9d5c0309d7c029322eabb73cdffe6e90c1ab\r\n- apitte/playground merged with [planette/playground](https://github.com/planette/playground)\r\n\r\nChanges:\r\n- simplified `ServiceHandler`, overriding implementations need changes https://github.com/apitte/core/commit/ccafbd4b6dcafe7a01a52d9e0744568a5ec2cc91\r\n- `FileResponseDecorator` changed to static `FileResponseAdjuster` https://github.com/apitte/core/commit/2337b4e15204a613bf0cf0650a3c90f6c003bbdd\r\n- `IRequestEntity` implementation is now optional for request mapper entities https://github.com/apitte/core/commit/38785e12df7bf2906100c748afedb880ee707948\r\n- `IDecorator` splitted into strictly-typed interfaces https://github.com/apitte/core/commit/73597e713e958778c06f17753caa1441f8397778\r\n- `ApiRequest` and `ApiResponse` are now required by all layers instead of `ServerRequestInterface` and `ResponseInterface` https://github.com/apitte/core/commit/d3c4ceb23ca8cc490d28027d6b34fc3c3dda2b53\r\n\r\nRemovals:\r\n- support for alternative, undocumented syntax for most annotations https://github.com/apitte/core/commit/e7fced3e67d104548058a61630a172123f35cf63\r\n- `Controller` annotation, controllers are now required to only implement `IController` https://github.com/apitte/core/commit/d0e38d9f0242f28a51ffe3c282b8b7f7b3c4411e\r\n- `Schema` from request attributes, as it could be get from DIC https://github.com/apitte/core/commit/44c2e28d071c5971c5c127bbb351dd9fbc9fb5e1\r\n\r\nFixes:\r\n- tags without value https://github.com/apitte/core/commit/028ee61b7a9fff7bf93b46048d0a5212509a3cd7\r\n- url suffixes used in apitte/negotiation now support urls with variable parameter at the end (like `/users/{id}.debug`) https://github.com/apitte/core/commit/5c0ea433b184c17503870909549271978746dc94\r\n- MessageException - default error code https://github.com/apitte/core/commit/1cf0d89840b063f893c632d69eef5f0aaa9cb36b"
       }
     },
-    "stars": 23,
-    "watchers": 23,
-    "forks": 10,
+    "stars": 25,
+    "watchers": 25,
+    "forks": 8,
     "composer": {
       "php": [
         "7.1",
@@ -1599,7 +1599,7 @@
         "2.4"
       ]
     },
-    "issues": 11
+    "issues": 12
   },
   "apitte/debug": {
     "org": "apitte",
@@ -1635,7 +1635,7 @@
         "2.4"
       ]
     },
-    "issues": 0
+    "issues": 2
   },
   "apitte/console": {
     "org": "apitte",
@@ -1661,7 +1661,7 @@
     },
     "stars": 3,
     "watchers": 3,
-    "forks": 1,
+    "forks": 0,
     "composer": {
       "php": [
         "7.1",
@@ -1671,7 +1671,7 @@
         "2.4"
       ]
     },
-    "issues": 0
+    "issues": 1
   },
   "apitte/openapi": {
     "org": "apitte",
@@ -1707,7 +1707,7 @@
         "2.4"
       ]
     },
-    "issues": 2
+    "issues": 4
   },
   "apitte/middlewares": {
     "org": "apitte",
@@ -1743,7 +1743,7 @@
         "2.4"
       ]
     },
-    "issues": 0
+    "issues": 2
   },
   "apitte/negotiation": {
     "org": "apitte",
@@ -1779,7 +1779,7 @@
         "2.4"
       ]
     },
-    "issues": 3
+    "issues": 4
   },
   "apitte/presenter": {
     "org": "apitte",
@@ -1803,9 +1803,9 @@
         "body": "Diff: https://github.com/apitte/presenter/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- rewrited documentation\r\n- core 0.5\r\n- internally uses new `Application` instead of `IDispatcher`"
       }
     },
-    "stars": 4,
-    "watchers": 4,
-    "forks": 1,
+    "stars": 5,
+    "watchers": 5,
+    "forks": 0,
     "composer": {
       "php": [
         "7.1",
@@ -1815,7 +1815,7 @@
         "2.4"
       ]
     },
-    "issues": 0
+    "issues": 1
   },
   "apitte/fullstack": {
     "org": "apitte",
@@ -1839,8 +1839,8 @@
         "body": "Diff: https://github.com/apitte/fullstack/compare/v0.4...v0.5"
       }
     },
-    "stars": 5,
-    "watchers": 5,
+    "stars": 4,
+    "watchers": 4,
     "forks": 1,
     "composer": {
       "php": [
@@ -1887,8 +1887,8 @@
         "body": "Bumped! 🏷  \r\n\r\nDiff: https://github.com/nettrine/dbal/compare/v0.2.7...v0.3\r\n\r\nChanges:\r\n- require doctrine/dbal ~2.9.2\r\n- added `unix_socket` to configuration (thanks  @kubarta)\r\n- ContainerAwareEventManager: support subscribers as anonymous services (thanks @jiripudil)\r\n- use phpstan 0.11, phpunit 8"
       }
     },
-    "stars": 7,
-    "watchers": 7,
+    "stars": 8,
+    "watchers": 8,
     "forks": 13,
     "composer": {
       "nette": [
@@ -1923,8 +1923,8 @@
         "body": "Bumped! 🏷  \r\n\r\nDiff: https://github.com/nettrine/orm/compare/v0.2.2...v0.3\r\n\r\nChanges:\r\n- added EntityManagerDecorator, because EntityManager is final [#22][#41]\r\n- added XML bridge [#42](thanks @JanMikes + @JanGalek)\r\n- added configurationClass [#46](thanks @aleswita)\r\n- use Phpstan v0.11\r\n- improve docs (@mabar, @Gappa)\r\n- upgrade minimal deps (nette/di, nette/utils, symfony/console, doctrine/orm, doctrine/cache)"
       }
     },
-    "stars": 29,
-    "watchers": 29,
+    "stars": 31,
+    "watchers": 31,
     "forks": 20,
     "composer": {
       "nette": [
@@ -1960,8 +1960,8 @@
         "body": "Bump! 🎃 \r\n\r\nDiff: https://github.com/nettrine/fixtures/compare/v0.3...v0.4\r\n\r\nChanges:\r\n- Upgrade deps (use symfony/console >=4.2)\r\n- Commands in DI have `console.command` tag (@mabar)\r\n- Typos"
       }
     },
-    "stars": 5,
-    "watchers": 5,
+    "stars": 6,
+    "watchers": 6,
     "forks": 0,
     "composer": {
       "nette": [
@@ -1996,8 +1996,8 @@
         "body": "Bump! 🏷  \r\n\r\nDiff: https://github.com/nettrine/migrations/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- use doctrine/migrations 2.0\r\n- added `customTemplate` (thanks @RiKap)"
       }
     },
-    "stars": 21,
-    "watchers": 21,
+    "stars": 22,
+    "watchers": 22,
     "forks": 7,
     "composer": {
       "php": [
@@ -2032,8 +2032,8 @@
         "body": "Bump! 🍭 \r\n\r\nDiff: https://github.com/nettrine/extensions/compare/v0.2...v0.3\r\n\r\nChanges:\r\n- switch Kdyby -> Nettrine\r\n- require PHP 7.1"
       }
     },
-    "stars": 4,
-    "watchers": 4,
+    "stars": 6,
+    "watchers": 6,
     "forks": 6,
     "composer": {
       "nette": [
@@ -2154,7 +2154,7 @@
     },
     "stars": 4,
     "watchers": 4,
-    "forks": 7,
+    "forks": 8,
     "composer": {
       "php": [
         "7.2",
@@ -2187,8 +2187,8 @@
         "body": "Diff: https://github.com/contributte/guzzlette/compare/v2.1.0...v3.0.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/guzzlette/commit/c3c660cc4f850d1d05070d3171948d209f01f73d"
       }
     },
-    "stars": 12,
-    "watchers": 12,
+    "stars": 14,
+    "watchers": 14,
     "forks": 7,
     "composer": {
       "php": [
@@ -2199,7 +2199,7 @@
         "2.4"
       ]
     },
-    "issues": 2
+    "issues": 0
   },
   "contributte/redis": {
     "org": "contributte",
@@ -2222,9 +2222,9 @@
         "body": "Diff: https://github.com/contributte/redis/compare/v0.2.0...v0.2.1\r\n\r\nChanges:\r\n- Fixed DI extension - cannot access to stdClass as an array https://github.com/contributte/redis/commit/c9e6d338c088e3cae8cef7102012d68071ce71a7"
       }
     },
-    "stars": 5,
-    "watchers": 5,
-    "forks": 3,
+    "stars": 8,
+    "watchers": 8,
+    "forks": 4,
     "composer": {
       "nette": [],
       "php": [
@@ -2232,7 +2232,7 @@
         "7.4"
       ]
     },
-    "issues": 2
+    "issues": 1
   },
   "contributte/monolog": {
     "org": "contributte",
@@ -2255,8 +2255,8 @@
         "body": "Diff: https://github.com/contributte/monolog/compare/v0.2.2...v0.3.0\r\n\r\nChanges:\r\n- Supports Nette 3 https://github.com/contributte/monolog/commit/53e99b7bb7ddf3a533ab571f5d306baf35e44542\r\n- PHP ^7.2"
       }
     },
-    "stars": 9,
-    "watchers": 9,
+    "stars": 10,
+    "watchers": 10,
     "forks": 3,
     "composer": {
       "php": [
@@ -2267,7 +2267,7 @@
         "2.4"
       ]
     },
-    "issues": 2
+    "issues": 0
   },
   "contributte/image-storage": {
     "org": "contributte",
@@ -2279,9 +2279,9 @@
     },
     "description": ":stars: Image storage for Nette framework",
     "releases": {},
-    "stars": 19,
-    "watchers": 19,
-    "forks": 10,
+    "stars": 20,
+    "watchers": 20,
+    "forks": 14,
     "composer": {
       "nette": [
         "2.4"
@@ -2291,7 +2291,7 @@
         "8.0"
       ]
     },
-    "issues": 4
+    "issues": 5
   },
   "contributte/thepay-api": {
     "org": "contributte",
@@ -2420,8 +2420,8 @@
         "body": "Diff: https://github.com/contributte/replacus/compare/v0.1...v0.2.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Latte 2.5"
       }
     },
-    "stars": 2,
-    "watchers": 2,
+    "stars": 3,
+    "watchers": 3,
     "forks": 0,
     "composer": {
       "php": [
@@ -2455,8 +2455,8 @@
         "body": ""
       }
     },
-    "stars": 10,
-    "watchers": 10,
+    "stars": 11,
+    "watchers": 11,
     "forks": 7,
     "composer": {
       "nette": [
@@ -2467,7 +2467,7 @@
         "8.0"
       ]
     },
-    "issues": 3
+    "issues": 2
   },
   "contributte/forms-wizard": {
     "org": "contributte",
@@ -2490,8 +2490,8 @@
         "body": ""
       }
     },
-    "stars": 7,
-    "watchers": 7,
+    "stars": 8,
+    "watchers": 8,
     "forks": 3,
     "composer": {
       "nette": [
@@ -2502,7 +2502,7 @@
         "8.0"
       ]
     },
-    "issues": 1
+    "issues": 0
   },
   "contributte/datagrid": {
     "org": "contributte",
@@ -2537,8 +2537,8 @@
         "body": "Bump! 🐒\r\n\r\nDiff: https://github.com/contributte/datagrid/compare/v6.1.0...v6.1.1\r\n\r\nBugfixes:\r\n- DataGrid: fixed resetting filter session"
       }
     },
-    "stars": 163,
-    "watchers": 163,
+    "stars": 172,
+    "watchers": 172,
     "forks": 127,
     "composer": {
       "nette": [
@@ -2549,7 +2549,7 @@
         "7.4"
       ]
     },
-    "issues": 86
+    "issues": 87
   },
   "contributte/api-router": {
     "org": "contributte",
@@ -2574,7 +2574,7 @@
     },
     "stars": 11,
     "watchers": 11,
-    "forks": 15,
+    "forks": 16,
     "composer": {
       "nette": [
         "2.4"
@@ -2609,7 +2609,7 @@
     },
     "stars": 3,
     "watchers": 3,
-    "forks": 0,
+    "forks": 1,
     "composer": {
       "nette": [],
       "php": [
@@ -2640,8 +2640,8 @@
         "body": ""
       }
     },
-    "stars": 30,
-    "watchers": 30,
+    "stars": 35,
+    "watchers": 35,
     "forks": 8,
     "composer": {
       "nette": [
@@ -2675,9 +2675,9 @@
         "body": ""
       }
     },
-    "stars": 12,
-    "watchers": 12,
-    "forks": 0,
+    "stars": 17,
+    "watchers": 17,
+    "forks": 3,
     "composer": {
       "php": [
         "7.1",
@@ -2780,8 +2780,8 @@
         "body": "Diff: https://github.com/contributte/oauth2-client/compare/v0.1.0...v0.2.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/oauth2-client/commit/100be8161790baab12c8f18654a912555a07a257"
       }
     },
-    "stars": 4,
-    "watchers": 4,
+    "stars": 8,
+    "watchers": 8,
     "forks": 1,
     "composer": {
       "php": [

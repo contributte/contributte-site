@@ -19,7 +19,7 @@ footer: MIT Licensed | Copyright © 2018-2019 Felix
       Contributte is a group of developers bound together that care about code quality.
     </p>
     <p class="action">
-      <a href="/releases/" class="nav-link action-button">Last Releases</a>
+      <a href="/releases/" class="nav-link action-button">Latest Releases</a>
       <a href="/packages/" class="nav-link action-button action-button-2x">Packages →</a>
       <a href="/packages/planette/playground" class="nav-link action-button">Examples</a>
     </p>

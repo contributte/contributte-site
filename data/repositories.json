@@ -2517,10 +2517,12 @@
         "actions": "Actions",
         "row": "Row",
         "template": "Template",
+        "filters": "Filters",
         "inline-add": "Insert row",
         "inline-edit": "Edit row",
-        "export": "Export",
+        "group-action": "Group Actions",
         "tree-view": "Tree-View",
+        "export": "Export",
         "localization": "Localization"
       }
     },

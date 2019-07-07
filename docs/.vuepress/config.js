@@ -17,7 +17,7 @@ module.exports = {
       { text: "Home", link: "/" },
       { text: "Packages", link: "/packages/" },
       { text: "Releases", link: "/releases/" },
-      { text: "Examples", link: "/packages/planette/playground.html" },
+      { text: "Examples", link: "/examples/" },
       {
         text: "Chat",
         link: "https://gitter.im/contributte/contributte"

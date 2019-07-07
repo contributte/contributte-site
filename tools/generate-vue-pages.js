@@ -2,6 +2,7 @@ const _ = require('lodash');
 const fs = require("fs");
 const path = require("path");
 const glob = require("glob");
+const _fs = require("./utils/fs");
 
 // Global
 const CONFIG = require('./config');
@@ -47,14 +48,23 @@ function resolvePackagist(repo) {
   return 'Undefined';
 }
 
-getEnabledRepositories().forEach(repo => {
-  const file = loadDoc(repo);
+(async () => {
+  getEnabledRepositories().forEach(repo => {
+    const file = loadDoc(repo);
 
-  if (Array.isArray(file)) {
-    file.forEach(f => {
-      generateTemplate(repo, f, __dirname + `/../docs/packages/${repo.org}/${repo.name}/${path.basename(f)}`);
-    });
-  } else {
-    generateTemplate(repo, file, __dirname + `/../docs/packages/${repo.org}/${repo.name}.md`);
-  }
-});
+    if (Array.isArray(file)) {
+      file.forEach(f => {
+        generateTemplate(repo, f, __dirname + `/../docs/packages/${repo.org}/${repo.name}/${path.basename(f)}`);
+      });
+    } else {
+      generateTemplate(repo, file, __dirname + `/../docs/packages/${repo.org}/${repo.name}.md`);
+    }
+  });
+
+  // Create examples page manually
+  _fs.mkdir(__dirname + `/../docs/examples/`);
+  fs.copyFileSync(
+    __dirname + `/../docs/packages/planette/playground.md`,
+    __dirname + `/../docs/examples/index.md`
+  )
+})();

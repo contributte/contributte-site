@@ -40,9 +40,29 @@ module.exports = {
           children: buildChildren('nette-contrib'),
         },
         {
+          title: 'Nette UI',
+          collapsable: false,
+          children: buildChildren('nette-ui'),
+        },
+        {
+          title: 'Nette Forms',
+          collapsable: false,
+          children: buildChildren('nette-forms'),
+        },
+        {
+          title: 'WebServices',
+          collapsable: false,
+          children: buildChildren('webservices'),
+        },
+        {
           title: 'Symfony',
           collapsable: false,
           children: buildChildren('symfony'),
+        },
+        {
+          title: 'PHP party',
+          collapsable: false,
+          children: buildChildren('php-party'),
         },
         {
           title: 'Apitte',

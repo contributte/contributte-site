@@ -36,6 +36,7 @@
   "contributte/mailing": {
     "org": "contributte",
     "name": "mailing",
+    "category": "php-party",
     "enabled": true,
     "priority": 100,
     "docs": {
@@ -182,6 +183,7 @@
     "org": "contributte",
     "name": "live-form-validation",
     "title": "Live Form Validation",
+    "category": "nette-forms",
     "enabled": true,
     "priority": 90,
     "docs": {
@@ -233,11 +235,11 @@
     "forks": 5,
     "composer": {
       "nette": [
-        "2.4"
+        "3.0"
       ],
       "php": [
-        "7.1",
-        "8.0"
+        "7.2",
+        "7.4"
       ]
     },
     "issues": 3
@@ -245,6 +247,7 @@
   "contributte/codeception": {
     "org": "contributte",
     "name": "codeception",
+    "category": "development",
     "enabled": true,
     "priority": 60,
     "docs": {
@@ -281,6 +284,7 @@
     "org": "contributte",
     "name": "reCAPTCHA",
     "title": "reCAPTCHA",
+    "category": "nette-ui",
     "enabled": true,
     "priority": 50,
     "docs": {
@@ -352,6 +356,7 @@
     "org": "contributte",
     "name": "seznamcaptcha",
     "title": "Seznam Captcha",
+    "category": "nette-ui",
     "enabled": true,
     "priority": 30,
     "docs": {
@@ -385,6 +390,7 @@
   "contributte/logging": {
     "org": "contributte",
     "name": "logging",
+    "category": "php-party",
     "enabled": true,
     "priority": 20,
     "docs": {
@@ -755,6 +761,7 @@
   "contributte/facebook": {
     "org": "contributte",
     "name": "facebook",
+    "category": "webservices",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -788,6 +795,7 @@
   "contributte/fio": {
     "org": "contributte",
     "name": "fio",
+    "category": "webservices",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -946,7 +954,8 @@
   "contributte/latte-email": {
     "org": "contributte",
     "name": "latte-email",
-    "title": "Latte - Email protection",
+    "category": "nette-ui",
+    "title": "Latte - Email",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -982,6 +991,7 @@
   "contributte/latte-parsedown-extra": {
     "org": "contributte",
     "name": "latte-parsedown-extra",
+    "category": "nette-ui",
     "title": "Latte - Markdown",
     "enabled": true,
     "priority": 0,
@@ -1128,6 +1138,7 @@
   "contributte/mobilni-platby": {
     "org": "contributte",
     "name": "mobilni-platby",
+    "category": "webservices",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -1417,6 +1428,7 @@
   "contributte/social": {
     "org": "contributte",
     "name": "social",
+    "category": "nette-ui",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -1522,6 +1534,7 @@
   "contributte/wordcha": {
     "org": "contributte",
     "name": "wordcha",
+    "category": "nette-ui",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -1592,11 +1605,11 @@
     "forks": 8,
     "composer": {
       "php": [
-        "7.1",
-        "8.0"
+        "7.2",
+        "7.4"
       ],
       "nette": [
-        "2.4"
+        "3.0"
       ]
     },
     "issues": 12
@@ -1628,8 +1641,8 @@
     "forks": 1,
     "composer": {
       "php": [
-        "7.1",
-        "8.0"
+        "7.2",
+        "7.4"
       ],
       "nette": [
         "2.4"
@@ -1664,8 +1677,8 @@
     "forks": 0,
     "composer": {
       "php": [
-        "7.1",
-        "8.0"
+        "7.2",
+        "7.4"
       ],
       "nette": [
         "2.4"
@@ -1700,8 +1713,8 @@
     "forks": 3,
     "composer": {
       "php": [
-        "7.1",
-        "8.0"
+        "7.2",
+        "7.4"
       ],
       "nette": [
         "2.4"
@@ -1736,8 +1749,8 @@
     "forks": 1,
     "composer": {
       "php": [
-        "7.1",
-        "8.0"
+        "7.2",
+        "7.4"
       ],
       "nette": [
         "2.4"
@@ -1772,11 +1785,11 @@
     "forks": 0,
     "composer": {
       "php": [
-        "7.1",
-        "8.0"
+        "7.2",
+        "7.4"
       ],
       "nette": [
-        "2.4"
+        "3.0"
       ]
     },
     "issues": 4
@@ -1808,12 +1821,10 @@
     "forks": 0,
     "composer": {
       "php": [
-        "7.1",
-        "8.0"
+        "7.2",
+        "7.4"
       ],
-      "nette": [
-        "2.4"
-      ]
+      "nette": []
     },
     "issues": 1
   },
@@ -1844,8 +1855,8 @@
     "forks": 1,
     "composer": {
       "php": [
-        "7.1",
-        "8.0"
+        "7.2",
+        "7.4"
       ]
     },
     "issues": 0
@@ -2134,6 +2145,7 @@
   "contributte/flysystem": {
     "org": "contributte",
     "name": "flysystem",
+    "category": "php-party",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -2169,6 +2181,7 @@
   "contributte/guzzlette": {
     "org": "contributte",
     "name": "guzzlette",
+    "category": "php-party",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -2204,6 +2217,7 @@
   "contributte/redis": {
     "org": "contributte",
     "name": "redis",
+    "category": "php-party",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -2237,6 +2251,7 @@
   "contributte/monolog": {
     "org": "contributte",
     "name": "monolog",
+    "category": "php-party",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -2296,6 +2311,8 @@
   "contributte/thepay-api": {
     "org": "contributte",
     "name": "thepay-api",
+    "title": "ThePay API",
+    "category": "webservices",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -2332,6 +2349,7 @@
   "contributte/thepay": {
     "org": "contributte",
     "name": "thepay",
+    "category": "webservices",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -2402,6 +2420,7 @@
   "contributte/replacus": {
     "org": "contributte",
     "name": "replacus",
+    "category": "nette-ui",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -2437,6 +2456,7 @@
   "contributte/forms-multiplier": {
     "org": "contributte",
     "name": "forms-multiplier",
+    "category": "nette-forms",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -2472,6 +2492,7 @@
   "contributte/forms-wizard": {
     "org": "contributte",
     "name": "forms-wizard",
+    "category": "nette-forms",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -2507,8 +2528,9 @@
   "contributte/datagrid": {
     "org": "contributte",
     "name": "datagrid",
+    "category": "nette-ui",
     "enabled": true,
-    "priority": 0,
+    "priority": 100,
     "docs": {
       "v": "v2",
       "pages": {
@@ -2556,6 +2578,7 @@
   "contributte/api-router": {
     "org": "contributte",
     "name": "api-router",
+    "title": "API router",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -2591,6 +2614,7 @@
   "contributte/api-docu": {
     "org": "contributte",
     "name": "api-docu",
+    "title": "API docu",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -2659,6 +2683,7 @@
   "contributte/translation": {
     "org": "contributte",
     "name": "translation",
+    "category": "symfony",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -2694,6 +2719,7 @@
   "contributte/gosms": {
     "org": "contributte",
     "name": "gosms",
+    "category": "webservices",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -2729,6 +2755,7 @@
   "contributte/czech-post": {
     "org": "contributte",
     "name": "czech-post",
+    "category": "webservices",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -2764,6 +2791,7 @@
   "contributte/oauth2-client": {
     "org": "contributte",
     "name": "oauth2-client",
+    "title": "OAuth2 client",
     "enabled": true,
     "priority": 0,
     "docs": {

@@ -1487,7 +1487,7 @@
     "created_at": "2017-07-16T11:35:42Z",
     "published_at": "2017-07-16T11:36:43Z",
     "html_url": "https://github.com/ninjify/qa/releases/tag/0.6.0",
-    "body": "Bumped! 👨‍��� \r\n\r\nDiff: https://github.com/ninjify/qa/compare/0.5.0...0.6.0\r\n\r\nChanges:\r\n- use coding-standard v0.5"
+    "body": "Bumped! 👨‍🚀 \r\n\r\nDiff: https://github.com/ninjify/qa/compare/0.5.0...0.6.0\r\n\r\nChanges:\r\n- use coding-standard v0.5"
   },
   "7055815": {
     "org": "contributte",
@@ -1877,7 +1877,7 @@
     "created_at": "2017-10-18T12:17:49Z",
     "published_at": "2017-10-19T13:13:59Z",
     "html_url": "https://github.com/contributte/neonizer/releases/tag/v0.1",
-    "body": "First bump! ��� "
+    "body": "First bump! 👊 "
   },
   "8196012": {
     "org": "contributte",
@@ -4047,7 +4047,7 @@
     "created_at": "2019-02-25T15:01:07Z",
     "published_at": "2019-02-25T15:01:59Z",
     "html_url": "https://github.com/nettrine/migrations/releases/tag/v0.5",
-    "body": "Bump! 🏷  \r\n\r\nDiff: https://github.com/nettrine/migrations/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- use doctrine/migrations 2.0\r\n- added `customTemplate` (thanks @RiKap)"
+    "body": "Bump! ��  \r\n\r\nDiff: https://github.com/nettrine/migrations/compare/v0.4...v0.5\r\n\r\nChanges:\r\n- use doctrine/migrations 2.0\r\n- added `customTemplate` (thanks @RiKap)"
   },
   "15761705": {
     "org": "contributte",
@@ -4499,6 +4499,16 @@
     "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.1.1",
     "body": "Bump! 🐒\r\n\r\nDiff: https://github.com/contributte/datagrid/compare/v6.1.0...v6.1.1\r\n\r\nBugfixes:\r\n- DataGrid: fixed resetting filter session"
   },
+  "18023129": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v6.2.0",
+    "name": "v6.2.0",
+    "created_at": "2019-07-05T07:21:13Z",
+    "published_at": "2019-07-05T07:23:14Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.0",
+    "body": "Bump! 💅\r\n\r\nDiff: https://github.com/contributte/datagrid/compare/v6.1.1...v6.2.0\r\n\r\nFeatures:\r\n- Added UUID support in `Row::getDoctrineEntityProperty()` (@Rixafy)\r\n- Added support for string IDs (@Rixafy)\r\n- Support inheritance static analysis in return types (@mabar)\r\n- Fixed `$rowCallback` argument of `DataGrid::setColumnsSummary()` method"
+  },
   "18023193": {
     "org": "contributte",
     "repo": "forms",
@@ -4888,5 +4898,125 @@
     "published_at": "2019-07-01T07:33:13Z",
     "html_url": "https://github.com/contributte/event-dispatcher/releases/tag/v0.6.0",
     "body": "Diff: https://github.com/contributte/event-dispatcher/compare/v0.5...v0.6.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/contributte/event-dispatcher/commit/06858f84184a82f6f0ab4607ec9ba0eed0707c98\r\n- Dropped EventDispatcher interface (use EventDispatcherInterface from Symfony instead) https://github.com/contributte/event-dispatcher/commit/e8a9b55a520f7046545cccee597efd9805c9d2fd"
+  },
+  "18412815": {
+    "org": "contributte",
+    "repo": "event-dispatcher-extra",
+    "tag": "v0.4.2",
+    "name": "v0.4.2",
+    "created_at": "2018-12-16T14:08:24Z",
+    "published_at": "2019-07-04T11:51:51Z",
+    "html_url": "https://github.com/contributte/event-dispatcher-extra/releases/tag/v0.4.2",
+    "body": "Diff: https://github.com/contributte/event-dispatcher-extra/compare/v0.4.1...v0.4.2\r\n\r\nChanges:\r\n- Support EventDispatcherInterface https://github.com/contributte/event-dispatcher-extra/commit/7c00596da3da1905424bbd297d8952dc2eb5b3e0\r\n- Throw exception if ITemplateFactory is not TemplateFactory implementator https://github.com/contributte/event-dispatcher-extra/commit/440d768f4af619b970cf6c75b62518d42bc290a5"
+  },
+  "18412843": {
+    "org": "contributte",
+    "repo": "event-dispatcher-extra",
+    "tag": "v0.5.0",
+    "name": "v0.5.0",
+    "created_at": "2019-07-04T11:42:18Z",
+    "published_at": "2019-07-04T11:53:40Z",
+    "html_url": "https://github.com/contributte/event-dispatcher-extra/releases/tag/v0.5.0",
+    "body": "Diff: https://github.com/contributte/event-dispatcher-extra/compare/v0.4.2...v0.5.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3, `*NAME` constants are now alias for `::class` https://github.com/contributte/event-dispatcher-extra/commit/28f59affcbc7023d2137498092adc732d8c45b21\r\n- Support case with multiple ITemplateFactory available (reverts #18, behavior should be documented instead) https://github.com/contributte/event-dispatcher-extra/commit/16f00949d83c5667c95c9bcea1913d11e38b24f1\r\n- Requires symfony/event-dispatcher ^4.3 https://github.com/contributte/event-dispatcher-extra/commit/6b0b9873e1335cf2a55cbc913fd55ff814fe849e\r\n"
+  },
+  "18412977": {
+    "org": "apitte",
+    "repo": "core",
+    "tag": "v0.6.0",
+    "name": "v0.6.0",
+    "created_at": "2019-07-04T10:53:42Z",
+    "published_at": "2019-07-04T12:00:02Z",
+    "html_url": "https://github.com/apitte/core/releases/tag/v0.6.0",
+    "body": "Diff: https://github.com/apitte/core/compare/v0.5...v0.6.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/apitte/core/commit/9fcff41ed85ab30f768c1df81583b30b9e6feb86\r\n- Plugins internal refactoring\r\n  - uses nette/schema\r\n  - getName() instead of NAME constant, getName() is now statical\r\n  - Plugin is now class instead of interface, all plugins must inherit it https://github.com/apitte/core/commit/ff6ed9f4201f8b5c25a9eaafb0f4d13f7d508b1c and https://github.com/apitte/core/commit/560dd949850a1db0f2f47425a105e42e2d868f2e"
+  },
+  "18446394": {
+    "org": "contributte",
+    "repo": "middlewares",
+    "tag": "v0.9.1",
+    "name": "v0.9.1",
+    "created_at": "2019-07-05T22:02:30Z",
+    "published_at": "2019-07-05T22:07:06Z",
+    "html_url": "https://github.com/contributte/middlewares/releases/tag/v0.9.1",
+    "body": "Diff: https://github.com/contributte/middlewares/compare/v0.9.0...v0.9.1\r\n\r\nChanges:\r\n- LoggingMiddleware - fix compatibility with guzzle/psr7 v1.6 (prevent empty password `:@example.com` in logged url) "
+  },
+  "18452627": {
+    "org": "apitte",
+    "repo": "negotiation",
+    "tag": "v0.6.0",
+    "name": "v0.6.0",
+    "created_at": "2019-07-06T19:53:51Z",
+    "published_at": "2019-07-06T20:34:55Z",
+    "html_url": "https://github.com/apitte/negotiation/releases/tag/v0.6.0",
+    "body": "Diff: https://github.com/apitte/negotiation/compare/v0.5...v0.6.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/apitte/negotiation/commit/d74b21bd0acde24add2bb02d00a5e7cbee765023"
+  },
+  "18452633": {
+    "org": "apitte",
+    "repo": "presenter",
+    "tag": "v0.6.0",
+    "name": "v0.6.0",
+    "created_at": "2019-07-06T19:54:23Z",
+    "published_at": "2019-07-06T20:36:14Z",
+    "html_url": "https://github.com/apitte/presenter/releases/tag/v0.6.0",
+    "body": "Diff: https://github.com/apitte/presenter/compare/v0.5...v0.6.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/apitte/presenter/commit/a7530f231a55c3b4f38a8dbd16e1c4c2bf2e489e"
+  },
+  "18452653": {
+    "org": "apitte",
+    "repo": "openapi",
+    "tag": "v0.6.0",
+    "name": "v0.6.0",
+    "created_at": "2019-07-06T19:55:07Z",
+    "published_at": "2019-07-06T20:39:46Z",
+    "html_url": "https://github.com/apitte/openapi/releases/tag/v0.6.0",
+    "body": "Diff: https://github.com/apitte/openapi/compare/v0.5...v0.6.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/apitte/openapi/commit/10956a74cbba3b5d6169c4db1b9cfe052d8a0d01"
+  },
+  "18452658": {
+    "org": "apitte",
+    "repo": "middlewares",
+    "tag": "v0.6.0",
+    "name": "v0.6.0",
+    "created_at": "2019-07-06T19:55:18Z",
+    "published_at": "2019-07-06T20:41:11Z",
+    "html_url": "https://github.com/apitte/middlewares/releases/tag/v0.6.0",
+    "body": "Diff: https://github.com/apitte/middlewares/compare/v0.5...v0.6.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/apitte/middlewares/commit/304c352e69d74ad0091d0f774127d566a9ba421b"
+  },
+  "18455231": {
+    "org": "apitte",
+    "repo": "console",
+    "tag": "v0.6.0",
+    "name": "v0.6.0",
+    "created_at": "2019-07-07T08:59:24Z",
+    "published_at": "2019-07-07T09:00:34Z",
+    "html_url": "https://github.com/apitte/console/releases/tag/v0.6.0",
+    "body": "Diff: https://github.com/apitte/console/compare/v0.5...v0.6.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/apitte/console/commit/b99dd2477d650514eb706580f43cc92ce71fc381"
+  },
+  "18455322": {
+    "org": "apitte",
+    "repo": "debug",
+    "tag": "v0.6.0",
+    "name": "v0.6.0",
+    "created_at": "2019-07-07T09:06:18Z",
+    "published_at": "2019-07-07T09:08:57Z",
+    "html_url": "https://github.com/apitte/debug/releases/tag/v0.6.0",
+    "body": "Diff: https://github.com/apitte/debug/compare/v0.5...v0.6.0\r\n\r\nChanges:\r\n- Requires PHP 7.2\r\n- Nette 3 https://github.com/apitte/debug/commit/db0e4f9e2335023a1278b8d0b4201b92b76c44fa"
+  },
+  "18455368": {
+    "org": "apitte",
+    "repo": "fullstack",
+    "tag": "v0.6.0",
+    "name": "v0.6.0",
+    "created_at": "2019-07-07T09:14:33Z",
+    "published_at": "2019-07-07T09:15:54Z",
+    "html_url": "https://github.com/apitte/fullstack/releases/tag/v0.6.0",
+    "body": "Diff: https://github.com/apitte/fullstack/compare/v0.5...v0.6.0"
+  },
+  "18455964": {
+    "org": "contributte",
+    "repo": "event-dispatcher-extra",
+    "tag": "v0.6.0",
+    "name": "v0.6.0",
+    "created_at": "2019-07-07T10:16:12Z",
+    "published_at": "2019-07-07T11:31:47Z",
+    "html_url": "https://github.com/contributte/event-dispatcher-extra/releases/tag/v0.6.0",
+    "body": "Diff: https://github.com/contributte/event-dispatcher-extra/compare/v0.5.0...v0.6.0\r\n\r\nChanges:\r\n- Dropped `*Event::NAME`, `*Event::class` should be used instead https://github.com/contributte/event-dispatcher-extra/commit/98349b0fc20547ba5db26df1c9d3738e53094b88\r\n- `PresenterStartupEvent` and `PresenterShutdownEvent` require UI\\Presenter https://github.com/contributte/event-dispatcher-extra/commit/455dddf9d1bf54f29c0c53acef2ec9cf6d34e3b6\r\n- Response from `PresenterShutdownEvent` is not nullable https://github.com/contributte/event-dispatcher-extra/commit/bcc35c0788b6b1f114bd65dcfb6a416bf02d6566"
   }
 }

@@ -4,12 +4,15 @@
       <div class="card mb-4 box-shadow">
         <div class="card-body">
           <h2>
-            <router-link
-              :to="release | link"
-            >[{{release.tag}}] {{ release.org }} / {{release.repo}}</router-link>
+            <template v-if="$options.filters.link(release)">
+              <router-link :to="release | link">[{{release.tag}}] {{ release.org }} / {{release.repo}}</router-link>
+            </template>
+            <template v-else>
+              [{{release.tag}}] {{ release.org }} / {{release.repo}}
+            </template>
             <small>{{release.created_at|date}}</small>
           </h2>
-          <div v-html="md.render(release.body)"></div>
+          <div v-html="release.body"></div>
         </div>
       </div>
     </div>
@@ -23,25 +26,23 @@
 import dayjs from "dayjs";
 import { getReleases, getFewReleases } from "./../utils/releases";
 import { findRepository } from "./../utils/repositories";
-import { createMarkdown } from "./../utils/markdown";
-import nl2br from "./../utils/nl2br";
 import { link } from "./../utils/linker";
 
 export default {
   data: () => ({
-    releases: getFewReleases(10),
-    md: createMarkdown()
+    releases: getFewReleases(10)
   }),
   filters: {
-    nl2br(s) {
-      return nl2br(s);
-    },
     date(s) {
       return dayjs(s).format("DD/MM/YYYY");
     },
     link(release) {
-      const repo = findRepository({org: release.org, name: release.repo});
-      return link(repo);
+      const repo = findRepository({ org: release.org, name: release.repo });
+      if (!repo) {
+        console.error(`Undefined repository ${release.org}/${release.repo}`);
+      } else {
+        return link(repo);
+      }
     }
   },
   methods: {

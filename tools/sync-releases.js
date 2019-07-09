@@ -4,7 +4,7 @@ const fs = require('fs');
 
 // Global
 const CONFIG = require('./config');
-const {TOKEN} = require('./secret');
+const { TOKEN } = require('./secret');
 
 // Vars
 const releases = {};
@@ -19,7 +19,10 @@ function syncRepo(repo) {
   const options = {
     hostname: `api.github.com`,
     path: `/repos/${repo.full_name}/releases?per_page=200&access_token=${TOKEN}`,
-    headers: {'User-Agent': 'Contributte'}
+    headers: {
+      'User-Agent': 'Contributte',
+      'Accept': 'application/vnd.github.VERSION.html+json',
+    }
   };
 
   https.get(options, (res) => {
@@ -48,7 +51,7 @@ function dumpRelease(repo, release) {
     created_at: release.created_at,
     published_at: release.published_at,
     html_url: release.html_url,
-    body: release.body,
+    body: release.body_html,
   };
 
   fs.writeFileSync(__dirname + '/../data/releases.json', JSON.stringify(releases, null, 2));

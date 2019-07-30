@@ -1,13 +1,21 @@
-# Contributte
+<h1 align=center>Contributte <br> <small>https://contributte.org</small></h1>
 
-:squirrel: Contributte Website & Docs
+<p align=center>
+Official website of the Contributte, Nettrine, Apitte & Ninjify.
+</p>
+
+<p align=center>
+🕹 <a href="https://f3l1x.io">f3l1x.io</a> | 💻 <a href="https://github.com/f3l1x">f3l1x</a> | 🐦 <a href="https://twitter.com/xf3l1x">@xf3l1x</a>
+</p>
+
+![](.assets/contributte.png)
 
 ## Prologue
 
 This website is based on [VuePress 1.x](https://v1.vuepress.vuejs.org/). VuePress is static site (documentation) generator.
-Because we're lazy programmers, we reuse existing docs pages from the single repositories in contributte, apitte, nettrine and ninjify organization.
+Because we're lazy programmers, we reuse existing docs pages from the single repositories in Contributte, Apitte, Nettrine and Ninjify organization.
 
-There is a template file for the README files which is used in generation phase. The resulting website contains about 40 pages (readmes) melted together.
+There is a template file for the README files which is used in generation phase. The resulting website contains about 80 pages (readmes) melted together.
 
 ## Development
 

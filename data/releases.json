@@ -5018,5 +5018,25 @@
     "published_at": "2019-07-07T11:31:47Z",
     "html_url": "https://github.com/contributte/event-dispatcher-extra/releases/tag/v0.6.0",
     "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/event-dispatcher-extra/compare/v0.5.0...v0.6.0\"><tt>v0.5.0...v0.6.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Dropped <code>*Event::NAME</code>, <code>*Event::class</code> should be used instead <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/event-dispatcher-extra/commit/98349b0fc20547ba5db26df1c9d3738e53094b88/hovercard\" href=\"https://github.com/contributte/event-dispatcher-extra/commit/98349b0fc20547ba5db26df1c9d3738e53094b88\"><tt>98349b0</tt></a></li>\n<li><code>PresenterStartupEvent</code> and <code>PresenterShutdownEvent</code> require UI\\Presenter <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/event-dispatcher-extra/commit/455dddf9d1bf54f29c0c53acef2ec9cf6d34e3b6/hovercard\" href=\"https://github.com/contributte/event-dispatcher-extra/commit/455dddf9d1bf54f29c0c53acef2ec9cf6d34e3b6\"><tt>455dddf</tt></a></li>\n<li>Response from <code>PresenterShutdownEvent</code> is not nullable <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/event-dispatcher-extra/commit/bcc35c0788b6b1f114bd65dcfb6a416bf02d6566/hovercard\" href=\"https://github.com/contributte/event-dispatcher-extra/commit/bcc35c0788b6b1f114bd65dcfb6a416bf02d6566\"><tt>bcc35c0</tt></a></li>\n</ul>"
+  },
+  "18608994": {
+    "org": "contributte",
+    "repo": "cache",
+    "tag": "v0.5.0",
+    "name": "v0.5.0",
+    "created_at": "2019-07-15T07:52:35Z",
+    "published_at": "2019-07-15T07:54:23Z",
+    "html_url": "https://github.com/contributte/cache/releases/tag/v0.5.0",
+    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/cache/compare/v0.4.0...v0.5.0\"><tt>v0.4.0...v0.5.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Added debug panel <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/cache/commit/696ff693b161a4a104cd66a5ea8e4201f3014bbe/hovercard\" href=\"https://github.com/contributte/cache/commit/696ff693b161a4a104cd66a5ea8e4201f3014bbe\"><tt>696ff69</tt></a></li>\n</ul>"
+  },
+  "18933941": {
+    "org": "contributte",
+    "repo": "console",
+    "tag": "v0.7.1",
+    "name": "v0.7.1",
+    "created_at": "2019-07-29T16:34:33Z",
+    "published_at": "2019-07-29T16:35:24Z",
+    "html_url": "https://github.com/contributte/console/releases/tag/v0.7.1",
+    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/console/compare/v0.7.0...v0.7.1\"><tt>v0.7.0...v0.7.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow url to be null <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/console/commit/a676e1a395ec48ff647abdbdc697dd0e55fdd6e7/hovercard\" href=\"https://github.com/contributte/console/commit/a676e1a395ec48ff647abdbdc697dd0e55fdd6e7\"><tt>a676e1a</tt></a></li>\n</ul>"
   }
 }

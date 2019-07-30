@@ -1,11 +1,11 @@
 ---
 layout: HighLayout
+metaTitle: Contributte - First class extensions, addons and plugins for Nette Framework. Planty of examples and tricks for Nette.
 meta:
   - name: keywords
     content: php, nette, nette framework, contributte, tracy, latte, templates, database, extensions, addons, plugins
   - name: description
     content: Contributte - First class extensions for Nette Framework
-footer: MIT Licensed | Copyright © 2018-2019 Felix
 ---
 
 <div class="homepage">

@@ -1,25 +1,40 @@
 ---
 layout: HighLayout
-home: true
-heroText: Nettrine
-tagline: Easy & smart integration of Doctrine2 to Nette Framework
-actionText: Check it out →
-actionLink: https://github.com/nettrine/
 metaTitle: Nettrine - Easy & smart integration of Doctrine2 to Nette Framework
+meta:
+  - name: keywords
+    content: php, nette, nette framework, database, doctrine, db, dbal, console, events, listeners
 ---
+
+<div class="homepage">
+  <header class="hero">
+    <h1>
+      Nettrine<br>
+      <img src="/nettrine.png" alt="Nettrine" title="Nettrine logo" width="150">
+    </h1>
+    <p class="description">
+      Easy & smart integration of Doctrine2 to Nette Framework
+    </p>
+    <p class="action">
+      <a href="/packages/nettrine/dbal/" class="nav-link action-button">DBAL →</a>
+      <a href="/packages/nettrine/orm/" class="nav-link action-button">ORM →</a>
+      <a href="/examples/#nettrine" class="nav-link action-button">Playground</a>
+    </p>
+  </header>
+</div>
 
 ## Installation
 
-Create new project using composer library.
-
-```
-composer create-project --repository https://github.com/planette/playground
-```
-
-Add to your current project using composer library.
+Add to your current project using composer.
 
 ```
 composer require nettrine/dbal nettrine/orm
+```
+
+Or take a look at examples.
+
+```sh
+composer create-project --repository https://github.com/planette/playground
 ```
 
 ## Configuration

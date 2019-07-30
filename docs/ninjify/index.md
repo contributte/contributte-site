@@ -1,22 +1,29 @@
 ---
 layout: HighLayout
-home: true
-heroText: Ninjify
-tagline: PHP nunchucks for you coding dojo
-actionText: Check it out →
-actionLink: https://github.com/ninjify/
 metaTitle: Ninjify - PHP nunchucks for you coding dojo
+meta:
+  - name: keywords
+    content: php, nette, nette framework, ninjify, code style, quality assurance, code sniffer
 ---
+
+<div class="homepage">
+  <header class="hero">
+    <h1>
+      Ninjify<br>
+      <img src="/ninjify.png" alt="Ninjify" title="Ninjify logo" width="150">
+    </h1>
+    <p class="description">
+      Ninjify - PHP nunchucks for you coding dojo
+    </p>
+    <p class="action">
+      <a href="https://github.com/ninjify/" class="nav-link action-button">Get Started →</a>
+    </p>
+  </header>
+</div>
 
 ## Installation
 
-Create new project using composer library.
-
-```
-composer create-project --repository https://github.com/planette/playground
-```
-
-Add to your current project using composer library.
+Add to your current project using composer.
 
 ```
 composer require ninjify/qa

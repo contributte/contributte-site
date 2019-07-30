@@ -25,6 +25,11 @@ meta:
     </p>
   </header>
 
+  <div class="hotness">
+    <h2 align="center">👨‍🚒 🔥 ‍🚒</h2>
+    <p class="explanation explanation--hotness">Apitte is fully Nette 3.0 ready. <a class="show" href="/blabs/2019/apitte-nette-3-0-ready.html">Show me hot →</a></p>
+  </div>
+
   <div class="features">
     <div class="feature">
       <h2>Up to date</h2>
@@ -53,8 +58,3 @@ meta:
   </div>
 </div>
 
-## Hotness
-
-The revolutionary version of Nette 3 is out! The new version takes full advantage of PHP 7.1 and brings a number of innovations.
-
-Take a look at [Nette blog](https://blog.nette.org).

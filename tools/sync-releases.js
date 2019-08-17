@@ -38,7 +38,7 @@ function syncRepo(repo) {
     });
 
   }).on('error', (e) => {
-    console.error(e);
+    console.error(`Syncing for ${repo.full_name} errored`, e);
   });
 }
 

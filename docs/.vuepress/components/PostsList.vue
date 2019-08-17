@@ -1,8 +1,9 @@
 <template>
-  <div class="posts" v-if="posts.length">
-    <div class="post" v-for="post in posts">
-      <router-link :to="post.path">
-        <h2>📆 {{post.frontmatter.date|date}} - {{post.frontmatter.title}}</h2>
+  <div class="blabs" v-if="posts.length">
+    <div class="blab" v-for="post in posts">
+      📆
+      <router-link :to="post.path" class="blab-link">
+        {{post.frontmatter.date|date}} - {{post.frontmatter.title}}
       </router-link>
     </div>
   </div>

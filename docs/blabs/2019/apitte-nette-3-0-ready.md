@@ -1,6 +1,8 @@
 ---
+layout: PostLayout
 title: Apitte is Nette 3.0 ready
 date: 2019-07-30
+author: f3l1x
 ---
 
 # Apitte is Nette 3.0 ready
@@ -34,4 +36,4 @@ Update your composer.json right now.
 
 Feel free to report any feedback to us. 
 
-Felix
+<p class="explanation explanation--package mt-6"><a href="/packages/apitte/core/">Try apitte/core package →</a></p>

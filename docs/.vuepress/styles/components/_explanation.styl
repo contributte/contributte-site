@@ -1,0 +1,51 @@
+// ************************************
+// Explanation
+// ************************************
+
+.explanation
+  background: #ff251b1a;
+  border: 10px solid #fff;
+  padding: 1rem 2rem;
+  position: relative;
+  border-radius: 5px;
+
+  .show
+    float: right
+
+  &::before
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: -7px;
+    right: -7px;
+    bottom: -7px;
+    border: 1px solid #ff261b;
+    border-radius: 5px;
+    pointer-events: none;
+
+  &::after
+    content: "Hey!";
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    top: -14px;
+    left: 1rem;
+    background: #100e17;
+    padding: 0 .5rem;
+    font-size: .6rem;
+    position: absolute;
+    z-index: 1;
+
+.explanation--hotness
+  &::after
+    content: "Hotness!"
+
+.explanation--package
+
+  background: #3765afcc;
+  &::before
+    border: 1px solid #3765af;
+  &::after
+    content: "Package!"
+  a,a:hover
+    color: #fff

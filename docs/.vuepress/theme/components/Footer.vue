@@ -1,12 +1,12 @@
 <template>
   <div class="cfooter">
     <div class="inner">
-      <div class="row">
+      <div class="d-flex">
         <div class="highlight">
           There are more links to follow...
         </div>
       </div>
-      <div class="row navigation">
+      <div class="d-flex navigation">
         <div class="box-6">
           <ul>
             <li>
@@ -188,6 +188,3 @@
 <script>
 export default {};
 </script>
-
-<style>
-</style>

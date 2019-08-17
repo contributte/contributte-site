@@ -1,20 +1,16 @@
 <template>
   <div class="releases">
-    <div v-for="(release, id) of releases" :key="id" class="col-md-6 col-lg-4">
-      <div class="card mb-4 box-shadow">
-        <div class="card-body">
-          <h2>
-            <template v-if="$options.filters.link(release)">
-              <router-link :to="release | link">[{{release.tag}}] {{ release.org }} / {{release.repo}}</router-link>
-            </template>
-            <template v-else>
-              [{{release.tag}}] {{ release.org }} / {{release.repo}}
-            </template>
-            <small>{{release.created_at|date}}</small>
-          </h2>
-          <div v-html="release.body"></div>
-        </div>
-      </div>
+    <div v-for="(release, id) of releases" :key="id" class="release-body mb-6">
+      <h2>
+        <template v-if="$options.filters.link(release)">
+          <router-link :to="release | link">[{{release.tag}}] {{ release.org }} / {{release.repo}}</router-link>
+        </template>
+        <template v-else>
+          [{{release.tag}}] {{ release.org }} / {{release.repo}}
+        </template>
+        <small>{{release.created_at|date}}</small>
+      </h2>
+      <div class="release-notes" v-html="release.body"></div>
     </div>
     <center>
       <a v-if="releases.length < 15" @click.prevent="onLoadAll" class="action-button">Load all</a>
@@ -52,19 +48,3 @@ export default {
   }
 };
 </script>
-
-<style lang="scss">
-.releases {
-  .card {
-    h2 {
-      font-size: 140%;
-
-      small {
-        font-size: 0.7em;
-        margin-left: 10px;
-        color: #888888;
-      }
-    }
-  }
-}
-</style>

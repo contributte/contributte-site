@@ -25,7 +25,7 @@ module.exports = {
       },
       { text: "About", link: "/about" }
     ],
-    lastUpdated: "Last Updated",
+    lastUpdated: false,
     sidebar: buildSidebar()
   },
   evergreen: true,

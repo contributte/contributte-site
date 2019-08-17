@@ -7,49 +7,47 @@ meta:
     content: php, nette, planette, playground
 ---
 
-<div class="metainfo">
-  <ul class="gbuttons">
-    <li>
-      <div class="button-group">
-        <div class="button-label">
-          <a href="https://github.com/planette/playground">Github</a>
-        </div>
+<ul class="gbuttons mb-2">
+  <li>
+    <div class="button-group">
+      <div class="button-label">
+        <a href="https://github.com/planette/playground">Github</a>
       </div>
-    </li>
-    <li>
-      <div class="button-group">
-        <div class="button-label">Composer</div>
-        <div class="button-value">
-          <a href="https://packagist.org/packages/planette/playground">Packagist</a>
-        </div>
+    </div>
+  </li>
+  <li>
+    <div class="button-group">
+      <div class="button-label">Composer</div>
+      <div class="button-value">
+        <a href="https://packagist.org/packages/planette/playground">Packagist</a>
       </div>
-    </li>
-    <li>
-      <div class="button-group">
-        <div class="button-label">Stars</div>
-        <div class="button-value">
-          <a href="https://github.com/planette/playground">9</a>
-        </div>
+    </div>
+  </li>
+  <li>
+    <div class="button-group">
+      <div class="button-label">Stars</div>
+      <div class="button-value">
+        <a href="https://github.com/planette/playground">9</a>
       </div>
-    </li>
-    <li>
-      <div class="button-group">
-        <div class="button-label">Issues</div>
-        <div class="button-value">
-          <a href="https://github.com/planette/playground">1</a>
-        </div>
+    </div>
+  </li>
+  <li>
+    <div class="button-group">
+      <div class="button-label">Issues</div>
+      <div class="button-value">
+        <a href="https://github.com/planette/playground">1</a>
       </div>
-    </li>
-    <li>
-      <div class="button-group">
-        <div class="button-label">Forks</div>
-        <div class="button-value">
-          <a href="https://github.com/planette/playground">6</a>
-        </div>
+    </div>
+  </li>
+  <li>
+    <div class="button-group">
+      <div class="button-label">Forks</div>
+      <div class="button-value">
+        <a href="https://github.com/planette/playground">6</a>
       </div>
-    </li>
-  </ul>
-</div>
+    </div>
+  </li>
+</ul>
 
 # Playground
 

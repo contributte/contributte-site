@@ -1003,12 +1003,12 @@
       "last": {
         "org": "contributte",
         "repo": "latte-parsedown-extra",
-        "tag": "1.3.0",
-        "name": "1.3.0",
-        "created_at": "2018-06-21T10:58:25Z",
-        "published_at": "2018-06-21T11:28:33Z",
-        "html_url": "https://github.com/contributte/latte-parsedown-extra/releases/tag/1.3.0",
-        "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"sa\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f202.png\">🈂️</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/latte-parsedown-extra/compare/1.2.0...1.3.0\"><tt>1.2.0...1.3.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>PHP 5.6 -&gt; PHP 7.1 [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"334112349\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/contributte/latte-parsedown-extra/issues/4\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/latte-parsedown-extra/pull/4/hovercard\" href=\"https://github.com/contributte/latte-parsedown-extra/pull/4\">#4</a>] [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"334008025\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/contributte/latte-parsedown-extra/issues/3\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/latte-parsedown-extra/issues/3/hovercard\" href=\"https://github.com/contributte/latte-parsedown-extra/issues/3\">#3</a>]</li>\n</ul>"
+        "tag": "1.5.0",
+        "name": "1.5.0",
+        "created_at": "2019-08-12T06:45:23Z",
+        "published_at": "2019-08-12T06:45:56Z",
+        "html_url": "https://github.com/contributte/latte-parsedown-extra/releases/tag/1.5.0",
+        "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"point_left\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f448.png\">👈</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/latte-parsedown-extra/compare/1.4.0...1.5.0\"><tt>1.4.0...1.5.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Nette 3.0</li>\n</ul>"
       }
     },
     "stars": 8,
@@ -1039,12 +1039,12 @@
       "last": {
         "org": "contributte",
         "repo": "mail",
-        "tag": "v0.4.0",
-        "name": "v0.4.0",
-        "created_at": "2019-06-16T14:01:40Z",
-        "published_at": "2019-06-16T16:38:34Z",
-        "html_url": "https://github.com/contributte/mail/releases/tag/v0.4.0",
-        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/mail/compare/v0.3.0...v0.4.0\"><tt>v0.3.0...v0.4.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3</li>\n</ul>"
+        "tag": "v0.5.0",
+        "name": "v0.5.0",
+        "created_at": "2019-08-12T06:28:37Z",
+        "published_at": "2019-08-12T10:22:31Z",
+        "html_url": "https://github.com/contributte/mail/releases/tag/v0.5.0",
+        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/mail/compare/v0.4.0...v0.5.0\"><tt>v0.4.0...v0.5.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>uses nette/mail 3.1 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/mail/commit/b6ba987e94f18c64b3f1191b392a46fa554d4b9c/hovercard\" href=\"https://github.com/contributte/mail/commit/b6ba987e94f18c64b3f1191b392a46fa554d4b9c\"><tt>b6ba987</tt></a></li>\n<li>MailExtension allows flexible service definitions <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/mail/commit/21a1e3439a25837ed4057ca8ce7ee75f13cd30a0/hovercard\" href=\"https://github.com/contributte/mail/commit/21a1e3439a25837ed4057ca8ce7ee75f13cd30a0\"><tt>21a1e34</tt></a></li>\n<li>MessageFactory docs <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/mail/commit/3732413635222f68c49409ef26d7fc7ff30182af/hovercard\" href=\"https://github.com/contributte/mail/commit/3732413635222f68c49409ef26d7fc7ff30182af\"><tt>3732413</tt></a></li>\n</ul>"
       }
     },
     "stars": 5,
@@ -1890,12 +1890,12 @@
       "last": {
         "org": "nettrine",
         "repo": "dbal",
-        "tag": "v0.3",
-        "name": "v0.3",
-        "created_at": "2019-02-25T14:06:18Z",
-        "published_at": "2019-02-25T14:07:14Z",
-        "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.3",
-        "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"label\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f3f7.png\">🏷</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/dbal/compare/v0.2.7...v0.3\"><tt>v0.2.7...v0.3</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>require doctrine/dbal ~2.9.2</li>\n<li>added <code>unix_socket</code> to configuration (thanks  <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/hovercards?user_id=11246046\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/kubarta\">@kubarta</a>)</li>\n<li>ContainerAwareEventManager: support subscribers as anonymous services (thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/hovercards?user_id=1042159\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/jiripudil\">@jiripudil</a>)</li>\n<li>use phpstan 0.11, phpunit 8</li>\n</ul>"
+        "tag": "v0.5.0",
+        "name": "v0.5.0",
+        "created_at": "2019-08-06T13:58:48Z",
+        "published_at": "2019-08-06T14:09:56Z",
+        "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.5.0",
+        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/dbal/compare/v0.4.0...v0.5.0\"><tt>v0.4.0...v0.5.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/c3326ebbbb2d0576af626e8a63addf87a3bbe569/hovercard\" href=\"https://github.com/nettrine/dbal/commit/c3326ebbbb2d0576af626e8a63addf87a3bbe569\"><tt>c3326eb</tt></a></li>\n</ul>"
       }
     },
     "stars": 8,
@@ -1926,12 +1926,12 @@
       "last": {
         "org": "nettrine",
         "repo": "orm",
-        "tag": "v0.3",
-        "name": "v0.3",
-        "created_at": "2019-02-25T13:41:24Z",
-        "published_at": "2019-02-25T13:42:07Z",
-        "html_url": "https://github.com/nettrine/orm/releases/tag/v0.3",
-        "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"label\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f3f7.png\">🏷</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/orm/compare/v0.2.2...v0.3\"><tt>v0.2.2...v0.3</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>added EntityManagerDecorator, because EntityManager is final [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"332422179\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/nettrine/orm/issues/22\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/nettrine/orm/pull/22/hovercard\" href=\"https://github.com/nettrine/orm/pull/22\">#22</a>][<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"386144990\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/nettrine/orm/issues/41\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/nettrine/orm/pull/41/hovercard\" href=\"https://github.com/nettrine/orm/pull/41\">#41</a>]</li>\n<li>added XML bridge [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"387485792\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/nettrine/orm/issues/42\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/nettrine/orm/pull/42/hovercard\" href=\"https://github.com/nettrine/orm/pull/42\">#42</a>](thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/hovercards?user_id=3995003\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/JanMikes\">@JanMikes</a> + <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/hovercards?user_id=13171542\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/JanGalek\">@JanGalek</a>)</li>\n<li>added configurationClass [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"413680222\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/nettrine/orm/issues/46\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/nettrine/orm/pull/46/hovercard\" href=\"https://github.com/nettrine/orm/pull/46\">#46</a>](thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/hovercards?user_id=6991688\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/aleswita\">@aleswita</a>)</li>\n<li>use Phpstan v0.11</li>\n<li>improve docs (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/hovercards?user_id=20974277\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/mabar\">@mabar</a>, <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/hovercards?user_id=749981\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Gappa\">@Gappa</a>)</li>\n<li>upgrade minimal deps (nette/di, nette/utils, symfony/console, doctrine/orm, doctrine/cache)</li>\n</ul>"
+        "tag": "v0.4.0",
+        "name": "v0.4.0",
+        "created_at": "2019-08-06T14:39:00Z",
+        "published_at": "2019-08-06T14:40:35Z",
+        "html_url": "https://github.com/nettrine/orm/releases/tag/v0.4.0",
+        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/orm/compare/v0.3...v0.4.0\"><tt>v0.3...v0.4.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/89a1bd1be7998042693475e6a667ac09e5f76215/hovercard\" href=\"https://github.com/nettrine/orm/commit/89a1bd1be7998042693475e6a667ac09e5f76215\"><tt>89a1bd1</tt></a></li>\n</ul>"
       }
     },
     "stars": 31,
@@ -1963,12 +1963,12 @@
       "last": {
         "org": "nettrine",
         "repo": "fixtures",
-        "tag": "v0.4",
-        "name": "v0.4",
-        "created_at": "2018-12-19T12:04:58Z",
-        "published_at": "2018-12-19T12:06:08Z",
-        "html_url": "https://github.com/nettrine/fixtures/releases/tag/v0.4",
-        "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"jack_o_lantern\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f383.png\">🎃</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/fixtures/compare/v0.3...v0.4\"><tt>v0.3...v0.4</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Upgrade deps (use symfony/console &gt;=4.2)</li>\n<li>Commands in DI have <code>console.command</code> tag (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/hovercards?user_id=20974277\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/mabar\">@mabar</a>)</li>\n<li>Typos</li>\n</ul>"
+        "tag": "v0.5.0",
+        "name": "v0.5.0",
+        "created_at": "2019-07-13T14:12:15Z",
+        "published_at": "2019-08-06T14:31:02Z",
+        "html_url": "https://github.com/nettrine/fixtures/releases/tag/v0.5.0",
+        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/fixtures/compare/v0.4...v0.5.0\"><tt>v0.4...v0.5.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/fixtures/commit/bb104de0783d4a1fdb3f0fd9449fb55bfe336721/hovercard\" href=\"https://github.com/nettrine/fixtures/commit/bb104de0783d4a1fdb3f0fd9449fb55bfe336721\"><tt>bb104de</tt></a></li>\n</ul>"
       }
     },
     "stars": 6,
@@ -1999,12 +1999,12 @@
       "last": {
         "org": "nettrine",
         "repo": "migrations",
-        "tag": "v0.5",
-        "name": "v0.5",
-        "created_at": "2019-02-25T15:01:07Z",
-        "published_at": "2019-02-25T15:01:59Z",
-        "html_url": "https://github.com/nettrine/migrations/releases/tag/v0.5",
-        "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"label\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f3f7.png\">🏷</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/migrations/compare/v0.4...v0.5\"><tt>v0.4...v0.5</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>use doctrine/migrations 2.0</li>\n<li>added <code>customTemplate</code> (thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/hovercards?user_id=6736715\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/RiKap\">@RiKap</a>)</li>\n</ul>"
+        "tag": "v0.6.0",
+        "name": "v0.6.0",
+        "created_at": "2019-08-06T14:20:59Z",
+        "published_at": "2019-08-06T14:22:59Z",
+        "html_url": "https://github.com/nettrine/migrations/releases/tag/v0.6.0",
+        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/migrations/compare/v0.5...v0.6.0\"><tt>v0.5...v0.6.0</tt></a></p>\n<p>Changed:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/migrations/commit/490fcecf734c1f567a7a1ab49188fa06fc6b8ee8/hovercard\" href=\"https://github.com/nettrine/migrations/commit/490fcecf734c1f567a7a1ab49188fa06fc6b8ee8\"><tt>490fcec</tt></a></li>\n</ul>"
       }
     },
     "stars": 22,
@@ -2071,12 +2071,12 @@
       "last": {
         "org": "nettrine",
         "repo": "annotations",
-        "tag": "v0.4",
-        "name": "v0.4",
-        "created_at": "2018-12-19T12:09:11Z",
-        "published_at": "2018-12-19T12:10:20Z",
-        "html_url": "https://github.com/nettrine/annotations/releases/tag/v0.4",
-        "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"joystick\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f579.png\">🕹</g-emoji><br>\nDiff: <a class=\"commit-link\" href=\"https://github.com/nettrine/annotations/compare/v0.3...v0.4\"><tt>v0.3...v0.4</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Upgrade composer dependencies</li>\n<li>Require doctrine/cache &gt;=1.7.1</li>\n<li>More tests</li>\n</ul>"
+        "tag": "v0.5.0",
+        "name": "v0.5.0",
+        "created_at": "2019-07-13T14:12:39Z",
+        "published_at": "2019-08-06T14:27:38Z",
+        "html_url": "https://github.com/nettrine/annotations/releases/tag/v0.5.0",
+        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/annotations/compare/v0.4...v0.5.0\"><tt>v0.4...v0.5.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/annotations/commit/2e35077e801b7210706da5eaa3de283b642e9c08/hovercard\" href=\"https://github.com/nettrine/annotations/commit/2e35077e801b7210706da5eaa3de283b642e9c08\"><tt>2e35077</tt></a></li>\n</ul>"
       }
     },
     "stars": 3,
@@ -2553,12 +2553,12 @@
       "last": {
         "org": "contributte",
         "repo": "datagrid",
-        "tag": "v6.2.0",
-        "name": "v6.2.0",
-        "created_at": "2019-07-05T07:21:13Z",
-        "published_at": "2019-07-05T07:23:14Z",
-        "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.0",
-        "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"nail_care\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f485.png\">💅</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.1.1...v6.2.0\"><tt>v6.1.1...v6.2.0</tt></a></p>\n<p>Features:</p>\n<ul>\n<li>Added UUID support in <code>Row::getDoctrineEntityProperty()</code> (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/hovercards?user_id=45132928\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Rixafy\">@Rixafy</a>)</li>\n<li>Added support for string IDs (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/hovercards?user_id=45132928\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Rixafy\">@Rixafy</a>)</li>\n<li>Support inheritance static analysis in return types (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/hovercards?user_id=20974277\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/mabar\">@mabar</a>)</li>\n<li>Fixed <code>$rowCallback</code> argument of <code>DataGrid::setColumnsSummary()</code> method</li>\n</ul>"
+        "tag": "v6.2.3",
+        "name": "v6.2.3",
+        "created_at": "2019-08-13T14:33:01Z",
+        "published_at": "2019-08-13T14:34:06Z",
+        "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.3",
+        "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"pushpin\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4cc.png\">📌</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.2...v6.2.3\"><tt>v6.2.2...v6.2.3</tt></a></p>\n<p>Fixes:</p>\n<ul>\n<li>Fix the filter reset type error when the remember state is disabled (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/hovercards?user_id=450740\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/jaroslavlibal\">@jaroslavlibal</a>)</li>\n</ul>"
       }
     },
     "stars": 172,

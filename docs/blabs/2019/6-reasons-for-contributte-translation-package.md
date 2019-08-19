@@ -33,7 +33,7 @@ author: aleswita
         - %appDir%/lang
   ```
 
-  File `app/lang/en.neon`:
+  File `app/lang/messages.en_US.neon`:
 
   ```
   helloWorld: "Hello world"

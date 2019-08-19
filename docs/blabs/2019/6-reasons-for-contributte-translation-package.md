@@ -10,7 +10,7 @@ author: aleswita
 1. Tiniest implementation to Nette Framework, thats include only 10 services (9 in production mode)
 2. No unnecessary dependencies
 3. Uses strict types and scalar and return type hints
-4. Tests coverege hitting 100%
+4. Tests coverage hitting 100%
 5. Ready for Symfony 5
 6. For implementation you need only 9 lines of code
 

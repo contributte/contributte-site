@@ -44,16 +44,6 @@ module.exports = {
       {
         hostname: "https://contributte.org"
       }
-    ],
-    [
-      "@vuepress/pwa",
-      {
-        serviceWorker: true,
-        updatePopup: {
-          message: "New yummy dev content is available.",
-          buttonText: "Hack me"
-        }
-      }
     ]
   ]
 };

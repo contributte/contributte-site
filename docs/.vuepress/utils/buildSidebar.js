@@ -90,6 +90,11 @@ module.exports = {
           children: buildChildren('development'),
         },
         {
+          title: 'Ninjify',
+          collapsable: false,
+          children: buildChildren('ninjify'),
+        },
+        {
           title: 'Other',
           collapsable: false,
           children: buildChildren(null),

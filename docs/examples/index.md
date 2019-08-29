@@ -1,8 +1,8 @@
 ---
-metaTitle: 'planette / playground - :books: Examples / tutorials / tips / samples | sandbox for @contributte'
+metaTitle: 'planette / playground - 📚 Examples / tutorials / tips / samples | sandbox for @contributte'
 meta:
   - name: description
-    content: ':books: Examples / tutorials / tips / samples | sandbox for @contributte'
+    content: '📚 Examples / tutorials / tips / samples | sandbox for @contributte'
   - name: keywords
     content: php, nette, planette, playground
 ---

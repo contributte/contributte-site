@@ -1109,16 +1109,6 @@
     "html_url": "https://github.com/contributte/event-dispatcher/releases/tag/v0.3",
     "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"penguin\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f427.png\">🐧</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/event-dispatcher/compare/v0.2...v0.3\"><tt>v0.2...v0.3</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>split <strong>Nette\\Application</strong> events to solo repository (<a href=\"https://github.com/contributte/event-application-bridge\">contributte/event-application-bridge</a>)</li>\n<li>introduce new option <code>autoload: true/false</code> for disabling autoregister of the subscribers</li>\n<li>extension lookups for native symfony subscriber (<code>Symfony\\Component\\EventDispatcher\\EventSubscriberInterface</code>) instead of contributte's one</li>\n</ul>"
   },
-  "6455045": {
-    "org": "contributte",
-    "repo": "event-application-bridge",
-    "tag": "v0.1",
-    "name": "v0.1",
-    "created_at": "2017-05-21T13:21:56Z",
-    "published_at": "2017-05-21T13:29:56Z",
-    "html_url": "https://github.com/contributte/event-application-bridge/releases/tag/v0.1",
-    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"fist_oncoming\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png\">👊</g-emoji></p>"
-  },
   "6455048": {
     "org": "contributte",
     "repo": "console",
@@ -1429,16 +1419,6 @@
     "html_url": "https://github.com/contributte/latte/releases/tag/v0.2",
     "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"man_farmer\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f33e.png\">👨‍🌾</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/latte/compare/v0.1...v0.2\"><tt>v0.1...v0.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>added new filter <code>filectime</code> [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"197610551\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/contributte/latte/issues/2\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/latte/issues/2/hovercard\" href=\"https://github.com/contributte/latte/issues/2\">#2</a>]</li>\n<li>added new filter <code>email</code> [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"205264100\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/contributte/latte/issues/5\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/latte/issues/5/hovercard\" href=\"https://github.com/contributte/latte/issues/5\">#5</a>]</li>\n<li>added new number formatter [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"205264151\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/contributte/latte/issues/6\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/latte/issues/6/hovercard\" href=\"https://github.com/contributte/latte/issues/6\">#6</a>]</li>\n<li>automatic <code>{rev}</code> <code>{v}</code> <code>{build}</code> in debugMode [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"221510045\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/contributte/latte/issues/8\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/latte/issues/8/hovercard\" href=\"https://github.com/contributte/latte/issues/8\">#8</a>]</li>\n<li>modular filters [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"235842083\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/contributte/latte/issues/9\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/latte/issues/9/hovercard\" href=\"https://github.com/contributte/latte/issues/9\">#9</a>]</li>\n</ul>"
   },
-  "6909164": {
-    "org": "contributte",
-    "repo": "api-router-project",
-    "tag": "v1.0.0",
-    "name": "v1.0.0",
-    "created_at": "2017-07-03T08:19:18Z",
-    "published_at": "2017-07-03T08:23:00Z",
-    "html_url": "https://github.com/contributte/api-router-project/releases/tag/v1.0.0",
-    "body": "<h1>ublaboo/api-router-project is out!</h1>\n<ul>\n<li><code>/api/login</code> endpoint</li>\n</ul>"
-  },
   "6934680": {
     "org": "contributte",
     "repo": "datagrid",
@@ -1509,16 +1489,6 @@
     "html_url": "https://github.com/contributte/event-security-bridge/releases/tag/v0.1",
     "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"fist_oncoming\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png\">👊</g-emoji></p>"
   },
-  "7094529": {
-    "org": "contributte",
-    "repo": "event-application-bridge",
-    "tag": "v0.1.1",
-    "name": "v0.1.1",
-    "created_at": "2017-07-19T13:27:16Z",
-    "published_at": "2017-07-19T13:57:30Z",
-    "html_url": "https://github.com/contributte/event-application-bridge/releases/tag/v0.1.1",
-    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"old_key\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f5dd.png\">🗝</g-emoji></p>\n<p>Changes:</p>\n<ul>\n<li>added more tests</li>\n<li>added own ruleset</li>\n<li>fix invalid namespace</li>\n</ul>"
-  },
   "7105894": {
     "org": "contributte",
     "repo": "api-router",
@@ -1538,16 +1508,6 @@
     "published_at": "2017-07-20T09:27:26Z",
     "html_url": "https://github.com/contributte/api-docu/releases/tag/v2.0.0",
     "body": "<h2>Added</h2>\n<ul>\n<li>Composer requires php 7.1</li>\n<li>Using php 7.1 return types + method argument types declarations</li>\n</ul>"
-  },
-  "7204236": {
-    "org": "contributte",
-    "repo": "event-bridges",
-    "tag": "v0.1",
-    "name": "v0.1",
-    "created_at": "2017-07-27T16:03:04Z",
-    "published_at": "2017-07-28T09:07:23Z",
-    "html_url": "https://github.com/contributte/event-bridges/releases/tag/v0.1",
-    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"fist_oncoming\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png\">👊</g-emoji></p>"
   },
   "7225560": {
     "org": "contributte",
@@ -4137,7 +4097,7 @@
     "created_at": "2019-03-28T10:00:48Z",
     "published_at": "2019-03-28T10:04:17Z",
     "html_url": "https://github.com/contributte/translation/releases/tag/0.0.1",
-    "body": "<ul>\n<li>first stable version for Nette 3</li>\n</ul>"
+    "body": "<p>First stable version for Nette 3!</p>"
   },
   "16428594": {
     "org": "contributte",
@@ -4147,7 +4107,7 @@
     "created_at": "2019-03-29T06:54:05Z",
     "published_at": "2019-03-29T07:02:02Z",
     "html_url": "https://github.com/contributte/translation/releases/tag/0.0.2",
-    "body": "<ul>\n<li>added translate macro ({translate}, n:translate)</li>\n<li>fixed compatibiliti with Nette\\DI 3.0.0-RC3</li>\n<li>removed dependency to Nette\\Utils 2.5 and Nette\\DI 2.4</li>\n</ul>"
+    "body": "<p>Bump!</p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/translation/compare/0.0.1...0.0.2\"><tt>0.0.1...0.0.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>added translate macro ({translate}, n:translate)</li>\n<li>fixed compatibiliti with Nette\\DI 3.0.0-RC3</li>\n<li>removed dependency to Nette\\Utils 2.5 and Nette\\DI 2.4</li>\n</ul>"
   },
   "16432105": {
     "org": "contributte",
@@ -4157,7 +4117,7 @@
     "created_at": "2019-03-29T10:15:06Z",
     "published_at": "2019-03-29T10:20:50Z",
     "html_url": "https://github.com/contributte/translation/releases/tag/0.0.3",
-    "body": "<ul>\n<li>support for absolute translation ( {_//domain.message} )</li>\n</ul>"
+    "body": "<p>Bump!</p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/translation/compare/0.0.2...0.0.3\"><tt>0.0.2...0.0.3</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>support for absolute translation ( {_//domain.message} )</li>\n</ul>"
   },
   "16451540": {
     "org": "contributte",
@@ -4167,7 +4127,7 @@
     "created_at": "2019-03-30T08:04:12Z",
     "published_at": "2019-03-30T08:13:38Z",
     "html_url": "https://github.com/contributte/translation/releases/tag/0.0.4",
-    "body": "<ul>\n<li>added missing translation to Tracy panel</li>\n<li>fixed prefix macro</li>\n</ul>"
+    "body": "<p>Bump!</p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/translation/compare/0.0.3...0.0.4\"><tt>0.0.3...0.0.4</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>added missing translation to Tracy panel</li>\n<li>fixed prefix macro</li>\n</ul>"
   },
   "16455347": {
     "org": "contributte",
@@ -4187,7 +4147,7 @@
     "created_at": "2019-03-31T08:25:36Z",
     "published_at": "2019-04-01T03:51:15Z",
     "html_url": "https://github.com/contributte/translation/releases/tag/0.0.5",
-    "body": "<ul>\n<li>fixed plural translation</li>\n<li>added PrefixedTranslator</li>\n</ul>"
+    "body": "<p>Bump!</p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/translation/compare/0.0.4...0.0.5\"><tt>0.0.4...0.0.5</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>fixed plural translation</li>\n<li>added PrefixedTranslator</li>\n</ul>"
   },
   "16468878": {
     "org": "contributte",
@@ -4197,7 +4157,7 @@
     "created_at": "2019-04-01T08:14:02Z",
     "published_at": "2019-04-01T08:17:28Z",
     "html_url": "https://github.com/contributte/translation/releases/tag/0.0.6",
-    "body": "<ul>\n<li>Tracy panel improvments</li>\n</ul>"
+    "body": "<p>Bump!</p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/translation/compare/0.0.5...0.0.6\"><tt>0.0.5...0.0.6</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Tracy panel improvements</li>\n</ul>"
   },
   "16603016": {
     "org": "contributte",
@@ -4207,7 +4167,7 @@
     "created_at": "2019-04-06T09:10:17Z",
     "published_at": "2019-04-07T09:06:03Z",
     "html_url": "https://github.com/contributte/translation/releases/tag/0.1.0",
-    "body": "<ul>\n<li>change namespace from <strong>Translette</strong> to <strong>Contributte</strong> (BC break)</li>\n<li>added new locale resolver <strong>Router</strong></li>\n<li>fix for Parameter locale resolver</li>\n<li>added experiment loader for Doctrine (read more in docs)</li>\n<li>change dependencies to stable Nette versions</li>\n</ul>"
+    "body": "<p>Bump!</p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/translation/compare/0.0.6...0.1.0\"><tt>0.0.6...0.1.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>change namespace from <strong>Translette</strong> to <strong>Contributte</strong> (BC break)</li>\n<li>added new locale resolver <strong>Router</strong></li>\n<li>fix for Parameter locale resolver</li>\n<li>added experiment loader for Doctrine (read more in docs)</li>\n<li>change dependencies to stable Nette versions</li>\n</ul>"
   },
   "16603522": {
     "org": "contributte",
@@ -4257,7 +4217,7 @@
     "created_at": "2019-05-09T09:27:47Z",
     "published_at": "2019-05-09T09:37:14Z",
     "html_url": "https://github.com/contributte/translation/releases/tag/v0.2.0",
-    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"outbox_tray\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4e4.png\">📤</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/translation/compare/0.1.0...v0.2.0\"><tt>0.1.0...v0.2.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>stable loaders for <strong>Doctrine 2</strong> and <strong>Nette Database</strong></li>\n<li>bug fix for pluralizations, if count param is float</li>\n</ul>"
+    "body": "<p>Bump!</p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/translation/compare/0.1.0...v0.2.0\"><tt>0.1.0...v0.2.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>stable loaders for <strong>Doctrine 2</strong> and <strong>Nette Database</strong></li>\n<li>bug fix for pluralizations, if count param is float</li>\n</ul>"
   },
   "17291368": {
     "org": "contributte",
@@ -4647,7 +4607,7 @@
     "created_at": "2019-06-17T11:27:50Z",
     "published_at": "2019-06-17T11:33:45Z",
     "html_url": "https://github.com/contributte/translation/releases/tag/v0.4.1",
-    "body": ""
+    "body": "<p>Bump!</p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/translation/compare/v0.4.0...v0.4.1\"><tt>v0.4.0...v0.4.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>don't duplicy Nette\\SmartObject in translators</li>\n</ul>"
   },
   "18048861": {
     "org": "contributte",
@@ -5158,5 +5118,25 @@
     "published_at": "2019-08-13T14:34:06Z",
     "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.3",
     "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"pushpin\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4cc.png\">📌</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.2...v6.2.3\"><tt>v6.2.2...v6.2.3</tt></a></p>\n<p>Fixes:</p>\n<ul>\n<li>Fix the filter reset type error when the remember state is disabled (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/hovercards?user_id=450740\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/jaroslavlibal\">@jaroslavlibal</a>)</li>\n</ul>"
+  },
+  "19467422": {
+    "org": "contributte",
+    "repo": "utils",
+    "tag": "v0.3.3",
+    "name": "v0.3.3",
+    "created_at": "2019-08-22T13:55:03Z",
+    "published_at": "2019-08-22T13:59:24Z",
+    "html_url": "https://github.com/contributte/utils/releases/tag/v0.3.3",
+    "body": "<p>Allow nette/utils 2.4.10</p>"
+  },
+  "19512373": {
+    "org": "contributte",
+    "repo": "gosms",
+    "tag": "v0.2",
+    "name": "v0.2",
+    "created_at": "2019-08-24T15:37:47Z",
+    "published_at": "2019-08-24T15:41:56Z",
+    "html_url": "https://github.com/contributte/gosms/releases/tag/v0.2",
+    "body": "<p>Yeah! <g-emoji class=\"g-emoji\" alias=\"+1\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png\">👍</g-emoji></p>\n<p>Diff: <a href=\"https://github.com/contributte/gosms/compare/v0.1...v0.2\">v0.1...v0.2</a></p>\n<p>Changes:</p>\n<ul>\n<li>support Nette 3</li>\n<li>drop session and introduce saving access tokens to cache</li>\n</ul>"
   }
 }

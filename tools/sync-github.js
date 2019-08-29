@@ -2,6 +2,7 @@ const _ = require("lodash");
 const fs = require("fs");
 const path = require("path");
 const semver = require("semver");
+const emoji = require('node-emoji');
 const LOGGER = require('debug')('github');
 const CONFIG = require('./config');
 
@@ -39,7 +40,7 @@ function mergeGithub(repo) {
   repo.watchers = matchedRepo.watchers_count;
   repo.forks = matchedRepo.forks_count;
   repo.issues = matchedRepo.open_issues;
-  repo.description = matchedRepo.description;
+  repo.description = emoji.emojify(matchedRepo.description);
 }
 
 function mergeComposer(repo) {

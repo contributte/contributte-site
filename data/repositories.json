@@ -8,7 +8,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":boom: Best minimal console (symfony/console) to Nette Framework (@nette)",
+    "description": "💥 Best minimal console (symfony/console) to Nette Framework (@nette)",
     "releases": {
       "last": {
         "org": "contributte",
@@ -42,7 +42,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":mailbox_with_mail: Sending emails with pleasure and prepared templates.",
+    "description": "📬 Sending emails with pleasure and prepared templates.",
     "releases": {
       "last": {
         "org": "contributte",
@@ -78,7 +78,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":wrench: Collection of useful scripts for manipulaton with NEON files. Support composer pre-install / post-install events. Set/get parameters, validate files.",
+    "description": "🔧 Collection of useful scripts for manipulaton with NEON files. Support composer pre-install / post-install events. Set/get parameters, validate files.",
     "releases": {
       "last": {
         "org": "contributte",
@@ -115,7 +115,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":recycle: Nette-based console commands for latte, DIC, MVC, security, utils and many others.  ",
+    "description": "♻️ Nette-based console commands for latte, DIC, MVC, security, utils and many others.  ",
     "releases": {
       "last": {
         "org": "contributte",
@@ -152,7 +152,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":boom: Best events support (symfony/event-dispatcher) to Nette Framework (@nette)",
+    "description": "💥 Best events support (symfony/event-dispatcher) to Nette Framework (@nette)",
     "releases": {
       "last": {
         "org": "contributte",
@@ -189,7 +189,7 @@
     "docs": {
       "v": "v0"
     },
-    "description": ":no_entry: Nice client-side live form validation for Nette Forms.",
+    "description": "⛔ Nice client-side live form validation for Nette Forms.",
     "releases": {
       "last": {
         "org": "contributte",
@@ -217,7 +217,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":recycle: Nette-based Symfony events for application, presenter, form, latte, templates, security and many others.",
+    "description": "♻️ Nette-based Symfony events for application, presenter, form, latte, templates, security and many others.",
     "releases": {
       "last": {
         "org": "contributte",
@@ -253,7 +253,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":arrow_forward: Integration of Nette Framework to Codeception.",
+    "description": "▶️ Integration of Nette Framework to Codeception.",
     "releases": {
       "last": {
         "org": "contributte",
@@ -290,7 +290,7 @@
     "docs": {
       "v": "v0"
     },
-    "description": ":bangbang: Google reCAPTCHA (security) for Nette Framework \\ Forms",
+    "description": "‼️ Google reCAPTCHA (security) for Nette Framework \\ Forms",
     "releases": {
       "last": {
         "org": "contributte",
@@ -325,7 +325,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":hourglass: PHP job scheduler (cron) with locking for Nette Framework",
+    "description": "⌛ PHP job scheduler (cron) with locking for Nette Framework",
     "releases": {
       "last": {
         "org": "contributte",
@@ -362,7 +362,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":exclamation: Seznam captcha (security) for Nette Framework \\ Forms",
+    "description": "❗ Seznam captcha (security) for Nette Framework \\ Forms",
     "releases": {
       "last": {
         "org": "contributte",
@@ -396,7 +396,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":boom: Universal logging support to Tracy / Nette Framework (@nette)",
+    "description": "💥 Universal logging support to Tracy / Nette Framework (@nette)",
     "releases": {
       "last": {
         "org": "contributte",
@@ -432,7 +432,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":punch: Collection of Contributte/Nette advisories",
+    "description": "👊 Collection of Contributte/Nette advisories",
     "stars": 0,
     "watchers": 0,
     "forks": 0,
@@ -447,7 +447,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":sparkles: Extra contrib to nette/application (@nette)",
+    "description": "✨ Extra contrib to nette/application (@nette)",
     "releases": {
       "last": {
         "org": "contributte",
@@ -483,7 +483,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":sparkles: Extra contrib to nette/bootstrap (@nette)",
+    "description": "✨ Extra contrib to nette/bootstrap (@nette)",
     "releases": {
       "last": {
         "org": "contributte",
@@ -517,7 +517,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":sparkles: Extra contrib to nette/caching (@nette)",
+    "description": "✨ Extra contrib to nette/caching (@nette)",
     "releases": {
       "last": {
         "org": "contributte",
@@ -535,7 +535,7 @@
     "forks": 2,
     "composer": {
       "nette": [
-        "3.0"
+        "2.4"
       ],
       "php": [
         "7.2",
@@ -553,7 +553,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":sparkles: Extra contrib to nette/database (@nette)",
+    "description": "✨ Extra contrib to nette/database (@nette)",
     "releases": {
       "last": {
         "org": "contributte",
@@ -589,7 +589,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":horse_racing: FTP deployment (by @dg) extension for Nette Framework",
+    "description": "🏇 FTP deployment (by @dg) extension for Nette Framework",
     "releases": {
       "last": {
         "org": "contributte",
@@ -659,7 +659,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":sparkles: Extra contrib to nette/di (@nette)",
+    "description": "✨ Extra contrib to nette/di (@nette)",
     "releases": {
       "last": {
         "org": "contributte",
@@ -695,7 +695,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":repeat: Ultra simple events system for Nette Framework",
+    "description": "🔁 Ultra simple events system for Nette Framework",
     "releases": {
       "last": {
         "org": "contributte",
@@ -731,7 +731,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":mag: Tiny Elasticsearch integration into Nette Framework",
+    "description": "🔍 Tiny Elasticsearch integration into Nette Framework",
     "releases": {
       "last": {
         "org": "contributte",
@@ -767,7 +767,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":yum: Tiny Facebook SDK 5.x integration to Nette Framework",
+    "description": "😋 Tiny Facebook SDK 5.x integration to Nette Framework",
     "releases": {
       "last": {
         "org": "contributte",
@@ -801,7 +801,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":euro: Fio API integration for Nette Framework",
+    "description": "💶 Fio API integration for Nette Framework",
     "releases": {
       "last": {
         "org": "contributte",
@@ -837,7 +837,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":sparkles: Extra contrib to nette/forms (@nette)",
+    "description": "✨ Extra contrib to nette/forms (@nette)",
     "releases": {
       "last": {
         "org": "contributte",
@@ -873,7 +873,7 @@
     "docs": {
       "v": "v0"
     },
-    "description": ":man: Yeoman & Nette Framework",
+    "description": "👨 Yeoman & Nette Framework",
     "stars": 18,
     "watchers": 18,
     "forks": 2,
@@ -888,7 +888,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":sparkles: Extra contrib to nette/http (@nette)",
+    "description": "✨ Extra contrib to nette/http (@nette)",
     "releases": {
       "last": {
         "org": "contributte",
@@ -924,7 +924,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":sparkles: Extra contrib to nette/latte (@nette)",
+    "description": "✨ Extra contrib to nette/latte (@nette)",
     "releases": {
       "last": {
         "org": "contributte",
@@ -961,7 +961,7 @@
     "docs": {
       "v": "v0"
     },
-    "description": ":point_right: Email protection for emails in Latte templates",
+    "description": "👉 Email protection for emails in Latte templates",
     "releases": {
       "last": {
         "org": "contributte",
@@ -998,7 +998,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":tractor: Parsedown (markdown) template parser for Nette \\ Latte (@nette)",
+    "description": "🚜 Parsedown (markdown) template parser for Nette \\ Latte (@nette)",
     "releases": {
       "last": {
         "org": "contributte",
@@ -1016,11 +1016,11 @@
     "forks": 2,
     "composer": {
       "nette": [
-        "2.4"
+        "3.0"
       ],
       "php": [
-        "7.1",
-        "8.0"
+        "7.2",
+        "7.4"
       ]
     },
     "issues": 0
@@ -1034,7 +1034,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":sparkles: Extra contrib to nette/mail (@nette)",
+    "description": "✨ Extra contrib to nette/mail (@nette)",
     "releases": {
       "last": {
         "org": "contributte",
@@ -1070,7 +1070,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":boom: Middlewares / Relay / PSR-7 support to Nette Framework (@nette)",
+    "description": "💥 Middlewares / Relay / PSR-7 support to Nette Framework (@nette)",
     "releases": {
       "last": {
         "org": "contributte",
@@ -1107,7 +1107,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":dizzy: PSR #11 [Container Interface] to Nette Framework (@nette)",
+    "description": "💫 PSR #11 [Container Interface] to Nette Framework (@nette)",
     "releases": {
       "last": {
         "org": "contributte",
@@ -1144,7 +1144,7 @@
     "docs": {
       "v": "v0"
     },
-    "description": ":moneybag: MobilniPlatby.cz for Nette Framework",
+    "description": "💰 MobilniPlatby.cz for Nette Framework",
     "stars": 5,
     "watchers": 5,
     "forks": 0,
@@ -1167,7 +1167,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":boom: View-Model + Model-View layer to Nette Framework (@nette)",
+    "description": "💥 View-Model + Model-View layer to Nette Framework (@nette)",
     "releases": {
       "last": {
         "org": "contributte",
@@ -1202,7 +1202,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":wolf: Doctrine-like events for Nextras ORM",
+    "description": "🐺 Doctrine-like events for Nextras ORM",
     "releases": {
       "last": {
         "org": "contributte",
@@ -1239,7 +1239,7 @@
     "docs": {
       "v": "v0"
     },
-    "description": ":wolf: Rich Nextras\\ORM entity generator for fast prototyping your new project.",
+    "description": "🐺 Rich Nextras\\ORM entity generator for fast prototyping your new project.",
     "releases": {
       "last": {
         "org": "contributte",
@@ -1276,7 +1276,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":wolf: Query-objects for Nextras ORM",
+    "description": "🐺 Query-objects for Nextras ORM",
     "releases": {
       "last": {
         "org": "contributte",
@@ -1312,7 +1312,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":boom: Enhanced PHPdoc to Nette Framework with annotations (@nette)",
+    "description": "💥 Enhanced PHPdoc to Nette Framework with annotations (@nette)",
     "releases": {
       "last": {
         "org": "contributte",
@@ -1348,7 +1348,7 @@
     "docs": {
       "v": "v0"
     },
-    "description": ":books: Examples / tutorials / tips / samples | sandbox for @contributte",
+    "description": "📚 Examples / tutorials / tips / samples | sandbox for @contributte",
     "stars": 9,
     "watchers": 9,
     "forks": 6,
@@ -1364,7 +1364,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":dizzy: PSR #7 [HTTP Message Interface] to Nette Framework (@nette)",
+    "description": "💫 PSR #7 [HTTP Message Interface] to Nette Framework (@nette)",
     "releases": {
       "last": {
         "org": "contributte",
@@ -1398,7 +1398,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":sparkles: Extra contrib to nette/security (@nette)",
+    "description": "✨ Extra contrib to nette/security (@nette)",
     "releases": {
       "last": {
         "org": "contributte",
@@ -1434,7 +1434,7 @@
     "docs": {
       "v": "v0"
     },
-    "description": ":fries: Social plugins  (facebook, twitter, google) for Nette Framework",
+    "description": "🍟 Social plugins  (facebook, twitter, google) for Nette Framework",
     "releases": {
       "last": {
         "org": "contributte",
@@ -1470,7 +1470,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":sunglasses: Tuned Tracy Bars/Panels/BlueScreens for easy-developing",
+    "description": "😎 Tuned Tracy Bars/Panels/BlueScreens for easy-developing",
     "releases": {
       "last": {
         "org": "contributte",
@@ -1504,17 +1504,17 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":sparkles: Extra contrib to nette/utils (@nette)",
+    "description": "✨ Extra contrib to nette/utils (@nette)",
     "releases": {
       "last": {
         "org": "contributte",
         "repo": "utils",
-        "tag": "v0.4.0",
-        "name": "v0.4.0",
-        "created_at": "2019-06-16T14:03:32Z",
-        "published_at": "2019-06-16T16:46:47Z",
-        "html_url": "https://github.com/contributte/utils/releases/tag/v0.4.0",
-        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/utils/compare/v0.3.2...v0.4.0\"><tt>v0.3.2...v0.4.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/utils/commit/459026d1cd1b6114cbce072735ee0ed6659be09c/hovercard\" href=\"https://github.com/contributte/utils/commit/459026d1cd1b6114cbce072735ee0ed6659be09c\"><tt>459026d</tt></a></li>\n</ul>"
+        "tag": "v0.3.3",
+        "name": "v0.3.3",
+        "created_at": "2019-08-22T13:55:03Z",
+        "published_at": "2019-08-22T13:59:24Z",
+        "html_url": "https://github.com/contributte/utils/releases/tag/v0.3.3",
+        "body": "<p>Allow nette/utils 2.4.10</p>"
       }
     },
     "stars": 6,
@@ -1540,7 +1540,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":exclamation: Word based captcha (security) for Nette Framework \\ Forms (@nette)",
+    "description": "❗ Word based captcha (security) for Nette Framework \\ Forms (@nette)",
     "releases": {
       "last": {
         "org": "contributte",
@@ -1586,7 +1586,7 @@
         "decorators": "Decorators"
       }
     },
-    "description": ":wrench: PSR-7 based API framework. Heart of the apitte stack. Suitable to use with Nette Framework.",
+    "description": "🔧 PSR-7 based API framework. Heart of the apitte stack. Suitable to use with Nette Framework.",
     "category": "apitte",
     "releases": {
       "last": {
@@ -1622,7 +1622,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":interrobang: Debugging tools for Apitte stack",
+    "description": "⁉️ Debugging tools for Apitte stack",
     "category": "apitte",
     "releases": {
       "last": {
@@ -1658,7 +1658,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":pill: Symfony\\Console bridge for Apitte stack",
+    "description": "💊 Symfony\\Console bridge for Apitte stack",
     "category": "apitte",
     "releases": {
       "last": {
@@ -1689,12 +1689,13 @@
   "apitte/openapi": {
     "org": "apitte",
     "name": "openapi",
+    "title": "OpenAPI",
     "enabled": true,
     "priority": 0,
     "docs": {
       "v": "v1"
     },
-    "description": ":family: OpenAPI specification for Apitte stack",
+    "description": "👨‍👩‍👦 OpenAPI specification for Apitte stack",
     "category": "apitte",
     "releases": {
       "last": {
@@ -1730,7 +1731,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":speedboat: Middlewares support for Apitte stack",
+    "description": "🚤 Middlewares support for Apitte stack",
     "category": "apitte",
     "releases": {
       "last": {
@@ -1766,7 +1767,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":art: Content-Negotiation support for Apitte stack",
+    "description": "🎨 Content-Negotiation support for Apitte stack",
     "category": "apitte",
     "releases": {
       "last": {
@@ -1802,7 +1803,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":sunflower: PSR-7 for Nette\\Presenters with Apitte stack",
+    "description": "🌻 PSR-7 for Nette\\Presenters with Apitte stack",
     "category": "apitte",
     "releases": {
       "last": {
@@ -1836,7 +1837,7 @@
     "docs": {
       "v": "v0"
     },
-    "description": ":thumbsup: Apitte meta package with all features",
+    "description": "👍 Apitte meta package with all features",
     "category": "apitte",
     "releases": {
       "last": {
@@ -1864,12 +1865,13 @@
   "apitte/openapi-toolkit": {
     "org": "apitte",
     "name": "openapi-toolkit",
+    "title": "OpenAPI UI",
     "enabled": true,
     "priority": 0,
     "docs": {
       "v": "v0"
     },
-    "description": ":diamonds: Simple and intuitive OpenApi/Swagger compatible UI toolkit",
+    "description": "♦️ Simple and intuitive OpenApi/Swagger compatible UI toolkit",
     "category": "apitte",
     "stars": 3,
     "watchers": 3,
@@ -1879,12 +1881,13 @@
   "nettrine/dbal": {
     "org": "nettrine",
     "name": "dbal",
+    "title": "DBAL",
     "enabled": true,
     "priority": 0,
     "docs": {
       "v": "v1"
     },
-    "description": ":bulb: Well-integrated Doctrine2 DBAL for Nette Framework",
+    "description": "💡 Well-integrated Doctrine2 DBAL for Nette Framework",
     "category": "nettrine",
     "releases": {
       "last": {
@@ -1906,8 +1909,8 @@
         "2.4"
       ],
       "php": [
-        "7.1",
-        "8.0"
+        "7.2",
+        "7.4"
       ]
     },
     "issues": 4
@@ -1915,12 +1918,13 @@
   "nettrine/orm": {
     "org": "nettrine",
     "name": "orm",
+    "title": "ORM",
     "enabled": true,
-    "priority": 0,
+    "priority": 10,
     "docs": {
       "v": "v1"
     },
-    "description": ":fire: Well-integrated Doctrine2 ORM for Nette Framework",
+    "description": "🔥 Well-integrated Doctrine2 ORM for Nette Framework",
     "category": "nettrine",
     "releases": {
       "last": {
@@ -1938,13 +1942,10 @@
     "watchers": 31,
     "forks": 20,
     "composer": {
-      "nette": [
-        "2.4",
-        "3.0"
-      ],
+      "nette": [],
       "php": [
-        "7.1",
-        "8.0"
+        "7.2",
+        "7.4"
       ]
     },
     "issues": 9
@@ -1957,7 +1958,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":wrench: Doctrine Fixtures for Nette Framework",
+    "description": "🔧 Doctrine Fixtures for Nette Framework",
     "category": "nettrine",
     "releases": {
       "last": {
@@ -1976,11 +1977,11 @@
     "forks": 0,
     "composer": {
       "nette": [
-        "2.4"
+        "3.0"
       ],
       "php": [
-        "7.1",
-        "8.0"
+        "7.2",
+        "7.4"
       ]
     },
     "issues": 3
@@ -1993,7 +1994,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":running: Doctrine Migrations for Nette Framework",
+    "description": "🏃‍♂️ Doctrine Migrations for Nette Framework",
     "category": "nettrine",
     "releases": {
       "last": {
@@ -2012,11 +2013,11 @@
     "forks": 7,
     "composer": {
       "php": [
-        "7.1",
-        "8.0"
+        "7.2",
+        "7.4"
       ],
       "nette": [
-        "2.4"
+        "3.0"
       ]
     },
     "issues": 2
@@ -2029,7 +2030,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":mag: Doctrine2 behavioral extensions for Nette Framework",
+    "description": "🔍 Doctrine2 behavioral extensions for Nette Framework",
     "category": "nettrine",
     "releases": {
       "last": {
@@ -2048,11 +2049,11 @@
     "forks": 6,
     "composer": {
       "nette": [
-        "2.4"
+        "3.0"
       ],
       "php": [
-        "7.1",
-        "8.0"
+        "7.2",
+        "7.4"
       ]
     },
     "issues": 4
@@ -2065,7 +2066,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":memo: Standalone Doctrine Annotations for Nette Framework",
+    "description": "📝 Standalone Doctrine Annotations for Nette Framework",
     "category": "nettrine",
     "releases": {
       "last": {
@@ -2084,11 +2085,11 @@
     "forks": 2,
     "composer": {
       "php": [
-        "7.1",
-        "8.0"
+        "7.2",
+        "7.4"
       ],
       "nette": [
-        "2.4"
+        "3.0"
       ]
     },
     "issues": 1
@@ -2101,7 +2102,7 @@
     "docs": {
       "v": "v0"
     },
-    "description": ":arrows_clockwise: Doctrine Cache adapter for Nette Framework ",
+    "description": "🔃 Doctrine Cache adapter for Nette Framework ",
     "category": "nettrine",
     "stars": 3,
     "watchers": 3,
@@ -2126,7 +2127,7 @@
     "docs": {
       "v": "v0"
     },
-    "description": ":arrow_left: :arrow_right: Convert Doctrine entity to array and conversely",
+    "description": "⬅️ ➡️ Convert Doctrine entity to array and conversely",
     "category": "nettrine",
     "stars": 2,
     "watchers": 2,
@@ -2151,7 +2152,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":airplane: Smart integration of Flysystem into Nette Framework",
+    "description": "✈️ Smart integration of Flysystem into Nette Framework",
     "releases": {
       "last": {
         "org": "contributte",
@@ -2187,7 +2188,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":cyclone: Guzzle integration into Nette Framework",
+    "description": "🌀 Guzzle integration into Nette Framework",
     "releases": {
       "last": {
         "org": "contributte",
@@ -2223,7 +2224,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":floppy_disk: Redis (predis) for Nette Framework (@nette)",
+    "description": "💾 Redis (predis) for Nette Framework (@nette)",
     "releases": {
       "last": {
         "org": "contributte",
@@ -2257,7 +2258,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":memo: Best logging support into Nette Framework (@nette)",
+    "description": "📝 Best logging support into Nette Framework (@nette)",
     "releases": {
       "last": {
         "org": "contributte",
@@ -2292,7 +2293,7 @@
     "docs": {
       "v": "v0"
     },
-    "description": ":stars: Image storage for Nette framework",
+    "description": "🌠 Image storage for Nette framework",
     "releases": {},
     "stars": 20,
     "watchers": 20,
@@ -2318,7 +2319,7 @@
     "docs": {
       "v": "v0"
     },
-    "description": ":dollar: Port of ThePay library",
+    "description": "💵 Port of ThePay library",
     "releases": {
       "last": {
         "org": "contributte",
@@ -2355,7 +2356,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":dollar: ThePay integration for Nette Framework",
+    "description": "💵 ThePay integration for Nette Framework",
     "releases": {
       "last": {
         "org": "contributte",
@@ -2390,7 +2391,7 @@
     "docs": {
       "v": "v0"
     },
-    "description": ":princess: API documentation generator (JSON-RPC / REST)",
+    "description": "👸 API documentation generator (JSON-RPC / REST)",
     "releases": {
       "last": {
         "org": "contributte",
@@ -2426,7 +2427,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":basketball: :soccer: :baseball: :tennis: :8ball: Latte-based replacer for simple texts.",
+    "description": "🏀 ⚽ ⚾ 🎾 🎱 Latte-based replacer for simple texts.",
     "releases": {
       "last": {
         "org": "contributte",
@@ -2462,7 +2463,7 @@
     "docs": {
       "v": "v0"
     },
-    "description": ":repeat: Form multiplier & replicator for Nette Framework",
+    "description": "🔁 Form multiplier & replicator for Nette Framework",
     "releases": {
       "last": {
         "org": "contributte",
@@ -2498,7 +2499,7 @@
     "docs": {
       "v": "v0"
     },
-    "description": ":tophat: Easy to use step-by-step form for Nette Framework",
+    "description": "🎩 Easy to use step-by-step form for Nette Framework",
     "releases": {
       "last": {
         "org": "contributte",
@@ -2548,7 +2549,7 @@
         "localization": "Localization"
       }
     },
-    "description": ":muscle: DataGrid for Nette Framework: filtering, sorting, pagination, tree view, table view, translator, etc",
+    "description": "💪 DataGrid for Nette Framework: filtering, sorting, pagination, tree view, table view, translator, etc",
     "releases": {
       "last": {
         "org": "contributte",
@@ -2566,7 +2567,7 @@
     "forks": 127,
     "composer": {
       "nette": [
-        "3.0"
+        "2.4"
       ],
       "php": [
         "7.2",
@@ -2584,7 +2585,7 @@
     "docs": {
       "v": "v0"
     },
-    "description": ":man: RESTful router for your API in Nette Framework - created either directly or via annotation",
+    "description": "👨 RESTful router for your API in Nette Framework - created either directly or via annotation",
     "releases": {
       "last": {
         "org": "contributte",
@@ -2620,7 +2621,7 @@
     "docs": {
       "v": "v0"
     },
-    "description": ":woman: Document generator for ApiRouter routes - awesome runtime documentation",
+    "description": "👩 Document generator for ApiRouter routes - awesome runtime documentation",
     "releases": {
       "last": {
         "org": "contributte",
@@ -2653,7 +2654,7 @@
     "docs": {
       "v": "v0"
     },
-    "description": ":memo: PDF invoice generator ",
+    "description": "📝 PDF invoice generator ",
     "releases": {
       "last": {
         "org": "contributte",
@@ -2689,7 +2690,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": ":gb: :de: :it: Translations (symfony/translation) to Nette Framework (@nette)",
+    "description": "🇬🇧 🇩🇪 🇮🇹 Translations (symfony/translation) to Nette Framework (@nette)",
     "releases": {
       "last": {
         "org": "contributte",
@@ -2699,7 +2700,7 @@
         "created_at": "2019-06-17T11:27:50Z",
         "published_at": "2019-06-17T11:33:45Z",
         "html_url": "https://github.com/contributte/translation/releases/tag/v0.4.1",
-        "body": ""
+        "body": "<p>Bump!</p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/translation/compare/v0.4.0...v0.4.1\"><tt>v0.4.0...v0.4.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>don't duplicy Nette\\SmartObject in translators</li>\n</ul>"
       }
     },
     "stars": 17,
@@ -2725,17 +2726,17 @@
     "docs": {
       "v": "v0"
     },
-    "description": ":speech_balloon: GoSMS.cz HTTP client for Nette ",
+    "description": "💬 GoSMS.cz HTTP client for Nette ",
     "releases": {
       "last": {
         "org": "contributte",
         "repo": "gosms",
-        "tag": "v0.1",
-        "name": "v0.1",
-        "created_at": "2019-02-25T17:22:00Z",
-        "published_at": "2019-02-25T17:59:40Z",
-        "html_url": "https://github.com/contributte/gosms/releases/tag/v0.1",
-        "body": "<p>First bump! <g-emoji class=\"g-emoji\" alias=\"fist_oncoming\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png\">👊</g-emoji></p>"
+        "tag": "v0.2",
+        "name": "v0.2",
+        "created_at": "2019-08-24T15:37:47Z",
+        "published_at": "2019-08-24T15:41:56Z",
+        "html_url": "https://github.com/contributte/gosms/releases/tag/v0.2",
+        "body": "<p>Yeah! <g-emoji class=\"g-emoji\" alias=\"+1\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png\">👍</g-emoji></p>\n<p>Diff: <a href=\"https://github.com/contributte/gosms/compare/v0.1...v0.2\">v0.1...v0.2</a></p>\n<p>Changes:</p>\n<ul>\n<li>support Nette 3</li>\n<li>drop session and introduce saving access tokens to cache</li>\n</ul>"
       }
     },
     "stars": 0,
@@ -2747,7 +2748,7 @@
         "8.0"
       ],
       "nette": [
-        "2.4"
+        "3.0"
       ]
     },
     "issues": 0
@@ -2755,13 +2756,14 @@
   "contributte/czech-post": {
     "org": "contributte",
     "name": "czech-post",
+    "title": "Czech Post",
     "category": "webservices",
     "enabled": true,
     "priority": 0,
     "docs": {
-      "v": "v0"
+      "v": "v1"
     },
-    "description": ":postbox: Czech Post API client",
+    "description": "📮 Czech Post API client",
     "releases": {
       "last": {
         "org": "contributte",
@@ -2792,12 +2794,13 @@
     "org": "contributte",
     "name": "oauth2-client",
     "title": "OAuth2 client",
+    "category": "webservices",
     "enabled": true,
     "priority": 0,
     "docs": {
       "v": "v1"
     },
-    "description": ":lock: OAuth2 client for Nette Framework  ",
+    "description": "🔒 OAuth2 client for Nette Framework  ",
     "releases": {
       "last": {
         "org": "contributte",
@@ -2821,5 +2824,131 @@
       "nette": []
     },
     "issues": 0
+  },
+  "contributte/psr6-caching": {
+    "org": "contributte",
+    "name": "psr6-caching",
+    "title": "PSR-6 [caching]",
+    "category": "psr",
+    "enabled": true,
+    "priority": 0,
+    "docs": {
+      "v": "v1"
+    },
+    "description": "💫 PSR #6 [Caching Interface] to Nette Framework (@nette)",
+    "stars": 1,
+    "watchers": 1,
+    "forks": 1,
+    "issues": 0,
+    "composer": {
+      "php": [
+        "7.2",
+        "7.4"
+      ],
+      "nette": [
+        "3.0"
+      ]
+    }
+  },
+  "ninjify/qa": {
+    "org": "ninjify",
+    "name": "qa",
+    "title": "Quality Assurance",
+    "category": "ninjify",
+    "enabled": true,
+    "priority": 0,
+    "docs": {
+      "v": "v0"
+    },
+    "description": "👏 Quality assurance for your PHP projects",
+    "releases": {
+      "last": {
+        "org": "ninjify",
+        "repo": "qa",
+        "tag": "v0.9",
+        "name": "v0.9",
+        "created_at": "2019-02-24T11:31:23Z",
+        "published_at": "2019-02-24T20:20:06Z",
+        "html_url": "https://github.com/ninjify/qa/releases/tag/v0.9",
+        "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"medal_sports\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f3c5.png\">🏅</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/ninjify/qa/compare/0.8...v0.9\"><tt>0.8...v0.9</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>ninjify/coding-standard v0.8</li>\n</ul>"
+      }
+    },
+    "stars": 7,
+    "watchers": 7,
+    "forks": 3,
+    "issues": 0,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
+  },
+  "ninjify/nunjuck": {
+    "org": "ninjify",
+    "name": "nunjuck",
+    "category": "ninjify",
+    "enabled": true,
+    "priority": 0,
+    "docs": {
+      "v": "v0"
+    },
+    "description": "💪 Special tuned version of @nette tester called nunjuck!",
+    "releases": {
+      "last": {
+        "org": "ninjify",
+        "repo": "nunjuck",
+        "tag": "v0.2.1",
+        "name": "v0.2.1",
+        "created_at": "2018-11-20T07:01:00Z",
+        "published_at": "2018-11-20T07:02:05Z",
+        "html_url": "https://github.com/ninjify/nunjuck/releases/tag/v0.2.1",
+        "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"fearful\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f628.png\">😨</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/ninjify/nunjuck/compare/v0.2...v0.2.1\"><tt>v0.2...v0.2.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>require PHP &gt;= 7.1 [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"381646531\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/ninjify/nunjuck/issues/4\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/ninjify/nunjuck/pull/4/hovercard\" href=\"https://github.com/ninjify/nunjuck/pull/4\">#4</a>]</li>\n<li>use nette/tester 2.1.0 [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"381646531\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/ninjify/nunjuck/issues/4\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/ninjify/nunjuck/pull/4/hovercard\" href=\"https://github.com/ninjify/nunjuck/pull/4\">#4</a>]</li>\n<li>fix robot loader [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"381144930\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/ninjify/nunjuck/issues/3\" data-hovercard-type=\"issue\" data-hovercard-url=\"/ninjify/nunjuck/issues/3/hovercard\" href=\"https://github.com/ninjify/nunjuck/issues/3\">#3</a>]</li>\n<li>better CI [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"381646531\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/ninjify/nunjuck/issues/4\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/ninjify/nunjuck/pull/4/hovercard\" href=\"https://github.com/ninjify/nunjuck/pull/4\">#4</a>]</li>\n</ul>"
+      }
+    },
+    "stars": 3,
+    "watchers": 3,
+    "forks": 0,
+    "issues": 0,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ],
+      "nette": []
+    }
+  },
+  "ninjify/coding-standard": {
+    "org": "ninjify",
+    "name": "coding-standard",
+    "category": "ninjify",
+    "enabled": true,
+    "priority": 0,
+    "docs": {
+      "v": "v0"
+    },
+    "description": "🐽 Tuned & very strict coding standards for PHP projects",
+    "releases": {
+      "last": {
+        "org": "ninjify",
+        "repo": "coding-standard",
+        "tag": "v0.9",
+        "name": "v0.9",
+        "created_at": "2019-04-27T17:14:05Z",
+        "published_at": "2019-05-07T15:03:48Z",
+        "html_url": "https://github.com/ninjify/coding-standard/releases/tag/v0.9",
+        "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"+1\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png\">👍</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/ninjify/coding-standard/compare/v0.8...v0.9\"><tt>v0.8...v0.9</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Added <a href=\"https://github.com/gameeapp\">Gamee</a> ruleset [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"428959776\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/ninjify/coding-standard/issues/20\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/ninjify/coding-standard/pull/20/hovercard\" href=\"https://github.com/ninjify/coding-standard/pull/20\">#20</a>]</li>\n<li>Skip some sniffs from slevomat/coding-standard <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/ninjify/coding-standard/commit/b377e66856a9798fbf8b1547b9e684f035df636d/hovercard\" href=\"https://github.com/ninjify/coding-standard/commit/b377e66856a9798fbf8b1547b9e684f035df636d\"><tt>b377e66</tt></a> <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/ninjify/coding-standard/commit/123c81daf8623afde8b5728e8d1a2f664452dbf3/hovercard\" href=\"https://github.com/ninjify/coding-standard/commit/123c81daf8623afde8b5728e8d1a2f664452dbf3\"><tt>123c81d</tt></a></li>\n</ul>"
+      }
+    },
+    "stars": 9,
+    "watchers": 9,
+    "forks": 2,
+    "issues": 2,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
   }
 }

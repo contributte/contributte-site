@@ -16,8 +16,8 @@ meta:
       Easy & smart integration of Doctrine2 to Nette Framework
     </p>
     <p class="action">
-      <a href="/packages/nettrine/dbal/" class="nav-link action-button">DBAL →</a>
-      <a href="/packages/nettrine/orm/" class="nav-link action-button">ORM →</a>
+      <a href="/packages/nettrine/dbal.html" class="nav-link action-button">DBAL →</a>
+      <a href="/packages/nettrine/orm.html" class="nav-link action-button">ORM →</a>
       <a href="/examples/#nettrine" class="nav-link action-button">Playground</a>
     </p>
   </header>

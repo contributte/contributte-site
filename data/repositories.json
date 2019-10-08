@@ -47,12 +47,12 @@
       "last": {
         "org": "contributte",
         "repo": "mailing",
-        "tag": "v0.3.0",
-        "name": "v0.3.0",
-        "created_at": "2019-06-17T17:59:19Z",
-        "published_at": "2019-06-17T22:27:57Z",
-        "html_url": "https://github.com/contributte/mailing/releases/tag/v0.3.0",
-        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/mailing/compare/v0.2...v0.3.0\"><tt>v0.2...v0.3.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/mailing/commit/0e446f2f9dbf1593638801c45966ef3419e330e5/hovercard\" href=\"https://github.com/contributte/mailing/commit/0e446f2f9dbf1593638801c45966ef3419e330e5\"><tt>0e446f2</tt></a></li>\n</ul>"
+        "tag": "v0.3.1",
+        "name": "v0.3.1",
+        "created_at": "2019-09-09T18:31:33Z",
+        "published_at": "2019-09-12T19:20:37Z",
+        "html_url": "https://github.com/contributte/mailing/releases/tag/v0.3.1",
+        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/mailing/compare/v0.3.0...v0.3.1\"><tt>v0.3.0...v0.3.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow nette/mail 3.1 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/mailing/commit/dee59f7504820d53bbd04c5f6b3310976bc19635/hovercard\" href=\"https://github.com/contributte/mailing/commit/dee59f7504820d53bbd04c5f6b3310976bc19635\"><tt>dee59f7</tt></a></li>\n</ul>"
       }
     },
     "stars": 7,
@@ -1369,12 +1369,12 @@
       "last": {
         "org": "contributte",
         "repo": "psr7-http-message",
-        "tag": "v0.6.0",
-        "name": "v0.6.0",
-        "created_at": "2019-06-18T10:32:29Z",
-        "published_at": "2019-06-18T10:35:52Z",
-        "html_url": "https://github.com/contributte/psr7-http-message/releases/tag/v0.6.0",
-        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/psr7-http-message/compare/v0.5.3...v0.6.0\"><tt>v0.5.3...v0.6.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/psr7-http-message/commit/3475b4b909fd7089c006c4ac10a3440853484962/hovercard\" href=\"https://github.com/contributte/psr7-http-message/commit/3475b4b909fd7089c006c4ac10a3440853484962\"><tt>3475b4b</tt></a></li>\n</ul>"
+        "tag": "v0.6.1",
+        "name": "v0.6.1",
+        "created_at": "2019-09-26T10:44:38Z",
+        "published_at": "2019-09-26T10:46:49Z",
+        "html_url": "https://github.com/contributte/psr7-http-message/releases/tag/v0.6.1",
+        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/psr7-http-message/compare/v0.6.0...v0.6.1\"><tt>v0.6.0...v0.6.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Methods working with json use Nette\\Utils\\Json to properly handle edge-cases <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/psr7-http-message/commit/345b1ac1a96718da0796b5b6ec22bb7aba47cc31/hovercard\" href=\"https://github.com/contributte/psr7-http-message/commit/345b1ac1a96718da0796b5b6ec22bb7aba47cc31\"><tt>345b1ac</tt></a></li>\n</ul>"
       }
     },
     "stars": 18,
@@ -1475,12 +1475,12 @@
       "last": {
         "org": "contributte",
         "repo": "tracy",
-        "tag": "v0.4.0",
-        "name": "v0.4.0",
-        "created_at": "2019-06-16T14:04:06Z",
-        "published_at": "2019-06-16T16:49:00Z",
-        "html_url": "https://github.com/contributte/tracy/releases/tag/v0.4.0",
-        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/tracy/compare/v0.3.2...v0.4.0\"><tt>v0.3.2...v0.4.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/tracy/commit/5276a428243d7778b6f74f5d9b731af333401310/hovercard\" href=\"https://github.com/contributte/tracy/commit/5276a428243d7778b6f74f5d9b731af333401310\"><tt>5276a42</tt></a></li>\n</ul>"
+        "tag": "v0.4.1",
+        "name": "v0.4.1",
+        "created_at": "2019-10-08T14:13:20Z",
+        "published_at": "2019-10-08T14:18:38Z",
+        "html_url": "https://github.com/contributte/tracy/releases/tag/v0.4.1",
+        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/tracy/compare/v0.4.0...v0.4.1\"><tt>v0.4.0...v0.4.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Upgrade dependencies</li>\n</ul>"
       }
     },
     "stars": 6,
@@ -1509,12 +1509,12 @@
       "last": {
         "org": "contributte",
         "repo": "utils",
-        "tag": "v0.3.3",
-        "name": "v0.3.3",
-        "created_at": "2019-08-22T13:55:03Z",
-        "published_at": "2019-08-22T13:59:24Z",
-        "html_url": "https://github.com/contributte/utils/releases/tag/v0.3.3",
-        "body": "<p>Allow nette/utils 2.4.10</p>"
+        "tag": "v0.4.1",
+        "name": "v0.4.1",
+        "created_at": "2019-09-24T08:56:38Z",
+        "published_at": "2019-09-24T09:11:32Z",
+        "html_url": "https://github.com/contributte/utils/releases/tag/v0.4.1",
+        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/utils/compare/v0.4.0...v0.4.1\"><tt>v0.4.0...v0.4.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Improved DateTime typehints <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/utils/commit/ec703d393048dd54c684dc6997c4ffdd8f09f0f4/hovercard\" href=\"https://github.com/contributte/utils/commit/ec703d393048dd54c684dc6997c4ffdd8f09f0f4\"><tt>ec703d3</tt></a> and <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/utils/commit/a231f8be9e08c179e72b44085ef832df379c8e6d/hovercard\" href=\"https://github.com/contributte/utils/commit/a231f8be9e08c179e72b44085ef832df379c8e6d\"><tt>a231f8b</tt></a></li>\n</ul>"
       }
     },
     "stars": 6,
@@ -2036,12 +2036,12 @@
       "last": {
         "org": "nettrine",
         "repo": "extensions",
-        "tag": "v0.3",
-        "name": "v0.3",
-        "created_at": "2018-05-29T13:34:02Z",
-        "published_at": "2018-05-29T13:34:13Z",
-        "html_url": "https://github.com/nettrine/extensions/releases/tag/v0.3",
-        "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"lollipop\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f36d.png\">🍭</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/extensions/compare/v0.2...v0.3\"><tt>v0.2...v0.3</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>switch Kdyby -&gt; Nettrine</li>\n<li>require PHP 7.1</li>\n</ul>"
+        "tag": "v0.4.0",
+        "name": "v0.4.0",
+        "created_at": "2019-09-17T21:14:25Z",
+        "published_at": "2019-09-17T21:20:18Z",
+        "html_url": "https://github.com/nettrine/extensions/releases/tag/v0.4.0",
+        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/extensions/compare/v0.3.1...v0.4.0\"><tt>v0.3.1...v0.4.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/extensions/commit/2b37e1264f78338a0b67f835b5208540020b4dd3/hovercard\" href=\"https://github.com/nettrine/extensions/commit/2b37e1264f78338a0b67f835b5208540020b4dd3\"><tt>2b37e12</tt></a></li>\n<li>Translatable language must be explicitly set, removed defaults <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/extensions/commit/434c725b76c1b7f1ba9ff4ccdf3ea78d05f6d048/hovercard\" href=\"https://github.com/nettrine/extensions/commit/434c725b76c1b7f1ba9ff4ccdf3ea78d05f6d048\"><tt>434c725</tt></a></li>\n</ul>"
       }
     },
     "stars": 6,
@@ -2229,12 +2229,12 @@
       "last": {
         "org": "contributte",
         "repo": "redis",
-        "tag": "v0.2.1",
-        "name": "v0.2.1",
-        "created_at": "2019-06-28T12:57:57Z",
-        "published_at": "2019-06-28T13:01:11Z",
-        "html_url": "https://github.com/contributte/redis/releases/tag/v0.2.1",
-        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/redis/compare/v0.2.0...v0.2.1\"><tt>v0.2.0...v0.2.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Fixed DI extension - cannot access to stdClass as an array <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/redis/commit/c9e6d338c088e3cae8cef7102012d68071ce71a7/hovercard\" href=\"https://github.com/contributte/redis/commit/c9e6d338c088e3cae8cef7102012d68071ce71a7\"><tt>c9e6d33</tt></a></li>\n</ul>"
+        "tag": "v0.2.2",
+        "name": "v0.2.2",
+        "created_at": "2019-10-08T14:07:05Z",
+        "published_at": "2019-10-08T14:11:25Z",
+        "html_url": "https://github.com/contributte/redis/releases/tag/v0.2.2",
+        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/redis/compare/v0.2.1...v0.2.2\"><tt>v0.2.1...v0.2.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Upgrade dependencies</li>\n<li>Move tracy to require-dev</li>\n</ul>"
       }
     },
     "stars": 8,
@@ -2263,12 +2263,12 @@
       "last": {
         "org": "contributte",
         "repo": "monolog",
-        "tag": "v0.3.0",
-        "name": "v0.3.0",
-        "created_at": "2019-05-31T08:26:48Z",
-        "published_at": "2019-05-31T08:29:26Z",
-        "html_url": "https://github.com/contributte/monolog/releases/tag/v0.3.0",
-        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/monolog/compare/v0.2.2...v0.3.0\"><tt>v0.2.2...v0.3.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Supports Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/monolog/commit/53e99b7bb7ddf3a533ab571f5d306baf35e44542/hovercard\" href=\"https://github.com/contributte/monolog/commit/53e99b7bb7ddf3a533ab571f5d306baf35e44542\"><tt>53e99b7</tt></a></li>\n<li>PHP ^7.2</li>\n</ul>"
+        "tag": "v0.4.0",
+        "name": "v0.4.0",
+        "created_at": "2019-09-19T18:42:05Z",
+        "published_at": "2019-09-19T20:34:59Z",
+        "html_url": "https://github.com/contributte/monolog/releases/tag/v0.4.0",
+        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/monolog/compare/v0.3.0...v0.4.0\"><tt>v0.3.0...v0.4.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Monolog 2.0 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/monolog/commit/c5a41c05982f0ea8edfd0f14b02d281930071015/hovercard\" href=\"https://github.com/contributte/monolog/commit/c5a41c05982f0ea8edfd0f14b02d281930071015\"><tt>c5a41c0</tt></a></li>\n<li>Flexible services syntax <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/monolog/commit/7790027c25e1aafc9551ad0959b3cfcaca9c9d1f/hovercard\" href=\"https://github.com/contributte/monolog/commit/7790027c25e1aafc9551ad0959b3cfcaca9c9d1f\"><tt>7790027</tt></a></li>\n</ul>"
       }
     },
     "stars": 10,
@@ -2396,12 +2396,12 @@
       "last": {
         "org": "contributte",
         "repo": "anabelle",
-        "tag": "v1.6.0",
-        "name": "v1.6.0",
-        "created_at": "2019-03-08T14:58:29Z",
-        "published_at": "2019-03-08T14:59:48Z",
-        "html_url": "https://github.com/contributte/anabelle/releases/tag/v1.6.0",
-        "body": "<p>Features</p>\n<ul>\n<li>When key \"F\" is pressed, focus to search input</li>\n</ul>"
+        "tag": "v2.0.1",
+        "name": "v2.0.1",
+        "created_at": "2019-09-10T14:00:18Z",
+        "published_at": "2019-09-10T14:00:56Z",
+        "html_url": "https://github.com/contributte/anabelle/releases/tag/v2.0.1",
+        "body": ""
       }
     },
     "stars": 14,
@@ -2590,12 +2590,12 @@
       "last": {
         "org": "contributte",
         "repo": "api-router",
-        "tag": "v2.0.3",
-        "name": "v2.0.3",
-        "created_at": "2018-03-12T10:47:57Z",
-        "published_at": "2018-03-12T10:48:51Z",
-        "html_url": "https://github.com/contributte/api-router/releases/tag/v2.0.3",
-        "body": "<ul>\n<li>Allow ApiRouteSpec::$description to be null</li>\n</ul>"
+        "tag": "v3.0.0",
+        "name": "",
+        "created_at": "2019-08-11T19:16:04Z",
+        "published_at": "2019-09-11T14:33:35Z",
+        "html_url": "https://github.com/contributte/api-router/releases/tag/v3.0.0",
+        "body": "<p>BC Breaks:</p>\n<ul>\n<li>nette 3</li>\n</ul>"
       }
     },
     "stars": 11,
@@ -2865,12 +2865,12 @@
       "last": {
         "org": "ninjify",
         "repo": "qa",
-        "tag": "v0.9",
-        "name": "v0.9",
-        "created_at": "2019-02-24T11:31:23Z",
-        "published_at": "2019-02-24T20:20:06Z",
-        "html_url": "https://github.com/ninjify/qa/releases/tag/v0.9",
-        "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"medal_sports\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f3c5.png\">🏅</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/ninjify/qa/compare/0.8...v0.9\"><tt>0.8...v0.9</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>ninjify/coding-standard v0.8</li>\n</ul>"
+        "tag": "v0.10",
+        "name": "v0.10",
+        "created_at": "2019-09-12T19:29:49Z",
+        "published_at": "2019-09-12T19:31:55Z",
+        "html_url": "https://github.com/ninjify/qa/releases/tag/v0.10",
+        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/ninjify/qa/compare/v0.9...v0.10\"><tt>v0.9...v0.10</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>ninjify/coding-standard v0.9 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/ninjify/qa/commit/a2d521958a9bb38d894f94cbd8e3718cf6e02971/hovercard\" href=\"https://github.com/ninjify/qa/commit/a2d521958a9bb38d894f94cbd8e3718cf6e02971\"><tt>a2d5219</tt></a></li>\n</ul>"
       }
     },
     "stars": 7,
@@ -2898,12 +2898,12 @@
       "last": {
         "org": "ninjify",
         "repo": "nunjuck",
-        "tag": "v0.2.1",
-        "name": "v0.2.1",
-        "created_at": "2018-11-20T07:01:00Z",
-        "published_at": "2018-11-20T07:02:05Z",
-        "html_url": "https://github.com/ninjify/nunjuck/releases/tag/v0.2.1",
-        "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"fearful\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f628.png\">😨</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/ninjify/nunjuck/compare/v0.2...v0.2.1\"><tt>v0.2...v0.2.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>require PHP &gt;= 7.1 [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"381646531\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/ninjify/nunjuck/issues/4\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/ninjify/nunjuck/pull/4/hovercard\" href=\"https://github.com/ninjify/nunjuck/pull/4\">#4</a>]</li>\n<li>use nette/tester 2.1.0 [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"381646531\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/ninjify/nunjuck/issues/4\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/ninjify/nunjuck/pull/4/hovercard\" href=\"https://github.com/ninjify/nunjuck/pull/4\">#4</a>]</li>\n<li>fix robot loader [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"381144930\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/ninjify/nunjuck/issues/3\" data-hovercard-type=\"issue\" data-hovercard-url=\"/ninjify/nunjuck/issues/3/hovercard\" href=\"https://github.com/ninjify/nunjuck/issues/3\">#3</a>]</li>\n<li>better CI [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"381646531\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/ninjify/nunjuck/issues/4\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/ninjify/nunjuck/pull/4/hovercard\" href=\"https://github.com/ninjify/nunjuck/pull/4\">#4</a>]</li>\n</ul>"
+        "tag": "v0.3.0",
+        "name": "v0.3.0",
+        "created_at": "2019-10-02T10:58:18Z",
+        "published_at": "2019-10-08T14:20:17Z",
+        "html_url": "https://github.com/ninjify/nunjuck/releases/tag/v0.3.0",
+        "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"boy\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f466.png\">👦</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/ninjify/nunjuck/compare/v0.2.1...v0.3.0\"><tt>v0.2.1...v0.3.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Upgrade nette/tester to 2.3.0</li>\n<li>Codestyle</li>\n<li>Tune readme</li>\n</ul>"
       }
     },
     "stars": 3,

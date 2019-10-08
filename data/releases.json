@@ -5138,5 +5138,155 @@
     "published_at": "2019-08-24T15:41:56Z",
     "html_url": "https://github.com/contributte/gosms/releases/tag/v0.2",
     "body": "<p>Yeah! <g-emoji class=\"g-emoji\" alias=\"+1\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png\">👍</g-emoji></p>\n<p>Diff: <a href=\"https://github.com/contributte/gosms/compare/v0.1...v0.2\">v0.1...v0.2</a></p>\n<p>Changes:</p>\n<ul>\n<li>support Nette 3</li>\n<li>drop session and introduce saving access tokens to cache</li>\n</ul>"
+  },
+  "19775741": {
+    "org": "contributte",
+    "repo": "redis",
+    "tag": "v0.1.1",
+    "name": "v0.1.1",
+    "created_at": "2019-02-25T12:55:06Z",
+    "published_at": "2019-09-05T11:12:05Z",
+    "html_url": "https://github.com/contributte/redis/releases/tag/v0.1.1",
+    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/redis/compare/v0.1...v0.1.1\"><tt>v0.1...v0.1.1</tt></a> (not working, github don't like tagging specific commits, sry)</p>\n<p>Changes:</p>\n<ul>\n<li>Fixed session handler <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/redis/commit/007ac14cc226e9c4a76cc985e70cf200f1ae6680/hovercard\" href=\"https://github.com/contributte/redis/commit/007ac14cc226e9c4a76cc985e70cf200f1ae6680\"><tt>007ac14</tt></a></li>\n<li>Fixed complex configuration rendering in Tracy <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/redis/commit/3ea6da90109f433b25f61e229a1ad5766c0090e2/hovercard\" href=\"https://github.com/contributte/redis/commit/3ea6da90109f433b25f61e229a1ad5766c0090e2\"><tt>3ea6da9</tt></a></li>\n<li>Tracy 2.6 allowed <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/redis/commit/f4815a04396e9239778ebed08ac4e9d6952d62f3/hovercard\" href=\"https://github.com/contributte/redis/commit/f4815a04396e9239778ebed08ac4e9d6952d62f3\"><tt>f4815a0</tt></a></li>\n</ul>"
+  },
+  "19846963": {
+    "org": "contributte",
+    "repo": "anabelle",
+    "tag": "v2.0.0",
+    "name": "v2.0.0",
+    "created_at": "2019-09-09T10:50:09Z",
+    "published_at": "2019-09-09T10:50:37Z",
+    "html_url": "https://github.com/contributte/anabelle/releases/tag/v2.0.0",
+    "body": "<ul>\n<li>Nette 3.0</li>\n</ul>"
+  },
+  "19882330": {
+    "org": "contributte",
+    "repo": "anabelle",
+    "tag": "v2.0.1",
+    "name": "v2.0.1",
+    "created_at": "2019-09-10T14:00:18Z",
+    "published_at": "2019-09-10T14:00:56Z",
+    "html_url": "https://github.com/contributte/anabelle/releases/tag/v2.0.1",
+    "body": ""
+  },
+  "19914223": {
+    "org": "contributte",
+    "repo": "api-router",
+    "tag": "v3.0.0",
+    "name": "",
+    "created_at": "2019-08-11T19:16:04Z",
+    "published_at": "2019-09-11T14:33:35Z",
+    "html_url": "https://github.com/contributte/api-router/releases/tag/v3.0.0",
+    "body": "<p>BC Breaks:</p>\n<ul>\n<li>nette 3</li>\n</ul>"
+  },
+  "19914976": {
+    "org": "contributte",
+    "repo": "datagrid-elasticsearch-data-source",
+    "tag": "v2.0.0",
+    "name": "v2.0.0",
+    "created_at": "2019-09-11T14:54:05Z",
+    "published_at": "2019-09-11T14:54:47Z",
+    "html_url": "https://github.com/contributte/datagrid-elasticsearch-data-source/releases/tag/v2.0.0",
+    "body": "<p>BC Breaks:</p>\n<ul>\n<li>Nette 3.0</li>\n</ul>"
+  },
+  "19954023": {
+    "org": "contributte",
+    "repo": "mailing",
+    "tag": "v0.3.1",
+    "name": "v0.3.1",
+    "created_at": "2019-09-09T18:31:33Z",
+    "published_at": "2019-09-12T19:20:37Z",
+    "html_url": "https://github.com/contributte/mailing/releases/tag/v0.3.1",
+    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/mailing/compare/v0.3.0...v0.3.1\"><tt>v0.3.0...v0.3.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow nette/mail 3.1 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/mailing/commit/dee59f7504820d53bbd04c5f6b3310976bc19635/hovercard\" href=\"https://github.com/contributte/mailing/commit/dee59f7504820d53bbd04c5f6b3310976bc19635\"><tt>dee59f7</tt></a></li>\n</ul>"
+  },
+  "19954262": {
+    "org": "ninjify",
+    "repo": "qa",
+    "tag": "v0.10",
+    "name": "v0.10",
+    "created_at": "2019-09-12T19:29:49Z",
+    "published_at": "2019-09-12T19:31:55Z",
+    "html_url": "https://github.com/ninjify/qa/releases/tag/v0.10",
+    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/ninjify/qa/compare/v0.9...v0.10\"><tt>v0.9...v0.10</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>ninjify/coding-standard v0.9 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/ninjify/qa/commit/a2d521958a9bb38d894f94cbd8e3718cf6e02971/hovercard\" href=\"https://github.com/ninjify/qa/commit/a2d521958a9bb38d894f94cbd8e3718cf6e02971\"><tt>a2d5219</tt></a></li>\n</ul>"
+  },
+  "20060827": {
+    "org": "nettrine",
+    "repo": "extensions",
+    "tag": "v0.3.1",
+    "name": "v0.3.1",
+    "created_at": "2018-08-30T06:35:33Z",
+    "published_at": "2019-09-17T21:18:56Z",
+    "html_url": "https://github.com/nettrine/extensions/releases/tag/v0.3.1",
+    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/extensions/compare/v0.3...v0.3.1\"><tt>v0.3...v0.3.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Register services as listeners <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/extensions/commit/f5e9b57126c4758dd2a665d221344dfbda9325fb/hovercard\" href=\"https://github.com/nettrine/extensions/commit/f5e9b57126c4758dd2a665d221344dfbda9325fb\"><tt>f5e9b57</tt></a></li>\n</ul>"
+  },
+  "20060856": {
+    "org": "nettrine",
+    "repo": "extensions",
+    "tag": "v0.4.0",
+    "name": "v0.4.0",
+    "created_at": "2019-09-17T21:14:25Z",
+    "published_at": "2019-09-17T21:20:18Z",
+    "html_url": "https://github.com/nettrine/extensions/releases/tag/v0.4.0",
+    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/extensions/compare/v0.3.1...v0.4.0\"><tt>v0.3.1...v0.4.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/extensions/commit/2b37e1264f78338a0b67f835b5208540020b4dd3/hovercard\" href=\"https://github.com/nettrine/extensions/commit/2b37e1264f78338a0b67f835b5208540020b4dd3\"><tt>2b37e12</tt></a></li>\n<li>Translatable language must be explicitly set, removed defaults <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/extensions/commit/434c725b76c1b7f1ba9ff4ccdf3ea78d05f6d048/hovercard\" href=\"https://github.com/nettrine/extensions/commit/434c725b76c1b7f1ba9ff4ccdf3ea78d05f6d048\"><tt>434c725</tt></a></li>\n</ul>"
+  },
+  "20121853": {
+    "org": "contributte",
+    "repo": "monolog",
+    "tag": "v0.4.0",
+    "name": "v0.4.0",
+    "created_at": "2019-09-19T18:42:05Z",
+    "published_at": "2019-09-19T20:34:59Z",
+    "html_url": "https://github.com/contributte/monolog/releases/tag/v0.4.0",
+    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/monolog/compare/v0.3.0...v0.4.0\"><tt>v0.3.0...v0.4.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Monolog 2.0 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/monolog/commit/c5a41c05982f0ea8edfd0f14b02d281930071015/hovercard\" href=\"https://github.com/contributte/monolog/commit/c5a41c05982f0ea8edfd0f14b02d281930071015\"><tt>c5a41c0</tt></a></li>\n<li>Flexible services syntax <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/monolog/commit/7790027c25e1aafc9551ad0959b3cfcaca9c9d1f/hovercard\" href=\"https://github.com/contributte/monolog/commit/7790027c25e1aafc9551ad0959b3cfcaca9c9d1f\"><tt>7790027</tt></a></li>\n</ul>"
+  },
+  "20204706": {
+    "org": "contributte",
+    "repo": "utils",
+    "tag": "v0.4.1",
+    "name": "v0.4.1",
+    "created_at": "2019-09-24T08:56:38Z",
+    "published_at": "2019-09-24T09:11:32Z",
+    "html_url": "https://github.com/contributte/utils/releases/tag/v0.4.1",
+    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/utils/compare/v0.4.0...v0.4.1\"><tt>v0.4.0...v0.4.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Improved DateTime typehints <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/utils/commit/ec703d393048dd54c684dc6997c4ffdd8f09f0f4/hovercard\" href=\"https://github.com/contributte/utils/commit/ec703d393048dd54c684dc6997c4ffdd8f09f0f4\"><tt>ec703d3</tt></a> and <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/utils/commit/a231f8be9e08c179e72b44085ef832df379c8e6d/hovercard\" href=\"https://github.com/contributte/utils/commit/a231f8be9e08c179e72b44085ef832df379c8e6d\"><tt>a231f8b</tt></a></li>\n</ul>"
+  },
+  "20272926": {
+    "org": "contributte",
+    "repo": "psr7-http-message",
+    "tag": "v0.6.1",
+    "name": "v0.6.1",
+    "created_at": "2019-09-26T10:44:38Z",
+    "published_at": "2019-09-26T10:46:49Z",
+    "html_url": "https://github.com/contributte/psr7-http-message/releases/tag/v0.6.1",
+    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/psr7-http-message/compare/v0.6.0...v0.6.1\"><tt>v0.6.0...v0.6.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Methods working with json use Nette\\Utils\\Json to properly handle edge-cases <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/psr7-http-message/commit/345b1ac1a96718da0796b5b6ec22bb7aba47cc31/hovercard\" href=\"https://github.com/contributte/psr7-http-message/commit/345b1ac1a96718da0796b5b6ec22bb7aba47cc31\"><tt>345b1ac</tt></a></li>\n</ul>"
+  },
+  "20549184": {
+    "org": "contributte",
+    "repo": "redis",
+    "tag": "v0.2.2",
+    "name": "v0.2.2",
+    "created_at": "2019-10-08T14:07:05Z",
+    "published_at": "2019-10-08T14:11:25Z",
+    "html_url": "https://github.com/contributte/redis/releases/tag/v0.2.2",
+    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/redis/compare/v0.2.1...v0.2.2\"><tt>v0.2.1...v0.2.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Upgrade dependencies</li>\n<li>Move tracy to require-dev</li>\n</ul>"
+  },
+  "20549462": {
+    "org": "contributte",
+    "repo": "tracy",
+    "tag": "v0.4.1",
+    "name": "v0.4.1",
+    "created_at": "2019-10-08T14:13:20Z",
+    "published_at": "2019-10-08T14:18:38Z",
+    "html_url": "https://github.com/contributte/tracy/releases/tag/v0.4.1",
+    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/tracy/compare/v0.4.0...v0.4.1\"><tt>v0.4.0...v0.4.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Upgrade dependencies</li>\n</ul>"
+  },
+  "20549518": {
+    "org": "ninjify",
+    "repo": "nunjuck",
+    "tag": "v0.3.0",
+    "name": "v0.3.0",
+    "created_at": "2019-10-02T10:58:18Z",
+    "published_at": "2019-10-08T14:20:17Z",
+    "html_url": "https://github.com/ninjify/nunjuck/releases/tag/v0.3.0",
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"boy\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f466.png\">👦</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/ninjify/nunjuck/compare/v0.2.1...v0.3.0\"><tt>v0.2.1...v0.3.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Upgrade nette/tester to 2.3.0</li>\n<li>Codestyle</li>\n<li>Tune readme</li>\n</ul>"
   }
 }

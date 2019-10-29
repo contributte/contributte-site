@@ -1,4 +1,4 @@
-# Introduction
+# Packages
 
 Contributte organization is focucing on these main parts:
 
@@ -9,11 +9,11 @@ Contributte organization is focucing on these main parts:
 - easily integrate Symfony components
 - integrate other cool PHP packages
 
-# Example
+## Example
 
 Do you looking for some examples? Take a look at [examples](/packages/planette/playground.html) 
 page or [planette](https://github.com/planette) organization on Github.
 
-# Our Packages
+## Our Packages
 
 <AllPackages/>

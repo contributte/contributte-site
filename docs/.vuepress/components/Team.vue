@@ -1,26 +1,15 @@
 <template>
-  <div>
+  <div class="flex justify-center flex-wrap my-12">
     <div v-for="member of team">
-      <div class="max-w-sm rounded overflow-hidden shadow-lg">
-        <img class="w-full" :src="member.avatar" alt="Sunset in the mountains" />
-        <div class="px-6 py-4">
-          <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-          <p
-            class="text-gray-700 text-base"
-          >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+      <a
+        class="block max-w-sm rounded overflow-hidden shadow-lg m-2"
+        :href="'https://github.com/'+member.username"
+      >
+        <img class="w-32 m-auto" :src="member.avatar" alt="Sunset in the mountains" />
+        <div class="px-6 py-4 text-center">
+          <div class="font-bold">{{member.username}}</div>
         </div>
-        <div class="px-6 py-4">
-          <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
-          >#photography</span>
-          <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
-          >#travel</span>
-          <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700"
-          >#winter</span>
-        </div>
-      </div>
+      </a>
     </div>
   </div>
 </template>
@@ -30,11 +19,8 @@ import team from "../../../data/team";
 
 export default {
   data: () => ({
-    team
-  }),
-  mounted() {
-    console.log(this.team);
-  }
+    team: team.sort()
+  })
 };
 </script>
 

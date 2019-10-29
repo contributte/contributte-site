@@ -2,8 +2,9 @@
 layout: HighLayout
 ---
 
-# About
-
-We are group of opensource enthusiasts and together we are building huge ecosystem around [Nette Framework](https://nette.org).
+<div class="text-center">
+  <h1>About</h1>
+  We are group of opensource enthusiasts and together we are building huge ecosystem around <a href="https://nette.org">Nette Framework</a>.
+</div>
 
 <Team/>

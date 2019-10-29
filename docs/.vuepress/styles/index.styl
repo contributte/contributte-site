@@ -1,12 +1,183 @@
-@require "layout/_layout"
-@require "layout/_homepage"
-@require "layout/_footer"
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@require "components/_badge"
-@require "components/_blab"
-@require "components/_btn"
-@require "components/_explanation"
-@require "components/_release"
+h1,h2,h3,h4,h5,h6
+  border-bottom: 0
 
-@require "utils/_utility"
-@require "utils/_media"
+.theme-container.page-wide
+  .content
+    max-width: 980px
+
+.sidebar-heading
+  margin-top: 0 !important
+
+.page-edit
+  margin: 0 !important
+  padding: 0 !important
+
+.layout-layout, .layout-postlayout
+  h1
+    @apply text-3xl font-bold
+  h2
+    @apply text-2xl font-bold
+  h3
+    @apply text-xl font-bold
+  h4
+    @apply text-lg font-bold
+  h5
+    @apply text-base font-bold
+  h6
+    @apply text-base font-normal
+
+  a
+    color: $accentColor
+
+  ul, ol, p
+    margin-top: 1.5rem
+
+  ul ul, ul ol, ol ul, ol ol
+    margin-top: 0
+
+  p
+    line-height: 1.5rem
+
+  ul
+    list-style-type: square
+    padding-left: 1.5rem
+
+  hr
+    margin: 2rem 0
+
+.layout-herolayout
+  h1
+    @apply text-5xl font-bold
+  h2
+    @apply text-3xl font-semibold
+  h3
+    @apply text-2xl font-semibold
+  h4
+    @apply text-xl font-semibold
+  h5
+    @apply text-lg font-semibold
+  h6
+    @apply text-base font-semibold
+
+.layout-highlayout
+  h1
+    @apply text-3xl font-bold
+  h2
+    @apply text-2xl font-semibold
+  h3
+    @apply text-xl font-semibold
+  h4
+    @apply text-lg font-semibold
+  h5
+    @apply text-base font-semibold
+  h6
+    @apply text-base font-normal
+
+.explanation
+  background: #ff251b1a;
+  border: 10px solid #fff;
+  padding: 1rem 2rem;
+  position: relative;
+  border-radius: 5px;
+
+  .show
+    float: right
+
+  &::before
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: -7px;
+    right: -7px;
+    bottom: -7px;
+    border: 1px solid #ff261b;
+    border-radius: 5px;
+    pointer-events: none;
+
+  &::after
+    content: "Hey!";
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    top: -14px;
+    left: 1rem;
+    background: #100e17;
+    padding: 0 .5rem;
+    font-size: .6rem;
+    position: absolute;
+    z-index: 1;
+
+.explanation--hotness
+  &::after
+    content: "Hotness!"
+
+.explanation--package
+  background: #3765afcc;
+  &::before
+    border: 1px solid $accentColor
+  &::after
+    content: "Package!"
+  a,a:hover
+    color: #fff
+
+.releases
+  .release-notes
+    a,a:hover
+      text-decoration: none !important
+      border-bottom: 1px dotted
+
+    a[data-hovercard-type=commit]
+      &:before
+        content: '#'
+
+    p
+      line-height: 1.2rem
+
+    ul
+      list-style-type: square
+      padding-left: 1.8rem
+      line-height: 1.5rem
+
+.gbuttons
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap;
+  list-style: none
+  list-style-type: none !important
+  margin: 0
+  padding: 0 !important
+
+  .button-group
+    display: inline-flex
+    flex-direction: row
+    font-size: 0.8rem
+    margin: 0.1rem
+    list-style-type: none
+    .button-label
+      background-color: #eff3f6
+      background-image: linear-gradient(-180deg,#fafbfc,#eff3f6 90%)
+      color: #24292e
+      border: 1px solid rgba(27,31,35,.2)
+      border-bottom-left-radius: 3px
+      border-top-left-radius: 3px
+      padding: 3px 10px
+      vertical-align: middle
+    .button-value
+      background-color: #fff
+      border: 1px solid rgba(27,31,35,.2)
+      border-left: 0
+      border-bottom-right-radius: 3px
+      border-top-right-radius: 3px
+      color: #24292e
+      font-weight: 600
+      padding: 3px 10px
+      vertical-align: middle
+    a
+      color: #000
+      &:hover
+        color: #3c6fc0
+        text-decoration: none

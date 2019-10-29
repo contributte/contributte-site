@@ -1,38 +1,30 @@
 <template>
-  <div class="cfooter">
-    <div class="inner">
-      <div class="d-flex">
-        <div class="highlight">
-          There are more links to follow...
-        </div>
-      </div>
-      <div class="d-flex navigation">
-        <div class="box-6">
+  <div id="footer" class="px-12 text-gray-700">
+    <div class="max-w-wrapper m-auto pt-12 border-t-2 border-gray-400 border-dashed">
+      <div class="flex flex-wrap">
+        <div class="flex-1 px-4 pb-6">
           <ul>
             <li>
               <a href="https://communitte.com/">
-                <strong>Communite</strong>
+                <strong>Contributte</strong>
               </a>
             </li>
             <li>
-              <a href="https://communitte.com/calendar">Calendar</a>
+              <a href="/examples/">Examples</a>
             </li>
             <li>
-              <a href="https://communitte.com/magazine">Magazine</a>
+              <a href="/releases/">Releases</a>
             </li>
             <li>
-              <a href="https://communitte.com/shop">Shop</a>
-            </li>
-            <li>
-              <a href="https://communitte.com/code">Code</a>
+              <a href="/about.html">Team</a>
             </li>
           </ul>
         </div>
-        <div class="box-6">
+        <div class="flex-1 px-4 pb-6">
           <ul>
             <li>
               <a href="https://contributte.org/">
-                <strong>Contributte</strong>
+                <strong>Organizations</strong>
               </a>
             </li>
             <li>
@@ -48,11 +40,11 @@
               <a href="https://contributte.org/ninjify">Ninjify</a>
             </li>
             <li>
-              <a href="https://contributte.org/about.html">Team</a>
+              <a href="https://github.com/dockette">Dockette</a>
             </li>
           </ul>
         </div>
-        <div class="box-6">
+        <div class="flex-1 px-4 pb-6">
           <ul>
             <li>
               <a href="https://planette.io/">
@@ -73,7 +65,7 @@
             </li>
           </ul>
         </div>
-        <div class="box-6">
+        <div class="flex-1 px-4 pb-6">
           <ul>
             <li>
               <a href="https://componette.com/">
@@ -94,7 +86,7 @@
             </li>
           </ul>
         </div>
-        <div class="box-6">
+        <div class="flex-1 px-4 pb-6">
           <ul>
             <li>
               <a href="https://communitte.com/events">
@@ -112,7 +104,7 @@
             </li>
           </ul>
         </div>
-        <div class="box-6">
+        <div class="flex-1 px-4 pb-6">
           <ul>
             <li>
               <a href="https://nette.org/">
@@ -133,53 +125,6 @@
             </li>
           </ul>
         </div>
-      </div>
-      <!-- <div class="row">
-        <div class="column text-center b-footer__social">
-          <a class="b-footer__social-icon" href="https://www.facebook.com/nettefw" target="_blank">
-            <img src="/img/social/Facebook_black.svg" alt="facebook">
-          </a>
-          <a class="b-footer__social-icon" href="https://www.github.com/planette" target="_blank">
-            <img src="/img/social/Github_black.svg" alt="github">
-          </a>
-          <a
-            class="b-footer__social-icon"
-            href="https://www.instagram.com/communitte"
-            target="_blank"
-          >
-            <img src="/img/social/Instagram_black.svg" alt="instagram">
-          </a>
-          <a
-            class="b-footer__social-icon"
-            href="https://www.twitter.com/c0mmun1tte"
-            target="_blank"
-          >
-            <img src="/img/social/Twitter_black.svg" alt="twitter">
-          </a>
-          <a
-            class="b-footer__social-icon"
-            href="https://www.figma.com/file/KPYVAQvf54i7iTsHBz2jXgxy/communitte.com-website?node-id=0%3A1"
-            target="_blank"
-          >
-            <img src="/img/social/Figma_black.svg" alt="figma">
-          </a>
-          <a
-            class="b-footer__social-icon"
-            href="https://pehapkari.slack.com/messages/C2R30BLKA"
-            target="_blank"
-          >
-            <img src="/img/social/Slack_black.svg" alt="slack">
-          </a>
-          <a class="b-footer__social-icon" href="https://t.me/nettefw" target="_blank">
-            <img src="/img/social/Telegram_black.svg" alt="telegram">
-          </a>
-          <a class="b-footer__social-icon" href="https://trello.com/communitte" target="_blank">
-            <img src="/img/social/Trello_black.svg" alt="trello">
-          </a>
-        </div>
-      </div>-->
-      <div>
-        <p class="copy">© 2019 – made with :love: in Czech Republic</p>
       </div>
     </div>
   </div>

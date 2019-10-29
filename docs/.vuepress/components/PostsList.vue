@@ -1,6 +1,6 @@
 <template>
-  <div class="blabs" v-if="posts.length">
-    <div class="blab" v-for="post in posts">
+  <div class="blabs " v-if="posts.length">
+    <div v-for="post in posts" class="mt-1">
       📆
       <router-link :to="post.path" class="blab-link">
         {{post.frontmatter.date|date}} - {{post.frontmatter.title}}

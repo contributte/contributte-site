@@ -1,25 +1,21 @@
 ---
-layout: HighLayout
+layout: HeroLayout
 metaTitle: Ninjify - PHP nunchucks for you coding dojo
 meta:
   - name: keywords
     content: php, nette, nette framework, ninjify, code style, quality assurance, code sniffer
 ---
 
-<div class="homepage">
-  <header class="hero">
-    <h1>
-      Ninjify<br>
-      <img src="/ninjify.png" alt="Ninjify" title="Ninjify logo" width="150">
-    </h1>
-    <p class="description">
-      Ninjify - PHP nunchucks for you coding dojo
-    </p>
-    <p class="action">
-      <a href="https://github.com/ninjify/" class="nav-link action-button">Get Started →</a>
-    </p>
-  </header>
-</div>
+<header class="text-center">
+  <h1>Ninjify</h1>
+  <img class="m-auto" src="/ninjify.png" alt="Ninjify" title="Ninjify logo" width="150">
+  <p class="text-2xl text-gray-600">
+    Ninjify - PHP nunchucks for you coding dojo
+  </p>
+    <p class="mt-6">
+    <a href="[/packages/apitte/core.html](https://github.com/ninjify/)" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Get Started →</a>
+  </p>
+</header>
 
 ## Installation
 

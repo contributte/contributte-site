@@ -1,21 +1,20 @@
 <template>
-  <div>
-    <Layout>
-      <template #page-bottom>
-        <footer class="blab-footer">
-          <hr />
-          <div class="mt-3 d-flex flex-rows">
-            <div class="text-left flex-grow-1">
-              By <a :href="'https://github.com/' + post.frontmatter.author">@{{post.frontmatter.author}}</a>
-            </div>
-            <div class="text-right flex-grow-1">
-              📆 {{post.frontmatter.date|date}}
-            </div>
+  <Layout>
+    <template #page-bottom>
+      <footer class="max-w-wrapper-sm m-auto">
+        <hr />
+        <div class="mt-3 flex">
+          <div class="text-left flex-1">
+            By
+            <a
+              :href="'https://github.com/' + post.frontmatter.author"
+            >@{{post.frontmatter.author}}</a>
           </div>
-        </footer>
-      </template>
-    </Layout>
-  </div>
+          <div class="text-right flex-1">📆 {{post.frontmatter.date|date}}</div>
+        </div>
+      </footer>
+    </template>
+  </Layout>
 </template>
 
 <script>
@@ -34,7 +33,7 @@ export default {
   filters: {
     date(s) {
       return dayjs(s).format("DD/MM/YYYY");
-    },
+    }
   }
 };
 </script>

@@ -1,6 +1,6 @@
 <template>
   <div id="global-layout">
-    <component :is="layout"/>
+    <component :is="layout" :class="'layout-'+layout.toLowerCase()"/>
   </div>
 </template>
 

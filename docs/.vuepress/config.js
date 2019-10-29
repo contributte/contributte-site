@@ -32,6 +32,12 @@ module.exports = {
   markdown: {
     lineNumbers: true
   },
+  postcss: {
+    plugins: [
+      require("autoprefixer"),
+      require("tailwindcss")("./tailwind.config.js")
+    ]
+  },
   plugins: [
     [
       "@vuepress/google-analytics",

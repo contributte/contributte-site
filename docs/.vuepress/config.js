@@ -2,7 +2,7 @@ const { buildSidebar } = require("./utils/buildSidebar");
 
 module.exports = {
   title: "Contributte",
-  description: "First class extensions, addons and plugins for Nette Framework. Planty of examples and tricks for Nette.",
+  description: "First class extensions, addons and plugins for Nette Framework. Plenty of examples and tricks for Nette.",
   themeConfig: {
     docsDir: "docs",
     docsBranch: "master",

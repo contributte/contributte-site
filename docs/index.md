@@ -9,17 +9,25 @@ meta:
 ---
 
 <header class="text-center">
-  <h1>Contributte</h1>
-  <img src="/contributte.png" class="m-auto" alt="Contributte" title="Contributte logo" width="150">
-  <p class="text-2xl text-gray-600">
+  <h1 class="hidden">Contributte</h1>
+  <div class="flex mt-6">
+    <div class="flex-1">
+      <img src="/contributte.png" class="m-auto" alt="Contributte" title="Contributte logo" width="150">
+    </div>
+    <div class="flex-1 flex flex-col leading-tight">
+      <span class="text-8xl">80+</span>
+      <span class="text-gray-600 text-base font-bold">packages and counting...</span>
+    </div>
+  </div>
+  <p class="text-2xl text-gray-600 mt-6">
     First class extensions for Nette Framework. 
     Contributte is a group of developers bound together that care about code quality.
   </p>
-  <p class="mt-6">
-    <a href="/releases/" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Latest Releases</a>
-    <a href="/packages/" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Packages →</a>
-    <a href="/examples/" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Examples</a>
-  </p>
+  <div class="mt-6">
+      <a href="/releases/" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Latest Releases</a>
+      <a href="/packages/" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Packages →</a>
+      <a href="/examples/" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Examples</a>
+  </div>
 </header>
 
 <div class="mt-12">

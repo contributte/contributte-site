@@ -4,7 +4,6 @@ module.exports = {
   title: "Contributte",
   description: "First class extensions, addons and plugins for Nette Framework. Planty of examples and tricks for Nette.",
   themeConfig: {
-    repo: "contributte/website",
     docsDir: "docs",
     docsBranch: "master",
     editLinks: false,
@@ -19,10 +18,7 @@ module.exports = {
       { text: "Packages", link: "/packages/" },
       { text: "Releases", link: "/releases/" },
       { text: "Examples", link: "/examples/" },
-      {
-        text: "Chat",
-        link: "https://gitter.im/contributte/contributte"
-      },
+      { text: "Partners", link: "/partners" },
       { text: "About", link: "/about" }
     ],
     lastUpdated: false,

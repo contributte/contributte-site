@@ -19,7 +19,7 @@ import team from "../../../data/team";
 
 export default {
   data: () => ({
-    team: team.sort()
+    team
   })
 };
 </script>

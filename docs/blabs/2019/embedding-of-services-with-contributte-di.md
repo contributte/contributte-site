@@ -52,4 +52,4 @@ public function getConfigSchema(): Schema
 }
 ```
 
-<p class="explanation explanation--package mt-6"><a href="/packages/contributte/di.html">Try contributte/di package →</a></p>
+<Explanation class="mt-12" type="package"><a class="text-white" href="/packages/contributte/di.html">Try contributte/di package →</a></Explanation>

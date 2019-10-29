@@ -36,4 +36,4 @@ Update your composer.json right now.
 
 Feel free to report any feedback to us. 
 
-<p class="explanation explanation--package mt-6"><a href="/packages/apitte/core/">Try apitte/core package →</a></p>
+<Explanation class="mt-12" type="package"><a class="text-white" href="/packages/apitte/core/">Try apitte/core package →</a></Explanation>

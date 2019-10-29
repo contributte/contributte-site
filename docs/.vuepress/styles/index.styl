@@ -18,20 +18,20 @@ h1,h2,h3,h4,h5,h6
 
 .layout-layout, .layout-postlayout
   .page
-    h1
+    h1:not([class]), h1[class=""]
       @apply text-3xl font-bold
-    h2
+    h2:not([class]), h2[class=""]
       @apply text-2xl font-bold
-    h3
+    h3:not([class]), h3[class=""]
       @apply text-xl font-bold
-    h4
+    h4:not([class]), h4[class=""]
       @apply text-lg font-bold
-    h5
+    h5:not([class]), h5[class=""]
       @apply text-base font-bold
-    h6
+    h6:not([class]), h6[class=""]
       @apply text-base font-normal
 
-    a
+    a:not([class]), a[class=""]
       color: $accentColor
 
     ul, ol, p
@@ -40,96 +40,70 @@ h1,h2,h3,h4,h5,h6
     ul ul, ul ol, ol ul, ol ol
       margin-top: 0
 
-    p
+    p:not([class]), p[class=""]
       line-height: 1.5rem
 
-    ul
+    ul:not([class]), ul[class=""]
       list-style-type: square
       padding-left: 1.5rem
 
-    hr
+    hr:not([class]), hr[class=""]
       margin: 2rem 0
 
 .layout-herolayout
-  h1
+  h1:not([class]), h1[class=""]
     @apply text-5xl font-bold
-  h2
+  h2:not([class]), h2[class=""]
     @apply text-3xl font-semibold
-  h3
+  h3:not([class]), h3[class=""]
     @apply text-2xl font-semibold
-  h4
+  h4:not([class]), h4[class=""]
     @apply text-xl font-semibold
-  h5
+  h5:not([class]), h5[class=""]
     @apply text-lg font-semibold
-  h6
+  h6:not([class]), h6[class=""]
     @apply text-base font-semibold
 
 .layout-highlayout
-  h1
+  h1:not([class]), h1[class=""]
     @apply text-3xl font-bold
-  h2
+  h2:not([class]), h2[class=""]
     @apply text-2xl font-semibold
-  h3
+  h3:not([class]), h3[class=""]
     @apply text-xl font-semibold
-  h4
+  h4:not([class]), h4[class=""]
     @apply text-lg font-semibold
-  h5
+  h5:not([class]), h5[class=""]
     @apply text-base font-semibold
-  h6
+  h6:not([class]), h6[class=""]
     @apply text-base font-normal
 
 .explanation
-  background: #ff251b1a;
-  border: 10px solid #fff;
-  padding: 1rem 2rem;
-  position: relative;
-  border-radius: 5px;
-
-  .show
-    float: right
-
-  &::before
-    content: "";
-    position: absolute;
-    top: -7px;
-    left: -7px;
-    right: -7px;
-    bottom: -7px;
-    border: 1px solid #ff261b;
-    border-radius: 5px;
-    pointer-events: none;
-
   &::after
     content: "Hey!";
     text-transform: uppercase;
     color: #fff;
     font-weight: 700;
-    top: -14px;
+    top: -8px;
     left: 1rem;
     background: #100e17;
     padding: 0 .5rem;
     font-size: .6rem;
     position: absolute;
-    z-index: 1;
 
 .explanation--hotness
   &::after
     content: "Hotness!"
 
 .explanation--package
-  background: #3765afcc;
-  &::before
-    border: 1px solid $accentColor
   &::after
     content: "Package!"
-  a,a:hover
-    color: #fff
 
 .releases
   .release-notes
     a,a:hover
       text-decoration: none !important
-      border-bottom: 1px dotted
+      border-bottom: 1px solid
 
     a[data-hovercard-type=commit]
       &:before

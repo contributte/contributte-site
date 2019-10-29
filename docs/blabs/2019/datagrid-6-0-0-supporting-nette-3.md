@@ -24,4 +24,4 @@ Links:
 - Documentation: [https://contributte.org/packages/contributte/datagrid/](https://contributte.org/packages/contributte/datagrid/)
 - Demo: [https://examples.planette.io/contributte/datagrid/](https://examples.planette.io/contributte/datagrid/)
 
-<p class="explanation explanation--package mt-6"><a href="/packages/contributte/datagrid/">Try contributte/datagrid package →</a></p>
+<Explanation class="mt-12" type="package"><a class="text-white" href="/packages/contributte/datagrid/">Try contributte/datagrid package →</a></Explanation>

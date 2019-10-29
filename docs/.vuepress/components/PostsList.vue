@@ -2,7 +2,7 @@
   <div class="blabs " v-if="posts.length">
     <div v-for="post in posts" class="mt-1">
       📆
-      <router-link :to="post.path" class="blab-link">
+      <router-link :to="post.path">
         {{post.frontmatter.date|date}} - {{post.frontmatter.title}}
       </router-link>
     </div>

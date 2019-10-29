@@ -45,4 +45,4 @@ author: aleswita
   latte: {_helloWorld}
   ```
 
-<p class="explanation explanation--package mt-6"><a href="/packages/contributte/translation.html">Try contributte/translation package →</a></p>
+<Explanation class="mt-12" type="package"><a class="text-white" href="/packages/contributte/translation.html">Try contributte/translation package →</a></Explanation>

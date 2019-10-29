@@ -8,6 +8,12 @@ module.exports = {
       fontSize: {
         '7xl': '5rem',
         '8xl': '6rem',
+      },
+      borderWidth: {
+        '1': '1px',
+      },
+      screens: {
+        'xs': {'max': '639px'}
       }
     },
   },

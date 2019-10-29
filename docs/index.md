@@ -24,15 +24,18 @@ meta:
     Contributte is a group of developers bound together that care about code quality.
   </p>
   <div class="mt-6">
-      <a href="/releases/" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Latest Releases</a>
-      <a href="/packages/" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Packages →</a>
-      <a href="/examples/" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Examples</a>
+      <a href="/releases/" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-4 inline-block">Latest Releases</a>
+      <a href="/packages/" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-4 inline-block">Packages →</a>
+      <a href="/examples/" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-4 inline-block">Examples</a>
   </div>
 </header>
 
-<div class="mt-12">
+<div class="mt-8">
   <h2 class="text-center text-3xl">👨‍🚒 🔥 ‍🚒</h2>
-  <p class="explanation explanation--hotness">Apitte is fully Nette 3.0 ready. <a class="show" href="/blabs/2019/apitte-nette-3-0-ready.html">Show me hot →</a></p>
+  <Explanation type="hotness">
+    Apitte is fully Nette 3.0 ready.
+    <template #link><a href="/blabs/2019/apitte-nette-3-0-ready.html">Show me hot →</a></template>
+  </Explanation>
 </div>
 
 <div class="mt-12 flex flex-wrap">

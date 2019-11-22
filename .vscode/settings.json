@@ -1,4 +1,3 @@
 {
-    "prettier.printWidth": 150,
-    "prettier.tabWidth": 4
+  "html.format.wrapLineLength": 0
 }

@@ -16,6 +16,11 @@ export default {
       }
       return "NotFound";
     }
+  },
+  mounted() {
+    import("./../../utils/sw").then(() => {
+      console.log('ℹ️ ServiceWorker utils loading');
+    })
   }
 };
 </script>

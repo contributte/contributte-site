@@ -30,8 +30,8 @@ meta:
   </div>
 </header>
 
-<div class="flex my-12">
-  <div class="max-w-sm mx-auto bg-white shadow-lg rounded-lg overflow-hidden mx-4 my-2">
+<div class="flex my-12 justify-center">
+  <div class="max-w-sm bg-white shadow-lg rounded-lg overflow-hidden mx-4 my-2">
     <div class="sm:flex sm:items-center px-6 py-4">
       <img class="block mx-auto sm:mx-0 sm:flex-shrink-0 h-16" src="https://raw.githubusercontent.com/iamcal/emoji-data/master/img-apple-160/1f468-1f3fb-200d-1f4bb.png"/>
       <div class="mt-4 sm:mt-0 sm:ml-4 text-center sm:text-left">
@@ -45,7 +45,7 @@ meta:
     </div>
   </div>
 
-  <div class="max-w-sm mx-auto bg-white shadow-lg rounded-lg overflow-hidden mx-4 my-2">
+  <div class="max-w-sm bg-white shadow-lg rounded-lg overflow-hidden mx-4 my-2">
     <div class="sm:flex sm:items-center px-6 py-4">
       <img class="block mx-auto sm:mx-0 sm:flex-shrink-0 h-16" src="https://raw.githubusercontent.com/iamcal/emoji-data/master/img-apple-160/1f468-1f3fb-200d-1f4bc.png"/>
       <div class="mt-4 sm:mt-0 sm:ml-4 text-center sm:text-left">

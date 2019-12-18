@@ -18,6 +18,7 @@ module.exports = {
       { text: "Packages", link: "/packages/" },
       { text: "Releases", link: "/releases/" },
       { text: "Examples", link: "/examples/" },
+      { text: "Contributing", link: "/contributing" },
       { text: "Partners", link: "/partners" },
       { text: "About", link: "/about" }
     ],

@@ -27,7 +27,7 @@ meta:
     <div class="button-group">
       <div class="button-label">Stars</div>
       <div class="button-value">
-        <a href="https://github.com/planette/playground">9</a>
+        <a href="https://github.com/planette/playground">11</a>
       </div>
     </div>
   </li>
@@ -43,7 +43,7 @@ meta:
     <div class="button-group">
       <div class="button-label">Forks</div>
       <div class="button-value">
-        <a href="https://github.com/planette/playground">6</a>
+        <a href="https://github.com/planette/playground">8</a>
       </div>
     </div>
   </li>

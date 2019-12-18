@@ -78,6 +78,10 @@ h1,h2,h3,h4,h5,h6
   h6:not([class]), h6[class=""]
     @apply text-base font-normal
 
+@media screen and (min-width: 1280px)
+  .theme-default-content:not(.custom)
+    max-width: 1280px
+
 .explanation
   &::after
     content: "Hey!";

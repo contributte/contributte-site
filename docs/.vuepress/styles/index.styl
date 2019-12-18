@@ -7,7 +7,11 @@ h1,h2,h3,h4,h5,h6
 
 .theme-container.page-wide
   .content
-    max-width: 980px
+    max-width: $contentWidth
+
+.footer
+  max-width: $footerWidth
+  margin: 0 auto
 
 .sidebar-heading
   margin-top: 0 !important
@@ -77,10 +81,6 @@ h1,h2,h3,h4,h5,h6
     @apply text-base font-semibold
   h6:not([class]), h6[class=""]
     @apply text-base font-normal
-
-@media screen and (min-width: 1280px)
-  .theme-default-content:not(.custom)
-    max-width: 1280px
 
 .explanation
   &::after
@@ -160,3 +160,10 @@ h1,h2,h3,h4,h5,h6
       &:hover
         color: #3c6fc0
         text-decoration: none
+
+@media screen and (min-width: 1280px)
+  .theme-default-content:not(.custom)
+    max-width: $contentWidthXL
+
+  .footer
+    max-width: $footerWidthXL

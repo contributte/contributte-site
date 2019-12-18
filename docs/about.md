@@ -3,27 +3,26 @@ layout: HighLayout
 metaTitle: About Contributte
 ---
 
-<div class="text-center">
-  <h1>Team</h1>
-  <p>
-    We are group of opensource enthusiasts and together we are building huge ecosystem around <a href="https://nette.org">Nette Framework</a>.
-  </p>
-</div>
+<h1>Team</h1>
+
+<p>
+  We are group of opensource enthusiasts and together we are building huge ecosystem around <a href="https://nette.org">Nette Framework</a>.
+</p>
 
 <Team />
 
-<div class="text-center">
-  <h2>Join Us</h2>
+<h2>Join Us</h2>
 
-  <p>
-    Do you want to be part of the team? Are you opensource enthusiast? Do you have some idea to discuss?
-  </p>
+<ul class="my-8 list-disc list-inside">
+  <li>Do you want to be part of the team?</li>
+  <li>Are you opensource enthusiast?</li>
+  <li>Do you have some idea to discuss?</li>
+</ul>
 
-  <p>
-    <strong>We are looking for you.</strong>
-  </p>
+<p>
+  <strong>We are looking for you.</strong>
+</p>
 
-  <p>
-    Write an email to <a class="underline" href="milan@sulc.dev">milan@sulc.dev</a> and we will surely figure out something.
-  </p>
-</div>
+<p>
+  Write an email to <a class="underline" href="milan@sulc.dev">milan@sulc.dev</a> and we will surely figure out something.
+</p>

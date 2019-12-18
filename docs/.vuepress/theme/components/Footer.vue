@@ -1,6 +1,6 @@
 <template>
-  <div class="px-12 text-gray-700 text-md">
-    <div class="max-w-wrapper m-auto pt-12 border-t-2 border-gray-400 border-dashed">
+  <div class="footer text-gray-700 text-md xl:px-0 px-8">
+    <div class="m-auto pt-12 border-t-2 border-gray-400 border-dashed">
       <div class="flex flex-wrap">
         <div class="flex-1 px-4 pb-6">
           <ul>

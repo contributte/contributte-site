@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <template #page-bottom>
-      <footer class="max-w-wrapper-sm m-auto">
+      <footer class="m-auto">
         <hr />
         <div class="mt-3 flex">
           <div class="text-left flex-1">

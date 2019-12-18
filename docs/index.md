@@ -64,7 +64,7 @@ meta:
   <h2 class="text-center text-3xl">👨‍🚒 🔥 ‍🚒</h2>
   <Explanation type="hotness">
     Apitte is fully Nette 3.0 ready.
-    <template #link><a href="/blabs/2019/apitte-nette-3-0-ready.html">Show me hot →</a></template>
+    <template #link><a class="underline" href="/blabs/2019/apitte-nette-3-0-ready.html">Show me hot →</a></template>
   </Explanation>
 </div>
 
@@ -75,7 +75,7 @@ meta:
   </div>
   <div class="md:w-1/3 sm:w-100 px-4 pb-6">
     <h2 class="text-2xl font-medium">Consistent</h2>
-    <p>We are focusing on consitency across all packages from Contributte, <a href="/apitte/">Apitte</a>, <a href="/nettrine/">Nettrine</a> & <a href="/ninjify/">Ninjify</a>.</p>
+    <p>We are focusing on consitency across all packages from Contributte, <a class="underline" href="/apitte/">Apitte</a>, <a class="underline" href="/nettrine/">Nettrine</a> & <a class="underline" href="/ninjify/">Ninjify</a>.</p>
   </div>
   <div class="md:w-1/3 sm:w-100 px-4 pb-6">
     <h2 class="text-2xl font-medium">Community</h2>
@@ -83,14 +83,14 @@ meta:
   </div>
   <div class="md:w-1/3 sm:w-100 px-4 pb-6">
     <h2 class="text-2xl font-medium">API</h2>
-    <p>We provide full-featured API platform framework <a href="/apitte/">Apitte</a>. PSR-7 & middlewares included.</p>
+    <p>We provide full-featured API platform framework <a class="underline" href="/apitte/">Apitte</a>. PSR-7 & middlewares included.</p>
   </div>
   <div class="md:w-1/3 sm:w-100 px-4 pb-6">
     <h2 class="text-2xl font-medium">Doctrine</h2>
-    <p>Doctrine is well-known ORM booster your projects. Pwned it with <a href="/nettrine/">Nettrine</a> and release your project sooner.</p>
+    <p>Doctrine is well-known ORM booster your projects. Pwned it with <a class="underline" href="/nettrine/">Nettrine</a> and release your project sooner.</p>
   </div>
   <div class="md:w-1/3 sm:w-100 px-4 pb-6">
     <h2 class="text-2xl font-medium">Quality Assurance</h2>
-    <p>We're focusing on best practices and coding standard. <a href="/ninjify/">Ninjify</a> packages are helping us to get it done. </p>
+    <p>We're focusing on best practices and coding standard. <a class="underline" href="/ninjify/">Ninjify</a> packages are helping us to get it done. </p>
   </div>
 </div>

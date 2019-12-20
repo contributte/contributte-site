@@ -13,7 +13,7 @@
     "@vuepress/plugin-google-analytics": "^1.2.0",
     "@vuepress/plugin-pwa": "^1.2.0",
     "autoprefixer": "^9.7.0",
-    "dayjs": "^1.8.16",
+    "dayjs": "^1.8.18",
     "debug": "^4.1.1",
     "glob": "^7.1.5",
     "linkify-it": "^2.2.0",

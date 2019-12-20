@@ -15,7 +15,7 @@
     "autoprefixer": "^9.7.0",
     "dayjs": "^1.8.18",
     "debug": "^4.1.1",
-    "glob": "^7.1.5",
+    "glob": "^7.1.6",
     "linkify-it": "^2.2.0",
     "lodash": "^4.17.15",
     "lodash-es": "^4.17.15",

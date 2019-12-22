@@ -15,7 +15,7 @@ meta:
       <img src="/contributte.png" class="m-auto" alt="Contributte" title="Contributte logo" width="150">
     </div>
     <div class="flex-1 flex flex-col leading-tight">
-      <span class="text-8xl">80+</span>
+      <span class="text-8xl">89+</span>
       <span class="text-gray-600 text-base font-bold">packages and counting...</span>
     </div>
   </div>
@@ -58,14 +58,6 @@ meta:
       </div>
     </div>
   </div>
-</div>
-  
-<div class="my-12">
-  <h2 class="text-center text-3xl">👨‍🚒 🔥 ‍🚒</h2>
-  <Explanation type="hotness">
-    Apitte is fully Nette 3.0 ready.
-    <template #link><a class="underline" href="/blabs/2019/apitte-nette-3-0-ready.html">Show me hot →</a></template>
-  </Explanation>
 </div>
 
 <div class="mt-12 flex flex-wrap">

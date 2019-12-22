@@ -2987,7 +2987,7 @@
     "created_at": "2018-05-07T13:37:28Z",
     "published_at": "2018-05-14T10:29:07Z",
     "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.2.4",
-    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"dancer\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f483.png\">💃</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/dbal/compare/v0.2.3...v0.2.4\"><tt>v0.2.3...v0.2.4</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>allow doctrine/dbal 2.7</li>\n</ul>"
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"dancer\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f483.png\">���</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/dbal/compare/v0.2.3...v0.2.4\"><tt>v0.2.3...v0.2.4</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>allow doctrine/dbal 2.7</li>\n</ul>"
   },
   "10984074": {
     "org": "contributte",

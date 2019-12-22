@@ -23,7 +23,7 @@
     },
     "stars": 47,
     "watchers": 47,
-    "forks": 16,
+    "forks": 15,
     "composer": {
       "php": [
         "7.2",
@@ -31,7 +31,7 @@
       ],
       "nette": []
     },
-    "issues": 0
+    "issues": 1
   },
   "contributte/mailing": {
     "org": "contributte",
@@ -57,7 +57,7 @@
     },
     "stars": 7,
     "watchers": 7,
-    "forks": 3,
+    "forks": 2,
     "composer": {
       "nette": [
         "2.4"
@@ -103,7 +103,7 @@
         "7.4"
       ]
     },
-    "issues": 1
+    "issues": 0
   },
   "contributte/console-extra": {
     "org": "contributte",
@@ -128,8 +128,8 @@
         "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/console-extra/compare/v0.5.0...v0.5.1\"><tt>v0.5.0...v0.5.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Fixed ConsoleBridgesExtension configuration - <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"477849704\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/contributte/console-extra/issues/23\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/console-extra/pull/23/hovercard\" href=\"https://github.com/contributte/console-extra/pull/23\">#23</a> and <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"506203064\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/contributte/console-extra/issues/25\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/console-extra/pull/25/hovercard\" href=\"https://github.com/contributte/console-extra/pull/25\">#25</a></li>\n</ul>"
       }
     },
-    "stars": 19,
-    "watchers": 19,
+    "stars": 18,
+    "watchers": 18,
     "forks": 3,
     "composer": {
       "nette": [
@@ -268,7 +268,7 @@
     },
     "stars": 27,
     "watchers": 27,
-    "forks": 8,
+    "forks": 9,
     "composer": {
       "php": [
         "7.2",
@@ -305,7 +305,7 @@
     },
     "stars": 29,
     "watchers": 29,
-    "forks": 14,
+    "forks": 13,
     "composer": {
       "nette": [
         "3.0"
@@ -315,7 +315,7 @@
         "7.4"
       ]
     },
-    "issues": 0
+    "issues": 1
   },
   "contributte/scheduler": {
     "org": "contributte",
@@ -377,7 +377,7 @@
     },
     "stars": 1,
     "watchers": 1,
-    "forks": 2,
+    "forks": 1,
     "composer": {
       "nette": [],
       "php": [
@@ -531,7 +531,7 @@
     },
     "stars": 4,
     "watchers": 4,
-    "forks": 2,
+    "forks": 3,
     "composer": {
       "nette": [
         "2.4"
@@ -669,8 +669,8 @@
         "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/di/compare/v0.4.0...v0.4.1\"><tt>v0.4.0...v0.4.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Helper for loading callable from config <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/di/commit/89dfa32b0181e67342f0323449f61ff5e8f957fa/hovercard\" href=\"https://github.com/contributte/di/commit/89dfa32b0181e67342f0323449f61ff5e8f957fa\"><tt>89dfa32</tt></a></li>\n</ul>"
       }
     },
-    "stars": 11,
-    "watchers": 11,
+    "stars": 12,
+    "watchers": 12,
     "forks": 5,
     "composer": {
       "nette": [
@@ -813,7 +813,7 @@
     },
     "stars": 2,
     "watchers": 2,
-    "forks": 1,
+    "forks": 0,
     "composer": {
       "php": [
         "7.1",
@@ -849,7 +849,7 @@
     },
     "stars": 7,
     "watchers": 7,
-    "forks": 3,
+    "forks": 2,
     "composer": {
       "nette": [
         "3.0"
@@ -900,7 +900,7 @@
     },
     "stars": 2,
     "watchers": 2,
-    "forks": 3,
+    "forks": 2,
     "composer": {
       "nette": [
         "2.4"
@@ -1045,7 +1045,7 @@
     },
     "stars": 11,
     "watchers": 11,
-    "forks": 8,
+    "forks": 9,
     "composer": {
       "php": [
         "7.2",
@@ -1140,9 +1140,9 @@
         "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/model/compare/v0.1.0...v0.2.0\"><tt>v0.1.0...v0.2.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/model/commit/ea4b10c9e6a61fa3cd0b319d63bdc821154064f4/hovercard\" href=\"https://github.com/contributte/model/commit/ea4b10c9e6a61fa3cd0b319d63bdc821154064f4\"><tt>ea4b10c</tt></a></li>\n</ul>"
       }
     },
-    "stars": 1,
-    "watchers": 1,
-    "forks": 1,
+    "stars": 0,
+    "watchers": 0,
+    "forks": 0,
     "composer": {
       "nette": [],
       "php": [
@@ -1254,50 +1254,12 @@
     "forks": 1,
     "composer": {
       "php": [
-        "7.1",
-        "8.0"
-      ],
-      "nette": [
-        "2.4"
-      ]
-    },
-    "issues": 1
-  },
-  "contributte/phpdoc": {
-    "org": "contributte",
-    "name": "phpdoc",
-    "title": "PHPdoc",
-    "enabled": true,
-    "priority": 0,
-    "docs": {
-      "v": "v1"
-    },
-    "description": "💥 Enhanced PHPdoc to Nette Framework with annotations (@nette)",
-    "releases": {
-      "last": {
-        "org": "contributte",
-        "repo": "phpdoc",
-        "tag": "v0.3.0",
-        "name": "v0.3.0",
-        "created_at": "2019-06-28T19:09:34Z",
-        "published_at": "2019-06-28T21:18:06Z",
-        "html_url": "https://github.com/contributte/phpdoc/releases/tag/v0.3.0",
-        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/phpdoc/compare/v0.2...v0.3.0\"><tt>v0.2...v0.3.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/phpdoc/commit/972b5b51772b033952d0ef74faa9a50c47b8cc03/hovercard\" href=\"https://github.com/contributte/phpdoc/commit/972b5b51772b033952d0ef74faa9a50c47b8cc03\"><tt>972b5b5</tt></a></li>\n</ul>"
-      }
-    },
-    "stars": 1,
-    "watchers": 1,
-    "forks": 0,
-    "composer": {
-      "nette": [
-        "2.4"
-      ],
-      "php": [
         "7.2",
         "7.4"
-      ]
+      ],
+      "nette": []
     },
-    "issues": 0
+    "issues": 1
   },
   "planette/playground": {
     "org": "planette",
@@ -1309,9 +1271,9 @@
       "v": "v0"
     },
     "description": "📚 Examples / tutorials / tips / samples | sandbox for @contributte",
-    "stars": 11,
-    "watchers": 11,
-    "forks": 8,
+    "stars": 10,
+    "watchers": 10,
+    "forks": 7,
     "issues": 1
   },
   "contributte/psr7-http-message": {
@@ -1373,7 +1335,7 @@
     },
     "stars": 5,
     "watchers": 5,
-    "forks": 3,
+    "forks": 2,
     "composer": {
       "nette": [
         "3.0"
@@ -1409,7 +1371,7 @@
     },
     "stars": 6,
     "watchers": 6,
-    "forks": 3,
+    "forks": 2,
     "composer": {
       "nette": [
         "2.4"
@@ -1515,17 +1477,17 @@
     },
     "stars": 1,
     "watchers": 1,
-    "forks": 1,
+    "forks": 0,
     "composer": {
       "nette": [
         "2.4"
       ],
       "php": [
-        "7.1",
-        "8.0"
+        "7.2",
+        "7.4"
       ]
     },
-    "issues": 2
+    "issues": 1
   },
   "apitte/core": {
     "org": "apitte",
@@ -1857,9 +1819,9 @@
         "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/dbal/compare/v0.5.1...v0.6.0\"><tt>v0.5.1...v0.6.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>cache must be configured, renamed <code>resultCacheImpl</code> to <code>resultCache</code> <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/4c41e696d329503cf0edf14fdad64863e03e86fb/hovercard\" href=\"https://github.com/nettrine/dbal/commit/4c41e696d329503cf0edf14fdad64863e03e86fb\"><tt>4c41e69</tt></a></li>\n<li><code>sqlLogger</code> allow more syntaxes for logger registration <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/d37aa133406139528d58a37e4727d5aef9942b8c/hovercard\" href=\"https://github.com/nettrine/dbal/commit/d37aa133406139528d58a37e4727d5aef9942b8c\"><tt>d37aa13</tt></a></li>\n<li>Fixed <code>ContainerAwareEventManager::getListeners()</code> - always returns initialized objects, not service names <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/89f44219ab7627c2e99d22cc74815709ad7fefb4/hovercard\" href=\"https://github.com/nettrine/dbal/commit/89f44219ab7627c2e99d22cc74815709ad7fefb4\"><tt>89f4421</tt></a></li>\n</ul>"
       }
     },
-    "stars": 9,
-    "watchers": 9,
-    "forks": 15,
+    "stars": 10,
+    "watchers": 10,
+    "forks": 14,
     "composer": {
       "nette": [
         "2.4"
@@ -1869,7 +1831,7 @@
         "7.4"
       ]
     },
-    "issues": 4
+    "issues": 3
   },
   "nettrine/orm": {
     "org": "nettrine",
@@ -1894,9 +1856,9 @@
         "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/orm/compare/v0.4.0...v0.4.1\"><tt>v0.4.0...v0.4.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>quoteStrategy config fix <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/bb0ed30f6e558c796e8dab398543044f7c8b2b53/hovercard\" href=\"https://github.com/nettrine/orm/commit/bb0ed30f6e558c796e8dab398543044f7c8b2b53\"><tt>bb0ed30</tt></a></li>\n<li>removed inner entity manager <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/6b5384e811fea6f94909ddac56c00143a779a1a1/hovercard\" href=\"https://github.com/nettrine/orm/commit/6b5384e811fea6f94909ddac56c00143a779a1a1\"><tt>6b5384e</tt></a></li>\n<li>require nettrine/dbal 0.5 || 0.6 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/064f5844d55c80a6dae01b72f71acc3a3e8a13fb/hovercard\" href=\"https://github.com/nettrine/orm/commit/064f5844d55c80a6dae01b72f71acc3a3e8a13fb\"><tt>064f584</tt></a></li>\n</ul>"
       }
     },
-    "stars": 32,
-    "watchers": 32,
-    "forks": 24,
+    "stars": 35,
+    "watchers": 35,
+    "forks": 23,
     "composer": {
       "nette": [],
       "php": [
@@ -1904,7 +1866,7 @@
         "7.4"
       ]
     },
-    "issues": 10
+    "issues": 9
   },
   "nettrine/fixtures": {
     "org": "nettrine",
@@ -1981,6 +1943,7 @@
   "nettrine/extensions-atlantic18": {
     "org": "nettrine",
     "name": "extensions-atlantic18",
+    "title": "Extensions [Atlantic18]",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -2000,8 +1963,8 @@
         "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/extensions-atlantic18/compare/v0.4.0...v0.5.0\"><tt>v0.4.0...v0.5.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Namespace changed to <code>Nettrine\\Extensions\\Atlantic18</code> <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/extensions-atlantic18/commit/85bca4fd84cfd08748a2a0c2ae2eb43924e800e2/hovercard\" href=\"https://github.com/nettrine/extensions-atlantic18/commit/85bca4fd84cfd08748a2a0c2ae2eb43924e800e2\"><tt>85bca4f</tt></a>, <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/extensions-atlantic18/commit/bc5a6d8cf66bca73f10a71553751faf8745b1aae/hovercard\" href=\"https://github.com/nettrine/extensions-atlantic18/commit/bc5a6d8cf66bca73f10a71553751faf8745b1aae\"><tt>bc5a6d8</tt></a></li>\n<li><code>ipTraceable</code> requires <code>ipValue</code> <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/extensions-atlantic18/commit/edefd1faa9c6f678931b97867abb1eebc951e264/hovercard\" href=\"https://github.com/nettrine/extensions-atlantic18/commit/edefd1faa9c6f678931b97867abb1eebc951e264\"><tt>edefd1f</tt></a>, <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/extensions-atlantic18/commit/01aced63e7f53fb67cf0c1e1c6ab037cc4052d2d/hovercard\" href=\"https://github.com/nettrine/extensions-atlantic18/commit/01aced63e7f53fb67cf0c1e1c6ab037cc4052d2d\"><tt>01aced6</tt></a></li>\n<li>Removed <code>nettrine.subscriber</code> service tags (not needed by nettrine/dbal &gt;=0.5.1) <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/extensions-atlantic18/commit/97b9927d9245ccd5b613ec7cba331e45e39f963b/hovercard\" href=\"https://github.com/nettrine/extensions-atlantic18/commit/97b9927d9245ccd5b613ec7cba331e45e39f963b\"><tt>97b9927</tt></a></li>\n</ul>"
       }
     },
-    "stars": 7,
-    "watchers": 7,
+    "stars": 8,
+    "watchers": 8,
     "forks": 7,
     "composer": {
       "nette": [
@@ -2012,7 +1975,105 @@
         "7.4"
       ]
     },
-    "issues": 4
+    "issues": 1
+  },
+  "nettrine/extensions-beberlei": {
+    "org": "nettrine",
+    "name": "extensions-beberlei",
+    "title": "Extensions [Beberlei]",
+    "enabled": true,
+    "priority": 0,
+    "docs": {
+      "v": "v1"
+    },
+    "description": "🔍 Doctrine (https://github.com/beberlei/DoctrineExtensions) extension for Nette Framework",
+    "category": "nettrine",
+    "releases": {
+      "last": {
+        "org": "nettrine",
+        "repo": "extensions-beberlei",
+        "tag": "v0.1.0",
+        "name": "v0.1.0",
+        "created_at": "2019-12-03T23:36:00Z",
+        "published_at": "2019-12-11T12:28:50Z",
+        "html_url": "https://github.com/nettrine/extensions-beberlei/releases/tag/v0.1.0",
+        "body": "<p>Initial release</p>"
+      }
+    },
+    "stars": 3,
+    "watchers": 3,
+    "forks": 0,
+    "issues": 0,
+    "composer": {
+      "php": [
+        "7.2",
+        "7.4"
+      ],
+      "nette": [
+        "3.0"
+      ]
+    }
+  },
+  "nettrine/extensions-knplabs": {
+    "org": "nettrine",
+    "name": "extensions-knplabs",
+    "title": "Extensions [KnpLabs]",
+    "enabled": true,
+    "priority": 0,
+    "docs": {
+      "v": "v1"
+    },
+    "description": "🔍 Doctrine (https://github.com/KnpLabs/DoctrineBehaviors) extension for Nette Framework",
+    "category": "nettrine",
+    "releases": {
+      "last": {
+        "org": "nettrine",
+        "repo": "extensions-knplabs",
+        "tag": "v0.1.0",
+        "name": "v0.1.0",
+        "created_at": "2019-12-04T00:17:13Z",
+        "published_at": "2019-12-11T12:10:33Z",
+        "html_url": "https://github.com/nettrine/extensions-knplabs/releases/tag/v0.1.0",
+        "body": "<p>Initial release</p>"
+      }
+    },
+    "stars": 4,
+    "watchers": 4,
+    "forks": 0,
+    "issues": 0,
+    "composer": {
+      "php": [
+        "7.2",
+        "7.4"
+      ],
+      "nette": []
+    }
+  },
+  "nettrine/extensions-oroinc": {
+    "org": "nettrine",
+    "name": "extensions-oroinc",
+    "title": "Extensions [Oroinc]",
+    "enabled": true,
+    "priority": 0,
+    "docs": {
+      "v": "v1"
+    },
+    "description": "🔍 Doctrine (https://github.com/oroinc/doctrine-extensions) extension for Nette Framework",
+    "category": "nettrine",
+    "releases": {},
+    "stars": 2,
+    "watchers": 2,
+    "forks": 0,
+    "issues": 0,
+    "composer": {
+      "php": [
+        "7.2",
+        "7.4"
+      ],
+      "nette": [
+        "3.0"
+      ]
+    }
   },
   "nettrine/annotations": {
     "org": "nettrine",
@@ -2036,8 +2097,8 @@
         "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/annotations/compare/v0.5.0...v0.6.0\"><tt>v0.5.0...v0.6.0</tt></a></p>\n<p>Changes: <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/annotations/commit/7a3010f8cdbf5257b9af42658c7a4aac655f178a/hovercard\" href=\"https://github.com/nettrine/annotations/commit/7a3010f8cdbf5257b9af42658c7a4aac655f178a\"><tt>7a3010f</tt></a></p>\n<ul>\n<li>annotations <code>persistent</code> and <code>serializationVersion</code> are ignored by default</li>\n<li><code>cache</code> config accepts only services, referencing cache by name <code>filesystem</code>, <code>apcu</code> etc. is not possible</li>\n<li>an autowired cache is used by default (<a href=\"https://github.com/nettrine/cache\">nettrine/cache</a> is recommended)</li>\n</ul>"
       }
     },
-    "stars": 4,
-    "watchers": 4,
+    "stars": 5,
+    "watchers": 5,
     "forks": 3,
     "composer": {
       "php": [
@@ -2048,7 +2109,7 @@
         "3.0"
       ]
     },
-    "issues": 1
+    "issues": 0
   },
   "nettrine/cache": {
     "org": "nettrine",
@@ -2069,11 +2130,11 @@
         "3.0"
       ],
       "php": [
-        "7.1",
-        "8.0"
+        "7.2",
+        "7.4"
       ]
     },
-    "issues": 1,
+    "issues": 0,
     "releases": {
       "last": {
         "org": "nettrine",
@@ -2169,9 +2230,9 @@
         "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/guzzlette/compare/v3.0.0...v3.0.1\"><tt>v3.0.0...v3.0.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow Tracy 2.7 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/guzzlette/commit/d6d98a5b77a3bc87d5e97703d925d84b219b5531/hovercard\" href=\"https://github.com/contributte/guzzlette/commit/d6d98a5b77a3bc87d5e97703d925d84b219b5531\"><tt>d6d98a5</tt></a></li>\n</ul>"
       }
     },
-    "stars": 17,
-    "watchers": 17,
-    "forks": 9,
+    "stars": 18,
+    "watchers": 18,
+    "forks": 10,
     "composer": {
       "php": [
         "7.2",
@@ -2203,8 +2264,8 @@
         "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/redis/compare/v0.2.1...v0.2.2\"><tt>v0.2.1...v0.2.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Upgrade dependencies</li>\n<li>Move tracy to require-dev</li>\n</ul>"
       }
     },
-    "stars": 10,
-    "watchers": 10,
+    "stars": 9,
+    "watchers": 9,
     "forks": 4,
     "composer": {
       "nette": [],
@@ -2272,9 +2333,9 @@
         "body": "<h1>Nette 3.0 support (thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/laster04/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/laster04\">@laster04</a> )</h1>"
       }
     },
-    "stars": 24,
-    "watchers": 24,
-    "forks": 16,
+    "stars": 23,
+    "watchers": 23,
+    "forks": 15,
     "composer": {
       "nette": [
         "2.4"
@@ -2359,6 +2420,113 @@
       ]
     },
     "issues": 0
+  },
+  "contributte/gopay": {
+    "org": "contributte",
+    "name": "gopay",
+    "category": "webservices",
+    "enabled": true,
+    "priority": 0,
+    "docs": {
+      "v": "v0"
+    },
+    "description": "💰 Integrace Gopay pro Nette Framework",
+    "releases": {
+      "last": {
+        "org": "contributte",
+        "repo": "gopay",
+        "tag": "v3.2.0",
+        "name": "Gopay v3.2.0",
+        "created_at": "2018-02-22T11:14:47Z",
+        "published_at": "2018-02-22T11:46:56Z",
+        "html_url": "https://github.com/contributte/gopay/releases/tag/v3.2.0",
+        "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"falkland_islands\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f1eb-1f1f0.png\">🇫🇰</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/gopay/compare/v3.1.3...v3.2.0\"><tt>v3.1.3...v3.2.0</tt></a></p>\n<p>Novinky:</p>\n<ul>\n<li>podpora PHP 7.2</li>\n<li>odstraneni Nette\\Object [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"298710352\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/contributte/gopay/issues/69\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/gopay/pull/69/hovercard\" href=\"https://github.com/contributte/gopay/pull/69\">#69</a>][<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"288397364\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/contributte/gopay/issues/67\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/gopay/issues/67/hovercard\" href=\"https://github.com/contributte/gopay/issues/67\">#67</a>]</li>\n<li>order ID je nyni string [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"274429373\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/contributte/gopay/issues/64\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/gopay/issues/64/hovercard\" href=\"https://github.com/contributte/gopay/issues/64\">#64</a>] [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"274434147\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/contributte/gopay/issues/65\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/gopay/pull/65/hovercard\" href=\"https://github.com/contributte/gopay/pull/65\">#65</a>]</li>\n</ul>"
+      }
+    },
+    "stars": 63,
+    "watchers": 63,
+    "forks": 28,
+    "composer": {
+      "php": [
+        "5.6",
+        "8.0"
+      ],
+      "nette": [
+        "2.4"
+      ]
+    },
+    "issues": 5
+  },
+  "contributte/gopay-inline": {
+    "org": "contributte",
+    "name": "gopay-inline",
+    "category": "webservices",
+    "enabled": true,
+    "priority": 0,
+    "docs": {
+      "v": "v0"
+    },
+    "description": "💳 GoPay Inline Payment for Nette Framework",
+    "releases": {
+      "last": {
+        "org": "contributte",
+        "repo": "gopay-inline",
+        "tag": "v1.2.1",
+        "name": "v1.2.1",
+        "created_at": "2019-10-07T18:41:57Z",
+        "published_at": "2019-10-07T18:46:06Z",
+        "html_url": "https://github.com/contributte/gopay-inline/releases/tag/v1.2.1",
+        "body": "<h3>DIFF</h3>\n<p><a class=\"commit-link\" href=\"https://github.com/contributte/gopay-inline/compare/v1.2...v1.2.1\"><tt>v1.2...v1.2.1</tt></a></p>\n<h3>CHANGES</h3>\n<ul>\n<li>Revert \"README: Fix class name in sample extension. (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"492193454\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/contributte/gopay-inline/issues/55\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/gopay-inline/pull/55/hovercard\" href=\"https://github.com/contributte/gopay-inline/pull/55\">#55</a>)\" (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"492778318\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/contributte/gopay-inline/issues/57\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/gopay-inline/pull/57/hovercard\" href=\"https://github.com/contributte/gopay-inline/pull/57\">#57</a>)</li>\n<li>PaymentFactory - validator cena jednotlivých položek (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"503619902\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/contributte/gopay-inline/issues/58\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/gopay-inline/pull/58/hovercard\" href=\"https://github.com/contributte/gopay-inline/pull/58\">#58</a>, <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"294206973\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/contributte/gopay-inline/issues/41\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/gopay-inline/pull/41/hovercard\" href=\"https://github.com/contributte/gopay-inline/pull/41\">#41</a>)</li>\n</ul>"
+      }
+    },
+    "stars": 20,
+    "watchers": 20,
+    "forks": 20,
+    "composer": {
+      "php": [
+        "5.6",
+        "8.0"
+      ],
+      "nette": []
+    },
+    "issues": 4
+  },
+  "contributte/comgate": {
+    "org": "contributte",
+    "name": "comgate",
+    "category": "webservices",
+    "enabled": true,
+    "priority": 0,
+    "docs": {
+      "v": "v1"
+    },
+    "description": "💶 Comgate Payment Gateway implementation for Nette Framework",
+    "releases": {
+      "last": {
+        "org": "contributte",
+        "repo": "comgate",
+        "tag": "v0.1.0",
+        "name": "v0.1.0",
+        "created_at": "2019-12-12T18:46:29Z",
+        "published_at": "2019-12-12T18:46:56Z",
+        "html_url": "https://github.com/contributte/comgate/releases/tag/v0.1.0",
+        "body": "<p>First bump! <g-emoji class=\"g-emoji\" alias=\"fist_oncoming\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png\">👊</g-emoji></p>"
+      }
+    },
+    "stars": 7,
+    "watchers": 7,
+    "forks": 2,
+    "composer": {
+      "php": [
+        "7.2",
+        "7.4"
+      ],
+      "nette": [
+        "2.4",
+        "3.0"
+      ]
+    },
+    "issues": 2
   },
   "contributte/anabelle": {
     "org": "contributte",
@@ -2455,7 +2623,7 @@
     },
     "stars": 11,
     "watchers": 11,
-    "forks": 7,
+    "forks": 6,
     "composer": {
       "nette": [
         "3.0"
@@ -2465,7 +2633,7 @@
         "8.0"
       ]
     },
-    "issues": 2
+    "issues": 3
   },
   "contributte/forms-wizard": {
     "org": "contributte",
@@ -2491,7 +2659,7 @@
     },
     "stars": 8,
     "watchers": 8,
-    "forks": 4,
+    "forks": 3,
     "composer": {
       "nette": [
         "3.0"
@@ -2501,7 +2669,7 @@
         "8.0"
       ]
     },
-    "issues": 1
+    "issues": 3
   },
   "contributte/datagrid": {
     "org": "contributte",
@@ -2539,9 +2707,9 @@
         "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v5.7.3...v5.7.4\"><tt>v5.7.3...v5.7.4</tt></a></p>"
       }
     },
-    "stars": 180,
-    "watchers": 180,
-    "forks": 129,
+    "stars": 181,
+    "watchers": 181,
+    "forks": 136,
     "composer": {
       "nette": [
         "2.4"
@@ -2551,7 +2719,7 @@
         "7.4"
       ]
     },
-    "issues": 93
+    "issues": 97
   },
   "contributte/api-router": {
     "org": "contributte",
@@ -2646,9 +2814,9 @@
         "body": ""
       }
     },
-    "stars": 44,
-    "watchers": 44,
-    "forks": 11,
+    "stars": 45,
+    "watchers": 45,
+    "forks": 13,
     "composer": {
       "nette": [
         "3.0"
@@ -2684,10 +2852,10 @@
     },
     "stars": 19,
     "watchers": 19,
-    "forks": 4,
+    "forks": 8,
     "composer": {
       "php": [
-        "7.2",
+        "7.1",
         "7.4"
       ],
       "nette": [
@@ -2703,7 +2871,7 @@
     "enabled": true,
     "priority": 0,
     "docs": {
-      "v": "v0"
+      "v": "v1"
     },
     "description": "💬 GoSMS.cz HTTP client for Nette ",
     "releases": {
@@ -2757,7 +2925,7 @@
     },
     "stars": 2,
     "watchers": 2,
-    "forks": 3,
+    "forks": 2,
     "composer": {
       "php": [
         "7.2",
@@ -2933,8 +3101,30 @@
     },
     "stars": 10,
     "watchers": 10,
-    "forks": 3,
+    "forks": 4,
     "issues": 3,
+    "composer": {
+      "php": [
+        "7.1",
+        "8.0"
+      ]
+    }
+  },
+  "ninjify/checker": {
+    "org": "ninjify",
+    "name": "checker",
+    "category": "ninjify",
+    "enabled": true,
+    "priority": 0,
+    "docs": {
+      "v": "v0"
+    },
+    "description": "🤮Tuned Code Checker",
+    "releases": {},
+    "stars": 2,
+    "watchers": 2,
+    "forks": 0,
+    "issues": 0,
     "composer": {
       "php": [
         "7.1",

@@ -1801,7 +1801,7 @@
     "name": "dbal",
     "title": "DBAL",
     "enabled": true,
-    "priority": 0,
+    "priority": 20,
     "docs": {
       "v": "v1"
     },
@@ -1838,7 +1838,7 @@
     "name": "orm",
     "title": "ORM",
     "enabled": true,
-    "priority": 10,
+    "priority": 19,
     "docs": {
       "v": "v1"
     },
@@ -1872,7 +1872,7 @@
     "org": "nettrine",
     "name": "fixtures",
     "enabled": true,
-    "priority": 0,
+    "priority": 17,
     "docs": {
       "v": "v1"
     },
@@ -1908,7 +1908,7 @@
     "org": "nettrine",
     "name": "migrations",
     "enabled": true,
-    "priority": 0,
+    "priority": 18,
     "docs": {
       "v": "v1"
     },
@@ -2079,7 +2079,7 @@
     "org": "nettrine",
     "name": "annotations",
     "enabled": true,
-    "priority": 0,
+    "priority": 10,
     "docs": {
       "v": "v1"
     },
@@ -2114,10 +2114,10 @@
   "nettrine/cache": {
     "org": "nettrine",
     "name": "cache",
-    "enabled": false,
-    "priority": 0,
+    "enabled": true,
+    "priority": 10,
     "docs": {
-      "v": "v0"
+      "v": "v1"
     },
     "description": "🔃 Doctrine Cache adapter for Nette Framework ",
     "category": "nettrine",

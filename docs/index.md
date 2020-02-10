@@ -72,7 +72,7 @@ metaTitle: Contributte - First class extensions, addons and plugins for Nette Fr
       Project Templates
     </h1>
     <p class="text-center text-lg text-gray-700 mt-2 px-6">
-      Cur <strong>initialization phase</strong> of your new project with prepare project templates.
+      Cut <strong>initialization phase</strong> of your new project with prepare project templates.
     </p>
     <div class="h-1 mx-auto bg-blue-600 w-24 opacity-75 mt-4 rounded"></div>
     <div class="max-w-full md:max-w-6xl mx-auto my-3 md:px-8">

@@ -1,6 +1,6 @@
 <template>
   <div id="global-layout">
-    <component :is="layout" :class="'layout-'+layout.toLowerCase()"/>
+    <component :is="layout" :class="'layout-'+layout.toLowerCase()" class="layout min-h-screen"/>
   </div>
 </template>
 
@@ -16,11 +16,6 @@ export default {
       }
       return "NotFound";
     }
-  },
-  mounted() {
-    import("./../../utils/sw").then(() => {
-      console.log('ℹ️ ServiceWorker utils loading');
-    })
   }
 };
 </script>

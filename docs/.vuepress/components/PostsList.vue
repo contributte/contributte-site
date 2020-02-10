@@ -1,10 +1,12 @@
 <template>
-  <div class="blabs " v-if="posts.length">
-    <div v-for="post in posts" class="mt-1">
-      📆
-      <router-link :to="post.path">
-        {{post.frontmatter.date|date}} - {{post.frontmatter.title}}
-      </router-link>
+  <div v-if="posts.length" class="grid sm:grid-cols-1 md:grid-cols-3 gap-8">
+    <div v-for="post in posts">
+      <div class="shadow-lg rounded-lg p-6">
+        <div class="text-center md:text-left">
+          <h2 class="text-lg">📆 {{post.frontmatter.date|date}}</h2>
+          <router-link :to="post.path" class="text-blue-600">{{post.frontmatter.title}}</router-link>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -30,7 +32,7 @@ export default {
   filters: {
     date(s) {
       return dayjs(s).format("DD/MM/YYYY");
-    },
+    }
   }
 };
 </script>

@@ -2,6 +2,6 @@
 layout: HighLayout
 ---
 
-# All releases
+# Releases
 
 <AllReleases/>

@@ -5,9 +5,19 @@
 h1,h2,h3,h4,h5,h6
   border-bottom: 0
 
+.theme-container
+  flex-grow: 1
+
+.theme-default-content:not(.custom)
+  padding: 2rem
+
 .theme-container.page-wide
   .content
     max-width: $contentWidth
+
+.xcontainer
+  max-width: $contentWidth
+  margin: 0 auto
 
 .footer
   max-width: $footerWidth
@@ -20,7 +30,11 @@ h1,h2,h3,h4,h5,h6
   margin: 0 !important
   padding: 0 !important
 
-.layout-layout, .layout-postlayout
+.layout
+  display: flex
+  flex-direction: column
+
+.layout-layout, .layout-postlayout, .layout-markdownlayout
   .page
     h1:not([class]), h1[class=""]
       @apply text-3xl font-bold
@@ -167,3 +181,6 @@ h1,h2,h3,h4,h5,h6
 
   .footer
     max-width: $footerWidthXL
+
+  .xcontainer
+    max-width: $contentWidthXL

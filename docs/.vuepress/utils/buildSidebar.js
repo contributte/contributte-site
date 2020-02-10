@@ -36,67 +36,67 @@ module.exports = {
       '/packages/': [
         {
           title: 'Nette',
-          collapsable: false,
+          collapsable: true,
           children: buildChildren('nette-contrib'),
         },
         {
           title: 'Nette UI',
-          collapsable: false,
+          collapsable: true,
           children: buildChildren('nette-ui'),
         },
         {
           title: 'Nette Forms',
-          collapsable: false,
+          collapsable: true,
           children: buildChildren('nette-forms'),
         },
         {
           title: 'WebServices',
-          collapsable: false,
+          collapsable: true,
           children: buildChildren('webservices'),
         },
         {
           title: 'Symfony',
-          collapsable: false,
+          collapsable: true,
           children: buildChildren('symfony'),
         },
         {
           title: 'PHP party',
-          collapsable: false,
+          collapsable: true,
           children: buildChildren('php-party'),
         },
         {
           title: 'Apitte',
-          collapsable: false,
+          collapsable: true,
           children: buildChildren('apitte'),
         },
         {
           title: 'Nettrine',
-          collapsable: false,
+          collapsable: true,
           children: buildChildren('nettrine'),
         },
         {
           title: 'Nextras',
-          collapsable: false,
+          collapsable: true,
           children: buildChildren('nextras'),
         },
         {
           title: 'PSR',
-          collapsable: false,
+          collapsable: true,
           children: buildChildren('psr'),
         },
         {
           title: 'Development',
-          collapsable: false,
+          collapsable: true,
           children: buildChildren('development'),
         },
         {
           title: 'Ninjify',
-          collapsable: false,
+          collapsable: true,
           children: buildChildren('ninjify'),
         },
         {
           title: 'Other',
-          collapsable: false,
+          collapsable: true,
           children: buildChildren(null),
         },
       ]

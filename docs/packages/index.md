@@ -1,13 +1,20 @@
+---
+sidebar: false
+layout: HighLayout
+---
+
 # Packages
 
 Contributte organization is focucing on these main parts:
 
-- easy to use
-- setup PHP standards and consistency
-- apply latest developement experience
-- feature original Nette packages
-- easily integrate Symfony components
-- integrate other cool PHP packages
+<ul class="my-8 list-disc list-inside">
+  <li>easy to use</li>
+  <li>setup PHP standards and consistency</li>
+  <li>apply latest developement experience</li>
+  <li>feature original Nette packages</li>
+  <li>easily integrate Symfony components</li>
+  <li>integrate other cool PHP packages</li>
+</ul>
 
 ## Example
 

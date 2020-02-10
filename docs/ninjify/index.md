@@ -84,4 +84,6 @@ Or via composer script.
 vendor/bin/codesniffer src tests
 ```
 
-![Codesniffer](/misc/ninjify-console.png "Ninjify Codesniffer")
+<p>
+  <img class="m-auto" src="/misc/ninjify-console.png" alt="Codesniffer" title="Ninjify Codesniffer">
+</p>

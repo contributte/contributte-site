@@ -1,135 +1,168 @@
 <template>
-  <div class="footer text-gray-700 text-md xl:px-0 px-8">
-    <div class="m-auto pt-12 border-t-2 border-gray-400 border-dashed">
-      <div class="flex flex-wrap">
-        <div class="flex-1 px-4 pb-6">
-          <ul>
-            <li>
-              <a href="https://communitte.com/">
-                <strong>Contributte</strong>
-              </a>
-            </li>
-            <li>
-              <a href="/examples/">Examples</a>
-            </li>
-            <li>
-              <a href="/releases/">Releases</a>
-            </li>
-            <li>
-              <a href="/about.html">Team</a>
-            </li>
-          </ul>
+  <div>
+    <div class="bg-gray-200">
+      <div class="footer text-gray-700 text-md xl:px-0 px-8 text-center md:text-left">
+        <div class="m-auto pt-12">
+          <div class="grid sm:grid-cols-1 md:grid-cols-5 gap-4">
+            <div class="px-4 pb-6">
+              <ul>
+                <li>
+                  <strong>Contributte</strong>
+                </li>
+                <li>
+                  <a href="/about.html">Team</a>
+                </li>
+                <li>
+                  <a href="/partners.html">Partners</a>
+                </li>
+                <li>
+                  <a href="/releases.html">Releases</a>
+                </li>
+                <li>
+                  <a href="/about.html#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="px-4 pb-6">
+              <ul>
+                <li>
+                  <strong>Projects</strong>
+                </li>
+                <li>
+                  <a href="https://componette.com">Componette</a>
+                </li>
+                <li>
+                  <a href="https://github.com/planette">Planette</a>
+                </li>
+                <li>
+                  <a href="https://commits.nette.org">Nette Commits</a>
+                </li>
+                <li>
+                  <a href="/examples.html">Examples</a>
+                </li>
+              </ul>
+            </div>
+            <div class="px-4 pb-6">
+              <ul>
+                <li>
+                  <strong>Feed</strong>
+                </li>
+                <li>
+                  <a href="https://twitter.org/contributte">@contributte</a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/xf3l1x">@xf3l1x</a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/nettefw">@nettefw</a>
+                </li>
+              </ul>
+            </div>
+            <div class="md:col-span-2 px-4 pb-6">
+              <ul>
+                <li>
+                  <strong>Newsletter</strong>
+                </li>
+                <li class="my-4">Subscribe to the newsletter and get involved.</li>
+                <li>
+                  <a
+                    href="https://nettefoundation.us9.list-manage.com/subscribe?u=7218d1164f93b5bd0e1105dc5&id=bac2a29714"
+                    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                  >Subscribe</a>
+                </li>
+              </ul>
+            </div>
+            <div class="px-4 pb-6">
+              <ul>
+                <li>
+                  <strong>Visions</strong>
+                </li>
+                <li>
+                  <a href="/vision.html#2020">2020</a>
+                </li>
+                <li>
+                  <a href="/vision.html#2019">2019</a>
+                </li>
+                <li>
+                  <a href="/vision.html#2018">2018</a>
+                </li>
+              </ul>
+            </div>
+            <div class="px-4 pb-6">
+              <ul>
+                <li>
+                  <strong>Organizations</strong>
+                </li>
+                <li>
+                  <a href="/nettrine">Nettrine</a>
+                </li>
+                <li>
+                  <a href="/apitte">Apitte</a>
+                </li>
+                <li>
+                  <a href="/ninjify">Ninjify</a>
+                </li>
+              </ul>
+            </div>
+            <div class="px-4 pb-6">
+              <ul>
+                <li>
+                  <strong>Events</strong>
+                </li>
+                <li>
+                  <a href="https://www.posobota.cz">#posobota</a>
+                </li>
+                <li>
+                  <a href="https://www.nettecamp.cz">nette camp</a>
+                </li>
+                <li>
+                  <a href="https://conference.nette.org">nette conference</a>
+                </li>
+              </ul>
+            </div>
+            <div class="md:col-span-2 px-4 pb-6">
+              <ul>
+                <li>
+                  <strong>Networks</strong>
+                </li>
+                <li class="mt-4 flex justify-center md:justify-start">
+                  <a class="p-4 opacity-50 hover:opacity-75" href="https://github.com/contributte">
+                    <img src="https://icon.now.sh/github/38" alt />
+                  </a>
+                  <a class="p-4 opacity-50 hover:opacity-75" href="https://twitter.com/contributte">
+                    <img src="https://icon.now.sh/twitter/38" alt />
+                  </a>
+                  <a
+                    class="p-4 opacity-50 hover:opacity-75"
+                    href="https://pehapkari.slack.com/archives/CBD9G0GET"
+                  >
+                    <img src="https://icon.now.sh/slack/38" alt />
+                  </a>
+                  <a
+                    class="p-4 opacity-50 hover:opacity-75"
+                    href="https://gitter.im/contributte/contributte"
+                  >
+                    <img src="https://icon.now.sh/gitter/38" alt />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="flex-1 px-4 pb-6">
-          <ul>
-            <li>
-              <a href="https://contributte.org/">
-                <strong>Organizations</strong>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.github.com/contributte">Github</a>
-            </li>
-            <li>
-              <a href="https://contributte.org/nettrine">Nettrine</a>
-            </li>
-            <li>
-              <a href="https://contributte.org/apitte">Apitte</a>
-            </li>
-            <li>
-              <a href="https://contributte.org/ninjify">Ninjify</a>
-            </li>
-            <li>
-              <a href="https://github.com/dockette">Dockette</a>
-            </li>
-          </ul>
-        </div>
-        <div class="flex-1 px-4 pb-6">
-          <ul>
-            <li>
-              <a href="https://planette.io/">
-                <strong>Planette</strong>
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/planette/playground">Playground</a>
-            </li>
-            <li>
-              <a href="https://planette.io/#projects">Projects</a>
-            </li>
-            <li>
-              <a href="https://planette.io/#applications">Applications</a>
-            </li>
-            <li>
-              <a href="hhttps://github.com/planette">Github</a>
-            </li>
-          </ul>
-        </div>
-        <div class="flex-1 px-4 pb-6">
-          <ul>
-            <li>
-              <a href="https://componette.com/">
-                <strong>Componette</strong>
-              </a>
-            </li>
-            <li>
-              <a href="https://componette.com/search/tracy">Tracy</a>
-            </li>
-            <li>
-              <a href="https://componette.com/search/forms">Forms</a>
-            </li>
-            <li>
-              <a href="https://componette.com/search/latte">Latte</a>
-            </li>
-            <li>
-              <a href="https://github.com/planette/componette.com">Github</a>
-            </li>
-          </ul>
-        </div>
-        <div class="flex-1 px-4 pb-6">
-          <ul>
-            <li>
-              <a href="https://communitte.com/events">
-                <strong>Events</strong>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.posobota.cz">#posobota</a>
-            </li>
-            <li>
-              <a href="https://www.nettecamp.cz">nette camp</a>
-            </li>
-            <li>
-              <a href="https://conference.nette.org">nette conference</a>
-            </li>
-          </ul>
-        </div>
-        <div class="flex-1 px-4 pb-6">
-          <ul>
-            <li>
-              <a href="https://nette.org/">
-                <strong>Nette</strong>
-              </a>
-            </li>
-            <li>
-              <a href="https://commits.nette.org">Commits</a>
-            </li>
-            <li>
-              <a href="https://nette.org/en/releases">Release notes</a>
-            </li>
-            <li>
-              <a href="https://forum.nette.org">Forum</a>
-            </li>
-            <li>
-              <a href="https://doc.nette.org">Documentation</a>
-            </li>
-          </ul>
+      </div>
+    </div>
+    <div class="bg-gray-400">
+      <div class="footer text-gray-900 flex text-md xl:px-0 px-8 text-center md:text-left">
+        <div class="flex-grow text-left p-6">
+          &copy; Contributte 2020
+          • Based on
+          <a href="https://vuepress.vuejs.org/">VuePress</a>
+          • Developed by
+          <a href="https://f3l1x.io">Felix</a>
+          • Source
+          <a href="https://github.com/contributte/website">code</a> is open
         </div>
       </div>
     </div>
   </div>
 </template>
-
-<script>
-export default {};
-</script>

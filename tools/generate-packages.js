@@ -2,7 +2,6 @@ const _ = require('lodash');
 const fs = require("fs");
 const path = require("path");
 const glob = require("glob");
-const _fs = require("./utils/fs");
 
 // Global
 const CONFIG = require('./config');
@@ -27,7 +26,7 @@ function loadDoc(repo) {
 }
 
 function generateTemplate(repo, srcPath, destPath) {
-  const template = fs.readFileSync(__dirname + '/../data/templates/__package__.tpl');
+  const template = fs.readFileSync(__dirname + '/../data/templates/package.tpl');
 
   const compiler = _.template(template);
   const compiled = compiler({
@@ -60,11 +59,4 @@ function resolvePackagist(repo) {
       generateTemplate(repo, file, __dirname + `/../docs/packages/${repo.org}/${repo.name}.md`);
     }
   });
-
-  // Create examples page manually
-  _fs.mkdir(__dirname + `/../docs/examples/`);
-  fs.copyFileSync(
-    __dirname + `/../docs/packages/planette/playground.md`,
-    __dirname + `/../docs/examples/index.md`
-  )
 })();

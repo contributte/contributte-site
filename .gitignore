@@ -6,6 +6,9 @@
 /data/vcs/*
 !/data/vcs
 
+# ZEIT
+/.now
+
 # VuePress
 /docs/.vuepress/dist
 

@@ -47,6 +47,12 @@ module.exports = {
       {
         hostname: "https://contributte.org"
       }
+    ],
+    [
+      require("./plugins/smartlook"),
+      {
+        id: "2144b6185ae4ade89a78aa0cae228b83fb9735a5"
+      }
     ]
   ]
 };

@@ -141,62 +141,62 @@
   },
   "2418971": {
     "org": "planette",
-    "repo": "componette.com",
+    "repo": "componette",
     "tag": "v1.0.1",
     "name": "v1.0.1",
     "created_at": "2016-01-13T11:04:49Z",
     "published_at": "2016-01-13T11:19:31Z",
-    "html_url": "https://github.com/planette/componette.com/releases/tag/v1.0.1",
+    "html_url": "https://github.com/planette/componette/releases/tag/v1.0.1",
     "body": "<h2><g-emoji class=\"g-emoji\" alias=\"boar\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f417.png\">🐗</g-emoji> v1.0.1</h2>\n<ul>\n<li>Feature: Nextras\\ORM 2.0@dev</li>\n<li>Feature: addon charts (stats)</li>\n<li>Feature: footer stats</li>\n<li>Improved: split entity to addon =&gt; github, composer &amp; bower</li>\n<li>Typo: package -&gt; addon</li>\n<li>Other: new domain</li>\n<li>Other: docker configuration</li>\n</ul>\n<h4>alpha2 [7.10.2015]</h4>\n<ul>\n<li>Feature: bower packages</li>\n<li>Fixed: routing with dot(.)</li>\n<li>Improved: CLI tasks</li>\n<li>Improved: search degisn</li>\n<li>Improved: meta info design (thanks to looky)</li>\n<li>Improved: few tiny things</li>\n</ul>\n<h4>alpha1 [5.10.2015]</h4>\n<ul>\n<li>Feature: new landing page</li>\n<li>Feature: new searching / sorting / ordering</li>\n<li>Feature: modal for new packages</li>\n<li>Fixed: bold font in <code>&lt;pre&gt;&lt;code&gt;</code></li>\n<li>Improved: responsibility</li>\n</ul>"
   },
   "2418974": {
     "org": "planette",
-    "repo": "componette.com",
+    "repo": "componette",
     "tag": "v1.0.0",
     "name": "v1.0.0",
     "created_at": "2016-01-13T11:17:05Z",
     "published_at": "2016-01-13T11:20:14Z",
-    "html_url": "https://github.com/planette/componette.com/releases/tag/v1.0.0",
-    "body": "<h2><g-emoji class=\"g-emoji\" alias=\"horse\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f434.png\">🐴</g-emoji> v1.0.0</h2>\n<ul>\n<li>First version</li>\n</ul>"
+    "html_url": "https://github.com/planette/componette/releases/tag/v1.0.0",
+    "body": "<h2><g-emoji class=\"g-emoji\" alias=\"horse\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f434.png\">��</g-emoji> v1.0.0</h2>\n<ul>\n<li>First version</li>\n</ul>"
   },
   "2434687": {
     "org": "planette",
-    "repo": "componette.com",
+    "repo": "componette",
     "tag": "v1.0.2",
     "name": "v1.0.2",
     "created_at": "2016-01-24T18:17:39Z",
     "published_at": "2016-01-24T18:17:52Z",
-    "html_url": "https://github.com/planette/componette.com/releases/tag/v1.0.2",
-    "body": "<h2><g-emoji class=\"g-emoji\" alias=\"dog2\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f415.png\">🐕</g-emoji> v1.0.2</h2>\n<ul>\n<li>Improvement: rename choosen -&gt; chosen, fix chosen sprite</li>\n<li>Feature: added less task to gulp [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"127562644\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/31\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/31/hovercard\" href=\"https://github.com/planette/componette.com/issues/31\">#31</a>]</li>\n<li>Feature: click &amp; copy composer require in addon detail</li>\n<li>Feature: added gulp</li>\n<li>Improvement: templates optimization (seo, alt, title, microformat, twitter)</li>\n<li>Feature: added github ribbon</li>\n<li>Fixed: cli processing</li>\n<li>Feature: added links on categories at homepage</li>\n<li>Feature: added new sorting by last added</li>\n<li>Feature: design tables in addon detail [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"114786483\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/20\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/20/hovercard\" href=\"https://github.com/planette/componette.com/issues/20\">#20</a>]</li>\n<li>Fixed: layout on ipad2 and all others [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"126509015\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/24\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/24/hovercard\" href=\"https://github.com/planette/componette.com/issues/24\">#24</a>]</li>\n<li>Feature: count queued addons in footer statistics</li>\n<li>Improvement: added google validation meta tag</li>\n<li>Improvement: mobile layouts [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"126644447\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/25\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/25/hovercard\" href=\"https://github.com/planette/componette.com/issues/25\">#25</a>] [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"126644569\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/26\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/26/hovercard\" href=\"https://github.com/planette/componette.com/issues/26\">#26</a>]</li>\n<li>Feature: sitemap generator [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"126836243\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/27\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/27/hovercard\" href=\"https://github.com/planette/componette.com/issues/27\">#27</a>]</li>\n<li>Improvement: markdown relative link overriding [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"121867952\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/22\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/22/hovercard\" href=\"https://github.com/planette/componette.com/issues/22\">#22</a>]</li>\n</ul>"
+    "html_url": "https://github.com/planette/componette/releases/tag/v1.0.2",
+    "body": "<h2><g-emoji class=\"g-emoji\" alias=\"dog2\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f415.png\">🐕</g-emoji> v1.0.2</h2>\n<ul>\n<li>Improvement: rename choosen -&gt; chosen, fix chosen sprite</li>\n<li>Feature: added less task to gulp [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"127562644\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/31\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/31/hovercard\" href=\"https://github.com/planette/componette/issues/31\">#31</a>]</li>\n<li>Feature: click &amp; copy composer require in addon detail</li>\n<li>Feature: added gulp</li>\n<li>Improvement: templates optimization (seo, alt, title, microformat, twitter)</li>\n<li>Feature: added github ribbon</li>\n<li>Fixed: cli processing</li>\n<li>Feature: added links on categories at homepage</li>\n<li>Feature: added new sorting by last added</li>\n<li>Feature: design tables in addon detail [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"114786483\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/20\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/20/hovercard\" href=\"https://github.com/planette/componette/issues/20\">#20</a>]</li>\n<li>Fixed: layout on ipad2 and all others [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"126509015\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/24\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/24/hovercard\" href=\"https://github.com/planette/componette/issues/24\">#24</a>]</li>\n<li>Feature: count queued addons in footer statistics</li>\n<li>Improvement: added google validation meta tag</li>\n<li>Improvement: mobile layouts [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"126644447\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/25\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/25/hovercard\" href=\"https://github.com/planette/componette/issues/25\">#25</a>] [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"126644569\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/26\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/26/hovercard\" href=\"https://github.com/planette/componette/issues/26\">#26</a>]</li>\n<li>Feature: sitemap generator [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"126836243\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/27\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/27/hovercard\" href=\"https://github.com/planette/componette/issues/27\">#27</a>]</li>\n<li>Improvement: markdown relative link overriding [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"121867952\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/22\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/22/hovercard\" href=\"https://github.com/planette/componette/issues/22\">#22</a>]</li>\n</ul>"
   },
   "2514539": {
     "org": "planette",
-    "repo": "componette.com",
+    "repo": "componette",
     "tag": "v1.0.3",
     "name": "v1.0.3",
     "created_at": "2016-01-29T08:07:54Z",
     "published_at": "2016-01-29T08:09:16Z",
-    "html_url": "https://github.com/planette/componette.com/releases/tag/v1.0.3",
-    "body": "<h2><g-emoji class=\"g-emoji\" alias=\"book\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4d6.png\">📖</g-emoji> v1.0.3</h2>\n<ul>\n<li>Feature: added new relic monitoring</li>\n<li>Improvement: added tooltip in addon requirements [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"127113294\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/28\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/28/hovercard\" href=\"https://github.com/planette/componette.com/issues/28\">#28</a>]</li>\n<li>Improvement: use latests hightligh.js (yaml plugin)</li>\n<li>Improvement: use https at badges</li>\n<li>Feature: added rss [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"127562269\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/30\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/planette/componette.com/pull/30/hovercard\" href=\"https://github.com/planette/componette.com/pull/30\">#30</a>]</li>\n<li>Docker/Nginx: provide HSTS [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"129218605\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/33\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/33/hovercard\" href=\"https://github.com/planette/componette.com/issues/33\">#33</a>]</li>\n</ul>"
+    "html_url": "https://github.com/planette/componette/releases/tag/v1.0.3",
+    "body": "<h2><g-emoji class=\"g-emoji\" alias=\"book\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4d6.png\">📖</g-emoji> v1.0.3</h2>\n<ul>\n<li>Feature: added new relic monitoring</li>\n<li>Improvement: added tooltip in addon requirements [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"127113294\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/28\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/28/hovercard\" href=\"https://github.com/planette/componette/issues/28\">#28</a>]</li>\n<li>Improvement: use latests hightligh.js (yaml plugin)</li>\n<li>Improvement: use https at badges</li>\n<li>Feature: added rss [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"127562269\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/30\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/planette/componette/pull/30/hovercard\" href=\"https://github.com/planette/componette/pull/30\">#30</a>]</li>\n<li>Docker/Nginx: provide HSTS [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"129218605\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/33\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/33/hovercard\" href=\"https://github.com/planette/componette/issues/33\">#33</a>]</li>\n</ul>"
   },
   "2602242": {
     "org": "planette",
-    "repo": "componette.com",
+    "repo": "componette",
     "tag": "v1.0.4",
     "name": "v1.0.4",
     "created_at": "2016-02-12T12:41:39Z",
     "published_at": "2016-02-12T12:55:20Z",
-    "html_url": "https://github.com/planette/componette.com/releases/tag/v1.0.4",
-    "body": "<h2><g-emoji class=\"g-emoji\" alias=\"gem\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f48e.png\">💎</g-emoji> v1.0.4</h2>\n<ul>\n<li>Fix: change gitter link</li>\n<li>Improvement: update links at github readmes</li>\n<li>Improvement: don't link php-ext dependencies in addon detail to packagist [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"131176078\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/42\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/42/hovercard\" href=\"https://github.com/planette/componette.com/issues/42\">#42</a>]</li>\n<li>Feature: change menu structure (show connected addons at badge, added highlighted items) [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"131176610\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/43\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/43/hovercard\" href=\"https://github.com/planette/componette.com/issues/43\">#43</a>]</li>\n<li>Feature: download readme in HTML format from Github, use github design for addon detail, change syntax highlighter</li>\n<li>Feature: added theme for chrome on mobile</li>\n<li>Improvement: revert addon fullname to <code>owner/name</code> [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"131174872\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/41\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/41/hovercard\" href=\"https://github.com/planette/componette.com/issues/41\">#41</a>]</li>\n<li>Improvement: layout</li>\n<li>Improvement: added final to classes</li>\n<li>Feature: added google analytics campaigns (rss + opensearch)</li>\n<li>Improvement: simplify RSS (move logic to RssFactory)</li>\n</ul>"
+    "html_url": "https://github.com/planette/componette/releases/tag/v1.0.4",
+    "body": "<h2><g-emoji class=\"g-emoji\" alias=\"gem\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f48e.png\">💎</g-emoji> v1.0.4</h2>\n<ul>\n<li>Fix: change gitter link</li>\n<li>Improvement: update links at github readmes</li>\n<li>Improvement: don't link php-ext dependencies in addon detail to packagist [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"131176078\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/42\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/42/hovercard\" href=\"https://github.com/planette/componette/issues/42\">#42</a>]</li>\n<li>Feature: change menu structure (show connected addons at badge, added highlighted items) [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"131176610\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/43\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/43/hovercard\" href=\"https://github.com/planette/componette/issues/43\">#43</a>]</li>\n<li>Feature: download readme in HTML format from Github, use github design for addon detail, change syntax highlighter</li>\n<li>Feature: added theme for chrome on mobile</li>\n<li>Improvement: revert addon fullname to <code>owner/name</code> [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"131174872\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/41\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/41/hovercard\" href=\"https://github.com/planette/componette/issues/41\">#41</a>]</li>\n<li>Improvement: layout</li>\n<li>Improvement: added final to classes</li>\n<li>Feature: added google analytics campaigns (rss + opensearch)</li>\n<li>Improvement: simplify RSS (move logic to RssFactory)</li>\n</ul>"
   },
   "2696923": {
     "org": "planette",
-    "repo": "componette.com",
+    "repo": "componette",
     "tag": "v1.0.5",
     "name": "v1.0.5",
     "created_at": "2016-02-26T15:08:50Z",
     "published_at": "2016-02-26T15:09:59Z",
-    "html_url": "https://github.com/planette/componette.com/releases/tag/v1.0.5",
+    "html_url": "https://github.com/planette/componette/releases/tag/v1.0.5",
     "body": "<h2><g-emoji class=\"g-emoji\" alias=\"fire\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f525.png\">🔥</g-emoji> v1.0.5</h2>\n<ul>\n<li>Feature: opensearch suggestion</li>\n<li>Feature: display all addons byt categories</li>\n<li>Feature: split front modules to Api &amp; Portal</li>\n<li>Improvement: added some addon tags</li>\n<li>Feature: added simple admin module</li>\n<li>Fix: replace &amp; with &amp; at opensearch</li>\n<li>Fix: RSS feed</li>\n<li>Fix: gitter link</li>\n</ul>"
   },
   "2703199": {
@@ -211,13 +211,13 @@
   },
   "2791180": {
     "org": "planette",
-    "repo": "componette.com",
+    "repo": "componette",
     "tag": "v1.0.6",
     "name": "v1.0.6",
     "created_at": "2016-03-11T09:10:31Z",
     "published_at": "2016-03-11T09:10:59Z",
-    "html_url": "https://github.com/planette/componette.com/releases/tag/v1.0.6",
-    "body": "<h2><g-emoji class=\"g-emoji\" alias=\"fallen_leaf\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f342.png\">🍂</g-emoji> v1.0.6</h2>\n<ul>\n<li>Cron: weekly tasks</li>\n<li>Improvement: added simple lightbox [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"137336951\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/49\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/49/hovercard\" href=\"https://github.com/planette/componette.com/issues/49\">#49</a>]</li>\n<li>Improvement: cache page all [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"137661305\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/51\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/51/hovercard\" href=\"https://github.com/planette/componette.com/issues/51\">#51</a>]</li>\n<li>Improvement: fixed too long package name overflows [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"137306270\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/47\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/47/hovercard\" href=\"https://github.com/planette/componette.com/issues/47\">#47</a>]</li>\n<li>Improvement: search autofocus only on homepage [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"137336655\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/48\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/48/hovercard\" href=\"https://github.com/planette/componette.com/issues/48\">#48</a>]</li>\n<li>Feature: cleaning avatars over CLI</li>\n</ul>"
+    "html_url": "https://github.com/planette/componette/releases/tag/v1.0.6",
+    "body": "<h2><g-emoji class=\"g-emoji\" alias=\"fallen_leaf\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f342.png\">🍂</g-emoji> v1.0.6</h2>\n<ul>\n<li>Cron: weekly tasks</li>\n<li>Improvement: added simple lightbox [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"137336951\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/49\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/49/hovercard\" href=\"https://github.com/planette/componette/issues/49\">#49</a>]</li>\n<li>Improvement: cache page all [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"137661305\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/51\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/51/hovercard\" href=\"https://github.com/planette/componette/issues/51\">#51</a>]</li>\n<li>Improvement: fixed too long package name overflows [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"137306270\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/47\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/47/hovercard\" href=\"https://github.com/planette/componette/issues/47\">#47</a>]</li>\n<li>Improvement: search autofocus only on homepage [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"137336655\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/48\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/48/hovercard\" href=\"https://github.com/planette/componette/issues/48\">#48</a>]</li>\n<li>Feature: cleaning avatars over CLI</li>\n</ul>"
   },
   "2941735": {
     "org": "contributte",
@@ -251,13 +251,13 @@
   },
   "3387868": {
     "org": "planette",
-    "repo": "componette.com",
+    "repo": "componette",
     "tag": "v1.0.7",
     "name": "v1.0.7",
     "created_at": "2016-06-07T07:43:35Z",
     "published_at": "2016-06-07T07:44:41Z",
-    "html_url": "https://github.com/planette/componette.com/releases/tag/v1.0.7",
-    "body": "<h2><g-emoji class=\"g-emoji\" alias=\"fallen_leaf\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f342.png\">🍂</g-emoji>  v1.0.7</h2>\n<ul>\n<li>Improvement: added waffle badge to Readme</li>\n<li>Improvement: added github-like buttons</li>\n<li>Improvement: addon detail - added link to github [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"140628850\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/55\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/55/hovercard\" href=\"https://github.com/planette/componette.com/issues/55\">#55</a>]</li>\n<li>Feature: added bower install (same as composer require)</li>\n<li>Improvement: github-like copy &amp; paste title</li>\n<li>Fix: autofocus search form on Homepage</li>\n<li>Feature: change opensearch suggestion</li>\n<li>Fix: default ordering by owner / tag [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"140144296\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/52\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/52/hovercard\" href=\"https://github.com/planette/componette.com/issues/52\">#52</a>]</li>\n<li>Monitoring: monitor composer clipboard &amp;&amp; opening embedded images</li>\n</ul>"
+    "html_url": "https://github.com/planette/componette/releases/tag/v1.0.7",
+    "body": "<h2><g-emoji class=\"g-emoji\" alias=\"fallen_leaf\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f342.png\">🍂</g-emoji>  v1.0.7</h2>\n<ul>\n<li>Improvement: added waffle badge to Readme</li>\n<li>Improvement: added github-like buttons</li>\n<li>Improvement: addon detail - added link to github [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"140628850\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/55\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/55/hovercard\" href=\"https://github.com/planette/componette/issues/55\">#55</a>]</li>\n<li>Feature: added bower install (same as composer require)</li>\n<li>Improvement: github-like copy &amp; paste title</li>\n<li>Fix: autofocus search form on Homepage</li>\n<li>Feature: change opensearch suggestion</li>\n<li>Fix: default ordering by owner / tag [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"140144296\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/52\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/52/hovercard\" href=\"https://github.com/planette/componette/issues/52\">#52</a>]</li>\n<li>Monitoring: monitor composer clipboard &amp;&amp; opening embedded images</li>\n</ul>"
   },
   "3452320": {
     "org": "contributte",
@@ -511,13 +511,13 @@
   },
   "4420626": {
     "org": "planette",
-    "repo": "componette.com",
+    "repo": "componette",
     "tag": "v1.1.0",
     "name": "v1.1.0",
     "created_at": "2016-10-18T16:26:33Z",
     "published_at": "2016-10-18T16:36:56Z",
-    "html_url": "https://github.com/planette/componette.com/releases/tag/v1.1.0",
-    "body": "<h2><g-emoji class=\"g-emoji\" alias=\"sleeping\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f634.png\">😴</g-emoji> v1.1.0</h2>\n<ul>\n<li>Improvement: download github releases in html mode</li>\n<li>Improvement: better readme [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"183195989\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/78\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/78/hovercard\" href=\"https://github.com/planette/componette.com/issues/78\">#78</a>]</li>\n<li>Improvement: addon sidebar [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"183195641\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/77\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/77/hovercard\" href=\"https://github.com/planette/componette.com/issues/77\">#77</a>]</li>\n<li>Feature: added addon releases</li>\n<li>Improvement: common curl client</li>\n<li>Improvement: finalize symfony commands</li>\n<li>Fix: do not disable curl ssl verify [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"152021874\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/60\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/60/hovercard\" href=\"https://github.com/planette/componette.com/issues/60\">#60</a>]</li>\n<li>Feature: added report page/link [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"127113732\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/29\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/29/hovercard\" href=\"https://github.com/planette/componette.com/issues/29\">#29</a>]</li>\n<li>Fix: image resolving also over src [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"152521332\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/64\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/planette/componette.com/pull/64/hovercard\" href=\"https://github.com/planette/componette.com/pull/64\">#64</a>]</li>\n<li>Improvement: sync homepage headline links</li>\n<li>Improvement: convert EOF to unix style [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"148011263\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/57\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/57/hovercard\" href=\"https://github.com/planette/componette.com/issues/57\">#57</a>]</li>\n<li>Improvement: update composer.json (autoloading, classmap, etc)</li>\n<li>Feature: added editorconfig [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"148011263\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/57\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/57/hovercard\" href=\"https://github.com/planette/componette.com/issues/57\">#57</a>]</li>\n<li>Feature: track composer.json [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"152021726\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/59\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/59/hovercard\" href=\"https://github.com/planette/componette.com/issues/59\">#59</a>]</li>\n<li>Feature: update to Nette 2.4, Nette\\Tester 1.7</li>\n</ul>"
+    "html_url": "https://github.com/planette/componette/releases/tag/v1.1.0",
+    "body": "<h2><g-emoji class=\"g-emoji\" alias=\"sleeping\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f634.png\">😴</g-emoji> v1.1.0</h2>\n<ul>\n<li>Improvement: download github releases in html mode</li>\n<li>Improvement: better readme [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"183195989\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/78\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/78/hovercard\" href=\"https://github.com/planette/componette/issues/78\">#78</a>]</li>\n<li>Improvement: addon sidebar [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"183195641\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/77\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/77/hovercard\" href=\"https://github.com/planette/componette/issues/77\">#77</a>]</li>\n<li>Feature: added addon releases</li>\n<li>Improvement: common curl client</li>\n<li>Improvement: finalize symfony commands</li>\n<li>Fix: do not disable curl ssl verify [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"152021874\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/60\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/60/hovercard\" href=\"https://github.com/planette/componette/issues/60\">#60</a>]</li>\n<li>Feature: added report page/link [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"127113732\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/29\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/29/hovercard\" href=\"https://github.com/planette/componette/issues/29\">#29</a>]</li>\n<li>Fix: image resolving also over src [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"152521332\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/64\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/planette/componette/pull/64/hovercard\" href=\"https://github.com/planette/componette/pull/64\">#64</a>]</li>\n<li>Improvement: sync homepage headline links</li>\n<li>Improvement: convert EOF to unix style [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"148011263\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/57\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/57/hovercard\" href=\"https://github.com/planette/componette/issues/57\">#57</a>]</li>\n<li>Improvement: update composer.json (autoloading, classmap, etc)</li>\n<li>Feature: added editorconfig [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"148011263\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/57\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/57/hovercard\" href=\"https://github.com/planette/componette/issues/57\">#57</a>]</li>\n<li>Feature: track composer.json [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"152021726\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/59\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/59/hovercard\" href=\"https://github.com/planette/componette/issues/59\">#59</a>]</li>\n<li>Feature: update to Nette 2.4, Nette\\Tester 1.7</li>\n</ul>"
   },
   "4562585": {
     "org": "contributte",
@@ -1131,13 +1131,13 @@
   },
   "6002989": {
     "org": "planette",
-    "repo": "componette.com",
+    "repo": "componette",
     "tag": "v1.2.0",
     "name": "v1.2.0",
     "created_at": "2017-04-06T18:18:33Z",
     "published_at": "2017-04-06T18:19:32Z",
-    "html_url": "https://github.com/planette/componette.com/releases/tag/v1.2.0",
-    "body": "<h2><g-emoji class=\"g-emoji\" alias=\"joystick\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f579.png\">🕹</g-emoji> v1.2.0</h2>\n<ul>\n<li>Feature: PHP 7.1 [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"203690141\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/87\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/87/hovercard\" href=\"https://github.com/planette/componette.com/issues/87\">#87</a>]</li>\n<li>Feature: layout 2.0 [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"203512978\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/86\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/86/hovercard\" href=\"https://github.com/planette/componette.com/issues/86\">#86</a>]</li>\n<li>Feature: strict coding standard</li>\n<li>Feature: PSR4</li>\n<li>Drop: support bower</li>\n<li>Fix: order addons releases [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"202140771\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/84\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/84/hovercard\" href=\"https://github.com/planette/componette.com/issues/84\">#84</a>]</li>\n<li>Fix: addons tabs URL [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"202141104\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/85\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/85/hovercard\" href=\"https://github.com/planette/componette.com/issues/85\">#85</a>]</li>\n<li>Feature: improve search (thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/artemevsin/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/artemevsin\">@artemevsin</a>)[<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"186731865\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/81\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/planette/componette.com/pull/81/hovercard\" href=\"https://github.com/planette/componette.com/pull/81\">#81</a>][<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"157988192\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/67\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/67/hovercard\" href=\"https://github.com/planette/componette.com/issues/67\">#67</a>]</li>\n<li>Composer: update dependencies</li>\n<li>Fix: Bower/Composer URL in http client</li>\n<li>Feature: added smartlook</li>\n<li>Improvement: load github images via GithubService</li>\n<li>Improvement: synchronize Github commands</li>\n<li>Fix: fix status page</li>\n</ul>"
+    "html_url": "https://github.com/planette/componette/releases/tag/v1.2.0",
+    "body": "<h2><g-emoji class=\"g-emoji\" alias=\"joystick\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f579.png\">🕹</g-emoji> v1.2.0</h2>\n<ul>\n<li>Feature: PHP 7.1 [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"203690141\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/87\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/87/hovercard\" href=\"https://github.com/planette/componette/issues/87\">#87</a>]</li>\n<li>Feature: layout 2.0 [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"203512978\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/86\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/86/hovercard\" href=\"https://github.com/planette/componette/issues/86\">#86</a>]</li>\n<li>Feature: strict coding standard</li>\n<li>Feature: PSR4</li>\n<li>Drop: support bower</li>\n<li>Fix: order addons releases [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"202140771\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/84\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/84/hovercard\" href=\"https://github.com/planette/componette/issues/84\">#84</a>]</li>\n<li>Fix: addons tabs URL [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"202141104\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/85\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/85/hovercard\" href=\"https://github.com/planette/componette/issues/85\">#85</a>]</li>\n<li>Feature: improve search (thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/artemevsin/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/artemevsin\">@artemevsin</a>)[<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"186731865\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/81\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/planette/componette/pull/81/hovercard\" href=\"https://github.com/planette/componette/pull/81\">#81</a>][<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"157988192\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/67\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/67/hovercard\" href=\"https://github.com/planette/componette/issues/67\">#67</a>]</li>\n<li>Composer: update dependencies</li>\n<li>Fix: Bower/Composer URL in http client</li>\n<li>Feature: added smartlook</li>\n<li>Improvement: load github images via GithubService</li>\n<li>Improvement: synchronize Github commands</li>\n<li>Fix: fix status page</li>\n</ul>"
   },
   "6118283": {
     "org": "contributte",
@@ -2707,7 +2707,7 @@
     "created_at": "2018-03-07T06:30:51Z",
     "published_at": "2018-03-09T18:11:57Z",
     "html_url": "https://github.com/contributte/facebook/releases/tag/v0.2",
-    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"1st_place_medal\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f947.png\">🥇</g-emoji></p>\n<p>Diff: <a href=\"https://github.com/contributte/facebook/compare/v0.1...v0.2\">v0.1...v0.2</a></p>\n<p>Changes:</p>\n<ul>\n<li><code>Facebook</code> and <code>FacebookFactory</code> are now services</li>\n<li>Default usage of session PersistentDataHandler + session autostart</li>\n<li>You can now specify <code>state</code> parameter in <code>FacebookLogin::getLoginUrl()</code></li>\n<li><code>defaultGraphVersion</code> and <code>persistentDataHandler</code> added as options</li>\n</ul>"
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"1st_place_medal\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f947.png\">����</g-emoji></p>\n<p>Diff: <a href=\"https://github.com/contributte/facebook/compare/v0.1...v0.2\">v0.1...v0.2</a></p>\n<p>Changes:</p>\n<ul>\n<li><code>Facebook</code> and <code>FacebookFactory</code> are now services</li>\n<li>Default usage of session PersistentDataHandler + session autostart</li>\n<li>You can now specify <code>state</code> parameter in <code>FacebookLogin::getLoginUrl()</code></li>\n<li><code>defaultGraphVersion</code> and <code>persistentDataHandler</code> added as options</li>\n</ul>"
   },
   "10021057": {
     "org": "contributte",
@@ -4011,13 +4011,13 @@
   },
   "14714681": {
     "org": "planette",
-    "repo": "componette.com",
+    "repo": "componette",
     "tag": "v1.3.0",
     "name": "v1.3.0",
     "created_at": "2018-12-27T12:47:29Z",
     "published_at": "2018-12-27T12:49:15Z",
-    "html_url": "https://github.com/planette/componette.com/releases/tag/v1.3.0",
-    "body": "<h2><g-emoji class=\"g-emoji\" alias=\"fallen_leaf\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f342.png\">🍂</g-emoji> v1.3.0</h2>\n<ul>\n<li>Feature: accurate authors sorting in the footer</li>\n<li>Command: addon content has utf8mb4_general_ci collate</li>\n<li>Fix: syntax typo in GithubLinker</li>\n<li>Fix: after deploy errors</li>\n<li>Fix: invalid links on homepage [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"220117123\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/88\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/88/hovercard\" href=\"https://github.com/planette/componette.com/issues/88\">#88</a>]</li>\n<li>Feature: implement phpstan [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"199421638\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/83\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/83/hovercard\" href=\"https://github.com/planette/componette.com/issues/83\">#83</a>]</li>\n<li>Fix: search, empty search, sorting</li>\n<li>Refactoring: drow bower, drop old cron</li>\n<li>Feature: improve design [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"222379524\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/90\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/90/hovercard\" href=\"https://github.com/planette/componette.com/issues/90\">#90</a>]</li>\n<li>Feature: added disqus to addon detail [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"180095404\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/75\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/75/hovercard\" href=\"https://github.com/planette/componette.com/issues/75\">#75</a>]</li>\n<li>Fix: relative links in readme [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"288054307\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/104\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/104/hovercard\" href=\"https://github.com/planette/componette.com/issues/104\">#104</a>] [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"288102866\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/105\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/planette/componette.com/pull/105/hovercard\" href=\"https://github.com/planette/componette.com/pull/105\">#105</a>]</li>\n<li>Feature: upgrade nextras/orm+dbal to v3.0</li>\n<li>Feature: simplify docker image (based on Caddy server)</li>\n<li>Feature: use PHP 7.3</li>\n<li>Fix: URL in Caddy [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"344716232\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/110\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/110/hovercard\" href=\"https://github.com/planette/componette.com/issues/110\">#110</a>][<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"344988473\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette.com/issues/111\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette.com/issues/111/hovercard\" href=\"https://github.com/planette/componette.com/issues/111\">#111</a>]</li>\n<li>Feature: upgrade composer deps, npm deps</li>\n</ul>"
+    "html_url": "https://github.com/planette/componette/releases/tag/v1.3.0",
+    "body": "<h2><g-emoji class=\"g-emoji\" alias=\"fallen_leaf\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f342.png\">🍂</g-emoji> v1.3.0</h2>\n<ul>\n<li>Feature: accurate authors sorting in the footer</li>\n<li>Command: addon content has utf8mb4_general_ci collate</li>\n<li>Fix: syntax typo in GithubLinker</li>\n<li>Fix: after deploy errors</li>\n<li>Fix: invalid links on homepage [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"220117123\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/88\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/88/hovercard\" href=\"https://github.com/planette/componette/issues/88\">#88</a>]</li>\n<li>Feature: implement phpstan [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"199421638\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/83\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/83/hovercard\" href=\"https://github.com/planette/componette/issues/83\">#83</a>]</li>\n<li>Fix: search, empty search, sorting</li>\n<li>Refactoring: drow bower, drop old cron</li>\n<li>Feature: improve design [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"222379524\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/90\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/90/hovercard\" href=\"https://github.com/planette/componette/issues/90\">#90</a>]</li>\n<li>Feature: added disqus to addon detail [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"180095404\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/75\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/75/hovercard\" href=\"https://github.com/planette/componette/issues/75\">#75</a>]</li>\n<li>Fix: relative links in readme [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"288054307\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/104\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/104/hovercard\" href=\"https://github.com/planette/componette/issues/104\">#104</a>] [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"288102866\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/105\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/planette/componette/pull/105/hovercard\" href=\"https://github.com/planette/componette/pull/105\">#105</a>]</li>\n<li>Feature: upgrade nextras/orm+dbal to v3.0</li>\n<li>Feature: simplify docker image (based on Caddy server)</li>\n<li>Feature: use PHP 7.3</li>\n<li>Fix: URL in Caddy [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"344716232\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/110\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/110/hovercard\" href=\"https://github.com/planette/componette/issues/110\">#110</a>][<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"344988473\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/planette/componette/issues/111\" data-hovercard-type=\"issue\" data-hovercard-url=\"/planette/componette/issues/111/hovercard\" href=\"https://github.com/planette/componette/issues/111\">#111</a>]</li>\n<li>Feature: upgrade composer deps, npm deps</li>\n</ul>"
   },
   "14763387": {
     "org": "contributte",
@@ -4337,7 +4337,7 @@
     "created_at": "2019-04-25T05:56:27Z",
     "published_at": "2019-04-25T05:58:18Z",
     "html_url": "https://github.com/contributte/mail/releases/tag/v0.3.0",
-    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"hole\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f573.png\">��</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/mail/compare/v0.2.0...v0.3.0\"><tt>v0.2.0...v0.3.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Readme: improvements</li>\n<li>CI: improvements</li>\n<li>CompositeMailer: throw exception by default</li>\n</ul>\n<p><g-emoji class=\"g-emoji\" alias=\"information_source\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2139.png\">ℹ️</g-emoji> This is last version for Nette 2.4 and PHP 7.1.</p>"
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"hole\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f573.png\">🕳</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/mail/compare/v0.2.0...v0.3.0\"><tt>v0.2.0...v0.3.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Readme: improvements</li>\n<li>CI: improvements</li>\n<li>CompositeMailer: throw exception by default</li>\n</ul>\n<p><g-emoji class=\"g-emoji\" alias=\"information_source\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2139.png\">ℹ️</g-emoji> This is last version for Nette 2.4 and PHP 7.1.</p>"
   },
   "17198719": {
     "org": "ninjify",
@@ -5519,6 +5519,116 @@
     "html_url": "https://github.com/contributte/translation/releases/tag/v0.4.2",
     "body": "<p>Bump!</p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/translation/compare/v0.4.1...v0.4.2\"><tt>v0.4.1...v0.4.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>add conflict for Symfony/Translation ^4.4</li>\n</ul>"
   },
+  "21527981": {
+    "org": "contributte",
+    "repo": "menu-control",
+    "tag": "2.2.0",
+    "name": "v2.2.0",
+    "created_at": "2019-08-30T11:44:28Z",
+    "published_at": "2019-11-16T17:01:29Z",
+    "html_url": "https://github.com/contributte/menu-control/releases/tag/2.2.0",
+    "body": "<ul>\n<li>Nette 3 compatibility</li>\n</ul>"
+  },
+  "21527987": {
+    "org": "contributte",
+    "repo": "menu-control",
+    "tag": "2.1.0",
+    "name": "v2.1.0",
+    "created_at": "2017-08-23T14:08:44Z",
+    "published_at": "2019-11-16T17:02:26Z",
+    "html_url": "https://github.com/contributte/menu-control/releases/tag/2.1.0",
+    "body": "<ul>\n<li>Fixed registration of more menus <a href=\"https://github.com/Carrooi/Nette-Menu/pull/23\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/menu-control/pull/23/hovercard\">#23</a></li>\n<li>Added shortcuts for working with data <a href=\"https://github.com/Carrooi/Nette-Menu/pull/24\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/menu-control/pull/24/hovercard\">#24</a></li>\n</ul>"
+  },
+  "21527990": {
+    "org": "contributte",
+    "repo": "menu-control",
+    "tag": "2.0.0",
+    "name": "v2.0.0",
+    "created_at": "2017-08-06T15:01:57Z",
+    "published_at": "2019-11-16T17:02:50Z",
+    "html_url": "https://github.com/contributte/menu-control/releases/tag/2.0.0",
+    "body": "<ul>\n<li>Refactoring - complete rewrite</li>\n</ul>"
+  },
+  "21527997": {
+    "org": "contributte",
+    "repo": "menu-control",
+    "tag": "1.1.1",
+    "name": "v1.1.1",
+    "created_at": "2015-07-18T13:26:13Z",
+    "published_at": "2019-11-16T17:03:17Z",
+    "html_url": "https://github.com/contributte/menu-control/releases/tag/1.1.1",
+    "body": "<ul>\n<li>Move under Carrooi organization</li>\n</ul>"
+  },
+  "21527999": {
+    "org": "contributte",
+    "repo": "menu-control",
+    "tag": "1.1.0",
+    "name": "v1.1.0",
+    "created_at": "2015-01-09T18:36:56Z",
+    "published_at": "2019-11-16T17:03:44Z",
+    "html_url": "https://github.com/contributte/menu-control/releases/tag/1.1.0",
+    "body": "<ul>\n<li>Support for ACL permissions (thanks <a href=\"https://github.com/whipsterCZ\">whipsterCZ</a>)</li>\n<li>Support for generating sitemap (thanks <a href=\"https://github.com/whipsterCZ\">whipsterCZ</a>)</li>\n</ul>"
+  },
+  "21528002": {
+    "org": "contributte",
+    "repo": "menu-control",
+    "tag": "1.0.4",
+    "name": "v1.0.4",
+    "created_at": "2014-06-08T18:24:27Z",
+    "published_at": "2019-11-16T17:04:06Z",
+    "html_url": "https://github.com/contributte/menu-control/releases/tag/1.0.4",
+    "body": "<ul>\n<li>Added <code>hasIcon</code> and <code>hasCounter</code> methods</li>\n<li>Support for \"absolute\" targets <a href=\"https://github.com/sakren/nette-menu/issues/6\">#6</a></li>\n</ul>"
+  },
+  "21528008": {
+    "org": "contributte",
+    "repo": "menu-control",
+    "tag": "1.0.3",
+    "name": "v1.0.3",
+    "created_at": "2014-06-05T20:42:05Z",
+    "published_at": "2019-11-16T17:04:26Z",
+    "html_url": "https://github.com/contributte/menu-control/releases/tag/1.0.3",
+    "body": "<ul>\n<li>Added shortcut methods for working with item's data <a href=\"https://github.com/sakren/nette-menu/issues/5\">#5</a></li>\n</ul>"
+  },
+  "21528010": {
+    "org": "contributte",
+    "repo": "menu-control",
+    "tag": "1.0.2",
+    "name": "v1.0.2",
+    "created_at": "2014-06-01T16:08:54Z",
+    "published_at": "2019-11-16T17:04:45Z",
+    "html_url": "https://github.com/contributte/menu-control/releases/tag/1.0.2",
+    "body": "<ul>\n<li>Support for \"dynamic\" modules in includes option <a href=\"https://github.com/sakren/nette-menu/issues/4\">#4</a></li>\n</ul>"
+  },
+  "21528013": {
+    "org": "contributte",
+    "repo": "menu-control",
+    "tag": "1.0.1",
+    "name": "v1.0.1",
+    "created_at": "2014-05-08T18:13:04Z",
+    "published_at": "2019-11-16T17:05:09Z",
+    "html_url": "https://github.com/contributte/menu-control/releases/tag/1.0.1",
+    "body": "<ul>\n<li>Include option can be array of targets <a href=\"https://github.com/sakren/nette-menu/issues/1\">#1</a></li>\n<li>Added support for translatable titles <a href=\"https://github.com/sakren/nette-menu/issues/2\">#2</a></li>\n</ul>"
+  },
+  "21528016": {
+    "org": "contributte",
+    "repo": "menu-control",
+    "tag": "1.0.0",
+    "name": "v1.0.0",
+    "created_at": "2014-05-05T09:26:44Z",
+    "published_at": "2019-11-16T17:05:27Z",
+    "html_url": "https://github.com/contributte/menu-control/releases/tag/1.0.0",
+    "body": "<ul>\n<li>First version</li>\n</ul>"
+  },
+  "21528095": {
+    "org": "contributte",
+    "repo": "menu-control",
+    "tag": "2.1.1",
+    "name": "v2.1.1",
+    "created_at": "2018-09-07T06:09:03Z",
+    "published_at": "2019-11-16T17:18:55Z",
+    "html_url": "https://github.com/contributte/menu-control/releases/tag/2.1.1",
+    "body": "<ul>\n<li>Fixed link generation error when using modules introduced in PR <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"355684046\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/contributte/menu-control/issues/32\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/menu-control/pull/32/hovercard\" href=\"https://github.com/contributte/menu-control/pull/32\">#32</a></li>\n</ul>"
+  },
   "21566380": {
     "org": "contributte",
     "repo": "nextras-orm-events",
@@ -5979,6 +6089,16 @@
     "html_url": "https://github.com/contributte/psr11-container-interface/releases/tag/v0.4.1",
     "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/psr11-container-interface/compare/v0.4.0...v0.4.1\"><tt>v0.4.0...v0.4.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Removed nette/utils dependency <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/psr11-container-interface/commit/451ca010afa56189ed13184d77a1b53b7c906fbb/hovercard\" href=\"https://github.com/contributte/psr11-container-interface/commit/451ca010afa56189ed13184d77a1b53b7c906fbb\"><tt>451ca01</tt></a></li>\n</ul>"
   },
+  "22746826": {
+    "org": "contributte",
+    "repo": "forms-bootstrap",
+    "tag": "0.1",
+    "name": "0.1",
+    "created_at": "2020-01-08T23:39:06Z",
+    "published_at": "2020-01-10T15:41:04Z",
+    "html_url": "https://github.com/contributte/forms-bootstrap/releases/tag/0.1",
+    "body": "<ul>\n<li>Nette 3 support</li>\n</ul>"
+  },
   "22852689": {
     "org": "contributte",
     "repo": "api-docu",
@@ -6038,5 +6158,25 @@
     "published_at": "2020-02-11T12:46:07Z",
     "html_url": "https://github.com/contributte/codeception/releases/tag/v1.2.1",
     "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/codeception/compare/v1.2.0...v1.2.1\"><tt>v1.2.0...v1.2.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Fix temporary folder deletion (thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/KacerCZ/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/KacerCZ\">@KacerCZ</a>)</li>\n</ul>"
+  },
+  "23632413": {
+    "org": "contributte",
+    "repo": "codeception",
+    "tag": "v1.3.0",
+    "name": "v1.3.0",
+    "created_at": "2020-02-13T07:36:22Z",
+    "published_at": "2020-02-13T07:37:59Z",
+    "html_url": "https://github.com/contributte/codeception/releases/tag/v1.3.0",
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"elephant\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f418.png\">🐘</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/codeception/compare/v1.2.1...v1.3.0\"><tt>v1.2.1...v1.3.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Codeception v4 (thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/KacerCZ/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/KacerCZ\">@KacerCZ</a>)</li>\n</ul>"
+  },
+  "23678372": {
+    "org": "ninjify",
+    "repo": "coding-standard",
+    "tag": "v0.10",
+    "name": "v0.10",
+    "created_at": "2020-02-13T19:37:02Z",
+    "published_at": "2020-02-14T12:46:49Z",
+    "html_url": "https://github.com/ninjify/coding-standard/releases/tag/v0.10",
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"+1\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png\">👍</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/ninjify/coding-standard/compare/v0.9...v0.10\"><tt>v0.9...v0.10</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Import slevomat sniffs individually</li>\n<li>Requires php ^7.4, sniffs expect code to be php 7.4 compatible</li>\n<li>Requires slevomat/coding-standard ~6.0.5</li>\n</ul>"
   }
 }

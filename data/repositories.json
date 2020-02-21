@@ -59,9 +59,7 @@
     "watchers": 7,
     "forks": 2,
     "composer": {
-      "nette": [
-        "2.4"
-      ],
+      "nette": [],
       "php": [
         "7.2",
         "7.4"
@@ -95,9 +93,7 @@
     "watchers": 9,
     "forks": 3,
     "composer": {
-      "nette": [
-        "3.0"
-      ],
+      "nette": [],
       "php": [
         "7.2",
         "7.4"
@@ -258,12 +254,12 @@
       "last": {
         "org": "contributte",
         "repo": "codeception",
-        "tag": "v1.2.1",
-        "name": "v1.2.1",
-        "created_at": "2020-02-09T16:36:04Z",
-        "published_at": "2020-02-11T12:46:07Z",
-        "html_url": "https://github.com/contributte/codeception/releases/tag/v1.2.1",
-        "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/codeception/compare/v1.2.0...v1.2.1\"><tt>v1.2.0...v1.2.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Fix temporary folder deletion (thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/KacerCZ/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/KacerCZ\">@KacerCZ</a>)</li>\n</ul>"
+        "tag": "v1.3.0",
+        "name": "v1.3.0",
+        "created_at": "2020-02-13T07:36:22Z",
+        "published_at": "2020-02-13T07:37:59Z",
+        "html_url": "https://github.com/contributte/codeception/releases/tag/v1.3.0",
+        "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"elephant\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f418.png\">🐘</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/codeception/compare/v1.2.1...v1.3.0\"><tt>v1.2.1...v1.3.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Codeception v4 (thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/KacerCZ/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/KacerCZ\">@KacerCZ</a>)</li>\n</ul>"
       }
     },
     "stars": 27,
@@ -307,9 +303,7 @@
     "watchers": 29,
     "forks": 13,
     "composer": {
-      "nette": [
-        "3.0"
-      ],
+      "nette": [],
       "php": [
         "7.2",
         "7.4"
@@ -1011,9 +1005,7 @@
     "watchers": 5,
     "forks": 3,
     "composer": {
-      "nette": [
-        "2.4"
-      ],
+      "nette": [],
       "php": [
         "7.2",
         "7.4"
@@ -1601,7 +1593,7 @@
         "7.4"
       ],
       "nette": [
-        "2.4"
+        "3.0"
       ]
     },
     "issues": 0
@@ -3091,12 +3083,12 @@
       "last": {
         "org": "ninjify",
         "repo": "coding-standard",
-        "tag": "v0.9",
-        "name": "v0.9",
-        "created_at": "2019-04-27T17:14:05Z",
-        "published_at": "2019-05-07T15:03:48Z",
-        "html_url": "https://github.com/ninjify/coding-standard/releases/tag/v0.9",
-        "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"+1\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png\">👍</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/ninjify/coding-standard/compare/v0.8...v0.9\"><tt>v0.8...v0.9</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Added <a href=\"https://github.com/gameeapp\">Gamee</a> ruleset [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"428959776\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/ninjify/coding-standard/issues/20\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/ninjify/coding-standard/pull/20/hovercard\" href=\"https://github.com/ninjify/coding-standard/pull/20\">#20</a>]</li>\n<li>Skip some sniffs from slevomat/coding-standard <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/ninjify/coding-standard/commit/b377e66856a9798fbf8b1547b9e684f035df636d/hovercard\" href=\"https://github.com/ninjify/coding-standard/commit/b377e66856a9798fbf8b1547b9e684f035df636d\"><tt>b377e66</tt></a> <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/ninjify/coding-standard/commit/123c81daf8623afde8b5728e8d1a2f664452dbf3/hovercard\" href=\"https://github.com/ninjify/coding-standard/commit/123c81daf8623afde8b5728e8d1a2f664452dbf3\"><tt>123c81d</tt></a></li>\n</ul>"
+        "tag": "v0.10",
+        "name": "v0.10",
+        "created_at": "2020-02-13T19:37:02Z",
+        "published_at": "2020-02-14T12:46:49Z",
+        "html_url": "https://github.com/ninjify/coding-standard/releases/tag/v0.10",
+        "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"+1\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png\">👍</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/ninjify/coding-standard/compare/v0.9...v0.10\"><tt>v0.9...v0.10</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Import slevomat sniffs individually</li>\n<li>Requires php ^7.4, sniffs expect code to be php 7.4 compatible</li>\n<li>Requires slevomat/coding-standard ~6.0.5</li>\n</ul>"
       }
     },
     "stars": 10,
@@ -3105,7 +3097,7 @@
     "issues": 3,
     "composer": {
       "php": [
-        "7.1",
+        "7.4",
         "8.0"
       ]
     }
@@ -3131,6 +3123,42 @@
         "7.4"
       ],
       "nette": []
+    }
+  },
+  "contributte/forms-bootstrap": {
+    "org": "contributte",
+    "name": "forms-bootstrap",
+    "category": "nette-forms",
+    "enabled": true,
+    "priority": 0,
+    "docs": {
+      "v": "v0"
+    },
+    "description": "👾 Bootstrap 4 forms for Nette framework",
+    "releases": {
+      "last": {
+        "org": "contributte",
+        "repo": "forms-bootstrap",
+        "tag": "0.1",
+        "name": "0.1",
+        "created_at": "2020-01-08T23:39:06Z",
+        "published_at": "2020-01-10T15:41:04Z",
+        "html_url": "https://github.com/contributte/forms-bootstrap/releases/tag/0.1",
+        "body": "<ul>\n<li>Nette 3 support</li>\n</ul>"
+      }
+    },
+    "stars": 2,
+    "watchers": 2,
+    "forks": 0,
+    "issues": 0,
+    "composer": {
+      "php": [
+        "7.2",
+        "8.0"
+      ],
+      "nette": [
+        "3.0"
+      ]
     }
   }
 }

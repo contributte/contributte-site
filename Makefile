@@ -1,5 +1,14 @@
 .PHONY: sync
 
+dev:
+	npm run docs:dev
+
+build:
+	npm run docs:build
+
+deploy:
+	now -c
+
 sync:
 	node tools/sync-git
 	node tools/sync-releases

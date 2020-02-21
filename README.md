@@ -21,12 +21,12 @@ There is a template file for the README files which is used in generation phase.
 
 ```
 # Install dependencies
-npm install
+make install
 ```
 
 ```
 # Start dev server 
-npm run docs:dev
+make dev
 ```
 
 **First time**
@@ -43,5 +43,12 @@ make sync
 
 ```
 # Compile sources
-npm run docs:build
+make build
 ```
+
+```
+# Deploy to ZEIT Now
+make deploy
+```
+
+

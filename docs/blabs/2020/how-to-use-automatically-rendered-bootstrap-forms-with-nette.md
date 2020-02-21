@@ -24,9 +24,9 @@ This package is build on top of nette forms and adds few interesting functionali
 ​
 Best and easiest way to install package is with composer.
 ​
-```bash
+```sh
 composer require contributte/forms-bootstrap
-​```
+```
 
 ## Usage
 ​
@@ -46,4 +46,4 @@ By default bootstrap theme would look something like that:
   <img src="/blabs/form-bootstrap.png">
 </div>
 ​​
-<Explanation class="mt-12" type="package"><a class="text-white" href="/packages/contributte/forms-bootstrap/">Try contributte/forms-bootstrap package →</a></Explanation>
+<Explanation class="mt-12" type="package"><a class="text-white" href="/packages/contributte/forms-bootstrap.html">Try contributte/forms-bootstrap package →</a></Explanation>

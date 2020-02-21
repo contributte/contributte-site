@@ -1,8 +1,10 @@
 const { buildSidebar } = require("./utils/buildSidebar");
+const path = require('path');
 
 module.exports = {
   title: "Contributte",
   description: "First class extensions, addons and plugins for Nette Framework. Plenty of examples and tricks for Nette.",
+  dest: path.resolve(__dirname, './../../public'),
   themeConfig: {
     docsDir: "docs",
     docsBranch: "master",

@@ -13,8 +13,8 @@ meta:
     Modern PHP/PSR7 API framework build on top of Nette Framework
   </p>
     <p class="mt-6">
-    <a href="/packages/apitte/core.html" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Get Started →</a>
-    <a href="/examples/#apitte" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Playground</a>
+    <a href="/packages/apitte/core/" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Get Started →</a>
+    <a href="/examples.html#apitte" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Playground</a>
   </p>
 </header>
 

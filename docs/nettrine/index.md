@@ -15,7 +15,7 @@ meta:
     <p class="mt-6">
     <a href="/packages/nettrine/dbal.html" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">DBAL →</a>
     <a href="/packages/nettrine/orm.html" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">ORM →</a>
-    <a href="/examples/#nettrine" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Playground</a>
+    <a href="/examples.html#nettrine" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Playground</a>
   </p>
 </header>
 

@@ -1,5 +1,8 @@
 {
   "version": 2,
   "name": "contributte",
-  "scope": "nette"
+  "scope": "nette",
+  "redirects": [
+    { "source": "/examples/", "destination": "/examples.html" }
+  ]
 }

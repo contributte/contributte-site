@@ -7,7 +7,7 @@
 !/data/vcs
 
 # ZEIT
-/.now
+.now
 
 # VuePress
 /sites/contributte/public

@@ -28,7 +28,6 @@ function cloneRepo(repo) {
 }
 
 function pullRepo(repo) {
-
   console.log(`Pulling [${repo.org}/${repo.name}]: START`);
   const output = spawnSync('git fetch origin master && git reset --hard origin/master', {
     shell: true,

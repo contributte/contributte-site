@@ -53,10 +53,10 @@ function resolvePackagist(repo) {
 
     if (Array.isArray(file)) {
       file.forEach(f => {
-        generateTemplate(repo, f, __dirname + `/../docs/packages/${repo.org}/${repo.name}/${path.basename(f)}`);
+        generateTemplate(repo, f, __dirname + `/../sites/contributte/packages/${repo.org}/${repo.name}/${path.basename(f)}`);
       });
     } else {
-      generateTemplate(repo, file, __dirname + `/../docs/packages/${repo.org}/${repo.name}.md`);
+      generateTemplate(repo, file, __dirname + `/../sites/contributte/packages/${repo.org}/${repo.name}.md`);
     }
   });
 })();

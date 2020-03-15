@@ -1,14 +1,14 @@
 contributte-dev:
-	npx vuepress dev sites/website
+	npx vuepress dev sites/contributte
 
 contributte-build:
-	npx vuepress build sites/website
+	npx vuepress build sites/contributte
 
 contributte-deploy:
-	cd sites/website && now -c
+	cd sites/contributte && now -c
 
 contributte-public:
-	cd sites/website && now -c --prod
+	cd sites/contributte && now -c --prod
 
 data-sync:
 	node tools/sync-git

@@ -3,7 +3,22 @@ layout: HighLayout
 metaTitle: About Contributte
 ---
 
-<h1>Team</h1>
+<h1>About</h1>
+
+<p>
+  Contributte organization is focucing on these main parts:
+</p>
+
+<ul class="my-8 list-disc list-inside">
+  <li>easy to use</li>
+  <li>setup PHP standards and consistency</li>
+  <li>apply latest developement experience</li>
+  <li>feature original Nette packages</li>
+  <li>easily integrate Symfony components</li>
+  <li>integrate other cool PHP packages</li>
+</ul>
+
+<h2>Team</h2>
 
 <p>
   We are group of opensource enthusiasts and together we are building huge ecosystem around <a href="https://nette.org">Nette Framework</a>.

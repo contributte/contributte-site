@@ -10,7 +10,7 @@
 /.now
 
 # VuePress
-/sites/website/public
+/sites/contributte/public
 
 # Tools
 /tools/secret.js

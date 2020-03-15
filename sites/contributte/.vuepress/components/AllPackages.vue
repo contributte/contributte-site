@@ -1,70 +1,77 @@
 <template>
   <div>
-    <p>
-      Awesome
-      <strong>{{ total }}</strong> packages!
-    </p>
-    <table class="table-packages">
-      <tr>
-        <td>Package</td>
-        <td>Latest</td>
-        <td>Stats</td>
-        <td>Nette</td>
-        <td>PHP</td>
-      </tr>
-      <template v-for="(repository) of repositories">
-        <tr>
-          <td class="name" rowspan="2">
-            <a
-              :href="repository | link"
-            >{{ repository.name }} <br> <small>{{ repository.org }}</small></a>
-          </td>
-          <td>
-            <a
-              v-if="repository.releases && repository.releases.last"
-              :href="'https://packagist.org/packages/'+repository.org+'/'+repository.name"
-            >{{repository.releases.last.tag}}</a>
-          </td>
-          <td>⭐ {{ repository.stars }}</td>
-          <td>
-            <template v-if="repository.composer && repository.composer.nette">
-              <span
-                v-for="version in repository.composer.nette"
-                :key="repository.name + '-nette-'+version"
-                :class="'badge--nette--'+version.replace(/\./g,'')"
-                class="badge badge--nette"
-              >{{version}}</span>
-            </template>
-          </td>
-          <td>
-            <span
-              v-if="repository.composer && repository.composer.php"
-              class="badge badge--php"
-            >{{ repository.composer.php[0] }}-{{ repository.composer.php[1] }}</span>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="4" v-html="md.render(repository.description)"></td>
-        </tr>
-      </template>
-    </table>
+    <div class="text-center text-3xl text-gray-700 mb-4">
+      Search in
+      <strong>{{ total }}</strong> awesome packages!
+    </div>
+    <div class="m-auto w-9/12 flex mb-6">
+      <input
+        class="w-full bg-white border border-gray-300 focus:outline-none focus:border-gray-600 rounded-lg py-2 px-4 block appearance-none leading-normal"
+        type="text"
+        placeholder="datagrid"
+        v-model="searching"
+      />
+    </div>
+    <div v-if="filtered.length <= 0" class="text-center">No package found.</div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div v-for="(repository) of filtered" class="bg-white shadow-lg border rounded-lg p-4">
+        <div class="flex flex-row items-center mb-4">
+          <a class="flex-1 text-xl truncate" :href="repository | link">
+            {{ repository.name }}
+            <span class="text-sm text-gray-600">{{ repository.org }}</span>
+          </a>
+          <a
+            class="text-lg text-right"
+            v-if="repository.releases && repository.releases.last"
+            :href="'https://packagist.org/packages/'+repository.org+'/'+repository.name"
+          >
+            <span class="text-sm">{{ repository.stars }} ⭐</span>
+            / {{repository.releases.last.tag}}
+          </a>
+        </div>
+        <div v-html="md.render(repository.description)"></div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import { sortBy } from "lodash-es";
+import _ from "lodash-es";
 import { getEnabledRepositories } from "./../utils/repositories";
 import { createMarkdown } from "./../utils/markdown";
 import { link } from "./../utils/linker";
 
 export default {
   data: () => ({
-    repositories: sortBy(getEnabledRepositories(), "stars").reverse(),
-    md: createMarkdown()
+    repositories: _.sortBy(getEnabledRepositories(), "stars").reverse(),
+    md: createMarkdown(),
+    search: ""
   }),
   computed: {
     total() {
       return this.repositories.length;
+    },
+    filtered() {
+      return _(getEnabledRepositories())
+        .filter(r => {
+          if (this.search.length <= 0) return true;
+          return (
+            r.description.includes(this.search) ||
+            r.name.includes(this.search) ||
+            r.org.includes(this.search)
+          );
+        })
+        .sortBy("stars")
+        .reverse()
+        .value();
+    },
+    searching: {
+      get() {
+        return this.search;
+      },
+      set: _.debounce(function(newValue) {
+        this.search = newValue;
+      }, 300)
     }
   },
   filters: {
@@ -72,19 +79,3 @@ export default {
   }
 };
 </script>
-
-<style lang="scss">
-.table-packages {
-  tr {
-    td.name {
-      white-space: nowrap;
-    }
-    td > p {
-      margin: 0;
-    }
-  }
-  span {
-    margin: 0 1px;
-  }
-}
-</style>

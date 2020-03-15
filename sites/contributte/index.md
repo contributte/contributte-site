@@ -9,7 +9,7 @@ metaTitle: Contributte - First class extensions, addons and plugins for Nette Fr
     <div class="flex-grow-1">
       <img src="/contributte.png" class="m-auto" alt="Contributte" title="Contributte logo" width="150">
       <p class="text-4xl xl:text-5xl leading-12 text-gray-800 mt-6 font-black">
-        First::class <u>extensions</u> <br>for Nette Framework
+        First::class <a href="/packages/" class="font-black underline">extensions</a> <br>for Nette Framework
       </p>
     </div>
     <div class="flex-grow-0 min-w-40 mr-0 ml-auto flex flex-col leading-tight my-8 md:my-0">

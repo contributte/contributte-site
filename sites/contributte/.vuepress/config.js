@@ -25,7 +25,10 @@ module.exports = {
       { text: "About", link: "/about" }
     ],
     lastUpdated: false,
-    sidebar: buildSidebar()
+    sidebar: buildSidebar(),
+    contributte: {
+      packages: 91
+    }
   },
   evergreen: true,
   markdown: {

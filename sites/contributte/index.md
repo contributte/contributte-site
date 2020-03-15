@@ -5,7 +5,7 @@ metaTitle: Contributte - First class extensions, addons and plugins for Nette Fr
 
 <header class="text-center pb-24">
   <h1 class="hidden">Contributte</h1>
-  <div class="md:flex">
+  <div class="md:flex items-center">
     <div class="flex-grow-1">
       <img src="/contributte.png" class="m-auto" alt="Contributte" title="Contributte logo" width="150">
       <p class="text-4xl xl:text-5xl leading-12 text-gray-800 mt-6 font-black">
@@ -15,7 +15,7 @@ metaTitle: Contributte - First class extensions, addons and plugins for Nette Fr
     <div class="flex-grow-0 min-w-40 mr-0 ml-auto flex flex-col leading-tight my-8 md:my-0">
       <div class="shadow-lg rounded-lg">
         <div class="p-6 bg-blue-600 rounded-t-lg text-white">
-          <div class="text-8xl">90+</div>
+          <div class="text-8xl"><a href="/packages/">{{ $themeConfig.contributte.packages }}</a></div>
           <div class="text-2xl font-bold">packages</div>
         </div>
         <div class="p-4 bg-white rounded-b-lg">

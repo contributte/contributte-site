@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import team from "../../../data/team";
+import team from "./../../../../data/team.json";
 
 export default {
   data: () => ({

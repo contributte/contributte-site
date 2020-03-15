@@ -1,15 +1,16 @@
-.PHONY: sync
+contributte-dev:
+	npx vuepress dev sites/website
 
-dev:
-	npm run docs:dev
+contributte-build:
+	npx vuepress build sites/website
 
-build:
-	npm run docs:build
+contributte-deploy:
+	cd sites/website && now -c
 
-deploy:
-	now -c
+contributte-public:
+	cd sites/website && now -c --prod
 
-sync:
+data-sync:
 	node tools/sync-git
 	node tools/sync-releases
 	node tools/sync-latest-release

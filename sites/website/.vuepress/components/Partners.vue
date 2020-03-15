@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import partners from "../../../data/partners";
+import partners from "./../../../../data/partners.json";
 
 export default {
   data: () => ({

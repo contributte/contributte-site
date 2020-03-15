@@ -1,4 +1,4 @@
-import releases from '../../../data/releases';
+import releases from './../../../../data/releases.json';
 import { orderBy, take } from 'lodash';
 
 export function getReleases() {

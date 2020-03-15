@@ -1,3 +1,6 @@
+install:
+	npm ci
+
 contributte-dev:
 	npx vuepress dev sites/contributte
 

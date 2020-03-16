@@ -10,6 +10,9 @@ contributte-build:
 contributte-deploy:
 	cd sites/contributte && now -c
 
+contributte-generate:
+	node tools/generate-packages
+
 contributte-public:
 	cd sites/contributte && now -c --prod
 

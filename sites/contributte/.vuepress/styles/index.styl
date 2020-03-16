@@ -132,6 +132,10 @@ h1,h2,h3,h4,h5,h6
     list-style-type: square
     padding-left: 1.8rem
 
+.search-box
+  input
+    border-radius: 0.5rem !important
+
 .gbuttons
   display: flex
   flex-direction: row
@@ -181,3 +185,9 @@ h1,h2,h3,h4,h5,h6
 
   .xcontainer
     max-width: $contentWidthXL
+
+
+@media screen and (min-width: 959px)
+  .search-box
+    input
+      width: 20rem !important

@@ -155,12 +155,14 @@
       <div class="footer text-gray-900 flex text-md xl:px-0 px-8 text-center md:text-left">
         <div class="flex-grow text-left p-6">
           &copy; Contributte 2020
-          • Based on
-          <a href="https://vuepress.vuejs.org/">VuePress</a>
           • Developed by
           <a href="https://f3l1x.io">Felix</a>
-          • Source
-          <a href="https://github.com/contributte/website">code</a> is open
+          • Generated with
+          <a href="https://vuepress.vuejs.org/">VuePress</a>
+          • Deployed to
+          <a href="https://zeit.co">ZEIT</a> with Now
+          • View
+          <a href="https://github.com/contributte/website">source code</a>
         </div>
       </div>
     </div>

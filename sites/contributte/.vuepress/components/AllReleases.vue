@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="my-6">List of 20 latest releases.</div>
-    <div class="grid grid-cols-2 gap-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
       <div v-for="(release, id) of releases" :key="id" class="mb-6">
         <div class="text-xl">
           <span class="text-gray-600 font-semibold">{{release.created_at|date}}</span>

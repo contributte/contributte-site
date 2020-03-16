@@ -21,14 +21,15 @@
 
 <script>
 import dayjs from "dayjs";
-import { getFewReleases } from "./../utils/releases";
 import { findRepository } from "./../utils/repositories";
 import { link } from "./../utils/linker";
 
 export default {
-  data: () => ({
-    releases: getFewReleases(20)
-  }),
+  computed: {
+    releases() {
+      return this.$page.contributte.releases;
+    }
+  },
   filters: {
     date(s) {
       return dayjs(s).format("DD/MM/YYYY");

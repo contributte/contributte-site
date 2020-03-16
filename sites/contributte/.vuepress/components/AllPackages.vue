@@ -37,13 +37,11 @@
 
 <script>
 import _ from "lodash-es";
-import { getEnabledRepositories } from "./../utils/repositories";
 import { createMarkdown } from "./../utils/markdown";
 import { link } from "./../utils/linker";
 
 export default {
   data: () => ({
-    repositories: _.sortBy(getEnabledRepositories(), "stars").reverse(),
     md: createMarkdown(),
     search: ""
   }),
@@ -51,8 +49,11 @@ export default {
     total() {
       return this.repositories.length;
     },
+    repositories() {
+      return _.sortBy(this.$page.contributte.repositories, "stars").reverse();
+    },
     filtered() {
-      return _(getEnabledRepositories())
+      return _(this.$page.contributte.repositories)
         .filter(r => {
           if (this.search.length <= 0) return true;
           return (

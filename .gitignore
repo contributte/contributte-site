@@ -11,6 +11,7 @@
 
 # VuePress
 /sites/contributte/public
+/sites/status/public
 
 # Tools
 /tools/secret.js

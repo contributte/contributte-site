@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "name": "contributte-status",
+  "scope": "nette",
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/.*", "status": 404, "dest": "404.html" }
+  ]
+}

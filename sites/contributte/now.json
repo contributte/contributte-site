@@ -2,10 +2,8 @@
   "version": 2,
   "name": "contributte",
   "scope": "nette",
-  "redirects": [
-    { "source": "/examples/", "destination": "/examples.html" }
-  ],
   "routes": [
+    { "src": "/examples/", "status": 308, "headers": { "Location": "https://contributte.org/examples.html" } },
     { "handle": "filesystem" },
     { "src": "/.*", "status": 404, "dest": "404.html" }
   ]

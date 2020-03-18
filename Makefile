@@ -30,3 +30,6 @@ status-build:
 
 status-deploy:
 	cd sites/status && now -c
+
+status-publish:
+	cd sites/status && now -c --prod

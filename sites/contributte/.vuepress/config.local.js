@@ -11,7 +11,7 @@ module.exports = {
     docsDir: "docs",
     docsBranch: "master",
     editLinks: false,
-    editLinkText: "aHelp us improve this page!",
+    editLinkText: "Help us improve this page!",
     algolia: {
       apiKey: "e2015bc524d8c80d122709059789e90f",
       indexName: "contributte"

@@ -1,6 +1,6 @@
 ---
 layout: HeroLayout
-metaTitle: Contributte - First class extensions, addons and plugins for Nette Framework. Planty of examples and tricks for Nette.
+metaTitle: Contributte - First class extensions, addons and plugins for Nette Framework. Plenty of examples and tricks for Nette.
 ---
 
 <header class="text-center pb-24">

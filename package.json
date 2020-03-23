@@ -2,13 +2,13 @@
   "name": "contributte",
   "version": "1.0.0",
   "description": "Contributte Website & Docs",
-  "author": "Milan Felix Šulc <milanx@sulc.dev>",
-  "private": true,
+  "author": "Milan Felix Šulc <milan@sulc.dev>",
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.4.0",
     "autoprefixer": "^9.7.4",
     "dayjs": "^1.8.23",
     "debug": "^4.1.1",
+    "esm": "^3.2.25",
     "glob": "^7.1.6",
     "linkify-it": "^2.2.0",
     "lodash": "^4.17.15",
@@ -25,9 +25,7 @@
     "vue": "^2.6.11",
     "vue-server-renderer": "^2.6.11",
     "vuepress": "^1.4.0",
-    "vuepress-plugin-sitemap": "^2.3.1"
-  },
-  "dependencies": {
-    "esm": "^3.2.25"
+    "vuepress-plugin-sitemap": "^2.3.1",
+    "vuepress-plugin-smartlook": "^0.0.4"
   }
 }

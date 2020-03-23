@@ -26,6 +26,6 @@
     "vue-server-renderer": "^2.6.11",
     "vuepress": "^1.4.0",
     "vuepress-plugin-sitemap": "^2.3.1",
-    "vuepress-plugin-smartlook": "^0.0.4"
+    "vuepress-plugin-smartlook": "^0.0.6"
   }
 }

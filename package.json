@@ -13,7 +13,7 @@
     "linkify-it": "^2.2.0",
     "lodash": "^4.17.15",
     "lodash-es": "^4.17.15",
-    "markdown-it-anchor": "^5.2.5",
+    "markdown-it-anchor": "^5.2.7",
     "markdown-it-emoji": "^1.4.0",
     "markdown-it-table-of-contents": "^0.4.4",
     "node-emoji": "^1.10.0",

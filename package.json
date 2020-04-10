@@ -6,7 +6,7 @@
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.4.0",
     "autoprefixer": "^9.7.6",
-    "dayjs": "^1.8.23",
+    "dayjs": "^1.8.24",
     "debug": "^4.1.1",
     "esm": "^3.2.25",
     "glob": "^7.1.6",

@@ -195,7 +195,7 @@
         "created_at": "2017-12-20T12:24:39Z",
         "published_at": "2017-12-20T12:24:53Z",
         "html_url": "https://github.com/contributte/live-form-validation/releases/tag/v1.9.0",
-        "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"factory\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f3ed.png\">🏭</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/live-form-validation/compare/v1.8.0...v1.9.0\"><tt>v1.8.0...v1.9.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>moved under contributte organization</li>\n<li>created NPM package [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"247332868\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/contributte/live-form-validation/issues/35\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/live-form-validation/pull/35/hovercard\" href=\"https://github.com/contributte/live-form-validation/pull/35\">#35</a>]</li>\n<li>added Travis CI releases</li>\n<li>fixed ReferenceError prop is not defined</li>\n<li>fixed range validator for min &amp; max validator [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"282440973\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/contributte/live-form-validation/issues/38\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/live-form-validation/issues/38/hovercard\" href=\"https://github.com/contributte/live-form-validation/issues/38\">#38</a>]</li>\n</ul>"
+        "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"factory\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f3ed.png\">🏭</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/live-form-validation/compare/v1.8.0...v1.9.0\"><tt>v1.8.0...v1.9.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>moved under contributte organization</li>\n<li>created NPM package [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"247332868\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/live-form-validation/issues/35\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/live-form-validation/pull/35/hovercard\" href=\"https://github.com/contributte/live-form-validation/pull/35\">#35</a>]</li>\n<li>added Travis CI releases</li>\n<li>fixed ReferenceError prop is not defined</li>\n<li>fixed range validator for min &amp; max validator [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"282440973\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/live-form-validation/issues/38\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/live-form-validation/issues/38/hovercard\" href=\"https://github.com/contributte/live-form-validation/issues/38\">#38</a>]</li>\n</ul>"
       }
     },
     "stars": 50,
@@ -291,12 +291,12 @@
       "last": {
         "org": "contributte",
         "repo": "reCAPTCHA",
-        "tag": "3.2.0",
-        "name": "v3.2.0",
-        "created_at": "2019-06-05T06:34:31Z",
-        "published_at": "2019-06-05T06:36:08Z",
-        "html_url": "https://github.com/contributte/reCAPTCHA/releases/tag/3.2.0",
-        "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"point_left\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f448.png\">👈</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/reCAPTCHA/compare/3.1.0...3.2.0\"><tt>3.1.0...3.2.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Nette 3.0 [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"428238717\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/contributte/reCAPTCHA/issues/27\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/reCAPTCHA/pull/27/hovercard\" href=\"https://github.com/contributte/reCAPTCHA/pull/27\">#27</a>] (thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/PavelJurasek/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/PavelJurasek\">@PavelJurasek</a>)</li>\n<li>Fix validation message [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"421554486\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/contributte/reCAPTCHA/issues/26\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/reCAPTCHA/pull/26/hovercard\" href=\"https://github.com/contributte/reCAPTCHA/pull/26\">#26</a>]</li>\n</ul>"
+        "tag": "v3.3.0",
+        "name": "v3.3.0",
+        "created_at": "2020-03-08T13:01:49Z",
+        "published_at": "2020-03-08T13:03:12Z",
+        "html_url": "https://github.com/contributte/reCAPTCHA/releases/tag/v3.3.0",
+        "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"black_joker\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f0cf.png\">🃏</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/reCAPTCHA/compare/3.2.0...3.3.0\"><tt>3.2.0...3.3.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow nette/utils 3.1.0</li>\n<li>Fix multiple recaptcha(s)</li>\n</ul>"
       }
     },
     "stars": 29,
@@ -366,7 +366,7 @@
         "created_at": "2017-02-23T12:21:41Z",
         "published_at": "2017-07-31T09:36:31Z",
         "html_url": "https://github.com/contributte/seznamcaptcha/releases/tag/0.3",
-        "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"walking_man\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f6b6.png\">🚶</g-emoji></p>\n<p>Changes:</p>\n<ul>\n<li>enhanced readme</li>\n<li>repair validator [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"184681055\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/contributte/seznamcaptcha/issues/1\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/seznamcaptcha/pull/1/hovercard\" href=\"https://github.com/contributte/seznamcaptcha/pull/1\">#1</a>]</li>\n</ul>"
+        "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"walking\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f6b6.png\">🚶</g-emoji></p>\n<p>Changes:</p>\n<ul>\n<li>enhanced readme</li>\n<li>repair validator [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"184681055\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/seznamcaptcha/issues/1\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/seznamcaptcha/pull/1/hovercard\" href=\"https://github.com/contributte/seznamcaptcha/pull/1\">#1</a>]</li>\n</ul>"
       }
     },
     "stars": 1,
@@ -833,12 +833,12 @@
       "last": {
         "org": "contributte",
         "repo": "forms",
-        "tag": "v0.4.0",
-        "name": "v0.4.0",
-        "created_at": "2019-06-16T13:58:26Z",
-        "published_at": "2019-06-16T16:28:27Z",
-        "html_url": "https://github.com/contributte/forms/releases/tag/v0.4.0",
-        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/forms/compare/v0.3...v0.4.0\"><tt>v0.3...v0.4.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/forms/commit/c58723613f866ac28fbffe1f4c90530beec7d105/hovercard\" href=\"https://github.com/contributte/forms/commit/c58723613f866ac28fbffe1f4c90530beec7d105\"><tt>c587236</tt></a></li>\n<li>Contributte\\Forms(Renderers -&gt; Rendering) <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/forms/commit/7994e661dd5a0d58b80f783732c4d50a34ccda19/hovercard\" href=\"https://github.com/contributte/forms/commit/7994e661dd5a0d58b80f783732c4d50a34ccda19\"><tt>7994e66</tt></a></li>\n<li>ProtectionFastInput <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/forms/commit/d27f2f60d5de7b22a1139be96c7cac4012e407f0/hovercard\" href=\"https://github.com/contributte/forms/commit/d27f2f60d5de7b22a1139be96c7cac4012e407f0\"><tt>d27f2f6</tt></a></li>\n</ul>"
+        "tag": "v0.3.1",
+        "name": "v0.3.1",
+        "created_at": "2020-03-28T08:53:35Z",
+        "published_at": "2020-03-28T08:54:05Z",
+        "html_url": "https://github.com/contributte/forms/releases/tag/v0.3.1",
+        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/forms/compare/v0.3...v0.3.1\"><tt>v0.3...v0.3.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Contributte\\Forms(Renderers -&gt; Rendering) <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/forms/commit/7994e661dd5a0d58b80f783732c4d50a34ccda19/hovercard\" href=\"https://github.com/contributte/forms/commit/7994e661dd5a0d58b80f783732c4d50a34ccda19\"><tt>7994e66</tt></a></li>\n<li>ProtectionFastInput <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/forms/commit/d27f2f60d5de7b22a1139be96c7cac4012e407f0/hovercard\" href=\"https://github.com/contributte/forms/commit/d27f2f60d5de7b22a1139be96c7cac4012e407f0\"><tt>d27f2f6</tt></a></li>\n</ul>"
       }
     },
     "stars": 7,
@@ -1803,12 +1803,12 @@
       "last": {
         "org": "nettrine",
         "repo": "dbal",
-        "tag": "v0.6.2",
-        "name": "v0.6.2",
-        "created_at": "2020-01-16T16:19:43Z",
-        "published_at": "2020-01-16T16:20:57Z",
-        "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.6.2",
-        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/dbal/compare/v0.6.1...v0.6.2\"><tt>v0.6.1...v0.6.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Fixed resultCache config <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/fd9052bd873cfbd4c10af703bf4b5c4725dd8486/hovercard\" href=\"https://github.com/nettrine/dbal/commit/fd9052bd873cfbd4c10af703bf4b5c4725dd8486\"><tt>fd9052b</tt></a></li>\n</ul>"
+        "tag": "v0.6.3",
+        "name": "v0.6.3",
+        "created_at": "2020-04-04T18:38:48Z",
+        "published_at": "2020-04-10T09:09:42Z",
+        "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.6.3",
+        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/dbal/compare/v0.6.2...v0.6.3\"><tt>v0.6.2...v0.6.3</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Simplify registration of DQL types <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/a253cd3cdbfa3204607103a3dc96ddfb5c2d8c72/hovercard\" href=\"https://github.com/nettrine/dbal/commit/a253cd3cdbfa3204607103a3dc96ddfb5c2d8c72\"><tt>a253cd3</tt></a></li>\n<li>Allow to sort queries in Tracy bar <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/42fdb21ecb33c3a10560f245452892c3639b1420/hovercard\" href=\"https://github.com/nettrine/dbal/commit/42fdb21ecb33c3a10560f245452892c3639b1420\"><tt>42fdb21</tt></a></li>\n<li>Polish readme</li>\n</ul>"
       }
     },
     "stars": 10,
@@ -1840,12 +1840,12 @@
       "last": {
         "org": "nettrine",
         "repo": "orm",
-        "tag": "v0.5.0",
-        "name": "v0.5.0",
-        "created_at": "2020-01-07T00:39:34Z",
-        "published_at": "2020-01-07T00:42:14Z",
-        "html_url": "https://github.com/nettrine/orm/releases/tag/v0.5.0",
-        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/orm/compare/v0.4.1...v0.5.0\"><tt>v0.4.1...v0.5.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allows symfony/console ^5.0.0 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/3cf7ef3446fc4f06d5e87597ec1d1948b6d68a9c/hovercard\" href=\"https://github.com/nettrine/orm/commit/3cf7ef3446fc4f06d5e87597ec1d1948b6d68a9c\"><tt>3cf7ef3</tt></a></li>\n<li>Requires nettrine/annotations <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/1c8b5ac9295fc36fd8fcfb3f3861db96502ac2d1/hovercard\" href=\"https://github.com/nettrine/orm/commit/1c8b5ac9295fc36fd8fcfb3f3861db96502ac2d1\"><tt>1c8b5ac</tt></a></li>\n<li>Requires nettrine/cache <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/8f0bf73e0c339200d906c45cd296e702055a4f55/hovercard\" href=\"https://github.com/nettrine/orm/commit/8f0bf73e0c339200d906c45cd296e702055a4f55\"><tt>8f0bf73</tt></a></li>\n<li>Added .phpstorm.meta.php file <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/b6e683a94cce0c06b07767d41bd7bfe6edb60139/hovercard\" href=\"https://github.com/nettrine/orm/commit/b6e683a94cce0c06b07767d41bd7bfe6edb60139\"><tt>b6e683a</tt></a></li>\n<li>Deprecate trait Id <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/1d5c63f2998a0c430f3660f2eaa1daeaba48d5c0/hovercard\" href=\"https://github.com/nettrine/orm/commit/1d5c63f2998a0c430f3660f2eaa1daeaba48d5c0\"><tt>1d5c63f</tt></a></li>\n<li>Drop nette/utils dependency<br>\n<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/ad569f9e534d5b194c3e8fd8ad5c57e68f32187d/hovercard\" href=\"https://github.com/nettrine/orm/commit/ad569f9e534d5b194c3e8fd8ad5c57e68f32187d\"><tt>ad569f9</tt></a> <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/0ac7b3c9df249f90c59625e936c105a5787fd855/hovercard\" href=\"https://github.com/nettrine/orm/commit/0ac7b3c9df249f90c59625e936c105a5787fd855\"><tt>0ac7b3c</tt></a></li>\n<li>Poolished readme <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/648f0f9aaf528f0080aaed57e5005c6d0a2573ef/hovercard\" href=\"https://github.com/nettrine/orm/commit/648f0f9aaf528f0080aaed57e5005c6d0a2573ef\"><tt>648f0f9</tt></a></li>\n</ul>"
+        "tag": "v0.6.0",
+        "name": "v0.6.0",
+        "created_at": "2020-04-10T09:05:43Z",
+        "published_at": "2020-04-10T09:06:10Z",
+        "html_url": "https://github.com/nettrine/orm/releases/tag/v0.6.0",
+        "body": "<p>Diff: <a href=\"https://github.com/nettrine/orm/compare/v0.5.0..v0.6.0\">https://github.com/nettrine/orm/compare/v0.5.0..v0.6.0</a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow to register filters [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"586062132\" data-permission-text=\"Title is private\" data-url=\"https://github.com/nettrine/orm/issues/72\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/nettrine/orm/pull/72/hovercard\" href=\"https://github.com/nettrine/orm/pull/72\">#72</a>] <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/9fe0db421451d1f081958f576a2d4c817ed4df21/hovercard\" href=\"https://github.com/nettrine/orm/commit/9fe0db421451d1f081958f576a2d4c817ed4df21\"><tt>9fe0db4</tt></a></li>\n<li>Simplify EntityManagerDecorator <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/1004c72a910ee52dab91fb87150aad146a568239/hovercard\" href=\"https://github.com/nettrine/orm/commit/1004c72a910ee52dab91fb87150aad146a568239\"><tt>1004c72</tt></a></li>\n<li>Switch <code>mappingDriver</code> to MappingDriverChain [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"336478592\" data-permission-text=\"Title is private\" data-url=\"https://github.com/nettrine/orm/issues/27\" data-hovercard-type=\"issue\" data-hovercard-url=\"/nettrine/orm/issues/27/hovercard\" href=\"https://github.com/nettrine/orm/issues/27\">#27</a>]</li>\n<li>Fix <code>secondLevelCache</code> schema <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/b2fa8b9b35ec30a612b831e8527c82d0ce707f20/hovercard\" href=\"https://github.com/nettrine/orm/commit/b2fa8b9b35ec30a612b831e8527c82d0ce707f20\"><tt>b2fa8b9</tt></a></li>\n<li>Sync <code>entityNamespaces</code> schema</li>\n<li>Polished readme</li>\n<li>Polished tests</li>\n</ul>"
       }
     },
     "stars": 35,
@@ -1874,12 +1874,12 @@
       "last": {
         "org": "nettrine",
         "repo": "fixtures",
-        "tag": "v0.5.1",
-        "name": "v0.5.1",
-        "created_at": "2020-01-05T01:08:47Z",
-        "published_at": "2020-01-05T01:09:50Z",
-        "html_url": "https://github.com/nettrine/fixtures/releases/tag/v0.5.1",
-        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/fixtures/compare/v0.5.0...v0.5.1\"><tt>v0.5.0...v0.5.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allows symfony/console ^5.0.0 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/fixtures/commit/90576018330c57dcd278613e87c5e5b105b826b8/hovercard\" href=\"https://github.com/nettrine/fixtures/commit/90576018330c57dcd278613e87c5e5b105b826b8\"><tt>9057601</tt></a></li>\n</ul>"
+        "tag": "v0.5.2",
+        "name": "v0.5.2",
+        "created_at": "2020-01-29T20:59:15Z",
+        "published_at": "2020-04-10T09:12:42Z",
+        "html_url": "https://github.com/nettrine/fixtures/releases/tag/v0.5.2",
+        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/fixtures/compare/v0.5.1...v0.5.2\"><tt>v0.5.1...v0.5.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Polish readme + doc</li>\n</ul>"
       }
     },
     "stars": 6,
@@ -1910,12 +1910,12 @@
       "last": {
         "org": "nettrine",
         "repo": "migrations",
-        "tag": "v0.6.1",
-        "name": "v0.6.1",
-        "created_at": "2020-01-05T01:14:13Z",
-        "published_at": "2020-01-05T01:15:15Z",
-        "html_url": "https://github.com/nettrine/migrations/releases/tag/v0.6.1",
-        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/migrations/compare/v0.6.0...v0.6.1\"><tt>v0.6.0...v0.6.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allows symfony/console ^5.0.0 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/migrations/commit/bc7a2cb8831d4197cb1f69c1b0c9553efc8d68f7/hovercard\" href=\"https://github.com/nettrine/migrations/commit/bc7a2cb8831d4197cb1f69c1b0c9553efc8d68f7\"><tt>bc7a2cb</tt></a></li>\n</ul>"
+        "tag": "v0.6.2",
+        "name": "v0.6.2",
+        "created_at": "2020-01-30T08:35:29Z",
+        "published_at": "2020-04-10T09:11:36Z",
+        "html_url": "https://github.com/nettrine/migrations/releases/tag/v0.6.2",
+        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/migrations/compare/v0.6.1...v0.6.2\"><tt>v0.6.1...v0.6.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Polish doc &amp; readme</li>\n</ul>"
       }
     },
     "stars": 23,
@@ -2081,12 +2081,12 @@
       "last": {
         "org": "nettrine",
         "repo": "annotations",
-        "tag": "v0.6.0",
-        "name": "v0.6.0",
-        "created_at": "2019-11-26T17:19:39Z",
-        "published_at": "2019-11-26T16:37:16Z",
-        "html_url": "https://github.com/nettrine/annotations/releases/tag/v0.6.0",
-        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/annotations/compare/v0.5.0...v0.6.0\"><tt>v0.5.0...v0.6.0</tt></a></p>\n<p>Changes: <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/annotations/commit/7a3010f8cdbf5257b9af42658c7a4aac655f178a/hovercard\" href=\"https://github.com/nettrine/annotations/commit/7a3010f8cdbf5257b9af42658c7a4aac655f178a\"><tt>7a3010f</tt></a></p>\n<ul>\n<li>annotations <code>persistent</code> and <code>serializationVersion</code> are ignored by default</li>\n<li><code>cache</code> config accepts only services, referencing cache by name <code>filesystem</code>, <code>apcu</code> etc. is not possible</li>\n<li>an autowired cache is used by default (<a href=\"https://github.com/nettrine/cache\">nettrine/cache</a> is recommended)</li>\n</ul>"
+        "tag": "v0.6.1",
+        "name": "v0.6.1",
+        "created_at": "2020-01-29T20:17:24Z",
+        "published_at": "2020-04-10T09:14:32Z",
+        "html_url": "https://github.com/nettrine/annotations/releases/tag/v0.6.1",
+        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/annotations/compare/v0.6.0...v0.6.1\"><tt>v0.6.0...v0.6.1</tt></a></p>\n<p>Changes</p>\n<ul>\n<li>Rely on nettrine/cache directly <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/annotations/commit/9b3cf661a9c21825e8840abef274f58ca5370e39/hovercard\" href=\"https://github.com/nettrine/annotations/commit/9b3cf661a9c21825e8840abef274f58ca5370e39\"><tt>9b3cf66</tt></a></li>\n<li>Polish readme + doc</li>\n</ul>"
       }
     },
     "stars": 5,
@@ -2131,12 +2131,12 @@
       "last": {
         "org": "nettrine",
         "repo": "cache",
-        "tag": "v0.1.0",
-        "name": "v0.1.0",
-        "created_at": "2019-11-26T15:14:51Z",
-        "published_at": "2019-11-26T15:22:51Z",
-        "html_url": "https://github.com/nettrine/cache/releases/tag/v0.1.0",
-        "body": "<p>Initial release</p>"
+        "tag": "v0.2.0",
+        "name": "v0.2.0",
+        "created_at": "2020-04-10T09:16:11Z",
+        "published_at": "2020-04-10T09:16:22Z",
+        "html_url": "https://github.com/nettrine/cache/releases/tag/v0.2.0",
+        "body": "<p>Diff: <a href=\"https://github.com/nettrine/cache/compare/v0.1.0..v0.2.0\">https://github.com/nettrine/cache/compare/v0.1.0..v0.2.0</a></p>\n<p>Changes:</p>\n<ul>\n<li>Upgrade deps</li>\n<li>Polish doc &amp; readme</li>\n</ul>"
       }
     }
   },
@@ -2432,7 +2432,7 @@
         "created_at": "2018-02-22T11:14:47Z",
         "published_at": "2018-02-22T11:46:56Z",
         "html_url": "https://github.com/contributte/gopay/releases/tag/v3.2.0",
-        "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"falkland_islands\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f1eb-1f1f0.png\">🇫🇰</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/gopay/compare/v3.1.3...v3.2.0\"><tt>v3.1.3...v3.2.0</tt></a></p>\n<p>Novinky:</p>\n<ul>\n<li>podpora PHP 7.2</li>\n<li>odstraneni Nette\\Object [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"298710352\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/contributte/gopay/issues/69\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/gopay/pull/69/hovercard\" href=\"https://github.com/contributte/gopay/pull/69\">#69</a>][<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"288397364\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/contributte/gopay/issues/67\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/gopay/issues/67/hovercard\" href=\"https://github.com/contributte/gopay/issues/67\">#67</a>]</li>\n<li>order ID je nyni string [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"274429373\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/contributte/gopay/issues/64\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/gopay/issues/64/hovercard\" href=\"https://github.com/contributte/gopay/issues/64\">#64</a>] [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"274434147\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/contributte/gopay/issues/65\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/gopay/pull/65/hovercard\" href=\"https://github.com/contributte/gopay/pull/65\">#65</a>]</li>\n</ul>"
+        "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"falkland_islands\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f1eb-1f1f0.png\">🇫🇰</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/gopay/compare/v3.1.3...v3.2.0\"><tt>v3.1.3...v3.2.0</tt></a></p>\n<p>Novinky:</p>\n<ul>\n<li>podpora PHP 7.2</li>\n<li>odstraneni Nette\\Object [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"298710352\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/gopay/issues/69\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/gopay/pull/69/hovercard\" href=\"https://github.com/contributte/gopay/pull/69\">#69</a>][<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"288397364\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/gopay/issues/67\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/gopay/issues/67/hovercard\" href=\"https://github.com/contributte/gopay/issues/67\">#67</a>]</li>\n<li>order ID je nyni string [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"274429373\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/gopay/issues/64\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/gopay/issues/64/hovercard\" href=\"https://github.com/contributte/gopay/issues/64\">#64</a>] [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"274434147\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/gopay/issues/65\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/gopay/pull/65/hovercard\" href=\"https://github.com/contributte/gopay/pull/65\">#65</a>]</li>\n</ul>"
       }
     },
     "stars": 63,
@@ -2468,7 +2468,7 @@
         "created_at": "2020-01-01T12:29:09Z",
         "published_at": "2020-01-05T10:25:32Z",
         "html_url": "https://github.com/contributte/gopay-inline/releases/tag/v1.2.2",
-        "body": "<h3>DIFF</h3>\n<p><a class=\"commit-link\" href=\"https://github.com/contributte/gopay-inline/compare/v1.2.1...v1.2.2\"><tt>v1.2.1...v1.2.2</tt></a></p>\n<h3>CHANGES</h3>\n<ul>\n<li>travis: update PHP 7.4 build config (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"541411995\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/contributte/gopay-inline/issues/60\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/gopay-inline/pull/60/hovercard\" href=\"https://github.com/contributte/gopay-inline/pull/60\">#60</a>)</li>\n<li>Contributte style (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"542379885\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/contributte/gopay-inline/issues/61\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/gopay-inline/pull/61/hovercard\" href=\"https://github.com/contributte/gopay-inline/pull/61\">#61</a>)</li>\n</ul>"
+        "body": "<h3>DIFF</h3>\n<p><a class=\"commit-link\" href=\"https://github.com/contributte/gopay-inline/compare/v1.2.1...v1.2.2\"><tt>v1.2.1...v1.2.2</tt></a></p>\n<h3>CHANGES</h3>\n<ul>\n<li>travis: update PHP 7.4 build config (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"541411995\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/gopay-inline/issues/60\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/gopay-inline/pull/60/hovercard\" href=\"https://github.com/contributte/gopay-inline/pull/60\">#60</a>)</li>\n<li>Contributte style (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"542379885\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/gopay-inline/issues/61\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/gopay-inline/pull/61/hovercard\" href=\"https://github.com/contributte/gopay-inline/pull/61\">#61</a>)</li>\n</ul>"
       }
     },
     "stars": 20,
@@ -2538,7 +2538,7 @@
         "created_at": "2020-01-07T14:30:24Z",
         "published_at": "2020-01-07T14:31:04Z",
         "html_url": "https://github.com/contributte/anabelle/releases/tag/v2.2.0",
-        "body": "<h1>Bump! <g-emoji class=\"g-emoji\" alias=\"weight_lifting_man\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f3cb.png\">🏋️‍♂️</g-emoji></h1>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/anabelle/compare/v2.1.0...v2.2.0\"><tt>v2.1.0...v2.2.0</tt></a></p>\n<ul>\n<li>layout.js: setting  element data-section attribute on section change</li>\n</ul>"
+        "body": "<h1>Bump! <g-emoji class=\"g-emoji\" alias=\"weight_lifting_man\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f3cb-2642.png\">🏋️‍♂️</g-emoji></h1>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/anabelle/compare/v2.1.0...v2.2.0\"><tt>v2.1.0...v2.2.0</tt></a></p>\n<ul>\n<li>layout.js: setting  element data-section attribute on section change</li>\n</ul>"
       }
     },
     "stars": 14,
@@ -2641,12 +2641,12 @@
       "last": {
         "org": "contributte",
         "repo": "forms-wizard",
-        "tag": "2.0.1",
+        "tag": "3.0.0",
         "name": "",
-        "created_at": "2019-06-27T16:05:38Z",
-        "published_at": "2019-06-27T16:06:12Z",
-        "html_url": "https://github.com/contributte/forms-wizard/releases/tag/2.0.1",
-        "body": ""
+        "created_at": "2020-03-14T13:19:20Z",
+        "published_at": "2020-03-15T16:46:37Z",
+        "html_url": "https://github.com/contributte/forms-wizard/releases/tag/3.0.0",
+        "body": "<p>contributte</p>"
       }
     },
     "stars": 8,
@@ -2691,12 +2691,12 @@
       "last": {
         "org": "contributte",
         "repo": "datagrid",
-        "tag": "v6.2.9",
-        "name": "v6.2.9",
-        "created_at": "2020-01-22T09:15:50Z",
-        "published_at": "2020-01-22T09:24:38Z",
-        "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.9",
-        "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"dark_sunglasses\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f576.png\">🕶</g-emoji></p>\n<ul>\n<li>Fixed Multiple column Aggregation Function rendering</li>\n<li>Added Multiple column Aggregation Function docs</li>\n<li>Added interface <code>ISingleColumnAggregationFunction</code> (which should be used for single column aggregation functions from now on, potential BC Break, not actual because the method <code>::render()</code> should be already implemented)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.8...v6.2.9\"><tt>v6.2.8...v6.2.9</tt></a></p>"
+        "tag": "v6.2.11",
+        "name": "v6.2.11",
+        "created_at": "2020-03-17T11:00:45Z",
+        "published_at": "2020-03-19T15:08:03Z",
+        "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.11",
+        "body": "<p>Bump!</p>\n<ul>\n<li>Naja support imporvement (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/n3t/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/n3t\">@n3t</a>)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.10...v6.2.11\"><tt>v6.2.10...v6.2.11</tt></a></p>"
       }
     },
     "stars": 181,
@@ -2834,12 +2834,12 @@
       "last": {
         "org": "contributte",
         "repo": "translation",
-        "tag": "v0.6.0",
-        "name": "v0.6.0",
-        "created_at": "2019-12-16T16:50:01Z",
-        "published_at": "2019-12-16T17:43:36Z",
-        "html_url": "https://github.com/contributte/translation/releases/tag/v0.6.0",
-        "body": "<p>Bump!</p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/translation/compare/v0.5.0...v0.6.0\"><tt>v0.5.0...v0.6.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>decrease minimal PHP version to 7.1.3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/translation/commit/d91b81bcbbfe04327ff827caaab2a96da45805bc/hovercard\" href=\"https://github.com/contributte/translation/commit/d91b81bcbbfe04327ff827caaab2a96da45805bc\"><tt>d91b81b</tt></a></li>\n<li>allow autowiring translator by Symfony\\Contracts\\Translation\\TranslatorInterface <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/translation/commit/cad503e616a9da8b7b1d0cb7938f8fbc9aabdde1/hovercard\" href=\"https://github.com/contributte/translation/commit/cad503e616a9da8b7b1d0cb7938f8fbc9aabdde1\"><tt>cad503e</tt></a> (tnx <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/jiripudil/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/jiripudil\">@jiripudil</a>)</li>\n<li>updated phpstan to v0.12 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/translation/commit/147c541317ccac9abf5b3c771d953621f7c4bf2b/hovercard\" href=\"https://github.com/contributte/translation/commit/147c541317ccac9abf5b3c771d953621f7c4bf2b\"><tt>147c541</tt></a> and <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/translation/commit/9e1c6813a9caaeb5c3d0a78ff11c26a526275b6f/hovercard\" href=\"https://github.com/contributte/translation/commit/9e1c6813a9caaeb5c3d0a78ff11c26a526275b6f\"><tt>9e1c681</tt></a> (tnx <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/adaamz/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/adaamz\">@adaamz</a>)</li>\n</ul>"
+        "tag": "v0.6.1",
+        "name": "v0.6.1",
+        "created_at": "2020-03-04T08:54:01Z",
+        "published_at": "2020-03-13T08:42:43Z",
+        "html_url": "https://github.com/contributte/translation/releases/tag/v0.6.1",
+        "body": "<p>Bump!</p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/translation/compare/v0.6.0...v0.6.1\"><tt>v0.6.0...v0.6.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>pluralization in Tracy bar <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/translation/commit/6ed756b905d7991f29f1a0f6060cfc86c1eac275/hovercard\" href=\"https://github.com/contributte/translation/commit/6ed756b905d7991f29f1a0f6060cfc86c1eac275\"><tt>6ed756b</tt></a> (tnx <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/petrparolek/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/petrparolek\">@petrparolek</a>)</li>\n<li>readme improvements (tnx <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Gappa/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Gappa\">@Gappa</a>)</li>\n</ul>"
       }
     },
     "stars": 19,

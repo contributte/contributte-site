@@ -1207,7 +1207,7 @@
     "created_at": "2017-05-02T14:08:19Z",
     "published_at": "2017-05-03T11:00:40Z",
     "html_url": "https://github.com/contributte/psr7-http-message/releases/tag/v0.1.4",
-    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"honey_pot\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f36f.png\">����</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/psr7-http-message/compare/v0.1.3...v0.1.4\"><tt>v0.1.3...v0.1.4</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>fixed handling uploaded files [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"225706563\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/psr7-http-message/issues/2\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/psr7-http-message/issues/2/hovercard\" href=\"https://github.com/contributte/psr7-http-message/issues/2\">#2</a>]</li>\n</ul>"
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"honey_pot\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f36f.png\">🍯</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/psr7-http-message/compare/v0.1.3...v0.1.4\"><tt>v0.1.3...v0.1.4</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>fixed handling uploaded files [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"225706563\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/psr7-http-message/issues/2\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/psr7-http-message/issues/2/hovercard\" href=\"https://github.com/contributte/psr7-http-message/issues/2\">#2</a>]</li>\n</ul>"
   },
   "6369804": {
     "org": "ninjify",
@@ -6338,5 +6338,45 @@
     "published_at": "2020-04-10T09:16:22Z",
     "html_url": "https://github.com/nettrine/cache/releases/tag/v0.2.0",
     "body": "<p>Diff: <a href=\"https://github.com/nettrine/cache/compare/v0.1.0..v0.2.0\">https://github.com/nettrine/cache/compare/v0.1.0..v0.2.0</a></p>\n<p>Changes:</p>\n<ul>\n<li>Upgrade deps</li>\n<li>Polish doc &amp; readme</li>\n</ul>"
+  },
+  "25698376": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v5.7.5",
+    "name": "v5.7.5",
+    "created_at": "2020-04-20T20:57:32Z",
+    "published_at": "2020-04-20T21:01:08Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v5.7.5",
+    "body": "<p>Bump!</p>\n<ul>\n<li>Fixed group action hiding (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/novotnej/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/novotnej\">@novotnej</a>)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v5.7.4...v5.7.5\"><tt>v5.7.4...v5.7.5</tt></a></p>"
+  },
+  "25698392": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v6.2.12",
+    "name": "v6.2.12",
+    "created_at": "2020-04-20T20:59:00Z",
+    "published_at": "2020-04-20T21:01:30Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.12",
+    "body": "<p>Bump!</p>\n<ul>\n<li>Fixed group action hiding (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/novotnej/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/novotnej\">@novotnej</a>)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.11...v6.2.12\"><tt>v6.2.11...v6.2.12</tt></a></p>"
+  },
+  "25699946": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v6.2.13",
+    "name": "v6.2.13",
+    "created_at": "2020-04-20T21:50:42Z",
+    "published_at": "2020-04-20T21:53:44Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.13",
+    "body": "<p>Bump!</p>\n<ul>\n<li>filter template BS fixes</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.12...v6.2.13\"><tt>v6.2.12...v6.2.13</tt></a></p>"
+  },
+  "25700345": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v6.2.14",
+    "name": "v6.2.14",
+    "created_at": "2020-04-20T22:08:03Z",
+    "published_at": "2020-04-20T22:08:36Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.14",
+    "body": "<p>Bump!</p>\n<ul>\n<li>Fix items detail form parameter in detail template (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/vitkutny/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/vitkutny\">@vitkutny</a>)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.13...v6.2.14\"><tt>v6.2.13...v6.2.14</tt></a></p>"
   }
 }

@@ -48,9 +48,6 @@
                   <strong>Feed</strong>
                 </li>
                 <li>
-                  <a href="https://twitter.org/contributte">@contributte</a>
-                </li>
-                <li>
                   <a href="https://twitter.com/xf3l1x">@xf3l1x</a>
                 </li>
                 <li>

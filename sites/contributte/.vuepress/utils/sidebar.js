@@ -1,12 +1,12 @@
 import _ from "lodash";
-import repositories from './../../../../data/repositories.json';
+import { getEnabledRepositories } from './repositories';
 
 export function buildSidebar() {
   const sidebar = {};
 
-  _(repositories)
-    .filter(r => r.enabled)
+  getEnabledRepositories()
     .forEach(r => {
+      console.log(r);
       const title = r.title ? r.title : _.capitalize(_.replace(r.name, /-/g, ' '));
 
       if (r.docs.v === 'v2') {
@@ -22,6 +22,8 @@ export function buildSidebar() {
         sidebar[`/packages/${r.org}/${r.name}.html`] = [[`/packages/${r.org}/${r.name}.html`, title]];
       }
     });
+
+console.log(sidebar);
 
   return sidebar;
 }

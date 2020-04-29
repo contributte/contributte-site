@@ -2,10 +2,11 @@ const _ = require('lodash');
 const path = require("path");
 const fs = require("fs");
 
-const CONFIG = require('./config');
+// Config
+const CONFIG = require('./../../contributte');
 
 function generateTemplate(repo, srcPath, destPath) {
-  const template = fs.readFileSync(__dirname + '/../data/templates/examples.tpl');
+  const template = fs.readFileSync(path.resolve(__dirname, '../../resources/templates/examples.tpl'));
 
   const compiler = _.template(template);
   const compiled = compiler({
@@ -19,12 +20,13 @@ function generateTemplate(repo, srcPath, destPath) {
   fs.writeFileSync(destPath, compiled);
 }
 
+// @fire
 (async () => {
-  const repo = _(CONFIG.repositories)
+  const repo = _(CONFIG.resources.repositories.read())
     .filter(r => r.org === 'planette' && r.name === 'playground')
     .head();
 
-  const file = path.resolve(__dirname + `/../data/vcs/planette/playground/README.md`);
+  const file = path.resolve(__dirname, '../../data/vcs/planette/playground/README.md');
 
-  generateTemplate(repo, file, __dirname + `/../docs/examples.md`);
+  generateTemplate(repo, file, path.resolve(__dirname, '../../sites/contributte/examples.md'));
 })();

@@ -124,22 +124,22 @@
                 </li>
                 <li class="mt-4 flex justify-center md:justify-start">
                   <a class="p-4 opacity-50 hover:opacity-75" href="https://github.com/contributte">
-                    <img src="https://icon.now.sh/github/38" alt />
+                    <img loading="lazy" src="https://icon.now.sh/github/38" alt />
                   </a>
                   <a class="p-4 opacity-50 hover:opacity-75" href="https://twitter.com/contributte">
-                    <img src="https://icon.now.sh/twitter/38" alt />
+                    <img loading="lazy" src="https://icon.now.sh/twitter/38" alt />
                   </a>
                   <a
                     class="p-4 opacity-50 hover:opacity-75"
                     href="https://pehapkari.slack.com/archives/CBD9G0GET"
                   >
-                    <img src="https://icon.now.sh/slack/38" alt />
+                    <img loading="lazy" src="https://icon.now.sh/slack/38" alt />
                   </a>
                   <a
                     class="p-4 opacity-50 hover:opacity-75"
                     href="https://gitter.im/contributte/contributte"
                   >
-                    <img src="https://icon.now.sh/gitter/38" alt />
+                    <img loading="lazy" src="https://icon.now.sh/gitter/38" alt />
                   </a>
                 </li>
               </ul>
@@ -157,7 +157,7 @@
           • Generated with
           <a href="https://vuepress.vuejs.org/">VuePress</a>
           • Deployed to
-          <a href="https://zeit.co">ZEIT</a> with Now
+          <a href="https://vercel.com">Vercel</a>
           • View
           <a href="https://github.com/contributte/website">source code</a>
         </div>

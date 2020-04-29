@@ -2,13 +2,13 @@ const _ = require('lodash');
 const https = require('https');
 const fs = require('fs');
 
-// Global
-const { TOKEN } = require('./secret');
+// Config
+const CONFIG = require('./../../contributte');
 
 function sync() {
   const options = {
     hostname: `api.github.com`,
-    path: `/orgs/contributte/members?per_page=200&access_token=${TOKEN}`,
+    path: `/orgs/contributte/members?per_page=200&access_token=${process.env.GITHUB_TOKEN}`,
     headers: {
       'User-Agent': 'Contributte',
       'Accept': 'application/vnd.github.VERSION.html+json',
@@ -26,7 +26,7 @@ function sync() {
           avatar: member.avatar_url,
         }
       })
-      fs.writeFileSync(__dirname + '/../data/team.json', JSON.stringify(team, null, 2));
+      fs.writeFileSync(CONFIG.resources.team.filepath, JSON.stringify(team, null, 2));
     });
 
   }).on('error', (e) => {
@@ -34,4 +34,7 @@ function sync() {
   });
 }
 
-sync();
+// @fire
+(async () => {
+  sync();
+})();

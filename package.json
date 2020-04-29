@@ -8,6 +8,7 @@
     "autoprefixer": "^9.7.6",
     "dayjs": "^1.8.25",
     "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
     "esm": "^3.2.25",
     "glob": "^7.1.6",
     "linkify-it": "^2.2.0",

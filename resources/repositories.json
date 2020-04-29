@@ -161,8 +161,8 @@
         "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/event-dispatcher/compare/v0.6.0...v0.7.0\"><tt>v0.6.0...v0.7.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allows symfony/event-dispatcher ^5.0.0 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/event-dispatcher/commit/0c6678feb059b112ed642155c3f08b77b92f36a8/hovercard\" href=\"https://github.com/contributte/event-dispatcher/commit/0c6678feb059b112ed642155c3f08b77b92f36a8\"><tt>0c6678f</tt></a></li>\n</ul>"
       }
     },
-    "stars": 16,
-    "watchers": 16,
+    "stars": 17,
+    "watchers": 17,
     "forks": 4,
     "composer": {
       "php": [
@@ -274,7 +274,7 @@
         "2.4"
       ]
     },
-    "issues": 1
+    "issues": 0
   },
   "contributte/reCAPTCHA": {
     "org": "contributte",
@@ -475,8 +475,8 @@
         "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/bootstrap/compare/v0.4.0...v0.4.1\"><tt>v0.4.0...v0.4.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allows nette/utils ~3.1.0 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/bootstrap/commit/ede13bdff51bbfd71380010e435a2fdc97df6d48/hovercard\" href=\"https://github.com/contributte/bootstrap/commit/ede13bdff51bbfd71380010e435a2fdc97df6d48\"><tt>ede13bd</tt></a></li>\n</ul>"
       }
     },
-    "stars": 8,
-    "watchers": 8,
+    "stars": 9,
+    "watchers": 9,
     "forks": 1,
     "composer": {
       "nette": [],
@@ -841,21 +841,6 @@
     },
     "issues": 9
   },
-  "contributte/generator-nette": {
-    "org": "contributte",
-    "name": "generator-nette",
-    "title": "Nette Generator",
-    "enabled": true,
-    "priority": 0,
-    "docs": {
-      "v": "v0"
-    },
-    "description": "👨 Yeoman & Nette Framework",
-    "stars": 18,
-    "watchers": 18,
-    "forks": 2,
-    "issues": 6
-  },
   "contributte/http": {
     "org": "contributte",
     "name": "http",
@@ -1058,8 +1043,8 @@
         "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/psr11-container-interface/compare/v0.4.0...v0.4.1\"><tt>v0.4.0...v0.4.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Removed nette/utils dependency <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/psr11-container-interface/commit/451ca010afa56189ed13184d77a1b53b7c906fbb/hovercard\" href=\"https://github.com/contributte/psr11-container-interface/commit/451ca010afa56189ed13184d77a1b53b7c906fbb\"><tt>451ca01</tt></a></li>\n</ul>"
       }
     },
-    "stars": 5,
-    "watchers": 5,
+    "stars": 6,
+    "watchers": 6,
     "forks": 2,
     "composer": {
       "nette": [
@@ -1239,21 +1224,6 @@
     },
     "issues": 1
   },
-  "planette/playground": {
-    "org": "planette",
-    "name": "playground",
-    "category": "playground",
-    "enabled": true,
-    "priority": 0,
-    "docs": {
-      "v": "v0"
-    },
-    "description": "📚 Examples / tutorials / tips / samples | sandbox for @contributte",
-    "stars": 13,
-    "watchers": 13,
-    "forks": 12,
-    "issues": 2
-  },
   "contributte/psr7-http-message": {
     "org": "contributte",
     "name": "psr7-http-message",
@@ -1417,8 +1387,8 @@
         "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/utils/compare/v0.4.1...v0.4.2\"><tt>v0.4.1...v0.4.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Added CSV helper class <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/utils/commit/ac04f2aa76dd5d2823e9108f678ef90e5612be56/hovercard\" href=\"https://github.com/contributte/utils/commit/ac04f2aa76dd5d2823e9108f678ef90e5612be56\"><tt>ac04f2a</tt></a></li>\n<li>Fixed Validator::isRC leading zeros truncating <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/utils/commit/164d755f7bd0e243c28e7ea817f1781fc1dedc3f/hovercard\" href=\"https://github.com/contributte/utils/commit/164d755f7bd0e243c28e7ea817f1781fc1dedc3f\"><tt>164d755</tt></a></li>\n<li>Fixed Urls::hasFragment() <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/utils/commit/66d1fa80e3402475e423672230866cd830b55e29/hovercard\" href=\"https://github.com/contributte/utils/commit/66d1fa80e3402475e423672230866cd830b55e29\"><tt>66d1fa8</tt></a></li>\n<li>Fixed DateTime first/last day of the week <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/utils/commit/c79a75453cd95d2b1c03b77bce4d62c37312ad2c/hovercard\" href=\"https://github.com/contributte/utils/commit/c79a75453cd95d2b1c03b77bce4d62c37312ad2c\"><tt>c79a754</tt></a></li>\n<li>Allows nette/utils ~3.1.0 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/utils/commit/e94da66a802b2895e07641e7f47b6c963de59d67/hovercard\" href=\"https://github.com/contributte/utils/commit/e94da66a802b2895e07641e7f47b6c963de59d67\"><tt>e94da66</tt></a></li>\n</ul>"
       }
     },
-    "stars": 7,
-    "watchers": 7,
+    "stars": 8,
+    "watchers": 8,
     "forks": 7,
     "composer": {
       "nette": [
@@ -1500,8 +1470,8 @@
         "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/apitte/core/compare/v0.5...v0.6.0\"><tt>v0.5...v0.6.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/apitte/core/commit/9fcff41ed85ab30f768c1df81583b30b9e6feb86/hovercard\" href=\"https://github.com/apitte/core/commit/9fcff41ed85ab30f768c1df81583b30b9e6feb86\"><tt>9fcff41</tt></a></li>\n<li>Plugins internal refactoring\n<ul>\n<li>uses nette/schema</li>\n<li>getName() instead of NAME constant, getName() is now statical</li>\n<li>Plugin is now class instead of interface, all plugins must inherit it <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/apitte/core/commit/ff6ed9f4201f8b5c25a9eaafb0f4d13f7d508b1c/hovercard\" href=\"https://github.com/apitte/core/commit/ff6ed9f4201f8b5c25a9eaafb0f4d13f7d508b1c\"><tt>ff6ed9f</tt></a> and <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/apitte/core/commit/560dd949850a1db0f2f47425a105e42e2d868f2e/hovercard\" href=\"https://github.com/apitte/core/commit/560dd949850a1db0f2f47425a105e42e2d868f2e\"><tt>560dd94</tt></a></li>\n</ul>\n</li>\n</ul>"
       }
     },
-    "stars": 34,
-    "watchers": 34,
+    "stars": 35,
+    "watchers": 35,
     "forks": 15,
     "composer": {
       "php": [
@@ -1570,8 +1540,8 @@
         "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/apitte/console/compare/v0.5...v0.6.0\"><tt>v0.5...v0.6.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/apitte/console/commit/b99dd2477d650514eb706580f43cc92ce71fc381/hovercard\" href=\"https://github.com/apitte/console/commit/b99dd2477d650514eb706580f43cc92ce71fc381\"><tt>b99dd24</tt></a></li>\n</ul>"
       }
     },
-    "stars": 3,
-    "watchers": 3,
+    "stars": 4,
+    "watchers": 4,
     "forks": 1,
     "composer": {
       "php": [
@@ -1834,8 +1804,8 @@
         "body": "<p>Diff: <a href=\"https://github.com/nettrine/orm/compare/v0.5.0..v0.6.0\">https://github.com/nettrine/orm/compare/v0.5.0..v0.6.0</a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow to register filters [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"586062132\" data-permission-text=\"Title is private\" data-url=\"https://github.com/nettrine/orm/issues/72\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/nettrine/orm/pull/72/hovercard\" href=\"https://github.com/nettrine/orm/pull/72\">#72</a>] <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/9fe0db421451d1f081958f576a2d4c817ed4df21/hovercard\" href=\"https://github.com/nettrine/orm/commit/9fe0db421451d1f081958f576a2d4c817ed4df21\"><tt>9fe0db4</tt></a></li>\n<li>Simplify EntityManagerDecorator <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/1004c72a910ee52dab91fb87150aad146a568239/hovercard\" href=\"https://github.com/nettrine/orm/commit/1004c72a910ee52dab91fb87150aad146a568239\"><tt>1004c72</tt></a></li>\n<li>Switch <code>mappingDriver</code> to MappingDriverChain [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"336478592\" data-permission-text=\"Title is private\" data-url=\"https://github.com/nettrine/orm/issues/27\" data-hovercard-type=\"issue\" data-hovercard-url=\"/nettrine/orm/issues/27/hovercard\" href=\"https://github.com/nettrine/orm/issues/27\">#27</a>]</li>\n<li>Fix <code>secondLevelCache</code> schema <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/b2fa8b9b35ec30a612b831e8527c82d0ce707f20/hovercard\" href=\"https://github.com/nettrine/orm/commit/b2fa8b9b35ec30a612b831e8527c82d0ce707f20\"><tt>b2fa8b9</tt></a></li>\n<li>Sync <code>entityNamespaces</code> schema</li>\n<li>Polished readme</li>\n<li>Polished tests</li>\n</ul>"
       }
     },
-    "stars": 39,
-    "watchers": 39,
+    "stars": 40,
+    "watchers": 40,
     "forks": 25,
     "composer": {
       "nette": [],
@@ -1868,8 +1838,8 @@
         "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/fixtures/compare/v0.5.1...v0.5.2\"><tt>v0.5.1...v0.5.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Polish readme + doc</li>\n</ul>"
       }
     },
-    "stars": 7,
-    "watchers": 7,
+    "stars": 8,
+    "watchers": 8,
     "forks": 1,
     "composer": {
       "nette": [
@@ -1904,8 +1874,8 @@
         "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/migrations/compare/v0.6.1...v0.6.2\"><tt>v0.6.1...v0.6.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Polish doc &amp; readme</li>\n</ul>"
       }
     },
-    "stars": 25,
-    "watchers": 25,
+    "stars": 26,
+    "watchers": 26,
     "forks": 8,
     "composer": {
       "php": [
@@ -2122,7 +2092,7 @@
         "created_at": "2020-04-10T09:16:11Z",
         "published_at": "2020-04-10T09:16:22Z",
         "html_url": "https://github.com/nettrine/cache/releases/tag/v0.2.0",
-        "body": "<p>Diff: <a href=\"https://github.com/nettrine/cache/compare/v0.1.0..v0.2.0\">https://github.com/nettrine/cache/compare/v0.1.0..v0.2.0</a></p>\n<p>Changes:</p>\n<ul>\n<li>Upgrade deps</li>\n<li>Polish doc &amp; readme</li>\n</ul>"
+        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/cache/compare/v0.1.0...v0.2.0\"><tt>v0.1.0...v0.2.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Upgrade deps</li>\n<li>Polish doc &amp; readme</li>\n</ul>"
       }
     }
   },
@@ -2210,7 +2180,7 @@
     },
     "stars": 19,
     "watchers": 19,
-    "forks": 10,
+    "forks": 12,
     "composer": {
       "php": [
         "7.2",
@@ -2218,7 +2188,7 @@
       ],
       "nette": []
     },
-    "issues": 1
+    "issues": 2
   },
   "contributte/redis": {
     "org": "contributte",
@@ -2303,17 +2273,17 @@
       "last": {
         "org": "contributte",
         "repo": "image-storage",
-        "tag": "v2.0.0",
-        "name": "",
-        "created_at": "2019-10-15T13:02:33Z",
-        "published_at": "2019-10-15T20:05:10Z",
-        "html_url": "https://github.com/contributte/image-storage/releases/tag/v2.0.0",
-        "body": "<h1>Nette 3.0 support (thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/laster04/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/laster04\">@laster04</a> )</h1>"
+        "tag": "v2.0.1",
+        "name": "v2.0.1",
+        "created_at": "2020-04-29T06:34:20Z",
+        "published_at": "2020-04-29T06:36:41Z",
+        "html_url": "https://github.com/contributte/image-storage/releases/tag/v2.0.1",
+        "body": "<ul>\n<li>Fix: Bad variable for creating directory and checking is_writable() in getNoImage() method (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Sikipiki/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Sikipiki\">@Sikipiki</a>)</li>\n</ul>"
       }
     },
     "stars": 23,
     "watchers": 23,
-    "forks": 15,
+    "forks": 16,
     "composer": {
       "nette": [
         "2.4"
@@ -2433,7 +2403,7 @@
         "2.4"
       ]
     },
-    "issues": 6
+    "issues": 5
   },
   "contributte/gopay-inline": {
     "org": "contributte",
@@ -2459,7 +2429,7 @@
     },
     "stars": 22,
     "watchers": 22,
-    "forks": 21,
+    "forks": 22,
     "composer": {
       "php": [
         "5.6",
@@ -2656,7 +2626,7 @@
     "docs": {
       "v": "v2",
       "pages": {
-        "index": "Introduction",
+        "": "Introduction",
         "assets": "Assets",
         "data-source": "Data sources",
         "columns": "Columns",
@@ -2677,16 +2647,16 @@
       "last": {
         "org": "contributte",
         "repo": "datagrid",
-        "tag": "v6.2.14",
-        "name": "v6.2.14",
-        "created_at": "2020-04-20T22:08:03Z",
-        "published_at": "2020-04-20T22:08:36Z",
-        "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.14",
-        "body": "<p>Bump!</p>\n<ul>\n<li>Fix items detail form parameter in detail template (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/vitkutny/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/vitkutny\">@vitkutny</a>)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.13...v6.2.14\"><tt>v6.2.13...v6.2.14</tt></a></p>"
+        "tag": "v6.2.17",
+        "name": "v6.2.17",
+        "created_at": "2020-04-28T08:26:42Z",
+        "published_at": "2020-04-28T08:34:09Z",
+        "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.17",
+        "body": "<p>Bump!</p>\n<ul>\n<li>DataGrid: fix inline edit payload when editable callback is empty</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.16...v6.2.17\"><tt>v6.2.16...v6.2.17</tt></a></p>"
       }
     },
-    "stars": 188,
-    "watchers": 188,
+    "stars": 189,
+    "watchers": 189,
     "forks": 145,
     "composer": {
       "nette": [
@@ -3169,8 +3139,8 @@
         "body": "<p>Create package</p>"
       }
     },
-    "stars": 2,
-    "watchers": 2,
+    "stars": 3,
+    "watchers": 3,
     "forks": 0,
     "issues": 0,
     "composer": {
@@ -3181,6 +3151,33 @@
       "nette": [
         "3.0"
       ]
+    }
+  },
+  "contributte/menu-control": {
+    "org": "contributte",
+    "name": "menu-control",
+    "category": "nette-ui",
+    "enabled": true,
+    "priority": 0,
+    "docs": {
+      "v": "v1"
+    },
+    "stars": 17,
+    "watchers": 17,
+    "forks": 15,
+    "issues": 3,
+    "description": "Menu and breadcrumb components for Nette framework",
+    "releases": {
+      "last": {
+        "org": "contributte",
+        "repo": "menu-control",
+        "tag": "2.1.2",
+        "name": "v2.1.2",
+        "created_at": "2020-03-28T14:26:56Z",
+        "published_at": "2020-03-28T21:17:49Z",
+        "html_url": "https://github.com/contributte/menu-control/releases/tag/2.1.2",
+        "body": "<ul>\n<li>Make installabe as <code>contributte/menu-control</code></li>\n</ul>"
+      }
     }
   }
 }

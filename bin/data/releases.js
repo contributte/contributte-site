@@ -2,23 +2,21 @@ const _ = require('lodash');
 const https = require('https');
 const fs = require('fs');
 
-// Global
-const CONFIG = require('./config');
-const { TOKEN } = require('./secret');
-
-// Vars
+// Config
+const CONFIG = require('./../../contributte');
 const releases = {};
 
-function syncAll() {
-  _.forEach(CONFIG.organizations, (repositories, org) => {
-    _.forEach(repositories, r => syncRepo(r));
+function sync() {
+  _.forEach(CONFIG.data.organizations, (repositories, org) => {
+    console.log(`Syncing ${org} releases`);
+    _.forEach(repositories.read(), r => syncRepo(r));
   });
 }
 
 function syncRepo(repo) {
   const options = {
     hostname: `api.github.com`,
-    path: `/repos/${repo.full_name}/releases?per_page=200&access_token=${TOKEN}`,
+    path: `/repos/${repo.full_name}/releases?per_page=200&access_token=${process.env.GITHUB_TOKEN}`,
     headers: {
       'User-Agent': 'Contributte',
       'Accept': 'application/vnd.github.VERSION.html+json',
@@ -54,7 +52,10 @@ function dumpRelease(repo, release) {
     body: release.body_html,
   };
 
-  fs.writeFileSync(__dirname + '/../data/releases.json', JSON.stringify(releases, null, 2));
+  fs.writeFileSync(CONFIG.data.releases.filepath, JSON.stringify(releases, null, 2));
 }
 
-syncAll();
+// @fire
+(async () => {
+  sync();
+})();

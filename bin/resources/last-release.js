@@ -1,12 +1,13 @@
 const _ = require("lodash");
 const fs = require("fs");
 
-// Global
-const CONFIG = require("./config");
+// Config
+const CONFIG = require('./../../contributte');
+const REPOS = _.cloneDeep(CONFIG.resources.repositories.read());
 
-function syncAll() {
-  _.forEach(CONFIG.repositories, r => syncRepo(r));
-  fs.writeFileSync(__dirname + "/../data/repositories.json", JSON.stringify(CONFIG.repositories, null, 2));
+function sync() {
+  _.forEach(REPOS, r => syncRepo(r));
+  fs.writeFileSync(CONFIG.resources.repositories.filepath, JSON.stringify(REPOS, null, 2));
 }
 
 function syncRepo(repo) {
@@ -22,10 +23,13 @@ function syncRepo(repo) {
 }
 
 function findLastRelease(repo) {
-  return _(CONFIG.releases)
+  return _(CONFIG.data.releases.read())
     .filter(r => r.repo + "/" + r.org === repo.name + "/" + repo.org)
     .orderBy(["created_at"], ["desc"])
     .head();
 }
 
-syncAll();
+// @fire
+(async () => {
+  sync();
+})();

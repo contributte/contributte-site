@@ -1,11 +1,13 @@
 install:
 	npm ci
 
-data-sync:
-	node tools/sync-git
-	node tools/sync-releases
-	node tools/sync-latest-release
-	node tools/generate-packages
+load: data-sync-git resources-generate-packages resources-generate-examples
+
+refresh: resources-generate-packages resources-generate-examples
+
+##################################################
+# CONTRIBUTTE ####################################
+##################################################
 
 contributte-dev:
 	npx vuepress dev sites/contributte
@@ -22,6 +24,10 @@ contributte-generate:
 contributte-public:
 	cd sites/contributte && now -c --prod
 
+##################################################
+# STATUS #########################################
+##################################################
+
 status-dev:
 	npx vuepress dev sites/status
 
@@ -33,3 +39,42 @@ status-deploy:
 
 status-publish:
 	cd sites/status && now -c --prod
+
+##################################################
+# DATA ###########################################
+##################################################
+
+data-sync:
+	node tools/sync-git
+	node tools/sync-releases
+	node tools/sync-latest-release
+	node tools/generate-packages
+
+data-sync-git:
+	./butt bin/data/git
+
+data-sync-orgs:
+	./butt bin/data/orgs
+
+data-sync-releases:
+	./butt bin/data/releases
+
+
+##################################################
+# RESOURCES ######################################
+##################################################
+
+resources-sync-metadata:
+	./butt bin/resources/metadata
+
+resources-sync-last-release:
+	./butt bin/resources/last-release
+
+resources-sync-team:
+	./butt bin/resources/team
+
+resources-generate-packages:
+	./butt bin/generate/packages
+
+resources-generate-examples:
+	./butt bin/generate/examples

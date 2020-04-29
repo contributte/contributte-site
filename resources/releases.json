@@ -2107,7 +2107,7 @@
     "created_at": "2017-11-15T11:53:30Z",
     "published_at": "2017-11-15T11:54:53Z",
     "html_url": "https://github.com/contributte/middlewares/releases/tag/v0.5",
-    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"falkland_islands\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f1eb-1f1f0.png\">🇫����</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/middlewares/compare/v0.4...v0.5\"><tt>v0.4...v0.5</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>[BC] change <code>onStartup</code>, <code>onRequest</code>, <code>onResponse</code>, <code>onError</code> to <code>addListener(type, callback)</code> (<a href=\"https://github.com/contributte/middlewares/tree/master/.docs#application\">more in docs</a>)</li>\n</ul>"
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"falkland_islands\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f1eb-1f1f0.png\">🇫🇰</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/middlewares/compare/v0.4...v0.5\"><tt>v0.4...v0.5</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>[BC] change <code>onStartup</code>, <code>onRequest</code>, <code>onResponse</code>, <code>onError</code> to <code>addListener(type, callback)</code> (<a href=\"https://github.com/contributte/middlewares/tree/master/.docs#application\">more in docs</a>)</li>\n</ul>"
   },
   "8578597": {
     "org": "contributte",
@@ -6337,7 +6337,7 @@
     "created_at": "2020-04-10T09:16:11Z",
     "published_at": "2020-04-10T09:16:22Z",
     "html_url": "https://github.com/nettrine/cache/releases/tag/v0.2.0",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/cache/compare/v0.1.0...v0.2.0\"><tt>v0.1.0...v0.2.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Upgrade deps</li>\n<li>Polish doc &amp; readme</li>\n</ul>"
+    "body": "<p>Diff: <a href=\"https://github.com/nettrine/cache/compare/v0.1.0..v0.2.0\">https://github.com/nettrine/cache/compare/v0.1.0..v0.2.0</a></p>\n<p>Changes:</p>\n<ul>\n<li>Upgrade deps</li>\n<li>Polish doc &amp; readme</li>\n</ul>"
   },
   "25698376": {
     "org": "contributte",
@@ -6378,45 +6378,5 @@
     "published_at": "2020-04-20T22:08:36Z",
     "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.14",
     "body": "<p>Bump!</p>\n<ul>\n<li>Fix items detail form parameter in detail template (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/vitkutny/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/vitkutny\">@vitkutny</a>)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.13...v6.2.14\"><tt>v6.2.13...v6.2.14</tt></a></p>"
-  },
-  "25737600": {
-    "org": "contributte",
-    "repo": "datagrid",
-    "tag": "v6.2.15",
-    "name": "v6.2.15",
-    "created_at": "2020-04-24T08:48:13Z",
-    "published_at": "2020-04-24T08:49:11Z",
-    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.15",
-    "body": "<p>Bump!</p>\n<ul>\n<li>Fix: Can not set default filter for FilterDateRange (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/xsuchy09/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/xsuchy09\">@xsuchy09</a>)</li>\n<li>Boostrap bc break template fix (fixes outer filters)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.14...v6.2.15\"><tt>v6.2.14...v6.2.15</tt></a></p>"
-  },
-  "25841560": {
-    "org": "contributte",
-    "repo": "datagrid",
-    "tag": "v6.2.16",
-    "name": "v6.2.16",
-    "created_at": "2020-04-24T08:59:32Z",
-    "published_at": "2020-04-27T14:30:43Z",
-    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.16",
-    "body": "<p>Bump!</p>\n<ul>\n<li>Fix ajax method for small inline edit (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/stanislav-janu/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/stanislav-janu\">@stanislav-janu</a>)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.15...v6.2.16\"><tt>v6.2.15...v6.2.16</tt></a></p>"
-  },
-  "25952700": {
-    "org": "contributte",
-    "repo": "datagrid",
-    "tag": "v6.2.17",
-    "name": "v6.2.17",
-    "created_at": "2020-04-28T08:26:42Z",
-    "published_at": "2020-04-28T08:34:09Z",
-    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.17",
-    "body": "<p>Bump!</p>\n<ul>\n<li>DataGrid: fix inline edit payload when editable callback is empty</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.16...v6.2.17\"><tt>v6.2.16...v6.2.17</tt></a></p>"
-  },
-  "25991787": {
-    "org": "contributte",
-    "repo": "image-storage",
-    "tag": "v2.0.1",
-    "name": "v2.0.1",
-    "created_at": "2020-04-29T06:34:20Z",
-    "published_at": "2020-04-29T06:36:41Z",
-    "html_url": "https://github.com/contributte/image-storage/releases/tag/v2.0.1",
-    "body": "<ul>\n<li>Fix: Bad variable for creating directory and checking is_writable() in getNoImage() method (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Sikipiki/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Sikipiki\">@Sikipiki</a>)</li>\n</ul>"
   }
 }

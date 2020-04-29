@@ -50,6 +50,16 @@ function filterEnabled() {
 
 // @fire
 (async () => {
+
+  // Clean folders
+  Object.keys(CONFIG.data.organizations).forEach(org => {
+    const folder = path.resolve(__dirname, `../../sites/contributte/packages/${org}`);
+    console.log(`Purging ${folder}`);
+
+    fs.rmdirSync(folder, { recursive: true });
+  })
+
+  // Generate new pages
   filterEnabled().forEach(repo => {
     const file = loadDoc(repo);
 

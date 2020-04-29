@@ -2656,18 +2656,19 @@
     "docs": {
       "v": "v2",
       "pages": {
-        "data-source": "DataSource",
-        "columns": "Columns",
-        "actions": "Actions",
-        "row": "Row",
-        "template": "Template",
+        "index": "Introduction",
         "assets": "Assets",
+        "data-source": "Data sources",
+        "columns": "Columns",
         "filters": "Filters",
-        "inline-add": "Insert row",
-        "inline-edit": "Edit row",
-        "group-action": "Group Actions",
-        "tree-view": "Tree-View",
+        "actions": "Actions",
+        "group-action": "Group Action",
+        "row": "Row",
+        "template": "Templates",
         "export": "Export",
+        "tree-view": "Tree View",
+        "inline-add": "Inline add",
+        "inline-edit": "Inline edit",
         "localization": "Localization"
       }
     },

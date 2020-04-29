@@ -36,7 +36,7 @@
   "contributte/mailing": {
     "org": "contributte",
     "name": "mailing",
-    "category": "php-party",
+    "category": "php",
     "enabled": true,
     "priority": 100,
     "docs": {
@@ -70,7 +70,7 @@
   "contributte/neonizer": {
     "org": "contributte",
     "name": "neonizer",
-    "category": "development",
+    "category": "dev",
     "enabled": true,
     "priority": 100,
     "docs": {
@@ -179,7 +179,7 @@
     "org": "contributte",
     "name": "live-form-validation",
     "title": "Live Form Validation",
-    "category": "nette-forms",
+    "category": "forms",
     "enabled": true,
     "priority": 90,
     "docs": {
@@ -243,7 +243,7 @@
   "contributte/codeception": {
     "org": "contributte",
     "name": "codeception",
-    "category": "development",
+    "category": "dev",
     "enabled": true,
     "priority": 60,
     "docs": {
@@ -280,7 +280,7 @@
     "org": "contributte",
     "name": "reCAPTCHA",
     "title": "reCAPTCHA",
-    "category": "nette-ui",
+    "category": "ui",
     "enabled": true,
     "priority": 50,
     "docs": {
@@ -350,7 +350,7 @@
     "org": "contributte",
     "name": "seznamcaptcha",
     "title": "Seznam Captcha",
-    "category": "nette-ui",
+    "category": "ui",
     "enabled": true,
     "priority": 30,
     "docs": {
@@ -384,7 +384,7 @@
   "contributte/logging": {
     "org": "contributte",
     "name": "logging",
-    "category": "php-party",
+    "category": "php",
     "enabled": true,
     "priority": 20,
     "docs": {
@@ -420,7 +420,7 @@
   "contributte/application": {
     "org": "contributte",
     "name": "application",
-    "category": "nette-contrib",
+    "category": "nette",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -456,7 +456,7 @@
   "contributte/bootstrap": {
     "org": "contributte",
     "name": "bootstrap",
-    "category": "nette-contrib",
+    "category": "nette",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -490,7 +490,7 @@
   "contributte/cache": {
     "org": "contributte",
     "name": "cache",
-    "category": "nette-contrib",
+    "category": "nette",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -526,7 +526,7 @@
   "contributte/database": {
     "org": "contributte",
     "name": "database",
-    "category": "nette-contrib",
+    "category": "nette",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -596,7 +596,7 @@
   "contributte/dev": {
     "org": "contributte",
     "name": "dev",
-    "category": "development",
+    "category": "dev",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -630,7 +630,7 @@
     "org": "contributte",
     "name": "di",
     "title": "Dependency Injection (DI)",
-    "category": "nette-contrib",
+    "category": "nette",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -808,7 +808,7 @@
   "contributte/forms": {
     "org": "contributte",
     "name": "forms",
-    "category": "nette-contrib",
+    "category": "nette",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -844,7 +844,7 @@
   "contributte/http": {
     "org": "contributte",
     "name": "http",
-    "category": "nette-contrib",
+    "category": "nette",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -880,7 +880,7 @@
   "contributte/latte": {
     "org": "contributte",
     "name": "latte",
-    "category": "nette-contrib",
+    "category": "nette",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -916,7 +916,7 @@
   "contributte/latte-parsedown-extra": {
     "org": "contributte",
     "name": "latte-parsedown-extra",
-    "category": "nette-ui",
+    "category": "ui",
     "title": "Latte - Markdown",
     "enabled": true,
     "priority": 0,
@@ -953,7 +953,7 @@
   "contributte/mail": {
     "org": "contributte",
     "name": "mail",
-    "category": "nette-contrib",
+    "category": "nette",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -1262,7 +1262,7 @@
   "contributte/security": {
     "org": "contributte",
     "name": "security",
-    "category": "nette-contrib",
+    "category": "nette",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -1298,7 +1298,7 @@
   "contributte/social": {
     "org": "contributte",
     "name": "social",
-    "category": "nette-ui",
+    "category": "ui",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -1334,7 +1334,7 @@
   "contributte/tracy": {
     "org": "contributte",
     "name": "tracy",
-    "category": "nette-contrib",
+    "category": "nette",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -1368,7 +1368,7 @@
   "contributte/utils": {
     "org": "contributte",
     "name": "utils",
-    "category": "nette-contrib",
+    "category": "nette",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -1404,7 +1404,7 @@
   "contributte/wordcha": {
     "org": "contributte",
     "name": "wordcha",
-    "category": "nette-ui",
+    "category": "ui",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -1457,7 +1457,7 @@
       }
     },
     "description": "🔧 Enjoyable [PSR-7 based] API framework for Nette Framework. Heart of the apitte stack.",
-    "category": "apitte",
+    "category": "api",
     "releases": {
       "last": {
         "org": "apitte",
@@ -1493,7 +1493,7 @@
       "v": "v1"
     },
     "description": "⁉️ Debugging tools for Apitte stack",
-    "category": "apitte",
+    "category": "api",
     "releases": {
       "last": {
         "org": "apitte",
@@ -1527,7 +1527,7 @@
       "v": "v1"
     },
     "description": "💊 Symfony\\Console bridge for Apitte stack",
-    "category": "apitte",
+    "category": "api",
     "releases": {
       "last": {
         "org": "apitte",
@@ -1564,7 +1564,7 @@
       "v": "v1"
     },
     "description": "👨‍👩‍👦 OpenAPI specification for Apitte stack",
-    "category": "apitte",
+    "category": "api",
     "releases": {
       "last": {
         "org": "apitte",
@@ -1598,7 +1598,7 @@
       "v": "v1"
     },
     "description": "🚤 Middlewares support for Apitte stack",
-    "category": "apitte",
+    "category": "api",
     "releases": {
       "last": {
         "org": "apitte",
@@ -1634,7 +1634,7 @@
       "v": "v1"
     },
     "description": "🎨 Content-Negotiation support for Apitte stack",
-    "category": "apitte",
+    "category": "api",
     "releases": {
       "last": {
         "org": "apitte",
@@ -1670,7 +1670,7 @@
       "v": "v1"
     },
     "description": "🌻 PSR-7 for Nette\\Presenters with Apitte stack",
-    "category": "apitte",
+    "category": "api",
     "releases": {
       "last": {
         "org": "apitte",
@@ -1704,7 +1704,7 @@
       "v": "v0"
     },
     "description": "👍 Apitte meta package with all features",
-    "category": "apitte",
+    "category": "api",
     "releases": {
       "last": {
         "org": "apitte",
@@ -1738,7 +1738,7 @@
       "v": "v0"
     },
     "description": "♦️ Simple and intuitive OpenApi/Swagger compatible UI toolkit",
-    "category": "apitte",
+    "category": "api",
     "stars": 4,
     "watchers": 4,
     "forks": 0,
@@ -1754,7 +1754,7 @@
       "v": "v1"
     },
     "description": "💡 Well-integrated Doctrine2 DBAL for Nette Framework",
-    "category": "nettrine",
+    "category": "doctrine",
     "releases": {
       "last": {
         "org": "nettrine",
@@ -1791,7 +1791,7 @@
       "v": "v1"
     },
     "description": "🔥 Well-integrated Doctrine2 ORM for Nette Framework",
-    "category": "nettrine",
+    "category": "doctrine",
     "releases": {
       "last": {
         "org": "nettrine",
@@ -1825,7 +1825,7 @@
       "v": "v1"
     },
     "description": "🔧 Doctrine Fixtures for Nette Framework",
-    "category": "nettrine",
+    "category": "doctrine",
     "releases": {
       "last": {
         "org": "nettrine",
@@ -1861,7 +1861,7 @@
       "v": "v1"
     },
     "description": "🏃‍♂️ Doctrine Migrations for Nette Framework",
-    "category": "nettrine",
+    "category": "doctrine",
     "releases": {
       "last": {
         "org": "nettrine",
@@ -1898,7 +1898,7 @@
       "v": "v1"
     },
     "description": "🔍 Doctrine (https://github.com/Atlantic18/DoctrineExtensions) extension for Nette Framework",
-    "category": "nettrine",
+    "category": "doctrine",
     "releases": {
       "last": {
         "org": "nettrine",
@@ -1935,7 +1935,7 @@
       "v": "v1"
     },
     "description": "🔍 Doctrine (https://github.com/beberlei/DoctrineExtensions) extension for Nette Framework",
-    "category": "nettrine",
+    "category": "doctrine",
     "releases": {
       "last": {
         "org": "nettrine",
@@ -1972,7 +1972,7 @@
       "v": "v1"
     },
     "description": "🔍 Doctrine (https://github.com/KnpLabs/DoctrineBehaviors) extension for Nette Framework",
-    "category": "nettrine",
+    "category": "doctrine",
     "releases": {
       "last": {
         "org": "nettrine",
@@ -2007,7 +2007,7 @@
       "v": "v1"
     },
     "description": "🔍 Doctrine (https://github.com/oroinc/doctrine-extensions) extension for Nette Framework",
-    "category": "nettrine",
+    "category": "doctrine",
     "releases": {},
     "stars": 2,
     "watchers": 2,
@@ -2032,7 +2032,7 @@
       "v": "v1"
     },
     "description": "📝 Standalone Doctrine Annotations for Nette Framework",
-    "category": "nettrine",
+    "category": "doctrine",
     "releases": {
       "last": {
         "org": "nettrine",
@@ -2068,7 +2068,7 @@
       "v": "v1"
     },
     "description": "🔃 Doctrine Cache adapter for Nette Framework ",
-    "category": "nettrine",
+    "category": "doctrine",
     "stars": 4,
     "watchers": 4,
     "forks": 3,
@@ -2105,7 +2105,7 @@
       "v": "v0"
     },
     "description": "⬅️ ➡️ Convert Doctrine entity to array and conversely",
-    "category": "nettrine",
+    "category": "doctrine",
     "stars": 2,
     "watchers": 2,
     "forks": 1,
@@ -2123,7 +2123,7 @@
   "contributte/flysystem": {
     "org": "contributte",
     "name": "flysystem",
-    "category": "php-party",
+    "category": "php",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -2159,7 +2159,7 @@
   "contributte/guzzlette": {
     "org": "contributte",
     "name": "guzzlette",
-    "category": "php-party",
+    "category": "php",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -2193,7 +2193,7 @@
   "contributte/redis": {
     "org": "contributte",
     "name": "redis",
-    "category": "php-party",
+    "category": "php",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -2227,7 +2227,7 @@
   "contributte/monolog": {
     "org": "contributte",
     "name": "monolog",
-    "category": "php-party",
+    "category": "php",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -2514,7 +2514,7 @@
   "contributte/replacus": {
     "org": "contributte",
     "name": "replacus",
-    "category": "nette-ui",
+    "category": "ui",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -2550,7 +2550,7 @@
   "contributte/forms-multiplier": {
     "org": "contributte",
     "name": "forms-multiplier",
-    "category": "nette-forms",
+    "category": "forms",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -2584,7 +2584,7 @@
   "contributte/forms-wizard": {
     "org": "contributte",
     "name": "forms-wizard",
-    "category": "nette-forms",
+    "category": "forms",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -2620,7 +2620,7 @@
   "contributte/datagrid": {
     "org": "contributte",
     "name": "datagrid",
-    "category": "nette-ui",
+    "category": "ui",
     "enabled": true,
     "priority": 100,
     "docs": {
@@ -2961,7 +2961,7 @@
     "org": "ninjify",
     "name": "qa",
     "title": "Quality Assurance",
-    "category": "ninjify",
+    "category": "dev",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -2994,7 +2994,7 @@
   "ninjify/nunjuck": {
     "org": "ninjify",
     "name": "nunjuck",
-    "category": "ninjify",
+    "category": "dev",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -3028,7 +3028,7 @@
   "ninjify/coding-standard": {
     "org": "ninjify",
     "name": "coding-standard",
-    "category": "ninjify",
+    "category": "dev",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -3061,7 +3061,7 @@
   "ninjify/checker": {
     "org": "ninjify",
     "name": "checker",
-    "category": "ninjify",
+    "category": "dev",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -3084,7 +3084,7 @@
   "contributte/forms-bootstrap": {
     "org": "contributte",
     "name": "forms-bootstrap",
-    "category": "nette-forms",
+    "category": "forms",
     "enabled": true,
     "priority": 0,
     "docs": {
@@ -3156,7 +3156,7 @@
   "contributte/menu-control": {
     "org": "contributte",
     "name": "menu-control",
-    "category": "nette-ui",
+    "category": "ui",
     "enabled": true,
     "priority": 0,
     "docs": {

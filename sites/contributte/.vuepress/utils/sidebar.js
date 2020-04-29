@@ -22,7 +22,5 @@ export function buildSidebar() {
       }
     });
 
-console.log(sidebar);
-
   return sidebar;
 }

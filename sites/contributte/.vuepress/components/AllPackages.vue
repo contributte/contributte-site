@@ -12,24 +12,87 @@
         v-model="searching"
       />
     </div>
+    <div class="m-auto flex justify-between w-9/12 flex mb-6 p-4 border border-dashed bg-gray-100">
+      <div
+        @click="toggleCatagory('nette')"
+        :class="[category === 'nette' ? 'bg-blue-600 text-white' : '']"
+        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold"
+      >nette</div>
+      <div
+        @click="toggleCatagory('ui')"
+        :class="[category === 'ui' ? 'bg-blue-600 text-white' : '']"
+        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold"
+      >UI</div>
+      <div
+        @click="toggleCatagory('forms')"
+        :class="[category === 'forms' ? 'bg-blue-600 text-white' : '']"
+        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold"
+      >forms</div>
+      <div
+        @click="toggleCatagory('api')"
+        :class="[category === 'api' ? 'bg-blue-600 text-white' : '']"
+        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold"
+      >API</div>
+      <div
+        @click="toggleCatagory('symfony')"
+        :class="[category === 'symfony' ? 'bg-blue-600 text-white' : '']"
+        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold"
+      >symfony</div>
+      <div
+        @click="toggleCatagory('doctrine')"
+        :class="[category === 'doctrine' ? 'bg-blue-600 text-white' : '']"
+        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold"
+      >doctrine</div>
+      <div
+        @click="toggleCatagory('psr')"
+        :class="[category === 'psr' ? 'bg-blue-600 text-white' : '']"
+        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold"
+      >PSR</div>
+      <div
+        @click="toggleCatagory('nextras')"
+        :class="[category === 'nextras' ? 'bg-blue-600 text-white' : '']"
+        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold"
+      >nextras</div>
+      <div
+        @click="toggleCatagory('webservices')"
+        :class="[category === 'webservices' ? 'bg-blue-600 text-white' : '']"
+        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold"
+      >webservices</div>
+      <div
+        @click="toggleCatagory('php')"
+        :class="[category === 'php' ? 'bg-blue-600 text-white' : '']"
+        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold"
+      >php</div>
+      <div
+        @click="toggleCatagory('dev')"
+        :class="[category === 'dev' ? 'bg-blue-600 text-white' : '']"
+        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold"
+      >dev</div>
+      <div
+        @click="toggleCatagory('')"
+        :class="[category === '' ? 'bg-blue-600 text-white' : '']"
+        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold"
+      >other</div>
+    </div>
     <div v-if="filtered.length <= 0" class="text-center">No package found.</div>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-      <div v-for="(repository) of filtered" class="bg-white shadow-lg border rounded-lg p-4">
-        <div class="flex flex-row items-center mb-4">
-          <a class="flex-1 text-xl truncate" :href="repository | link">
-            {{ repository.name }}
+    <div class="grid grid-cols-1 gap-4">
+      <div v-for="(repository) of filtered" class="bg-white shadow-lg border rounded-lg px-4 py-2">
+        <div class="flex flex-row items-center">
+          <div class="flex-1">
+            <a class="text-xl" :href="repository | link">{{ repository.name }}</a>
             <span class="text-sm text-gray-600">{{ repository.org }}</span>
-          </a>
+          </div>
           <a
             class="text-lg text-right"
-            v-if="repository.releases && repository.releases.last"
             :href="'https://packagist.org/packages/'+repository.org+'/'+repository.name"
           >
             <span class="text-sm">{{ repository.stars }} ⭐</span>
-            / {{repository.releases.last.tag}}
+            <span
+              v-if="repository.releases && repository.releases.last"
+            >/ {{repository.releases.last.tag}}</span>
           </a>
         </div>
-        <div v-html="md.render(repository.description)"></div>
+        <div class="break-words" v-html="md.render(repository.description)"></div>
       </div>
     </div>
   </div>
@@ -43,7 +106,8 @@ import { link } from "./../utils/linker";
 export default {
   data: () => ({
     md: createMarkdown(),
-    search: ""
+    search: "",
+    category: null
   }),
   computed: {
     total() {
@@ -62,6 +126,12 @@ export default {
             r.org.includes(this.search)
           );
         })
+        .filter(r => {
+          if (this.category === null) return true;
+          if (this.category === "") return r.category === undefined;
+
+          return r.category === this.category;
+        })
         .sortBy("stars")
         .reverse()
         .value();
@@ -77,6 +147,15 @@ export default {
   },
   filters: {
     link
+  },
+  methods: {
+    toggleCatagory(category) {
+      if (this.category === category) {
+        this.category = null;
+      } else {
+        this.category = category;
+      }
+    }
   }
 };
 </script>

@@ -92,7 +92,7 @@
             >/ {{repository.releases.last.tag}}</span>
           </a>
         </div>
-        <div class="break-words" v-html="md.render(repository.description)"></div>
+        <div class="break-words mt-2" v-html="md.render(repository.description)"></div>
       </div>
     </div>
   </div>

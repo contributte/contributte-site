@@ -3098,7 +3098,7 @@
     "enabled": true,
     "priority": 0,
     "docs": {
-      "v": "v0"
+      "v": "v1"
     },
     "description": "👾 Bootstrap 4 forms for Nette framework",
     "releases": {

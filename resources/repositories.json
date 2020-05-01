@@ -1165,7 +1165,7 @@
     "enabled": true,
     "priority": 0,
     "docs": {
-      "v": "v0"
+      "v": "v1"
     },
     "description": "🐺 Rich Nextras\\ORM entity generator for fast prototyping your new project.",
     "releases": {
@@ -2272,7 +2272,7 @@
     "enabled": true,
     "priority": 0,
     "docs": {
-      "v": "v0"
+      "v": "v1"
     },
     "description": "🌠 Image storage for Nette framework",
     "releases": {

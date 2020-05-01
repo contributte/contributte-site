@@ -4,7 +4,7 @@
       Search in
       <strong>{{ total }}</strong> awesome packages!
     </div>
-    <div class="m-auto w-9/12 flex mb-6">
+    <div class="m-auto md:w-9/12 flex mb-6">
       <input
         class="w-full bg-white border border-gray-300 focus:outline-none focus:border-gray-600 rounded-lg py-2 px-4 block appearance-none leading-normal"
         type="text"
@@ -12,66 +12,61 @@
         v-model="searching"
       />
     </div>
-    <div class="m-auto flex justify-between w-9/12 flex mb-6 p-4 border border-dashed bg-gray-100">
+    <div class="m-auto flex flex-wrap xs:justify-center md:w-9/12 flex mb-6 pt-2 border border-dashed bg-gray-100">
       <div
         @click="toggleCatagory('nette')"
         :class="[category === 'nette' ? 'bg-blue-600 text-white' : '']"
-        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold"
+        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold mx-2 mb-2"
       >nette</div>
       <div
         @click="toggleCatagory('ui')"
         :class="[category === 'ui' ? 'bg-blue-600 text-white' : '']"
-        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold"
+        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold mx-2 mb-2"
       >UI</div>
       <div
         @click="toggleCatagory('forms')"
         :class="[category === 'forms' ? 'bg-blue-600 text-white' : '']"
-        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold"
+        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold mx-2 mb-2"
       >forms</div>
       <div
         @click="toggleCatagory('api')"
         :class="[category === 'api' ? 'bg-blue-600 text-white' : '']"
-        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold"
+        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold mx-2 mb-2"
       >API</div>
       <div
         @click="toggleCatagory('symfony')"
         :class="[category === 'symfony' ? 'bg-blue-600 text-white' : '']"
-        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold"
+        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold mx-2 mb-2"
       >symfony</div>
       <div
         @click="toggleCatagory('doctrine')"
         :class="[category === 'doctrine' ? 'bg-blue-600 text-white' : '']"
-        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold"
+        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold mx-2 mb-2"
       >doctrine</div>
       <div
         @click="toggleCatagory('psr')"
         :class="[category === 'psr' ? 'bg-blue-600 text-white' : '']"
-        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold"
+        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold mx-2 mb-2"
       >PSR</div>
       <div
         @click="toggleCatagory('nextras')"
         :class="[category === 'nextras' ? 'bg-blue-600 text-white' : '']"
-        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold"
+        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold mx-2 mb-2"
       >nextras</div>
       <div
         @click="toggleCatagory('webservices')"
         :class="[category === 'webservices' ? 'bg-blue-600 text-white' : '']"
-        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold"
+        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold mx-2 mb-2"
       >webservices</div>
-      <div
-        @click="toggleCatagory('php')"
-        :class="[category === 'php' ? 'bg-blue-600 text-white' : '']"
-        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold"
-      >php</div>
       <div
         @click="toggleCatagory('dev')"
         :class="[category === 'dev' ? 'bg-blue-600 text-white' : '']"
-        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold"
+        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold mx-2 mb-2"
       >dev</div>
       <div
-        @click="toggleCatagory('')"
-        :class="[category === '' ? 'bg-blue-600 text-white' : '']"
-        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold"
+        @click="toggleCatagory('other')"
+        :class="[category === 'other' ? 'bg-blue-600 text-white' : '']"
+        class="bg-gray-300 cursor-pointer rounded-lg px-2 py-1 font-bold mx-2 mb-2"
       >other</div>
     </div>
     <div v-if="filtered.length <= 0" class="text-center">No package found.</div>
@@ -128,7 +123,6 @@ export default {
         })
         .filter(r => {
           if (this.category === null) return true;
-          if (this.category === "") return r.category === undefined;
 
           return r.category === this.category;
         })

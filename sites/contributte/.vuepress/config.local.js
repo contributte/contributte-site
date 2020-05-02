@@ -57,7 +57,7 @@ module.exports = {
 
     if ($page.regularPath === '/releases.html') {
       $page.contributte = {
-        releases: releases.getFewReleases(20),
+        releases: releases.getFewReleases(30),
       }
     }
   },

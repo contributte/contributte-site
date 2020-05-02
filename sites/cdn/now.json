@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "name": "cdn",
+  "scope": "nette",
+  "routes": [
+    { "src": "/(.*)", "dest": "https://ik.imagekit.io/nette/contributte/$1" }
+  ]
+}

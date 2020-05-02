@@ -24,5 +24,5 @@ metaTitle: Contributte Partners
 <p><strong>We are here for you.</strong></p>
 
 <p>
-  Write us an email to <a class="underline" href="milan@sulc.dev">milan@sulc.dev</a> and we will surely figure something out.
+  Write us an email to <a class="underline" href="mailto:milan@sulc.dev">milan@sulc.dev</a> and we will surely figure something out.
 </p>

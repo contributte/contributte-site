@@ -13,7 +13,7 @@ meta:
     Ninjify - PHP nunchucks for you coding dojo
   </p>
     <p class="mt-6">
-    <a href="[/packages/apitte/core.html](https://github.com/ninjify/)" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Get Started →</a>
+    <a href="https://github.com/ninjify/" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Get Started →</a>
   </p>
 </header>
 

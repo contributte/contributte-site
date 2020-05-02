@@ -20,9 +20,15 @@ module.exports = {
       { text: "Home", link: "/" },
       { text: "Blabs", link: "/blabs/" },
       { text: "Packages", link: "/packages/" },
-      { text: "Releases", link: "/releases" },
-      { text: "Examples", link: "/examples" },
-      { text: "Contributing", link: "/contributing" },
+      {
+        text: 'Development',
+        ariaLabel: 'Development',
+        items: [
+          { text: "Releases", link: "/releases" },
+          { text: "Examples", link: "/examples" },
+          { text: "Contributing", link: "/contributing" },
+        ]
+      },
       { text: "Partners", link: "/partners" },
       { text: "About", link: "/about" }
     ],

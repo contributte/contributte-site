@@ -8,7 +8,7 @@ meta:
 
 <header class="text-center">
   <h1>Ninjify</h1>
-  <img class="m-auto" src="/ninjify.png" alt="Ninjify" title="Ninjify logo" width="150">
+  <img class="m-auto" src="https://avatars.githubusercontent.com/ninjify" alt="Ninjify" title="Ninjify logo" width="150">
   <p class="text-2xl text-gray-600">
     Ninjify - PHP nunchucks for you coding dojo
   </p>
@@ -85,5 +85,5 @@ vendor/bin/codesniffer src tests
 ```
 
 <p>
-  <img class="m-auto" src="/misc/ninjify-console.png" alt="Codesniffer" title="Ninjify Codesniffer">
+  <img class="m-auto" src="https://cdn.contributte.org/misc/ninjify-console.png" alt="Codesniffer" title="Ninjify Codesniffer" loading="lazy">
 </p>

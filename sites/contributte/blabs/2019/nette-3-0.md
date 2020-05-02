@@ -10,4 +10,5 @@ author: f3l1x
 The revolutionary version of Nette 3 is out! The new version takes full advantage of PHP 7.1 and brings a number of innovations.
 Take a look at [Nette blog](https://blog.nette.org).
 
-![](https://files.nette.org/images/blog/nette3.jpg)
+<img class="mt-8" src="https://cdn.contributte.org/blabs/nette3.jpg" loading="lazy">
+<img class="mt-8" src="https://cdn.contributte.org/blabs/nette-homepage.png" loading="lazy">

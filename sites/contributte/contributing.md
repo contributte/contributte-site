@@ -40,4 +40,4 @@ metaTitle: How To Contribute?
   <li>Profit and glory!</li>
 </ol>
 
-<img src="https://cdn.contributte.org/contributte/bare.png">
+<img src="https://cdn.contributte.org/bare.png" loading="lazy">

@@ -43,7 +43,7 @@ $form->addSubmit('save', 'Save');
 By default bootstrap theme would look something like that:
 ​
 <div class="m-4 my-8">
-  <img src="/blabs/form-bootstrap.png">
+  <img src="https://cdn.contributte.org/blabs/form-bootstrap.png" loading="lazy">
 </div>
 ​​
 <Explanation class="mt-12" type="package"><a class="text-white" href="/packages/contributte/forms-bootstrap.html">Try contributte/forms-bootstrap package →</a></Explanation>

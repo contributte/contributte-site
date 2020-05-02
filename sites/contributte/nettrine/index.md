@@ -8,7 +8,7 @@ meta:
 
 <header class="text-center">
   <h1>Nettrine</h1>
-  <img class="m-auto" src="/nettrine.png" alt="Nettrine" title="Nettrine logo" width="150">
+  <img class="m-auto" src="https://avatars.githubusercontent.com/nettrine" alt="Nettrine" title="Nettrine logo" width="150">
   <p class="text-2xl text-gray-600">
     Easy & smart integration of Doctrine2 to Nette Framework
   </p>

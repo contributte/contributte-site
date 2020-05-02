@@ -75,21 +75,21 @@ git clone git@github.com:planette/playground.git
     <tr>
       <td align="center">
         <a href="https://github.com/f3l1x">
-            <img width="150" height="150" src="https://avatars2.githubusercontent.com/u/538058?v=4&s=130">
+            <img width="150" height="150" src="https://avatars2.githubusercontent.com/u/538058?v=4&s=130" loading="lazy">
         </a>
         </br>
         <a href="https://github.com/f3l1x">Milan Felix Šulc</a>
       </td>
       <td align="center">
         <a href="https://github.com/chemix">
-            <img width="150" height="150" src="https://avatars0.githubusercontent.com/u/42802?s=130&v=4">
+            <img width="150" height="150" src="https://avatars0.githubusercontent.com/u/42802?s=130&v=4" loading="lazy">
         </a>
         </br>
         <a href="https://github.com/chemix">Honza Černý</a>
       </td>
       <td align="center">
         <a href="https://github.com/mabar">
-            <img width="150" height="150" src="https://avatars0.githubusercontent.com/u/20974277?s=130&v=4">
+            <img width="150" height="150" src="https://avatars0.githubusercontent.com/u/20974277?s=130&v=4" loading="lazy">
         </a>
         </br>
         <a href="https://github.com/mabar">Marek Bartoš</a>

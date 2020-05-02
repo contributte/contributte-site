@@ -44,7 +44,7 @@ metaTitle: About Contributte
   <div class="flex-1">
     <h2>Contact Us</h2>
     <ul class="my-8">
-      <li><img src="https://avatars1.githubusercontent.com/u/538058?v=4&s=128" width="64" alt=""></li>
+      <li><img src="https://avatars1.githubusercontent.com/u/538058?v=4&s=128" width="64" alt="" loading="lazy"></li>
       <li><strong>Milan Šulc</strong></li>
       <li><a class="underline" href="milan@sulc.dev">milan@sulc.dev</a></li>
     </ul>

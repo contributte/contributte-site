@@ -14,14 +14,14 @@ Datagrid 6 now supports Nette 3.
 There has been also a lot of stuff happening behind the scenes. The whole documentation was updated and moved to README files in the projects repository.
 This step made it possible to show datagrid documentation on GitHub homepage and primarily, alongside other Contributte vendors on [contributte.org](https://contributte.org).
 
-Also the [DEMO](https://examples.planette.io/contributte/datagrid/) was moved to the official Contributte demo pages.
+Also the [DEMO](https://examples.contributte.org/packages/datagrid/) was moved to the official Contributte demo pages.
 
-![contributte/datagrid](/blabs/contributte-datagrid.png)
+<img loading="lazy" src="https://cdn.contributte.org/blabs/contributte-datagrid.png">
 
 Links:
 
 - 6.0.0 release: [https://github.com/contributte/datagrid/releases/tag/v6.0.0](https://github.com/contributte/datagrid/releases/tag/v6.0.0)
 - Documentation: [https://contributte.org/packages/contributte/datagrid/](https://contributte.org/packages/contributte/datagrid/)
-- Demo: [https://examples.planette.io/contributte/datagrid/](https://examples.planette.io/contributte/datagrid/)
+- Demo: [https://examples.contributte.org/packages/datagrid/](https://examples.contributte.org/packages/datagrid/)
 
 <Explanation class="mt-12" type="package"><a class="text-white" href="/packages/contributte/datagrid/">Try contributte/datagrid package →</a></Explanation>

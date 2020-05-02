@@ -8,7 +8,7 @@ meta:
 
 <header class="text-center">
   <h1>Apitte</h1>
-  <img class="m-auto" src="/apitte.png" alt="Apitte" title="Apitte logo" width="150">
+  <img class="m-auto" src="https://avatars.githubusercontent.com/apitte" alt="Apitte" title="Apitte logo" width="150" loading="lazy">
   <p class="text-2xl text-gray-600">
     Modern PHP/PSR7 API framework build on top of Nette Framework
   </p>

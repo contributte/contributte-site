@@ -7,7 +7,7 @@ metaTitle: Contributte - First class extensions, addons and plugins for Nette Fr
   <h1 class="hidden">Contributte</h1>
   <div class="md:flex items-center">
     <div class="flex-grow-1">
-      <img src="/contributte.png" class="m-auto" alt="Contributte" title="Contributte logo" width="150">
+      <img src="/contributte.png" class="m-auto" alt="Contributte" title="Contributte logo" width="150" loading="lazy">
       <p class="text-4xl xl:text-5xl leading-12 text-gray-800 mt-6 font-black">
         First::class <a href="/packages/" class="font-black underline">extensions</a> <br>for Nette Framework
       </p>
@@ -218,7 +218,7 @@ metaTitle: Contributte - First class extensions, addons and plugins for Nette Fr
     <div class="flex my-12 justify-center">
       <div class="max-w-sm bg-white shadow-lg rounded-lg overflow-hidden mx-4 my-2">
         <div class="sm:flex sm:items-center px-6 py-4">
-          <img class="block mx-auto sm:mx-0 sm:flex-shrink-0 h-16" src="https://raw.githubusercontent.com/iamcal/emoji-data/master/img-apple-160/1f468-1f3fb-200d-1f4bb.png" />
+          <img class="block mx-auto sm:mx-0 sm:flex-shrink-0 h-16" src="https://raw.githubusercontent.com/iamcal/emoji-data/master/img-apple-160/1f468-1f3fb-200d-1f4bb.png" loading="lazy" />
           <div class="mt-4 sm:mt-0 sm:ml-4 text-center sm:text-left">
             <p class="text-xl font-bold leading-tight">We want you for team!</p>
             <div class="mt-4">
@@ -231,7 +231,7 @@ metaTitle: Contributte - First class extensions, addons and plugins for Nette Fr
       </div>
       <div class="max-w-sm bg-white shadow-lg rounded-lg overflow-hidden mx-4 my-2">
         <div class="sm:flex sm:items-center px-6 py-4">
-          <img class="block mx-auto sm:mx-0 sm:flex-shrink-0 h-16" src="https://raw.githubusercontent.com/iamcal/emoji-data/master/img-apple-160/1f468-1f3fb-200d-1f4bc.png" />
+          <img class="block mx-auto sm:mx-0 sm:flex-shrink-0 h-16" src="https://raw.githubusercontent.com/iamcal/emoji-data/master/img-apple-160/1f468-1f3fb-200d-1f4bc.png" loading="lazy" />
           <div class="mt-4 sm:mt-0 sm:ml-4 text-center sm:text-left">
             <p class="text-xl font-bold leading-tight">We need you to support!</p>
             <div class="mt-4">

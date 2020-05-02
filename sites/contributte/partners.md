@@ -52,7 +52,7 @@ metaTitle: Contributte Partners
 </div>
 
 <div>
-  Are you using contributte packages? Please <a class="text-blue-600 underline" href="https://github.com/contributte/website/issues/new">tell us</a> about it and we will put you in the <strong>trusted</strong> list.
+  Are you using contributte packages? Please <a class="text-blue-600 underline" href="https://github.com/contributte/contributte/issues/new?template=Truster.md">tell us</a> about it and we will put you in the <strong>trusted</strong> list.
 </div>
 
 <div class="mb-16"></div>

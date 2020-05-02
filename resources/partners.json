@@ -1,32 +1,41 @@
-[
-  {
-    "name": "Tlapnet",
-    "website": "https://tlapnet.cz",
-    "avatar": "https://avatars.githubusercontent.com/tlapnet"
-  },
-  {
-    "name": "Ispalliance",
-    "website": "https://ispalliance.cz",
-    "avatar": "https://avatars.githubusercontent.com/ispalliance"
-  },
-  {
-    "name": "NX1",
-    "website": "https://nx1.cz",
-    "avatar": "https://avatars.githubusercontent.com/netrixone"
-  },
-  {
-    "name": "Blueweb",
-    "website": "https://blueweb.sk",
-    "avatar": "https://avatars.githubusercontent.com/blueweb"
-  },
-  {
-    "name": "BeetFit",
-    "website": "https://beetfit.com",
-    "avatar": "https://avatars.githubusercontent.com/beetfit"
-  },
-  {
-    "name": "Econea",
-    "website": "https://econea.cz",
-    "avatar": "https://avatars.githubusercontent.com/econea"
-  }
-]
+{
+  "patrons": [
+    {
+      "name": "Tlapnet",
+      "website": "https://tlapnet.cz",
+      "avatar": "https://avatars.githubusercontent.com/tlapnet"
+    },
+    {
+      "name": "NX1",
+      "website": "https://nx1.cz",
+      "avatar": "https://avatars.githubusercontent.com/netrixone"
+    },
+    {
+      "name": "Blueweb",
+      "website": "https://blueweb.sk",
+      "avatar": "https://avatars.githubusercontent.com/blueweb"
+    },
+    {
+      "name": "Ispalliance",
+      "website": "https://ispalliance.cz",
+      "avatar": "https://avatars.githubusercontent.com/ispalliance"
+    }
+  ],
+  "trusted": [
+    {
+      "name": "Econea",
+      "website": "https://econea.cz",
+      "avatar": "https://avatars.githubusercontent.com/econea"
+    },
+    {
+      "name": "BeetFit",
+      "website": "https://beetfit.com",
+      "avatar": "https://avatars.githubusercontent.com/beetfit"
+    },
+    {
+      "name": "SmartEmailing",
+      "website": "https://www.smartemailing.cz/",
+      "avatar": "https://cdn.contributte.org/partners/smartemailing.png"
+    }
+  ]
+}

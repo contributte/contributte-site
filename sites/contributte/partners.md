@@ -1,15 +1,61 @@
 ---
 layout: HighLayout
+pageClass: custom test
 metaTitle: Contributte Partners
 ---
 
 <h1>Partners</h1>
 
 <p>
-  We are very thankful to our partners for your incredible support, thank you guys.
+  We are very thankful to our patrons for your incredible support. And also very proud 
+  of companies and dev folks that trust us. 
 </p>
 
-<Partners/>
+<div class="mb-16"></div>
+
+<h2>Patrons</h2>
+
+<div class="flex  flex-wrap my-12">
+  <div v-for="partner of $page.contributte.partners.patrons">
+    <a
+      class="block max-w-sm rounded overflow-hidden shadow-lg px-6 m-2"
+      :href="partner.website"
+      :key="partner.name"
+      target="_blank"
+    >
+      <img class="w-32 m-auto" :src="partner.avatar" loading="lazy" alt="Sunset in the mountains" />
+      <div class="px-6 py-4 text-center">
+        <div class="font-bold">{{partner.name}}</div>
+      </div>
+    </a>
+  </div>
+</div>
+
+<div class="mb-16"></div>
+
+<h2>Trusted By</h2>
+
+<div class="flex flex-wrap my-12">
+  <div v-for="partner of $page.contributte.partners.trusted">
+    <a
+      class="block max-w-sm rounded overflow-hidden shadow-lg px-6 m-2"
+      :href="partner.website"
+      :key="partner.name"
+      target="_blank"
+    >
+      <img class="w-32 m-auto" :src="partner.avatar" loading="lazy" alt="Sunset in the mountains" />
+      <div class="px-6 py-4 text-center">
+        <div class="font-bold">{{partner.name}}</div>
+      </div>
+    </a>
+  </div>
+</div>
+
+<div>
+  Are you using contributte packages? Please <a class="text-blue-600 underline" href="https://github.com/contributte/website/issues/new">tell us</a> about it and we will put you in the <strong>trusted</strong> list.
+</div>
+
+<div class="mb-16"></div>
 
 <h2>Reach Us</h2>
 

@@ -3,6 +3,7 @@ import * as sidebar from "./utils/data/sidebar";
 import * as releases from "./utils/data/releases";
 import * as repositories from "./utils/data/repositories";
 import * as partners from "./utils/data/partners";
+import * as team from "./utils/data/team";
 
 module.exports = {
   title: "Contributte",
@@ -65,6 +66,12 @@ module.exports = {
     if ($page.regularPath === '/partners.html') {
       $page.contributte = {
         partners: partners.getPartners(),
+      }
+    }
+
+    if ($page.regularPath === '/about.html') {
+      $page.contributte = {
+        team: team.getTeam(),
       }
     }
   },

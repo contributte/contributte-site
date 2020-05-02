@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center flex-wrap my-12">
-    <div v-for="member of team">
+    <div v-for="member of $page.contributte.team">
       <a
         class="block max-w-sm rounded overflow-hidden shadow-lg m-2"
         :href="'https://github.com/'+member.username"
@@ -15,11 +15,5 @@
 </template>
 
 <script>
-import team from "./../../../../resources/team.json";
-
-export default {
-  data: () => ({
-    team
-  })
-};
+export default {};
 </script>

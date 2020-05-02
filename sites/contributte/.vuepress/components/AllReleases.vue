@@ -25,7 +25,7 @@
 
 <script>
 import dayjs from "dayjs";
-import { findRepository } from "./../utils/repositories";
+import { findRepository } from "./../utils/data/repositories";
 import { link } from "./../utils/linker";
 
 export default {

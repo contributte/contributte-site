@@ -6,15 +6,36 @@ const CONFIG = require('./../../contributte');
 const TMP_ORGS = {};
 const TMP_REPOS = {};
 
+const IGNORED = [
+  'contributte/contributte',
+  'contributte/website',
+  'contributte/api',
+  'contributte/advisories',
+  'contributte/nextras-criteria',
+  'contributte/datagrid-nette-database-data-source',
+  'contributte/datagrid-elasticsearch-data-source',
+  'contributte/datagrid-dibi-data-source',
+  'contributte/datagrid-doctrine-data-source',
+  'contributte/datagrid-nextras-data-source',
+  'contributte/datagrid-leanmapper-data-source',
+  'contributte/cnb',
+  'apitte/events',
+  'apitte/mapping',
+  'apitte/apitte-org',
+  'nettrine/microtrine',
+  'ninjify/imap',
+  'ninjify/dag'
+]
+
 function diff() {
   outdated();
   missing();
 }
 
 function outdated() {
-  _.forEach(CONFIG.resources.repositories.read(), (repo, repoName) => {
+  _.forEach(getRepositories(), (repo, repoName) => {
     let found = false;
-    _.forEach(Object.keys(CONFIG.data.organizations), (org) => {
+    _.forEach(getOrganizations(), (org) => {
       const res = _.find(getOrganization(org), { full_name: repoName });
       if (res) found = true;
     });
@@ -26,14 +47,21 @@ function outdated() {
 }
 
 function missing() {
-  _.forEach(Object.keys(CONFIG.data.organizations), (org) => {
-    _.forEach(getOrganization(org), repo => {
-      const res = _.find(getRepositories(), { org, name: repo.name });
-      if (!res) {
-        console.log(`Repo ${repo.full_name} is maybe missing`);
-      }
-    });
+  _.forEach(getOrganizations(), (org) => {
+    _(getOrganization(org))
+      .filter(repo => !IGNORED.includes(`${org}/${repo.name}`))
+      .forEach(repo => {
+        const res = _.find(getRepositories(), { org, name: repo.name });
+        if (!res) {
+          console.log(`Repo ${repo.full_name} is maybe missing`);
+        }
+      });
   });
+}
+
+function getOrganizations() {
+  return Object.keys(CONFIG.data.organizations)
+    .filter(org => org !== 'planette');
 }
 
 function getOrganization(org) {

@@ -1,7 +1,8 @@
 import path from "path";
-import * as sidebar from "./utils/sidebar";
-import * as releases from "./utils/releases";
-import * as repositories from "./utils/repositories";
+import * as sidebar from "./utils/data/sidebar";
+import * as releases from "./utils/data/releases";
+import * as repositories from "./utils/data/repositories";
+import * as partners from "./utils/data/partners";
 
 module.exports = {
   title: "Contributte",
@@ -35,7 +36,7 @@ module.exports = {
     lastUpdated: false,
     sidebar: sidebar.buildSidebar(),
     contributte: {
-      packages: repositories.getEnabledRepositories().length,
+      packages: repositories.getRepositories().length,
     }
   },
   evergreen: true,
@@ -51,13 +52,19 @@ module.exports = {
   extendPageData($page) {
     if ($page.regularPath === '/packages/') {
       $page.contributte = {
-        repositories: repositories.getEnabledRepositories(),
+        repositories: repositories.getRepositories(),
       }
     }
 
     if ($page.regularPath === '/releases.html') {
       $page.contributte = {
         releases: releases.getFewReleases(30),
+      }
+    }
+
+    if ($page.regularPath === '/partners.html') {
+      $page.contributte = {
+        partners: partners.getPartners(),
       }
     }
   },

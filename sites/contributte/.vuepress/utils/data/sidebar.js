@@ -1,10 +1,10 @@
 import _ from "lodash";
-import { getEnabledRepositories } from './repositories';
+import { getRepositories } from './repositories';
 
 export function buildSidebar() {
   const sidebar = {};
 
-  getEnabledRepositories()
+  getRepositories()
     .forEach(r => {
       const title = r.title ? r.title : _.capitalize(_.replace(r.name, /-/g, ' '));
 

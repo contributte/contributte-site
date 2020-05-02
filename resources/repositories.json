@@ -3189,5 +3189,50 @@
         "body": "<ul>\n<li>Make installabe as <code>contributte/menu-control</code></li>\n</ul>"
       }
     }
+  },
+  "contributte/validator": {
+    "org": "contributte",
+    "name": "validator",
+    "category": "symfony",
+    "enabled": true,
+    "priority": 0,
+    "docs": {
+      "v": "v1"
+    },
+    "stars": 2,
+    "watchers": 2,
+    "forks": 0,
+    "issues": 1,
+    "description": "🙅‍♀️ Validator (symfony/validator) to Nette Framework (@nette)"
+  },
+  "nettrine/odm": {
+    "org": "nettrine",
+    "name": "odm",
+    "category": "doctrine",
+    "enabled": true,
+    "priority": 0,
+    "docs": {
+      "v": "v1"
+    },
+    "stars": 1,
+    "watchers": 1,
+    "forks": 1,
+    "issues": 0,
+    "description": "💥  Well-integrated Doctrine2 ODM for Nette Framework"
+  },
+  "nettrine/mongodb": {
+    "org": "nettrine",
+    "name": "mongodb",
+    "category": "doctrine",
+    "enabled": true,
+    "priority": 0,
+    "docs": {
+      "v": "v1"
+    },
+    "stars": 1,
+    "watchers": 1,
+    "forks": 1,
+    "issues": 0,
+    "description": "⚡  Well-integrated MongoDB for Nette Framework"
   }
 }

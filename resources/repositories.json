@@ -1733,22 +1733,6 @@
     },
     "issues": 0
   },
-  "apitte/openapi-toolkit": {
-    "org": "apitte",
-    "name": "openapi-toolkit",
-    "title": "OpenAPI UI",
-    "enabled": true,
-    "priority": 0,
-    "docs": {
-      "v": "v0"
-    },
-    "description": "♦️ Simple and intuitive OpenApi/Swagger compatible UI toolkit",
-    "category": "api",
-    "stars": 4,
-    "watchers": 4,
-    "forks": 0,
-    "issues": 0
-  },
   "nettrine/dbal": {
     "org": "nettrine",
     "name": "dbal",

@@ -24,7 +24,30 @@ metaTitle: About Contributte
   We are group of opensource enthusiasts and together we are building huge ecosystem around <a href="https://nette.org">Nette Framework</a>.
 </p>
 
-<Team />
+<div class="flex justify-center flex-wrap my-12">
+  <div v-for="member of $page.contributte.team">
+    <a
+      class="block max-w-sm rounded overflow-hidden shadow-lg m-2"
+      :href="'https://github.com/'+member.username"
+    >
+      <img class="w-32 m-auto" :src="member.avatar+'&s=192'" loading="lazy" :alt="member.username" :title="member.username" />
+      <div class="px-6 py-4 text-center">
+        <div class="font-bold">{{member.username}}</div>
+      </div>
+    </a>
+  </div>
+  <div>
+     <a
+      class="block max-w-sm rounded overflow-hidden shadow-lg m-2"
+      href="mailto:milan@sulc.dev?subject=New dev guy"
+    >
+      <div class="w-32 h-32 text-center text-6xl flex items-center justify-center">+</div> 
+       <div class="px-6 py-4 text-center">
+        <div class="font-bold">$you</div>
+      </div>
+    </a>
+  </div>
+</div>
 
 <div class="flex">
   <div class="flex-1">

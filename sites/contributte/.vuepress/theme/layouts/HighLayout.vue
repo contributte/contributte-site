@@ -13,9 +13,6 @@ export default {
   components: {
     Footer,
     Layout
-  },
-  mounted() {
-    console.log(this);
   }
 };
 </script>

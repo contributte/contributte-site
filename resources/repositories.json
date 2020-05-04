@@ -2684,7 +2684,7 @@
     "enabled": true,
     "priority": 0,
     "docs": {
-      "v": "v0"
+      "v": "v1"
     },
     "description": "👨 RESTful router for your API in Nette Framework - created either directly or via annotation",
     "releases": {
@@ -2721,7 +2721,7 @@
     "enabled": true,
     "priority": 0,
     "docs": {
-      "v": "v0"
+      "v": "v1"
     },
     "description": "👩 Document generator for ApiRouter routes - awesome runtime documentation",
     "releases": {

@@ -2489,7 +2489,7 @@
     "enabled": true,
     "priority": 0,
     "docs": {
-      "v": "v0"
+      "v": "v1"
     },
     "description": "👸 API documentation generator (JSON-RPC / REST)",
     "releases": {

@@ -29,7 +29,7 @@
                   <strong>Projects</strong>
                 </li>
                 <li>
-                  <a href="https://componette.com">Componette</a>
+                  <a href="https://componette.org">Componette</a>
                 </li>
                 <li>
                   <a href="https://github.com/planette">Planette</a>

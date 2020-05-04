@@ -1589,6 +1589,16 @@
     "html_url": "https://github.com/contributte/latte/releases/tag/v0.2",
     "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"man_farmer\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f33e.png\">👨‍🌾</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/latte/compare/v0.1...v0.2\"><tt>v0.1...v0.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>added new filter <code>filectime</code> [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"197610551\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/latte/issues/2\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/latte/issues/2/hovercard\" href=\"https://github.com/contributte/latte/issues/2\">#2</a>]</li>\n<li>added new filter <code>email</code> [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"205264100\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/latte/issues/5\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/latte/issues/5/hovercard\" href=\"https://github.com/contributte/latte/issues/5\">#5</a>]</li>\n<li>added new number formatter [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"205264151\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/latte/issues/6\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/latte/issues/6/hovercard\" href=\"https://github.com/contributte/latte/issues/6\">#6</a>]</li>\n<li>automatic <code>{rev}</code> <code>{v}</code> <code>{build}</code> in debugMode [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"221510045\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/latte/issues/8\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/latte/issues/8/hovercard\" href=\"https://github.com/contributte/latte/issues/8\">#8</a>]</li>\n<li>modular filters [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"235842083\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/latte/issues/9\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/latte/issues/9/hovercard\" href=\"https://github.com/contributte/latte/issues/9\">#9</a>]</li>\n</ul>"
   },
+  "6797844": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v1.1.0",
+    "name": "v1.1.0",
+    "created_at": "2017-06-22T08:50:26Z",
+    "published_at": "2017-06-22T08:53:25Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v1.1.0",
+    "body": "<h2>First official release on GitHub</h2>\n<ul>\n<li>Added license (MIT)</li>\n<li>Added proper README</li>\n<li>StaticConsumer - added ability to consume just particular amount of messages</li>\n</ul>"
+  },
   "6934680": {
     "org": "contributte",
     "repo": "datagrid",
@@ -1618,6 +1628,46 @@
     "published_at": "2017-07-09T15:53:48Z",
     "html_url": "https://github.com/contributte/thepay-api/releases/tag/v3.2.2",
     "body": ""
+  },
+  "6995582": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v1.2.0",
+    "name": "v1.2.0",
+    "created_at": "2017-07-11T08:37:46Z",
+    "published_at": "2017-07-11T08:41:38Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v1.2.0",
+    "body": "<h2>kdyby/console v2.7.x support</h2>"
+  },
+  "7017473": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v1.2.2",
+    "name": "v1.2.2",
+    "created_at": "2017-07-12T16:51:21Z",
+    "published_at": "2017-07-12T17:20:32Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v1.2.2",
+    "body": "<h2>Consumer.php (Channel::reject()) fix</h2>\n<ul>\n<li>Consumer fix: reject message from queue and do not requeue when returning IConsumer::MESSAGE_REJECT</li>\n</ul>"
+  },
+  "7034779": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v1.2.3",
+    "name": "v1.2.3",
+    "created_at": "2017-07-13T20:26:16Z",
+    "published_at": "2017-07-13T20:27:33Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v1.2.3",
+    "body": "<h2>Extension fix</h2>\n<ul>\n<li>ConnectionsHelper: default port fix (string -&gt; int)</li>\n</ul>"
+  },
+  "7049199": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v1.2.4",
+    "name": "v1.2.4",
+    "created_at": "2017-07-14T20:54:54Z",
+    "published_at": "2017-07-14T20:59:37Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v1.2.4",
+    "body": "<h2>Abandon kdyby/console (optional)</h2>\n<ul>\n<li>No need to use strictly <code>kdyby/console</code> anymore. Could use <code>kdyby/console</code> or for example <a href=\"https://github.com/contributte/console\">contributte/console</a> :)</li>\n<li>require <code>symfony/console</code> in composer.json</li>\n</ul>"
   },
   "7051863": {
     "org": "contributte",
@@ -1838,6 +1888,16 @@
     "published_at": "2017-08-11T14:50:09Z",
     "html_url": "https://github.com/contributte/api/releases/tag/v0.3",
     "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"hocho\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f52a.png\">🔪</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/api/compare/v0.2.2...v0.3\"><tt>v0.2.2...v0.3</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>namespace refactoring (drop Bridges)</li>\n<li>rename Factory/Generator to Serialization</li>\n<li>rename Validators to Validations</li>\n<li>ApiResponse/ApiRequest don't composite PSR7, they extend</li>\n<li>simplify whole middlewares usage</li>\n<li>simplify ApiExtension</li>\n<li>added new Api2MiddlewaresExtension to easy use of middlewares</li>\n<li>simplify Transformers (from 2 interfaces to 1 interface)</li>\n<li>direct dependencies: contributte/psr7-http-message, contributte/middlewares, contributte/phpdoc</li>\n<li>tiny micro refactorings</li>\n<li>added huge amount of tests</li>\n</ul>"
+  },
+  "7397985": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v1.2.5",
+    "name": "v1.2.5",
+    "created_at": "2017-08-15T14:20:57Z",
+    "published_at": "2017-08-15T14:26:31Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v1.2.5",
+    "body": "<h2>Enhancements:</h2>\n<ul>\n<li>Added support for ContentType and DeliveryMode properties from producer config</li>\n<li>Improve StaticConsumer behavior when queue is empty</li>\n<li>DI extension is loaded using loadConfiguration method</li>\n</ul>\n<p>Thanks, <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/pavelkovar/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/pavelkovar\">@pavelkovar</a> !</p>"
   },
   "7410642": {
     "org": "contributte",
@@ -2107,7 +2167,7 @@
     "created_at": "2017-11-15T11:53:30Z",
     "published_at": "2017-11-15T11:54:53Z",
     "html_url": "https://github.com/contributte/middlewares/releases/tag/v0.5",
-    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"falkland_islands\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f1eb-1f1f0.png\">🇫����</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/middlewares/compare/v0.4...v0.5\"><tt>v0.4...v0.5</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>[BC] change <code>onStartup</code>, <code>onRequest</code>, <code>onResponse</code>, <code>onError</code> to <code>addListener(type, callback)</code> (<a href=\"https://github.com/contributte/middlewares/tree/master/.docs#application\">more in docs</a>)</li>\n</ul>"
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"falkland_islands\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f1eb-1f1f0.png\">���🇰</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/middlewares/compare/v0.4...v0.5\"><tt>v0.4...v0.5</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>[BC] change <code>onStartup</code>, <code>onRequest</code>, <code>onResponse</code>, <code>onError</code> to <code>addListener(type, callback)</code> (<a href=\"https://github.com/contributte/middlewares/tree/master/.docs#application\">more in docs</a>)</li>\n</ul>"
   },
   "8578597": {
     "org": "contributte",
@@ -2117,7 +2177,7 @@
     "created_at": "2017-11-19T18:28:49Z",
     "published_at": "2017-11-19T18:39:26Z",
     "html_url": "https://github.com/contributte/console/releases/tag/v0.2",
-    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"goat\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f410.png\">🐐</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/console/compare/v0.1.3...v0.2\"><tt>v0.1.3...v0.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>integrate lazy-command loader (symfony 3.4) [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"243172764\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/console/issues/7\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/console/issues/7/hovercard\" href=\"https://github.com/contributte/console/issues/7\">#7</a>]</li>\n<li>deprecate AbstractCommand (thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/mabar/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/mabar\">@mabar</a>) [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"274321144\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/console/issues/9\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/console/pull/9/hovercard\" href=\"https://github.com/contributte/console/pull/9\">#9</a>]</li>\n<li>sync readme</li>\n</ul>"
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"goat\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f410.png\">����</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/console/compare/v0.1.3...v0.2\"><tt>v0.1.3...v0.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>integrate lazy-command loader (symfony 3.4) [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"243172764\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/console/issues/7\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/console/issues/7/hovercard\" href=\"https://github.com/contributte/console/issues/7\">#7</a>]</li>\n<li>deprecate AbstractCommand (thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/mabar/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/mabar\">@mabar</a>) [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"274321144\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/console/issues/9\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/console/pull/9/hovercard\" href=\"https://github.com/contributte/console/pull/9\">#9</a>]</li>\n<li>sync readme</li>\n</ul>"
   },
   "8605600": {
     "org": "nettrine",
@@ -2559,6 +2619,16 @@
     "html_url": "https://github.com/apitte/fullstack/releases/tag/v0.2",
     "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"falkland_islands\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f1eb-1f1f0.png\">🇫🇰</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/apitte/fullstack/compare/v0.1...v0.2\"><tt>v0.1...v0.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>use apitte v0.2</li>\n</ul>"
   },
+  "9591032": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v1.2.9",
+    "name": "v1.2.9",
+    "created_at": "2018-02-08T13:07:40Z",
+    "published_at": "2018-02-08T13:08:23Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v1.2.9",
+    "body": "<ul>\n<li>Functionality and checks related to adding producers data to ProducersDataBag move to ProducersDataBag</li>\n</ul>"
+  },
   "9656091": {
     "org": "contributte",
     "repo": "thepay",
@@ -2689,6 +2759,16 @@
     "html_url": "https://github.com/contributte/anabelle/releases/tag/v1.2.0",
     "body": "<ul>\n<li>Added ability to use inline + block macros in block macros and inline macros in inline macros (both to max depth of 3)</li>\n</ul>"
   },
+  "9908673": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v1.3.0",
+    "name": "v1.3.0",
+    "created_at": "2018-03-02T09:47:31Z",
+    "published_at": "2018-03-02T09:48:52Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v1.3.0",
+    "body": "<ul>\n<li>Added option to specify qos (prefetchSize, prefetchCount)</li>\n</ul>"
+  },
   "10019262": {
     "org": "ninjify",
     "repo": "qa",
@@ -2778,6 +2858,16 @@
     "published_at": "2018-03-21T14:56:46Z",
     "html_url": "https://github.com/contributte/thepay/releases/tag/v4.0.1-rc0",
     "body": "<p>This release adds support for Helper\\Card::getCardInfo from the original library</p>"
+  },
+  "10209107": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v1.3.1",
+    "name": "v1.3.1",
+    "created_at": "2018-03-22T12:01:46Z",
+    "published_at": "2018-03-22T12:15:32Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v1.3.1",
+    "body": "<ul>\n<li>Added config options: heartbeat, timeout</li>\n</ul>"
   },
   "10433537": {
     "org": "contributte",
@@ -2919,6 +3009,16 @@
     "html_url": "https://github.com/contributte/security/releases/tag/v0.2",
     "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"tada\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f389.png\">🎉</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/security/compare/v0.1...v0.2\"><tt>v0.1...v0.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>PHP 7.1</li>\n<li>new StaticAuthenticator (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"316179956\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/security/issues/2\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/security/issues/2/hovercard\" href=\"https://github.com/contributte/security/issues/2\">#2</a>) [thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/mabar/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/mabar\">@mabar</a>]</li>\n</ul>"
   },
+  "10795710": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v1.3.2",
+    "name": "v1.3.2",
+    "created_at": "2018-05-01T09:35:56Z",
+    "published_at": "2018-05-01T11:49:53Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v1.3.2",
+    "body": "<ul>\n<li>Allow Symfony 4 and bunny 0.3||0.4, thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/pavelkovar/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/pavelkovar\">@pavelkovar</a></li>\n</ul>"
+  },
   "10875370": {
     "org": "nettrine",
     "repo": "dbal",
@@ -2947,7 +3047,7 @@
     "created_at": "2018-05-07T13:14:11Z",
     "published_at": "2018-05-07T13:14:57Z",
     "html_url": "https://github.com/contributte/scheduler/releases/tag/v0.2",
-    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"nut_and_bolt\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f529.png\">🔩</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/scheduler/compare/v0.1...v0.2\"><tt>v0.1...v0.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>PHP 7.1 [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"298386098\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/scheduler/issues/2\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/scheduler/pull/2/hovercard\" href=\"https://github.com/contributte/scheduler/pull/2\">#2</a>]</li>\n</ul>"
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"nut_and_bolt\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f529.png\">���</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/scheduler/compare/v0.1...v0.2\"><tt>v0.1...v0.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>PHP 7.1 [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"298386098\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/scheduler/issues/2\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/scheduler/pull/2/hovercard\" href=\"https://github.com/contributte/scheduler/pull/2\">#2</a>]</li>\n</ul>"
   },
   "10883610": {
     "org": "contributte",
@@ -3018,6 +3118,16 @@
     "published_at": "2018-05-21T13:22:46Z",
     "html_url": "https://github.com/contributte/invoice/releases/tag/v3.0.0",
     "body": ""
+  },
+  "11095840": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v2.0.0",
+    "name": "Fixed exchange message publishing",
+    "created_at": "2018-05-21T14:12:21Z",
+    "published_at": "2018-05-21T14:14:23Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v2.0.0",
+    "body": "<p>Fixed publishing of messages to exchanges.</p>\n<p>Exchanges now accept connection parameter.</p>\n<p>Breaking changes:</p>\n<ul>\n<li><code>Producer::publish()</code> method of  class now accepts third parameter <code>$routingKey</code>, which allows to propagate messages correctly through exchanges.</li>\n<li>Exchanges now publish messages in a different way. If you relied on the old (incorrect) way, you will probably have to adjust your code as the old version published one messages for each bound queue with a routing key that was defined in config for the queue binding (instead of message's routing key) basically rendering all exchanges as type fanout in better case, in worse case, if two or more queues shared a routing key, they would have received the message N times where N is the number of queues bound with the same key.</li>\n</ul>"
   },
   "11095947": {
     "org": "contributte",
@@ -3469,6 +3579,16 @@
     "html_url": "https://github.com/contributte/console-extra/releases/tag/v0.1",
     "body": "<p>First bump! <g-emoji class=\"g-emoji\" alias=\"fist_oncoming\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png\">👊</g-emoji></p>"
   },
+  "11869985": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v2.1.0",
+    "name": "v2.1.0",
+    "created_at": "2018-07-09T12:05:23Z",
+    "published_at": "2018-07-11T06:26:10Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v2.1.0",
+    "body": "<ul>\n<li>New option for disabling queue/exchange auto creation, thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/dada-amater/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dada-amater\">@dada-amater</a></li>\n<li>New option for enabling persistent connections, thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/dada-amater/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dada-amater\">@dada-amater</a></li>\n</ul>"
+  },
   "11890586": {
     "org": "contributte",
     "repo": "middlewares",
@@ -3569,6 +3689,16 @@
     "html_url": "https://github.com/contributte/tracy/releases/tag/v0.3.1",
     "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"apple\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f34e.png\">🍎</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/tracy/compare/v0.3...v0.3.1\"><tt>v0.3...v0.3.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Fixed invalid version constraint</li>\n</ul>"
   },
+  "12185557": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v3.0.0",
+    "name": "v3.0.0",
+    "created_at": "2018-07-31T14:25:10Z",
+    "published_at": "2018-07-31T14:27:34Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v3.0.0",
+    "body": "<p>Added:</p>\n<ul>\n<li>CLI command to declare queues/exchanges by config file, thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/31vi5/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/31vi5\">@31vi5</a></li>\n</ul>\n<p>BC Breaks:</p>\n<ul>\n<li>queues and exchanges are no longer declared automatically (default parameter <code>autoCreate</code> is <code>false</code> now)</li>\n</ul>"
+  },
   "12278632": {
     "org": "contributte",
     "repo": "guzzlette",
@@ -3658,6 +3788,26 @@
     "published_at": "2018-08-16T14:46:41Z",
     "html_url": "https://github.com/contributte/cache/releases/tag/v0.3",
     "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"robot\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f916.png\">🤖</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/cache/compare/v0.2...v0.3\"><tt>v0.2...v0.3</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>MemoryAdapterStorage</li>\n</ul>"
+  },
+  "12453780": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v1.0.0",
+    "name": "v1.0.0",
+    "created_at": "2018-08-17T12:42:51Z",
+    "published_at": "2018-08-17T12:45:25Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v1.0.0",
+    "body": "<p>First release!</p>"
+  },
+  "12454786": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v1.0.1",
+    "name": "v1.0.1",
+    "created_at": "2018-08-17T13:40:36Z",
+    "published_at": "2018-08-17T13:41:19Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v1.0.1",
+    "body": "<ul>\n<li>fixed <code>composer.json</code></li>\n</ul>"
   },
   "12455259": {
     "org": "contributte",
@@ -3839,6 +3989,16 @@
     "html_url": "https://github.com/contributte/monolog/releases/tag/v0.1.0",
     "body": "<p>First bump! <g-emoji class=\"g-emoji\" alias=\"fist_oncoming\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png\">👊</g-emoji></p>"
   },
+  "13608322": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v1.0.2",
+    "name": "v1.0.2",
+    "created_at": "2018-10-23T13:58:57Z",
+    "published_at": "2018-10-23T13:59:36Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v1.0.2",
+    "body": "<ul>\n<li>Method buildResponse of class ResponseDataBuilder made protected</li>\n</ul>"
+  },
   "13793849": {
     "org": "nettrine",
     "repo": "orm",
@@ -3929,6 +4089,56 @@
     "html_url": "https://github.com/contributte/deployer-extension/releases/tag/v3.0.1",
     "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"hamburger\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f354.png\">🍔</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/deployer-extension/compare/v3.0.0...v3.0.1\"><tt>v3.0.0...v3.0.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Fixed all namespace usages</li>\n</ul>"
   },
+  "13993086": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v1.0.3",
+    "name": "v1.0.3",
+    "created_at": "2018-11-14T09:11:04Z",
+    "published_at": "2018-11-14T09:13:26Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v1.0.3",
+    "body": "<ul>\n<li>ErrorResponse has now optional third constructor argument</li>\n</ul>"
+  },
+  "14022117": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v1.0.4",
+    "name": "v1.0.4",
+    "created_at": "2018-11-15T14:10:46Z",
+    "published_at": "2018-11-15T14:13:44Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v1.0.4",
+    "body": "<ul>\n<li>RequestCollectionFactory: make method createRequestFromRequestData public</li>\n</ul>"
+  },
+  "14032151": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v1.0.5",
+    "name": "v1.0.5",
+    "created_at": "2018-11-15T21:36:25Z",
+    "published_at": "2018-11-15T21:39:51Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v1.0.5",
+    "body": "<ul>\n<li>CommandProvider made not final</li>\n</ul>"
+  },
+  "14058176": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v1.0.6",
+    "name": "v1.0.6",
+    "created_at": "2018-11-17T11:07:29Z",
+    "published_at": "2018-11-17T11:14:29Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v1.0.6",
+    "body": "<ul>\n<li>JsonRPCExtension: do not necessarily register RedisPool</li>\n</ul>"
+  },
+  "14061178": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v1.0.7",
+    "name": "v1.0.7",
+    "created_at": "2018-11-17T21:29:43Z",
+    "published_at": "2018-11-17T21:32:36Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v1.0.7",
+    "body": "<ul>\n<li>JsonRPCExtension fix</li>\n</ul>"
+  },
   "14091157": {
     "org": "ninjify",
     "repo": "nunjuck",
@@ -3948,6 +4158,16 @@
     "published_at": "2018-11-20T11:32:09Z",
     "html_url": "https://github.com/contributte/anabelle/releases/tag/v1.4.0",
     "body": "<ul>\n<li>Added \"## / h2\" option to index.md</li>\n</ul>"
+  },
+  "14256793": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v1.0.8",
+    "name": "v1.0.8",
+    "created_at": "2018-11-29T13:50:41Z",
+    "published_at": "2018-11-29T13:52:11Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v1.0.8",
+    "body": "<ul>\n<li>SchemaProvider: better exception</li>\n</ul>"
   },
   "14558561": {
     "org": "contributte",
@@ -4229,6 +4449,26 @@
     "html_url": "https://github.com/contributte/nextras-orm-generator/releases/tag/0.2",
     "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"hourglass\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/231b.png\">⌛️</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/nextras-orm-generator/compare/0.1...0.2\"><tt>0.1...0.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>change name to contributte/nextras-orm-generator</li>\n<li>support only for PHP7.1+</li>\n<li>generate getEntityClassNames method on repository</li>\n<li>singularization (converting plural table name to singular class names)</li>\n<li>use Nextras\\Dbal\\Utils\\DateTimeImmutable for dates</li>\n<li>option to generate column constants</li>\n<li>model generator</li>\n<li>compatibility with php-generator 3+</li>\n<li>add config for (not) generating relations</li>\n<li>set primary key on generated entities</li>\n</ul>"
   },
+  "16333495": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v1.0.9",
+    "name": "v1.0.9",
+    "created_at": "2019-03-25T18:19:19Z",
+    "published_at": "2019-03-25T18:25:13Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v1.0.9",
+    "body": "<p>Added:</p>\n<ul>\n<li><code>ResponseDataBuilder::buildErrorResponse()</code> for general usage</li>\n</ul>"
+  },
+  "16336975": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v1.0.10",
+    "name": "v1.0.10",
+    "created_at": "2019-03-25T20:48:32Z",
+    "published_at": "2019-03-25T20:56:08Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v1.0.10",
+    "body": "<ul>\n<li>IResponseDataBuilder interface fixes</li>\n</ul>"
+  },
   "16405225": {
     "org": "contributte",
     "repo": "translation",
@@ -4318,6 +4558,36 @@
     "published_at": "2019-04-07T10:42:11Z",
     "html_url": "https://github.com/contributte/datagrid-nette-database-data-source/releases/tag/v2.0.0",
     "body": "<ul>\n<li>Added phpstan, code sniffer, updated to datagrid v6</li>\n</ul>"
+  },
+  "16622764": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v1.1.0",
+    "name": "v1.1.0",
+    "created_at": "2019-04-08T14:27:22Z",
+    "published_at": "2019-04-08T14:29:08Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v1.1.0",
+    "body": "<ul>\n<li>Added newest phpstan, code sniffer</li>\n</ul>"
+  },
+  "16772196": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v1.2.0",
+    "name": "v1.2.0",
+    "created_at": "2019-04-15T16:24:19Z",
+    "published_at": "2019-04-15T16:27:57Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v1.2.0",
+    "body": "<ul>\n<li>Added type hint <code>ICommandDTO::fromValidParams(\\stdClass $parameters)</code></li>\n</ul>"
+  },
+  "16843254": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v3.2.0",
+    "name": "v3.2.0",
+    "created_at": "2019-04-18T08:26:44Z",
+    "published_at": "2019-04-18T08:28:24Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v3.2.0",
+    "body": "<ul>\n<li>Added possibility to reject message and stop consuming, thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/her-ur/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/her-ur\">@her-ur</a></li>\n</ul>"
   },
   "16928415": {
     "org": "contributte",
@@ -4578,6 +4848,16 @@
     "published_at": "2019-06-05T06:36:08Z",
     "html_url": "https://github.com/contributte/reCAPTCHA/releases/tag/3.2.0",
     "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"point_left\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f448.png\">👈</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/reCAPTCHA/compare/3.1.0...3.2.0\"><tt>3.1.0...3.2.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Nette 3.0 [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"428238717\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/reCAPTCHA/issues/27\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/reCAPTCHA/pull/27/hovercard\" href=\"https://github.com/contributte/reCAPTCHA/pull/27\">#27</a>] (thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/PavelJurasek/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/PavelJurasek\">@PavelJurasek</a>)</li>\n<li>Fix validation message [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"421554486\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/reCAPTCHA/issues/26\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/reCAPTCHA/pull/26/hovercard\" href=\"https://github.com/contributte/reCAPTCHA/pull/26\">#26</a>]</li>\n</ul>"
+  },
+  "17912577": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v3.3.0",
+    "name": "v3.3.0",
+    "created_at": "2019-06-11T12:44:40Z",
+    "published_at": "2019-06-11T12:46:48Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v3.3.0",
+    "body": "<p>Changes:</p>\n<ul>\n<li>Changed <code>self::COMMAND_NAME</code> in consule commands to <code>self::$defaultName</code> (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/michalhlavka/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/michalhlavka\">@michalhlavka</a>)</li>\n</ul>"
   },
   "17956301": {
     "org": "contributte",
@@ -5259,6 +5539,26 @@
     "html_url": "https://github.com/contributte/redis/releases/tag/v0.1.1",
     "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/redis/compare/v0.1...v0.1.1\"><tt>v0.1...v0.1.1</tt></a> (not working, github don't like tagging specific commits, sry)</p>\n<p>Changes:</p>\n<ul>\n<li>Fixed session handler <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/redis/commit/007ac14cc226e9c4a76cc985e70cf200f1ae6680/hovercard\" href=\"https://github.com/contributte/redis/commit/007ac14cc226e9c4a76cc985e70cf200f1ae6680\"><tt>007ac14</tt></a></li>\n<li>Fixed complex configuration rendering in Tracy <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/redis/commit/3ea6da90109f433b25f61e229a1ad5766c0090e2/hovercard\" href=\"https://github.com/contributte/redis/commit/3ea6da90109f433b25f61e229a1ad5766c0090e2\"><tt>3ea6da9</tt></a></li>\n<li>Tracy 2.6 allowed <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/redis/commit/f4815a04396e9239778ebed08ac4e9d6952d62f3/hovercard\" href=\"https://github.com/contributte/redis/commit/f4815a04396e9239778ebed08ac4e9d6952d62f3\"><tt>f4815a0</tt></a></li>\n</ul>"
   },
+  "19807570": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v4.0.0",
+    "name": "v4.0.0",
+    "created_at": "2019-09-06T12:21:02Z",
+    "published_at": "2019-09-06T12:21:40Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v4.0.0",
+    "body": "<p>phpstan, nette 3.0 support</p>"
+  },
+  "19846605": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v2.0.0",
+    "name": "v2.0.0",
+    "created_at": "2019-09-09T10:31:14Z",
+    "published_at": "2019-09-09T10:33:10Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v2.0.0",
+    "body": "<ul>\n<li>Nette 3.0</li>\n</ul>"
+  },
   "19846963": {
     "org": "contributte",
     "repo": "anabelle",
@@ -5369,6 +5669,26 @@
     "html_url": "https://github.com/contributte/monolog/releases/tag/v0.4.0",
     "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/monolog/compare/v0.3.0...v0.4.0\"><tt>v0.3.0...v0.4.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Monolog 2.0 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/monolog/commit/c5a41c05982f0ea8edfd0f14b02d281930071015/hovercard\" href=\"https://github.com/contributte/monolog/commit/c5a41c05982f0ea8edfd0f14b02d281930071015\"><tt>c5a41c0</tt></a></li>\n<li>Flexible services syntax <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/monolog/commit/7790027c25e1aafc9551ad0959b3cfcaca9c9d1f/hovercard\" href=\"https://github.com/contributte/monolog/commit/7790027c25e1aafc9551ad0959b3cfcaca9c9d1f\"><tt>7790027</tt></a></li>\n</ul>"
   },
+  "20140078": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v3.0.0",
+    "name": "v3.0.0",
+    "created_at": "2019-09-20T14:02:35Z",
+    "published_at": "2019-09-20T14:04:14Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v3.0.0",
+    "body": "<ul>\n<li>league/json-reference + json-guard replaced with justinrainbow/json-schema</li>\n</ul>"
+  },
+  "20140290": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v3.0.1",
+    "name": "v3.0.1",
+    "created_at": "2019-09-20T14:07:37Z",
+    "published_at": "2019-09-20T14:10:57Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v3.0.1",
+    "body": ""
+  },
   "20204706": {
     "org": "contributte",
     "repo": "utils",
@@ -5468,6 +5788,16 @@
     "published_at": "2019-10-15T20:05:10Z",
     "html_url": "https://github.com/contributte/image-storage/releases/tag/v2.0.0",
     "body": "<h1>Nette 3.0 support (thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/laster04/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/laster04\">@laster04</a> )</h1>"
+  },
+  "20843554": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v3.0.2",
+    "name": "v3.0.2",
+    "created_at": "2019-10-21T08:21:35Z",
+    "published_at": "2019-10-21T08:25:08Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v3.0.2",
+    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/jsonrpc/compare/v3.0.1...v3.0.2\"><tt>v3.0.1...v3.0.2</tt></a></p>"
   },
   "20879440": {
     "org": "contributte",
@@ -5769,6 +6099,16 @@
     "html_url": "https://github.com/contributte/di/releases/tag/v0.4.1",
     "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"kuwait\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f1f0-1f1fc.png\">🇰🇼</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/di/compare/v0.4.0...v0.4.1\"><tt>v0.4.0...v0.4.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Helper for loading callable from config <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/di/commit/89dfa32b0181e67342f0323449f61ff5e8f957fa/hovercard\" href=\"https://github.com/contributte/di/commit/89dfa32b0181e67342f0323449f61ff5e8f957fa\"><tt>89dfa32</tt></a></li>\n</ul>"
   },
+  "22075946": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v3.0.3",
+    "name": "v3.0.3",
+    "created_at": "2019-12-09T14:10:44Z",
+    "published_at": "2019-12-09T14:12:36Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v3.0.3",
+    "body": "<ul>\n<li>JsonRPCExtension: allow jsonrpc commands to have TAG_INJECT</li>\n</ul>"
+  },
   "22077270": {
     "org": "contributte",
     "repo": "nextras-orm-query-object",
@@ -5798,6 +6138,16 @@
     "published_at": "2019-12-10T10:45:12Z",
     "html_url": "https://github.com/contributte/wordcha/releases/tag/v0.2.0",
     "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/wordcha/compare/v0.1...v0.2.0\"><tt>v0.1...v0.2.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2, added native typehints <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/wordcha/commit/0b8e64f95b25389c47f9e81681b9a16e08e60485/hovercard\" href=\"https://github.com/contributte/wordcha/commit/0b8e64f95b25389c47f9e81681b9a16e08e60485\"><tt>0b8e64f</tt></a> and <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/wordcha/commit/13723bc7040a65c889a039c8cec08b8cca725991/hovercard\" href=\"https://github.com/contributte/wordcha/commit/13723bc7040a65c889a039c8cec08b8cca725991\"><tt>13723bc</tt></a></li>\n</ul>"
+  },
+  "22109279": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v3.1.0",
+    "name": "v3.1.0",
+    "created_at": "2019-12-10T13:18:08Z",
+    "published_at": "2019-12-10T13:19:16Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v3.1.0",
+    "body": ""
   },
   "22141817": {
     "org": "nettrine",
@@ -6149,6 +6499,16 @@
     "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.9",
     "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"dark_sunglasses\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f576.png\">🕶</g-emoji></p>\n<ul>\n<li>Fixed Multiple column Aggregation Function rendering</li>\n<li>Added Multiple column Aggregation Function docs</li>\n<li>Added interface <code>ISingleColumnAggregationFunction</code> (which should be used for single column aggregation functions from now on, potential BC Break, not actual because the method <code>::render()</code> should be already implemented)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.8...v6.2.9\"><tt>v6.2.8...v6.2.9</tt></a></p>"
   },
+  "23485534": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v4.1.0",
+    "name": "v4.1.0",
+    "created_at": "2020-02-07T16:00:12Z",
+    "published_at": "2020-02-07T16:00:40Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v4.1.0",
+    "body": "<ul>\n<li>Allow Symfony Console v5 (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/FVesely/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/FVesely\">@FVesely</a> )</li>\n</ul>"
+  },
   "23566203": {
     "org": "contributte",
     "repo": "codeception",
@@ -6279,6 +6639,36 @@
     "html_url": "https://github.com/contributte/eet/releases/tag/v0.1.0",
     "body": "<p>Create stable package</p>"
   },
+  "25124690": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v5.0.0",
+    "name": "v5.0.0",
+    "created_at": "2020-04-02T09:13:27Z",
+    "published_at": "2020-04-02T09:16:44Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v5.0.0",
+    "body": "<ul>\n<li>New gamee/php-code-checker-rules + php 7.4 typed class properties</li>\n</ul>"
+  },
+  "25130743": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v4.0.0",
+    "name": "v4.0.0",
+    "created_at": "2020-04-02T11:36:37Z",
+    "published_at": "2020-04-02T12:28:17Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v4.0.0",
+    "body": "<ul>\n<li>New gamee/php-code-checker-rules + php 7.4 typed class properties</li>\n</ul>"
+  },
+  "25134083": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v5.0.1",
+    "name": "v5.0.1",
+    "created_at": "2020-04-02T13:47:35Z",
+    "published_at": "2020-04-02T13:48:19Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v5.0.1",
+    "body": "<ul>\n<li>RabbitMQExtension: added console.command tags</li>\n</ul>"
+  },
   "25388220": {
     "org": "nettrine",
     "repo": "orm",
@@ -6338,6 +6728,16 @@
     "published_at": "2020-04-10T09:16:22Z",
     "html_url": "https://github.com/nettrine/cache/releases/tag/v0.2.0",
     "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/cache/compare/v0.1.0...v0.2.0\"><tt>v0.1.0...v0.2.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Upgrade deps</li>\n<li>Polish doc &amp; readme</li>\n</ul>"
+  },
+  "25613012": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v4.2.0",
+    "name": "v4.2.0",
+    "created_at": "2020-03-19T11:37:26Z",
+    "published_at": "2020-04-17T13:46:26Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v4.2.0",
+    "body": "<ul>\n<li>Allow skiping argument secondsToLive so consumer can run indefinitely (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/dakorpar/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dakorpar\">@dakorpar</a>)</li>\n</ul>"
   },
   "25698376": {
     "org": "contributte",
@@ -6418,5 +6818,55 @@
     "published_at": "2020-04-29T06:36:41Z",
     "html_url": "https://github.com/contributte/image-storage/releases/tag/v2.0.1",
     "body": "<ul>\n<li>Fix: Bad variable for creating directory and checking is_writable() in getNoImage() method (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Sikipiki/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Sikipiki\">@Sikipiki</a>)</li>\n</ul>"
+  },
+  "26008295": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v5.0.2",
+    "name": "v5.0.2",
+    "created_at": "2020-04-29T14:24:22Z",
+    "published_at": "2020-04-29T14:28:16Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v5.0.2",
+    "body": "<ul>\n<li>ConsumerCommand: make code simpler</li>\n</ul>"
+  },
+  "26122433": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v6.0.0",
+    "name": "v6.0.0",
+    "created_at": "2020-05-03T11:37:27Z",
+    "published_at": "2020-05-03T18:44:34Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v6.0.0",
+    "body": "<p>Bump!</p>\n<ul>\n<li>Gamee -&gt; Contributte</li>\n</ul>"
+  },
+  "26122439": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v5.0.0",
+    "name": "v5.0.0",
+    "created_at": "2020-05-03T12:07:00Z",
+    "published_at": "2020-05-03T18:44:53Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v5.0.0",
+    "body": "<p>Bump!</p>\n<ul>\n<li>Gamee -&gt; Contributte</li>\n</ul>"
+  },
+  "26124236": {
+    "org": "contributte",
+    "repo": "api-router",
+    "tag": "v4.0.0",
+    "name": "v4.0.0",
+    "created_at": "2020-05-03T21:16:17Z",
+    "published_at": "2020-05-03T21:19:59Z",
+    "html_url": "https://github.com/contributte/api-router/releases/tag/v4.0.0",
+    "body": "<p>Bump!</p>\n<ul>\n<li>ublaboo/api-router -&gt; contributte/api-router</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/api-router/compare/v3.0.0...v4.0.0\"><tt>v3.0.0...v4.0.0</tt></a></p>"
+  },
+  "26124245": {
+    "org": "contributte",
+    "repo": "api-docu",
+    "tag": "v4.0.0",
+    "name": "v4.0.0",
+    "created_at": "2020-05-03T21:15:33Z",
+    "published_at": "2020-05-03T21:20:23Z",
+    "html_url": "https://github.com/contributte/api-docu/releases/tag/v4.0.0",
+    "body": "<p>Bump!</p>\n<ul>\n<li>ublaboo/api-docu -&gt; contributte/api-docu</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/api-docu/compare/v3.0.0...v4.0.0\"><tt>v3.0.0...v4.0.0</tt></a></p>"
   }
 }

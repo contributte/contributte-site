@@ -1,6 +1,5 @@
 ---
 layout: HighLayout
-pageClass: custom test
 metaTitle: Contributte Partners
 ---
 
@@ -29,6 +28,16 @@ metaTitle: Contributte Partners
       </div>
     </a>
   </div>
+  <div>
+     <a
+      class="block max-w-sm rounded overflow-hidden shadow-lg m-2"
+      href="https://github.com/contributte/contributte/issues/new?template=Patron.md"
+      target="_blank"
+    >
+      <div class="w-32 h-32 text-center text-6xl flex items-center justify-center">+</div> 
+      <div class="px-6 py-4 text-center">$new</div>
+    </a>
+  </div>
 </div>
 
 <div class="mb-16"></div>
@@ -47,6 +56,16 @@ metaTitle: Contributte Partners
       <div class="px-6 py-4 text-center">
         <div class="font-bold">{{partner.name}}</div>
       </div>
+    </a>
+  </div>
+  <div>
+     <a
+      class="block max-w-sm rounded overflow-hidden shadow-lg m-2"
+      href="https://github.com/contributte/contributte/issues/new?template=Truster.md"
+      target="_blank"
+    >
+      <div class="w-32 h-32 text-center text-6xl flex items-center justify-center">+</div> 
+      <div class="px-6 py-4 text-center">$new</div>
     </a>
   </div>
 </div>

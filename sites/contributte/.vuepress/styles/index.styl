@@ -176,6 +176,12 @@ h1,h2,h3,h4,h5,h6
         color: #3c6fc0
         text-decoration: none
 
+.theme-default-content:not(.custom) {
+  a:hover[class] {
+    text-decoration: none !important;
+  }
+}
+
 @media screen and (min-width: 1280px)
   .theme-default-content:not(.custom)
     max-width: $contentWidthXL

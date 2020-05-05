@@ -36,6 +36,21 @@
       "name": "SmartEmailing",
       "website": "https://www.smartemailing.cz/",
       "avatar": "https://cdn.contributte.org/partners/smartemailing.png"
+    },
+    {
+      "name": "COFIS CZ, s.r.o.",
+      "website": "https://www.cofis.cz/",
+      "avatar": "https://cdn.contributte.org/partners/cofis.png"
+    },
+    {
+      "name": "FAPI Business s.r.o.",
+      "website": "https://fapi.cz",
+      "avatar": "https://cdn.contributte.org/partners/fapi.png"
+    },
+    {
+      "name": "2htech s.r.o.",
+      "website": "https://2htech.cz",
+      "avatar": "https://cdn.contributte.org/partners/2htech.png"
     }
   ]
 }

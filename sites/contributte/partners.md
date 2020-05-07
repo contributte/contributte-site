@@ -22,7 +22,9 @@ metaTitle: Contributte Partners
       :key="partner.name"
       target="_blank"
     >
-      <img class="w-32 m-auto" :src="partner.avatar" loading="lazy" alt="Sunset in the mountains" />
+      <div class="h-32 flex items-center justify-center">
+         <img class="w-32" :src="partner.avatar" loading="lazy" :alt="partner.name" :title="partner.name" />
+      </div>
       <div class="px-6 py-4 text-center">
         <div class="font-bold">{{partner.name}}</div>
       </div>
@@ -40,6 +42,10 @@ metaTitle: Contributte Partners
   </div>
 </div>
 
+<div>
+  Please, consider to <a class="text-blue-600 underline" href="https://github.com/contributte/contributte/issues/new?template=Patron.md">support</a> contributte development.
+</div>
+
 <div class="mb-16"></div>
 
 <h2>Trusted By</h2>
@@ -52,7 +58,9 @@ metaTitle: Contributte Partners
       :key="partner.name"
       target="_blank"
     >
-      <img class="w-32 m-auto" :src="partner.avatar" loading="lazy" alt="Sunset in the mountains" />
+      <div class="h-32 flex items-center justify-center">
+         <img class="w-32" :src="partner.avatar" loading="lazy" :alt="partner.name" :title="partner.name" />
+      </div>
       <div class="px-6 py-4 text-center">
         <div class="font-bold">{{partner.name}}</div>
       </div>

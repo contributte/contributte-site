@@ -61,6 +61,26 @@
       "name": "D5T5 s.r.o.",
       "website": "https://d5t5.com",
       "avatar": "https://cdn.contributte.org/partners/d5t5.png"
+    },
+    {
+      "name": "Emailkampane.cz",
+      "website": "https://www.emailkampane.cz/",
+      "avatar": "https://cdn.contributte.org/partners/emailkampane.jpg"
+    },
+    {
+      "name": "Tipli",
+      "website": "https://www.tipli.cz/",
+      "avatar": "https://cdn.contributte.org/partners/tipli.png"
+    },
+    {
+      "name": "Clear 01 Development s.r.o.",
+      "website": "https://clear01.com",
+      "avatar": "https://cdn.contributte.org/partners/clear01.png"
+    },
+    {
+      "name": "Whalebone",
+      "website": "https://whalebone.io",
+      "avatar": "https://avatars.githubusercontent.com/whalebone"
     }
   ]
 }

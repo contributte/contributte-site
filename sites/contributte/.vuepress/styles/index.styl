@@ -68,6 +68,11 @@ h1,h2,h3,h4,h5,h6
     hr:not([class]), hr[class=""]
       margin: 2rem 0
 
+    blockquote
+      margin: 1rem 0
+      p
+        margin: 0
+
 .layout-herolayout
   h1:not([class]), h1[class=""]
     @apply text-5xl font-bold
@@ -182,6 +187,13 @@ h1,h2,h3,h4,h5,h6
   }
 }
 
+.nav-links {
+  h4 {
+    @apply font-bold;
+    font-size: inherit !important;
+  }
+}
+
 @media screen and (min-width: 1280px)
   .theme-default-content:not(.custom)
     max-width: $contentWidthXL
@@ -197,3 +209,14 @@ h1,h2,h3,h4,h5,h6
   .search-box
     input
       width: 20rem !important
+
+@media screen and (max-width: 719px) {
+  .nav-links {
+    .dropdown-wrapper {
+      button {
+        pointer-events: auto;
+        outline: none;
+      }
+    }
+  }
+}

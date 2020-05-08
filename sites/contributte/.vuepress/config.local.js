@@ -26,9 +26,37 @@ module.exports = {
         text: 'Development',
         ariaLabel: 'Development',
         items: [
-          { text: "Releases", link: "/releases" },
-          { text: "Examples", link: "/examples" },
-          { text: "Contributing", link: "/contributing" },
+          {
+            text: "Packages", items: [
+              { text: "Releases", link: "/releases" },
+              { text: "Examples", link: "/examples" },
+            ]
+          },
+          {
+            text: "Beginners", items: [
+              { text: "Contributing", link: "/contributing" },
+            ]
+          },
+        ]
+      },
+      {
+        text: 'Roadmap',
+        ariaLabel: 'Roadmap',
+        items: [
+          {
+            text: "Future", items: [
+              { text: "Challenges", link: "/roadmap/challenges" },
+              { text: "Vision", link: "/roadmap/vision" },
+            ]
+          },
+          {
+            text: "Recap", items: [
+              { text: "2019", link: "/roadmap/recap#_2019" },
+              { text: "2018", link: "/roadmap/recap#_2018" },
+              { text: "2017", link: "/roadmap/recap#_2017" },
+              { text: "2016", link: "/roadmap/recap#_2016" },
+            ]
+          },
         ]
       },
       { text: "Partners", link: "/partners" },

@@ -72,16 +72,16 @@
             <div class="px-4 pb-6">
               <ul>
                 <li>
-                  <strong>Visions</strong>
+                  <strong>Roadmap</strong>
                 </li>
                 <li>
-                  <a href="/vision.html#2020">2020</a>
+                  <a href="/roadmap/challenges.html">Challenges</a>
                 </li>
                 <li>
-                  <a href="/vision.html#2019">2019</a>
+                  <a href="/roadmap/vision.html">Vision</a>
                 </li>
                 <li>
-                  <a href="/vision.html#2018">2018</a>
+                  <a href="/roadmap/recap.html">Recap</a>
                 </li>
               </ul>
             </div>

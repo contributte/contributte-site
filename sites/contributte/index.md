@@ -15,8 +15,8 @@ metaTitle: Contributte - First class extensions, addons and plugins for Nette Fr
     <div class="flex-grow-0 min-w-40 mr-0 ml-auto flex flex-col leading-tight my-8 md:my-0">
       <div class="shadow-lg rounded-lg">
         <div class="p-6 bg-blue-600 rounded-t-lg text-white">
-          <div class="text-8xl"><a href="/packages/">{{ $themeConfig.contributte.packages }}</a></div>
-          <div class="text-2xl font-bold">packages</div>
+          <div class="text-8xl"><a class="focus:no-underline" href="/packages/">{{ $themeConfig.contributte.packages }}</a></div>
+          <div class="text-2xl font-bold"><a href="/packages/">packages</a></div>
         </div>
         <div class="p-4 bg-white rounded-b-lg">
           <a href="/packages/" class="underline text-blue-600 font-bold py-2 px-4">Packages</a>

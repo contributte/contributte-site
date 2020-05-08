@@ -70,7 +70,8 @@ module.exports = {
   },
   evergreen: true,
   markdown: {
-    lineNumbers: true
+    lineNumbers: true,
+    linkify: true,
   },
   postcss: {
     plugins: [

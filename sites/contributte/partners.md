@@ -14,7 +14,7 @@ metaTitle: Contributte Partners
 
 <h2>Patrons</h2>
 
-<div class="flex  flex-wrap my-12">
+<div class="md:flex flex-wrap my-12">
   <div v-for="partner of $page.contributte.partners.patrons">
     <a
       class="block max-w-sm rounded overflow-hidden shadow-lg px-6 m-2"
@@ -23,7 +23,7 @@ metaTitle: Contributte Partners
       target="_blank"
     >
       <div class="h-32 flex items-center justify-center">
-         <img class="w-32" :src="partner.avatar" loading="lazy" :alt="partner.name" :title="partner.name" />
+         <img class="max-w-32 max-h-32" :src="partner.avatar" loading="lazy" :alt="partner.name" :title="partner.name" />
       </div>
       <div class="px-6 py-4 text-center">
         <div class="font-bold">{{partner.name}}</div>
@@ -36,7 +36,7 @@ metaTitle: Contributte Partners
       href="https://github.com/contributte/contributte/issues/new?template=Patron.md"
       target="_blank"
     >
-      <div class="w-32 h-32 text-center text-6xl flex items-center justify-center">+</div> 
+      <div class="mx-auto w-32 h-32 text-center text-6xl flex items-center justify-center">+</div> 
       <div class="px-6 py-4 text-center">$new</div>
     </a>
   </div>
@@ -50,7 +50,7 @@ metaTitle: Contributte Partners
 
 <h2>Trusted By</h2>
 
-<div class="flex flex-wrap my-12">
+<div class="md:flex flex-wrap my-12">
   <div v-for="partner of $page.contributte.partners.trusted">
     <a
       class="block max-w-sm rounded overflow-hidden shadow-lg px-6 m-2"
@@ -59,7 +59,7 @@ metaTitle: Contributte Partners
       target="_blank"
     >
       <div class="h-32 flex items-center justify-center">
-         <img class="w-32" :src="partner.avatar" loading="lazy" :alt="partner.name" :title="partner.name" />
+         <img class="max-w-32 max-h-32" :src="partner.avatar" loading="lazy" :alt="partner.name" :title="partner.name" />
       </div>
       <div class="px-6 py-4 text-center">
         <div class="font-bold">{{partner.name}}</div>
@@ -72,7 +72,7 @@ metaTitle: Contributte Partners
       href="https://github.com/contributte/contributte/issues/new?template=Truster.md"
       target="_blank"
     >
-      <div class="w-32 h-32 text-center text-6xl flex items-center justify-center">+</div> 
+      <div class="mx-auto w-32 h-32 text-center text-6xl flex items-center justify-center">+</div> 
       <div class="px-6 py-4 text-center">$new</div>
     </a>
   </div>

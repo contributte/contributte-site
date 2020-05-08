@@ -2,12 +2,16 @@ module.exports = {
   theme: {
     extend: {
       maxWidth: {
+        '32': '8rem',
         wrapper: '960px',
         'wrapper\-sm': '820px',
       },
       minWidth: {
         '64': '32rem',
         '40': '20rem',
+      },
+      maxHeight: {
+        '32': '8rem',
       },
       fontSize: {
         '7xl': '5rem',

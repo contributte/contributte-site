@@ -44,8 +44,8 @@ metaTitle: About Contributte
   </div>
 </div>
 
-<div class="flex">
-  <div class="flex-1">
+<div class="md:flex">
+  <div class="flex-1 my-12">
     <h2>Join Us</h2>
     <ul class="my-8 list-disc list-inside">
       <li>Do you want to be part of the team?</li>
@@ -59,7 +59,7 @@ metaTitle: About Contributte
       Write an email to <a class="underline" href="mailto:milan@sulc.dev?subject=Join to contributte">milan@sulc.dev</a> and we will surely figure out something.
     </p>
   </div>
-  <div class="flex-1">
+  <div class="flex-1 my-12">
     <h2>Contact Us</h2>
     <ul class="my-8">
       <li><img src="https://avatars1.githubusercontent.com/u/538058?v=4&s=128" width="64" alt="" loading="lazy"></li>

@@ -4,7 +4,7 @@ layout: MarkdownLayout
 
 # Vision
 
-<div class="flex">
+<div class="md:flex">
   <div class="flex-1">
     <div>
       Our vision is to bring you <strong>first::class</strong> extensions to <a target="_blank" href="https://nette.org">Nette Framework</a>.
@@ -23,8 +23,8 @@ layout: MarkdownLayout
 
 <hr>
 
-<div class="flex my-16">
-  <div class="flex-1">
+<div class="md:flex">
+  <div class="flex-1 my-16">
     <div class="font-bold">Long Term</div>
     <p>
     In long term we are focucing on these main parts:
@@ -46,7 +46,7 @@ layout: MarkdownLayout
       <li>no more undocumented features</li>
     </ul>
   </div>
-  <div class="flex-1">
+  <div class="flex-1 my-16">
     <img class="mx-auto" src="https://cdn.contributte.org/welcome.jpg" loading="lazy">
   </div>
 </div>

@@ -22,7 +22,7 @@
     "sass-loader": "^8.0.2",
     "semver": "^7.3.2",
     "tailwindcss": "^1.4.4",
-    "twemoji": "^12.1.6",
+    "twemoji": "^13.0.0",
     "vue": "^2.6.11",
     "vue-server-renderer": "^2.6.11",
     "vuepress": "^1.4.1",

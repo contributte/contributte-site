@@ -1307,7 +1307,7 @@
     "enabled": true,
     "priority": 0,
     "docs": {
-      "v": "v0"
+      "v": "v1"
     },
     "description": "🍟 Social plugins  (facebook, twitter, google) for Nette Framework",
     "releases": {

@@ -602,7 +602,7 @@
     "enabled": true,
     "priority": 0,
     "docs": {
-      "v": "v0"
+      "v": "v1"
     },
     "description": ":godmode: Set of tools for development / debugging (@nette)",
     "releases": {
@@ -1069,7 +1069,7 @@
     "enabled": true,
     "priority": 0,
     "docs": {
-      "v": "v0"
+      "v": "v1"
     },
     "description": "💰 MobilniPlatby.cz for Nette Framework",
     "stars": 5,
@@ -2085,30 +2085,6 @@
       }
     }
   },
-  "nettrine/hydrator": {
-    "org": "nettrine",
-    "name": "hydrator",
-    "enabled": true,
-    "priority": 0,
-    "docs": {
-      "v": "v0"
-    },
-    "description": "⬅️ ➡️ Convert Doctrine entity to array and conversely",
-    "category": "doctrine",
-    "stars": 2,
-    "watchers": 2,
-    "forks": 1,
-    "composer": {
-      "php": [
-        "7.2",
-        "8.0"
-      ],
-      "nette": [
-        "3.0"
-      ]
-    },
-    "issues": 3
-  },
   "contributte/flysystem": {
     "org": "contributte",
     "name": "flysystem",
@@ -2293,7 +2269,7 @@
     "enabled": true,
     "priority": 0,
     "docs": {
-      "v": "v0"
+      "v": "v1"
     },
     "description": "💵 Port of ThePay library",
     "releases": {
@@ -2366,7 +2342,7 @@
     "enabled": true,
     "priority": 0,
     "docs": {
-      "v": "v0"
+      "v": "v1"
     },
     "description": "💰 Integrace Gopay pro Nette Framework",
     "releases": {
@@ -3218,33 +3194,6 @@
     "forks": 1,
     "issues": 0,
     "description": "⚡  Well-integrated MongoDB for Nette Framework"
-  },
-  "contributte/gopay-api": {
-    "org": "contributte",
-    "name": "gopay-api",
-    "category": "webservices",
-    "enabled": true,
-    "priority": 0,
-    "docs": {
-      "v": "v0"
-    },
-    "stars": 4,
-    "watchers": 4,
-    "forks": 6,
-    "issues": 0,
-    "description": "GopayAPI SDK [Unofficial]",
-    "releases": {
-      "last": {
-        "org": "contributte",
-        "repo": "gopay-api",
-        "tag": "v2.5.4",
-        "name": "v2.5.4",
-        "created_at": "2017-05-03T17:44:48Z",
-        "published_at": "2017-05-23T12:35:26Z",
-        "html_url": "https://github.com/contributte/gopay-api/releases/tag/v2.5.4",
-        "body": "<p><g-emoji class=\"g-emoji\" alias=\"koala\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f428.png\">🐨</g-emoji> Bumped!</p>\n<p>Changes:</p>\n<ul>\n<li>introduce contants for TEST/PROD URL (<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/gopay-api/commit/2d5f2381b05083ce7a1b5873ddc0adece718c2c3/hovercard\" href=\"https://github.com/contributte/gopay-api/commit/2d5f2381b05083ce7a1b5873ddc0adece718c2c3\"><tt>2d5f238</tt></a>)</li>\n</ul>"
-      }
-    }
   },
   "contributte/bare": {
     "org": "contributte",

@@ -4,7 +4,7 @@
   "description": "Contributte Website & Docs",
   "author": "Milan Felix Šulc <milan@sulc.dev>",
   "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^1.5.0",
+    "@vuepress/plugin-google-analytics": "^1.5.1",
     "autoprefixer": "^9.8.0",
     "dayjs": "^1.8.28",
     "debug": "^4.1.1",

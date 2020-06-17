@@ -25,7 +25,7 @@
     "twemoji": "^13.0.0",
     "vue": "^2.6.11",
     "vue-server-renderer": "^2.6.11",
-    "vuepress": "^1.5.1",
+    "vuepress": "^1.5.2",
     "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-plugin-smartlook": "^0.0.6"
   }

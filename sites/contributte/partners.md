@@ -6,7 +6,7 @@ metaTitle: Contributte Partners
 <h1>Partners</h1>
 
 <div class="mt-8">
-  We are very thankful to our patrons for your incredible support. And also very proud 
+  We are very thankful to our patrons for their incredible support. And also very proud 
   of companies and dev folks that trust us. 
 </div>
 

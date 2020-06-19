@@ -2,7 +2,9 @@ import path from "path";
 import * as sidebar from "./utils/data/sidebar";
 import * as releases from "./utils/data/releases";
 import * as repositories from "./utils/data/repositories";
-import * as partners from "./utils/data/partners";
+import * as patrons from "./utils/data/patrons";
+import * as trusters from "./utils/data/trusters";
+import * as heroes from "./utils/data/heroes";
 import * as team from "./utils/data/team";
 
 module.exports = {
@@ -94,7 +96,9 @@ module.exports = {
 
     if ($page.regularPath === '/partners.html') {
       $page.contributte = {
-        partners: partners.getPartners(),
+        patrons: patrons.getPatrons(),
+        trusters: trusters.getTrusters(),
+        heroes: heroes.getHeroes(),
       }
     }
 

@@ -14,10 +14,10 @@ metaTitle: Contributte Partners
 
 <h2>Patrons</h2>
 
-<div class="md:flex flex-wrap my-12">
-  <div v-for="partner of $page.contributte.partners.patrons">
+<div class="flex flex-wrap my-12">
+  <div v-for="partner of $page.contributte.partners.patrons" class="flex w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/4 xl:w-1/6">
     <a
-      class="block max-w-sm rounded overflow-hidden shadow-lg px-6 m-2"
+      class="block w-full max-w-sm rounded overflow-hidden shadow-lg px-6 m-2"
       :href="partner.website"
       :key="partner.name"
       target="_blank"
@@ -25,19 +25,19 @@ metaTitle: Contributte Partners
       <div class="h-32 flex items-center justify-center">
          <img class="max-w-32 max-h-32" :src="partner.avatar" loading="lazy" :alt="partner.name" :title="partner.name" />
       </div>
-      <div class="px-6 py-4 text-center">
+      <div class="py-4 text-center">
         <div class="font-bold">{{partner.name}}</div>
       </div>
     </a>
   </div>
-  <div>
+  <div class="flex w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/4 xl:w-1/6">
      <a
-      class="block max-w-sm rounded overflow-hidden shadow-lg m-2"
+      class="block w-full max-w-sm rounded overflow-hidden shadow-lg m-2"
       href="https://github.com/contributte/contributte/issues/new?template=Patron.md"
       target="_blank"
     >
       <div class="mx-auto w-32 h-32 text-center text-6xl flex items-center justify-center">+</div> 
-      <div class="px-6 py-4 text-center">$new</div>
+      <div class="py-4 text-center">$new</div>
     </a>
   </div>
 </div>
@@ -50,10 +50,10 @@ metaTitle: Contributte Partners
 
 <h2>Trusted By</h2>
 
-<div class="md:flex flex-wrap my-12">
-  <div v-for="partner of $page.contributte.partners.trusted">
+<div class="flex flex-wrap my-12">
+  <div v-for="partner of $page.contributte.partners.trusted" class="flex w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/4 xl:w-1/6">
     <a
-      class="block max-w-sm rounded overflow-hidden shadow-lg px-6 m-2"
+      class="block w-full max-w-sm rounded overflow-hidden shadow-lg px-6 m-2"
       :href="partner.website"
       :key="partner.name"
       target="_blank"
@@ -61,19 +61,19 @@ metaTitle: Contributte Partners
       <div class="h-32 flex items-center justify-center">
          <img class="max-w-32 max-h-32" :src="partner.avatar" loading="lazy" :alt="partner.name" :title="partner.name" />
       </div>
-      <div class="px-6 py-4 text-center">
+      <div class="py-4 text-center">
         <div class="font-bold">{{partner.name}}</div>
       </div>
     </a>
   </div>
-  <div>
+  <div class="flex w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/4 xl:w-1/6">
      <a
-      class="block max-w-sm rounded overflow-hidden shadow-lg m-2"
+      class="block w-full max-w-sm rounded overflow-hidden shadow-lg m-2"
       href="https://github.com/contributte/contributte/issues/new?template=Truster.md"
       target="_blank"
     >
       <div class="mx-auto w-32 h-32 text-center text-6xl flex items-center justify-center">+</div> 
-      <div class="px-6 py-4 text-center">$new</div>
+      <div class="py-4 text-center">$new</div>
     </a>
   </div>
 </div>

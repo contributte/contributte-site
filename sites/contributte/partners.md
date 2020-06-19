@@ -56,7 +56,7 @@ metaTitle: Contributte Partners
 
 <h2>Trusters</h2>
 
-<div>Trusters are companies, groups or vendors and they put a good faith in us.</div>
+<div>Trusters are companies or groups and they put a good faith in us.</div>
 
 <div class="flex flex-wrap my-12">
   <div v-for="partner of $page.contributte.trusters" class="flex w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/4 xl:w-1/6">

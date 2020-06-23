@@ -5,7 +5,7 @@
   "author": "Milan Felix Šulc <milan@sulc.dev>",
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.5.2",
-    "autoprefixer": "^9.8.0",
+    "autoprefixer": "^9.8.2",
     "dayjs": "^1.8.28",
     "debug": "^4.1.1",
     "dotenv": "^8.2.0",

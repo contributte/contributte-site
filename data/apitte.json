@@ -277,7 +277,7 @@
     "deployments_url": "https://api.github.com/repos/apitte/openapi/deployments",
     "created_at": "2017-09-15T14:23:12Z",
     "updated_at": "2020-06-17T09:01:54Z",
-    "pushed_at": "2020-04-05T12:08:48Z",
+    "pushed_at": "2020-06-29T06:39:47Z",
     "git_url": "git://github.com/apitte/openapi.git",
     "ssh_url": "git@github.com:apitte/openapi.git",
     "clone_url": "https://github.com/apitte/openapi.git",
@@ -292,11 +292,11 @@
     "has_downloads": true,
     "has_wiki": false,
     "has_pages": false,
-    "forks_count": 8,
+    "forks_count": 9,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 6,
+    "open_issues_count": 7,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -304,8 +304,8 @@
       "url": "https://api.github.com/licenses/mit",
       "node_id": "MDc6TGljZW5zZTEz"
     },
-    "forks": 8,
-    "open_issues": 6,
+    "forks": 9,
+    "open_issues": 7,
     "watchers": 10,
     "default_branch": "master",
     "permissions": {

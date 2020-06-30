@@ -1,4 +1,104 @@
 {
+  "58653": {
+    "org": "contributte",
+    "repo": "newrelic",
+    "tag": "v1.0.0",
+    "name": "First Stable",
+    "created_at": "2013-10-03T23:20:55Z",
+    "published_at": "2013-10-03T23:26:24Z",
+    "html_url": "https://github.com/contributte/newrelic/releases/tag/v1.0.0",
+    "body": "<ul>\n<li>Some fixies</li>\n<li>add support for parameters</li>\n<li>add support for Realtime User Monitoring</li>\n</ul>"
+  },
+  "58940": {
+    "org": "contributte",
+    "repo": "newrelic",
+    "tag": "v1.1.0",
+    "name": "v1.1.0",
+    "created_at": "2013-10-04T10:50:01Z",
+    "published_at": "2013-10-04T10:53:07Z",
+    "html_url": "https://github.com/contributte/newrelic/releases/tag/v1.1.0",
+    "body": "<ul>\n<li>remove newrelic dependency from composer</li>\n<li>add check if is newrelic extension enabled</li>\n</ul>"
+  },
+  "59045": {
+    "org": "contributte",
+    "repo": "newrelic",
+    "tag": "v1.1.2",
+    "name": "v1.1.2",
+    "created_at": "2013-10-04T14:15:57Z",
+    "published_at": "2013-10-04T13:41:51Z",
+    "html_url": "https://github.com/contributte/newrelic/releases/tag/v1.1.2",
+    "body": "<p>bug fix release</p>"
+  },
+  "59892": {
+    "org": "contributte",
+    "repo": "newrelic",
+    "tag": "v1.3.0",
+    "name": "v1.3.0",
+    "created_at": "2013-10-05T21:09:34Z",
+    "published_at": "2013-10-05T21:11:16Z",
+    "html_url": "https://github.com/contributte/newrelic/releases/tag/v1.3.0",
+    "body": "<ul>\n<li>add more options see README.md file</li>\n<li>cleanup</li>\n</ul>"
+  },
+  "135860": {
+    "org": "contributte",
+    "repo": "newrelic",
+    "tag": "v3.0.0",
+    "name": "Nette 2.1",
+    "created_at": "2014-01-02T14:18:26Z",
+    "published_at": "2014-01-02T14:19:35Z",
+    "html_url": "https://github.com/contributte/newrelic/releases/tag/v3.0.0",
+    "body": "<p>Nette 2.1.x compatability</p>"
+  },
+  "525790": {
+    "org": "contributte",
+    "repo": "newrelic-tracy",
+    "tag": "v4.0.0",
+    "name": "1st Release",
+    "created_at": "2014-08-30T19:09:44Z",
+    "published_at": "2014-08-30T19:22:13Z",
+    "html_url": "https://github.com/contributte/newrelic-tracy/releases/tag/v4.0.0",
+    "body": "<p>initial Tracy support</p>"
+  },
+  "525791": {
+    "org": "contributte",
+    "repo": "newrelic",
+    "tag": "v4.0.0",
+    "name": "Nette 2.2",
+    "created_at": "2014-08-30T19:18:09Z",
+    "published_at": "2014-08-30T19:23:28Z",
+    "html_url": "https://github.com/contributte/newrelic/releases/tag/v4.0.0",
+    "body": "<p>Initial support for Nette 2.2.x</p>\n<p>Tracy support splitted to separate repo <a href=\"https://github.com/Vrtak-CZ/NewRelic-Tracy\">https://github.com/Vrtak-CZ/NewRelic-Tracy</a></p>"
+  },
+  "686137": {
+    "org": "contributte",
+    "repo": "newrelic-tracy",
+    "tag": "v4.1.0",
+    "name": "Tracy 2.3.x",
+    "created_at": "2014-11-07T12:31:16Z",
+    "published_at": "2014-11-07T12:33:03Z",
+    "html_url": "https://github.com/contributte/newrelic-tracy/releases/tag/v4.1.0",
+    "body": "<ul>\n<li>Added support for Tracy 2.3.x</li>\n<li>Fix BC for Tracy 2.2.x</li>\n</ul>"
+  },
+  "1022991": {
+    "org": "contributte",
+    "repo": "newrelic-tracy",
+    "tag": "v5.0.0",
+    "name": "5.0",
+    "created_at": "2015-03-06T13:36:48Z",
+    "published_at": "2015-03-06T13:44:30Z",
+    "html_url": "https://github.com/contributte/newrelic-tracy/releases/tag/v5.0.0",
+    "body": "<ul>\n<li>added Tracy 2.3.x support</li>\n<li>removed PHP 5.3.x support</li>\n<li>added Travis with lint &amp; CS</li>\n</ul>"
+  },
+  "1023195": {
+    "org": "contributte",
+    "repo": "newrelic",
+    "tag": "v5.0.0",
+    "name": "5.0",
+    "created_at": "2015-03-06T14:27:57Z",
+    "published_at": "2015-03-06T14:43:47Z",
+    "html_url": "https://github.com/contributte/newrelic/releases/tag/v5.0.0",
+    "body": "<ul>\n<li>added Nette 2.3.x support</li>\n<li>removed PHP 5.3.x support</li>\n<li>added Travis with lint &amp; CS</li>\n</ul>"
+  },
   "1226161": {
     "org": "contributte",
     "repo": "gopay",
@@ -238,6 +338,36 @@
     "published_at": "2016-04-28T20:30:27Z",
     "html_url": "https://github.com/contributte/guzzlette/releases/tag/v0.9.0",
     "body": ""
+  },
+  "3265938": {
+    "org": "contributte",
+    "repo": "newrelic-tracy",
+    "tag": "v6.0.0",
+    "name": "6.0.0",
+    "created_at": "2016-05-19T22:56:43Z",
+    "published_at": "2016-05-19T22:27:07Z",
+    "html_url": "https://github.com/contributte/newrelic-tracy/releases/tag/v6.0.0",
+    "body": "<ul>\n<li>added Tracy 2.4.x support</li>\n<li>removed Tracy 2.2.x support</li>\n<li>removed PHP 5.4.x support</li>\n<li>fixed PHP 7.0 compatability</li>\n<li>improve CS</li>\n</ul>"
+  },
+  "3266194": {
+    "org": "contributte",
+    "repo": "newrelic",
+    "tag": "v6.0.0",
+    "name": "6.0.0",
+    "created_at": "2016-05-19T23:20:02Z",
+    "published_at": "2016-05-19T23:20:21Z",
+    "html_url": "https://github.com/contributte/newrelic/releases/tag/v6.0.0",
+    "body": "<ul>\n<li>added Tracy 2.4.x support</li>\n<li>added Nette 2.4.x support</li>\n<li>removed Tracy 2.2.x support</li>\n<li>removed PHP 5.4.x support</li>\n<li>removed ratio support (both global and RUM)</li>\n<li>fixed PHP 7.0 compatability</li>\n<li>improve CS</li>\n</ul>"
+  },
+  "3302907": {
+    "org": "contributte",
+    "repo": "newrelic",
+    "tag": "v6.1.0",
+    "name": "6.1.0",
+    "created_at": "2016-05-25T13:09:08Z",
+    "published_at": "2016-05-25T13:09:50Z",
+    "html_url": "https://github.com/contributte/newrelic/releases/tag/v6.1.0",
+    "body": "<ul>\n<li>added support for Throwable</li>\n</ul>"
   },
   "3309944": {
     "org": "contributte",
@@ -2869,6 +2999,26 @@
     "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v1.3.1",
     "body": "<ul>\n<li>Added config options: heartbeat, timeout</li>\n</ul>"
   },
+  "10258163": {
+    "org": "contributte",
+    "repo": "newrelic-tracy",
+    "tag": "v7.0.0",
+    "name": "7.0.0",
+    "created_at": "2018-03-26T11:25:55Z",
+    "published_at": "2018-03-26T12:26:14Z",
+    "html_url": "https://github.com/contributte/newrelic-tracy/releases/tag/v7.0.0",
+    "body": "<ul>\n<li>dropped Tracy 2.3 support</li>\n<li>dropped PHP 5.5 support</li>\n<li>added PHP 7.1 and 7.2 support</li>\n</ul>"
+  },
+  "10258557": {
+    "org": "contributte",
+    "repo": "newrelic",
+    "tag": "v7.0.0",
+    "name": "7.0.0",
+    "created_at": "2018-03-26T12:43:08Z",
+    "published_at": "2018-03-26T12:50:03Z",
+    "html_url": "https://github.com/contributte/newrelic/releases/tag/v7.0.0",
+    "body": "<ul>\n<li>dropped Nette 2.3 support</li>\n<li>dropped PHP 5.5 support</li>\n<li>Removed dependency on Nette\\Object</li>\n<li>added PHP 7.1 and 7.2 support</li>\n</ul>"
+  },
   "10433537": {
     "org": "contributte",
     "repo": "reCAPTCHA",
@@ -3667,7 +3817,7 @@
     "created_at": "2018-07-26T10:34:07Z",
     "published_at": "2018-07-28T07:25:31Z",
     "html_url": "https://github.com/contributte/utils/releases/tag/v0.3",
-    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"post_office\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f3e3.png\">��</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/utils/compare/v0.2...v0.3\"><tt>v0.2...v0.3</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>php 7.1 [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"343731704\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/utils/issues/8\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/utils/pull/8/hovercard\" href=\"https://github.com/contributte/utils/pull/8\">#8</a>]</li>\n</ul>"
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"post_office\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f3e3.png\">🏣</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/utils/compare/v0.2...v0.3\"><tt>v0.2...v0.3</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>php 7.1 [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"343731704\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/utils/issues/8\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/utils/pull/8/hovercard\" href=\"https://github.com/contributte/utils/pull/8\">#8</a>]</li>\n</ul>"
   },
   "12147564": {
     "org": "contributte",
@@ -4749,6 +4899,26 @@
     "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.0.0",
     "body": "<p><strong>Bump V6!</strong></p>\n<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user-images.githubusercontent.com/1488874/58368079-26cd1e00-7ee8-11e9-833e-34259484bda3.JPG\"><img src=\"https://user-images.githubusercontent.com/1488874/58368079-26cd1e00-7ee8-11e9-833e-34259484bda3.JPG\" alt=\"IMG_2014\" style=\"max-width:100%;\"></a></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v5.7.2...v6.0.0\"><tt>v5.7.2...v6.0.0</tt></a></p>\n<p><strong>Features</strong></p>\n<ul>\n<li>Using Nette v3</li>\n<li>Using PHP 7.2 including strinct types</li>\n</ul>\n<p><strong>BC Breaks:</strong></p>\n<ul>\n<li>Changed method name: <code>Ublaboo\\DataGrid\\Column\\Column::addAttributes() -&gt; ::addCellAttributes()</code>:\n<ul>\n<li><code>Ublaboo\\DataGrid\\Column\\Action::addAttributes()</code> -&gt; <code>::addCellAttributes()</code></li>\n<li><code>Ublaboo\\DataGrid\\Column\\ColumnDateTime::addAttributes()</code> -&gt; <code>::addCellAttributes()</code></li>\n<li><code>Ublaboo\\DataGrid\\Column\\ColumnLink::addAttributes()</code> -&gt; <code>::addCellAttributes()</code></li>\n<li><code>Ublaboo\\DataGrid\\Column\\ColumnNumber::addAttributes()</code> -&gt; <code>::addCellAttributes()</code></li>\n<li><code>Ublaboo\\DataGrid\\Column\\ColumnStatus::addAttributes()</code> -&gt; <code>::addCellAttributes()</code></li>\n<li><code>Ublaboo\\DataGrid\\Column\\ColumnText::addAttributes()</code> -&gt; <code>::addCellAttributes()</code></li>\n<li><code>Ublaboo\\DataGrid\\Column\\MultiAction::addAttributes()</code> -&gt; <code>::addCellAttributes()</code></li>\n</ul>\n</li>\n<li>Changed method name and method parameters:\n<ul>\n<li><code>Ublaboo\\DataGrid\\Column\\Action::setConfirm(some mixed thing)</code> -&gt; <code>::setConfirmation(IConfirmation $confirmation)</code>\n<ul>\n<li>There are 2 IConfirmation implementations: <code>StringConfirmation</code> and <code>CallbackConfirmation</code></li>\n</ul>\n</li>\n</ul>\n</li>\n<li>Names of template variables changed from snake_case to camelCase:\n<ul>\n<li><code>$columns_visibility</code> -&gt; <code>$columnsVisibility</code></li>\n<li><code>$original_template</code> -&gt; <code>$originalTemplate</code></li>\n<li>etc ...</li>\n</ul>\n</li>\n<li>Changed method parameter:\n<ul>\n<li><code>Ublaboo\\DataGrid\\Column\\Column::setSort(array $sort)</code> -&gt; <code>::setSort(string $sort)</code> (Before: [<code>'status'</code> =&gt; <code>'ASC'</code>], after: <code>'ASC'</code>)</li>\n</ul>\n</li>\n<li>Dropped coffescritpt/sass assets -&gt; using only JS/CSS assets now</li>\n</ul>"
   },
+  "17595536": {
+    "org": "contributte",
+    "repo": "newrelic-tracy",
+    "tag": "v7.1.0",
+    "name": "7.1.0",
+    "created_at": "2019-05-26T19:42:05Z",
+    "published_at": "2019-05-26T19:44:55Z",
+    "html_url": "https://github.com/contributte/newrelic-tracy/releases/tag/v7.1.0",
+    "body": "<ul>\n<li>added Tracy 2.5 support</li>\n</ul>"
+  },
+  "17595675": {
+    "org": "contributte",
+    "repo": "newrelic-tracy",
+    "tag": "v8.0.0",
+    "name": "8.0.0",
+    "created_at": "2019-05-26T20:09:01Z",
+    "published_at": "2019-05-26T20:09:53Z",
+    "html_url": "https://github.com/contributte/newrelic-tracy/releases/tag/v8.0.0",
+    "body": "<ul>\n<li>dropped PHP 5.6 and 7.0 support</li>\n<li>added PHP 7.3 support</li>\n<li>added Tracy 2.6 support</li>\n</ul>"
+  },
   "17605474": {
     "org": "contributte",
     "repo": "datagrid",
@@ -5637,7 +5807,7 @@
     "created_at": "2019-09-12T19:29:49Z",
     "published_at": "2019-09-12T19:31:55Z",
     "html_url": "https://github.com/ninjify/qa/releases/tag/v0.10",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/ninjify/qa/compare/v0.9...v0.10\"><tt>v0.9...v0.10</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>ninjify/coding-standard v0.9 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/ninjify/qa/commit/a2d521958a9bb38d894f94cbd8e3718cf6e02971/hovercard\" href=\"https://github.com/ninjify/qa/commit/a2d521958a9bb38d894f94cbd8e3718cf6e02971\"><tt>a2d5219</tt></a></li>\n</ul>"
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"jack_o_lantern\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f383.png\">🎃</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/ninjify/qa/compare/v0.9...v0.10\"><tt>v0.9...v0.10</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>ninjify/coding-standard v0.9 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/ninjify/qa/commit/a2d521958a9bb38d894f94cbd8e3718cf6e02971/hovercard\" href=\"https://github.com/ninjify/qa/commit/a2d521958a9bb38d894f94cbd8e3718cf6e02971\"><tt>a2d5219</tt></a></li>\n</ul>"
   },
   "20060827": {
     "org": "nettrine",
@@ -5783,11 +5953,11 @@
     "org": "contributte",
     "repo": "image-storage",
     "tag": "v2.0.0",
-    "name": "",
+    "name": "v2.0.0",
     "created_at": "2019-10-15T13:02:33Z",
     "published_at": "2019-10-15T20:05:10Z",
     "html_url": "https://github.com/contributte/image-storage/releases/tag/v2.0.0",
-    "body": "<h1>Nette 3.0 support (thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/laster04/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/laster04\">@laster04</a> )</h1>"
+    "body": "<p>Bump!</p>\n<p>Changes:</p>\n<ul>\n<li>Nette 3.0 support (thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/laster04/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/laster04\">@laster04</a> )</li>\n</ul>"
   },
   "20843554": {
     "org": "contributte",
@@ -5818,6 +5988,16 @@
     "published_at": "2019-10-22T12:10:41Z",
     "html_url": "https://github.com/contributte/logging/releases/tag/v0.4.1",
     "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"tea\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f375.png\">🍵</g-emoji><g-emoji class=\"g-emoji\" alias=\"tea\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f375.png\">🍵</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/logging/compare/v0.4.0...v0.4.1\"><tt>v0.4.0...v0.4.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow Tracy 2.7.x</li>\n</ul>"
+  },
+  "21124800": {
+    "org": "contributte",
+    "repo": "newrelic",
+    "tag": "v8.0.0",
+    "name": "8.0.0",
+    "created_at": "2019-10-31T15:50:34Z",
+    "published_at": "2019-10-31T15:54:30Z",
+    "html_url": "https://github.com/contributte/newrelic/releases/tag/v8.0.0",
+    "body": "<ul>\n<li>Updated to Nette <code>3.0</code>. Nette <code>2.4</code> will be supported only in <code>7.x</code> releases.</li>\n<li>Dropped PHP <code>5.6</code> and <code>7.1</code> support.</li>\n<li>Added PHP <code>7.3</code> support.</li>\n</ul>"
   },
   "21145133": {
     "org": "contributte",
@@ -6008,16 +6188,6 @@
     "published_at": "2019-11-19T12:49:57Z",
     "html_url": "https://github.com/contributte/api-docu/releases/tag/v3.0.0",
     "body": "<h1>Added</h1>\n<ul>\n<li>nette 3.0 support</li>\n</ul>\n<p>Diff: <a href=\"https://github.com/contributte/api-docu/compare/v2.0.2..v3.0.0\">https://github.com/contributte/api-docu/compare/v2.0.2..v3.0.0</a></p>"
-  },
-  "21615720": {
-    "org": "ninjify",
-    "repo": "dag",
-    "tag": "v0.1",
-    "name": "v0.1",
-    "created_at": "2019-11-19T21:30:13Z",
-    "published_at": "2019-11-20T11:08:05Z",
-    "html_url": "https://github.com/ninjify/dag/releases/tag/v0.1",
-    "body": "<p><g-emoji class=\"g-emoji\" alias=\"fist_oncoming\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png\">👊</g-emoji> First bump.</p>"
   },
   "21617876": {
     "org": "contributte",
@@ -6817,7 +6987,7 @@
     "created_at": "2020-04-29T06:34:20Z",
     "published_at": "2020-04-29T06:36:41Z",
     "html_url": "https://github.com/contributte/image-storage/releases/tag/v2.0.1",
-    "body": "<ul>\n<li>Fix: Bad variable for creating directory and checking is_writable() in getNoImage() method (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Sikipiki/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Sikipiki\">@Sikipiki</a>)</li>\n</ul>"
+    "body": "<p>Bump!</p>\n<p>Changes:</p>\n<ul>\n<li>Fix: Bad variable for creating directory and checking is_writable() in getNoImage() method (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Sikipiki/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Sikipiki\">@Sikipiki</a>)</li>\n</ul>"
   },
   "26008295": {
     "org": "contributte",
@@ -7098,5 +7268,95 @@
     "published_at": "2020-06-17T20:21:42Z",
     "html_url": "https://github.com/contributte/datagrid/releases/tag/v5.7.6",
     "body": "<p>Bump!</p>\n<ul>\n<li>Fix - paginator option 'All'  (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Sikipiki/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Sikipiki\">@Sikipiki</a>)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v5.7.5...v5.7.6\"><tt>v5.7.5...v5.7.6</tt></a></p>"
+  },
+  "27778497": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v6.2.23",
+    "name": "v6.2.23",
+    "created_at": "2020-06-22T09:37:13Z",
+    "published_at": "2020-06-22T09:40:41Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.23",
+    "body": "<p>Bump!</p>\n<ul>\n<li>assets: replace pushState to replaceState in history API (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/martenb/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/martenb\">@martenb</a>)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.22...v6.2.23\"><tt>v6.2.22...v6.2.23</tt></a></p>"
+  },
+  "27861540": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v6.2.24",
+    "name": "v6.2.24",
+    "created_at": "2020-06-24T08:03:15Z",
+    "published_at": "2020-06-24T08:03:51Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.24",
+    "body": "<p>Bump!</p>\n<ul>\n<li>Button group actions (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/besir/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/besir\">@besir</a>)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.23...v6.2.24\"><tt>v6.2.23...v6.2.24</tt></a></p>"
+  },
+  "27878500": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v6.2.25",
+    "name": "v6.2.25",
+    "created_at": "2020-06-24T15:12:33Z",
+    "published_at": "2020-06-24T15:14:06Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.25",
+    "body": "<p>Bump!</p>\n<ul>\n<li>GroupActionCollection: better type hints</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.24...v6.2.25\"><tt>v6.2.24...v6.2.25</tt></a></p>"
+  },
+  "27916314": {
+    "org": "contributte",
+    "repo": "datagrid-nette-database-data-source",
+    "tag": "v2.0.1",
+    "name": "v2.0.1",
+    "created_at": "2020-06-25T13:12:37Z",
+    "published_at": "2020-06-25T13:13:44Z",
+    "html_url": "https://github.com/contributte/datagrid-nette-database-data-source/releases/tag/v2.0.1",
+    "body": "<ul>\n<li>Fix range filter zero(falsy) value (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/K0nias/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/K0nias\">@K0nias</a>)</li>\n</ul>"
+  },
+  "28055928": {
+    "org": "contributte",
+    "repo": "image-storage",
+    "tag": "v2.0.2",
+    "name": "v2.0.2",
+    "created_at": "2020-06-30T08:07:03Z",
+    "published_at": "2020-06-30T08:07:49Z",
+    "html_url": "https://github.com/contributte/image-storage/releases/tag/v2.0.2",
+    "body": "<p>Bump!</p>\n<p>Changes:</p>\n<ul>\n<li>Fix - catch exception from Nette\\Utils\\Image::fromFile() when the image is unknown (e.g empty file) (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Sikipiki/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Sikipiki\">@Sikipiki</a>)</li>\n</ul>"
+  },
+  "28056570": {
+    "org": "contributte",
+    "repo": "deployer-extension",
+    "tag": "v3.1.0",
+    "name": "v3.1.0",
+    "created_at": "2020-06-30T08:20:44Z",
+    "published_at": "2020-06-30T08:25:06Z",
+    "html_url": "https://github.com/contributte/deployer-extension/releases/tag/v3.1.0",
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"game_die\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f3b2.png\">🎲</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/deployer-extension/compare/v3.0.1...v3.1.0\"><tt>v3.0.1...v3.1.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>upgrade to FTP deployment to v3.3.0</li>\n<li>allow to set permissions (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"421565764\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/deployer-extension/issues/5\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/deployer-extension/pull/5/hovercard\" href=\"https://github.com/contributte/deployer-extension/pull/5\">#5</a>)</li>\n<li>drop PHP 7.1</li>\n<li>add PHP 7.4</li>\n<li>upgrade phpstan v0.12</li>\n<li>repair tests</li>\n<li>fix codestyle</li>\n</ul>"
+  },
+  "28057736": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v6.2.26",
+    "name": "v6.2.26",
+    "created_at": "2020-06-30T08:41:00Z",
+    "published_at": "2020-06-30T08:54:01Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.26",
+    "body": "<p>Bump!</p>\n<ul>\n<li>Fixed group text action collision with another datagrid</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.25...v6.2.26\"><tt>v6.2.25...v6.2.26</tt></a></p>"
+  },
+  "28057837": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v5.7.7",
+    "name": "v5.7.7",
+    "created_at": "2020-06-30T08:39:05Z",
+    "published_at": "2020-06-30T08:56:07Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v5.7.7",
+    "body": "<p>Bump!</p>\n<ul>\n<li>Fixed group text action collision with another datagrid (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Matousek/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Matousek\">@Matousek</a>)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v5.7.6...v5.7.7\"><tt>v5.7.6...v5.7.7</tt></a></p>"
+  },
+  "28068935": {
+    "org": "ninjify",
+    "repo": "qa",
+    "tag": "v0.11",
+    "name": "v0.11",
+    "created_at": "2020-06-30T13:32:15Z",
+    "published_at": "2020-06-30T13:33:33Z",
+    "html_url": "https://github.com/ninjify/qa/releases/tag/v0.11",
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"face_with_head_bandage\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f915.png\">🤕</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/ninjify/qa/compare/v0.10...v0.11\"><tt>v0.10...v0.11</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>replace jakub-onderka/* with php-parallel-lint/*</li>\n<li>use ninjify/coding-standard v0.10</li>\n<li>added funding</li>\n</ul>"
   }
 }

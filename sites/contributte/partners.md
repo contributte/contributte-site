@@ -21,18 +21,18 @@ metaTitle: Contributte Partners
 <div>Patrons are generous people or companies providing resources for us.</div>
 
 <div class="flex flex-wrap my-12">
-  <div v-for="partner of $page.contributte.patrons" class="flex w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/4 xl:w-1/6">
+  <div v-for="patron of $page.contributte.patrons" class="flex w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/4 xl:w-1/6">
     <a
       class="block w-full max-w-sm rounded overflow-hidden shadow-lg px-6 m-2"
-      :href="partner.website"
-      :key="partner.name"
+      :href="patron.website"
+      :key="patron.name"
       target="_blank"
     >
       <div class="h-32 flex items-center justify-center">
-         <img class="max-w-32 max-h-32" :src="partner.avatar" loading="lazy" :alt="partner.name" :title="partner.name" />
+         <img class="max-w-32 max-h-32" :src="patron.avatar" loading="lazy" :alt="patron.name" :title="patron.name" />
       </div>
       <div class="py-4 text-center">
-        <div class="font-bold">{{partner.name}}</div>
+        <div class="font-bold">{{patron.name}}</div>
       </div>
     </a>
   </div>
@@ -59,18 +59,18 @@ metaTitle: Contributte Partners
 <div>Trusters are companies or groups and they put a good faith in us.</div>
 
 <div class="flex flex-wrap my-12">
-  <div v-for="partner of $page.contributte.trusters" class="flex w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/4 xl:w-1/6">
+  <div v-for="truster of $page.contributte.trusters" class="flex w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/4 xl:w-1/6">
     <a
       class="block w-full max-w-sm rounded overflow-hidden shadow-lg px-6 m-2"
-      :href="partner.website"
-      :key="partner.name"
+      :href="truster.website"
+      :key="truster.name"
       target="_blank"
     >
       <div class="h-32 flex items-center justify-center">
-         <img class="max-w-32 max-h-32" :src="partner.avatar" loading="lazy" :alt="partner.name" :title="partner.name" />
+         <img class="max-w-32 max-h-32" :src="truster.avatar" loading="lazy" :alt="truster.name" :title="truster.name" />
       </div>
       <div class="py-4 text-center">
-        <div class="font-bold">{{partner.name}}</div>
+        <div class="font-bold">{{truster.name}}</div>
       </div>
     </a>
   </div>
@@ -97,19 +97,19 @@ metaTitle: Contributte Partners
 <div>Heroes are godlike engineers believing in us.</div>
 
 <div class="flex flex-wrap my-12">
-  <div v-for="partner of $page.contributte.heroes" class="flex w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/4 xl:w-1/6">
+  <div v-for="hero of $page.contributte.heroes" class="flex w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/4 xl:w-1/6">
     <a
       class="block w-full max-w-sm rounded overflow-hidden shadow-lg px-6 m-2"
-      :href="partner.website"
-      :key="partner.name"
+      :href="'https://github.com/' + hero.github"
+      :key="hero.name"
       target="_blank"
     >
       <div class="h-32 flex items-center justify-center">
-         <img class="max-w-32 max-h-32" :src="'https://avatars.githubusercontent.com/' + partner.github" loading="lazy" :alt="partner.name" :title="partner.name" />
+         <img class="max-w-32 max-h-32" :src="'https://avatars.githubusercontent.com/' + hero.github" loading="lazy" :alt="hero.name" :title="hero.name" />
       </div>
       <div class="py-4 text-center">
-        <div class="font-bold">{{partner.name}}</div>
-        <div class="font-bold">@{{partner.github}}</div>
+        <div class="font-bold">{{hero.name}}</div>
+        <div class="font-bold">@{{hero.github}}</div>
       </div>
     </a>
   </div>

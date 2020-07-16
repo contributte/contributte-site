@@ -53,7 +53,7 @@ function filterEnabled() {
 
   // Clean folders
   Object.keys(CONFIG.data.organizations).forEach(org => {
-    const folder = path.resolve(__dirname, `../../sites/contributte/packages/${org}`);
+    const folder = path.resolve(__dirname, `../../sites/www/packages/${org}`);
     console.log(`Purging ${folder}`);
 
     fs.rmdirSync(folder, { recursive: true });
@@ -65,10 +65,10 @@ function filterEnabled() {
 
     if (Array.isArray(file)) {
       file.forEach(f => {
-        generateTemplate(repo, f, path.resolve(__dirname, `../../sites/contributte/packages/${repo.org}/${repo.name}/${path.basename(f)}`));
+        generateTemplate(repo, f, path.resolve(__dirname, `../../sites/www/packages/${repo.org}/${repo.name}/${path.basename(f)}`));
       });
     } else {
-      generateTemplate(repo, file, path.resolve(__dirname, `../../sites/contributte/packages/${repo.org}/${repo.name}.md`));
+      generateTemplate(repo, file, path.resolve(__dirname, `../../sites/www/packages/${repo.org}/${repo.name}.md`));
     }
   });
 })();

@@ -50,7 +50,6 @@ data-sync-orgs:
 data-sync-releases:
 	./butt bin/data/releases
 
-
 ##################################################
 # RESOURCES ######################################
 ##################################################
@@ -69,3 +68,6 @@ resources-generate-packages:
 
 resources-generate-examples:
 	./butt bin/generate/examples
+
+resources-missing:
+	./butt bin/misc/missing

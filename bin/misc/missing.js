@@ -19,18 +19,12 @@ const IGNORED = [
   'contributte/datagrid-nextras-data-source',
   'contributte/datagrid-leanmapper-data-source',
   'contributte/cnb',
+  'contributte/gopay-api',
   'apitte/events',
   'apitte/mapping',
   'apitte/apitte-org',
-  'nettrine/microtrine',
-  'ninjify/imap',
-  'ninjify/dag'
+  'apitte/openapi-toolkit'
 ]
-
-function diff() {
-  outdated();
-  missing();
-}
 
 function outdated() {
   _.forEach(getRepositories(), (repo, repoName) => {
@@ -82,5 +76,6 @@ function getRepositories() {
 
 // @fire
 (async () => {
-  diff();
+  outdated();
+  missing();
 })();

@@ -9,20 +9,17 @@ refresh: resources-generate-packages resources-generate-examples
 # CONTRIBUTTE ####################################
 ##################################################
 
-contributte-dev:
-	npx vuepress dev sites/contributte
+www-dev:
+	npx vuepress dev sites/www
 
-contributte-build:
-	npx vuepress build sites/contributte
+www-build:
+	npx vuepress build sites/www
 
-contributte-deploy:
-	cd sites/contributte && now -c
+www-deploy:
+	cd sites/www && now -c
 
-contributte-generate:
-	node tools/generate-packages
-
-contributte-public:
-	cd sites/contributte && now -c --prod
+www-public:
+	cd sites/www && now -c --prod
 
 ##################################################
 # STATUS #########################################

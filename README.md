@@ -44,7 +44,7 @@ make install
 
 ```
 # Start dev server 
-make contributte-dev
+make www-dev
 ```
 
 
@@ -52,11 +52,12 @@ make contributte-dev
 
 ```
 # Compile sources
-make contributte-build
+make www-build
 ```
 
 ```
-# Deploy to Vercel
-make contributte-deploy
-make contributte-publish
+# Deploy to Vercel [preview]
+make www-deploy
+# Deploy to Vercel [production]
+make www-publish
 ```

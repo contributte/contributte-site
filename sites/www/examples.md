@@ -1,100 +1,152 @@
 ---
 metaTitle: 'Contributte Examples'
 meta:
-  - name: description
-    content: '📚 Examples / tutorials / tips / samples | sandbox for @contributte'
-  - name: keywords
-    content: php, nette, planette, playground
+- name: description
+  content: Prepared examples from community members of the Nette Framework
+- name: keywords
+  content: contributte, nette, apitte, nettrine, ninjify, dockette, examples, playground, demos
 layout: HighLayout
 ---
 
-# Playground
+# Examples
 
-:books: Prepared examples from community members of the [Nette Framework](https://nette.org).
+Take a look at [planette organization](https://github.com/planette) which is full of examples and demos including
+Contributte, Apitte, Nettrine and other packages for [Nette Framework](https://nette.org).
 
-In case of more interest take a look at [nette.org](https://nette.org) and [contributte.org](https://contributte.org).
-
------
-
-## Examples
-
-This repository consist of examples for [Nette Framework](https://nette.org).
-
-## How to start
-
-Just clone this repository and take a look at prepared examples.
+If you want to test some example just clone this repository and take a look at [prepared examples](https://github.com/planette/playground).
 
 ```
 git clone git@github.com:planette/playground.git
 ```
 
----
+<h2>Projects</h2>
 
-### Contributte
+<div class="flex flex-wrap my-12">
+  <div class="flex w-1/2">
+    <a href="https://github.com/planette/nutella-project" target="_blank" class="block w-full rounded overflow-hidden shadow-lg p-4 m-2">
+      <div class="font-bold text-center text-2xl">Nutella Project</div>
+      <div class="flex justify-around px-8 mt-4">
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/nette" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/contributte" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/nettrine" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/ninjify" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/phpstan" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/mockery" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/nelmio" loading="lazy" class="max-h-16"></div>
+      </div>
+      <div class="mt-4">
+        <div class="text-gray-700 my-4">
+          Nutella project is full featured web app kit based on Nette Framework + Contributte and many useful packages by <a class="underline" href="https://f3l1x.io">@f3l1x</a>.
+        </div>
+        <div class="flex flex-wrap -mx-1 -my-1 text-sm">
+          <div class="bg-gray-200 mx-1 my-1 px-2 py-1 rounded">contributte/*</div>
+          <div class="bg-gray-200 mx-1 my-1 px-2 py-1 rounded">nettrine/*</div>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="flex w-1/2">
+    <a href="https://github.com/planette/forest-project" target="_blank" class="block w-full rounded overflow-hidden shadow-lg p-4 m-2">
+      <div class="font-bold text-center text-2xl">FoREST Project</div>
+      <div class="flex justify-around px-8 mt-4">
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/nette" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/contributte" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/apitte" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/nettrine" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/ninjify" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/phpstan" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/mockery" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/nelmio" loading="lazy" class="max-h-16"></div>
+      </div>
+      <div class="mt-4">
+        <div class="text-gray-700 my-4">
+          Forest project is opinionated API-based kit based on Nette Framework + Apitte and many useful packages by <a class="underline" href="https://f3l1x.io">@f3l1x</a>.
+        </div>
+        <div class="flex flex-wrap -mx-1 -my-1 text-sm">
+          <div class="bg-gray-200 mx-1 my-1 px-2 py-1 rounded">contributte/*</div>
+          <div class="bg-gray-200 mx-1 my-1 px-2 py-1 rounded">nettrine/*</div>
+          <div class="bg-gray-200 mx-1 my-1 px-2 py-1 rounded">apitte/*</div>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="flex w-1/2">
+    <a href="https://github.com/planette/cindy-project" target="_blank" class="block w-full rounded overflow-hidden shadow-lg p-4 m-2">
+      <div class="font-bold text-center text-2xl">Cindy Project</div>
+      <div class="flex justify-around px-8 mt-4">
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/nette" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/contributte" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/ninjify" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/phpstan" loading="lazy" class="max-h-16"></div>
+      </div>
+      <div class="mt-4">
+        <div class="text-gray-700 my-4">
+          Cindy Project is a CLI starter kit project for Nette Framework with Symfony Console and many useful libraries by <a class="underline" href="https://f3l1x.io">@f3l1x</a>.
+        </div>
+        <div class="flex flex-wrap -mx-1 -my-1 text-sm">
+          <div class="bg-gray-200 mx-1 my-1 px-2 py-1 rounded">contributte/*</div>
+          <div class="bg-gray-200 mx-1 my-1 px-2 py-1 rounded">phpstan/phpstan</div>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="flex w-1/2">
+    <a href="https://github.com/planette/snow-project" target="_blank" class="block w-full rounded overflow-hidden shadow-lg p-4 m-2">
+      <div class="font-bold text-center text-2xl">Snow Project</div>
+      <div class="flex justify-around px-8 mt-4">
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/nette" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/contributte" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/ninjify" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/phpstan" loading="lazy" class="max-h-16"></div>
+      </div>
+      <div class="mt-4">
+        <div class="text-gray-700 my-4">
+          Snow Project is a web starter kit project for Nette Framework with many useful libraries by <a class="underline" href="https://f3l1x.io">@f3l1x</a>.
+        </div>
+        <div class="flex flex-wrap -mx-1 -my-1 text-sm">
+          <div class="bg-gray-200 mx-1 my-1 px-2 py-1 rounded">contributte/*</div>
+          <div class="bg-gray-200 mx-1 my-1 px-2 py-1 rounded">phpstan/phpstan</div>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
 
-| Project | Packages | Description |
-|---------|----------|-------------|
-| [ApiRouter](https://github.com/contributte/playground/tree/master/contributte-api-router) | api-router | Starter project for ApiRouter. |
-| [Console + Console Extra](https://github.com/contributte/playground/tree/master/contributte-console) | console, console-extra | Example of writing own commands and how to install Console Extra with all commands. |
-| [Datagrid](https://github.com/contributte/playground/tree/master/contributte-datagrid) | datagrid | Dockerized example of our datagrid. [DEMO](https://examples.contributte.org/packages/datagrid/) |
-| [Event Dispatcher](https://github.com/contributte/playground/tree/master/contributte-event-dispatcher) | event-dispatcher, event-dispatcher-extra | Example of dispatching and subscribing events. |
-| [Bootstrap 4 forms](https://github.com/contributte/playground/tree/master/contributte-forms-bootstrap) | forms-bootstrap | Example of contributte/forms-bootstrap usage. |
-| [Live Form Validation](https://github.com/contributte/playground/tree/master/contributte-live-form-validation) | live-form-validation | Example of live form validation. |
-| [Mailing](https://github.com/contributte/playground/tree/master/contributte-mailing) | mailing | Example of contributte/mailing usage. |
-| [Neonizer](https://github.com/contributte/playground/tree/master/contributte-neonizer) | neonizer | Example of contributte/neonizer usage. |
-| [ReCaptcha](https://github.com/contributte/playground/tree/master/contributte-reCAPTCHA) | recaptcha | Example of Google reCaptcha. |
-| [ThePay](https://github.com/contributte/playground/tree/master/contributte-thepay) | thepay, thepay-api | Example of contributte/thepay usage. |
+<h2>Database</h2>
 
----
-
-### Apitte
-
-| Project | Packages | Description |
-|---------|----------|-------------|
-| [Fullstack](https://github.com/planette/playground/tree/master/apitte-fullstack) | core, middlewares, negotiation, debug, openapi | Fullstack application with example of all plugins. |
-| [Simple](https://github.com/planette/playground/tree/master/apitte-simple) | core, middlewares, debug | Simple middleware application. |
-| [Micro](https://github.com/planette/playground/tree/master/apitte-micro) | core | Micro application with direct dispatching. |
-| [Nette Simple](https://github.com/planette/playground/tree/master/apitte-nette-simple) | core, presenter, debug, openapi | Simple Nette application integration. |
-
----
-
-### Nettrine
-
-| Project | Packages | Description |
-|---------|----------|-------------|
-| [Migrations](https://github.com/planette/playground/tree/master/nettrine-migrations) | migrations | Example of doctrine/migrations. |
-| [ORM](https://github.com/planette/playground/tree/master/nettrine-orm) | dbal, orm | Example of doctrine/dbal and doctrine/orm. |
-| [Kdyby - Console](https://github.com/planette/playground/tree/master/nettrine-kdyby-console) | dbal, orm | Example of doctrine/dbal and doctrine/orm. |
-
----
-
-## Maintainers
-
-<table>
-  <tbody>
-    <tr>
-      <td align="center">
-        <a href="https://github.com/f3l1x">
-            <img width="150" height="150" src="https://avatars2.githubusercontent.com/u/538058?v=4&s=130" loading="lazy">
-        </a>
-        </br>
-        <a href="https://github.com/f3l1x">Milan Felix Šulc</a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/chemix">
-            <img width="150" height="150" src="https://avatars0.githubusercontent.com/u/42802?s=130&v=4" loading="lazy">
-        </a>
-        </br>
-        <a href="https://github.com/chemix">Honza Černý</a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/mabar">
-            <img width="150" height="150" src="https://avatars0.githubusercontent.com/u/20974277?s=130&v=4" loading="lazy">
-        </a>
-        </br>
-        <a href="https://github.com/mabar">Marek Bartoš</a>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
+<div class="flex flex-wrap my-12">
+  <div class="flex w-1/3">
+    <a href="https://github.com/planette/playground/tree/master/nettrine" target="_blank" class="block w-full rounded overflow-hidden shadow-lg p-4 m-2">
+      <div class="font-bold text-center text-2xl">Doctrine Example</div>
+      <div class="flex justify-around px-8 mt-4">
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/nette" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/doctrine" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/nettrine" loading="lazy" class="max-h-16"></div>
+      </div>
+      <div class="mt-4">
+        <div class="flex flex-wrap -mx-1 -my-1 text-sm">
+          <div class="bg-gray-200 mx-1 my-1 px-2 py-1 rounded">nettrine/dbal</div>
+          <div class="bg-gray-200 mx-1 my-1 px-2 py-1 rounded">nettrine/orm</div>
+          <div class="bg-gray-200 mx-1 my-1 px-2 py-1 rounded">nettrine/migrations</div>
+          <div class="bg-gray-200 mx-1 my-1 px-2 py-1 rounded">nettrine/data-fixtures</div>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="flex w-1/3">
+    <a href="https://github.com/planette/playground/tree/master/nextras-orm-generator" target="_blank" class="block w-full rounded overflow-hidden shadow-lg p-4 m-2">
+      <div class="font-bold text-center text-2xl">Nextras Entity Generator</div>
+      <div class="flex justify-around px-8 mt-4">
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/nextras" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/contributte" loading="lazy" class="max-h-16"></div>
+      </div>
+      <div class="mt-4">
+        <div class="flex flex-wrap -mx-1 -my-1 text-sm">
+          <div class="bg-gray-200 mx-1 my-1 px-2 py-1 rounded">contributte/nextras-orm-generator</div>
+          <div class="bg-gray-200 mx-1 my-1 px-2 py-1 rounded">nextras/orm</div>
+          <div class="bg-gray-200 mx-1 my-1 px-2 py-1 rounded">nextras/dbal</div>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>

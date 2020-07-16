@@ -11,6 +11,7 @@ module.exports = {
         '40': '20rem',
       },
       maxHeight: {
+        '16': '4rem',
         '32': '8rem',
       },
       fontSize: {

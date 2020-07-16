@@ -927,7 +927,7 @@
     "created_at": "2017-01-06T21:33:56Z",
     "published_at": "2017-01-16T15:36:34Z",
     "html_url": "https://github.com/contributte/psr7-http-message/releases/tag/v0.1",
-    "body": "<p>First bump! <g-emoji class=\"g-emoji\" alias=\"fist_oncoming\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png\">👊</g-emoji></p>"
+    "body": "<p>First bump! <g-emoji class=\"g-emoji\" alias=\"fist_oncoming\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png\">����</g-emoji></p>"
   },
   "5206061": {
     "org": "contributte",
@@ -1827,7 +1827,7 @@
     "created_at": "2017-07-16T11:35:42Z",
     "published_at": "2017-07-16T11:36:43Z",
     "html_url": "https://github.com/ninjify/qa/releases/tag/0.6.0",
-    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"man_astronaut\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f680.png\">👨‍🚀</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/ninjify/qa/compare/0.5.0...0.6.0\"><tt>0.5.0...0.6.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>use coding-standard v0.5</li>\n</ul>"
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"man_astronaut\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f680.png\">���‍🚀</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/ninjify/qa/compare/0.5.0...0.6.0\"><tt>0.5.0...0.6.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>use coding-standard v0.5</li>\n</ul>"
   },
   "7055815": {
     "org": "contributte",
@@ -2227,7 +2227,7 @@
     "created_at": "2017-10-24T13:15:43Z",
     "published_at": "2017-10-25T13:08:32Z",
     "html_url": "https://github.com/nettrine/annotations/releases/tag/v0.1",
-    "body": "<p>First bump! <g-emoji class=\"g-emoji\" alias=\"fist_oncoming\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png\">👊</g-emoji></p>"
+    "body": "<p>First bump! <g-emoji class=\"g-emoji\" alias=\"fist_oncoming\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png\">���</g-emoji></p>"
   },
   "8301262": {
     "org": "contributte",
@@ -7309,6 +7309,16 @@
     "html_url": "https://github.com/contributte/datagrid-nette-database-data-source/releases/tag/v2.0.1",
     "body": "<ul>\n<li>Fix range filter zero(falsy) value (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/K0nias/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/K0nias\">@K0nias</a>)</li>\n</ul>"
   },
+  "27998565": {
+    "org": "contributte",
+    "repo": "translation",
+    "tag": "v0.7.0",
+    "name": "v0.7.0",
+    "created_at": "2020-06-25T06:42:02Z",
+    "published_at": "2020-07-01T04:45:11Z",
+    "html_url": "https://github.com/contributte/translation/releases/tag/v0.7.0",
+    "body": "<p>Bump!</p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/translation/compare/v0.6.1...v0.7.0\"><tt>v0.6.1...v0.7.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>bug fix, when can not use domain in sentense translation <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/translation/commit/26fa99330deb663770ef45e1f6e8cbf1f3fb3c23/hovercard\" href=\"https://github.com/contributte/translation/commit/26fa99330deb663770ef45e1f6e8cbf1f3fb3c23\"><tt>26fa993</tt></a></li>\n<li>some minor improvements</li>\n</ul>"
+  },
   "28055928": {
     "org": "contributte",
     "repo": "image-storage",
@@ -7358,5 +7368,25 @@
     "published_at": "2020-06-30T13:33:33Z",
     "html_url": "https://github.com/ninjify/qa/releases/tag/v0.11",
     "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"face_with_head_bandage\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f915.png\">🤕</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/ninjify/qa/compare/v0.10...v0.11\"><tt>v0.10...v0.11</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>replace jakub-onderka/* with php-parallel-lint/*</li>\n<li>use ninjify/coding-standard v0.10</li>\n<li>added funding</li>\n</ul>"
+  },
+  "28108274": {
+    "org": "contributte",
+    "repo": "czech-post",
+    "tag": "v0.2.0",
+    "name": "v0.2.0",
+    "created_at": "2020-07-01T10:24:35Z",
+    "published_at": "2020-07-01T10:25:41Z",
+    "html_url": "https://github.com/contributte/czech-post/releases/tag/v0.2.0",
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"a\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f170.png\">🅰️</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/czech-post/compare/v0.1.0...v0.2.0\"><tt>v0.1.0...v0.2.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Use nette v3.0</li>\n<li>Use phpstan v0.12</li>\n</ul>"
+  },
+  "28307383": {
+    "org": "contributte",
+    "repo": "image-storage",
+    "tag": "v2.0.3",
+    "name": "v2.0.3",
+    "created_at": "2020-06-30T08:39:06Z",
+    "published_at": "2020-07-07T11:06:36Z",
+    "html_url": "https://github.com/contributte/image-storage/releases/tag/v2.0.3",
+    "body": "<p>Bump!</p>"
   }
 }

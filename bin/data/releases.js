@@ -14,6 +14,8 @@ function sync() {
 }
 
 function syncRepo(repo) {
+  console.log(`Syncing ${repo.full_name} repo releases`);
+
   const options = {
     hostname: `api.github.com`,
     path: `/repos/${repo.full_name}/releases?per_page=200&access_token=${process.env.GITHUB_TOKEN}`,

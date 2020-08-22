@@ -71,3 +71,6 @@ resources-generate-examples:
 
 resources-missing:
 	./butt bin/misc/missing
+
+resources-releases:
+	./butt bin/resources/releases

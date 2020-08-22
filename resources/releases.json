@@ -1,4 +1,104 @@
 {
+  "58653": {
+    "org": "contributte",
+    "repo": "newrelic",
+    "tag": "v1.0.0",
+    "name": "First Stable",
+    "created_at": "2013-10-03T23:20:55Z",
+    "published_at": "2013-10-03T23:26:24Z",
+    "html_url": "https://github.com/contributte/newrelic/releases/tag/v1.0.0",
+    "body": "<ul>\n<li>Some fixies</li>\n<li>add support for parameters</li>\n<li>add support for Realtime User Monitoring</li>\n</ul>"
+  },
+  "58940": {
+    "org": "contributte",
+    "repo": "newrelic",
+    "tag": "v1.1.0",
+    "name": "v1.1.0",
+    "created_at": "2013-10-04T10:50:01Z",
+    "published_at": "2013-10-04T10:53:07Z",
+    "html_url": "https://github.com/contributte/newrelic/releases/tag/v1.1.0",
+    "body": "<ul>\n<li>remove newrelic dependency from composer</li>\n<li>add check if is newrelic extension enabled</li>\n</ul>"
+  },
+  "59045": {
+    "org": "contributte",
+    "repo": "newrelic",
+    "tag": "v1.1.2",
+    "name": "v1.1.2",
+    "created_at": "2013-10-04T14:15:57Z",
+    "published_at": "2013-10-04T13:41:51Z",
+    "html_url": "https://github.com/contributte/newrelic/releases/tag/v1.1.2",
+    "body": "<p>bug fix release</p>"
+  },
+  "59892": {
+    "org": "contributte",
+    "repo": "newrelic",
+    "tag": "v1.3.0",
+    "name": "v1.3.0",
+    "created_at": "2013-10-05T21:09:34Z",
+    "published_at": "2013-10-05T21:11:16Z",
+    "html_url": "https://github.com/contributte/newrelic/releases/tag/v1.3.0",
+    "body": "<ul>\n<li>add more options see README.md file</li>\n<li>cleanup</li>\n</ul>"
+  },
+  "135860": {
+    "org": "contributte",
+    "repo": "newrelic",
+    "tag": "v3.0.0",
+    "name": "Nette 2.1",
+    "created_at": "2014-01-02T14:18:26Z",
+    "published_at": "2014-01-02T14:19:35Z",
+    "html_url": "https://github.com/contributte/newrelic/releases/tag/v3.0.0",
+    "body": "<p>Nette 2.1.x compatability</p>"
+  },
+  "525790": {
+    "org": "contributte",
+    "repo": "newrelic-tracy",
+    "tag": "v4.0.0",
+    "name": "1st Release",
+    "created_at": "2014-08-30T19:09:44Z",
+    "published_at": "2014-08-30T19:22:13Z",
+    "html_url": "https://github.com/contributte/newrelic-tracy/releases/tag/v4.0.0",
+    "body": "<p>initial Tracy support</p>"
+  },
+  "525791": {
+    "org": "contributte",
+    "repo": "newrelic",
+    "tag": "v4.0.0",
+    "name": "Nette 2.2",
+    "created_at": "2014-08-30T19:18:09Z",
+    "published_at": "2014-08-30T19:23:28Z",
+    "html_url": "https://github.com/contributte/newrelic/releases/tag/v4.0.0",
+    "body": "<p>Initial support for Nette 2.2.x</p>\n<p>Tracy support splitted to separate repo <a href=\"https://github.com/Vrtak-CZ/NewRelic-Tracy\">https://github.com/Vrtak-CZ/NewRelic-Tracy</a></p>"
+  },
+  "686137": {
+    "org": "contributte",
+    "repo": "newrelic-tracy",
+    "tag": "v4.1.0",
+    "name": "Tracy 2.3.x",
+    "created_at": "2014-11-07T12:31:16Z",
+    "published_at": "2014-11-07T12:33:03Z",
+    "html_url": "https://github.com/contributte/newrelic-tracy/releases/tag/v4.1.0",
+    "body": "<ul>\n<li>Added support for Tracy 2.3.x</li>\n<li>Fix BC for Tracy 2.2.x</li>\n</ul>"
+  },
+  "1022991": {
+    "org": "contributte",
+    "repo": "newrelic-tracy",
+    "tag": "v5.0.0",
+    "name": "5.0",
+    "created_at": "2015-03-06T13:36:48Z",
+    "published_at": "2015-03-06T13:44:30Z",
+    "html_url": "https://github.com/contributte/newrelic-tracy/releases/tag/v5.0.0",
+    "body": "<ul>\n<li>added Tracy 2.3.x support</li>\n<li>removed PHP 5.3.x support</li>\n<li>added Travis with lint &amp; CS</li>\n</ul>"
+  },
+  "1023195": {
+    "org": "contributte",
+    "repo": "newrelic",
+    "tag": "v5.0.0",
+    "name": "5.0",
+    "created_at": "2015-03-06T14:27:57Z",
+    "published_at": "2015-03-06T14:43:47Z",
+    "html_url": "https://github.com/contributte/newrelic/releases/tag/v5.0.0",
+    "body": "<ul>\n<li>added Nette 2.3.x support</li>\n<li>removed PHP 5.3.x support</li>\n<li>added Travis with lint &amp; CS</li>\n</ul>"
+  },
   "1226161": {
     "org": "contributte",
     "repo": "gopay",
@@ -67,7 +167,7 @@
     "created_at": "2015-10-11T10:43:03Z",
     "published_at": "2015-10-11T10:45:23Z",
     "html_url": "https://github.com/contributte/gopay-inline/releases/tag/v1.0.0",
-    "body": "<p><g-emoji class=\"g-emoji\" alias=\"fist_oncoming\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png\">👊</g-emoji>  Bumped first version.</p>\n<h3>API</h3>\n<div class=\"highlight highlight-text-html-php\"><pre><span class=\"pl-s1\"><span class=\"pl-smi\">$client</span><span class=\"pl-k\">-&gt;</span><span class=\"pl-smi\">payments</span><span class=\"pl-k\">-&gt;</span>verify(<span class=\"pl-k\">..</span>)</span>\n<span class=\"pl-s1\"><span class=\"pl-smi\">$client</span><span class=\"pl-k\">-&gt;</span><span class=\"pl-smi\">payments</span><span class=\"pl-k\">-&gt;</span>createPayment(<span class=\"pl-k\">..</span>)</span>\n<span class=\"pl-s1\"><span class=\"pl-smi\">$client</span><span class=\"pl-k\">-&gt;</span><span class=\"pl-smi\">payments</span><span class=\"pl-k\">-&gt;</span>createRecurrentPayment(<span class=\"pl-k\">..</span>)</span>\n<span class=\"pl-s1\"><span class=\"pl-smi\">$client</span><span class=\"pl-k\">-&gt;</span><span class=\"pl-smi\">payments</span><span class=\"pl-k\">-&gt;</span>createPreauthorizedPayment(<span class=\"pl-k\">..</span>)</span></pre></div>"
+    "body": "<p><g-emoji class=\"g-emoji\" alias=\"fist_oncoming\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png\">👊</g-emoji>  Bumped first version.</p>\n<h3>API</h3>\n<div class=\"highlight highlight-text-html-php\"><pre><span class=\"pl-s1\"><span class=\"pl-c1\">$</span>client</span>-&gt;<span class=\"pl-c1\">payments</span>-&gt;verify(<span class=\"pl-c1\">.</span>.)\n<span class=\"pl-s1\"><span class=\"pl-c1\">$</span>client</span>-&gt;<span class=\"pl-c1\">payments</span>-&gt;createPayment(<span class=\"pl-c1\">.</span>.)\n<span class=\"pl-s1\"><span class=\"pl-c1\">$</span>client</span>-&gt;<span class=\"pl-c1\">payments</span>-&gt;createRecurrentPayment(<span class=\"pl-c1\">.</span>.)\n<span class=\"pl-s1\"><span class=\"pl-c1\">$</span>client</span>-&gt;<span class=\"pl-c1\">payments</span>-&gt;createPreauthorizedPayment(<span class=\"pl-c1\">.</span>.)</pre></div>"
   },
   "1954064": {
     "org": "contributte",
@@ -87,7 +187,7 @@
     "created_at": "2015-12-17T10:34:51Z",
     "published_at": "2015-12-17T10:48:21Z",
     "html_url": "https://github.com/contributte/gopay/releases/tag/v3.0.0",
-    "body": "<p>Bumped v3.0.0 <g-emoji class=\"g-emoji\" alias=\"hammer\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f528.png\">🔨</g-emoji></p>\n<p>COMPOSER: <a href=\"https://packagist.org/packages/Markette/Gopay\" rel=\"nofollow\">https://packagist.org/packages/Markette/Gopay</a><br>\nDIFF: <a class=\"commit-link\" href=\"https://github.com/contributte/gopay/compare/v2.3.0...v3.0.0\"><tt>v2.3.0...v3.0.0</tt></a></p>\n<p>Novinky</p>\n<ul>\n<li>PHP &gt;= 5.5</li>\n<li><a href=\"https://github.com/Markette/Gopay/tree/master/tests/cases\">100% test coverage</a>\n<ul>\n<li>S jednoduchým <a href=\"https://github.com/Markette/Gopay/blob/master/tests/cases/BasePaymentTestCase.php#L20-L32\"><code>mockováním</code> GopayApi</a></li>\n</ul>\n</li>\n<li>Nové <strong>API</strong> (není 100% kompatibilní s 2.x)\n<ul>\n<li>Nová <a href=\"https://github.com/Markette/Gopay/tree/master/src/Gopay/Service\">struktura služeb</a>\n<ul>\n<li><code>AbstractService -&gt; AbstractPaymentService -&gt; PaymentService</code></li>\n</ul>\n</li>\n<li>Nová <a href=\"https://github.com/Markette/Gopay/tree/master/src/Gopay/Entity\">struktura entit</a>\n<ul>\n<li><code>BasePayment-&gt; Payment, RecurrentPayment, PreAuthorizedPayment</code></li>\n</ul>\n</li>\n<li>Nový nástroj <a href=\"https://github.com/Markette/Gopay/blob/master/src/Gopay/Form/Binder.php\">Binder</a>\n<ul>\n<li>Aby se ze služeb nestávaly god-objekty</li>\n</ul>\n</li>\n<li>Nový oddělený <a href=\"https://github.com/Markette/Gopay/blob/master/src/Gopay/Config.php\">Config</a> pro přihlašovací údaje</li>\n</ul>\n</li>\n<li>Nové platby:\n<ul>\n<li>opakované (<a href=\"https://github.com/Markette/Gopay/blob/master/src/Gopay/Service/RecurrentPaymentService.php\">RecurrentPayment</a>)</li>\n<li>před-autorizované (<a href=\"https://github.com/Markette/Gopay/blob/master/src/Gopay/Service/PreAuthorizedPaymentService.php\">PreAuthorizedPayment</a>)</li>\n</ul>\n</li>\n</ul>\n<p>Ostatní:</p>\n<ul>\n<li>Oddělení <code>README</code> pro větev <a href=\"https://github.com/Markette/Gopay/blob/master/docs/v3.x/README-v2.x.md\">v3.x</a></li>\n<li>Oddělené <code>examples</code> pro větev <a href=\"https://github.com/Markette/Gopay/blob/master/docs/v3.x/examples\">v3.x</a></li>\n<li>Oddělení <code>README</code> pro větev <a href=\"https://github.com/Markette/Gopay/blob/master/docs/v2.x/README-v2.x.md\">v2.x</a></li>\n<li>Oddělené <code>examples</code> pro větev <a href=\"https://github.com/Markette/Gopay/blob/master/docs/v2.x/examples\">v2.x</a></li>\n</ul>"
+    "body": "<p>Bumped v3.0.0 <g-emoji class=\"g-emoji\" alias=\"hammer\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f528.png\">🔨</g-emoji></p>\n<p>COMPOSER: <a href=\"https://packagist.org/packages/Markette/Gopay\" rel=\"nofollow\">https://packagist.org/packages/Markette/Gopay</a><br>\nDIFF: <a class=\"commit-link\" href=\"https://github.com/contributte/gopay/compare/v2.3.0...v3.0.0\"><tt>v2.3.0...v3.0.0</tt></a></p>\n<p>Novinky</p>\n<ul>\n<li>PHP &gt;= 5.5</li>\n<li><a href=\"https://github.com/Markette/Gopay/tree/master/tests/cases\">100% test coverage</a>\n<ul>\n<li>S jednoduchým <a href=\"https://github.com/Markette/Gopay/blob/master/tests/cases/BasePaymentTestCase.php#L20-L32\"><code>mockováním</code> GopayApi</a></li>\n</ul>\n</li>\n<li>Nové <strong>API</strong> (není 100% kompatibilní s 2.x)\n<ul>\n<li>Nová <a href=\"https://github.com/Markette/Gopay/tree/master/src/Gopay/Service\">struktura služeb</a>\n<ul>\n<li><code>AbstractService -&gt; AbstractPaymentService -&gt; PaymentService</code></li>\n</ul>\n</li>\n<li>Nová <a href=\"https://github.com/Markette/Gopay/tree/master/src/Gopay/Entity\">struktura entit</a>\n<ul>\n<li><code>BasePayment-&gt; Payment, RecurrentPayment, PreAuthorizedPayment</code></li>\n</ul>\n</li>\n<li>Nový n��stroj <a href=\"https://github.com/Markette/Gopay/blob/master/src/Gopay/Form/Binder.php\">Binder</a>\n<ul>\n<li>Aby se ze služeb nestávaly god-objekty</li>\n</ul>\n</li>\n<li>Nový oddělený <a href=\"https://github.com/Markette/Gopay/blob/master/src/Gopay/Config.php\">Config</a> pro přihlašovací údaje</li>\n</ul>\n</li>\n<li>Nové platby:\n<ul>\n<li>opakované (<a href=\"https://github.com/Markette/Gopay/blob/master/src/Gopay/Service/RecurrentPaymentService.php\">RecurrentPayment</a>)</li>\n<li>před-autorizované (<a href=\"https://github.com/Markette/Gopay/blob/master/src/Gopay/Service/PreAuthorizedPaymentService.php\">PreAuthorizedPayment</a>)</li>\n</ul>\n</li>\n</ul>\n<p>Ostatní:</p>\n<ul>\n<li>Oddělení <code>README</code> pro větev <a href=\"https://github.com/Markette/Gopay/blob/master/docs/v3.x/README-v2.x.md\">v3.x</a></li>\n<li>Oddělené <code>examples</code> pro větev <a href=\"https://github.com/Markette/Gopay/blob/master/docs/v3.x/examples\">v3.x</a></li>\n<li>Oddělení <code>README</code> pro větev <a href=\"https://github.com/Markette/Gopay/blob/master/docs/v2.x/README-v2.x.md\">v2.x</a></li>\n<li>Oddělené <code>examples</code> pro větev <a href=\"https://github.com/Markette/Gopay/blob/master/docs/v2.x/examples\">v2.x</a></li>\n</ul>"
   },
   "2123032": {
     "org": "contributte",
@@ -127,7 +227,7 @@
     "created_at": "2016-01-04T12:26:48Z",
     "published_at": "2016-01-04T12:28:02Z",
     "html_url": "https://github.com/contributte/gopay-inline/releases/tag/v1.0.2",
-    "body": "<p><g-emoji class=\"g-emoji\" alias=\"fist_oncoming\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png\">👊</g-emoji> Bumped next version.</p>\n<h3>DIFF</h3>\n<p><a class=\"commit-link\" href=\"https://github.com/contributte/gopay-inline/compare/v1.0.1...v1.0.2\"><tt>v1.0.1...v1.0.2</tt></a></p>\n<h3>CHANGES</h3>\n<ul>\n<li>Added validators to PaymentFactory</li>\n</ul>\n<div class=\"highlight highlight-text-html-php\"><pre><span class=\"pl-s1\"><span class=\"pl-c\"><span class=\"pl-c\">//</span> Disable total prices and items prices validator</span></span>\n<span class=\"pl-s1\"><span class=\"pl-c1\">PaymentFactory</span><span class=\"pl-k\">::</span>create(<span class=\"pl-smi\">$data</span>, [<span class=\"pl-c1\">PaymentFactory</span><span class=\"pl-k\">::</span><span class=\"pl-c1\">V_PRICE</span> <span class=\"pl-k\">=&gt;</span> <span class=\"pl-c1\">FALSE</span>]);</span>\n<span class=\"pl-s1\"></span>\n<span class=\"pl-s1\"><span class=\"pl-c\"><span class=\"pl-c\">//</span> Disable scheme validator</span></span>\n<span class=\"pl-s1\"><span class=\"pl-c1\">PaymentFactory</span><span class=\"pl-k\">::</span>create(<span class=\"pl-smi\">$data</span>, [<span class=\"pl-c1\">PaymentFactory</span><span class=\"pl-k\">::</span><span class=\"pl-c1\">V_SCHEME</span><span class=\"pl-k\">=&gt;</span> <span class=\"pl-c1\">FALSE</span>]);</span></pre></div>\n<ul>\n<li>Added count (default 1) to Item's object</li>\n<li>Added new method <code>-&gt;payments-&gt;refundPayment($paymentId, $amount)</code></li>\n</ul>"
+    "body": "<p><g-emoji class=\"g-emoji\" alias=\"fist_oncoming\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png\">👊</g-emoji> Bumped next version.</p>\n<h3>DIFF</h3>\n<p><a class=\"commit-link\" href=\"https://github.com/contributte/gopay-inline/compare/v1.0.1...v1.0.2\"><tt>v1.0.1...v1.0.2</tt></a></p>\n<h3>CHANGES</h3>\n<ul>\n<li>Added validators to PaymentFactory</li>\n</ul>\n<div class=\"highlight highlight-text-html-php\"><pre><span class=\"pl-c\">// Disable total prices and items prices validator</span>\n<span class=\"pl-v\">PaymentFactory</span>::<span class=\"pl-en\">create</span>(<span class=\"pl-s1\"><span class=\"pl-c1\">$</span>data</span>, [<span class=\"pl-v\">PaymentFactory</span>::<span class=\"pl-c1\">V_PRICE</span> =&gt; <span class=\"pl-c1\">FALSE</span>]);\n\n<span class=\"pl-c\">// Disable scheme validator</span>\n<span class=\"pl-v\">PaymentFactory</span>::<span class=\"pl-en\">create</span>(<span class=\"pl-s1\"><span class=\"pl-c1\">$</span>data</span>, [<span class=\"pl-v\">PaymentFactory</span>::<span class=\"pl-c1\">V_SCHEME</span>=&gt; <span class=\"pl-c1\">FALSE</span>]);</pre></div>\n<ul>\n<li>Added count (default 1) to Item's object</li>\n<li>Added new method <code>-&gt;payments-&gt;refundPayment($paymentId, $amount)</code></li>\n</ul>"
   },
   "2355207": {
     "org": "contributte",
@@ -238,6 +338,36 @@
     "published_at": "2016-04-28T20:30:27Z",
     "html_url": "https://github.com/contributte/guzzlette/releases/tag/v0.9.0",
     "body": ""
+  },
+  "3265938": {
+    "org": "contributte",
+    "repo": "newrelic-tracy",
+    "tag": "v6.0.0",
+    "name": "6.0.0",
+    "created_at": "2016-05-19T22:56:43Z",
+    "published_at": "2016-05-19T22:27:07Z",
+    "html_url": "https://github.com/contributte/newrelic-tracy/releases/tag/v6.0.0",
+    "body": "<ul>\n<li>added Tracy 2.4.x support</li>\n<li>removed Tracy 2.2.x support</li>\n<li>removed PHP 5.4.x support</li>\n<li>fixed PHP 7.0 compatability</li>\n<li>improve CS</li>\n</ul>"
+  },
+  "3266194": {
+    "org": "contributte",
+    "repo": "newrelic",
+    "tag": "v6.0.0",
+    "name": "6.0.0",
+    "created_at": "2016-05-19T23:20:02Z",
+    "published_at": "2016-05-19T23:20:21Z",
+    "html_url": "https://github.com/contributte/newrelic/releases/tag/v6.0.0",
+    "body": "<ul>\n<li>added Tracy 2.4.x support</li>\n<li>added Nette 2.4.x support</li>\n<li>removed Tracy 2.2.x support</li>\n<li>removed PHP 5.4.x support</li>\n<li>removed ratio support (both global and RUM)</li>\n<li>fixed PHP 7.0 compatability</li>\n<li>improve CS</li>\n</ul>"
+  },
+  "3302907": {
+    "org": "contributte",
+    "repo": "newrelic",
+    "tag": "v6.1.0",
+    "name": "6.1.0",
+    "created_at": "2016-05-25T13:09:08Z",
+    "published_at": "2016-05-25T13:09:50Z",
+    "html_url": "https://github.com/contributte/newrelic/releases/tag/v6.1.0",
+    "body": "<ul>\n<li>added support for Throwable</li>\n</ul>"
   },
   "3309944": {
     "org": "contributte",
@@ -487,7 +617,7 @@
     "created_at": "2016-10-06T12:08:46Z",
     "published_at": "2016-10-06T12:09:43Z",
     "html_url": "https://github.com/contributte/seznamcaptcha/releases/tag/0.2",
-    "body": "<p>Changes:</p>\n<ul>\n<li>tiny typos in examples</li>\n<li>fix binding bug</li>\n</ul>"
+    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/seznamcaptcha/compare/0.1...0.2\"><tt>0.1...0.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>tiny typos in examples</li>\n<li>fix binding bug</li>\n</ul>"
   },
   "4363041": {
     "org": "contributte",
@@ -1589,6 +1719,16 @@
     "html_url": "https://github.com/contributte/latte/releases/tag/v0.2",
     "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"man_farmer\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f33e.png\">👨‍🌾</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/latte/compare/v0.1...v0.2\"><tt>v0.1...v0.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>added new filter <code>filectime</code> [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"197610551\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/latte/issues/2\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/latte/issues/2/hovercard\" href=\"https://github.com/contributte/latte/issues/2\">#2</a>]</li>\n<li>added new filter <code>email</code> [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"205264100\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/latte/issues/5\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/latte/issues/5/hovercard\" href=\"https://github.com/contributte/latte/issues/5\">#5</a>]</li>\n<li>added new number formatter [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"205264151\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/latte/issues/6\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/latte/issues/6/hovercard\" href=\"https://github.com/contributte/latte/issues/6\">#6</a>]</li>\n<li>automatic <code>{rev}</code> <code>{v}</code> <code>{build}</code> in debugMode [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"221510045\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/latte/issues/8\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/latte/issues/8/hovercard\" href=\"https://github.com/contributte/latte/issues/8\">#8</a>]</li>\n<li>modular filters [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"235842083\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/latte/issues/9\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/latte/issues/9/hovercard\" href=\"https://github.com/contributte/latte/issues/9\">#9</a>]</li>\n</ul>"
   },
+  "6797844": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v1.1.0",
+    "name": "v1.1.0",
+    "created_at": "2017-06-22T08:50:26Z",
+    "published_at": "2017-06-22T08:53:25Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v1.1.0",
+    "body": "<h2>First official release on GitHub</h2>\n<ul>\n<li>Added license (MIT)</li>\n<li>Added proper README</li>\n<li>StaticConsumer - added ability to consume just particular amount of messages</li>\n</ul>"
+  },
   "6934680": {
     "org": "contributte",
     "repo": "datagrid",
@@ -1618,6 +1758,46 @@
     "published_at": "2017-07-09T15:53:48Z",
     "html_url": "https://github.com/contributte/thepay-api/releases/tag/v3.2.2",
     "body": ""
+  },
+  "6995582": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v1.2.0",
+    "name": "v1.2.0",
+    "created_at": "2017-07-11T08:37:46Z",
+    "published_at": "2017-07-11T08:41:38Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v1.2.0",
+    "body": "<h2>kdyby/console v2.7.x support</h2>"
+  },
+  "7017473": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v1.2.2",
+    "name": "v1.2.2",
+    "created_at": "2017-07-12T16:51:21Z",
+    "published_at": "2017-07-12T17:20:32Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v1.2.2",
+    "body": "<h2>Consumer.php (Channel::reject()) fix</h2>\n<ul>\n<li>Consumer fix: reject message from queue and do not requeue when returning IConsumer::MESSAGE_REJECT</li>\n</ul>"
+  },
+  "7034779": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v1.2.3",
+    "name": "v1.2.3",
+    "created_at": "2017-07-13T20:26:16Z",
+    "published_at": "2017-07-13T20:27:33Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v1.2.3",
+    "body": "<h2>Extension fix</h2>\n<ul>\n<li>ConnectionsHelper: default port fix (string -&gt; int)</li>\n</ul>"
+  },
+  "7049199": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v1.2.4",
+    "name": "v1.2.4",
+    "created_at": "2017-07-14T20:54:54Z",
+    "published_at": "2017-07-14T20:59:37Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v1.2.4",
+    "body": "<h2>Abandon kdyby/console (optional)</h2>\n<ul>\n<li>No need to use strictly <code>kdyby/console</code> anymore. Could use <code>kdyby/console</code> or for example <a href=\"https://github.com/contributte/console\">contributte/console</a> :)</li>\n<li>require <code>symfony/console</code> in composer.json</li>\n</ul>"
   },
   "7051863": {
     "org": "contributte",
@@ -1687,7 +1867,7 @@
     "created_at": "2017-02-23T12:21:41Z",
     "published_at": "2017-07-31T09:36:31Z",
     "html_url": "https://github.com/contributte/seznamcaptcha/releases/tag/0.3",
-    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"walking\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f6b6.png\">🚶</g-emoji></p>\n<p>Changes:</p>\n<ul>\n<li>enhanced readme</li>\n<li>repair validator [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"184681055\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/seznamcaptcha/issues/1\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/seznamcaptcha/pull/1/hovercard\" href=\"https://github.com/contributte/seznamcaptcha/pull/1\">#1</a>]</li>\n</ul>"
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"walking\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f6b6.png\">🚶</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/seznamcaptcha/compare/0.2...0.3\"><tt>0.2...0.3</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>enhanced readme</li>\n<li>repair validator [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"184681055\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/seznamcaptcha/issues/1\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/seznamcaptcha/pull/1/hovercard\" href=\"https://github.com/contributte/seznamcaptcha/pull/1\">#1</a>]</li>\n</ul>"
   },
   "7226029": {
     "org": "contributte",
@@ -1838,6 +2018,16 @@
     "published_at": "2017-08-11T14:50:09Z",
     "html_url": "https://github.com/contributte/api/releases/tag/v0.3",
     "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"hocho\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f52a.png\">🔪</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/api/compare/v0.2.2...v0.3\"><tt>v0.2.2...v0.3</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>namespace refactoring (drop Bridges)</li>\n<li>rename Factory/Generator to Serialization</li>\n<li>rename Validators to Validations</li>\n<li>ApiResponse/ApiRequest don't composite PSR7, they extend</li>\n<li>simplify whole middlewares usage</li>\n<li>simplify ApiExtension</li>\n<li>added new Api2MiddlewaresExtension to easy use of middlewares</li>\n<li>simplify Transformers (from 2 interfaces to 1 interface)</li>\n<li>direct dependencies: contributte/psr7-http-message, contributte/middlewares, contributte/phpdoc</li>\n<li>tiny micro refactorings</li>\n<li>added huge amount of tests</li>\n</ul>"
+  },
+  "7397985": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v1.2.5",
+    "name": "v1.2.5",
+    "created_at": "2017-08-15T14:20:57Z",
+    "published_at": "2017-08-15T14:26:31Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v1.2.5",
+    "body": "<h2>Enhancements:</h2>\n<ul>\n<li>Added support for ContentType and DeliveryMode properties from producer config</li>\n<li>Improve StaticConsumer behavior when queue is empty</li>\n<li>DI extension is loaded using loadConfiguration method</li>\n</ul>\n<p>Thanks, <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/pavelkovar/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/pavelkovar\">@pavelkovar</a> !</p>"
   },
   "7410642": {
     "org": "contributte",
@@ -2559,6 +2749,16 @@
     "html_url": "https://github.com/apitte/fullstack/releases/tag/v0.2",
     "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"falkland_islands\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f1eb-1f1f0.png\">🇫🇰</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/apitte/fullstack/compare/v0.1...v0.2\"><tt>v0.1...v0.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>use apitte v0.2</li>\n</ul>"
   },
+  "9591032": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v1.2.9",
+    "name": "v1.2.9",
+    "created_at": "2018-02-08T13:07:40Z",
+    "published_at": "2018-02-08T13:08:23Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v1.2.9",
+    "body": "<ul>\n<li>Functionality and checks related to adding producers data to ProducersDataBag move to ProducersDataBag</li>\n</ul>"
+  },
   "9656091": {
     "org": "contributte",
     "repo": "thepay",
@@ -2689,6 +2889,16 @@
     "html_url": "https://github.com/contributte/anabelle/releases/tag/v1.2.0",
     "body": "<ul>\n<li>Added ability to use inline + block macros in block macros and inline macros in inline macros (both to max depth of 3)</li>\n</ul>"
   },
+  "9908673": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v1.3.0",
+    "name": "v1.3.0",
+    "created_at": "2018-03-02T09:47:31Z",
+    "published_at": "2018-03-02T09:48:52Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v1.3.0",
+    "body": "<ul>\n<li>Added option to specify qos (prefetchSize, prefetchCount)</li>\n</ul>"
+  },
   "10019262": {
     "org": "ninjify",
     "repo": "qa",
@@ -2778,6 +2988,36 @@
     "published_at": "2018-03-21T14:56:46Z",
     "html_url": "https://github.com/contributte/thepay/releases/tag/v4.0.1-rc0",
     "body": "<p>This release adds support for Helper\\Card::getCardInfo from the original library</p>"
+  },
+  "10209107": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v1.3.1",
+    "name": "v1.3.1",
+    "created_at": "2018-03-22T12:01:46Z",
+    "published_at": "2018-03-22T12:15:32Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v1.3.1",
+    "body": "<ul>\n<li>Added config options: heartbeat, timeout</li>\n</ul>"
+  },
+  "10258163": {
+    "org": "contributte",
+    "repo": "newrelic-tracy",
+    "tag": "v7.0.0",
+    "name": "7.0.0",
+    "created_at": "2018-03-26T11:25:55Z",
+    "published_at": "2018-03-26T12:26:14Z",
+    "html_url": "https://github.com/contributte/newrelic-tracy/releases/tag/v7.0.0",
+    "body": "<ul>\n<li>dropped Tracy 2.3 support</li>\n<li>dropped PHP 5.5 support</li>\n<li>added PHP 7.1 and 7.2 support</li>\n</ul>"
+  },
+  "10258557": {
+    "org": "contributte",
+    "repo": "newrelic",
+    "tag": "v7.0.0",
+    "name": "7.0.0",
+    "created_at": "2018-03-26T12:43:08Z",
+    "published_at": "2018-03-26T12:50:03Z",
+    "html_url": "https://github.com/contributte/newrelic/releases/tag/v7.0.0",
+    "body": "<ul>\n<li>dropped Nette 2.3 support</li>\n<li>dropped PHP 5.5 support</li>\n<li>Removed dependency on Nette\\Object</li>\n<li>added PHP 7.1 and 7.2 support</li>\n</ul>"
   },
   "10433537": {
     "org": "contributte",
@@ -2919,6 +3159,16 @@
     "html_url": "https://github.com/contributte/security/releases/tag/v0.2",
     "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"tada\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f389.png\">🎉</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/security/compare/v0.1...v0.2\"><tt>v0.1...v0.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>PHP 7.1</li>\n<li>new StaticAuthenticator (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"316179956\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/security/issues/2\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/security/issues/2/hovercard\" href=\"https://github.com/contributte/security/issues/2\">#2</a>) [thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/mabar/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/mabar\">@mabar</a>]</li>\n</ul>"
   },
+  "10795710": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v1.3.2",
+    "name": "v1.3.2",
+    "created_at": "2018-05-01T09:35:56Z",
+    "published_at": "2018-05-01T11:49:53Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v1.3.2",
+    "body": "<ul>\n<li>Allow Symfony 4 and bunny 0.3||0.4, thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/pavelkovar/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/pavelkovar\">@pavelkovar</a></li>\n</ul>"
+  },
   "10875370": {
     "org": "nettrine",
     "repo": "dbal",
@@ -3018,6 +3268,16 @@
     "published_at": "2018-05-21T13:22:46Z",
     "html_url": "https://github.com/contributte/invoice/releases/tag/v3.0.0",
     "body": ""
+  },
+  "11095840": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v2.0.0",
+    "name": "Fixed exchange message publishing",
+    "created_at": "2018-05-21T14:12:21Z",
+    "published_at": "2018-05-21T14:14:23Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v2.0.0",
+    "body": "<p>Fixed publishing of messages to exchanges.</p>\n<p>Exchanges now accept connection parameter.</p>\n<p>Breaking changes:</p>\n<ul>\n<li><code>Producer::publish()</code> method of  class now accepts third parameter <code>$routingKey</code>, which allows to propagate messages correctly through exchanges.</li>\n<li>Exchanges now publish messages in a different way. If you relied on the old (incorrect) way, you will probably have to adjust your code as the old version published one messages for each bound queue with a routing key that was defined in config for the queue binding (instead of message's routing key) basically rendering all exchanges as type fanout in better case, in worse case, if two or more queues shared a routing key, they would have received the message N times where N is the number of queues bound with the same key.</li>\n</ul>"
   },
   "11095947": {
     "org": "contributte",
@@ -3157,7 +3417,7 @@
     "created_at": "2018-06-13T13:17:36Z",
     "published_at": "2018-06-14T09:18:46Z",
     "html_url": "https://github.com/contributte/bootstrap/releases/tag/v0.3",
-    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"abcd\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f521.png\">🔡</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/bootstrap/compare/v0.2.1...v0.3\"><tt>v0.2.1...v0.3</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>pluggable configurator [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"237670546\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/bootstrap/issues/2\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/bootstrap/issues/2/hovercard\" href=\"https://github.com/contributte/bootstrap/issues/2\">#2</a>]</li>\n<li>ability to detect debug mode by file [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"325204280\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/bootstrap/issues/4\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/bootstrap/pull/4/hovercard\" href=\"https://github.com/contributte/bootstrap/pull/4\">#4</a>]</li>\n<li>PHP 5.6 -&gt; PHP 7.1 [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"331500509\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/bootstrap/issues/5\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/bootstrap/issues/5/hovercard\" href=\"https://github.com/contributte/bootstrap/issues/5\">#5</a>] [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"331516105\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/bootstrap/issues/6\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/bootstrap/pull/6/hovercard\" href=\"https://github.com/contributte/bootstrap/pull/6\">#6</a>]</li>\n</ul>\n<p>BC break:</p>\n<p>You have to enable ENV parsing explicit.</p>\n<p>Before:</p>\n<div class=\"highlight highlight-text-html-php\"><pre><span class=\"pl-s1\"><span class=\"pl-smi\">$configurator</span> <span class=\"pl-k\">=</span> <span class=\"pl-k\">new</span> <span class=\"pl-c1\">ExtraConfigurator</span>();</span></pre></div>\n<p>After</p>\n<div class=\"highlight highlight-text-html-php\"><pre><span class=\"pl-s1\"><span class=\"pl-smi\">$configurator</span> <span class=\"pl-k\">=</span> <span class=\"pl-k\">new</span> <span class=\"pl-c1\">ExtraConfigurator</span>();</span>\n<span class=\"pl-s1\"><span class=\"pl-smi\">$configurator</span><span class=\"pl-k\">-&gt;</span>setEnvDebugMode();</span></pre></div>"
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"abcd\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f521.png\">🔡</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/bootstrap/compare/v0.2.1...v0.3\"><tt>v0.2.1...v0.3</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>pluggable configurator [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"237670546\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/bootstrap/issues/2\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/bootstrap/issues/2/hovercard\" href=\"https://github.com/contributte/bootstrap/issues/2\">#2</a>]</li>\n<li>ability to detect debug mode by file [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"325204280\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/bootstrap/issues/4\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/bootstrap/pull/4/hovercard\" href=\"https://github.com/contributte/bootstrap/pull/4\">#4</a>]</li>\n<li>PHP 5.6 -&gt; PHP 7.1 [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"331500509\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/bootstrap/issues/5\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/bootstrap/issues/5/hovercard\" href=\"https://github.com/contributte/bootstrap/issues/5\">#5</a>] [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"331516105\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/bootstrap/issues/6\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/bootstrap/pull/6/hovercard\" href=\"https://github.com/contributte/bootstrap/pull/6\">#6</a>]</li>\n</ul>\n<p>BC break:</p>\n<p>You have to enable ENV parsing explicit.</p>\n<p>Before:</p>\n<div class=\"highlight highlight-text-html-php\"><pre><span class=\"pl-s1\"><span class=\"pl-c1\">$</span>configurator</span> = <span class=\"pl-k\">new</span> <span class=\"pl-v\">ExtraConfigurator</span>();</pre></div>\n<p>After</p>\n<div class=\"highlight highlight-text-html-php\"><pre><span class=\"pl-s1\"><span class=\"pl-c1\">$</span>configurator</span> = <span class=\"pl-k\">new</span> <span class=\"pl-v\">ExtraConfigurator</span>();\n<span class=\"pl-s1\"><span class=\"pl-c1\">$</span>configurator</span>-&gt;<span class=\"pl-en\">setEnvDebugMode</span>();</pre></div>"
   },
   "11495804": {
     "org": "nettrine",
@@ -3469,6 +3729,16 @@
     "html_url": "https://github.com/contributte/console-extra/releases/tag/v0.1",
     "body": "<p>First bump! <g-emoji class=\"g-emoji\" alias=\"fist_oncoming\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png\">👊</g-emoji></p>"
   },
+  "11869985": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v2.1.0",
+    "name": "v2.1.0",
+    "created_at": "2018-07-09T12:05:23Z",
+    "published_at": "2018-07-11T06:26:10Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v2.1.0",
+    "body": "<ul>\n<li>New option for disabling queue/exchange auto creation, thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/dada-amater/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dada-amater\">@dada-amater</a></li>\n<li>New option for enabling persistent connections, thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/dada-amater/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dada-amater\">@dada-amater</a></li>\n</ul>"
+  },
   "11890586": {
     "org": "contributte",
     "repo": "middlewares",
@@ -3569,6 +3839,16 @@
     "html_url": "https://github.com/contributte/tracy/releases/tag/v0.3.1",
     "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"apple\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f34e.png\">🍎</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/tracy/compare/v0.3...v0.3.1\"><tt>v0.3...v0.3.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Fixed invalid version constraint</li>\n</ul>"
   },
+  "12185557": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v3.0.0",
+    "name": "v3.0.0",
+    "created_at": "2018-07-31T14:25:10Z",
+    "published_at": "2018-07-31T14:27:34Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v3.0.0",
+    "body": "<p>Added:</p>\n<ul>\n<li>CLI command to declare queues/exchanges by config file, thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/31vi5/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/31vi5\">@31vi5</a></li>\n</ul>\n<p>BC Breaks:</p>\n<ul>\n<li>queues and exchanges are no longer declared automatically (default parameter <code>autoCreate</code> is <code>false</code> now)</li>\n</ul>"
+  },
   "12278632": {
     "org": "contributte",
     "repo": "guzzlette",
@@ -3658,6 +3938,26 @@
     "published_at": "2018-08-16T14:46:41Z",
     "html_url": "https://github.com/contributte/cache/releases/tag/v0.3",
     "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"robot\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f916.png\">🤖</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/cache/compare/v0.2...v0.3\"><tt>v0.2...v0.3</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>MemoryAdapterStorage</li>\n</ul>"
+  },
+  "12453780": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v1.0.0",
+    "name": "v1.0.0",
+    "created_at": "2018-08-17T12:42:51Z",
+    "published_at": "2018-08-17T12:45:25Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v1.0.0",
+    "body": "<p>First release!</p>"
+  },
+  "12454786": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v1.0.1",
+    "name": "v1.0.1",
+    "created_at": "2018-08-17T13:40:36Z",
+    "published_at": "2018-08-17T13:41:19Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v1.0.1",
+    "body": "<ul>\n<li>fixed <code>composer.json</code></li>\n</ul>"
   },
   "12455259": {
     "org": "contributte",
@@ -3839,6 +4139,16 @@
     "html_url": "https://github.com/contributte/monolog/releases/tag/v0.1.0",
     "body": "<p>First bump! <g-emoji class=\"g-emoji\" alias=\"fist_oncoming\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png\">👊</g-emoji></p>"
   },
+  "13608322": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v1.0.2",
+    "name": "v1.0.2",
+    "created_at": "2018-10-23T13:58:57Z",
+    "published_at": "2018-10-23T13:59:36Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v1.0.2",
+    "body": "<ul>\n<li>Method buildResponse of class ResponseDataBuilder made protected</li>\n</ul>"
+  },
   "13793849": {
     "org": "nettrine",
     "repo": "orm",
@@ -3929,6 +4239,56 @@
     "html_url": "https://github.com/contributte/deployer-extension/releases/tag/v3.0.1",
     "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"hamburger\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f354.png\">🍔</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/deployer-extension/compare/v3.0.0...v3.0.1\"><tt>v3.0.0...v3.0.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Fixed all namespace usages</li>\n</ul>"
   },
+  "13993086": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v1.0.3",
+    "name": "v1.0.3",
+    "created_at": "2018-11-14T09:11:04Z",
+    "published_at": "2018-11-14T09:13:26Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v1.0.3",
+    "body": "<ul>\n<li>ErrorResponse has now optional third constructor argument</li>\n</ul>"
+  },
+  "14022117": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v1.0.4",
+    "name": "v1.0.4",
+    "created_at": "2018-11-15T14:10:46Z",
+    "published_at": "2018-11-15T14:13:44Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v1.0.4",
+    "body": "<ul>\n<li>RequestCollectionFactory: make method createRequestFromRequestData public</li>\n</ul>"
+  },
+  "14032151": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v1.0.5",
+    "name": "v1.0.5",
+    "created_at": "2018-11-15T21:36:25Z",
+    "published_at": "2018-11-15T21:39:51Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v1.0.5",
+    "body": "<ul>\n<li>CommandProvider made not final</li>\n</ul>"
+  },
+  "14058176": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v1.0.6",
+    "name": "v1.0.6",
+    "created_at": "2018-11-17T11:07:29Z",
+    "published_at": "2018-11-17T11:14:29Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v1.0.6",
+    "body": "<ul>\n<li>JsonRPCExtension: do not necessarily register RedisPool</li>\n</ul>"
+  },
+  "14061178": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v1.0.7",
+    "name": "v1.0.7",
+    "created_at": "2018-11-17T21:29:43Z",
+    "published_at": "2018-11-17T21:32:36Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v1.0.7",
+    "body": "<ul>\n<li>JsonRPCExtension fix</li>\n</ul>"
+  },
   "14091157": {
     "org": "ninjify",
     "repo": "nunjuck",
@@ -3948,6 +4308,16 @@
     "published_at": "2018-11-20T11:32:09Z",
     "html_url": "https://github.com/contributte/anabelle/releases/tag/v1.4.0",
     "body": "<ul>\n<li>Added \"## / h2\" option to index.md</li>\n</ul>"
+  },
+  "14256793": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v1.0.8",
+    "name": "v1.0.8",
+    "created_at": "2018-11-29T13:50:41Z",
+    "published_at": "2018-11-29T13:52:11Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v1.0.8",
+    "body": "<ul>\n<li>SchemaProvider: better exception</li>\n</ul>"
   },
   "14558561": {
     "org": "contributte",
@@ -4229,6 +4599,26 @@
     "html_url": "https://github.com/contributte/nextras-orm-generator/releases/tag/0.2",
     "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"hourglass\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/231b.png\">⌛️</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/nextras-orm-generator/compare/0.1...0.2\"><tt>0.1...0.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>change name to contributte/nextras-orm-generator</li>\n<li>support only for PHP7.1+</li>\n<li>generate getEntityClassNames method on repository</li>\n<li>singularization (converting plural table name to singular class names)</li>\n<li>use Nextras\\Dbal\\Utils\\DateTimeImmutable for dates</li>\n<li>option to generate column constants</li>\n<li>model generator</li>\n<li>compatibility with php-generator 3+</li>\n<li>add config for (not) generating relations</li>\n<li>set primary key on generated entities</li>\n</ul>"
   },
+  "16333495": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v1.0.9",
+    "name": "v1.0.9",
+    "created_at": "2019-03-25T18:19:19Z",
+    "published_at": "2019-03-25T18:25:13Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v1.0.9",
+    "body": "<p>Added:</p>\n<ul>\n<li><code>ResponseDataBuilder::buildErrorResponse()</code> for general usage</li>\n</ul>"
+  },
+  "16336975": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v1.0.10",
+    "name": "v1.0.10",
+    "created_at": "2019-03-25T20:48:32Z",
+    "published_at": "2019-03-25T20:56:08Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v1.0.10",
+    "body": "<ul>\n<li>IResponseDataBuilder interface fixes</li>\n</ul>"
+  },
   "16405225": {
     "org": "contributte",
     "repo": "translation",
@@ -4318,6 +4708,36 @@
     "published_at": "2019-04-07T10:42:11Z",
     "html_url": "https://github.com/contributte/datagrid-nette-database-data-source/releases/tag/v2.0.0",
     "body": "<ul>\n<li>Added phpstan, code sniffer, updated to datagrid v6</li>\n</ul>"
+  },
+  "16622764": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v1.1.0",
+    "name": "v1.1.0",
+    "created_at": "2019-04-08T14:27:22Z",
+    "published_at": "2019-04-08T14:29:08Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v1.1.0",
+    "body": "<ul>\n<li>Added newest phpstan, code sniffer</li>\n</ul>"
+  },
+  "16772196": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v1.2.0",
+    "name": "v1.2.0",
+    "created_at": "2019-04-15T16:24:19Z",
+    "published_at": "2019-04-15T16:27:57Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v1.2.0",
+    "body": "<ul>\n<li>Added type hint <code>ICommandDTO::fromValidParams(\\stdClass $parameters)</code></li>\n</ul>"
+  },
+  "16843254": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v3.2.0",
+    "name": "v3.2.0",
+    "created_at": "2019-04-18T08:26:44Z",
+    "published_at": "2019-04-18T08:28:24Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v3.2.0",
+    "body": "<ul>\n<li>Added possibility to reject message and stop consuming, thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/her-ur/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/her-ur\">@her-ur</a></li>\n</ul>"
   },
   "16928415": {
     "org": "contributte",
@@ -4479,6 +4899,26 @@
     "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.0.0",
     "body": "<p><strong>Bump V6!</strong></p>\n<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user-images.githubusercontent.com/1488874/58368079-26cd1e00-7ee8-11e9-833e-34259484bda3.JPG\"><img src=\"https://user-images.githubusercontent.com/1488874/58368079-26cd1e00-7ee8-11e9-833e-34259484bda3.JPG\" alt=\"IMG_2014\" style=\"max-width:100%;\"></a></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v5.7.2...v6.0.0\"><tt>v5.7.2...v6.0.0</tt></a></p>\n<p><strong>Features</strong></p>\n<ul>\n<li>Using Nette v3</li>\n<li>Using PHP 7.2 including strinct types</li>\n</ul>\n<p><strong>BC Breaks:</strong></p>\n<ul>\n<li>Changed method name: <code>Ublaboo\\DataGrid\\Column\\Column::addAttributes() -&gt; ::addCellAttributes()</code>:\n<ul>\n<li><code>Ublaboo\\DataGrid\\Column\\Action::addAttributes()</code> -&gt; <code>::addCellAttributes()</code></li>\n<li><code>Ublaboo\\DataGrid\\Column\\ColumnDateTime::addAttributes()</code> -&gt; <code>::addCellAttributes()</code></li>\n<li><code>Ublaboo\\DataGrid\\Column\\ColumnLink::addAttributes()</code> -&gt; <code>::addCellAttributes()</code></li>\n<li><code>Ublaboo\\DataGrid\\Column\\ColumnNumber::addAttributes()</code> -&gt; <code>::addCellAttributes()</code></li>\n<li><code>Ublaboo\\DataGrid\\Column\\ColumnStatus::addAttributes()</code> -&gt; <code>::addCellAttributes()</code></li>\n<li><code>Ublaboo\\DataGrid\\Column\\ColumnText::addAttributes()</code> -&gt; <code>::addCellAttributes()</code></li>\n<li><code>Ublaboo\\DataGrid\\Column\\MultiAction::addAttributes()</code> -&gt; <code>::addCellAttributes()</code></li>\n</ul>\n</li>\n<li>Changed method name and method parameters:\n<ul>\n<li><code>Ublaboo\\DataGrid\\Column\\Action::setConfirm(some mixed thing)</code> -&gt; <code>::setConfirmation(IConfirmation $confirmation)</code>\n<ul>\n<li>There are 2 IConfirmation implementations: <code>StringConfirmation</code> and <code>CallbackConfirmation</code></li>\n</ul>\n</li>\n</ul>\n</li>\n<li>Names of template variables changed from snake_case to camelCase:\n<ul>\n<li><code>$columns_visibility</code> -&gt; <code>$columnsVisibility</code></li>\n<li><code>$original_template</code> -&gt; <code>$originalTemplate</code></li>\n<li>etc ...</li>\n</ul>\n</li>\n<li>Changed method parameter:\n<ul>\n<li><code>Ublaboo\\DataGrid\\Column\\Column::setSort(array $sort)</code> -&gt; <code>::setSort(string $sort)</code> (Before: [<code>'status'</code> =&gt; <code>'ASC'</code>], after: <code>'ASC'</code>)</li>\n</ul>\n</li>\n<li>Dropped coffescritpt/sass assets -&gt; using only JS/CSS assets now</li>\n</ul>"
   },
+  "17595536": {
+    "org": "contributte",
+    "repo": "newrelic-tracy",
+    "tag": "v7.1.0",
+    "name": "7.1.0",
+    "created_at": "2019-05-26T19:42:05Z",
+    "published_at": "2019-05-26T19:44:55Z",
+    "html_url": "https://github.com/contributte/newrelic-tracy/releases/tag/v7.1.0",
+    "body": "<ul>\n<li>added Tracy 2.5 support</li>\n</ul>"
+  },
+  "17595675": {
+    "org": "contributte",
+    "repo": "newrelic-tracy",
+    "tag": "v8.0.0",
+    "name": "8.0.0",
+    "created_at": "2019-05-26T20:09:01Z",
+    "published_at": "2019-05-26T20:09:53Z",
+    "html_url": "https://github.com/contributte/newrelic-tracy/releases/tag/v8.0.0",
+    "body": "<ul>\n<li>dropped PHP 5.6 and 7.0 support</li>\n<li>added PHP 7.3 support</li>\n<li>added Tracy 2.6 support</li>\n</ul>"
+  },
   "17605474": {
     "org": "contributte",
     "repo": "datagrid",
@@ -4578,6 +5018,16 @@
     "published_at": "2019-06-05T06:36:08Z",
     "html_url": "https://github.com/contributte/reCAPTCHA/releases/tag/3.2.0",
     "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"point_left\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f448.png\">👈</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/reCAPTCHA/compare/3.1.0...3.2.0\"><tt>3.1.0...3.2.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Nette 3.0 [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"428238717\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/reCAPTCHA/issues/27\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/reCAPTCHA/pull/27/hovercard\" href=\"https://github.com/contributte/reCAPTCHA/pull/27\">#27</a>] (thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/PavelJurasek/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/PavelJurasek\">@PavelJurasek</a>)</li>\n<li>Fix validation message [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"421554486\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/reCAPTCHA/issues/26\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/reCAPTCHA/pull/26/hovercard\" href=\"https://github.com/contributte/reCAPTCHA/pull/26\">#26</a>]</li>\n</ul>"
+  },
+  "17912577": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v3.3.0",
+    "name": "v3.3.0",
+    "created_at": "2019-06-11T12:44:40Z",
+    "published_at": "2019-06-11T12:46:48Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v3.3.0",
+    "body": "<p>Changes:</p>\n<ul>\n<li>Changed <code>self::COMMAND_NAME</code> in consule commands to <code>self::$defaultName</code> (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/michalhlavka/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/michalhlavka\">@michalhlavka</a>)</li>\n</ul>"
   },
   "17956301": {
     "org": "contributte",
@@ -4737,7 +5187,7 @@
     "created_at": "2019-06-17T19:30:31Z",
     "published_at": "2019-06-17T22:17:46Z",
     "html_url": "https://github.com/contributte/application/releases/tag/v0.4.0",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/application/compare/v0.3.2...v0.4.0\"><tt>v0.3.2...v0.4.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/application/commit/3e93c7862c0356753b629306a17ed057e7283089/hovercard\" href=\"https://github.com/contributte/application/commit/3e93c7862c0356753b629306a17ed057e7283089\"><tt>3e93c78</tt></a></li>\n<li>Removed LinkGenerator <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/application/commit/a61f9a53f161d116960f671a52b0eee91d079afc/hovercard\" href=\"https://github.com/contributte/application/commit/a61f9a53f161d116960f671a52b0eee91d079afc\"><tt>a61f9a5</tt></a></li>\n<li>StringResponse <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/application/commit/8b2288ada856f5d1bb3a2c2563a6ed759803e61e/hovercard\" href=\"https://github.com/contributte/application/commit/8b2288ada856f5d1bb3a2c2563a6ed759803e61e\"><tt>8b2288a</tt></a></li>\n</ul>"
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"taco\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f32e.png\">🌮</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/application/compare/v0.3.2...v0.4.0\"><tt>v0.3.2...v0.4.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/application/commit/3e93c7862c0356753b629306a17ed057e7283089/hovercard\" href=\"https://github.com/contributte/application/commit/3e93c7862c0356753b629306a17ed057e7283089\"><tt>3e93c78</tt></a></li>\n<li>Removed LinkGenerator <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/application/commit/a61f9a53f161d116960f671a52b0eee91d079afc/hovercard\" href=\"https://github.com/contributte/application/commit/a61f9a53f161d116960f671a52b0eee91d079afc\"><tt>a61f9a5</tt></a></li>\n<li>StringResponse <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/application/commit/8b2288ada856f5d1bb3a2c2563a6ed759803e61e/hovercard\" href=\"https://github.com/contributte/application/commit/8b2288ada856f5d1bb3a2c2563a6ed759803e61e\"><tt>8b2288a</tt></a></li>\n</ul>"
   },
   "18048908": {
     "org": "contributte",
@@ -4787,7 +5237,7 @@
     "created_at": "2019-06-17T17:59:19Z",
     "published_at": "2019-06-17T22:27:57Z",
     "html_url": "https://github.com/contributte/mailing/releases/tag/v0.3.0",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/mailing/compare/v0.2...v0.3.0\"><tt>v0.2...v0.3.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/mailing/commit/0e446f2f9dbf1593638801c45966ef3419e330e5/hovercard\" href=\"https://github.com/contributte/mailing/commit/0e446f2f9dbf1593638801c45966ef3419e330e5\"><tt>0e446f2</tt></a></li>\n</ul>"
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"joystick\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f579.png\">🕹️</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/mailing/compare/v0.2...v0.3.0\"><tt>v0.2...v0.3.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/mailing/commit/0e446f2f9dbf1593638801c45966ef3419e330e5/hovercard\" href=\"https://github.com/contributte/mailing/commit/0e446f2f9dbf1593638801c45966ef3419e330e5\"><tt>0e446f2</tt></a></li>\n</ul>"
   },
   "18049098": {
     "org": "contributte",
@@ -4927,7 +5377,7 @@
     "created_at": "2019-06-28T21:07:34Z",
     "published_at": "2019-06-28T21:26:22Z",
     "html_url": "https://github.com/contributte/elasticsearch/releases/tag/v0.2.0",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/elasticsearch/compare/v0.1...v0.2.0\"><tt>v0.1...v0.2.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/elasticsearch/commit/02bb8262457dbcbe02c673f0942ba16c392a7222/hovercard\" href=\"https://github.com/contributte/elasticsearch/commit/02bb8262457dbcbe02c673f0942ba16c392a7222\"><tt>02bb826</tt></a> and <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/elasticsearch/commit/ac3dbce107d44e1845f42ba1cc2fc3ca032ba46b/hovercard\" href=\"https://github.com/contributte/elasticsearch/commit/ac3dbce107d44e1845f42ba1cc2fc3ca032ba46b\"><tt>ac3dbce</tt></a></li>\n<li>Requires elasticsearch ^6.5, allows ^7.0 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/elasticsearch/commit/59e61c9e4e61a69c335ce5b80d70ee596d3792b1/hovercard\" href=\"https://github.com/contributte/elasticsearch/commit/59e61c9e4e61a69c335ce5b80d70ee596d3792b1\"><tt>59e61c9</tt></a></li>\n</ul>"
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"lobster\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f99e.png\">🦞</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/elasticsearch/compare/v0.1...v0.2.0\"><tt>v0.1...v0.2.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/elasticsearch/commit/02bb8262457dbcbe02c673f0942ba16c392a7222/hovercard\" href=\"https://github.com/contributte/elasticsearch/commit/02bb8262457dbcbe02c673f0942ba16c392a7222\"><tt>02bb826</tt></a> and <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/elasticsearch/commit/ac3dbce107d44e1845f42ba1cc2fc3ca032ba46b/hovercard\" href=\"https://github.com/contributte/elasticsearch/commit/ac3dbce107d44e1845f42ba1cc2fc3ca032ba46b\"><tt>ac3dbce</tt></a></li>\n<li>Requires elasticsearch ^6.5, allows ^7.0 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/elasticsearch/commit/59e61c9e4e61a69c335ce5b80d70ee596d3792b1/hovercard\" href=\"https://github.com/contributte/elasticsearch/commit/59e61c9e4e61a69c335ce5b80d70ee596d3792b1\"><tt>59e61c9</tt></a></li>\n</ul>"
   },
   "18304696": {
     "org": "contributte",
@@ -4957,7 +5407,7 @@
     "created_at": "2019-06-30T20:30:42Z",
     "published_at": "2019-07-01T07:29:49Z",
     "html_url": "https://github.com/contributte/scheduler/releases/tag/v0.5.0",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/scheduler/compare/v0.4.0...v0.5.0\"><tt>v0.4.0...v0.5.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/scheduler/commit/11cc942d7cd7b0bc1bae28096013229888572f9b/hovercard\" href=\"https://github.com/contributte/scheduler/commit/11cc942d7cd7b0bc1bae28096013229888572f9b\"><tt>11cc942</tt></a></li>\n<li>Fixed callbacks defined as arrays <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/scheduler/commit/84c58891e5fc99c10b83726772ef39bdd95527f4/hovercard\" href=\"https://github.com/contributte/scheduler/commit/84c58891e5fc99c10b83726772ef39bdd95527f4\"><tt>84c5889</tt></a></li>\n<li>support command lazy-loading <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/scheduler/commit/681b4f94858d523ab4ec0afca7e3ede9a150a699/hovercard\" href=\"https://github.com/contributte/scheduler/commit/681b4f94858d523ab4ec0afca7e3ede9a150a699\"><tt>681b4f9</tt></a></li>\n</ul>"
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"jigsaw\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f9e9.png\">🧩</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/scheduler/compare/v0.4.0...v0.5.0\"><tt>v0.4.0...v0.5.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/scheduler/commit/11cc942d7cd7b0bc1bae28096013229888572f9b/hovercard\" href=\"https://github.com/contributte/scheduler/commit/11cc942d7cd7b0bc1bae28096013229888572f9b\"><tt>11cc942</tt></a></li>\n<li>Fixed callbacks defined as arrays <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/scheduler/commit/84c58891e5fc99c10b83726772ef39bdd95527f4/hovercard\" href=\"https://github.com/contributte/scheduler/commit/84c58891e5fc99c10b83726772ef39bdd95527f4\"><tt>84c5889</tt></a></li>\n<li>support command lazy-loading <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/scheduler/commit/681b4f94858d523ab4ec0afca7e3ede9a150a699/hovercard\" href=\"https://github.com/contributte/scheduler/commit/681b4f94858d523ab4ec0afca7e3ede9a150a699\"><tt>681b4f9</tt></a></li>\n</ul>"
   },
   "18323823": {
     "org": "contributte",
@@ -5127,7 +5577,7 @@
     "created_at": "2019-08-06T13:58:03Z",
     "published_at": "2019-08-06T14:08:26Z",
     "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.4.0",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/dbal/compare/v0.3...v0.4.0\"><tt>v0.3...v0.4.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>DbalExtension\n<ul>\n<li>all connection options can be specified <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/201e7b1da6b5224ce11a7a3d18d0b0de3afe2112/hovercard\" href=\"https://github.com/nettrine/dbal/commit/201e7b1da6b5224ce11a7a3d18d0b0de3afe2112\"><tt>201e7b1</tt></a></li>\n<li>fixed numeric service names in nette/di 2.4.? <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/c0129fdd48374101fd600d84095907da6205b0e1/hovercard\" href=\"https://github.com/nettrine/dbal/commit/c0129fdd48374101fd600d84095907da6205b0e1\"><tt>c0129fd</tt></a></li>\n</ul>\n</li>\n<li>Tracy\n<ul>\n<li>display query source files <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/d29fe3cb50296dce3ef1b5b2c2e5263850d597e0/hovercard\" href=\"https://github.com/nettrine/dbal/commit/d29fe3cb50296dce3ef1b5b2c2e5263850d597e0\"><tt>d29fe3c</tt></a></li>\n</ul>\n</li>\n<li>Added PSR logger <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/7533a375aed23d546f191080c8c90e41a66652d5/hovercard\" href=\"https://github.com/nettrine/dbal/commit/7533a375aed23d546f191080c8c90e41a66652d5\"><tt>7533a37</tt></a></li>\n</ul>"
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"a\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f170.png\">🅰️</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/dbal/compare/v0.3...v0.4.0\"><tt>v0.3...v0.4.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>DbalExtension\n<ul>\n<li>all connection options can be specified <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/201e7b1da6b5224ce11a7a3d18d0b0de3afe2112/hovercard\" href=\"https://github.com/nettrine/dbal/commit/201e7b1da6b5224ce11a7a3d18d0b0de3afe2112\"><tt>201e7b1</tt></a></li>\n<li>fixed numeric service names in nette/di 2.4.? <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/c0129fdd48374101fd600d84095907da6205b0e1/hovercard\" href=\"https://github.com/nettrine/dbal/commit/c0129fdd48374101fd600d84095907da6205b0e1\"><tt>c0129fd</tt></a></li>\n</ul>\n</li>\n<li>Tracy\n<ul>\n<li>display query source files <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/d29fe3cb50296dce3ef1b5b2c2e5263850d597e0/hovercard\" href=\"https://github.com/nettrine/dbal/commit/d29fe3cb50296dce3ef1b5b2c2e5263850d597e0\"><tt>d29fe3c</tt></a></li>\n</ul>\n</li>\n<li>Added PSR logger <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/7533a375aed23d546f191080c8c90e41a66652d5/hovercard\" href=\"https://github.com/nettrine/dbal/commit/7533a375aed23d546f191080c8c90e41a66652d5\"><tt>7533a37</tt></a></li>\n</ul>"
   },
   "19108699": {
     "org": "nettrine",
@@ -5137,7 +5587,7 @@
     "created_at": "2019-08-06T13:58:48Z",
     "published_at": "2019-08-06T14:09:56Z",
     "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.5.0",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/dbal/compare/v0.4.0...v0.5.0\"><tt>v0.4.0...v0.5.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/c3326ebbbb2d0576af626e8a63addf87a3bbe569/hovercard\" href=\"https://github.com/nettrine/dbal/commit/c3326ebbbb2d0576af626e8a63addf87a3bbe569\"><tt>c3326eb</tt></a></li>\n</ul>"
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"last_quarter_moon_with_face\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f31c.png\">🌜</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/dbal/compare/v0.4.0...v0.5.0\"><tt>v0.4.0...v0.5.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/c3326ebbbb2d0576af626e8a63addf87a3bbe569/hovercard\" href=\"https://github.com/nettrine/dbal/commit/c3326ebbbb2d0576af626e8a63addf87a3bbe569\"><tt>c3326eb</tt></a></li>\n</ul>"
   },
   "19109165": {
     "org": "nettrine",
@@ -5157,7 +5607,7 @@
     "created_at": "2019-07-13T14:12:39Z",
     "published_at": "2019-08-06T14:27:38Z",
     "html_url": "https://github.com/nettrine/annotations/releases/tag/v0.5.0",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/annotations/compare/v0.4...v0.5.0\"><tt>v0.4...v0.5.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/annotations/commit/2e35077e801b7210706da5eaa3de283b642e9c08/hovercard\" href=\"https://github.com/nettrine/annotations/commit/2e35077e801b7210706da5eaa3de283b642e9c08\"><tt>2e35077</tt></a></li>\n</ul>"
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"pager\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4df.png\">📟</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/annotations/compare/v0.4...v0.5.0\"><tt>v0.4...v0.5.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/annotations/commit/2e35077e801b7210706da5eaa3de283b642e9c08/hovercard\" href=\"https://github.com/nettrine/annotations/commit/2e35077e801b7210706da5eaa3de283b642e9c08\"><tt>2e35077</tt></a></li>\n</ul>"
   },
   "19109386": {
     "org": "nettrine",
@@ -5177,7 +5627,7 @@
     "created_at": "2019-08-06T14:39:00Z",
     "published_at": "2019-08-06T14:40:35Z",
     "html_url": "https://github.com/nettrine/orm/releases/tag/v0.4.0",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/orm/compare/v0.3...v0.4.0\"><tt>v0.3...v0.4.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/89a1bd1be7998042693475e6a667ac09e5f76215/hovercard\" href=\"https://github.com/nettrine/orm/commit/89a1bd1be7998042693475e6a667ac09e5f76215\"><tt>89a1bd1</tt></a></li>\n</ul>"
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"koala\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f428.png\">🐨</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/orm/compare/v0.3...v0.4.0\"><tt>v0.3...v0.4.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/89a1bd1be7998042693475e6a667ac09e5f76215/hovercard\" href=\"https://github.com/nettrine/orm/commit/89a1bd1be7998042693475e6a667ac09e5f76215\"><tt>89a1bd1</tt></a></li>\n</ul>"
   },
   "19162396": {
     "org": "contributte",
@@ -5259,6 +5709,26 @@
     "html_url": "https://github.com/contributte/redis/releases/tag/v0.1.1",
     "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/redis/compare/v0.1...v0.1.1\"><tt>v0.1...v0.1.1</tt></a> (not working, github don't like tagging specific commits, sry)</p>\n<p>Changes:</p>\n<ul>\n<li>Fixed session handler <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/redis/commit/007ac14cc226e9c4a76cc985e70cf200f1ae6680/hovercard\" href=\"https://github.com/contributte/redis/commit/007ac14cc226e9c4a76cc985e70cf200f1ae6680\"><tt>007ac14</tt></a></li>\n<li>Fixed complex configuration rendering in Tracy <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/redis/commit/3ea6da90109f433b25f61e229a1ad5766c0090e2/hovercard\" href=\"https://github.com/contributte/redis/commit/3ea6da90109f433b25f61e229a1ad5766c0090e2\"><tt>3ea6da9</tt></a></li>\n<li>Tracy 2.6 allowed <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/redis/commit/f4815a04396e9239778ebed08ac4e9d6952d62f3/hovercard\" href=\"https://github.com/contributte/redis/commit/f4815a04396e9239778ebed08ac4e9d6952d62f3\"><tt>f4815a0</tt></a></li>\n</ul>"
   },
+  "19807570": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v4.0.0",
+    "name": "v4.0.0",
+    "created_at": "2019-09-06T12:21:02Z",
+    "published_at": "2019-09-06T12:21:40Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v4.0.0",
+    "body": "<p>phpstan, nette 3.0 support</p>"
+  },
+  "19846605": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v2.0.0",
+    "name": "v2.0.0",
+    "created_at": "2019-09-09T10:31:14Z",
+    "published_at": "2019-09-09T10:33:10Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v2.0.0",
+    "body": "<ul>\n<li>Nette 3.0</li>\n</ul>"
+  },
   "19846963": {
     "org": "contributte",
     "repo": "anabelle",
@@ -5327,7 +5797,7 @@
     "created_at": "2019-09-09T18:31:33Z",
     "published_at": "2019-09-12T19:20:37Z",
     "html_url": "https://github.com/contributte/mailing/releases/tag/v0.3.1",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/mailing/compare/v0.3.0...v0.3.1\"><tt>v0.3.0...v0.3.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow nette/mail 3.1 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/mailing/commit/dee59f7504820d53bbd04c5f6b3310976bc19635/hovercard\" href=\"https://github.com/contributte/mailing/commit/dee59f7504820d53bbd04c5f6b3310976bc19635\"><tt>dee59f7</tt></a></li>\n</ul>"
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"kaaba\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f54b.png\">🕋</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/mailing/compare/v0.3.0...v0.3.1\"><tt>v0.3.0...v0.3.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow nette/mail 3.1 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/mailing/commit/dee59f7504820d53bbd04c5f6b3310976bc19635/hovercard\" href=\"https://github.com/contributte/mailing/commit/dee59f7504820d53bbd04c5f6b3310976bc19635\"><tt>dee59f7</tt></a></li>\n</ul>"
   },
   "19954262": {
     "org": "ninjify",
@@ -5337,7 +5807,7 @@
     "created_at": "2019-09-12T19:29:49Z",
     "published_at": "2019-09-12T19:31:55Z",
     "html_url": "https://github.com/ninjify/qa/releases/tag/v0.10",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/ninjify/qa/compare/v0.9...v0.10\"><tt>v0.9...v0.10</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>ninjify/coding-standard v0.9 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/ninjify/qa/commit/a2d521958a9bb38d894f94cbd8e3718cf6e02971/hovercard\" href=\"https://github.com/ninjify/qa/commit/a2d521958a9bb38d894f94cbd8e3718cf6e02971\"><tt>a2d5219</tt></a></li>\n</ul>"
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"jack_o_lantern\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f383.png\">🎃</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/ninjify/qa/compare/v0.9...v0.10\"><tt>v0.9...v0.10</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>ninjify/coding-standard v0.9 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/ninjify/qa/commit/a2d521958a9bb38d894f94cbd8e3718cf6e02971/hovercard\" href=\"https://github.com/ninjify/qa/commit/a2d521958a9bb38d894f94cbd8e3718cf6e02971\"><tt>a2d5219</tt></a></li>\n</ul>"
   },
   "20060827": {
     "org": "nettrine",
@@ -5368,6 +5838,26 @@
     "published_at": "2019-09-19T20:34:59Z",
     "html_url": "https://github.com/contributte/monolog/releases/tag/v0.4.0",
     "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/monolog/compare/v0.3.0...v0.4.0\"><tt>v0.3.0...v0.4.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Monolog 2.0 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/monolog/commit/c5a41c05982f0ea8edfd0f14b02d281930071015/hovercard\" href=\"https://github.com/contributte/monolog/commit/c5a41c05982f0ea8edfd0f14b02d281930071015\"><tt>c5a41c0</tt></a></li>\n<li>Flexible services syntax <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/monolog/commit/7790027c25e1aafc9551ad0959b3cfcaca9c9d1f/hovercard\" href=\"https://github.com/contributte/monolog/commit/7790027c25e1aafc9551ad0959b3cfcaca9c9d1f\"><tt>7790027</tt></a></li>\n</ul>"
+  },
+  "20140078": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v3.0.0",
+    "name": "v3.0.0",
+    "created_at": "2019-09-20T14:02:35Z",
+    "published_at": "2019-09-20T14:04:14Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v3.0.0",
+    "body": "<ul>\n<li>league/json-reference + json-guard replaced with justinrainbow/json-schema</li>\n</ul>"
+  },
+  "20140290": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v3.0.1",
+    "name": "v3.0.1",
+    "created_at": "2019-09-20T14:07:37Z",
+    "published_at": "2019-09-20T14:10:57Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v3.0.1",
+    "body": ""
   },
   "20204706": {
     "org": "contributte",
@@ -5463,11 +5953,21 @@
     "org": "contributte",
     "repo": "image-storage",
     "tag": "v2.0.0",
-    "name": "",
+    "name": "v2.0.0",
     "created_at": "2019-10-15T13:02:33Z",
     "published_at": "2019-10-15T20:05:10Z",
     "html_url": "https://github.com/contributte/image-storage/releases/tag/v2.0.0",
-    "body": "<h1>Nette 3.0 support (thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/laster04/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/laster04\">@laster04</a> )</h1>"
+    "body": "<p>Bump!</p>\n<p>Changes:</p>\n<ul>\n<li>Nette 3.0 support (thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/laster04/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/laster04\">@laster04</a> )</li>\n</ul>"
+  },
+  "20843554": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v3.0.2",
+    "name": "v3.0.2",
+    "created_at": "2019-10-21T08:21:35Z",
+    "published_at": "2019-10-21T08:25:08Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v3.0.2",
+    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/jsonrpc/compare/v3.0.1...v3.0.2\"><tt>v3.0.1...v3.0.2</tt></a></p>"
   },
   "20879440": {
     "org": "contributte",
@@ -5488,6 +5988,16 @@
     "published_at": "2019-10-22T12:10:41Z",
     "html_url": "https://github.com/contributte/logging/releases/tag/v0.4.1",
     "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"tea\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f375.png\">🍵</g-emoji><g-emoji class=\"g-emoji\" alias=\"tea\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f375.png\">🍵</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/logging/compare/v0.4.0...v0.4.1\"><tt>v0.4.0...v0.4.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow Tracy 2.7.x</li>\n</ul>"
+  },
+  "21124800": {
+    "org": "contributte",
+    "repo": "newrelic",
+    "tag": "v8.0.0",
+    "name": "8.0.0",
+    "created_at": "2019-10-31T15:50:34Z",
+    "published_at": "2019-10-31T15:54:30Z",
+    "html_url": "https://github.com/contributte/newrelic/releases/tag/v8.0.0",
+    "body": "<ul>\n<li>Updated to Nette <code>3.0</code>. Nette <code>2.4</code> will be supported only in <code>7.x</code> releases.</li>\n<li>Dropped PHP <code>5.6</code> and <code>7.1</code> support.</li>\n<li>Added PHP <code>7.3</code> support.</li>\n</ul>"
   },
   "21145133": {
     "org": "contributte",
@@ -5647,7 +6157,7 @@
     "created_at": "2019-11-11T17:10:09Z",
     "published_at": "2019-11-19T12:39:03Z",
     "html_url": "https://github.com/nettrine/orm/releases/tag/v0.4.1",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/orm/compare/v0.4.0...v0.4.1\"><tt>v0.4.0...v0.4.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>quoteStrategy config fix <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/bb0ed30f6e558c796e8dab398543044f7c8b2b53/hovercard\" href=\"https://github.com/nettrine/orm/commit/bb0ed30f6e558c796e8dab398543044f7c8b2b53\"><tt>bb0ed30</tt></a></li>\n<li>removed inner entity manager <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/6b5384e811fea6f94909ddac56c00143a779a1a1/hovercard\" href=\"https://github.com/nettrine/orm/commit/6b5384e811fea6f94909ddac56c00143a779a1a1\"><tt>6b5384e</tt></a></li>\n<li>require nettrine/dbal 0.5 || 0.6 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/064f5844d55c80a6dae01b72f71acc3a3e8a13fb/hovercard\" href=\"https://github.com/nettrine/orm/commit/064f5844d55c80a6dae01b72f71acc3a3e8a13fb\"><tt>064f584</tt></a></li>\n</ul>"
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"jack_o_lantern\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f383.png\">🎃</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/orm/compare/v0.4.0...v0.4.1\"><tt>v0.4.0...v0.4.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>quoteStrategy config fix <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/bb0ed30f6e558c796e8dab398543044f7c8b2b53/hovercard\" href=\"https://github.com/nettrine/orm/commit/bb0ed30f6e558c796e8dab398543044f7c8b2b53\"><tt>bb0ed30</tt></a></li>\n<li>removed inner entity manager <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/6b5384e811fea6f94909ddac56c00143a779a1a1/hovercard\" href=\"https://github.com/nettrine/orm/commit/6b5384e811fea6f94909ddac56c00143a779a1a1\"><tt>6b5384e</tt></a></li>\n<li>require nettrine/dbal 0.5 || 0.6 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/064f5844d55c80a6dae01b72f71acc3a3e8a13fb/hovercard\" href=\"https://github.com/nettrine/orm/commit/064f5844d55c80a6dae01b72f71acc3a3e8a13fb\"><tt>064f584</tt></a></li>\n</ul>"
   },
   "21583829": {
     "org": "nettrine",
@@ -5657,7 +6167,7 @@
     "created_at": "2019-10-14T14:06:23Z",
     "published_at": "2019-11-19T12:42:45Z",
     "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.5.1",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/dbal/compare/v0.5.0...v0.5.1\"><tt>v0.5.0...v0.5.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>subscriber tag <code>nettrine.subscriber</code> is not required - <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/d2fbdaabccb2498c254cd11cd89866e139c284c0/hovercard\" href=\"https://github.com/nettrine/dbal/commit/d2fbdaabccb2498c254cd11cd89866e139c284c0\"><tt>d2fbdaa</tt></a></li>\n<li>fixed Tracy icon scaling <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/60ea0452f11e947f9a62c3375d5eaf829541d13c/hovercard\" href=\"https://github.com/nettrine/dbal/commit/60ea0452f11e947f9a62c3375d5eaf829541d13c\"><tt>60ea045</tt></a></li>\n</ul>"
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"last_quarter_moon\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f317.png\">🌗</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/dbal/compare/v0.5.0...v0.5.1\"><tt>v0.5.0...v0.5.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>subscriber tag <code>nettrine.subscriber</code> is not required - <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/d2fbdaabccb2498c254cd11cd89866e139c284c0/hovercard\" href=\"https://github.com/nettrine/dbal/commit/d2fbdaabccb2498c254cd11cd89866e139c284c0\"><tt>d2fbdaa</tt></a></li>\n<li>fixed Tracy icon scaling <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/60ea0452f11e947f9a62c3375d5eaf829541d13c/hovercard\" href=\"https://github.com/nettrine/dbal/commit/60ea0452f11e947f9a62c3375d5eaf829541d13c\"><tt>60ea045</tt></a></li>\n</ul>"
   },
   "21583915": {
     "org": "contributte",
@@ -5678,16 +6188,6 @@
     "published_at": "2019-11-19T12:49:57Z",
     "html_url": "https://github.com/contributte/api-docu/releases/tag/v3.0.0",
     "body": "<h1>Added</h1>\n<ul>\n<li>nette 3.0 support</li>\n</ul>\n<p>Diff: <a href=\"https://github.com/contributte/api-docu/compare/v2.0.2..v3.0.0\">https://github.com/contributte/api-docu/compare/v2.0.2..v3.0.0</a></p>"
-  },
-  "21615720": {
-    "org": "ninjify",
-    "repo": "dag",
-    "tag": "v0.1",
-    "name": "v0.1",
-    "created_at": "2019-11-19T21:30:13Z",
-    "published_at": "2019-11-20T11:08:05Z",
-    "html_url": "https://github.com/ninjify/dag/releases/tag/v0.1",
-    "body": "<p><g-emoji class=\"g-emoji\" alias=\"fist_oncoming\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png\">👊</g-emoji> First bump.</p>"
   },
   "21617876": {
     "org": "contributte",
@@ -5757,7 +6257,7 @@
     "created_at": "2019-11-26T17:19:39Z",
     "published_at": "2019-11-26T16:37:16Z",
     "html_url": "https://github.com/nettrine/annotations/releases/tag/v0.6.0",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/annotations/compare/v0.5.0...v0.6.0\"><tt>v0.5.0...v0.6.0</tt></a></p>\n<p>Changes: <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/annotations/commit/7a3010f8cdbf5257b9af42658c7a4aac655f178a/hovercard\" href=\"https://github.com/nettrine/annotations/commit/7a3010f8cdbf5257b9af42658c7a4aac655f178a\"><tt>7a3010f</tt></a></p>\n<ul>\n<li>annotations <code>persistent</code> and <code>serializationVersion</code> are ignored by default</li>\n<li><code>cache</code> config accepts only services, referencing cache by name <code>filesystem</code>, <code>apcu</code> etc. is not possible</li>\n<li>an autowired cache is used by default (<a href=\"https://github.com/nettrine/cache\">nettrine/cache</a> is recommended)</li>\n</ul>"
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"koala\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f428.png\">🐨</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/annotations/compare/v0.5.0...v0.6.0\"><tt>v0.5.0...v0.6.0</tt></a></p>\n<p>Changes: <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/annotations/commit/7a3010f8cdbf5257b9af42658c7a4aac655f178a/hovercard\" href=\"https://github.com/nettrine/annotations/commit/7a3010f8cdbf5257b9af42658c7a4aac655f178a\"><tt>7a3010f</tt></a></p>\n<ul>\n<li>annotations <code>persistent</code> and <code>serializationVersion</code> are ignored by default</li>\n<li><code>cache</code> config accepts only services, referencing cache by name <code>filesystem</code>, <code>apcu</code> etc. is not possible</li>\n<li>an autowired cache is used by default (<a href=\"https://github.com/nettrine/cache\">nettrine/cache</a> is recommended)</li>\n</ul>"
   },
   "21946814": {
     "org": "contributte",
@@ -5768,6 +6268,16 @@
     "published_at": "2019-12-04T00:05:52Z",
     "html_url": "https://github.com/contributte/di/releases/tag/v0.4.1",
     "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"kuwait\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f1f0-1f1fc.png\">🇰🇼</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/di/compare/v0.4.0...v0.4.1\"><tt>v0.4.0...v0.4.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Helper for loading callable from config <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/di/commit/89dfa32b0181e67342f0323449f61ff5e8f957fa/hovercard\" href=\"https://github.com/contributte/di/commit/89dfa32b0181e67342f0323449f61ff5e8f957fa\"><tt>89dfa32</tt></a></li>\n</ul>"
+  },
+  "22075946": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v3.0.3",
+    "name": "v3.0.3",
+    "created_at": "2019-12-09T14:10:44Z",
+    "published_at": "2019-12-09T14:12:36Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v3.0.3",
+    "body": "<ul>\n<li>JsonRPCExtension: allow jsonrpc commands to have TAG_INJECT</li>\n</ul>"
   },
   "22077270": {
     "org": "contributte",
@@ -5799,6 +6309,16 @@
     "html_url": "https://github.com/contributte/wordcha/releases/tag/v0.2.0",
     "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/wordcha/compare/v0.1...v0.2.0\"><tt>v0.1...v0.2.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2, added native typehints <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/wordcha/commit/0b8e64f95b25389c47f9e81681b9a16e08e60485/hovercard\" href=\"https://github.com/contributte/wordcha/commit/0b8e64f95b25389c47f9e81681b9a16e08e60485\"><tt>0b8e64f</tt></a> and <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/wordcha/commit/13723bc7040a65c889a039c8cec08b8cca725991/hovercard\" href=\"https://github.com/contributte/wordcha/commit/13723bc7040a65c889a039c8cec08b8cca725991\"><tt>13723bc</tt></a></li>\n</ul>"
   },
+  "22109279": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v3.1.0",
+    "name": "v3.1.0",
+    "created_at": "2019-12-10T13:18:08Z",
+    "published_at": "2019-12-10T13:19:16Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v3.1.0",
+    "body": ""
+  },
   "22141817": {
     "org": "nettrine",
     "repo": "extensions-atlantic18",
@@ -5827,7 +6347,7 @@
     "created_at": "2019-12-04T18:29:19Z",
     "published_at": "2019-12-11T12:23:27Z",
     "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.6.0",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/dbal/compare/v0.5.1...v0.6.0\"><tt>v0.5.1...v0.6.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>cache must be configured, renamed <code>resultCacheImpl</code> to <code>resultCache</code> <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/4c41e696d329503cf0edf14fdad64863e03e86fb/hovercard\" href=\"https://github.com/nettrine/dbal/commit/4c41e696d329503cf0edf14fdad64863e03e86fb\"><tt>4c41e69</tt></a></li>\n<li><code>sqlLogger</code> allow more syntaxes for logger registration <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/d37aa133406139528d58a37e4727d5aef9942b8c/hovercard\" href=\"https://github.com/nettrine/dbal/commit/d37aa133406139528d58a37e4727d5aef9942b8c\"><tt>d37aa13</tt></a></li>\n<li>Fixed <code>ContainerAwareEventManager::getListeners()</code> - always returns initialized objects, not service names <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/89f44219ab7627c2e99d22cc74815709ad7fefb4/hovercard\" href=\"https://github.com/nettrine/dbal/commit/89f44219ab7627c2e99d22cc74815709ad7fefb4\"><tt>89f4421</tt></a></li>\n</ul>"
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"grey_question\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2754.png\">❔</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/dbal/compare/v0.5.1...v0.6.0\"><tt>v0.5.1...v0.6.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>cache must be configured, renamed <code>resultCacheImpl</code> to <code>resultCache</code> <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/4c41e696d329503cf0edf14fdad64863e03e86fb/hovercard\" href=\"https://github.com/nettrine/dbal/commit/4c41e696d329503cf0edf14fdad64863e03e86fb\"><tt>4c41e69</tt></a></li>\n<li><code>sqlLogger</code> allow more syntaxes for logger registration <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/d37aa133406139528d58a37e4727d5aef9942b8c/hovercard\" href=\"https://github.com/nettrine/dbal/commit/d37aa133406139528d58a37e4727d5aef9942b8c\"><tt>d37aa13</tt></a></li>\n<li>Fixed <code>ContainerAwareEventManager::getListeners()</code> - always returns initialized objects, not service names <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/89f44219ab7627c2e99d22cc74815709ad7fefb4/hovercard\" href=\"https://github.com/nettrine/dbal/commit/89f44219ab7627c2e99d22cc74815709ad7fefb4\"><tt>89f4421</tt></a></li>\n</ul>"
   },
   "22142344": {
     "org": "nettrine",
@@ -6027,7 +6547,7 @@
     "created_at": "2020-01-05T18:37:06Z",
     "published_at": "2020-01-05T18:38:23Z",
     "html_url": "https://github.com/contributte/mailing/releases/tag/v0.3.2",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/mailing/compare/v0.3.1...v0.3.2\"><tt>v0.3.1...v0.3.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allows latte ~2.6.0 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/mailing/commit/5c4237cd0fa36706fd0f0f6256277bb6267fbfcd/hovercard\" href=\"https://github.com/contributte/mailing/commit/5c4237cd0fa36706fd0f0f6256277bb6267fbfcd\"><tt>5c4237c</tt></a></li>\n</ul>"
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"jack_o_lantern\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f383.png\">🎃</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/mailing/compare/v0.3.1...v0.3.2\"><tt>v0.3.1...v0.3.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allows latte ~2.6.0 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/mailing/commit/5c4237cd0fa36706fd0f0f6256277bb6267fbfcd/hovercard\" href=\"https://github.com/contributte/mailing/commit/5c4237cd0fa36706fd0f0f6256277bb6267fbfcd\"><tt>5c4237c</tt></a></li>\n</ul>"
   },
   "22604259": {
     "org": "contributte",
@@ -6047,7 +6567,7 @@
     "created_at": "2020-01-05T21:49:23Z",
     "published_at": "2020-01-05T21:35:25Z",
     "html_url": "https://github.com/contributte/latte-parsedown-extra/releases/tag/1.5.1",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/latte-parsedown-extra/compare/1.5.0...1.5.1\"><tt>1.5.0...1.5.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allows erusev/parsedown-extra ^0.8.0, latte ~2.6.0 and nette/utils ~3.1.0 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/latte-parsedown-extra/commit/fb392feb9b74f12fbc0c98689ef73ffbf211c17b/hovercard\" href=\"https://github.com/contributte/latte-parsedown-extra/commit/fb392feb9b74f12fbc0c98689ef73ffbf211c17b\"><tt>fb392fe</tt></a></li>\n</ul>"
+    "body": "<p>Bump!  <g-emoji class=\"g-emoji\" alias=\"lab_coat\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f97c.png\">🥼</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/latte-parsedown-extra/compare/1.5.0...1.5.1\"><tt>1.5.0...1.5.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allows erusev/parsedown-extra ^0.8.0, latte ~2.6.0 and nette/utils ~3.1.0 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/latte-parsedown-extra/commit/fb392feb9b74f12fbc0c98689ef73ffbf211c17b/hovercard\" href=\"https://github.com/contributte/latte-parsedown-extra/commit/fb392feb9b74f12fbc0c98689ef73ffbf211c17b\"><tt>fb392fe</tt></a></li>\n</ul>"
   },
   "22605081": {
     "org": "nettrine",
@@ -6057,7 +6577,7 @@
     "created_at": "2020-01-05T20:53:24Z",
     "published_at": "2020-01-05T21:38:38Z",
     "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.6.1",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/dbal/compare/v0.6.0...v0.6.1\"><tt>v0.6.0...v0.6.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires nettrine/cache <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/ab606475f57c350bd716cfba52b6f0c1c5a93cb7/hovercard\" href=\"https://github.com/nettrine/dbal/commit/ab606475f57c350bd716cfba52b6f0c1c5a93cb7\"><tt>ab60647</tt></a></li>\n</ul>"
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"question\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2753.png\">❓</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/dbal/compare/v0.6.0...v0.6.1\"><tt>v0.6.0...v0.6.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires nettrine/cache <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/ab606475f57c350bd716cfba52b6f0c1c5a93cb7/hovercard\" href=\"https://github.com/nettrine/dbal/commit/ab606475f57c350bd716cfba52b6f0c1c5a93cb7\"><tt>ab60647</tt></a></li>\n</ul>"
   },
   "22606884": {
     "org": "nettrine",
@@ -6067,7 +6587,7 @@
     "created_at": "2020-01-07T00:39:34Z",
     "published_at": "2020-01-07T00:42:14Z",
     "html_url": "https://github.com/nettrine/orm/releases/tag/v0.5.0",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/orm/compare/v0.4.1...v0.5.0\"><tt>v0.4.1...v0.5.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allows symfony/console ^5.0.0 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/3cf7ef3446fc4f06d5e87597ec1d1948b6d68a9c/hovercard\" href=\"https://github.com/nettrine/orm/commit/3cf7ef3446fc4f06d5e87597ec1d1948b6d68a9c\"><tt>3cf7ef3</tt></a></li>\n<li>Requires nettrine/annotations <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/1c8b5ac9295fc36fd8fcfb3f3861db96502ac2d1/hovercard\" href=\"https://github.com/nettrine/orm/commit/1c8b5ac9295fc36fd8fcfb3f3861db96502ac2d1\"><tt>1c8b5ac</tt></a></li>\n<li>Requires nettrine/cache <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/8f0bf73e0c339200d906c45cd296e702055a4f55/hovercard\" href=\"https://github.com/nettrine/orm/commit/8f0bf73e0c339200d906c45cd296e702055a4f55\"><tt>8f0bf73</tt></a></li>\n<li>Added .phpstorm.meta.php file <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/b6e683a94cce0c06b07767d41bd7bfe6edb60139/hovercard\" href=\"https://github.com/nettrine/orm/commit/b6e683a94cce0c06b07767d41bd7bfe6edb60139\"><tt>b6e683a</tt></a></li>\n<li>Deprecate trait Id <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/1d5c63f2998a0c430f3660f2eaa1daeaba48d5c0/hovercard\" href=\"https://github.com/nettrine/orm/commit/1d5c63f2998a0c430f3660f2eaa1daeaba48d5c0\"><tt>1d5c63f</tt></a></li>\n<li>Drop nette/utils dependency<br>\n<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/ad569f9e534d5b194c3e8fd8ad5c57e68f32187d/hovercard\" href=\"https://github.com/nettrine/orm/commit/ad569f9e534d5b194c3e8fd8ad5c57e68f32187d\"><tt>ad569f9</tt></a> <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/0ac7b3c9df249f90c59625e936c105a5787fd855/hovercard\" href=\"https://github.com/nettrine/orm/commit/0ac7b3c9df249f90c59625e936c105a5787fd855\"><tt>0ac7b3c</tt></a></li>\n<li>Poolished readme <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/648f0f9aaf528f0080aaed57e5005c6d0a2573ef/hovercard\" href=\"https://github.com/nettrine/orm/commit/648f0f9aaf528f0080aaed57e5005c6d0a2573ef\"><tt>648f0f9</tt></a></li>\n</ul>"
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"joystick\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f579.png\">🕹️</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/orm/compare/v0.4.1...v0.5.0\"><tt>v0.4.1...v0.5.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allows symfony/console ^5.0.0 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/3cf7ef3446fc4f06d5e87597ec1d1948b6d68a9c/hovercard\" href=\"https://github.com/nettrine/orm/commit/3cf7ef3446fc4f06d5e87597ec1d1948b6d68a9c\"><tt>3cf7ef3</tt></a></li>\n<li>Requires nettrine/annotations <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/1c8b5ac9295fc36fd8fcfb3f3861db96502ac2d1/hovercard\" href=\"https://github.com/nettrine/orm/commit/1c8b5ac9295fc36fd8fcfb3f3861db96502ac2d1\"><tt>1c8b5ac</tt></a></li>\n<li>Requires nettrine/cache <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/8f0bf73e0c339200d906c45cd296e702055a4f55/hovercard\" href=\"https://github.com/nettrine/orm/commit/8f0bf73e0c339200d906c45cd296e702055a4f55\"><tt>8f0bf73</tt></a></li>\n<li>Added .phpstorm.meta.php file <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/b6e683a94cce0c06b07767d41bd7bfe6edb60139/hovercard\" href=\"https://github.com/nettrine/orm/commit/b6e683a94cce0c06b07767d41bd7bfe6edb60139\"><tt>b6e683a</tt></a></li>\n<li>Deprecate trait Id <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/1d5c63f2998a0c430f3660f2eaa1daeaba48d5c0/hovercard\" href=\"https://github.com/nettrine/orm/commit/1d5c63f2998a0c430f3660f2eaa1daeaba48d5c0\"><tt>1d5c63f</tt></a></li>\n<li>Drop nette/utils dependency<br>\n<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/ad569f9e534d5b194c3e8fd8ad5c57e68f32187d/hovercard\" href=\"https://github.com/nettrine/orm/commit/ad569f9e534d5b194c3e8fd8ad5c57e68f32187d\"><tt>ad569f9</tt></a> <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/0ac7b3c9df249f90c59625e936c105a5787fd855/hovercard\" href=\"https://github.com/nettrine/orm/commit/0ac7b3c9df249f90c59625e936c105a5787fd855\"><tt>0ac7b3c</tt></a></li>\n<li>Poolished readme <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/648f0f9aaf528f0080aaed57e5005c6d0a2573ef/hovercard\" href=\"https://github.com/nettrine/orm/commit/648f0f9aaf528f0080aaed57e5005c6d0a2573ef\"><tt>648f0f9</tt></a></li>\n</ul>"
   },
   "22648951": {
     "org": "contributte",
@@ -6137,7 +6657,7 @@
     "created_at": "2020-01-16T16:19:43Z",
     "published_at": "2020-01-16T16:20:57Z",
     "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.6.2",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/dbal/compare/v0.6.1...v0.6.2\"><tt>v0.6.1...v0.6.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Fixed resultCache config <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/fd9052bd873cfbd4c10af703bf4b5c4725dd8486/hovercard\" href=\"https://github.com/nettrine/dbal/commit/fd9052bd873cfbd4c10af703bf4b5c4725dd8486\"><tt>fd9052b</tt></a></li>\n</ul>"
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"qatar\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f1f6-1f1e6.png\">🇶🇦</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/dbal/compare/v0.6.1...v0.6.2\"><tt>v0.6.1...v0.6.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Fixed resultCache config <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/fd9052bd873cfbd4c10af703bf4b5c4725dd8486/hovercard\" href=\"https://github.com/nettrine/dbal/commit/fd9052bd873cfbd4c10af703bf4b5c4725dd8486\"><tt>fd9052b</tt></a></li>\n</ul>"
   },
   "23031680": {
     "org": "contributte",
@@ -6148,6 +6668,16 @@
     "published_at": "2020-01-22T09:24:38Z",
     "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.9",
     "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"dark_sunglasses\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f576.png\">🕶</g-emoji></p>\n<ul>\n<li>Fixed Multiple column Aggregation Function rendering</li>\n<li>Added Multiple column Aggregation Function docs</li>\n<li>Added interface <code>ISingleColumnAggregationFunction</code> (which should be used for single column aggregation functions from now on, potential BC Break, not actual because the method <code>::render()</code> should be already implemented)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.8...v6.2.9\"><tt>v6.2.8...v6.2.9</tt></a></p>"
+  },
+  "23485534": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v4.1.0",
+    "name": "v4.1.0",
+    "created_at": "2020-02-07T16:00:12Z",
+    "published_at": "2020-02-07T16:00:40Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v4.1.0",
+    "body": "<ul>\n<li>Allow Symfony Console v5 (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/FVesely/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/FVesely\">@FVesely</a> )</li>\n</ul>"
   },
   "23566203": {
     "org": "contributte",
@@ -6197,7 +6727,7 @@
     "created_at": "2020-03-08T13:01:49Z",
     "published_at": "2020-03-08T13:03:12Z",
     "html_url": "https://github.com/contributte/reCAPTCHA/releases/tag/v3.3.0",
-    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"black_joker\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f0cf.png\">🃏</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/reCAPTCHA/compare/3.2.0...3.3.0\"><tt>3.2.0...3.3.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow nette/utils 3.1.0</li>\n<li>Fix multiple recaptcha(s)</li>\n</ul>"
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"black_joker\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f0cf.png\">🃏</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/reCAPTCHA/compare/v3.2.0...v3.3.0\"><tt>v3.2.0...v3.3.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow nette/utils 3.1.0</li>\n<li>Fix multiple recaptcha(s)</li>\n</ul>"
   },
   "24492040": {
     "org": "contributte",
@@ -6279,6 +6809,36 @@
     "html_url": "https://github.com/contributte/eet/releases/tag/v0.1.0",
     "body": "<p>Create stable package</p>"
   },
+  "25124690": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v5.0.0",
+    "name": "v5.0.0",
+    "created_at": "2020-04-02T09:13:27Z",
+    "published_at": "2020-04-02T09:16:44Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v5.0.0",
+    "body": "<ul>\n<li>New gamee/php-code-checker-rules + php 7.4 typed class properties</li>\n</ul>"
+  },
+  "25130743": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v4.0.0",
+    "name": "v4.0.0",
+    "created_at": "2020-04-02T11:36:37Z",
+    "published_at": "2020-04-02T12:28:17Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v4.0.0",
+    "body": "<ul>\n<li>New gamee/php-code-checker-rules + php 7.4 typed class properties</li>\n</ul>"
+  },
+  "25134083": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v5.0.1",
+    "name": "v5.0.1",
+    "created_at": "2020-04-02T13:47:35Z",
+    "published_at": "2020-04-02T13:48:19Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v5.0.1",
+    "body": "<ul>\n<li>RabbitMQExtension: added console.command tags</li>\n</ul>"
+  },
   "25388220": {
     "org": "nettrine",
     "repo": "orm",
@@ -6287,7 +6847,7 @@
     "created_at": "2020-04-10T09:05:43Z",
     "published_at": "2020-04-10T09:06:10Z",
     "html_url": "https://github.com/nettrine/orm/releases/tag/v0.6.0",
-    "body": "<p>Diff: <a href=\"https://github.com/nettrine/orm/compare/v0.5.0..v0.6.0\">https://github.com/nettrine/orm/compare/v0.5.0..v0.6.0</a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow to register filters [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"586062132\" data-permission-text=\"Title is private\" data-url=\"https://github.com/nettrine/orm/issues/72\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/nettrine/orm/pull/72/hovercard\" href=\"https://github.com/nettrine/orm/pull/72\">#72</a>] <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/9fe0db421451d1f081958f576a2d4c817ed4df21/hovercard\" href=\"https://github.com/nettrine/orm/commit/9fe0db421451d1f081958f576a2d4c817ed4df21\"><tt>9fe0db4</tt></a></li>\n<li>Simplify EntityManagerDecorator <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/1004c72a910ee52dab91fb87150aad146a568239/hovercard\" href=\"https://github.com/nettrine/orm/commit/1004c72a910ee52dab91fb87150aad146a568239\"><tt>1004c72</tt></a></li>\n<li>Switch <code>mappingDriver</code> to MappingDriverChain [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"336478592\" data-permission-text=\"Title is private\" data-url=\"https://github.com/nettrine/orm/issues/27\" data-hovercard-type=\"issue\" data-hovercard-url=\"/nettrine/orm/issues/27/hovercard\" href=\"https://github.com/nettrine/orm/issues/27\">#27</a>]</li>\n<li>Fix <code>secondLevelCache</code> schema <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/b2fa8b9b35ec30a612b831e8527c82d0ce707f20/hovercard\" href=\"https://github.com/nettrine/orm/commit/b2fa8b9b35ec30a612b831e8527c82d0ce707f20\"><tt>b2fa8b9</tt></a></li>\n<li>Sync <code>entityNamespaces</code> schema</li>\n<li>Polished readme</li>\n<li>Polished tests</li>\n</ul>"
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"joy\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f602.png\">😂</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/orm/compare/v0.5.0...v0.6.0\"><tt>v0.5.0...v0.6.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow to register filters [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"586062132\" data-permission-text=\"Title is private\" data-url=\"https://github.com/nettrine/orm/issues/72\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/nettrine/orm/pull/72/hovercard\" href=\"https://github.com/nettrine/orm/pull/72\">#72</a>] <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/9fe0db421451d1f081958f576a2d4c817ed4df21/hovercard\" href=\"https://github.com/nettrine/orm/commit/9fe0db421451d1f081958f576a2d4c817ed4df21\"><tt>9fe0db4</tt></a></li>\n<li>Simplify EntityManagerDecorator <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/1004c72a910ee52dab91fb87150aad146a568239/hovercard\" href=\"https://github.com/nettrine/orm/commit/1004c72a910ee52dab91fb87150aad146a568239\"><tt>1004c72</tt></a></li>\n<li>Switch <code>mappingDriver</code> to MappingDriverChain [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"336478592\" data-permission-text=\"Title is private\" data-url=\"https://github.com/nettrine/orm/issues/27\" data-hovercard-type=\"issue\" data-hovercard-url=\"/nettrine/orm/issues/27/hovercard\" href=\"https://github.com/nettrine/orm/issues/27\">#27</a>]</li>\n<li>Fix <code>secondLevelCache</code> schema <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/b2fa8b9b35ec30a612b831e8527c82d0ce707f20/hovercard\" href=\"https://github.com/nettrine/orm/commit/b2fa8b9b35ec30a612b831e8527c82d0ce707f20\"><tt>b2fa8b9</tt></a></li>\n<li>Sync <code>entityNamespaces</code> schema</li>\n<li>Polished readme</li>\n<li>Polished tests</li>\n</ul>"
   },
   "25388326": {
     "org": "nettrine",
@@ -6297,7 +6857,7 @@
     "created_at": "2020-04-04T18:38:48Z",
     "published_at": "2020-04-10T09:09:42Z",
     "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.6.3",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/dbal/compare/v0.6.2...v0.6.3\"><tt>v0.6.2...v0.6.3</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Simplify registration of DQL types <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/a253cd3cdbfa3204607103a3dc96ddfb5c2d8c72/hovercard\" href=\"https://github.com/nettrine/dbal/commit/a253cd3cdbfa3204607103a3dc96ddfb5c2d8c72\"><tt>a253cd3</tt></a></li>\n<li>Allow to sort queries in Tracy bar <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/42fdb21ecb33c3a10560f245452892c3639b1420/hovercard\" href=\"https://github.com/nettrine/dbal/commit/42fdb21ecb33c3a10560f245452892c3639b1420\"><tt>42fdb21</tt></a></li>\n<li>Polish readme</li>\n</ul>"
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"jordan\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f1ef-1f1f4.png\">🇯🇴</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/dbal/compare/v0.6.2...v0.6.3\"><tt>v0.6.2...v0.6.3</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Simplify registration of DQL types <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/a253cd3cdbfa3204607103a3dc96ddfb5c2d8c72/hovercard\" href=\"https://github.com/nettrine/dbal/commit/a253cd3cdbfa3204607103a3dc96ddfb5c2d8c72\"><tt>a253cd3</tt></a></li>\n<li>Allow to sort queries in Tracy bar <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/42fdb21ecb33c3a10560f245452892c3639b1420/hovercard\" href=\"https://github.com/nettrine/dbal/commit/42fdb21ecb33c3a10560f245452892c3639b1420\"><tt>42fdb21</tt></a></li>\n<li>Polish readme</li>\n</ul>"
   },
   "25388380": {
     "org": "nettrine",
@@ -6327,7 +6887,7 @@
     "created_at": "2020-01-29T20:17:24Z",
     "published_at": "2020-04-10T09:14:32Z",
     "html_url": "https://github.com/nettrine/annotations/releases/tag/v0.6.1",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/annotations/compare/v0.6.0...v0.6.1\"><tt>v0.6.0...v0.6.1</tt></a></p>\n<p>Changes</p>\n<ul>\n<li>Rely on nettrine/cache directly <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/annotations/commit/9b3cf661a9c21825e8840abef274f58ca5370e39/hovercard\" href=\"https://github.com/nettrine/annotations/commit/9b3cf661a9c21825e8840abef274f58ca5370e39\"><tt>9b3cf66</tt></a></li>\n<li>Polish readme + doc</li>\n</ul>"
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"package\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4e6.png\">📦</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/annotations/compare/v0.6.0...v0.6.1\"><tt>v0.6.0...v0.6.1</tt></a></p>\n<p>Changes</p>\n<ul>\n<li>Rely on nettrine/cache directly <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/annotations/commit/9b3cf661a9c21825e8840abef274f58ca5370e39/hovercard\" href=\"https://github.com/nettrine/annotations/commit/9b3cf661a9c21825e8840abef274f58ca5370e39\"><tt>9b3cf66</tt></a></li>\n<li>Polish readme + doc</li>\n</ul>"
   },
   "25388477": {
     "org": "nettrine",
@@ -6337,7 +6897,17 @@
     "created_at": "2020-04-10T09:16:11Z",
     "published_at": "2020-04-10T09:16:22Z",
     "html_url": "https://github.com/nettrine/cache/releases/tag/v0.2.0",
-    "body": "<p>Diff: <a href=\"https://github.com/nettrine/cache/compare/v0.1.0..v0.2.0\">https://github.com/nettrine/cache/compare/v0.1.0..v0.2.0</a></p>\n<p>Changes:</p>\n<ul>\n<li>Upgrade deps</li>\n<li>Polish doc &amp; readme</li>\n</ul>"
+    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/cache/compare/v0.1.0...v0.2.0\"><tt>v0.1.0...v0.2.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Upgrade deps</li>\n<li>Polish doc &amp; readme</li>\n</ul>"
+  },
+  "25613012": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v4.2.0",
+    "name": "v4.2.0",
+    "created_at": "2020-03-19T11:37:26Z",
+    "published_at": "2020-04-17T13:46:26Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v4.2.0",
+    "body": "<ul>\n<li>Allow skiping argument secondsToLive so consumer can run indefinitely (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/dakorpar/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dakorpar\">@dakorpar</a>)</li>\n</ul>"
   },
   "25698376": {
     "org": "contributte",
@@ -6378,5 +6948,515 @@
     "published_at": "2020-04-20T22:08:36Z",
     "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.14",
     "body": "<p>Bump!</p>\n<ul>\n<li>Fix items detail form parameter in detail template (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/vitkutny/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/vitkutny\">@vitkutny</a>)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.13...v6.2.14\"><tt>v6.2.13...v6.2.14</tt></a></p>"
+  },
+  "25737600": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v6.2.15",
+    "name": "v6.2.15",
+    "created_at": "2020-04-24T08:48:13Z",
+    "published_at": "2020-04-24T08:49:11Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.15",
+    "body": "<p>Bump!</p>\n<ul>\n<li>Fix: Can not set default filter for FilterDateRange (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/xsuchy09/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/xsuchy09\">@xsuchy09</a>)</li>\n<li>Boostrap bc break template fix (fixes outer filters)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.14...v6.2.15\"><tt>v6.2.14...v6.2.15</tt></a></p>"
+  },
+  "25841560": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v6.2.16",
+    "name": "v6.2.16",
+    "created_at": "2020-04-24T08:59:32Z",
+    "published_at": "2020-04-27T14:30:43Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.16",
+    "body": "<p>Bump!</p>\n<ul>\n<li>Fix ajax method for small inline edit (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/stanislav-janu/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/stanislav-janu\">@stanislav-janu</a>)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.15...v6.2.16\"><tt>v6.2.15...v6.2.16</tt></a></p>"
+  },
+  "25952700": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v6.2.17",
+    "name": "v6.2.17",
+    "created_at": "2020-04-28T08:26:42Z",
+    "published_at": "2020-04-28T08:34:09Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.17",
+    "body": "<p>Bump!</p>\n<ul>\n<li>DataGrid: fix inline edit payload when editable callback is empty</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.16...v6.2.17\"><tt>v6.2.16...v6.2.17</tt></a></p>"
+  },
+  "25991787": {
+    "org": "contributte",
+    "repo": "image-storage",
+    "tag": "v2.0.1",
+    "name": "v2.0.1",
+    "created_at": "2020-04-29T06:34:20Z",
+    "published_at": "2020-04-29T06:36:41Z",
+    "html_url": "https://github.com/contributte/image-storage/releases/tag/v2.0.1",
+    "body": "<p>Bump!</p>\n<p>Changes:</p>\n<ul>\n<li>Fix: Bad variable for creating directory and checking is_writable() in getNoImage() method (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Sikipiki/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Sikipiki\">@Sikipiki</a>)</li>\n</ul>"
+  },
+  "26008295": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v5.0.2",
+    "name": "v5.0.2",
+    "created_at": "2020-04-29T14:24:22Z",
+    "published_at": "2020-04-29T14:28:16Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v5.0.2",
+    "body": "<ul>\n<li>ConsumerCommand: make code simpler</li>\n</ul>"
+  },
+  "26122433": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v6.0.0",
+    "name": "v6.0.0",
+    "created_at": "2020-05-03T11:37:27Z",
+    "published_at": "2020-05-03T18:44:34Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v6.0.0",
+    "body": "<p>Bump!</p>\n<ul>\n<li>Gamee -&gt; Contributte</li>\n</ul>"
+  },
+  "26122439": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v5.0.0",
+    "name": "v5.0.0",
+    "created_at": "2020-05-03T12:07:00Z",
+    "published_at": "2020-05-03T18:44:53Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v5.0.0",
+    "body": "<p>Bump!</p>\n<ul>\n<li>Gamee -&gt; Contributte</li>\n</ul>"
+  },
+  "26124236": {
+    "org": "contributte",
+    "repo": "api-router",
+    "tag": "v4.0.0",
+    "name": "v4.0.0",
+    "created_at": "2020-05-03T21:16:17Z",
+    "published_at": "2020-05-03T21:19:59Z",
+    "html_url": "https://github.com/contributte/api-router/releases/tag/v4.0.0",
+    "body": "<p>Bump!</p>\n<ul>\n<li>ublaboo/api-router -&gt; contributte/api-router</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/api-router/compare/v3.0.0...v4.0.0\"><tt>v3.0.0...v4.0.0</tt></a></p>"
+  },
+  "26124245": {
+    "org": "contributte",
+    "repo": "api-docu",
+    "tag": "v4.0.0",
+    "name": "v4.0.0",
+    "created_at": "2020-05-03T21:15:33Z",
+    "published_at": "2020-05-03T21:20:23Z",
+    "html_url": "https://github.com/contributte/api-docu/releases/tag/v4.0.0",
+    "body": "<p>Bump!</p>\n<ul>\n<li>ublaboo/api-docu -&gt; contributte/api-docu</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/api-docu/compare/v3.0.0...v4.0.0\"><tt>v3.0.0...v4.0.0</tt></a></p>"
+  },
+  "26148348": {
+    "org": "contributte",
+    "repo": "anabelle",
+    "tag": "v3.0.0",
+    "name": "v3.0.0",
+    "created_at": "2020-05-04T15:34:42Z",
+    "published_at": "2020-05-04T15:36:37Z",
+    "html_url": "https://github.com/contributte/anabelle/releases/tag/v3.0.0",
+    "body": "<p>Bump!</p>\n<ul>\n<li>anabelle/anabelle -&gt; contributte/anabelle</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/anabelle/compare/v2.2.0...v3.0.0\"><tt>v2.2.0...v3.0.0</tt></a></p>"
+  },
+  "26263470": {
+    "org": "contributte",
+    "repo": "forms-bootstrap",
+    "tag": "v0.2",
+    "name": "v0.2",
+    "created_at": "2020-05-06T21:24:35Z",
+    "published_at": "2020-05-07T09:35:26Z",
+    "html_url": "https://github.com/contributte/forms-bootstrap/releases/tag/v0.2",
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"muscle\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4aa.png\">💪</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/forms-bootstrap/compare/0.1...v0.2\"><tt>0.1...v0.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>split datetime control to two date and datetime controls</li>\n<li>allow to set default date format through static variable on DateInput</li>\n<li>allow to set default datetime format through static variable on DateTimeInput</li>\n<li>bootstrap cell can now have multiple controls (specially usefull for multiple buttons) <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"604925133\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/forms-bootstrap/issues/10\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/forms-bootstrap/issues/10/hovercard\" href=\"https://github.com/contributte/forms-bootstrap/issues/10\">#10</a></li>\n<li>bugfix, don't call setItems on MultiselectInput if $items are null</li>\n<li>allow checkboxes to be alligned with inputs in side by side rendering, use CheckboxInput::$defaultAllignWithInputControls for default through project or $checkbox-&gt;setAllignWithInputControls() for specific checkbox</li>\n<li>allow alligning buttons on right (same as with checkbox defaultAllignWithInputControls &amp; setAllignWithInputControls)</li>\n<li>bugfix, allow Html on label on text input</li>\n<li>auto parsing allways mysql date/time format on date(time)input no matter what format it is</li>\n<li>Fix when keys are not used in choice controls <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"611561747\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/forms-bootstrap/issues/16\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/forms-bootstrap/issues/16/hovercard\" href=\"https://github.com/contributte/forms-bootstrap/issues/16\">#16</a></li>\n<li>added some unit tests</li>\n<li>raised phpstan lvl</li>\n</ul>"
+  },
+  "26499142": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v6.2.18",
+    "name": "v6.2.18",
+    "created_at": "2020-05-14T07:54:23Z",
+    "published_at": "2020-05-14T07:55:14Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.18",
+    "body": "<p>Bump!</p>\n<ul>\n<li>ActionCallback::$onClick type fix</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.17...v6.2.18\"><tt>v6.2.17...v6.2.18</tt></a></p>"
+  },
+  "26526195": {
+    "org": "contributte",
+    "repo": "scheduler",
+    "tag": "v0.6.0",
+    "name": "v0.6.0",
+    "created_at": "2020-05-14T18:00:34Z",
+    "published_at": "2020-05-14T18:02:07Z",
+    "html_url": "https://github.com/contributte/scheduler/releases/tag/v0.6.0",
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"lobster\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f99e.png\">🦞</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/scheduler/compare/v0.5.0...v0.6.0\"><tt>v0.5.0...v0.6.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>require symfony/console 5.0</li>\n</ul>"
+  },
+  "26526351": {
+    "org": "contributte",
+    "repo": "elasticsearch",
+    "tag": "v0.3.0",
+    "name": "v0.3.0",
+    "created_at": "2020-02-12T07:53:11Z",
+    "published_at": "2020-05-14T18:05:50Z",
+    "html_url": "https://github.com/contributte/elasticsearch/releases/tag/v0.3.0",
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"jack_o_lantern\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f383.png\">🎃</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/elasticsearch/compare/v0.2.0...v0.3.0\"><tt>v0.2.0...v0.3.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>typos in doc</li>\n<li>bugfix extension (schema =&gt; scheme)</li>\n<li>bugfix extension (configuring hosts)</li>\n</ul>"
+  },
+  "26827330": {
+    "org": "contributte",
+    "repo": "application",
+    "tag": "v0.4.1",
+    "name": "v0.4.1",
+    "created_at": "2020-04-01T17:34:21Z",
+    "published_at": "2020-05-23T13:48:02Z",
+    "html_url": "https://github.com/contributte/application/releases/tag/v0.4.1",
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"tea\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f375.png\">🍵</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/application/compare/v0.4.0...v0.4.1\"><tt>v0.4.0...v0.4.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Setup branch-alias correctly</li>\n<li>Less strictness dependencies on nette/application</li>\n</ul>"
+  },
+  "26856339": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v6.2.19",
+    "name": "v6.2.19",
+    "created_at": "2020-05-25T09:31:42Z",
+    "published_at": "2020-05-25T09:32:53Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.19",
+    "body": "<p>Bump!</p>\n<ul>\n<li>Composer: use newer version of contributte/application</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.18...v6.2.19\"><tt>v6.2.18...v6.2.19</tt></a></p>"
+  },
+  "26934164": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v6.2.20",
+    "name": "v6.2.20",
+    "created_at": "2020-05-27T09:08:39Z",
+    "published_at": "2020-05-27T09:09:49Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.20",
+    "body": "<p>Bump!</p>\n<ul>\n<li>Dont send request when confirm cancel clicked for naja.js (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/MartinSzollos2016/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/MartinSzollos2016\">@MartinSzollos2016</a>)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.19...v6.2.20\"><tt>v6.2.19...v6.2.20</tt></a></p>"
+  },
+  "26980777": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v6.2.21",
+    "name": "v6.2.21",
+    "created_at": "2020-05-28T08:53:06Z",
+    "published_at": "2020-05-28T12:22:36Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.21",
+    "body": "<p>Bump!</p>\n<ul>\n<li>Update DataGrid.php When sortCallback is not set. Use column sortableCallback (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/VojtechSejkora/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/VojtechSejkora\">@VojtechSejkora</a>)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.20...v6.2.21\"><tt>v6.2.20...v6.2.21</tt></a></p>"
+  },
+  "26988271": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v7.0.0",
+    "name": "v7.0.0",
+    "created_at": "2020-05-28T12:21:46Z",
+    "published_at": "2020-05-28T12:23:29Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v7.0.0",
+    "body": "<p>Bump!</p>\n<ul>\n<li>Added lazy connect, Fixed php version (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/slischka/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/slischka\">@slischka</a>)</li>\n</ul>\n<p><strong>BC Breaks:</strong></p>\n<ul>\n<li>Removed Connection::getBunnyClient()</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/rabbitmq/compare/v6.0.0...v7.0.0\"><tt>v6.0.0...v7.0.0</tt></a></p>"
+  },
+  "27170658": {
+    "org": "contributte",
+    "repo": "forms-bootstrap",
+    "tag": "v0.2.1",
+    "name": "v0.2.1",
+    "created_at": "2020-06-03T09:43:22Z",
+    "published_at": "2020-06-03T09:48:46Z",
+    "html_url": "https://github.com/contributte/forms-bootstrap/releases/tag/v0.2.1",
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"1234\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f522.png\">🔢</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/forms-bootstrap/compare/v0.2...v0.2.1\"><tt>v0.2...v0.2.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>compatibility with nette/forms 3.0.4 (BC on nette/forms: <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"586196577\" data-permission-text=\"Title is private\" data-url=\"https://github.com/nette/forms/issues/241\" data-hovercard-type=\"issue\" data-hovercard-url=\"/nette/forms/issues/241/hovercard\" href=\"https://github.com/nette/forms/issues/241\">nette/forms#241</a> )</li>\n</ul>"
+  },
+  "27195806": {
+    "org": "contributte",
+    "repo": "forms-bootstrap",
+    "tag": "v0.2.2",
+    "name": "v0.2.2",
+    "created_at": "2020-06-03T20:28:34Z",
+    "published_at": "2020-06-03T20:32:43Z",
+    "html_url": "https://github.com/contributte/forms-bootstrap/releases/tag/v0.2.2",
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"point_up_2\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f446.png\">👆</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/forms-bootstrap/compare/v0.2.1...v0.2.2\"><tt>v0.2.1...v0.2.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>bugfix for choice controls when passed items [key =&gt; caption] caption not string, now we're allways casting caption to string</li>\n<li>added more unit tests</li>\n<li>raised phpstan from lvl 3 to lvl 4</li>\n<li>code cleanups</li>\n</ul>"
+  },
+  "27300765": {
+    "org": "nettrine",
+    "repo": "orm",
+    "tag": "v0.6.1",
+    "name": "v0.6.1",
+    "created_at": "2020-06-02T13:20:57Z",
+    "published_at": "2020-06-07T12:09:08Z",
+    "html_url": "https://github.com/nettrine/orm/releases/tag/v0.6.1",
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"jordan\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f1ef-1f1f4.png\">🇯🇴</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/orm/compare/v0.6.0...v0.6.1\"><tt>v0.6.0...v0.6.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Lock doctrine dependencies [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"625973496\" data-permission-text=\"Title is private\" data-url=\"https://github.com/nettrine/orm/issues/78\" data-hovercard-type=\"issue\" data-hovercard-url=\"/nettrine/orm/issues/78/hovercard\" href=\"https://github.com/nettrine/orm/issues/78\">#78</a>] [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/e104974c6627bafbd373ddec545d87fce0979ee2/hovercard\" href=\"https://github.com/nettrine/orm/commit/e104974c6627bafbd373ddec545d87fce0979ee2\"><tt>e104974</tt></a>]</li>\n<li>Dont use deprecated classes [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/05bba6fcd7c10312613b815a97f24ef95765c426/hovercard\" href=\"https://github.com/nettrine/orm/commit/05bba6fcd7c10312613b815a97f24ef95765c426\"><tt>05bba6f</tt></a>]</li>\n</ul>"
+  },
+  "27300823": {
+    "org": "nettrine",
+    "repo": "orm",
+    "tag": "v0.3.1",
+    "name": "v0.3.1",
+    "created_at": "2020-06-07T12:13:54Z",
+    "published_at": "2020-06-07T12:14:23Z",
+    "html_url": "https://github.com/nettrine/orm/releases/tag/v0.3.1",
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"jordan\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f1ef-1f1f4.png\">🇯🇴</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/orm/compare/v0.3.0...v0.3.1\"><tt>v0.3.0...v0.3.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Lock doctrine dependencies [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"625973496\" data-permission-text=\"Title is private\" data-url=\"https://github.com/nettrine/orm/issues/78\" data-hovercard-type=\"issue\" data-hovercard-url=\"/nettrine/orm/issues/78/hovercard\" href=\"https://github.com/nettrine/orm/issues/78\">#78</a>] [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/orm/commit/e104974c6627bafbd373ddec545d87fce0979ee2/hovercard\" href=\"https://github.com/nettrine/orm/commit/e104974c6627bafbd373ddec545d87fce0979ee2\"><tt>e104974</tt></a>]</li>\n</ul>"
+  },
+  "27301020": {
+    "org": "contributte",
+    "repo": "seznamcaptcha",
+    "tag": "0.4",
+    "name": "v0.4",
+    "created_at": "2020-03-28T08:59:11Z",
+    "published_at": "2020-06-07T12:32:32Z",
+    "html_url": "https://github.com/contributte/seznamcaptcha/releases/tag/0.4",
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"walking\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f6b6.png\">🚶</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/seznamcaptcha/compare/0.3...0.4\"><tt>0.3...0.4</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>upgrade nette</li>\n<li>http -&gt; https</li>\n<li>improve docs</li>\n</ul>"
+  },
+  "27319245": {
+    "org": "nettrine",
+    "repo": "dbal",
+    "tag": "v0.6.4",
+    "name": "v0.6.4",
+    "created_at": "2020-04-27T08:51:08Z",
+    "published_at": "2020-06-08T10:07:48Z",
+    "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.6.4",
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"koala\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f428.png\">🐨</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/dbal/compare/v0.6.3...v0.6.4\"><tt>v0.6.3...v0.6.4</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>require nettrine/cache v0.2</li>\n</ul>"
+  },
+  "27319693": {
+    "org": "nettrine",
+    "repo": "annotations",
+    "tag": "v0.6.2",
+    "name": "v0.6.2",
+    "created_at": "2020-04-27T09:07:32Z",
+    "published_at": "2020-06-08T10:19:39Z",
+    "html_url": "https://github.com/nettrine/annotations/releases/tag/v0.6.2",
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"page_facing_up\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4c4.png\">📄</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/annotations/compare/v0.6.1...v0.6.2\"><tt>v0.6.1...v0.6.2</tt></a></p>\n<p>Changes</p>\n<ul>\n<li>Use nettrine/cache v0.2</li>\n</ul>"
+  },
+  "27404483": {
+    "org": "contributte",
+    "repo": "gosms",
+    "tag": "v0.3",
+    "name": "v0.3",
+    "created_at": "2020-06-10T09:44:16Z",
+    "published_at": "2020-06-10T09:55:13Z",
+    "html_url": "https://github.com/contributte/gosms/releases/tag/v0.3",
+    "body": "<p><g-emoji class=\"g-emoji\" alias=\"elephant\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f418.png\">🐘</g-emoji> 7.4</p>\n<p>Diff: <a href=\"https://github.com/contributte/gosms/compare/v0.2...v0.3\">v0.2...v0.3</a></p>\n<p>Changes:</p>\n<ul>\n<li>support php7.4</li>\n<li>nette/utils ^3.1.0</li>\n</ul>"
+  },
+  "27544029": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v6.2.22",
+    "name": "v6.2.22",
+    "created_at": "2020-06-15T07:11:35Z",
+    "published_at": "2020-06-15T07:15:37Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.22",
+    "body": "<p>Bump!</p>\n<ul>\n<li>DibiFluentPostgreDataSource - fix for BC break in dibi 4.1.2 in text search (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/elring/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/elring\">@elring</a>)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.21...v6.2.22\"><tt>v6.2.21...v6.2.22</tt></a></p>"
+  },
+  "27550824": {
+    "org": "contributte",
+    "repo": "latte-parsedown-extra",
+    "tag": "1.5.2",
+    "name": "1.5.2",
+    "created_at": "2020-06-15T10:39:59Z",
+    "published_at": "2020-06-15T10:41:07Z",
+    "html_url": "https://github.com/contributte/latte-parsedown-extra/releases/tag/1.5.2",
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"page_facing_up\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4c4.png\">📄</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/latte-parsedown-extra/compare/1.5.1...1.5.2\"><tt>1.5.1...1.5.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow latte 2.8</li>\n</ul>"
+  },
+  "27558762": {
+    "org": "contributte",
+    "repo": "reCAPTCHA",
+    "tag": "v3.3.1",
+    "name": "v3.3.1",
+    "created_at": "2020-06-15T13:42:54Z",
+    "published_at": "2020-06-15T14:15:45Z",
+    "html_url": "https://github.com/contributte/reCAPTCHA/releases/tag/v3.3.1",
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"jack_o_lantern\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f383.png\">🎃</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/reCAPTCHA/compare/v3.3.0...v3.3.1\"><tt>v3.3.0...v3.3.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Fix calling constructor in InvisibleReCaptchaBinding</li>\n</ul>"
+  },
+  "27602818": {
+    "org": "nettrine",
+    "repo": "orm",
+    "tag": "v0.7.0",
+    "name": "v0.7.0",
+    "created_at": "2020-06-16T15:23:14Z",
+    "published_at": "2020-06-16T15:24:05Z",
+    "html_url": "https://github.com/nettrine/orm/releases/tag/v0.7.0",
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"nail_care\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f485.png\">💅</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/orm/compare/v0.6.1...v0.7.0\"><tt>v0.6.1...v0.7.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Rework mapping [BC break] [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"621023291\" data-permission-text=\"Title is private\" data-url=\"https://github.com/nettrine/orm/issues/75\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/nettrine/orm/pull/75/hovercard\" href=\"https://github.com/nettrine/orm/pull/75\">#75</a>]</li>\n</ul>\n<hr>\n<p>Configuration for annotation and xml changed.</p>\n<p>Before</p>\n<div class=\"highlight highlight-source-yaml\"><pre><span class=\"pl-ent\">nettrine.orm.annotations</span>:\n  <span class=\"pl-ent\">namespaces</span>: <span class=\"pl-s\">[App\\Model\\Database]</span>\n  <span class=\"pl-ent\">paths</span>: <span class=\"pl-s\">[%appDir%/Model/Database]</span></pre></div>\n<p>After</p>\n<div class=\"highlight highlight-source-yaml\"><pre><span class=\"pl-ent\">nettrine.orm.annotations</span>:\n  <span class=\"pl-ent\">mapping</span>:\n    <span class=\"pl-ent\">App\\Model\\Database</span>: <span class=\"pl-s\">%appDir%/Model/Database</span></pre></div>\n<hr>\n<p>Dropped TEntityMapping, introduced more powerfull EntityHelper.</p>\n<p>Before</p>\n<div class=\"highlight highlight-text-html-php\"><pre><span class=\"pl-k\">class</span> <span class=\"pl-v\">CategoryExtension</span> <span class=\"pl-k\">extends</span> <span class=\"pl-v\">CompilerExtension</span>\n{\n  <span class=\"pl-k\">use</span> <span class=\"pl-v\">TEntityMapping</span>;\n\n  <span class=\"pl-k\">public</span> <span class=\"pl-k\">function</span> <span class=\"pl-en\">beforeCompile</span>(): <span class=\"pl-smi\">void</span>\n  {\n    <span class=\"pl-s1\"><span class=\"pl-c1\">$</span><span class=\"pl-smi\">this</span></span>-&gt;<span class=\"pl-en\">setEntityMappings</span>([\n      <span class=\"pl-s\">'Forum'</span> =&gt; __DIR__ . <span class=\"pl-s\">'/../Entity'</span>,\n    ]);\n  }\n}</pre></div>\n<p>After</p>\n<div class=\"highlight highlight-text-html-php\"><pre><span class=\"pl-k\">class</span> <span class=\"pl-v\">CategoryExtension</span> <span class=\"pl-k\">extends</span> <span class=\"pl-v\">CompilerExtension</span>\n{\n  <span class=\"pl-k\">public</span> <span class=\"pl-k\">function</span> <span class=\"pl-en\">beforeCompile</span>(): <span class=\"pl-smi\">void</span>\n  {\n    <span class=\"pl-v\">MappingHelper</span>::<span class=\"pl-en\">of</span>(<span class=\"pl-s1\"><span class=\"pl-c1\">$</span><span class=\"pl-smi\">this</span></span>)\n        -&gt;<span class=\"pl-en\">addAnnotation</span>( __DIR__ . <span class=\"pl-s\">'/../app/Model/Database'</span>, <span class=\"pl-s\">'App\\Model\\Database'</span>)\n        -&gt;<span class=\"pl-en\">addAnnotation</span>( __DIR__ . <span class=\"pl-s\">'/../../modules/Forum/Database'</span>, <span class=\"pl-s\">'Forum\\Modules\\Database'</span>);\n  }\n}</pre></div>"
+  },
+  "27657959": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v5.7.6",
+    "name": "v5.7.6",
+    "created_at": "2020-06-17T20:19:22Z",
+    "published_at": "2020-06-17T20:21:42Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v5.7.6",
+    "body": "<p>Bump!</p>\n<ul>\n<li>Fix - paginator option 'All'  (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Sikipiki/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Sikipiki\">@Sikipiki</a>)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v5.7.5...v5.7.6\"><tt>v5.7.5...v5.7.6</tt></a></p>"
+  },
+  "27778497": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v6.2.23",
+    "name": "v6.2.23",
+    "created_at": "2020-06-22T09:37:13Z",
+    "published_at": "2020-06-22T09:40:41Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.23",
+    "body": "<p>Bump!</p>\n<ul>\n<li>assets: replace pushState to replaceState in history API (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/martenb/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/martenb\">@martenb</a>)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.22...v6.2.23\"><tt>v6.2.22...v6.2.23</tt></a></p>"
+  },
+  "27861540": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v6.2.24",
+    "name": "v6.2.24",
+    "created_at": "2020-06-24T08:03:15Z",
+    "published_at": "2020-06-24T08:03:51Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.24",
+    "body": "<p>Bump!</p>\n<ul>\n<li>Button group actions (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/besir/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/besir\">@besir</a>)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.23...v6.2.24\"><tt>v6.2.23...v6.2.24</tt></a></p>"
+  },
+  "27878500": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v6.2.25",
+    "name": "v6.2.25",
+    "created_at": "2020-06-24T15:12:33Z",
+    "published_at": "2020-06-24T15:14:06Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.25",
+    "body": "<p>Bump!</p>\n<ul>\n<li>GroupActionCollection: better type hints</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.24...v6.2.25\"><tt>v6.2.24...v6.2.25</tt></a></p>"
+  },
+  "27916314": {
+    "org": "contributte",
+    "repo": "datagrid-nette-database-data-source",
+    "tag": "v2.0.1",
+    "name": "v2.0.1",
+    "created_at": "2020-06-25T13:12:37Z",
+    "published_at": "2020-06-25T13:13:44Z",
+    "html_url": "https://github.com/contributte/datagrid-nette-database-data-source/releases/tag/v2.0.1",
+    "body": "<ul>\n<li>Fix range filter zero(falsy) value (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/K0nias/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/K0nias\">@K0nias</a>)</li>\n</ul>"
+  },
+  "27998565": {
+    "org": "contributte",
+    "repo": "translation",
+    "tag": "v0.7.0",
+    "name": "v0.7.0",
+    "created_at": "2020-06-25T06:42:02Z",
+    "published_at": "2020-07-01T04:45:11Z",
+    "html_url": "https://github.com/contributte/translation/releases/tag/v0.7.0",
+    "body": "<p>Bump!</p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/translation/compare/v0.6.1...v0.7.0\"><tt>v0.6.1...v0.7.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>bug fix, when can not use domain in sentense translation <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/translation/commit/26fa99330deb663770ef45e1f6e8cbf1f3fb3c23/hovercard\" href=\"https://github.com/contributte/translation/commit/26fa99330deb663770ef45e1f6e8cbf1f3fb3c23\"><tt>26fa993</tt></a></li>\n<li>some minor improvements</li>\n</ul>"
+  },
+  "28055928": {
+    "org": "contributte",
+    "repo": "image-storage",
+    "tag": "v2.0.2",
+    "name": "v2.0.2",
+    "created_at": "2020-06-30T08:07:03Z",
+    "published_at": "2020-06-30T08:07:49Z",
+    "html_url": "https://github.com/contributte/image-storage/releases/tag/v2.0.2",
+    "body": "<p>Bump!</p>\n<p>Changes:</p>\n<ul>\n<li>Fix - catch exception from Nette\\Utils\\Image::fromFile() when the image is unknown (e.g empty file) (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Sikipiki/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Sikipiki\">@Sikipiki</a>)</li>\n</ul>"
+  },
+  "28056570": {
+    "org": "contributte",
+    "repo": "deployer-extension",
+    "tag": "v3.1.0",
+    "name": "v3.1.0",
+    "created_at": "2020-06-30T08:20:44Z",
+    "published_at": "2020-06-30T08:25:06Z",
+    "html_url": "https://github.com/contributte/deployer-extension/releases/tag/v3.1.0",
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"game_die\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f3b2.png\">🎲</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/deployer-extension/compare/v3.0.1...v3.1.0\"><tt>v3.0.1...v3.1.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>upgrade to FTP deployment to v3.3.0</li>\n<li>allow to set permissions (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"421565764\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/deployer-extension/issues/5\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/deployer-extension/pull/5/hovercard\" href=\"https://github.com/contributte/deployer-extension/pull/5\">#5</a>)</li>\n<li>drop PHP 7.1</li>\n<li>add PHP 7.4</li>\n<li>upgrade phpstan v0.12</li>\n<li>repair tests</li>\n<li>fix codestyle</li>\n</ul>"
+  },
+  "28057736": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v6.2.26",
+    "name": "v6.2.26",
+    "created_at": "2020-06-30T08:41:00Z",
+    "published_at": "2020-06-30T08:54:01Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.26",
+    "body": "<p>Bump!</p>\n<ul>\n<li>Fixed group text action collision with another datagrid</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.25...v6.2.26\"><tt>v6.2.25...v6.2.26</tt></a></p>"
+  },
+  "28057837": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v5.7.7",
+    "name": "v5.7.7",
+    "created_at": "2020-06-30T08:39:05Z",
+    "published_at": "2020-06-30T08:56:07Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v5.7.7",
+    "body": "<p>Bump!</p>\n<ul>\n<li>Fixed group text action collision with another datagrid (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Matousek/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Matousek\">@Matousek</a>)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v5.7.6...v5.7.7\"><tt>v5.7.6...v5.7.7</tt></a></p>"
+  },
+  "28068935": {
+    "org": "ninjify",
+    "repo": "qa",
+    "tag": "v0.11",
+    "name": "v0.11",
+    "created_at": "2020-06-30T13:32:15Z",
+    "published_at": "2020-06-30T13:33:33Z",
+    "html_url": "https://github.com/ninjify/qa/releases/tag/v0.11",
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"face_with_head_bandage\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f915.png\">🤕</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/ninjify/qa/compare/v0.10...v0.11\"><tt>v0.10...v0.11</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>replace jakub-onderka/* with php-parallel-lint/*</li>\n<li>use ninjify/coding-standard v0.10</li>\n<li>added funding</li>\n</ul>"
+  },
+  "28108274": {
+    "org": "contributte",
+    "repo": "czech-post",
+    "tag": "v0.2.0",
+    "name": "v0.2.0",
+    "created_at": "2020-07-01T10:24:35Z",
+    "published_at": "2020-07-01T10:25:41Z",
+    "html_url": "https://github.com/contributte/czech-post/releases/tag/v0.2.0",
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"a\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f170.png\">🅰️</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/czech-post/compare/v0.1.0...v0.2.0\"><tt>v0.1.0...v0.2.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Use nette v3.0</li>\n<li>Use phpstan v0.12</li>\n</ul>"
+  },
+  "28307383": {
+    "org": "contributte",
+    "repo": "image-storage",
+    "tag": "v2.0.3",
+    "name": "v2.0.3",
+    "created_at": "2020-06-30T08:39:06Z",
+    "published_at": "2020-07-07T11:06:36Z",
+    "html_url": "https://github.com/contributte/image-storage/releases/tag/v2.0.3",
+    "body": "<p>Bump!</p>"
+  },
+  "28638701": {
+    "org": "contributte",
+    "repo": "mailing",
+    "tag": "v0.4.0",
+    "name": "v0.4.0",
+    "created_at": "2020-07-16T15:29:01Z",
+    "published_at": "2020-07-16T15:30:38Z",
+    "html_url": "https://github.com/contributte/mailing/releases/tag/v0.4.0",
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"qatar\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f1f6-1f1e6.png\">🇶🇦</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/mailing/compare/v0.3.2...v0.4.0\"><tt>v0.3.2...v0.4.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Relax latte dependency</li>\n<li>Allow to set plain text to message</li>\n</ul>"
+  },
+  "28822145": {
+    "org": "contributte",
+    "repo": "image-storage",
+    "tag": "v2.0.4",
+    "name": "",
+    "created_at": "2020-07-22T11:10:25Z",
+    "published_at": "2020-07-22T11:11:51Z",
+    "html_url": "https://github.com/contributte/image-storage/releases/tag/v2.0.4",
+    "body": "<p>Bump!</p>\n<ul>\n<li>Added option to delete only changed images (eg crop, resize, ...) (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Sikipiki/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Sikipiki\">@Sikipiki</a>)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/image-storage/compare/v2.0.3...v2.0.4\"><tt>v2.0.3...v2.0.4</tt></a></p>"
+  },
+  "28871296": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v5.1.0",
+    "name": "v5.1.0",
+    "created_at": "2020-07-23T13:10:33Z",
+    "published_at": "2020-07-23T13:11:54Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v5.1.0",
+    "body": "<p>Bump!</p>\n<ul>\n<li>Get rid of damejidlo/datetime-factory</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/jsonrpc/compare/v5.0.0...v5.1.0\"><tt>v5.0.0...v5.1.0</tt></a></p>"
+  },
+  "28963991": {
+    "org": "contributte",
+    "repo": "nextras-orm-generator",
+    "tag": "v0.3",
+    "name": "v0.3",
+    "created_at": "2020-07-26T17:07:09Z",
+    "published_at": "2020-07-26T17:08:30Z",
+    "html_url": "https://github.com/contributte/nextras-orm-generator/releases/tag/v0.3",
+    "body": "<p>Bump!  <g-emoji class=\"g-emoji\" alias=\"top\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f51d.png\">🔝</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/nextras-orm-generator/compare/0.2...0.3\"><tt>0.2...0.3</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>generator improvements (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"447707603\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/nextras-orm-generator/issues/15\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/nextras-orm-generator/pull/15/hovercard\" href=\"https://github.com/contributte/nextras-orm-generator/pull/15\">#15</a>, <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"447711441\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/nextras-orm-generator/issues/16\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/nextras-orm-generator/pull/16/hovercard\" href=\"https://github.com/contributte/nextras-orm-generator/pull/16\">#16</a>)</li>\n<li>readme polished</li>\n<li>raise PHP 7.2</li>\n<li>fixes for Nette 3</li>\n</ul>"
+  },
+  "29449481": {
+    "org": "nettrine",
+    "repo": "orm",
+    "tag": "v0.7.1",
+    "name": "v0.7.1",
+    "created_at": "2020-08-07T11:51:31Z",
+    "published_at": "2020-08-07T13:17:24Z",
+    "html_url": "https://github.com/nettrine/orm/releases/tag/v0.7.1",
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"u55b6\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f23a.png\">🈺</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/orm/compare/v0.7.0...v0.7.1\"><tt>v0.7.0...v0.7.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Extension supports string/service/reference definition for namingStrategy, quoteStrategy, entityListenerResolver, repositoryFactory</li>\n<li>Better docs</li>\n<li>Better tests</li>\n<li>Allow PHP &gt;=7.2</li>\n</ul>"
+  },
+  "29554346": {
+    "org": "contributte",
+    "repo": "mail",
+    "tag": "v0.5.2",
+    "name": "v0.5.2",
+    "created_at": "2020-03-15T14:15:41Z",
+    "published_at": "2020-08-11T11:21:33Z",
+    "html_url": "https://github.com/contributte/mail/releases/tag/v0.5.2",
+    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/mail/compare/v0.5.1...v0.5.2\"><tt>v0.5.1...v0.5.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>upgrade phpstan &amp; coding standard</li>\n</ul>"
+  },
+  "29980577": {
+    "org": "contributte",
+    "repo": "validator",
+    "tag": "v1.0.0",
+    "name": "v1.0.0",
+    "created_at": "2020-08-21T13:17:50Z",
+    "published_at": "2020-08-21T13:20:13Z",
+    "html_url": "https://github.com/contributte/validator/releases/tag/v1.0.0",
+    "body": "<p>Initial release <g-emoji class=\"g-emoji\" alias=\"tada\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f389.png\">🎉</g-emoji></p>"
   }
 }

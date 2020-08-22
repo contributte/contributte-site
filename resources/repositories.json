@@ -23,7 +23,7 @@
     },
     "stars": 54,
     "watchers": 54,
-    "forks": 17,
+    "forks": 18,
     "composer": {
       "php": [
         "7.2",
@@ -126,7 +126,7 @@
     },
     "stars": 19,
     "watchers": 19,
-    "forks": 5,
+    "forks": 6,
     "composer": {
       "nette": [
         "3.0"
@@ -136,7 +136,7 @@
         "7.4"
       ]
     },
-    "issues": 1
+    "issues": 0
   },
   "contributte/event-dispatcher": {
     "org": "contributte",
@@ -161,8 +161,8 @@
         "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/event-dispatcher/compare/v0.6.0...v0.7.0\"><tt>v0.6.0...v0.7.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allows symfony/event-dispatcher ^5.0.0 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/event-dispatcher/commit/0c6678feb059b112ed642155c3f08b77b92f36a8/hovercard\" href=\"https://github.com/contributte/event-dispatcher/commit/0c6678feb059b112ed642155c3f08b77b92f36a8\"><tt>0c6678f</tt></a></li>\n</ul>"
       }
     },
-    "stars": 17,
-    "watchers": 17,
+    "stars": 18,
+    "watchers": 18,
     "forks": 4,
     "composer": {
       "php": [
@@ -200,8 +200,8 @@
     },
     "stars": 53,
     "watchers": 53,
-    "forks": 27,
-    "issues": 18
+    "forks": 26,
+    "issues": 17
   },
   "contributte/event-dispatcher-extra": {
     "org": "contributte",
@@ -301,7 +301,7 @@
     },
     "stars": 32,
     "watchers": 32,
-    "forks": 13,
+    "forks": 14,
     "composer": {
       "nette": [],
       "php": [
@@ -406,7 +406,7 @@
     },
     "stars": 11,
     "watchers": 11,
-    "forks": 12,
+    "forks": 14,
     "composer": {
       "php": [
         "7.2",
@@ -416,7 +416,7 @@
         "3.0"
       ]
     },
-    "issues": 8
+    "issues": 7
   },
   "contributte/application": {
     "org": "contributte",
@@ -522,7 +522,7 @@
         "7.4"
       ]
     },
-    "issues": 0
+    "issues": 1
   },
   "contributte/database": {
     "org": "contributte",
@@ -761,9 +761,9 @@
         "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/facebook/compare/v0.2...v0.3.0\"><tt>v0.2...v0.3.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/facebook/commit/332b6927b6811af2e6afdc8622922f99ce948b70/hovercard\" href=\"https://github.com/contributte/facebook/commit/332b6927b6811af2e6afdc8622922f99ce948b70\"><tt>332b692</tt></a></li>\n<li>FacebookLogin::getMe((string -&gt; string|AccessToken) $accessToken) <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/facebook/commit/c08153c1b6e2890660ce27e2f1cdf217155925a3/hovercard\" href=\"https://github.com/contributte/facebook/commit/c08153c1b6e2890660ce27e2f1cdf217155925a3\"><tt>c08153c</tt></a></li>\n</ul>"
       }
     },
-    "stars": 8,
-    "watchers": 8,
-    "forks": 5,
+    "stars": 10,
+    "watchers": 10,
+    "forks": 6,
     "composer": {
       "php": [
         "7.2",
@@ -771,7 +771,7 @@
       ],
       "nette": []
     },
-    "issues": 1
+    "issues": 2
   },
   "contributte/fio": {
     "org": "contributte",
@@ -915,7 +915,7 @@
         "3.0"
       ]
     },
-    "issues": 2
+    "issues": 1
   },
   "contributte/latte-parsedown-extra": {
     "org": "contributte",
@@ -976,8 +976,8 @@
         "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/mail/compare/v0.5.0...v0.5.1\"><tt>v0.5.0...v0.5.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allows nette/utils ~3.1.0 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/mail/commit/1567f7f6005d456686573fec5d2fb1323bebeea0/hovercard\" href=\"https://github.com/contributte/mail/commit/1567f7f6005d456686573fec5d2fb1323bebeea0\"><tt>1567f7f</tt></a></li>\n</ul>"
       }
     },
-    "stars": 5,
-    "watchers": 5,
+    "stars": 6,
+    "watchers": 6,
     "forks": 4,
     "composer": {
       "nette": [],
@@ -1180,9 +1180,9 @@
         "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"hourglass\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/231b.png\">⌛️</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/nextras-orm-generator/compare/0.1...0.2\"><tt>0.1...0.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>change name to contributte/nextras-orm-generator</li>\n<li>support only for PHP7.1+</li>\n<li>generate getEntityClassNames method on repository</li>\n<li>singularization (converting plural table name to singular class names)</li>\n<li>use Nextras\\Dbal\\Utils\\DateTimeImmutable for dates</li>\n<li>option to generate column constants</li>\n<li>model generator</li>\n<li>compatibility with php-generator 3+</li>\n<li>add config for (not) generating relations</li>\n<li>set primary key on generated entities</li>\n</ul>"
       }
     },
-    "stars": 12,
-    "watchers": 12,
-    "forks": 10,
+    "stars": 13,
+    "watchers": 13,
+    "forks": 11,
     "composer": {
       "nette": [
         "2.4"
@@ -1368,7 +1368,7 @@
       ],
       "nette": []
     },
-    "issues": 6
+    "issues": 5
   },
   "contributte/utils": {
     "org": "contributte",
@@ -1768,7 +1768,7 @@
         "7.4"
       ]
     },
-    "issues": 3
+    "issues": 4
   },
   "nettrine/orm": {
     "org": "nettrine",
@@ -1793,8 +1793,8 @@
         "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"nail_care\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f485.png\">💅</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/orm/compare/v0.6.1...v0.7.0\"><tt>v0.6.1...v0.7.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Rework mapping [BC break] [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"621023291\" data-permission-text=\"Title is private\" data-url=\"https://github.com/nettrine/orm/issues/75\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/nettrine/orm/pull/75/hovercard\" href=\"https://github.com/nettrine/orm/pull/75\">#75</a>]</li>\n</ul>\n<hr>\n<p>Configuration for annotation and xml changed.</p>\n<p>Before</p>\n<div class=\"highlight highlight-source-yaml\"><pre><span class=\"pl-ent\">nettrine.orm.annotations</span>:\n  <span class=\"pl-ent\">namespaces</span>: <span class=\"pl-s\">[App\\Model\\Database]</span>\n  <span class=\"pl-ent\">paths</span>: <span class=\"pl-s\">[%appDir%/Model/Database]</span></pre></div>\n<p>After</p>\n<div class=\"highlight highlight-source-yaml\"><pre><span class=\"pl-ent\">nettrine.orm.annotations</span>:\n  <span class=\"pl-ent\">mapping</span>:\n    <span class=\"pl-s\">%appDir%/Model/Database: App\\Model\\Database</span></pre></div>\n<hr>\n<p>Dropped TEntityMapping, introduced more powerfull EntityHelper.</p>\n<p>Before</p>\n<div class=\"highlight highlight-text-html-php\"><pre><span class=\"pl-k\">class</span> <span class=\"pl-v\">CategoryExtension</span> <span class=\"pl-k\">extends</span> <span class=\"pl-v\">CompilerExtension</span>\n{\n  <span class=\"pl-k\">use</span> <span class=\"pl-v\">TEntityMapping</span>;\n\n  <span class=\"pl-k\">public</span> <span class=\"pl-k\">function</span> <span class=\"pl-en\">beforeCompile</span>(): <span class=\"pl-smi\">void</span>\n  {\n    <span class=\"pl-s1\"><span class=\"pl-c1\">$</span><span class=\"pl-smi\">this</span></span>-&gt;<span class=\"pl-en\">setEntityMappings</span>([\n      <span class=\"pl-s\">'Forum'</span> =&gt; __DIR__ . <span class=\"pl-s\">'/../Entity'</span>,\n    ]);\n  }\n}</pre></div>\n<p>After</p>\n<div class=\"highlight highlight-text-html-php\"><pre><span class=\"pl-k\">class</span> <span class=\"pl-v\">CategoryExtension</span> <span class=\"pl-k\">extends</span> <span class=\"pl-v\">CompilerExtension</span>\n{\n  <span class=\"pl-k\">public</span> <span class=\"pl-k\">function</span> <span class=\"pl-en\">beforeCompile</span>(): <span class=\"pl-smi\">void</span>\n  {\n    <span class=\"pl-v\">MappingHelper</span>::<span class=\"pl-en\">of</span>(<span class=\"pl-s1\"><span class=\"pl-c1\">$</span><span class=\"pl-smi\">this</span></span>)\n        -&gt;<span class=\"pl-en\">addAnnotation</span>( __DIR__ . <span class=\"pl-s\">'/../app/Model/Database'</span>, <span class=\"pl-s\">'App\\Model\\Database'</span>)\n        -&gt;<span class=\"pl-en\">addAnnotation</span>( __DIR__ . <span class=\"pl-s\">'/../../modules/Forum/Database'</span>, <span class=\"pl-s\">'Forum\\Modules\\Database'</span>);\n  }\n}</pre></div>"
       }
     },
-    "stars": 43,
-    "watchers": 43,
+    "stars": 42,
+    "watchers": 42,
     "forks": 26,
     "composer": {
       "nette": [],
@@ -1803,7 +1803,7 @@
         "7.4"
       ]
     },
-    "issues": 8
+    "issues": 7
   },
   "nettrine/fixtures": {
     "org": "nettrine",
@@ -1900,8 +1900,8 @@
         "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/extensions-atlantic18/compare/v0.4.0...v0.5.0\"><tt>v0.4.0...v0.5.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Namespace changed to <code>Nettrine\\Extensions\\Atlantic18</code> <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/extensions-atlantic18/commit/85bca4fd84cfd08748a2a0c2ae2eb43924e800e2/hovercard\" href=\"https://github.com/nettrine/extensions-atlantic18/commit/85bca4fd84cfd08748a2a0c2ae2eb43924e800e2\"><tt>85bca4f</tt></a>, <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/extensions-atlantic18/commit/bc5a6d8cf66bca73f10a71553751faf8745b1aae/hovercard\" href=\"https://github.com/nettrine/extensions-atlantic18/commit/bc5a6d8cf66bca73f10a71553751faf8745b1aae\"><tt>bc5a6d8</tt></a></li>\n<li><code>ipTraceable</code> requires <code>ipValue</code> <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/extensions-atlantic18/commit/edefd1faa9c6f678931b97867abb1eebc951e264/hovercard\" href=\"https://github.com/nettrine/extensions-atlantic18/commit/edefd1faa9c6f678931b97867abb1eebc951e264\"><tt>edefd1f</tt></a>, <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/extensions-atlantic18/commit/01aced63e7f53fb67cf0c1e1c6ab037cc4052d2d/hovercard\" href=\"https://github.com/nettrine/extensions-atlantic18/commit/01aced63e7f53fb67cf0c1e1c6ab037cc4052d2d\"><tt>01aced6</tt></a></li>\n<li>Removed <code>nettrine.subscriber</code> service tags (not needed by nettrine/dbal &gt;=0.5.1) <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/extensions-atlantic18/commit/97b9927d9245ccd5b613ec7cba331e45e39f963b/hovercard\" href=\"https://github.com/nettrine/extensions-atlantic18/commit/97b9927d9245ccd5b613ec7cba331e45e39f963b\"><tt>97b9927</tt></a></li>\n</ul>"
       }
     },
-    "stars": 9,
-    "watchers": 9,
+    "stars": 8,
+    "watchers": 8,
     "forks": 8,
     "composer": {
       "nette": [
@@ -1937,8 +1937,8 @@
         "body": "<p>Initial release</p>"
       }
     },
-    "stars": 3,
-    "watchers": 3,
+    "stars": 2,
+    "watchers": 2,
     "forks": 1,
     "issues": 0,
     "composer": {
@@ -1974,8 +1974,8 @@
         "body": "<p>Initial release</p>"
       }
     },
-    "stars": 5,
-    "watchers": 5,
+    "stars": 4,
+    "watchers": 4,
     "forks": 1,
     "issues": 0,
     "composer": {
@@ -1998,8 +1998,8 @@
     "description": "🔍 Doctrine (https://github.com/oroinc/doctrine-extensions) extension for Nette Framework",
     "category": "doctrine",
     "releases": {},
-    "stars": 2,
-    "watchers": 2,
+    "stars": 1,
+    "watchers": 1,
     "forks": 1,
     "issues": 0,
     "composer": {
@@ -2036,7 +2036,7 @@
     },
     "stars": 6,
     "watchers": 6,
-    "forks": 4,
+    "forks": 5,
     "composer": {
       "php": [
         "7.2",
@@ -2145,7 +2145,7 @@
     },
     "stars": 19,
     "watchers": 19,
-    "forks": 14,
+    "forks": 15,
     "composer": {
       "php": [
         "7.2",
@@ -2247,9 +2247,9 @@
         "body": "<p>Bump!</p>"
       }
     },
-    "stars": 23,
-    "watchers": 23,
-    "forks": 15,
+    "stars": 24,
+    "watchers": 24,
+    "forks": 17,
     "composer": {
       "nette": [
         "2.4"
@@ -2403,7 +2403,7 @@
       ],
       "nette": []
     },
-    "issues": 5
+    "issues": 8
   },
   "contributte/comgate": {
     "org": "contributte",
@@ -2427,9 +2427,9 @@
         "body": "<p>First bump! <g-emoji class=\"g-emoji\" alias=\"fist_oncoming\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png\">👊</g-emoji></p>"
       }
     },
-    "stars": 9,
-    "watchers": 9,
-    "forks": 2,
+    "stars": 10,
+    "watchers": 10,
+    "forks": 4,
     "composer": {
       "php": [
         "7.2",
@@ -2464,8 +2464,8 @@
         "body": "<p>Bump!</p>\n<ul>\n<li>anabelle/anabelle -&gt; contributte/anabelle</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/anabelle/compare/v2.2.0...v3.0.0\"><tt>v2.2.0...v3.0.0</tt></a></p>"
       }
     },
-    "stars": 17,
-    "watchers": 17,
+    "stars": 19,
+    "watchers": 19,
     "forks": 5,
     "composer": {
       "php": [
@@ -2622,9 +2622,9 @@
         "body": "<p>Bump!</p>\n<ul>\n<li>Fixed group text action collision with another datagrid</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.25...v6.2.26\"><tt>v6.2.25...v6.2.26</tt></a></p>"
       }
     },
-    "stars": 200,
-    "watchers": 200,
-    "forks": 150,
+    "stars": 205,
+    "watchers": 205,
+    "forks": 148,
     "composer": {
       "nette": [
         "2.4"
@@ -2634,7 +2634,7 @@
         "7.4"
       ]
     },
-    "issues": 91
+    "issues": 90
   },
   "contributte/api-router": {
     "org": "contributte",
@@ -2732,8 +2732,8 @@
         "body": ""
       }
     },
-    "stars": 52,
-    "watchers": 52,
+    "stars": 53,
+    "watchers": 53,
     "forks": 15,
     "composer": {
       "nette": [
@@ -2768,8 +2768,8 @@
         "body": "<p>Bump!</p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/translation/compare/v0.6.1...v0.7.0\"><tt>v0.6.1...v0.7.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>bug fix, when can not use domain in sentense translation <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/translation/commit/26fa99330deb663770ef45e1f6e8cbf1f3fb3c23/hovercard\" href=\"https://github.com/contributte/translation/commit/26fa99330deb663770ef45e1f6e8cbf1f3fb3c23\"><tt>26fa993</tt></a></li>\n<li>some minor improvements</li>\n</ul>"
       }
     },
-    "stars": 31,
-    "watchers": 31,
+    "stars": 32,
+    "watchers": 32,
     "forks": 9,
     "composer": {
       "php": [
@@ -2804,8 +2804,8 @@
         "body": "<p><g-emoji class=\"g-emoji\" alias=\"elephant\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f418.png\">🐘</g-emoji> 7.4</p>\n<p>Diff: <a href=\"https://github.com/contributte/gosms/compare/v0.2...v0.3\">v0.2...v0.3</a></p>\n<p>Changes:</p>\n<ul>\n<li>support php7.4</li>\n<li>nette/utils ^3.1.0</li>\n</ul>"
       }
     },
-    "stars": 2,
-    "watchers": 2,
+    "stars": 3,
+    "watchers": 3,
     "forks": 3,
     "composer": {
       "php": [
@@ -2983,8 +2983,8 @@
         "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"boy\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f466.png\">👦</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/ninjify/nunjuck/compare/v0.2.1...v0.3.0\"><tt>v0.2.1...v0.3.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Upgrade nette/tester to 2.3.0</li>\n<li>Codestyle</li>\n<li>Tune readme</li>\n</ul>"
       }
     },
-    "stars": 4,
-    "watchers": 4,
+    "stars": 3,
+    "watchers": 3,
     "forks": 0,
     "issues": 0,
     "composer": {
@@ -3017,8 +3017,8 @@
         "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"+1\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png\">👍</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/ninjify/coding-standard/compare/v0.9...v0.10\"><tt>v0.9...v0.10</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Import slevomat sniffs individually</li>\n<li>Requires php ^7.4, sniffs expect code to be php 7.4 compatible</li>\n<li>Requires slevomat/coding-standard ~6.0.5</li>\n</ul>"
       }
     },
-    "stars": 12,
-    "watchers": 12,
+    "stars": 11,
+    "watchers": 11,
     "forks": 5,
     "issues": 3,
     "composer": {
@@ -3039,8 +3039,8 @@
     },
     "description": "🤮Tuned Code Checker",
     "releases": {},
-    "stars": 2,
-    "watchers": 2,
+    "stars": 1,
+    "watchers": 1,
     "forks": 0,
     "issues": 0,
     "composer": {
@@ -3076,7 +3076,7 @@
     "stars": 3,
     "watchers": 3,
     "forks": 1,
-    "issues": 0,
+    "issues": 2,
     "composer": {
       "php": [
         "7.2",
@@ -3162,7 +3162,7 @@
     "stars": 2,
     "watchers": 2,
     "forks": 0,
-    "issues": 1,
+    "issues": 0,
     "description": "🙅‍♀️ Validator (symfony/validator) to Nette Framework (@nette)"
   },
   "nettrine/odm": {

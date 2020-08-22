@@ -927,7 +927,7 @@
     "created_at": "2017-01-06T21:33:56Z",
     "published_at": "2017-01-16T15:36:34Z",
     "html_url": "https://github.com/contributte/psr7-http-message/releases/tag/v0.1",
-    "body": "<p>First bump! <g-emoji class=\"g-emoji\" alias=\"fist_oncoming\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png\">����</g-emoji></p>"
+    "body": "<p>First bump! <g-emoji class=\"g-emoji\" alias=\"fist_oncoming\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png\">👊</g-emoji></p>"
   },
   "5206061": {
     "org": "contributte",
@@ -1827,7 +1827,7 @@
     "created_at": "2017-07-16T11:35:42Z",
     "published_at": "2017-07-16T11:36:43Z",
     "html_url": "https://github.com/ninjify/qa/releases/tag/0.6.0",
-    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"man_astronaut\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f680.png\">���‍🚀</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/ninjify/qa/compare/0.5.0...0.6.0\"><tt>0.5.0...0.6.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>use coding-standard v0.5</li>\n</ul>"
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"man_astronaut\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f680.png\">👨‍🚀</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/ninjify/qa/compare/0.5.0...0.6.0\"><tt>0.5.0...0.6.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>use coding-standard v0.5</li>\n</ul>"
   },
   "7055815": {
     "org": "contributte",
@@ -2227,7 +2227,7 @@
     "created_at": "2017-10-24T13:15:43Z",
     "published_at": "2017-10-25T13:08:32Z",
     "html_url": "https://github.com/nettrine/annotations/releases/tag/v0.1",
-    "body": "<p>First bump! <g-emoji class=\"g-emoji\" alias=\"fist_oncoming\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png\">���</g-emoji></p>"
+    "body": "<p>First bump! <g-emoji class=\"g-emoji\" alias=\"fist_oncoming\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png\">👊</g-emoji></p>"
   },
   "8301262": {
     "org": "contributte",
@@ -5237,7 +5237,7 @@
     "created_at": "2019-06-17T17:59:19Z",
     "published_at": "2019-06-17T22:27:57Z",
     "html_url": "https://github.com/contributte/mailing/releases/tag/v0.3.0",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/mailing/compare/v0.2...v0.3.0\"><tt>v0.2...v0.3.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/mailing/commit/0e446f2f9dbf1593638801c45966ef3419e330e5/hovercard\" href=\"https://github.com/contributte/mailing/commit/0e446f2f9dbf1593638801c45966ef3419e330e5\"><tt>0e446f2</tt></a></li>\n</ul>"
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"joystick\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f579.png\">🕹️</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/mailing/compare/v0.2...v0.3.0\"><tt>v0.2...v0.3.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/mailing/commit/0e446f2f9dbf1593638801c45966ef3419e330e5/hovercard\" href=\"https://github.com/contributte/mailing/commit/0e446f2f9dbf1593638801c45966ef3419e330e5\"><tt>0e446f2</tt></a></li>\n</ul>"
   },
   "18049098": {
     "org": "contributte",
@@ -5797,7 +5797,7 @@
     "created_at": "2019-09-09T18:31:33Z",
     "published_at": "2019-09-12T19:20:37Z",
     "html_url": "https://github.com/contributte/mailing/releases/tag/v0.3.1",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/mailing/compare/v0.3.0...v0.3.1\"><tt>v0.3.0...v0.3.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow nette/mail 3.1 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/mailing/commit/dee59f7504820d53bbd04c5f6b3310976bc19635/hovercard\" href=\"https://github.com/contributte/mailing/commit/dee59f7504820d53bbd04c5f6b3310976bc19635\"><tt>dee59f7</tt></a></li>\n</ul>"
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"kaaba\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f54b.png\">🕋</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/mailing/compare/v0.3.0...v0.3.1\"><tt>v0.3.0...v0.3.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow nette/mail 3.1 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/mailing/commit/dee59f7504820d53bbd04c5f6b3310976bc19635/hovercard\" href=\"https://github.com/contributte/mailing/commit/dee59f7504820d53bbd04c5f6b3310976bc19635\"><tt>dee59f7</tt></a></li>\n</ul>"
   },
   "19954262": {
     "org": "ninjify",
@@ -6547,7 +6547,7 @@
     "created_at": "2020-01-05T18:37:06Z",
     "published_at": "2020-01-05T18:38:23Z",
     "html_url": "https://github.com/contributte/mailing/releases/tag/v0.3.2",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/mailing/compare/v0.3.1...v0.3.2\"><tt>v0.3.1...v0.3.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allows latte ~2.6.0 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/mailing/commit/5c4237cd0fa36706fd0f0f6256277bb6267fbfcd/hovercard\" href=\"https://github.com/contributte/mailing/commit/5c4237cd0fa36706fd0f0f6256277bb6267fbfcd\"><tt>5c4237c</tt></a></li>\n</ul>"
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"jack_o_lantern\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f383.png\">🎃</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/mailing/compare/v0.3.1...v0.3.2\"><tt>v0.3.1...v0.3.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allows latte ~2.6.0 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/mailing/commit/5c4237cd0fa36706fd0f0f6256277bb6267fbfcd/hovercard\" href=\"https://github.com/contributte/mailing/commit/5c4237cd0fa36706fd0f0f6256277bb6267fbfcd\"><tt>5c4237c</tt></a></li>\n</ul>"
   },
   "22604259": {
     "org": "contributte",
@@ -7257,7 +7257,7 @@
     "created_at": "2020-06-16T15:23:14Z",
     "published_at": "2020-06-16T15:24:05Z",
     "html_url": "https://github.com/nettrine/orm/releases/tag/v0.7.0",
-    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"nail_care\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f485.png\">💅</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/orm/compare/v0.6.1...v0.7.0\"><tt>v0.6.1...v0.7.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Rework mapping [BC break] [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"621023291\" data-permission-text=\"Title is private\" data-url=\"https://github.com/nettrine/orm/issues/75\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/nettrine/orm/pull/75/hovercard\" href=\"https://github.com/nettrine/orm/pull/75\">#75</a>]</li>\n</ul>\n<hr>\n<p>Configuration for annotation and xml changed.</p>\n<p>Before</p>\n<div class=\"highlight highlight-source-yaml\"><pre><span class=\"pl-ent\">nettrine.orm.annotations</span>:\n  <span class=\"pl-ent\">namespaces</span>: <span class=\"pl-s\">[App\\Model\\Database]</span>\n  <span class=\"pl-ent\">paths</span>: <span class=\"pl-s\">[%appDir%/Model/Database]</span></pre></div>\n<p>After</p>\n<div class=\"highlight highlight-source-yaml\"><pre><span class=\"pl-ent\">nettrine.orm.annotations</span>:\n  <span class=\"pl-ent\">mapping</span>:\n    <span class=\"pl-s\">%appDir%/Model/Database: App\\Model\\Database</span></pre></div>\n<hr>\n<p>Dropped TEntityMapping, introduced more powerfull EntityHelper.</p>\n<p>Before</p>\n<div class=\"highlight highlight-text-html-php\"><pre><span class=\"pl-k\">class</span> <span class=\"pl-v\">CategoryExtension</span> <span class=\"pl-k\">extends</span> <span class=\"pl-v\">CompilerExtension</span>\n{\n  <span class=\"pl-k\">use</span> <span class=\"pl-v\">TEntityMapping</span>;\n\n  <span class=\"pl-k\">public</span> <span class=\"pl-k\">function</span> <span class=\"pl-en\">beforeCompile</span>(): <span class=\"pl-smi\">void</span>\n  {\n    <span class=\"pl-s1\"><span class=\"pl-c1\">$</span><span class=\"pl-smi\">this</span></span>-&gt;<span class=\"pl-en\">setEntityMappings</span>([\n      <span class=\"pl-s\">'Forum'</span> =&gt; __DIR__ . <span class=\"pl-s\">'/../Entity'</span>,\n    ]);\n  }\n}</pre></div>\n<p>After</p>\n<div class=\"highlight highlight-text-html-php\"><pre><span class=\"pl-k\">class</span> <span class=\"pl-v\">CategoryExtension</span> <span class=\"pl-k\">extends</span> <span class=\"pl-v\">CompilerExtension</span>\n{\n  <span class=\"pl-k\">public</span> <span class=\"pl-k\">function</span> <span class=\"pl-en\">beforeCompile</span>(): <span class=\"pl-smi\">void</span>\n  {\n    <span class=\"pl-v\">MappingHelper</span>::<span class=\"pl-en\">of</span>(<span class=\"pl-s1\"><span class=\"pl-c1\">$</span><span class=\"pl-smi\">this</span></span>)\n        -&gt;<span class=\"pl-en\">addAnnotation</span>( __DIR__ . <span class=\"pl-s\">'/../app/Model/Database'</span>, <span class=\"pl-s\">'App\\Model\\Database'</span>)\n        -&gt;<span class=\"pl-en\">addAnnotation</span>( __DIR__ . <span class=\"pl-s\">'/../../modules/Forum/Database'</span>, <span class=\"pl-s\">'Forum\\Modules\\Database'</span>);\n  }\n}</pre></div>"
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"nail_care\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f485.png\">💅</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/orm/compare/v0.6.1...v0.7.0\"><tt>v0.6.1...v0.7.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Rework mapping [BC break] [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"621023291\" data-permission-text=\"Title is private\" data-url=\"https://github.com/nettrine/orm/issues/75\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/nettrine/orm/pull/75/hovercard\" href=\"https://github.com/nettrine/orm/pull/75\">#75</a>]</li>\n</ul>\n<hr>\n<p>Configuration for annotation and xml changed.</p>\n<p>Before</p>\n<div class=\"highlight highlight-source-yaml\"><pre><span class=\"pl-ent\">nettrine.orm.annotations</span>:\n  <span class=\"pl-ent\">namespaces</span>: <span class=\"pl-s\">[App\\Model\\Database]</span>\n  <span class=\"pl-ent\">paths</span>: <span class=\"pl-s\">[%appDir%/Model/Database]</span></pre></div>\n<p>After</p>\n<div class=\"highlight highlight-source-yaml\"><pre><span class=\"pl-ent\">nettrine.orm.annotations</span>:\n  <span class=\"pl-ent\">mapping</span>:\n    <span class=\"pl-ent\">App\\Model\\Database</span>: <span class=\"pl-s\">%appDir%/Model/Database</span></pre></div>\n<hr>\n<p>Dropped TEntityMapping, introduced more powerfull EntityHelper.</p>\n<p>Before</p>\n<div class=\"highlight highlight-text-html-php\"><pre><span class=\"pl-k\">class</span> <span class=\"pl-v\">CategoryExtension</span> <span class=\"pl-k\">extends</span> <span class=\"pl-v\">CompilerExtension</span>\n{\n  <span class=\"pl-k\">use</span> <span class=\"pl-v\">TEntityMapping</span>;\n\n  <span class=\"pl-k\">public</span> <span class=\"pl-k\">function</span> <span class=\"pl-en\">beforeCompile</span>(): <span class=\"pl-smi\">void</span>\n  {\n    <span class=\"pl-s1\"><span class=\"pl-c1\">$</span><span class=\"pl-smi\">this</span></span>-&gt;<span class=\"pl-en\">setEntityMappings</span>([\n      <span class=\"pl-s\">'Forum'</span> =&gt; __DIR__ . <span class=\"pl-s\">'/../Entity'</span>,\n    ]);\n  }\n}</pre></div>\n<p>After</p>\n<div class=\"highlight highlight-text-html-php\"><pre><span class=\"pl-k\">class</span> <span class=\"pl-v\">CategoryExtension</span> <span class=\"pl-k\">extends</span> <span class=\"pl-v\">CompilerExtension</span>\n{\n  <span class=\"pl-k\">public</span> <span class=\"pl-k\">function</span> <span class=\"pl-en\">beforeCompile</span>(): <span class=\"pl-smi\">void</span>\n  {\n    <span class=\"pl-v\">MappingHelper</span>::<span class=\"pl-en\">of</span>(<span class=\"pl-s1\"><span class=\"pl-c1\">$</span><span class=\"pl-smi\">this</span></span>)\n        -&gt;<span class=\"pl-en\">addAnnotation</span>( __DIR__ . <span class=\"pl-s\">'/../app/Model/Database'</span>, <span class=\"pl-s\">'App\\Model\\Database'</span>)\n        -&gt;<span class=\"pl-en\">addAnnotation</span>( __DIR__ . <span class=\"pl-s\">'/../../modules/Forum/Database'</span>, <span class=\"pl-s\">'Forum\\Modules\\Database'</span>);\n  }\n}</pre></div>"
   },
   "27657959": {
     "org": "contributte",
@@ -7388,5 +7388,75 @@
     "published_at": "2020-07-07T11:06:36Z",
     "html_url": "https://github.com/contributte/image-storage/releases/tag/v2.0.3",
     "body": "<p>Bump!</p>"
+  },
+  "28638701": {
+    "org": "contributte",
+    "repo": "mailing",
+    "tag": "v0.4.0",
+    "name": "v0.4.0",
+    "created_at": "2020-07-16T15:29:01Z",
+    "published_at": "2020-07-16T15:30:38Z",
+    "html_url": "https://github.com/contributte/mailing/releases/tag/v0.4.0",
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"qatar\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f1f6-1f1e6.png\">🇶🇦</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/mailing/compare/v0.3.2...v0.4.0\"><tt>v0.3.2...v0.4.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Relax latte dependency</li>\n<li>Allow to set plain text to message</li>\n</ul>"
+  },
+  "28822145": {
+    "org": "contributte",
+    "repo": "image-storage",
+    "tag": "v2.0.4",
+    "name": "",
+    "created_at": "2020-07-22T11:10:25Z",
+    "published_at": "2020-07-22T11:11:51Z",
+    "html_url": "https://github.com/contributte/image-storage/releases/tag/v2.0.4",
+    "body": "<p>Bump!</p>\n<ul>\n<li>Added option to delete only changed images (eg crop, resize, ...) (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Sikipiki/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Sikipiki\">@Sikipiki</a>)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/image-storage/compare/v2.0.3...v2.0.4\"><tt>v2.0.3...v2.0.4</tt></a></p>"
+  },
+  "28871296": {
+    "org": "contributte",
+    "repo": "jsonrpc",
+    "tag": "v5.1.0",
+    "name": "v5.1.0",
+    "created_at": "2020-07-23T13:10:33Z",
+    "published_at": "2020-07-23T13:11:54Z",
+    "html_url": "https://github.com/contributte/jsonrpc/releases/tag/v5.1.0",
+    "body": "<p>Bump!</p>\n<ul>\n<li>Get rid of damejidlo/datetime-factory</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/jsonrpc/compare/v5.0.0...v5.1.0\"><tt>v5.0.0...v5.1.0</tt></a></p>"
+  },
+  "28963991": {
+    "org": "contributte",
+    "repo": "nextras-orm-generator",
+    "tag": "v0.3",
+    "name": "v0.3",
+    "created_at": "2020-07-26T17:07:09Z",
+    "published_at": "2020-07-26T17:08:30Z",
+    "html_url": "https://github.com/contributte/nextras-orm-generator/releases/tag/v0.3",
+    "body": "<p>Bump!  <g-emoji class=\"g-emoji\" alias=\"top\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f51d.png\">🔝</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/nextras-orm-generator/compare/0.2...0.3\"><tt>0.2...0.3</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>generator improvements (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"447707603\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/nextras-orm-generator/issues/15\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/nextras-orm-generator/pull/15/hovercard\" href=\"https://github.com/contributte/nextras-orm-generator/pull/15\">#15</a>, <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"447711441\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/nextras-orm-generator/issues/16\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/nextras-orm-generator/pull/16/hovercard\" href=\"https://github.com/contributte/nextras-orm-generator/pull/16\">#16</a>)</li>\n<li>readme polished</li>\n<li>raise PHP 7.2</li>\n<li>fixes for Nette 3</li>\n</ul>"
+  },
+  "29449481": {
+    "org": "nettrine",
+    "repo": "orm",
+    "tag": "v0.7.1",
+    "name": "v0.7.1",
+    "created_at": "2020-08-07T11:51:31Z",
+    "published_at": "2020-08-07T13:17:24Z",
+    "html_url": "https://github.com/nettrine/orm/releases/tag/v0.7.1",
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"u55b6\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f23a.png\">🈺</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/orm/compare/v0.7.0...v0.7.1\"><tt>v0.7.0...v0.7.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Extension supports string/service/reference definition for namingStrategy, quoteStrategy, entityListenerResolver, repositoryFactory</li>\n<li>Better docs</li>\n<li>Better tests</li>\n<li>Allow PHP &gt;=7.2</li>\n</ul>"
+  },
+  "29554346": {
+    "org": "contributte",
+    "repo": "mail",
+    "tag": "v0.5.2",
+    "name": "v0.5.2",
+    "created_at": "2020-03-15T14:15:41Z",
+    "published_at": "2020-08-11T11:21:33Z",
+    "html_url": "https://github.com/contributte/mail/releases/tag/v0.5.2",
+    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/mail/compare/v0.5.1...v0.5.2\"><tt>v0.5.1...v0.5.2</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>upgrade phpstan &amp; coding standard</li>\n</ul>"
+  },
+  "29980577": {
+    "org": "contributte",
+    "repo": "validator",
+    "tag": "v1.0.0",
+    "name": "v1.0.0",
+    "created_at": "2020-08-21T13:17:50Z",
+    "published_at": "2020-08-21T13:20:13Z",
+    "html_url": "https://github.com/contributte/validator/releases/tag/v1.0.0",
+    "body": "<p>Initial release <g-emoji class=\"g-emoji\" alias=\"tada\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f389.png\">🎉</g-emoji></p>"
   }
 }

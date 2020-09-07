@@ -1,9 +1,9 @@
 install:
 	npm ci
 
-load: data-sync-git resources-generate-packages resources-generate-examples
+load: data-sync-git resources-generate-packages
 
-refresh: resources-generate-packages resources-generate-examples
+refresh: resources-generate-packages
 
 ##################################################
 # CONTRIBUTTE ####################################
@@ -65,9 +65,6 @@ resources-sync-team:
 
 resources-generate-packages:
 	./butt bin/generate/packages
-
-resources-generate-examples:
-	./butt bin/generate/examples
 
 resources-missing:
 	./butt bin/misc/missing

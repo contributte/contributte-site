@@ -18,10 +18,6 @@ const organizations = {
   ninjify: {
     filepath: path.resolve(__dirname, 'data/ninjify.json'),
     read: () => require(organizations.ninjify.filepath)
-  },
-  planette: {
-    filepath: path.resolve(__dirname, 'data/planette.json'),
-    read: () => require(organizations.planette.filepath)
   }
 };
 

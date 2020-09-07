@@ -13,10 +13,16 @@ metaTitle: About Contributte
   Take a look at our <a class="underline font-bold" href="/roadmap/vision.html">vision</a> or <a class="underline font-bold" href="/roadmap/recap.html">year recaps</a>.
 </p>
 
+<h2>Founder</h2>
+
+<div>
+  <img class="inline-block align-text-bottom" src="https://avatars1.githubusercontent.com/u/538058?v=4&s=32" width="20" alt="" loading="lazy"> <strong>Milan Šulc</strong>, <i>a.k.a Felix</i>, founded this organization in 2016. To provide better and stable ecosystem around <a href="https://nette.org">Nette</a>.
+</div>
+
 <h2>Team</h2>
 
 <p>
-  We are group of opensource enthusiasts and together we are building huge ecosystem around <a href="https://nette.org">Nette Framework</a>.
+  We are group of opensource enthusiasts and together we are setting unique footprint in PHP world.
 </p>
 
 <div class="flex justify-center flex-wrap my-12">

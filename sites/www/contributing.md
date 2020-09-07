@@ -3,7 +3,7 @@ layout: HighLayout
 metaTitle: How To Contribute?
 ---
 
-<h1>Contributing</h1>
+# Contributing
 
 <p>
   We are happy to see you contributing into our ecosystem. 

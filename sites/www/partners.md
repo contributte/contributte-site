@@ -3,7 +3,7 @@ layout: HighLayout
 metaTitle: Contributte Partners
 ---
 
-<h1>Partners</h1>
+# Partners
 
 <div class="mt-8">
   We are very thankful to our patrons for their incredible support. And also very proud 

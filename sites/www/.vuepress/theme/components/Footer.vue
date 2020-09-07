@@ -124,22 +124,22 @@
                 </li>
                 <li class="mt-4 flex justify-center md:justify-start">
                   <a class="p-4 opacity-50 hover:opacity-75" href="https://github.com/contributte">
-                    <img loading="lazy" src="https://obr.now.sh/github/38" alt />
+                    <img loading="lazy" src="https://obr.now.sh/fa/b/github/38" alt />
                   </a>
                   <a class="p-4 opacity-50 hover:opacity-75" href="https://twitter.com/contributte">
-                    <img loading="lazy" src="https://obr.now.sh/twitter/38" alt />
+                    <img loading="lazy" src="https://obr.now.sh/fa/b/twitter/38" alt />
                   </a>
                   <a
                     class="p-4 opacity-50 hover:opacity-75"
                     href="https://pehapkari.slack.com/archives/CBD9G0GET"
                   >
-                    <img loading="lazy" src="https://obr.now.sh/slack/38" alt />
+                    <img loading="lazy" src="https://obr.now.sh/fa/b/slack/38" alt />
                   </a>
                   <a
                     class="p-4 opacity-50 hover:opacity-75"
                     href="https://gitter.im/contributte/contributte"
                   >
-                    <img loading="lazy" src="https://obr.now.sh/gitter/38" alt />
+                    <img loading="lazy" src="https://obr.now.sh/fa/b/gitter/38" alt />
                   </a>
                 </li>
               </ul>

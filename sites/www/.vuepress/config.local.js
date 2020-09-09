@@ -1,4 +1,5 @@
 import path from "path";
+import _ from "lodash";
 import * as sidebar from "./utils/data/sidebar";
 import * as releases from "./utils/data/releases";
 import * as repositories from "./utils/data/repositories";
@@ -12,10 +13,13 @@ module.exports = {
   description: "First class extensions, addons and plugins for Nette Framework. Plenty of examples and tricks for Nette.",
   dest: path.resolve(__dirname, './../public'),
   themeConfig: {
-    docsDir: "docs",
+    prevLinks: false,
+    nextLinks: false,
+    docsRepo: "contributte/website",
+    docsDir: "sites/www",
     docsBranch: "master",
     editLinks: false,
-    editLinkText: "Help us improve this page!",
+    editLinkText: "Edit this page on Github!",
     algolia: {
       apiKey: "e2015bc524d8c80d122709059789e90f",
       indexName: "contributte"
@@ -82,6 +86,12 @@ module.exports = {
     ]
   },
   extendPageData($page) {
+    if ($page.regularPath === '/') {
+      $page.contributte = {
+        randomRepositories: _.sampleSize(repositories.getRepositories(), 6),
+      }
+    }
+
     if ($page.regularPath === '/packages/') {
       $page.contributte = {
         repositories: repositories.getRepositories(),

@@ -2,6 +2,7 @@ const _ = require('lodash');
 const fs = require("fs");
 const path = require("path");
 const glob = require("glob");
+const strings = require("./../../tools/utils/strings");
 
 // Config
 const CONFIG = require('./../../contributte');
@@ -25,11 +26,12 @@ function loadDoc(repo) {
 function generateTemplate(repo, srcPath, destPath) {
   const template = fs.readFileSync(path.resolve(__dirname, '../../resources/templates/package.tpl'));
 
+  const readme = loadReadme(srcPath);
   const compiler = _.template(template);
   const compiled = compiler({
-    $readme: fs.readFileSync(srcPath),
+    $readme: readme,
     $repository: repo,
-    $_packagist: resolvePackagist(repo)
+    $title: strings.capitalize(repo.org) + ' ' + strings.capitalize(repo.name),
   });
 
   if (!fs.existsSync(path.dirname(destPath))) {
@@ -38,10 +40,20 @@ function generateTemplate(repo, srcPath, destPath) {
   fs.writeFileSync(destPath, compiled);
 }
 
-function resolvePackagist(repo) {
-  if (repo.releases && repo.releases.last) return repo.releases.last.tag;
-  if ((repo.options && !repo.options.packagist) || true) return 'Packagist';
-  return 'Undefined';
+function loadReadme(file) {
+  let output = '';
+  const content = fs.readFileSync(file);
+
+  // Filter-out H1
+  output = _.replace(content, /^\#[a-zA-Z0-9\s]+$/gm, '');
+
+  // Filter-out <!-- contributte/hidden -->
+  output = _.replace(output, /<!--\scontributte\/hidden\s-->([\s\S]*?)<!--\s\/contributte\/hidden\s-->/g, '');
+
+  // Filter-out whitespaces
+  output = output.trim();
+
+  return output;
 }
 
 function filterEnabled() {

@@ -12,7 +12,6 @@
 </template>
 
 <script>
-import dayjs from "dayjs";
 import { escape } from "./../utils/strings";
 
 export default {
@@ -29,10 +28,5 @@ export default {
       return posts;
     }
   },
-  filters: {
-    date(s) {
-      return dayjs(s).format("DD/MM/YYYY");
-    }
-  }
 };
 </script>

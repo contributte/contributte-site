@@ -6,6 +6,7 @@ meta:
 - name: keywords
   content: contributte, nette, apitte, nettrine, ninjify, dockette, examples, playground, demos
 layout: HighLayout
+editLink: false
 ---
 
 # Examples

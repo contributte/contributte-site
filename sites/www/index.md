@@ -30,9 +30,36 @@ metaTitle: Contributte - First class extensions, addons and plugins for Nette Fr
 
 <section>
   <div class="container max-w-full mx-auto py-24">
-    <h1 class="text-center text-4xl text-black font-medium leading-snug tracking-wider">
+    <h2 class="text-center text-4xl text-black font-medium leading-snug tracking-wider">
+      Our work
+    </h2>
+    <p class="text-center text-lg text-gray-700 mt-2 px-6">
+      Take a look at snippet of our work and <router-link to="/packages/">browse</router-link> in list of <strong>{{ $themeConfig.contributte.packages }}</strong> packages.
+    </p>
+    <div class="h-1 mx-auto bg-blue-600 w-24 opacity-75 mt-4 rounded"></div>
+    <div class="grid grid-cols-3  grid-rows-2 gap-4 mt-12">
+      <div v-for="repository of $page.contributte.randomRepositories" class="bg-white shadow-lg border rounded-lg px-4 py-2">
+        <router-link :to="repository | link" class="block w-full">
+          <div class="flex flex-row items-center">
+            <div class="flex-1">
+              <div>{{ repository.name }}</div>
+              <span class="text-sm text-gray-600">{{ repository.org }}</span>
+            </div>
+            <div class="text-lg text-right">
+              <span class="text-sm">{{ repository.stars }} ⭐</span>
+            </div>
+          </div>
+        </router-link>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container max-w-full mx-auto py-24">
+    <h2 class="text-center text-4xl text-black font-medium leading-snug tracking-wider">
       Key Features
-    </h1>
+    </h2>
     <p class="text-center text-lg text-gray-700 mt-2 px-6">
       Contributte is a group of developers bound together that care about code quality.
     </p>
@@ -68,9 +95,9 @@ metaTitle: Contributte - First class extensions, addons and plugins for Nette Fr
 
 <section>
   <div class="container max-w-full mx-auto py-24">
-    <h1 class="text-center text-4xl text-black font-medium leading-snug tracking-wider">
+    <h2 class="text-center text-4xl text-black font-medium leading-snug tracking-wider">
       Project Templates
-    </h1>
+    </h2>
     <p class="text-center text-lg text-gray-700 mt-2 px-6">
       Cut <strong>initialization phase</strong> of your new project with prepare project templates.
     </p>
@@ -80,9 +107,9 @@ metaTitle: Contributte - First class extensions, addons and plugins for Nette Fr
         <div class="w-11/12 max-w-sm sm:w-3/5 lg:w-1/3 sm:my-5 my-8 relative z-0 rounded-lg shadow-lg md:-mr-4">
           <div class="bg-white text-black rounded-lg shadow-inner shadow-lg overflow-hidden">
             <div class="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
-              <h1 class="text-lg font-medium p-3 pb-0 text-center tracking-wide">
+              <h3 class="text-lg font-medium p-3 pb-0 text-center tracking-wide">
                 Forest Project
-              </h1>
+              </h3>
               <p class="text-center pt-2 pb-6">API-based project skeleton.</p>
             </div>
             <div class="flex flex-wrap mt-3 px-6">
@@ -125,9 +152,9 @@ metaTitle: Contributte - First class extensions, addons and plugins for Nette Fr
             Awesome!
           </div>
           <div class="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
-            <h1 class="text-lg font-medium p-3 pb-0 text-center tracking-wide">
+            <h3 class="text-lg font-medium p-3 pb-0 text-center tracking-wide">
               Nutella Project
-            </h1>
+            </h3>
             <p class="text-center pt-2 pb-6">Mixed project skeleton.</p>
           </div>
           <div class="flex pl-12 justify-start sm:justify-start mt-3">
@@ -167,9 +194,9 @@ metaTitle: Contributte - First class extensions, addons and plugins for Nette Fr
         <div class="w-11/12 max-w-sm sm:w-3/5 lg:w-1/3 sm:my-5 my-8 relative z-0 rounded-lg shadow-lg md:-ml-4">
           <div class="bg-white text-black rounded-lg shadow-inner shadow-lg overflow-hidden">
             <div class="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
-              <h1 class="text-lg font-medium p-3 pb-0 text-center tracking-wide">
+              <h3 class="text-lg font-medium p-3 pb-0 text-center tracking-wide">
                 Cindy Project
-              </h1>
+              </h3>
               <p class="text-center pt-2 pb-6">CLI-based project skeleton.</p>
             </div>
             <div class="flex flex-wrap mt-3 px-6">
@@ -208,9 +235,9 @@ metaTitle: Contributte - First class extensions, addons and plugins for Nette Fr
 
 <section>
   <div class="container max-w-full mx-auto py-24">
-    <h1 class="text-center text-4xl text-black font-medium leading-snug tracking-wider">
+    <h2 class="text-center text-4xl text-black font-medium leading-snug tracking-wider">
       Development
-    </h1>
+    </h2>
     <p class="text-center text-lg text-gray-700 mt-2 px-6">
       We have build a stable awesome community-driven platform and we need your help.
     </p>

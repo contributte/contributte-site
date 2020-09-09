@@ -24,7 +24,6 @@
 </template>
 
 <script>
-import dayjs from "dayjs";
 import { findRepository } from "./../utils/data/repositories";
 import { link } from "./../utils/linker";
 
@@ -35,9 +34,6 @@ export default {
     }
   },
   filters: {
-    date(s) {
-      return dayjs(s).format("DD/MM/YYYY");
-    },
     link(release) {
       const repo = findRepository({ org: release.org, name: release.repo });
       if (!repo) {

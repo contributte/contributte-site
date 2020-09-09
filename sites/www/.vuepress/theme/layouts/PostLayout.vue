@@ -23,7 +23,6 @@
 <script>
 import Footer from "./../components/Footer.vue";
 import Layout from "@theme/layouts/Layout.vue";
-import dayjs from "dayjs";
 
 export default {
   components: {
@@ -33,11 +32,6 @@ export default {
   computed: {
     post() {
       return this.$page;
-    }
-  },
-  filters: {
-    date(s) {
-      return dayjs(s).format("DD/MM/YYYY");
     }
   }
 };

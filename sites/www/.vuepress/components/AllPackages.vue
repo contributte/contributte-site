@@ -96,7 +96,6 @@
 <script>
 import _ from "lodash-es";
 import { createMarkdown } from "./../utils/markdown";
-import { link } from "./../utils/linker";
 
 export default {
   data: () => ({
@@ -138,9 +137,6 @@ export default {
         this.search = newValue;
       }, 300)
     }
-  },
-  filters: {
-    link
   },
   methods: {
     toggleCatagory(category) {

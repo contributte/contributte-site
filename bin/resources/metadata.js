@@ -38,6 +38,7 @@ function mergeGithub(repo) {
   repo.forks = matchedRepo.forks_count;
   repo.issues = matchedRepo.open_issues;
   repo.description = emoji.emojify(matchedRepo.description);
+  repo.updated = matchedRepo.updated_at;
 }
 
 function mergeComposer(repo) {

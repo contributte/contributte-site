@@ -32,7 +32,8 @@
       "nette": []
     },
     "issues": 2,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-25T16:31:29Z"
   },
   "contributte/mailing": {
     "org": "contributte",
@@ -67,7 +68,8 @@
       ]
     },
     "issues": 0,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-07-16T15:29:11Z"
   },
   "contributte/neonizer": {
     "org": "contributte",
@@ -102,7 +104,8 @@
       ]
     },
     "issues": 0,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-10T11:36:05Z"
   },
   "contributte/console-extra": {
     "org": "contributte",
@@ -140,7 +143,8 @@
       ]
     },
     "issues": 0,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-04-06T10:58:16Z"
   },
   "contributte/event-dispatcher": {
     "org": "contributte",
@@ -178,7 +182,8 @@
       ]
     },
     "issues": 1,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-14T15:37:06Z"
   },
   "contributte/live-form-validation": {
     "org": "contributte",
@@ -207,7 +212,8 @@
     "watchers": 53,
     "forks": 26,
     "issues": 17,
-    "pm": "npm"
+    "pm": "npm",
+    "updated": "2020-08-27T13:12:41Z"
   },
   "contributte/event-dispatcher-extra": {
     "org": "contributte",
@@ -245,7 +251,8 @@
       ]
     },
     "issues": 1,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-01-05T13:15:15Z"
   },
   "contributte/codeception": {
     "org": "contributte",
@@ -282,7 +289,8 @@
       ]
     },
     "issues": 0,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-27T13:12:43Z"
   },
   "contributte/reCAPTCHA": {
     "org": "contributte",
@@ -318,7 +326,8 @@
       ]
     },
     "issues": 3,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-10T10:34:23Z"
   },
   "contributte/scheduler": {
     "org": "contributte",
@@ -355,7 +364,8 @@
       ]
     },
     "issues": 0,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-27T13:13:55Z"
   },
   "contributte/seznamcaptcha": {
     "org": "contributte",
@@ -391,7 +401,8 @@
       ]
     },
     "issues": 0,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-06-07T12:34:01Z"
   },
   "contributte/logging": {
     "org": "contributte",
@@ -428,7 +439,8 @@
       ]
     },
     "issues": 7,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-31T15:55:48Z"
   },
   "contributte/application": {
     "org": "contributte",
@@ -465,7 +477,8 @@
       ]
     },
     "issues": 4,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-04-17T10:15:59Z"
   },
   "contributte/bootstrap": {
     "org": "contributte",
@@ -500,7 +513,8 @@
       ]
     },
     "issues": 0,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-27T13:12:09Z"
   },
   "contributte/cache": {
     "org": "contributte",
@@ -537,7 +551,8 @@
       ]
     },
     "issues": 1,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2019-12-01T15:28:14Z"
   },
   "contributte/database": {
     "org": "contributte",
@@ -572,7 +587,8 @@
       ]
     },
     "issues": 0,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-03-20T18:49:26Z"
   },
   "contributte/deployer-extension": {
     "org": "contributte",
@@ -610,7 +626,8 @@
       ]
     },
     "issues": 2,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-06-30T08:24:39Z"
   },
   "contributte/dev": {
     "org": "contributte",
@@ -644,7 +661,8 @@
       ]
     },
     "issues": 0,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-05-14T18:09:44Z"
   },
   "contributte/di": {
     "org": "contributte",
@@ -682,7 +700,8 @@
       ]
     },
     "issues": 1,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-06-22T21:38:01Z"
   },
   "contributte/dummy-events": {
     "org": "contributte",
@@ -720,7 +739,8 @@
       ]
     },
     "issues": 0,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-01-11T13:16:26Z"
   },
   "contributte/elasticsearch": {
     "org": "contributte",
@@ -758,7 +778,8 @@
       ]
     },
     "issues": 1,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-07-08T13:51:37Z"
   },
   "contributte/facebook": {
     "org": "contributte",
@@ -793,7 +814,8 @@
       "nette": []
     },
     "issues": 2,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-07-28T17:13:40Z"
   },
   "contributte/fio": {
     "org": "contributte",
@@ -830,7 +852,8 @@
       ]
     },
     "issues": 1,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2019-11-11T10:14:58Z"
   },
   "contributte/forms": {
     "org": "contributte",
@@ -867,7 +890,8 @@
       ]
     },
     "issues": 9,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2019-10-24T08:46:31Z"
   },
   "contributte/http": {
     "org": "contributte",
@@ -904,7 +928,8 @@
       ]
     },
     "issues": 3,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-02-09T18:01:34Z"
   },
   "contributte/latte": {
     "org": "contributte",
@@ -941,7 +966,8 @@
       ]
     },
     "issues": 1,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-05-18T11:55:02Z"
   },
   "contributte/latte-parsedown-extra": {
     "org": "contributte",
@@ -979,7 +1005,8 @@
       ]
     },
     "issues": 0,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-27T13:10:43Z"
   },
   "contributte/mail": {
     "org": "contributte",
@@ -1014,7 +1041,8 @@
       ]
     },
     "issues": 1,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-14T16:17:06Z"
   },
   "contributte/middlewares": {
     "org": "contributte",
@@ -1051,7 +1079,8 @@
       ]
     },
     "issues": 0,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-01-07T23:24:27Z"
   },
   "contributte/psr11-container-interface": {
     "org": "contributte",
@@ -1090,7 +1119,8 @@
       ]
     },
     "issues": 0,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-27T13:11:55Z"
   },
   "contributte/mobilni-platby": {
     "org": "contributte",
@@ -1115,7 +1145,8 @@
       ]
     },
     "issues": 0,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-05-07T14:02:04Z"
   },
   "contributte/model": {
     "org": "contributte",
@@ -1150,7 +1181,8 @@
       ]
     },
     "issues": 0,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-01-07T13:58:33Z"
   },
   "contributte/nextras-orm-events": {
     "org": "contributte",
@@ -1188,7 +1220,8 @@
       ]
     },
     "issues": 0,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-27T13:11:03Z"
   },
   "contributte/nextras-orm-generator": {
     "org": "contributte",
@@ -1226,7 +1259,8 @@
       ]
     },
     "issues": 2,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-19T20:24:18Z"
   },
   "contributte/nextras-orm-query-object": {
     "org": "contributte",
@@ -1262,7 +1296,8 @@
       "nette": []
     },
     "issues": 1,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2019-12-12T18:45:38Z"
   },
   "contributte/psr7-http-message": {
     "org": "contributte",
@@ -1298,7 +1333,8 @@
       "nette": []
     },
     "issues": 1,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-27T13:12:20Z"
   },
   "contributte/security": {
     "org": "contributte",
@@ -1335,7 +1371,8 @@
       ]
     },
     "issues": 0,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-27T13:12:56Z"
   },
   "contributte/social": {
     "org": "contributte",
@@ -1372,7 +1409,8 @@
       ]
     },
     "issues": 0,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-05-18T18:16:38Z"
   },
   "contributte/tracy": {
     "org": "contributte",
@@ -1407,7 +1445,8 @@
       "nette": []
     },
     "issues": 5,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2019-12-22T15:52:56Z"
   },
   "contributte/utils": {
     "org": "contributte",
@@ -1444,7 +1483,8 @@
       ]
     },
     "issues": 2,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-06-22T21:37:57Z"
   },
   "contributte/wordcha": {
     "org": "contributte",
@@ -1481,7 +1521,8 @@
       ]
     },
     "issues": 1,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2019-12-10T10:47:13Z"
   },
   "apitte/core": {
     "org": "apitte",
@@ -1529,7 +1570,8 @@
       ]
     },
     "issues": 15,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-07-07T11:15:35Z"
   },
   "apitte/debug": {
     "org": "apitte",
@@ -1564,7 +1606,8 @@
       "nette": []
     },
     "issues": 1,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-03-14T18:31:29Z"
   },
   "apitte/console": {
     "org": "apitte",
@@ -1601,7 +1644,8 @@
       ]
     },
     "issues": 0,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-05-19T17:14:14Z"
   },
   "apitte/openapi": {
     "org": "apitte",
@@ -1637,7 +1681,8 @@
       "nette": []
     },
     "issues": 7,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-18T15:17:30Z"
   },
   "apitte/middlewares": {
     "org": "apitte",
@@ -1674,7 +1719,8 @@
       ]
     },
     "issues": 1,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-03-14T18:32:09Z"
   },
   "apitte/negotiation": {
     "org": "apitte",
@@ -1711,7 +1757,8 @@
       ]
     },
     "issues": 2,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-03-14T18:31:41Z"
   },
   "apitte/presenter": {
     "org": "apitte",
@@ -1746,7 +1793,8 @@
       "nette": []
     },
     "issues": 1,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-06-09T07:12:35Z"
   },
   "apitte/fullstack": {
     "org": "apitte",
@@ -1780,7 +1828,8 @@
       ]
     },
     "issues": 0,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-03-14T18:32:45Z"
   },
   "nettrine/dbal": {
     "org": "nettrine",
@@ -1818,7 +1867,8 @@
       ]
     },
     "issues": 4,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-12T19:18:41Z"
   },
   "nettrine/orm": {
     "org": "nettrine",
@@ -1854,7 +1904,8 @@
       ]
     },
     "issues": 7,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-12T19:18:31Z"
   },
   "nettrine/fixtures": {
     "org": "nettrine",
@@ -1891,7 +1942,8 @@
       ]
     },
     "issues": 2,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-06-18T11:34:43Z"
   },
   "nettrine/migrations": {
     "org": "nettrine",
@@ -1928,7 +1980,8 @@
       ]
     },
     "issues": 2,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-06-23T22:53:37Z"
   },
   "nettrine/extensions-atlantic18": {
     "org": "nettrine",
@@ -1966,7 +2019,8 @@
       ]
     },
     "issues": 1,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-12T19:18:33Z"
   },
   "nettrine/extensions-beberlei": {
     "org": "nettrine",
@@ -2004,7 +2058,8 @@
         "3.0"
       ]
     },
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-12T19:18:37Z"
   },
   "nettrine/extensions-knplabs": {
     "org": "nettrine",
@@ -2040,7 +2095,8 @@
       ],
       "nette": []
     },
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-12T19:18:39Z"
   },
   "nettrine/extensions-oroinc": {
     "org": "nettrine",
@@ -2067,7 +2123,8 @@
         "3.0"
       ]
     },
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-12T19:17:56Z"
   },
   "nettrine/annotations": {
     "org": "nettrine",
@@ -2104,7 +2161,8 @@
       ]
     },
     "issues": 1,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-06-18T11:34:16Z"
   },
   "nettrine/cache": {
     "org": "nettrine",
@@ -2142,7 +2200,8 @@
         "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/cache/compare/v0.1.0...v0.2.0\"><tt>v0.1.0...v0.2.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Upgrade deps</li>\n<li>Polish doc &amp; readme</li>\n</ul>"
       }
     },
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-06-18T11:34:05Z"
   },
   "contributte/flysystem": {
     "org": "contributte",
@@ -2179,7 +2238,8 @@
       ]
     },
     "issues": 0,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-06-12T02:51:42Z"
   },
   "contributte/guzzlette": {
     "org": "contributte",
@@ -2214,7 +2274,8 @@
       "nette": []
     },
     "issues": 1,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-27T13:12:00Z"
   },
   "contributte/redis": {
     "org": "contributte",
@@ -2249,7 +2310,8 @@
       ]
     },
     "issues": 1,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-01-07T11:05:15Z"
   },
   "contributte/monolog": {
     "org": "contributte",
@@ -2286,7 +2348,8 @@
       ]
     },
     "issues": 0,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-05-01T15:47:44Z"
   },
   "contributte/image-storage": {
     "org": "contributte",
@@ -2323,7 +2386,8 @@
       ]
     },
     "issues": 6,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-25T08:46:39Z"
   },
   "contributte/thepay-api": {
     "org": "contributte",
@@ -2362,7 +2426,8 @@
       ]
     },
     "issues": 0,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-05-14T18:05:42Z"
   },
   "contributte/thepay": {
     "org": "contributte",
@@ -2399,7 +2464,8 @@
       ]
     },
     "issues": 0,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2019-07-18T17:30:33Z"
   },
   "contributte/gopay": {
     "org": "contributte",
@@ -2436,7 +2502,8 @@
       ]
     },
     "issues": 6,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-26T21:22:45Z"
   },
   "contributte/gopay-inline": {
     "org": "contributte",
@@ -2471,7 +2538,8 @@
       "nette": []
     },
     "issues": 4,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-09-06T19:27:13Z"
   },
   "contributte/comgate": {
     "org": "contributte",
@@ -2509,7 +2577,8 @@
       ]
     },
     "issues": 3,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-20T09:30:31Z"
   },
   "contributte/anabelle": {
     "org": "contributte",
@@ -2546,7 +2615,8 @@
       ]
     },
     "issues": 6,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-28T00:34:03Z"
   },
   "contributte/replacus": {
     "org": "contributte",
@@ -2583,7 +2653,8 @@
       ]
     },
     "issues": 0,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2019-09-22T13:23:53Z"
   },
   "contributte/forms-multiplier": {
     "org": "contributte",
@@ -2618,7 +2689,8 @@
       ]
     },
     "issues": 7,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-06-19T17:36:11Z"
   },
   "contributte/forms-wizard": {
     "org": "contributte",
@@ -2655,7 +2727,8 @@
       ]
     },
     "issues": 5,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-06-01T14:00:41Z"
   },
   "contributte/datagrid": {
     "org": "contributte",
@@ -2708,7 +2781,8 @@
       ]
     },
     "issues": 93,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-09-01T16:35:09Z"
   },
   "contributte/api-router": {
     "org": "contributte",
@@ -2746,7 +2820,8 @@
       ]
     },
     "issues": 6,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-07T07:32:02Z"
   },
   "contributte/api-docu": {
     "org": "contributte",
@@ -2784,7 +2859,8 @@
       ]
     },
     "issues": 0,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-05-14T18:04:36Z"
   },
   "contributte/invoice": {
     "org": "contributte",
@@ -2821,7 +2897,8 @@
       ]
     },
     "issues": 5,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-27T08:08:17Z"
   },
   "contributte/translation": {
     "org": "contributte",
@@ -2858,7 +2935,8 @@
       ]
     },
     "issues": 1,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-12T14:09:45Z"
   },
   "contributte/gosms": {
     "org": "contributte",
@@ -2895,7 +2973,8 @@
       ]
     },
     "issues": 0,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-03T09:40:32Z"
   },
   "contributte/czech-post": {
     "org": "contributte",
@@ -2933,7 +3012,8 @@
       ]
     },
     "issues": 0,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-27T13:10:37Z"
   },
   "contributte/oauth2-client": {
     "org": "contributte",
@@ -2969,7 +3049,8 @@
       "nette": []
     },
     "issues": 0,
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-28T14:00:50Z"
   },
   "contributte/psr6-caching": {
     "org": "contributte",
@@ -3007,7 +3088,8 @@
         "body": "<p>Initial release</p>"
       }
     },
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-06-06T13:37:17Z"
   },
   "ninjify/qa": {
     "org": "ninjify",
@@ -3042,7 +3124,8 @@
         "8.0"
       ]
     },
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-06-30T13:34:14Z"
   },
   "ninjify/nunjuck": {
     "org": "ninjify",
@@ -3077,7 +3160,8 @@
       ],
       "nette": []
     },
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-08T08:42:44Z"
   },
   "ninjify/coding-standard": {
     "org": "ninjify",
@@ -3111,7 +3195,8 @@
         "8.0"
       ]
     },
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-05T09:55:17Z"
   },
   "ninjify/checker": {
     "org": "ninjify",
@@ -3135,7 +3220,8 @@
       ],
       "nette": []
     },
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-08T08:42:49Z"
   },
   "contributte/forms-bootstrap": {
     "org": "contributte",
@@ -3172,7 +3258,8 @@
         "3.0"
       ]
     },
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-25T07:41:54Z"
   },
   "contributte/eet": {
     "org": "contributte",
@@ -3209,7 +3296,8 @@
         "3.0"
       ]
     },
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-04-28T10:38:29Z"
   },
   "contributte/menu-control": {
     "org": "contributte",
@@ -3237,7 +3325,8 @@
         "body": "<ul>\n<li>Make installabe as <code>contributte/menu-control</code></li>\n</ul>"
       }
     },
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-23T18:42:14Z"
   },
   "contributte/validator": {
     "org": "contributte",
@@ -3265,7 +3354,8 @@
         "body": "<p>Initial release <g-emoji class=\"g-emoji\" alias=\"tada\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f389.png\">🎉</g-emoji></p>"
       }
     },
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-08-21T13:18:25Z"
   },
   "nettrine/odm": {
     "org": "nettrine",
@@ -3281,7 +3371,8 @@
     "forks": 1,
     "issues": 0,
     "description": "💥  Well-integrated Doctrine2 ODM for Nette Framework",
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-02-03T15:04:18Z"
   },
   "nettrine/mongodb": {
     "org": "nettrine",
@@ -3297,7 +3388,8 @@
     "forks": 1,
     "issues": 0,
     "description": "⚡  Well-integrated MongoDB for Nette Framework",
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-01-29T20:45:11Z"
   },
   "contributte/bare": {
     "org": "contributte",
@@ -3313,7 +3405,8 @@
     "forks": 2,
     "issues": 0,
     "description": "🖨 Contributte Bare Repository Template",
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-07-15T10:20:50Z"
   },
   "contributte/rabbitmq": {
     "org": "contributte",
@@ -3341,7 +3434,8 @@
         "body": "<p>Bump!</p>\n<ul>\n<li>Added lazy connect, Fixed php version (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/slischka/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/slischka\">@slischka</a>)</li>\n</ul>\n<p><strong>BC Breaks:</strong></p>\n<ul>\n<li>Removed Connection::getBunnyClient()</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/rabbitmq/compare/v6.0.0...v7.0.0\"><tt>v6.0.0...v7.0.0</tt></a></p>"
       }
     },
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-05-28T12:21:55Z"
   },
   "contributte/jsonrpc": {
     "org": "contributte",
@@ -3369,7 +3463,8 @@
         "body": "<p>Bump!</p>\n<ul>\n<li>Get rid of damejidlo/datetime-factory</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/jsonrpc/compare/v5.0.0...v5.1.0\"><tt>v5.0.0...v5.1.0</tt></a></p>"
       }
     },
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-07-23T13:10:40Z"
   },
   "contributte/newrelic": {
     "org": "contributte",
@@ -3397,6 +3492,7 @@
         "body": "<ul>\n<li>Updated to Nette <code>3.0</code>. Nette <code>2.4</code> will be supported only in <code>7.x</code> releases.</li>\n<li>Dropped PHP <code>5.6</code> and <code>7.1</code> support.</li>\n<li>Added PHP <code>7.3</code> support.</li>\n</ul>"
       }
     },
-    "pm": "composer"
+    "pm": "composer",
+    "updated": "2020-07-16T12:39:20Z"
   }
 }

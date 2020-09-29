@@ -16,10 +16,10 @@ www-build:
 	npx vuepress build sites/www
 
 www-deploy:
-	cd sites/www && now -c
+	cd sites/www && vercel -c
 
 www-public:
-	cd sites/www && now -c --prod
+	cd sites/www && vercel -c --prod
 
 ##################################################
 # STATUS #########################################

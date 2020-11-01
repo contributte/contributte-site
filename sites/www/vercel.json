@@ -1,7 +1,6 @@
 {
   "version": 2,
   "name": "contributte",
-  "scope": "nette",
   "routes": [
     { "src": "/examples/", "status": 308, "headers": { "Location": "https://contributte.org/examples.html" } },
     { "src": "/vision.html", "status": 308, "headers": { "Location": "https://contributte.org/roadmap/vision.html" } },

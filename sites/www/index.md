@@ -28,7 +28,7 @@ metaTitle: Contributte - First class extensions, addons and plugins for Nette Fr
   </div>
 </header>
 
-<section>
+<!-- <section>
   <div class="container max-w-full mx-auto py-24">
     <h2 class="text-center text-4xl text-black font-medium leading-snug tracking-wider">
       Our work
@@ -53,7 +53,7 @@ metaTitle: Contributte - First class extensions, addons and plugins for Nette Fr
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <section>
   <div class="container max-w-full mx-auto py-24">

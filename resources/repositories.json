@@ -2869,7 +2869,7 @@
     "enabled": true,
     "priority": 0,
     "docs": {
-      "v": "v0"
+      "v": "v1"
     },
     "description": "📝 PDF invoice generator ",
     "releases": {
@@ -3473,7 +3473,7 @@
     "enabled": true,
     "priority": 0,
     "docs": {
-      "v": "v0"
+      "v": "v1"
     },
     "stars": 18,
     "watchers": 18,

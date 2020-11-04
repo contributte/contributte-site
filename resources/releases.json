@@ -4067,7 +4067,7 @@
     "created_at": "2018-10-12T11:08:33Z",
     "published_at": "2018-11-02T09:35:40Z",
     "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.2.7",
-    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"sagittarius\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2650.png\">♐��</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/dbal/compare/v0.2.6...v0.2.7\"><tt>v0.2.6...v0.2.7</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Tracy panel icon [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/bb9ffa6d01cc561100d28506f968b6bcb09aada6/hovercard\" href=\"https://github.com/nettrine/dbal/commit/bb9ffa6d01cc561100d28506f968b6bcb09aada6\"><tt>bb9ffa6</tt></a>]</li>\n<li>Phpstan v0.10</li>\n<li>Tracy: escaping [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/8ebddc3143d88ac2ad2e78c7fad731f03cfccf32/hovercard\" href=\"https://github.com/nettrine/dbal/commit/8ebddc3143d88ac2ad2e78c7fad731f03cfccf32\"><tt>8ebddc3</tt></a>]</li>\n</ul>"
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"sagittarius\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2650.png\">♐️</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/dbal/compare/v0.2.6...v0.2.7\"><tt>v0.2.6...v0.2.7</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Tracy panel icon [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/bb9ffa6d01cc561100d28506f968b6bcb09aada6/hovercard\" href=\"https://github.com/nettrine/dbal/commit/bb9ffa6d01cc561100d28506f968b6bcb09aada6\"><tt>bb9ffa6</tt></a>]</li>\n<li>Phpstan v0.10</li>\n<li>Tracy: escaping [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/8ebddc3143d88ac2ad2e78c7fad731f03cfccf32/hovercard\" href=\"https://github.com/nettrine/dbal/commit/8ebddc3143d88ac2ad2e78c7fad731f03cfccf32\"><tt>8ebddc3</tt></a>]</li>\n</ul>"
   },
   "13817286": {
     "org": "contributte",
@@ -5057,7 +5057,7 @@
     "created_at": "2019-06-16T14:08:49Z",
     "published_at": "2019-06-16T17:01:36Z",
     "html_url": "https://github.com/contributte/guzzlette/releases/tag/v3.0.0",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/guzzlette/compare/v2.1.0...v3.0.0\"><tt>v2.1.0...v3.0.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/guzzlette/commit/c3c660cc4f850d1d05070d3171948d209f01f73d/hovercard\" href=\"https://github.com/contributte/guzzlette/commit/c3c660cc4f850d1d05070d3171948d209f01f73d\"><tt>c3c660c</tt></a></li>\n</ul>"
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"ear\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f442.png\">👂</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/guzzlette/compare/v2.1.0...v3.0.0\"><tt>v2.1.0...v3.0.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/guzzlette/commit/c3c660cc4f850d1d05070d3171948d209f01f73d/hovercard\" href=\"https://github.com/contributte/guzzlette/commit/c3c660cc4f850d1d05070d3171948d209f01f73d\"><tt>c3c660c</tt></a></li>\n</ul>"
   },
   "18034538": {
     "org": "contributte",
@@ -5177,7 +5177,7 @@
     "created_at": "2019-03-22T17:57:46Z",
     "published_at": "2019-06-24T10:06:26Z",
     "html_url": "https://github.com/contributte/guzzlette/releases/tag/v2.1.0",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/guzzlette/compare/v2.0.0...v2.1.0\"><tt>v2.0.0...v2.1.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow Tracy 2.6</li>\n</ul>"
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"partying_face\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f973.png\">🥳</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/guzzlette/compare/v2.0.0...v2.1.0\"><tt>v2.0.0...v2.1.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow Tracy 2.6</li>\n</ul>"
   },
   "18272093": {
     "org": "contributte",
@@ -5827,7 +5827,7 @@
     "created_at": "2019-10-11T00:41:05Z",
     "published_at": "2019-10-11T00:41:58Z",
     "html_url": "https://github.com/contributte/guzzlette/releases/tag/v3.0.1",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/guzzlette/compare/v3.0.0...v3.0.1\"><tt>v3.0.0...v3.0.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow Tracy 2.7 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/guzzlette/commit/d6d98a5b77a3bc87d5e97703d925d84b219b5531/hovercard\" href=\"https://github.com/contributte/guzzlette/commit/d6d98a5b77a3bc87d5e97703d925d84b219b5531\"><tt>d6d98a5</tt></a></li>\n</ul>"
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"loud_sound\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f50a.png\">🔊</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/guzzlette/compare/v3.0.0...v3.0.1\"><tt>v3.0.0...v3.0.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow Tracy 2.7 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/guzzlette/commit/d6d98a5b77a3bc87d5e97703d925d84b219b5531/hovercard\" href=\"https://github.com/contributte/guzzlette/commit/d6d98a5b77a3bc87d5e97703d925d84b219b5531\"><tt>d6d98a5</tt></a></li>\n</ul>"
   },
   "20704654": {
     "org": "contributte",
@@ -5887,7 +5887,7 @@
     "created_at": "2019-10-31T15:50:34Z",
     "published_at": "2019-10-31T15:54:30Z",
     "html_url": "https://github.com/contributte/newrelic/releases/tag/v8.0.0",
-    "body": "<ul>\n<li>Updated to Nette <code>3.0</code>. Nette <code>2.4</code> will be supported only in <code>7.x</code> releases.</li>\n<li>Dropped PHP <code>5.6</code> and <code>7.1</code> support.</li>\n<li>Added PHP <code>7.3</code> support.</li>\n</ul>"
+    "body": "<ul>\n<li>Updated to Nette <code>3.0</code>. Nette <code>2.4</code> will be supported only in <code>7.x</code> releases.</li>\n<li>Dropped PHP <code>5.6</code> and <code>7.0</code> support.</li>\n<li>Added PHP <code>7.3</code> support.</li>\n</ul>"
   },
   "21145133": {
     "org": "contributte",
@@ -6667,7 +6667,7 @@
     "created_at": "2020-03-28T13:40:11Z",
     "published_at": "2020-03-28T21:16:24Z",
     "html_url": "https://github.com/contributte/menu-control/releases/tag/2.2.1",
-    "body": "<ul>\n<li>Fixed reverse logic in <code>MenuItem::isActive()</code> (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"564385204\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/menu-control/issues/42\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/menu-control/issues/42/hovercard\" href=\"https://github.com/contributte/menu-control/issues/42\">#42</a>)</li>\n<li>Fixed possible bug in <a href=\"https://github.com/nette/application\">nette/application</a> by updating minimal version to <code>3.0.4</code></li>\n</ul>"
+    "body": "<ul>\n<li>Fixed reverse logic in <code>MenuItem::isActive()</code> (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"564385204\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/menu-control/issues/42\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/menu-control/issues/42/hovercard\" href=\"https://github.com/contributte/menu-control/issues/42\">#42</a>)</li>\n<li>Fixed possible bug in <a href=\"https://github.com/nette/application\">nette/application</a> by updating minimal version to <code>3.0.4</code></li>\n<li>Make installabe as <code>contributte/menu-control</code></li>\n<li>Updated <code>MenuExtension</code> namespace to <code>Contributte\\MenuControl\\DI</code> <strong>[BC break]</strong></li>\n</ul>"
   },
   "24964136": {
     "org": "contributte",
@@ -6677,7 +6677,7 @@
     "created_at": "2020-03-28T14:26:56Z",
     "published_at": "2020-03-28T21:17:49Z",
     "html_url": "https://github.com/contributte/menu-control/releases/tag/2.1.2",
-    "body": "<ul>\n<li>Make installabe as <code>contributte/menu-control</code></li>\n</ul>"
+    "body": "<ul>\n<li>Make installabe as <code>contributte/menu-control</code></li>\n<li>Updated <code>MenuExtension</code> namespace to <code>Contributte\\MenuControl\\DI</code> <strong>[BC break]</strong></li>\n</ul>"
   },
   "25067603": {
     "org": "contributte",
@@ -7289,6 +7289,16 @@
     "html_url": "https://github.com/contributte/mailing/releases/tag/v0.4.0",
     "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"qatar\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f1f6-1f1e6.png\">🇶🇦</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/mailing/compare/v0.3.2...v0.4.0\"><tt>v0.3.2...v0.4.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Relax latte dependency</li>\n<li>Allow to set plain text to message</li>\n</ul>"
   },
+  "28710735": {
+    "org": "contributte",
+    "repo": "translation",
+    "tag": "v0.7.1",
+    "name": "v0.7.1",
+    "created_at": "2020-10-22T05:25:05Z",
+    "published_at": "2020-10-22T05:26:12Z",
+    "html_url": "https://github.com/contributte/translation/releases/tag/v0.7.1",
+    "body": "<p>Bump!</p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/translation/compare/v0.7.0...v0.7.1\"><tt>v0.7.0...v0.7.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>bug fix: default fallback unexpected behaviour <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/translation/commit/943b5463b569a1c51b299b3fe793cbe5fa20268b/hovercard\" href=\"https://github.com/contributte/translation/commit/943b5463b569a1c51b299b3fe793cbe5fa20268b\"><tt>943b546</tt></a> (tnx <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/rozsival/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rozsival\">@rozsival</a>)</li>\n</ul>"
+  },
   "28822145": {
     "org": "contributte",
     "repo": "image-storage",
@@ -7418,5 +7428,65 @@
     "published_at": "2020-09-25T08:34:08Z",
     "html_url": "https://github.com/contributte/forms-bootstrap/releases/tag/v0.3",
     "body": "<p>Bump! <img class=\"emoji\" title=\":feelsgood:\" alt=\":feelsgood:\" src=\"https://github.githubassets.com/images/icons/emoji/feelsgood.png\" height=\"20\" width=\"20\" align=\"absmiddle\"></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/forms-bootstrap/compare/v0.2.2...v0.3\"><tt>v0.2.2...v0.3</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li><strong>BC:</strong> removed prompt on selectinput</li>\n<li><strong>BC:</strong> use nette/forms for creating selectbox, now translator works correctly on items and prompt also fixes <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"678269001\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/forms-bootstrap/issues/24\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/forms-bootstrap/issues/24/hovercard\" href=\"https://github.com/contributte/forms-bootstrap/issues/24\">#24</a></li>\n<li>BootstrapForm::$allwaysUseNullable to set all fields as nullable (calls $component-&gt;setNullable() for all fields automatically)</li>\n<li>feature: allow to ommit default placeholder for date/datetime input</li>\n<li>bugfix when date/datetime empty, return empty value immidiatelly without trying to create datetime object</li>\n<li>bugfix rendering with method get now works</li>\n<li>use InputPromptTrait on SelectInput, do validation if prompt can be used</li>\n<li>allow 0 on items with setPrompts do strict comparisson for \"\" and null</li>\n<li>raise phpstan from lvl 4 to lvl7</li>\n<li>added a lot of unit tests, coverage increased</li>\n</ul>"
+  },
+  "31931583": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v6.2.29",
+    "name": "v6.2.29",
+    "created_at": "2020-09-29T12:08:24Z",
+    "published_at": "2020-09-29T12:08:57Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.29",
+    "body": "<p>Bump!</p>\n<ul>\n<li>Status/Option: added connfirmation dialog</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.28...v6.2.29\"><tt>v6.2.28...v6.2.29</tt></a></p>"
+  },
+  "32157019": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v7.0.1",
+    "name": "v7.0.1",
+    "created_at": "2020-10-05T09:14:58Z",
+    "published_at": "2020-10-05T09:16:40Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v7.0.1",
+    "body": "<p>Bump!</p>\n<ul>\n<li>The required PHP version was fixed in composer.json (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Stehos/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Stehos\">@Stehos</a>)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/rabbitmq/compare/v7.0.0...v7.0.1\"><tt>v7.0.0...v7.0.1</tt></a></p>"
+  },
+  "32234282": {
+    "org": "contributte",
+    "repo": "api-router",
+    "tag": "v2.1.1",
+    "name": "v2.1.1",
+    "created_at": "2020-10-06T18:53:22Z",
+    "published_at": "2020-10-06T18:57:33Z",
+    "html_url": "https://github.com/contributte/api-router/releases/tag/v2.1.1",
+    "body": "<p>Bump!</p>\n<ul>\n<li>less strict requirements for doctrine/cache</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/api-router/compare/v2.0.3...v2.1.1\"><tt>v2.0.3...v2.1.1</tt></a></p>"
+  },
+  "32687131": {
+    "org": "contributte",
+    "repo": "gopay-inline",
+    "tag": "v1.3.1",
+    "name": "v1.3.1",
+    "created_at": "2020-10-16T18:45:02Z",
+    "published_at": "2020-10-16T18:48:39Z",
+    "html_url": "https://github.com/contributte/gopay-inline/releases/tag/v1.3.1",
+    "body": "<h3>DIFF</h3>\n<p><a class=\"commit-link\" href=\"https://github.com/contributte/gopay-inline/compare/v1.3.0...v1.3.1\"><tt>v1.3.0...v1.3.1</tt></a></p>\n<h3>CHANGES</h3>\n<ul>\n<li>Fix compatibility of RecurrentPaymentFactory (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"723429395\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/gopay-inline/issues/76\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/gopay-inline/pull/76/hovercard\" href=\"https://github.com/contributte/gopay-inline/pull/76\">#76</a>)</li>\n<li>update docs (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"720099288\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/gopay-inline/issues/73\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/gopay-inline/pull/73/hovercard\" href=\"https://github.com/contributte/gopay-inline/pull/73\">#73</a>) thx <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/JanHrivnak/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/JanHrivnak\">@JanHrivnak</a></li>\n</ul>"
+  },
+  "32794671": {
+    "org": "contributte",
+    "repo": "guzzlette",
+    "tag": "v3.1.0",
+    "name": "v3.1.0",
+    "created_at": "2020-10-20T07:40:25Z",
+    "published_at": "2020-10-20T07:43:08Z",
+    "html_url": "https://github.com/contributte/guzzlette/releases/tag/v3.1.0",
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"teddy_bear\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f9f8.png\">🧸</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/guzzlette/compare/v3.0.1...v3.1.0\"><tt>v3.0.1...v3.1.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow guzzle 7.x</li>\n<li>Typo in Tracy panel</li>\n<li>Drop namshi/cuzzle</li>\n<li>PHPStan v0.12</li>\n</ul>"
+  },
+  "33267963": {
+    "org": "contributte",
+    "repo": "forms-bootstrap",
+    "tag": "v0.3.1",
+    "name": "v0.3.1",
+    "created_at": "2020-10-30T11:38:27Z",
+    "published_at": "2020-10-30T12:14:44Z",
+    "html_url": "https://github.com/contributte/forms-bootstrap/releases/tag/v0.3.1",
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"asterisk\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/002a-20e3.png\">*️⃣</g-emoji><br>\nDiff: <a class=\"commit-link\" href=\"https://github.com/contributte/forms-bootstrap/compare/v0.3...v0.3.1\"><tt>v0.3...v0.3.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow Nette\\Utils\\Html object for labels</li>\n</ul>"
   }
 }

@@ -49,6 +49,46 @@
     "html_url": "https://github.com/contributte/newrelic/releases/tag/v3.0.0",
     "body": "<p>Nette 2.1.x compatability</p>"
   },
+  "165457": {
+    "org": "contributte",
+    "repo": "pdf",
+    "tag": "v2.1.0",
+    "name": "Released version 2.1.0",
+    "created_at": "2014-02-06T23:35:45Z",
+    "published_at": "2014-01-29T17:18:51Z",
+    "html_url": "https://github.com/contributte/pdf/releases/tag/v2.1.0",
+    "body": "<p>Moved to Joseki, updated to Nette 2.1, reorganized, added example.</p>"
+  },
+  "198022": {
+    "org": "contributte",
+    "repo": "pdf",
+    "tag": "v2.1.1",
+    "name": "Released version 2.1.1",
+    "created_at": "2014-02-28T12:46:45Z",
+    "published_at": "2014-02-24T15:47:45Z",
+    "html_url": "https://github.com/contributte/pdf/releases/tag/v2.1.1",
+    "body": "<ul>\n<li>background templates fixed (fixed bug with blocked writing to multiple pages)</li>\n<li>removed example (will be path of a demo repository soon)</li>\n<li>composer.json updated (package name changed to <code>joseki/pdf-response</code>)</li>\n</ul>"
+  },
+  "326569": {
+    "org": "contributte",
+    "repo": "pdf",
+    "tag": "v2.2.0",
+    "name": "Released version 2.2",
+    "created_at": "2014-06-12T06:57:26Z",
+    "published_at": "2014-05-18T03:11:15Z",
+    "html_url": "https://github.com/contributte/pdf/releases/tag/v2.2.0",
+    "body": "<ul>\n<li><strong>Nette 2.2.* compatible</strong></li>\n<li>added tutorial for usage with standalone Latte</li>\n<li>removed inner callback createPDF</li>\n<li>added several error handlers</li>\n<li>new Exception classes (<strong>BC break</strong>)</li>\n<li>added __toString()</li>\n<li>all changes: <a href=\"https://github.com/Joseki/PdfResponse/compare/7592b4cadb7ed3ae31e74d12408976b39dba217f...451649ba9421f8c3bdc52062ce723a20580eb564\">diff</a></li>\n</ul>"
+  },
+  "462829": {
+    "org": "contributte",
+    "repo": "pdf",
+    "tag": "v2.2.1",
+    "name": "Released version 2.2.1",
+    "created_at": "2014-07-30T19:23:06Z",
+    "published_at": "2014-07-31T13:02:09Z",
+    "html_url": "https://github.com/contributte/pdf/releases/tag/v2.2.1",
+    "body": "<ul>\n<li>fixed <code>onBeforeComplete</code> event</li>\n<li>fixed setting page format, orientation and margin that had no efect when called after mPDF instance was created. These properties have to be set before <code>getMPDF()</code> is called, an exception is thrown otherwise.</li>\n<li>tests reworked, enabled travis-ci testing</li>\n<li>all changes: <a href=\"https://github.com/Joseki/PdfResponse/compare/v2.2.0...v2.2.1\">diff</a></li>\n</ul>"
+  },
   "525790": {
     "org": "contributte",
     "repo": "newrelic-tracy",
@@ -78,6 +118,26 @@
     "published_at": "2014-11-07T12:33:03Z",
     "html_url": "https://github.com/contributte/newrelic-tracy/releases/tag/v4.1.0",
     "body": "<ul>\n<li>Added support for Tracy 2.3.x</li>\n<li>Fix BC for Tracy 2.2.x</li>\n</ul>"
+  },
+  "725027": {
+    "org": "contributte",
+    "repo": "pdf",
+    "tag": "v2.2.2",
+    "name": "Released version 2.2.2",
+    "created_at": "2014-11-21T23:06:25Z",
+    "published_at": "2014-11-21T23:08:58Z",
+    "html_url": "https://github.com/contributte/pdf/releases/tag/v2.2.2",
+    "body": "<ul>\n<li>fixed incompatibility with bugged <code>mpdf v5.7.3</code></li>\n<li>all changes: <a href=\"https://github.com/Joseki/PdfResponse/compare/v2.2.1...v2.2.2\">diff</a></li>\n</ul>"
+  },
+  "849093": {
+    "org": "contributte",
+    "repo": "pdf",
+    "tag": "v2.2.3",
+    "name": "Released version 2.2.3",
+    "created_at": "2015-01-13T20:38:15Z",
+    "published_at": "2015-01-13T21:33:55Z",
+    "html_url": "https://github.com/contributte/pdf/releases/tag/v2.2.3",
+    "body": "<ul>\n<li>tests in travis no longer tests against hhwm</li>\n<li>mPDF series 5.7.* begining with 5.7.3 (including) are not supported</li>\n</ul>"
   },
   "1022991": {
     "org": "contributte",
@@ -468,6 +528,16 @@
     "published_at": "2016-09-19T20:01:09Z",
     "html_url": "https://github.com/contributte/datagrid/releases/tag/v4.4.16",
     "body": ""
+  },
+  "4175886": {
+    "org": "contributte",
+    "repo": "pdf",
+    "tag": "v3.0.0",
+    "name": "3.0.0 Released",
+    "created_at": "2016-10-09T11:05:03Z",
+    "published_at": "2016-09-19T22:34:01Z",
+    "html_url": "https://github.com/contributte/pdf/releases/tag/v3.0.0",
+    "body": "<ul>\n<li>upgraded to mPDF v6+</li>\n<li>travis: tests against php7</li>\n<li>composer: required php5.4+</li>\n<li>PdfResponse: introduced <code>PdfResponse::ZOOM_*</code> and <code>PdfResponse::LAYOUT_*</code> constants</li>\n<li>PdfResponse refactored - added property accessors with validation for most of the fields</li>\n<li>removed (deprecated) ITemplate support from Nette &lt;2.2</li>\n</ul>"
   },
   "4278338": {
     "org": "contributte",
@@ -1989,6 +2059,16 @@
     "html_url": "https://github.com/contributte/datagrid/releases/tag/v5.4.5",
     "body": "<h2>Added:</h2>\n<ul>\n<li><code>DataGrid::allowRowsMultiAction</code>, viz <a href=\"https://ublaboo.org/datagrid/row#allow_action_of_multi_action\" rel=\"nofollow\">https://ublaboo.org/datagrid/row#allow_action_of_multi_action</a></li>\n</ul>\n<p><a href=\"https://github.com/ublaboo/datagrid/compare/v5.4.4...v5.4.5\">Changelog</a></p>"
   },
+  "7698661": {
+    "org": "contributte",
+    "repo": "pdf",
+    "tag": "v3.1",
+    "name": "Released version 3.1",
+    "created_at": "2017-09-10T14:50:22Z",
+    "published_at": "2017-09-10T14:52:51Z",
+    "html_url": "https://github.com/contributte/pdf/releases/tag/v3.1",
+    "body": "<ul>\n<li>support for PHP 7.1</li>\n<li>support for underscores in filenames when calling <code>PdfResponse::save()</code></li>\n</ul>"
+  },
   "7733148": {
     "org": "contributte",
     "repo": "gopay-inline",
@@ -2868,6 +2948,16 @@
     "published_at": "2018-03-12T10:48:51Z",
     "html_url": "https://github.com/contributte/api-router/releases/tag/v2.0.3",
     "body": "<ul>\n<li>Allow ApiRouteSpec::$description to be null</li>\n</ul>"
+  },
+  "10093968": {
+    "org": "contributte",
+    "repo": "pdf",
+    "tag": "v4.0",
+    "name": "Released version 4",
+    "created_at": "2018-01-03T21:48:45Z",
+    "published_at": "2018-03-14T23:09:55Z",
+    "html_url": "https://github.com/contributte/pdf/releases/tag/v4.0",
+    "body": "<ul>\n<li>mpdf 7 support</li>\n<li>PHP 7.2 support</li>\n<li>allowed to override mPDF showImageErrors</li>\n</ul>\n<p>BREAKING CHANGE: minimal compatibility set to PHP v5.6</p>"
   },
   "10190969": {
     "org": "contributte",
@@ -4889,6 +4979,16 @@
     "html_url": "https://github.com/contributte/monolog/releases/tag/v0.3.0",
     "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/monolog/compare/v0.2.2...v0.3.0\"><tt>v0.2.2...v0.3.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Supports Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/monolog/commit/53e99b7bb7ddf3a533ab571f5d306baf35e44542/hovercard\" href=\"https://github.com/contributte/monolog/commit/53e99b7bb7ddf3a533ab571f5d306baf35e44542\"><tt>53e99b7</tt></a></li>\n<li>PHP ^7.2</li>\n</ul>"
   },
+  "17783203": {
+    "org": "contributte",
+    "repo": "pdf",
+    "tag": "v5.0.0",
+    "name": "Released version 5.0",
+    "created_at": "2019-06-04T21:37:43Z",
+    "published_at": "2019-06-04T21:40:45Z",
+    "html_url": "https://github.com/contributte/pdf/releases/tag/v5.0.0",
+    "body": "<ul>\n<li>updated dependency to nette v3+</li>\n<li>updated dependency to mPDF v8+</li>\n</ul>\n<p>BREAKING CHANGE: minimal compatibility set to PHP v7.1</p>"
+  },
   "17787879": {
     "org": "contributte",
     "repo": "translation",
@@ -5057,7 +5157,7 @@
     "created_at": "2019-06-16T14:08:49Z",
     "published_at": "2019-06-16T17:01:36Z",
     "html_url": "https://github.com/contributte/guzzlette/releases/tag/v3.0.0",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/guzzlette/compare/v2.1.0...v3.0.0\"><tt>v2.1.0...v3.0.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/guzzlette/commit/c3c660cc4f850d1d05070d3171948d209f01f73d/hovercard\" href=\"https://github.com/contributte/guzzlette/commit/c3c660cc4f850d1d05070d3171948d209f01f73d\"><tt>c3c660c</tt></a></li>\n</ul>"
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"ear\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f442.png\">👂</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/guzzlette/compare/v2.1.0...v3.0.0\"><tt>v2.1.0...v3.0.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/guzzlette/commit/c3c660cc4f850d1d05070d3171948d209f01f73d/hovercard\" href=\"https://github.com/contributte/guzzlette/commit/c3c660cc4f850d1d05070d3171948d209f01f73d\"><tt>c3c660c</tt></a></li>\n</ul>"
   },
   "18034538": {
     "org": "contributte",
@@ -5177,7 +5277,7 @@
     "created_at": "2019-03-22T17:57:46Z",
     "published_at": "2019-06-24T10:06:26Z",
     "html_url": "https://github.com/contributte/guzzlette/releases/tag/v2.1.0",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/guzzlette/compare/v2.0.0...v2.1.0\"><tt>v2.0.0...v2.1.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow Tracy 2.6</li>\n</ul>"
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"partying_face\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f973.png\">🥳</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/guzzlette/compare/v2.0.0...v2.1.0\"><tt>v2.0.0...v2.1.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow Tracy 2.6</li>\n</ul>"
   },
   "18272093": {
     "org": "contributte",
@@ -5827,7 +5927,7 @@
     "created_at": "2019-10-11T00:41:05Z",
     "published_at": "2019-10-11T00:41:58Z",
     "html_url": "https://github.com/contributte/guzzlette/releases/tag/v3.0.1",
-    "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/guzzlette/compare/v3.0.0...v3.0.1\"><tt>v3.0.0...v3.0.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow Tracy 2.7 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/guzzlette/commit/d6d98a5b77a3bc87d5e97703d925d84b219b5531/hovercard\" href=\"https://github.com/contributte/guzzlette/commit/d6d98a5b77a3bc87d5e97703d925d84b219b5531\"><tt>d6d98a5</tt></a></li>\n</ul>"
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"loud_sound\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f50a.png\">🔊</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/guzzlette/compare/v3.0.0...v3.0.1\"><tt>v3.0.0...v3.0.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow Tracy 2.7 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/guzzlette/commit/d6d98a5b77a3bc87d5e97703d925d84b219b5531/hovercard\" href=\"https://github.com/contributte/guzzlette/commit/d6d98a5b77a3bc87d5e97703d925d84b219b5531\"><tt>d6d98a5</tt></a></li>\n</ul>"
   },
   "20704654": {
     "org": "contributte",
@@ -5887,7 +5987,7 @@
     "created_at": "2019-10-31T15:50:34Z",
     "published_at": "2019-10-31T15:54:30Z",
     "html_url": "https://github.com/contributte/newrelic/releases/tag/v8.0.0",
-    "body": "<ul>\n<li>Updated to Nette <code>3.0</code>. Nette <code>2.4</code> will be supported only in <code>7.x</code> releases.</li>\n<li>Dropped PHP <code>5.6</code> and <code>7.1</code> support.</li>\n<li>Added PHP <code>7.3</code> support.</li>\n</ul>"
+    "body": "<ul>\n<li>Updated to Nette <code>3.0</code>. Nette <code>2.4</code> will be supported only in <code>7.x</code> releases.</li>\n<li>Dropped PHP <code>5.6</code> and <code>7.0</code> support.</li>\n<li>Added PHP <code>7.3</code> support.</li>\n</ul>"
   },
   "21145133": {
     "org": "contributte",
@@ -6559,6 +6659,26 @@
     "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.9",
     "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"dark_sunglasses\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f576.png\">🕶</g-emoji></p>\n<ul>\n<li>Fixed Multiple column Aggregation Function rendering</li>\n<li>Added Multiple column Aggregation Function docs</li>\n<li>Added interface <code>ISingleColumnAggregationFunction</code> (which should be used for single column aggregation functions from now on, potential BC Break, not actual because the method <code>::render()</code> should be already implemented)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.8...v6.2.9\"><tt>v6.2.8...v6.2.9</tt></a></p>"
   },
+  "23038609": {
+    "org": "contributte",
+    "repo": "pdf",
+    "tag": "v5.1",
+    "name": "Released version 5.1",
+    "created_at": "2020-01-22T13:24:37Z",
+    "published_at": "2020-01-22T13:30:36Z",
+    "html_url": "https://github.com/contributte/pdf/releases/tag/v5.1",
+    "body": "<ul>\n<li>support of PHP 7.4</li>\n<li>update readme</li>\n</ul>"
+  },
+  "23045618": {
+    "org": "contributte",
+    "repo": "pdf",
+    "tag": "v5.1.1",
+    "name": "Released version 5.1.1",
+    "created_at": "2020-01-22T16:36:21Z",
+    "published_at": "2020-01-22T16:44:56Z",
+    "html_url": "https://github.com/contributte/pdf/releases/tag/v5.1.1",
+    "body": "<ul>\n<li>page format can now be array</li>\n<li>add strict type support</li>\n</ul>"
+  },
   "23485534": {
     "org": "contributte",
     "repo": "rabbitmq",
@@ -6667,7 +6787,7 @@
     "created_at": "2020-03-28T13:40:11Z",
     "published_at": "2020-03-28T21:16:24Z",
     "html_url": "https://github.com/contributte/menu-control/releases/tag/2.2.1",
-    "body": "<ul>\n<li>Fixed reverse logic in <code>MenuItem::isActive()</code> (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"564385204\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/menu-control/issues/42\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/menu-control/issues/42/hovercard\" href=\"https://github.com/contributte/menu-control/issues/42\">#42</a>)</li>\n<li>Fixed possible bug in <a href=\"https://github.com/nette/application\">nette/application</a> by updating minimal version to <code>3.0.4</code></li>\n</ul>"
+    "body": "<ul>\n<li>Fixed reverse logic in <code>MenuItem::isActive()</code> (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"564385204\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/menu-control/issues/42\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/menu-control/issues/42/hovercard\" href=\"https://github.com/contributte/menu-control/issues/42\">#42</a>)</li>\n<li>Fixed possible bug in <a href=\"https://github.com/nette/application\">nette/application</a> by updating minimal version to <code>3.0.4</code></li>\n<li>Make installabe as <code>contributte/menu-control</code></li>\n<li>Updated <code>MenuExtension</code> namespace to <code>Contributte\\MenuControl\\DI</code> <strong>[BC break]</strong></li>\n</ul>"
   },
   "24964136": {
     "org": "contributte",
@@ -6677,7 +6797,17 @@
     "created_at": "2020-03-28T14:26:56Z",
     "published_at": "2020-03-28T21:17:49Z",
     "html_url": "https://github.com/contributte/menu-control/releases/tag/2.1.2",
-    "body": "<ul>\n<li>Make installabe as <code>contributte/menu-control</code></li>\n</ul>"
+    "body": "<ul>\n<li>Make installabe as <code>contributte/menu-control</code></li>\n<li>Updated <code>MenuExtension</code> namespace to <code>Contributte\\MenuControl\\DI</code> <strong>[BC break]</strong></li>\n</ul>"
+  },
+  "25021088": {
+    "org": "contributte",
+    "repo": "pdf",
+    "tag": "v5.1.2",
+    "name": "Released version 5.1.2",
+    "created_at": "2020-03-30T20:32:37Z",
+    "published_at": "2020-03-30T20:35:13Z",
+    "html_url": "https://github.com/contributte/pdf/releases/tag/v5.1.2",
+    "body": "<p>Improvements:</p>\n<ul>\n<li>added config tempDir for mPDF thx <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/romanmatyus/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/romanmatyus\">@romanmatyus</a></li>\n<li>typo</li>\n</ul>"
   },
   "25067603": {
     "org": "contributte",
@@ -7159,6 +7289,16 @@
     "html_url": "https://github.com/contributte/datagrid/releases/tag/v5.7.6",
     "body": "<p>Bump!</p>\n<ul>\n<li>Fix - paginator option 'All'  (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Sikipiki/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Sikipiki\">@Sikipiki</a>)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v5.7.5...v5.7.6\"><tt>v5.7.5...v5.7.6</tt></a></p>"
   },
+  "27692547": {
+    "org": "contributte",
+    "repo": "pdf",
+    "tag": "v5.1.3",
+    "name": "Released version 5.1.3",
+    "created_at": "2020-06-18T16:05:09Z",
+    "published_at": "2020-06-18T16:13:33Z",
+    "html_url": "https://github.com/contributte/pdf/releases/tag/v5.1.3",
+    "body": "<p>Improvements:</p>\n<ul>\n<li>improved global configuration of PDF response</li>\n<li>added GitHub Actions for tests</li>\n</ul>"
+  },
   "27778497": {
     "org": "contributte",
     "repo": "datagrid",
@@ -7289,6 +7429,16 @@
     "html_url": "https://github.com/contributte/mailing/releases/tag/v0.4.0",
     "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"qatar\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f1f6-1f1e6.png\">🇶🇦</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/mailing/compare/v0.3.2...v0.4.0\"><tt>v0.3.2...v0.4.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Relax latte dependency</li>\n<li>Allow to set plain text to message</li>\n</ul>"
   },
+  "28710735": {
+    "org": "contributte",
+    "repo": "translation",
+    "tag": "v0.7.1",
+    "name": "v0.7.1",
+    "created_at": "2020-10-22T05:25:05Z",
+    "published_at": "2020-10-22T05:26:12Z",
+    "html_url": "https://github.com/contributte/translation/releases/tag/v0.7.1",
+    "body": "<p>Bump!</p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/translation/compare/v0.7.0...v0.7.1\"><tt>v0.7.0...v0.7.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>bug fix: default fallback unexpected behaviour <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/translation/commit/943b5463b569a1c51b299b3fe793cbe5fa20268b/hovercard\" href=\"https://github.com/contributte/translation/commit/943b5463b569a1c51b299b3fe793cbe5fa20268b\"><tt>943b546</tt></a> (tnx <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/rozsival/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rozsival\">@rozsival</a>)</li>\n</ul>"
+  },
   "28822145": {
     "org": "contributte",
     "repo": "image-storage",
@@ -7418,5 +7568,75 @@
     "published_at": "2020-09-25T08:34:08Z",
     "html_url": "https://github.com/contributte/forms-bootstrap/releases/tag/v0.3",
     "body": "<p>Bump! <img class=\"emoji\" title=\":feelsgood:\" alt=\":feelsgood:\" src=\"https://github.githubassets.com/images/icons/emoji/feelsgood.png\" height=\"20\" width=\"20\" align=\"absmiddle\"></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/forms-bootstrap/compare/v0.2.2...v0.3\"><tt>v0.2.2...v0.3</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li><strong>BC:</strong> removed prompt on selectinput</li>\n<li><strong>BC:</strong> use nette/forms for creating selectbox, now translator works correctly on items and prompt also fixes <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"678269001\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/forms-bootstrap/issues/24\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/forms-bootstrap/issues/24/hovercard\" href=\"https://github.com/contributte/forms-bootstrap/issues/24\">#24</a></li>\n<li>BootstrapForm::$allwaysUseNullable to set all fields as nullable (calls $component-&gt;setNullable() for all fields automatically)</li>\n<li>feature: allow to ommit default placeholder for date/datetime input</li>\n<li>bugfix when date/datetime empty, return empty value immidiatelly without trying to create datetime object</li>\n<li>bugfix rendering with method get now works</li>\n<li>use InputPromptTrait on SelectInput, do validation if prompt can be used</li>\n<li>allow 0 on items with setPrompts do strict comparisson for \"\" and null</li>\n<li>raise phpstan from lvl 4 to lvl7</li>\n<li>added a lot of unit tests, coverage increased</li>\n</ul>"
+  },
+  "31931583": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v6.2.29",
+    "name": "v6.2.29",
+    "created_at": "2020-09-29T12:08:24Z",
+    "published_at": "2020-09-29T12:08:57Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.2.29",
+    "body": "<p>Bump!</p>\n<ul>\n<li>Status/Option: added connfirmation dialog</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.28...v6.2.29\"><tt>v6.2.28...v6.2.29</tt></a></p>"
+  },
+  "32157019": {
+    "org": "contributte",
+    "repo": "rabbitmq",
+    "tag": "v7.0.1",
+    "name": "v7.0.1",
+    "created_at": "2020-10-05T09:14:58Z",
+    "published_at": "2020-10-05T09:16:40Z",
+    "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v7.0.1",
+    "body": "<p>Bump!</p>\n<ul>\n<li>The required PHP version was fixed in composer.json (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Stehos/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Stehos\">@Stehos</a>)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/rabbitmq/compare/v7.0.0...v7.0.1\"><tt>v7.0.0...v7.0.1</tt></a></p>"
+  },
+  "32234282": {
+    "org": "contributte",
+    "repo": "api-router",
+    "tag": "v2.1.1",
+    "name": "v2.1.1",
+    "created_at": "2020-10-06T18:53:22Z",
+    "published_at": "2020-10-06T18:57:33Z",
+    "html_url": "https://github.com/contributte/api-router/releases/tag/v2.1.1",
+    "body": "<p>Bump!</p>\n<ul>\n<li>less strict requirements for doctrine/cache</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/api-router/compare/v2.0.3...v2.1.1\"><tt>v2.0.3...v2.1.1</tt></a></p>"
+  },
+  "32687131": {
+    "org": "contributte",
+    "repo": "gopay-inline",
+    "tag": "v1.3.1",
+    "name": "v1.3.1",
+    "created_at": "2020-10-16T18:45:02Z",
+    "published_at": "2020-10-16T18:48:39Z",
+    "html_url": "https://github.com/contributte/gopay-inline/releases/tag/v1.3.1",
+    "body": "<h3>DIFF</h3>\n<p><a class=\"commit-link\" href=\"https://github.com/contributte/gopay-inline/compare/v1.3.0...v1.3.1\"><tt>v1.3.0...v1.3.1</tt></a></p>\n<h3>CHANGES</h3>\n<ul>\n<li>Fix compatibility of RecurrentPaymentFactory (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"723429395\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/gopay-inline/issues/76\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/gopay-inline/pull/76/hovercard\" href=\"https://github.com/contributte/gopay-inline/pull/76\">#76</a>)</li>\n<li>update docs (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"720099288\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/gopay-inline/issues/73\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/gopay-inline/pull/73/hovercard\" href=\"https://github.com/contributte/gopay-inline/pull/73\">#73</a>) thx <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/JanHrivnak/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/JanHrivnak\">@JanHrivnak</a></li>\n</ul>"
+  },
+  "32794671": {
+    "org": "contributte",
+    "repo": "guzzlette",
+    "tag": "v3.1.0",
+    "name": "v3.1.0",
+    "created_at": "2020-10-20T07:40:25Z",
+    "published_at": "2020-10-20T07:43:08Z",
+    "html_url": "https://github.com/contributte/guzzlette/releases/tag/v3.1.0",
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"teddy_bear\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f9f8.png\">🧸</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/guzzlette/compare/v3.0.1...v3.1.0\"><tt>v3.0.1...v3.1.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow guzzle 7.x</li>\n<li>Typo in Tracy panel</li>\n<li>Drop namshi/cuzzle</li>\n<li>PHPStan v0.12</li>\n</ul>"
+  },
+  "33267963": {
+    "org": "contributte",
+    "repo": "forms-bootstrap",
+    "tag": "v0.3.1",
+    "name": "v0.3.1",
+    "created_at": "2020-10-30T11:38:27Z",
+    "published_at": "2020-10-30T12:14:44Z",
+    "html_url": "https://github.com/contributte/forms-bootstrap/releases/tag/v0.3.1",
+    "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"asterisk\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/002a-20e3.png\">*️⃣</g-emoji><br>\nDiff: <a class=\"commit-link\" href=\"https://github.com/contributte/forms-bootstrap/compare/v0.3...v0.3.1\"><tt>v0.3...v0.3.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow Nette\\Utils\\Html object for labels</li>\n</ul>"
+  },
+  "33379030": {
+    "org": "contributte",
+    "repo": "pdf",
+    "tag": "v6.0.0",
+    "name": "Released version 6.0.0",
+    "created_at": "2020-11-04T12:17:05Z",
+    "published_at": "2020-11-02T23:52:16Z",
+    "html_url": "https://github.com/contributte/pdf/releases/tag/v6.0.0",
+    "body": "<h1>BC breaks</h1>\n<ul>\n<li>change namespace to Contributte</li>\n</ul>"
   }
 }

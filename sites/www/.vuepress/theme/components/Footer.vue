@@ -63,7 +63,7 @@
                 <li class="my-4">Subscribe to the newsletter and get involved.</li>
                 <li>
                   <a
-                    href="https://nettefoundation.us9.list-manage.com/subscribe?u=7218d1164f93b5bd0e1105dc5&id=bac2a29714"
+                    href="https://f3l1x.us4.list-manage.com/subscribe/post?u=7207f2543ed43156f473e11f0&id=0185f5988c"
                     class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
                   >Subscribe</a>
                 </li>

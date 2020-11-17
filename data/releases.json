@@ -4157,7 +4157,7 @@
     "created_at": "2018-10-12T11:08:33Z",
     "published_at": "2018-11-02T09:35:40Z",
     "html_url": "https://github.com/nettrine/dbal/releases/tag/v0.2.7",
-    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"sagittarius\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2650.png\">♐��</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/dbal/compare/v0.2.6...v0.2.7\"><tt>v0.2.6...v0.2.7</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Tracy panel icon [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/bb9ffa6d01cc561100d28506f968b6bcb09aada6/hovercard\" href=\"https://github.com/nettrine/dbal/commit/bb9ffa6d01cc561100d28506f968b6bcb09aada6\"><tt>bb9ffa6</tt></a>]</li>\n<li>Phpstan v0.10</li>\n<li>Tracy: escaping [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/8ebddc3143d88ac2ad2e78c7fad731f03cfccf32/hovercard\" href=\"https://github.com/nettrine/dbal/commit/8ebddc3143d88ac2ad2e78c7fad731f03cfccf32\"><tt>8ebddc3</tt></a>]</li>\n</ul>"
+    "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"sagittarius\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2650.png\">♐️</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/dbal/compare/v0.2.6...v0.2.7\"><tt>v0.2.6...v0.2.7</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Tracy panel icon [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/bb9ffa6d01cc561100d28506f968b6bcb09aada6/hovercard\" href=\"https://github.com/nettrine/dbal/commit/bb9ffa6d01cc561100d28506f968b6bcb09aada6\"><tt>bb9ffa6</tt></a>]</li>\n<li>Phpstan v0.10</li>\n<li>Tracy: escaping [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/dbal/commit/8ebddc3143d88ac2ad2e78c7fad731f03cfccf32/hovercard\" href=\"https://github.com/nettrine/dbal/commit/8ebddc3143d88ac2ad2e78c7fad731f03cfccf32\"><tt>8ebddc3</tt></a>]</li>\n</ul>"
   },
   "13817286": {
     "org": "contributte",
@@ -4528,6 +4528,16 @@
     "published_at": "2019-02-28T15:21:43Z",
     "html_url": "https://github.com/contributte/datagrid/releases/tag/v5.7.1",
     "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"hourglass\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/231b.png\">⌛️</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v5.7.0...v5.7.1\"><tt>v5.7.0...v5.7.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Added support for Export button confirm dialog (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Arziel/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Arziel\">@Arziel</a>)</li>\n<li>Bump 5.7.0 NPM package</li>\n<li>DoctrineDataSource - clean DQL orderBy (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/JKoty/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/JKoty\">@JKoty</a>)</li>\n<li>Bootstrap 4 calendar icon (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/radekdostal/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/radekdostal\">@radekdostal</a>) [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"368190934\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/datagrid/issues/706\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/datagrid/pull/706/hovercard\" href=\"https://github.com/contributte/datagrid/pull/706\">#706</a>]</li>\n<li>Repair paginator (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/romanmatyus/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/romanmatyus\">@romanmatyus</a>) [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"314920789\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/datagrid/issues/645\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/datagrid/issues/645/hovercard\" href=\"https://github.com/contributte/datagrid/issues/645\">#645</a>]</li>\n<li>NextrasDataSource - fix multiselect (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/martenb/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/martenb\">@martenb</a>) [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"318174924\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/datagrid/issues/653\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/datagrid/pull/653/hovercard\" href=\"https://github.com/contributte/datagrid/pull/653\">#653</a>]</li>\n<li>DoctrineCollectionDataSource - protectec properties [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"335008691\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/datagrid/issues/672\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/datagrid/pull/672/hovercard\" href=\"https://github.com/contributte/datagrid/pull/672\">#672</a>]</li>\n<li>Bugfix: throwing exception on null parent. [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"374987032\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/datagrid/issues/721\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/datagrid/pull/721/hovercard\" href=\"https://github.com/contributte/datagrid/pull/721\">#721</a>]</li>\n<li>Datagrid: setDataSource - allow NextrasDataSource [<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"401288495\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/datagrid/issues/737\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/datagrid/pull/737/hovercard\" href=\"https://github.com/contributte/datagrid/pull/737\">#737</a>]</li>\n</ul>"
+  },
+  "15970495": {
+    "org": "contributte",
+    "repo": "webpack",
+    "tag": "1.1.0",
+    "name": "1.1.0",
+    "created_at": "2019-03-07T13:14:04Z",
+    "published_at": "2019-03-07T13:22:31Z",
+    "html_url": "https://github.com/contributte/webpack/releases/tag/1.1.0",
+    "body": "<ul>\n<li>This release brings <strong>compatibility with Nette 3.0</strong> <g-emoji class=\"g-emoji\" alias=\"tada\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f389.png\">🎉</g-emoji> (as well as Nette 2.4 at the same time). Also, PHP version requirement has been raised to 7.1.</li>\n<li>Some hidden hard dependencies on Nette packages (such as nette/application or nette/http) have been removed, so that WebpackNetteAdapter can be employed even in less traditional development stacks.</li>\n<li>The timeout of DevServer's heartbeat check is now configurable, defaulting to the current value of 100 ms.</li>\n</ul>"
   },
   "15973328": {
     "org": "contributte",
@@ -6359,6 +6369,16 @@
     "html_url": "https://github.com/contributte/comgate/releases/tag/v0.1.0",
     "body": "<p>First bump! <g-emoji class=\"g-emoji\" alias=\"fist_oncoming\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png\">👊</g-emoji></p>"
   },
+  "22230608": {
+    "org": "contributte",
+    "repo": "webpack",
+    "tag": "1.2.0",
+    "name": "1.2.0",
+    "created_at": "2019-12-14T15:44:54Z",
+    "published_at": "2019-12-14T15:50:05Z",
+    "html_url": "https://github.com/contributte/webpack/releases/tag/1.2.0",
+    "body": "<ul>\n<li><g-emoji class=\"g-emoji\" alias=\"wrench\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f527.png\">🔧</g-emoji> Minimum required version of PHP is now 7.2, and up to 7.4 is supported.</li>\n<li><g-emoji class=\"g-emoji\" alias=\"beetle\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f41e.png\">🐞</g-emoji> <code>AssetLocator</code> trims extra leading slashes that might force the browser to treat the asset name as a protocol-less absolute URL.</li>\n<li><g-emoji class=\"g-emoji\" alias=\"beetle\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f41e.png\">🐞</g-emoji> WebpackNetteAdapter no longer tries to pre-load assets manifest when running the application in CLI, preventing failures when the assets are not built. If you use CLI to warmup DI container cache, you can bypass this behaviour by setting the <code>OOPS_WEBPACK_OPTIMIZE_MANIFEST</code> env variable to a truthy value.</li>\n<li><g-emoji class=\"g-emoji\" alias=\"sparkles\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2728.png\">✨</g-emoji> You can configure <code>AssetLocator</code> to ignore certain asset names when the dev-server is available. Ignored assets are resolved to an empty Data URI. This is particularly helpful if you use <code>style-loader</code> in development which does not emit any CSS files.</li>\n</ul>"
+  },
   "22262381": {
     "org": "contributte",
     "repo": "translation",
@@ -6609,6 +6629,16 @@
     "html_url": "https://github.com/contributte/forms-bootstrap/releases/tag/0.1",
     "body": "<ul>\n<li>Nette 3 support</li>\n</ul>"
   },
+  "22763157": {
+    "org": "contributte",
+    "repo": "webpack",
+    "tag": "1.3.0",
+    "name": "1.3.0",
+    "created_at": "2020-01-11T14:36:53Z",
+    "published_at": "2020-01-11T14:40:05Z",
+    "html_url": "https://github.com/contributte/webpack/releases/tag/1.3.0",
+    "body": "<ul>\n<li><g-emoji class=\"g-emoji\" alias=\"sparkles\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2728.png\">✨</g-emoji> You can now configure the <code>DevServer</code> with a different internal and public URL for easier use in environments such as a Docker Compose network. (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"529397532\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/webpack/issues/13\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/webpack/pull/13/hovercard\" href=\"https://github.com/contributte/webpack/pull/13\">#13</a>, thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/martinjinda/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/martinjinda\">@martinjinda</a>!)</li>\n</ul>"
+  },
   "22852689": {
     "org": "contributte",
     "repo": "api-docu",
@@ -6858,6 +6888,16 @@
     "published_at": "2020-04-02T13:48:19Z",
     "html_url": "https://github.com/contributte/rabbitmq/releases/tag/v5.0.1",
     "body": "<ul>\n<li>RabbitMQExtension: added console.command tags</li>\n</ul>"
+  },
+  "25289216": {
+    "org": "contributte",
+    "repo": "webpack",
+    "tag": "1.3.1",
+    "name": "1.3.1",
+    "created_at": "2020-04-07T17:27:03Z",
+    "published_at": "2020-04-07T17:28:49Z",
+    "html_url": "https://github.com/contributte/webpack/releases/tag/1.3.1",
+    "body": "<ul>\n<li><g-emoji class=\"g-emoji\" alias=\"beetle\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f41e.png\">🐞</g-emoji> Fixed BuildDirectoryProvider pointing to public URL of dev server instead of the internal one if a public URL is configured. (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"596026576\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/webpack/issues/16\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/webpack/pull/16/hovercard\" href=\"https://github.com/contributte/webpack/pull/16\">#16</a>)</li>\n</ul>"
   },
   "25388220": {
     "org": "nettrine",
@@ -7569,6 +7609,16 @@
     "html_url": "https://github.com/contributte/forms-bootstrap/releases/tag/v0.3",
     "body": "<p>Bump! <img class=\"emoji\" title=\":feelsgood:\" alt=\":feelsgood:\" src=\"https://github.githubassets.com/images/icons/emoji/feelsgood.png\" height=\"20\" width=\"20\" align=\"absmiddle\"></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/forms-bootstrap/compare/v0.2.2...v0.3\"><tt>v0.2.2...v0.3</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li><strong>BC:</strong> removed prompt on selectinput</li>\n<li><strong>BC:</strong> use nette/forms for creating selectbox, now translator works correctly on items and prompt also fixes <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"678269001\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/forms-bootstrap/issues/24\" data-hovercard-type=\"issue\" data-hovercard-url=\"/contributte/forms-bootstrap/issues/24/hovercard\" href=\"https://github.com/contributte/forms-bootstrap/issues/24\">#24</a></li>\n<li>BootstrapForm::$allwaysUseNullable to set all fields as nullable (calls $component-&gt;setNullable() for all fields automatically)</li>\n<li>feature: allow to ommit default placeholder for date/datetime input</li>\n<li>bugfix when date/datetime empty, return empty value immidiatelly without trying to create datetime object</li>\n<li>bugfix rendering with method get now works</li>\n<li>use InputPromptTrait on SelectInput, do validation if prompt can be used</li>\n<li>allow 0 on items with setPrompts do strict comparisson for \"\" and null</li>\n<li>raise phpstan from lvl 4 to lvl7</li>\n<li>added a lot of unit tests, coverage increased</li>\n</ul>"
   },
+  "31843917": {
+    "org": "contributte",
+    "repo": "webpack",
+    "tag": "1.4.0",
+    "name": "1.4.0",
+    "created_at": "2020-09-26T14:21:28Z",
+    "published_at": "2020-09-26T14:23:59Z",
+    "html_url": "https://github.com/contributte/webpack/releases/tag/1.4.0",
+    "body": "<ul>\n<li><g-emoji class=\"g-emoji\" alias=\"sparkles\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2728.png\">✨</g-emoji> You can now use manifest plugins other than <code>webpack-manifest-plugin</code>, using mappers to map the plugin's structure to the flat structure expected by WebpackNetteAdapter. (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"690224635\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/webpack/issues/17\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/webpack/pull/17/hovercard\" href=\"https://github.com/contributte/webpack/pull/17\">#17</a>, thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/rattuscz/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rattuscz\">@rattuscz</a>!)</li>\n<li><g-emoji class=\"g-emoji\" alias=\"wrench\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f527.png\">🔧</g-emoji> Guzzle 7.0 is supported. (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"706539274\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/webpack/issues/18\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/webpack/pull/18/hovercard\" href=\"https://github.com/contributte/webpack/pull/18\">#18</a>, thanks <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/solcik/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/solcik\">@solcik</a>!)</li>\n</ul>"
+  },
   "31931583": {
     "org": "contributte",
     "repo": "datagrid",
@@ -7619,6 +7669,16 @@
     "html_url": "https://github.com/contributte/guzzlette/releases/tag/v3.1.0",
     "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"teddy_bear\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f9f8.png\">🧸</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/guzzlette/compare/v3.0.1...v3.1.0\"><tt>v3.0.1...v3.1.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow guzzle 7.x</li>\n<li>Typo in Tracy panel</li>\n<li>Drop namshi/cuzzle</li>\n<li>PHPStan v0.12</li>\n</ul>"
   },
+  "32899710": {
+    "org": "contributte",
+    "repo": "translation",
+    "tag": "v0.8.0",
+    "name": "v0.8.0",
+    "created_at": "2020-11-16T21:13:17Z",
+    "published_at": "2020-11-16T21:22:23Z",
+    "html_url": "https://github.com/contributte/translation/releases/tag/v0.8.0",
+    "body": "<p>Bump!</p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/translation/compare/v0.7.1...v0.8.0\"><tt>v0.7.1...v0.8.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>allowed PHP 8 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/translation/commit/a970b91399fa0ea6166b0e8a8274ad138da2bf5e/hovercard\" href=\"https://github.com/contributte/translation/commit/a970b91399fa0ea6166b0e8a8274ad138da2bf5e\"><tt>a970b91</tt></a></li>\n<li>add cache vary option to DI extension <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/translation/commit/486f0d065687fa54c46bab75112e00d098e9d71e/hovercard\" href=\"https://github.com/contributte/translation/commit/486f0d065687fa54c46bab75112e00d098e9d71e\"><tt>486f0d0</tt></a> (tnx <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/kubomikita/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/kubomikita\">@kubomikita</a>)</li>\n<li>droped <strong>DebuggerTranslator</strong> and <strong>LoggerTranslator</strong> <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/translation/commit/87257af6464e95df59ba860dbf78149fcecbee4e/hovercard\" href=\"https://github.com/contributte/translation/commit/87257af6464e95df59ba860dbf78149fcecbee4e\"><tt>87257af</tt></a></li>\n<li>add option for own translator factory <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/translation/commit/340d054b6cf028139f8b3d5ea9c9615499c09ca6/hovercard\" href=\"https://github.com/contributte/translation/commit/340d054b6cf028139f8b3d5ea9c9615499c09ca6\"><tt>340d054</tt></a> (tnx <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/kubomikita/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/kubomikita\">@kubomikita</a>)</li>\n<li>migrate from Travis to Github Actions <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/translation/commit/5ff40431b5536a0a994509e0264e12914cbb452b/hovercard\" href=\"https://github.com/contributte/translation/commit/5ff40431b5536a0a994509e0264e12914cbb452b\"><tt>5ff4043</tt></a> (tnx <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Roman3349/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Roman3349\">@Roman3349</a>)</li>\n</ul>"
+  },
   "33267963": {
     "org": "contributte",
     "repo": "forms-bootstrap",
@@ -7629,6 +7689,16 @@
     "html_url": "https://github.com/contributte/forms-bootstrap/releases/tag/v0.3.1",
     "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"asterisk\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/002a-20e3.png\">*️⃣</g-emoji><br>\nDiff: <a class=\"commit-link\" href=\"https://github.com/contributte/forms-bootstrap/compare/v0.3...v0.3.1\"><tt>v0.3...v0.3.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Allow Nette\\Utils\\Html object for labels</li>\n</ul>"
   },
+  "33339001": {
+    "org": "contributte",
+    "repo": "datagrid",
+    "tag": "v6.3.0",
+    "name": "v6.3.0",
+    "created_at": "2020-11-13T21:25:36Z",
+    "published_at": "2020-11-16T12:08:13Z",
+    "html_url": "https://github.com/contributte/datagrid/releases/tag/v6.3.0",
+    "body": "<p>Bump!</p>\n<ul>\n<li>Added check if filter range value is numeric for DoctrineDataSource (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/juniwalk/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/juniwalk\">@juniwalk</a>)</li>\n<li>support nextras/orm 4.0 with 3.1 backward compatibility (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/martenb/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/martenb\">@martenb</a>)</li>\n<li>contributte/datagrid-elasticsearch-data-source merged into main contributte/datagrid repo (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/f3l1x/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/f3l1x\">@f3l1x</a>)</li>\n</ul>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/datagrid/compare/v6.2.29...v6.2.30\"><tt>v6.2.29...v6.2.30</tt></a></p>"
+  },
   "33379030": {
     "org": "contributte",
     "repo": "pdf",
@@ -7638,5 +7708,15 @@
     "published_at": "2020-11-02T23:52:16Z",
     "html_url": "https://github.com/contributte/pdf/releases/tag/v6.0.0",
     "body": "<h1>BC breaks</h1>\n<ul>\n<li>change namespace to Contributte</li>\n</ul>"
+  },
+  "33610764": {
+    "org": "contributte",
+    "repo": "gopay-api",
+    "tag": "v2.5.5",
+    "name": "v2.5.5",
+    "created_at": "2020-11-08T11:26:39Z",
+    "published_at": "2020-11-08T11:36:28Z",
+    "html_url": "https://github.com/contributte/gopay-api/releases/tag/v2.5.5",
+    "body": "<p><g-emoji class=\"g-emoji\" alias=\"koala\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f428.png\">🐨</g-emoji> Bumped!</p>\n<p>Changes:</p>\n<ul>\n<li>join -&gt; implode</li>\n</ul>"
   }
 }

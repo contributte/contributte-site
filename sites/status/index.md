@@ -61,18 +61,27 @@
       </a>
     </td>
     <td>
-      <a :href="`https://travis-ci.org/${repository.org}/${repository.name}`" target="_blank">
-        <img lazy="true" :src="`https://badgen.net/packagist/php/${repository.org}/${repository.name}/?cache=600`">
+      <a v-if="repository.pm.composer" :href="`https://packagist.org/packages/${repository.pm.composer}`" target="_blank">
+        <img lazy="true" :src="`https://badgen.net/packagist/php/${repository.pm.composer}/?cache=600`">
+      </a>
+      <a v-if="repository.pm.npm" :href="`https://www.npmjs.com/package/${repository.pm.npm}`" target="_blank">
+        <img lazy="true" :src="`https://badgen.net/npm/v/${repository.pm.npm}/?cache=600`">
       </a>
     </td>
     <td>
-      <a :href="`https://travis-ci.org/${repository.org}/${repository.name}`" target="_blank">
-        <img lazy="true" :src="`https://badgen.net/packagist/dm/${repository.org}/${repository.name}/?cache=600`">
+      <a v-if="repository.pm.composer" :href="`https://packagist.org/packages/${repository.pm.composer}`" target="_blank">
+        <img lazy="true" :src="`https://badgen.net/packagist/dm/${repository.pm.composer}/?cache=600`">
+      </a>
+      <a v-if="repository.pm.npm" :href="`https://www.npmjs.com/package/${repository.pm.npm}`" target="_blank">
+        <img lazy="true" :src="`https://badgen.net/npm/dm/${repository.pm.npm}/?cache=600`">
       </a>
     </td>
     <td>
-      <a :href="`https://packagist.org/packages/${repository.org}/${repository.name}`" target="_blank">
-        <img lazy="true" :src="`https://badgen.net/packagist/dt/${repository.org}/${repository.name}/?cache=600`">
+      <a v-if="repository.pm.composer" :href="`https://packagist.org/packages/${repository.pm.composer}`" target="_blank">
+        <img lazy="true" :src="`https://badgen.net/packagist/dt/${repository.pm.composer}/?cache=600`">
+      </a>
+      <a v-if="repository.pm.npm" :href="`https://www.npmjs.com/package/${repository.pm.npm}`" target="_blank">
+        <img lazy="true" :src="`https://badgen.net/npm/dt/${repository.pm.npm}/?cache=600`">
       </a>
     </td>
   </tr>

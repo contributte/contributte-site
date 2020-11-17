@@ -12,7 +12,6 @@ module.exports = {
   evergreen: true,
   postcss: {
     plugins: [
-      require("autoprefixer"),
       require("tailwindcss")(path.resolve(__dirname, './../../../tailwind.config.js'))
     ]
   },

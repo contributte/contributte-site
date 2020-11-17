@@ -32,10 +32,10 @@ status-build:
 	npx vuepress build sites/status
 
 status-deploy:
-	cd sites/status && now -c
+	cd sites/status && vercel -c
 
 status-publish:
-	cd sites/status && now -c --prod
+	cd sites/status && vercel -c --prod
 
 ##################################################
 # DATA ###########################################

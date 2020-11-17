@@ -1148,42 +1148,6 @@
     "pm": "composer",
     "updated": "2020-05-07T14:02:04Z"
   },
-  "contributte/model": {
-    "org": "contributte",
-    "name": "model",
-    "category": "other",
-    "enabled": true,
-    "priority": 0,
-    "docs": {
-      "v": "v1"
-    },
-    "description": "💥 View-Model + Model-View layer to Nette Framework (@nette)",
-    "releases": {
-      "last": {
-        "org": "contributte",
-        "repo": "model",
-        "tag": "v0.2.0",
-        "name": "v0.2.0",
-        "created_at": "2019-06-16T14:05:07Z",
-        "published_at": "2019-06-16T16:50:49Z",
-        "html_url": "https://github.com/contributte/model/releases/tag/v0.2.0",
-        "body": "<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/model/compare/v0.1.0...v0.2.0\"><tt>v0.1.0...v0.2.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Requires PHP 7.2</li>\n<li>Nette 3 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/model/commit/ea4b10c9e6a61fa3cd0b319d63bdc821154064f4/hovercard\" href=\"https://github.com/contributte/model/commit/ea4b10c9e6a61fa3cd0b319d63bdc821154064f4\"><tt>ea4b10c</tt></a></li>\n</ul>"
-      }
-    },
-    "stars": 2,
-    "watchers": 2,
-    "forks": 0,
-    "composer": {
-      "nette": [],
-      "php": [
-        "7.2",
-        "7.4"
-      ]
-    },
-    "issues": 0,
-    "pm": "composer",
-    "updated": "2020-01-07T13:58:33Z"
-  },
   "contributte/nextras-orm-events": {
     "org": "contributte",
     "name": "nextras-orm-events",

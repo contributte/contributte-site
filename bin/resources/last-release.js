@@ -14,7 +14,7 @@ function syncRepo(repo) {
   const lastRelease = findLastRelease(repo);
 
   if (!lastRelease) {
-    console.log("No release: " + repo.name);
+    console.log(`No release  ${repo.org}/${repo.name}`);
     return;
   }
 

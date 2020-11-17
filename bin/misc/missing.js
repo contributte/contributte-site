@@ -12,7 +12,6 @@ const IGNORED = [
   'contributte/api',
   'contributte/advisories',
   'contributte/nextras-criteria',
-  'contributte/datagrid-nette-database-data-source',
   'contributte/datagrid-elasticsearch-data-source',
   'contributte/datagrid-dibi-data-source',
   'contributte/datagrid-doctrine-data-source',

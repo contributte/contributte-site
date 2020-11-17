@@ -1,4 +1,4 @@
-import repositories from './../../../data/repositories.json';
+import repositories from './../../../resources/repositories.json';
 import path from "path";
 import _ from "lodash-es";
 
@@ -18,7 +18,10 @@ module.exports = {
   },
   extendPageData($page) {
     $page.contributte = {
-      repositories: _(repositories).filter(r => r.enabled).value(),
+      repositories: _(repositories)
+        .filter(r => r.enabled)
+        .orderBy(['org', 'name'], ['asc', 'asc'])
+        .value(),
     }
   }
 };

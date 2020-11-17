@@ -61,28 +61,34 @@
       </a>
     </td>
     <td>
-      <a v-if="repository.pm.composer" :href="`https://packagist.org/packages/${repository.pm.composer}`" target="_blank">
-        <img lazy="true" :src="`https://badgen.net/packagist/php/${repository.pm.composer}/?cache=600`">
-      </a>
-      <a v-if="repository.pm.npm" :href="`https://www.npmjs.com/package/${repository.pm.npm}`" target="_blank">
-        <img lazy="true" :src="`https://badgen.net/npm/v/${repository.pm.npm}/?cache=600`">
-      </a>
+      <div class="flex space-x-2">
+        <a v-if="repository.pm.composer" :href="`https://packagist.org/packages/${repository.pm.composer}`" target="_blank">
+          <img lazy="true" :src="`https://badgen.net/packagist/php/${repository.pm.composer}/?cache=600`">
+        </a>
+        <a v-if="repository.pm.npm" :href="`https://www.npmjs.com/package/${repository.pm.npm}`" target="_blank">
+          <img lazy="true" :src="`https://badgen.net/npm/v/${repository.pm.npm}/?cache=600`">
+        </a>
+      </div>
     </td>
     <td>
-      <a v-if="repository.pm.composer" :href="`https://packagist.org/packages/${repository.pm.composer}`" target="_blank">
-        <img lazy="true" :src="`https://badgen.net/packagist/dm/${repository.pm.composer}/?cache=600`">
-      </a>
-      <a v-if="repository.pm.npm" :href="`https://www.npmjs.com/package/${repository.pm.npm}`" target="_blank">
-        <img lazy="true" :src="`https://badgen.net/npm/dm/${repository.pm.npm}/?cache=600`">
-      </a>
+      <div class="flex space-x-2">
+        <a v-if="repository.pm.composer" :href="`https://packagist.org/packages/${repository.pm.composer}`" target="_blank">
+          <img lazy="true" :src="`https://badgen.net/packagist/dm/${repository.pm.composer}/?cache=600`">
+        </a>
+        <a v-if="repository.pm.npm" :href="`https://www.npmjs.com/package/${repository.pm.npm}`" target="_blank">
+          <img lazy="true" :src="`https://badgen.net/npm/dm/${repository.pm.npm}/?cache=600`">
+        </a>
+      </div>
     </td>
     <td>
-      <a v-if="repository.pm.composer" :href="`https://packagist.org/packages/${repository.pm.composer}`" target="_blank">
-        <img lazy="true" :src="`https://badgen.net/packagist/dt/${repository.pm.composer}/?cache=600`">
-      </a>
-      <a v-if="repository.pm.npm" :href="`https://www.npmjs.com/package/${repository.pm.npm}`" target="_blank">
-        <img lazy="true" :src="`https://badgen.net/npm/dt/${repository.pm.npm}/?cache=600`">
-      </a>
+      <div class="flex space-x-2">
+        <a v-if="repository.pm.composer" :href="`https://packagist.org/packages/${repository.pm.composer}`" target="_blank">
+          <img lazy="true" :src="`https://badgen.net/packagist/dt/${repository.pm.composer}/?cache=600`">
+        </a>
+        <a v-if="repository.pm.npm" :href="`https://www.npmjs.com/package/${repository.pm.npm}`" target="_blank">
+          <img lazy="true" :src="`https://badgen.net/npm/dt/${repository.pm.npm}/?cache=600`">
+        </a>
+      </div>
     </td>
   </tr>
 </table>

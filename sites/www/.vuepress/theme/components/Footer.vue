@@ -81,23 +81,23 @@
                   <a href="/roadmap/vision.html">Vision</a>
                 </li>
                 <li>
-                  <a href="/roadmap/recap.html">Recap</a>
+                  <a href="/roadmap/changelog.html">Changelog</a>
                 </li>
               </ul>
             </div>
             <div class="px-4 pb-6">
               <ul>
                 <li>
-                  <strong>Organizations</strong>
+                  <strong>Community</strong>
                 </li>
                 <li>
-                  <a href="/nettrine">Nettrine</a>
+                  <a href="https://nette.org">Nette</a>
                 </li>
                 <li>
-                  <a href="/apitte">Apitte</a>
+                  <a href="https://forum.nette.org">Forum</a>
                 </li>
                 <li>
-                  <a href="/ninjify">Ninjify</a>
+                  <a href="https://blog.nette.org">Blog</a>
                 </li>
               </ul>
             </div>

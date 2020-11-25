@@ -45,26 +45,7 @@ module.exports = {
           },
         ]
       },
-      {
-        text: 'Roadmap',
-        ariaLabel: 'Roadmap',
-        items: [
-          {
-            text: "Future", items: [
-              { text: "Challenges", link: "/roadmap/challenges" },
-              { text: "Vision", link: "/roadmap/vision" },
-            ]
-          },
-          {
-            text: "Recap", items: [
-              { text: "2019", link: "/roadmap/recap#_2019" },
-              { text: "2018", link: "/roadmap/recap#_2018" },
-              { text: "2017", link: "/roadmap/recap#_2017" },
-              { text: "2016", link: "/roadmap/recap#_2016" },
-            ]
-          },
-        ]
-      },
+      { text: "Roadmap", link: "/roadmap/" },
       { text: "Partners", link: "/partners" },
       { text: "About", link: "/about" }
     ],

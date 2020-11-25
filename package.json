@@ -18,7 +18,7 @@
     "markdown-it-table-of-contents": "^0.4.4",
     "node-emoji": "^1.10.0",
     "semver": "^7.3.2",
-    "tailwindcss": "^1.9.6",
+    "tailwindcss": "^2.0.1",
     "twemoji": "^13.0.1",
     "vue": "^2.6.12",
     "vue-server-renderer": "^2.6.12",

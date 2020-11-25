@@ -2,23 +2,50 @@
 layout: MarkdownLayout
 ---
 
-# Recap
+# Changelog
 
-What we have actually did?
+What we actually did and why. Do you have some feedback? Please [let us know](milan@sulc.dev). 
 
-
-## 2020 (WIP)
+<div class="mt-16 pb-5 border-b border-gray-200">
+  <div class="-ml-2 -mt-2 flex flex-wrap items-baseline">
+    <h3 class="ml-2 mt-2 text-2xl leading-6 font-medium">
+      2020
+    </h3>
+    <p class="ml-2 mt-1 text-sm text-gray-500 truncate">Still going...</p>
+  </div>
+</div>
 
 The year of getting all on board and set some standards to our ecosystem.
 
+### Team
+
+Contributte organization has 2 new members.
+
+- [@petrparolek](https://github.com/petrparolek)
+- [@Roman3349](https://github.com/Roman3349)
+
+This year our hardworking member [@mabar](https://github.com/mabar) goes his own way. Thank you for the fish.
+
 ### Acquisitions
 
-We are glad to introduce you newcomes repositories from Gamee manufature.
+We are glad to introduce you newcomes repositories from [Gamee](https://github.com/gamee), [Joseki](https://github.com/joseki), [Oops](https://github.com/o2ps) manufature.
 
 - https://github.com/contributte/rabbitmq
 - https://github.com/contributte/jsonrpc
+- https://github.com/contributte/pdf
+- https://github.com/contributte/webpack
 
-### Standards
+### Focus
+
+**CI/CD**
+
+We are moving from Travis to Github Actions. It seems they can provider better developer experience (DX) and are really **faaast**.
+
+**New Readmes**
+
+Our preciouse readme(s) have new look & feel.
+
+**Standards**
 
 We are working hard to standardise all repositories to single development mainline (QA, tests, phpstan, readme).
 
@@ -26,15 +53,13 @@ We are working hard to standardise all repositories to single development mainli
 - https://github.com/contributte/api-docu
 - https://github.com/contributte/anabelle
 
-### Website
+**Website**
 
 We are focuing on user-friendly pages and speed. Images are served from CDN (https://imagekit.io/).
 
-
-<div class="mt-16"></div>
-
-
-## 2019
+<div class="pb-5 border-b border-gray-200 mt-16">
+  <h2 class="text-2xl leading-6 font-medium">2019</h2>
+</div>
 
 This is a recap for 2019 for Contributte ecosystem.
 
@@ -52,16 +77,16 @@ Contributte organization has 2 new members.
 [@paveljanda](https://github.com/paveljanda) is finally fully part of the contributte organization. That's good news.
 We're working to bring you more packages from ublaboo to contributte.
 
-### Website
+### Focus
+
+**Website**
 
 Static site generation proved its potential. Other world famouse sites are using static site generating.
 VuePress builds site into HTML + CSS + JS and these files are hosted on [ZEIT](https://zeit.co/). 
 
-
-<div class="mt-16"></div>
-
-
-## 2018
+<div class="pb-5 border-b border-gray-200 mt-16">
+  <h2 class="text-2xl leading-6 font-medium">2018</h2>
+</div>
 
 This is a recap for 2018 for Contributte ecosystem.
 
@@ -176,11 +201,10 @@ Some articles:
 
 > More then less we have done a hell great job and thanks to all guys around us.
 
+<div class="pb-5 border-b border-gray-200 mt-16">
+  <h2 class="text-2xl leading-6 font-medium">2017</h2>
+</div>
 
-<div class="mt-16"></div>
-
-
-## 2017
 
 The idea of Contributte is growing. People are joining, that's great.
 
@@ -193,11 +217,9 @@ More packages have been created:
 - https://github.com/contributte/nextras-orm-events
 - https://github.com/contributte/seznamcaptcha
 
-
-<div class="mt-16"></div>
-
-
-## 2016
+<div class="pb-5 border-b border-gray-200 mt-16">
+  <h2 class="text-2xl leading-6 font-medium">2016</h2>
+</div>
 
 The main idea was born. Here is [described](https://blog.nette.org/en/interview-with-milan-sulc-about-contributte-and-open-source) my (Felix) little journey, what I am doing, etc.
 

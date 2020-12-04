@@ -66,7 +66,6 @@ metaTitle: About Contributte
   </div>
 </div>
 
-
 <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
   <div class="lg:grid lg:grid-cols-12 lg:gap-8">
     <div class="md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
@@ -105,7 +104,7 @@ metaTitle: About Contributte
       </a>
     </div>
     <div class="ml-3 inline-flex rounded-md shadow">
-      <a href="/packages.html" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-blue-100">
+      <a href="/packages/" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-blue-100">
         Learn more
       </a>
     </div>

@@ -72,7 +72,7 @@ layout: MarkdownLayout
       </a>
     </div>
     <div class="ml-3 inline-flex rounded-md shadow">
-      <a href="/packages.html" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-blue-100">
+      <a href="/packages/" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-blue-100">
         Learn more
       </a>
     </div>

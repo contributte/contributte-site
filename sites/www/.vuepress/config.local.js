@@ -53,6 +53,7 @@ module.exports = {
     sidebar: sidebar.buildSidebar(),
     contributte: {
       packages: repositories.getRepositories().length,
+      team: team.getTeam().length,
     }
   },
   evergreen: true,

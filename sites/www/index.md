@@ -3,64 +3,70 @@ layout: HeroLayout
 metaTitle: Contributte - First class extensions, addons and plugins for Nette Framework. Plenty of examples and tricks for Nette.
 ---
 
-<header class="text-center pb-24">
-  <h1 class="hidden">Contributte</h1>
-  <div class="md:flex items-center">
-    <div class="flex-grow-1">
-      <img src="/contributte.png" class="m-auto" alt="Contributte" title="Contributte logo" width="150" loading="lazy">
-      <p class="text-4xl xl:text-5xl leading-12 text-gray-800 mt-6 font-black">
-        First::class <a href="/packages/" class="font-black underline">extensions</a> <br>for Nette Framework
+<div class="pt-12 sm:pt-16">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-4xl mx-auto text-center">
+      <h1>
+        <img src="https://avatars.githubusercontent.com/contributte" class="m-auto" alt="Contributte" title="Contributte logo" width="200" loading="lazy">
+      </h1>
+      <h2 class="mt-5 text-5xl font-extrabold text-gray-900 sm:text-5xl">
+        Contributte
+      </h2>
+      <p class="mt-5 text-2xl text-gray-500 sm:mt-4">
+        First::class <a href="/packages/" class="font-black underline">extensions</a> for Nette Framework
       </p>
     </div>
-    <div class="flex-grow-0 min-w-40 mr-0 ml-auto flex flex-col leading-tight my-8 md:my-0">
-      <div class="shadow-lg rounded-lg">
-        <div class="p-6 bg-blue-600 rounded-t-lg text-white">
-          <div class="text-8xl"><a class="focus:no-underline" href="/packages/">{{ $themeConfig.contributte.packages }}</a></div>
-          <div class="text-2xl font-bold"><a href="/packages/">packages</a></div>
-        </div>
-        <div class="p-4 bg-white rounded-b-lg">
-          <a href="/packages/" class="underline text-blue-600 font-bold py-2 px-4">Packages</a>
-          <a href="/releases.html" class="underline text-blue-600 font-bold py-2 px-4">Releases</a>
-          <a href="/examples.html" class="underline text-blue-600 font-bold py-2 px-4">Examples</a>
+  </div>
+  <div class="mt-10 pb-12 bg-white sm:pb-16">
+    <div class="relative">
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto">
+          <dl class="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-4">
+            <a href="/packages/" class="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">
+              <dt class="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
+                Packages
+              </dt>
+              <dd class="order-1 text-5xl font-extrabold text-blue-700">
+                {{ $themeConfig.contributte.packages }}
+              </dd>
+            </a>
+            <a href="/packages/" class="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">
+              <dt class="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
+                Downloads (daily)
+              </dt>
+              <dd class="order-1 text-5xl font-extrabold text-indigo-600">
+                <Downloads mode="daily"/>
+              </dd>
+            </a>
+            <a href="/packages/" class="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">
+              <dt class="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
+                Downloads (total)
+              </dt>
+              <dd class="order-1 text-5xl font-extrabold text-indigo-600">
+                <Downloads mode="total"/>
+              </dd>
+            </a>
+            <a href="/about.html" class="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
+              <dt class="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
+                Members
+              </dt>
+              <dd class="order-1 text-5xl font-extrabold text-indigo-600">
+                {{ $themeConfig.contributte.team }}
+              </dd>
+            </a>
+          </dl>
         </div>
       </div>
     </div>
   </div>
-</header>
-
-<!-- <section>
-  <div class="container max-w-full mx-auto py-24">
-    <h2 class="text-center text-4xl text-black font-medium leading-snug tracking-wider">
-      Our work
-    </h2>
-    <p class="text-center text-lg text-gray-700 mt-2 px-6">
-      Take a look at snippet of our work and <router-link to="/packages/">browse</router-link> in list of <strong>{{ $themeConfig.contributte.packages }}</strong> packages.
-    </p>
-    <div class="h-1 mx-auto bg-blue-600 w-24 opacity-75 mt-4 rounded"></div>
-    <div class="grid grid-cols-3  grid-rows-2 gap-4 mt-12">
-      <div v-for="repository of $page.contributte.randomRepositories" class="bg-white shadow-lg border rounded-lg px-4 py-2">
-        <router-link :to="repository | link" class="block w-full">
-          <div class="flex flex-row items-center">
-            <div class="flex-1">
-              <div>{{ repository.name }}</div>
-              <span class="text-sm text-gray-600">{{ repository.org }}</span>
-            </div>
-            <div class="text-lg text-right">
-              <span class="text-sm">{{ repository.stars }} ⭐</span>
-            </div>
-          </div>
-        </router-link>
-      </div>
-    </div>
-  </div>
-</section> -->
+</div>
 
 <section>
   <div class="container max-w-full mx-auto py-24">
     <h2 class="text-center text-4xl text-black font-medium leading-snug tracking-wider">
       Key Features
     </h2>
-    <p class="text-center text-lg text-gray-700 mt-2 px-6">
+    <p class="text-center text-xl text-gray-500 mt-2 px-6">
       Contributte is a group of developers bound together that care about code quality.
     </p>
     <div class="h-1 mx-auto bg-blue-600 w-24 opacity-75 mt-4 rounded"></div>

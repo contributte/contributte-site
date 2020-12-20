@@ -67,7 +67,7 @@ layout: MarkdownLayout
   </h2>
   <div class="mt-8 lex lg:mt-0 lg:flex-shrink-0">
     <div class="inline-flex rounded-md shadow">
-      <a href="/about/#contact" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-700 hover:bg-blue-600">
+      <a href="/about.html" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-700 hover:bg-blue-600">
         Contact
       </a>
     </div>

@@ -4,7 +4,7 @@ layout: MarkdownLayout
 
 # Changelog
 
-What we actually did and why. Do you have some feedback? Please [let us know](milan@sulc.dev). 
+What we actually did and why. Do you have some feedback? Please [let us know](/about.html). 
 
 <div class="mt-16 pb-5 border-b border-gray-200">
   <div class="-ml-2 -mt-2 flex flex-wrap items-baseline">

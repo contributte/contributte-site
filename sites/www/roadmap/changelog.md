@@ -9,10 +9,19 @@ What we actually did and why. Do you have some feedback? Please [let us know](/a
 <div class="mt-16 pb-5 border-b border-gray-200">
   <div class="-ml-2 -mt-2 flex flex-wrap items-baseline">
     <h3 class="ml-2 mt-2 text-2xl leading-6 font-medium">
-      2020
+      2021
     </h3>
     <p class="ml-2 mt-1 text-sm text-gray-500 truncate">Still going...</p>
   </div>
+</div>
+
+### Newbies
+
+- https://github.com/contributte/imagist
+- https://github.com/contributte/fileupload
+
+<div class="pb-5 border-b border-gray-200 mt-16">
+  <h2 class="text-2xl leading-6 font-medium">2020</h2>
 </div>
 
 The year of getting all on board and set some standards to our ecosystem.
@@ -34,6 +43,15 @@ We are glad to introduce you newcomes repositories from [Gamee](https://github.c
 - https://github.com/contributte/jsonrpc
 - https://github.com/contributte/pdf
 - https://github.com/contributte/webpack
+
+### Newbies
+
+- https://github.com/contributte/elastica
+- https://github.com/contributte/aop
+- https://github.com/contributte/oauth2-server
+- https://github.com/contributte/tester
+- https://github.com/contributte/qa
+- https://github.com/contributte/ui
 
 ### Focus
 

@@ -63,7 +63,7 @@ meta:
 Add to your current project using composer.
 
 ```
-composer require apitte/fullstack
+$ composer require apitte/fullstack
 ```
 
 Or take a look at examples.

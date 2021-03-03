@@ -22,7 +22,7 @@ meta:
 Add to your current project using composer.
 
 ```
-composer require ninjify/qa
+$ composer require ninjify/qa
 ```
 
 ## Setup

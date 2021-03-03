@@ -24,7 +24,7 @@ meta:
 Add to your current project using composer.
 
 ```
-composer require nettrine/dbal nettrine/orm
+$ composer require nettrine/dbal nettrine/orm
 ```
 
 Or take a look at examples.

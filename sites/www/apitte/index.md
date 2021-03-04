@@ -62,13 +62,14 @@ meta:
 
 Add to your current project using composer.
 
-```
-$ composer require apitte/fullstack
+```bash
+composer require apitte/fullstack
 ```
 
 Or take a look at examples.
 
-```sh
+```bash
+
 composer create-project --repository https://github.com/planette/playground
 ```
 

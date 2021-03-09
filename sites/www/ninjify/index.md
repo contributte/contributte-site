@@ -21,7 +21,7 @@ meta:
 
 Add to your current project using composer.
 
-```
+```bash
 composer require ninjify/qa
 ```
 
@@ -60,13 +60,13 @@ you can run these commands.
 
 **Analyse code**
 
-```
+```bash
 vendor/bin/codesniffer src tests
 ```
 
 **Fixup codestyle**
 
-```
+```bash
 vendor/bin/codefixer src tests
 ```
 
@@ -74,13 +74,13 @@ vendor/bin/codefixer src tests
 
 This is example of running codesniffer.
 
-```
+```bash
 vendor/bin/codesniffer src tests
 ```
 
 Or via composer script.
 
-```
+```bash
 vendor/bin/codesniffer src tests
 ```
 

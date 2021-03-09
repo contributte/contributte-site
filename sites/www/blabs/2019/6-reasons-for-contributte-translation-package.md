@@ -16,7 +16,7 @@ author: aleswita
 
   Install dependencies:
 
-  ```
+  ```bash
   composer require contributte/translation
   ```
 
@@ -35,13 +35,13 @@ author: aleswita
 
   File `app/lang/messages.en_US.neon`:
 
-  ```
+  ```yaml
   helloWorld: "Hello world"
   ```
 
   Some latte template:
 
-  ```smarty
+  ```latte
   latte: {_helloWorld}
   ```
 

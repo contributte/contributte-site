@@ -24,7 +24,7 @@ This package is build on top of nette forms and adds few interesting functionali
 ​
 Best and easiest way to install package is with composer.
 ​
-```sh
+```bash
 composer require contributte/forms-bootstrap
 ```
 

@@ -23,13 +23,13 @@ meta:
 
 Add to your current project using composer.
 
-```
+```bash
 composer require nettrine/dbal nettrine/orm
 ```
 
 Or take a look at examples.
 
-```sh
+```bash
 composer create-project --repository https://github.com/planette/playground
 ```
 

@@ -91,18 +91,18 @@ Just return data as array and let **Apitte** to create correct response for you.
 final class UsersController extends BaseV2Controller
 {
 
-  /**
-    * @Id("index")
-    * @Path("/")
-    * @Method("GET")
-    */
-  public function index()
-  {
-    return [
-      ['id' => 1, 'nick' => 'Chuck Norris'],
-      ['id' => 2, 'nick' => 'Felix'],
-    ];
-  }
+	/**
+	* @Id("index")
+	* @Path("/")
+	* @Method("GET")
+	*/
+	public function index()
+	{
+		return [
+			['id' => 1, 'nick' => 'Chuck Norris'],
+			['id' => 2, 'nick' => 'Felix'],
+		];
+	}
 }
 ```
 
@@ -140,24 +140,24 @@ Configure middlewares, setup plugins and register controllers in few lines of co
 
 [See more →](https://github.com/planette/playground/blob/master/apitte-fullstack/app/config/config.neon)
 
-```yaml
+```neon
 extensions:
-  middlewares: Contributte\Middlewares\DI\MiddlewaresExtension
-  resource: Contributte\DI\Extension\ResourceExtension
-  api: Apitte\Core\DI\ApiExtension
+	middlewares: Contributte\Middlewares\DI\MiddlewaresExtension
+	resource: Contributte\DI\Extension\ResourceExtension
+	api: Apitte\Core\DI\ApiExtension
 
 resource:
-  resources:
-    App\Controllers\:
-      paths: [%appDir%/controllers]
-      decorator:
-        inject: true
+	resources:
+		App\Controllers\:
+			paths: [%appDir%/controllers]
+			decorator:
+				inject: true
 api:
-  plugins:
-    Apitte\Debug\DI\DebugPlugin:
-    Apitte\Middlewares\DI\MiddlewaresPlugin:
-    Apitte\Negotiation\DI\NegotiationPlugin:
-      unification: on
-    Apitte\Mapping\DI\MappingPlugin:
-    Apitte\OpenApi\DI\OpenApiPlugin:
+	plugins:
+		Apitte\Debug\DI\DebugPlugin:
+		Apitte\Middlewares\DI\MiddlewaresPlugin:
+		Apitte\Negotiation\DI\NegotiationPlugin:
+			unification: on
+		Apitte\Mapping\DI\MappingPlugin:
+		Apitte\OpenApi\DI\OpenApiPlugin:
 ```

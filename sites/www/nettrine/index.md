@@ -37,7 +37,7 @@ composer create-project --repository https://github.com/planette/playground
 
 Setup your configuration in NEON files.
 
-```yaml
+```neon
 extensions:
 
 	# Dbal
@@ -74,13 +74,13 @@ orm.cache:
 
 Setup connection to database in `config.local.neon`.
 
-```yaml
+```neon
 parameters:
 	database:
 		host: localhost
 		dbname: nutella
 		user: nutella
-    password: nutella
+		password: nutella
 ```
 
 ## Usage

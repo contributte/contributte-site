@@ -16,7 +16,7 @@ Contributte, Apitte, Nettrine and other packages for [Nette Framework](https://n
 
 If you want to test some example just clone this repository and take a look at [prepared examples](https://github.com/planette/playground).
 
-```
+```bash
 git clone git@github.com:planette/playground.git
 ```
 

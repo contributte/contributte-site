@@ -13,16 +13,16 @@ in last, Nette 3 compatible version, support flexible registration of services.
 
 You can now either register services same way as in services neon section or reference an existing service. All of the following syntaxes are possible:
 
-```yaml
+```neon
 post:
-  mailer: Contributte\Mail\Mailer\SendmailMailer
-  # or
-  mailer: Contributte\Mail\Mailer\SendmailMailer()
-  # or
-  mailer:
-    factory: Contributte\Mail\Mailer\SendmailMailer
-  # or
-  mailer: @mailerServiceName
+	mailer: Contributte\Mail\Mailer\SendmailMailer
+	# or
+	mailer: Contributte\Mail\Mailer\SendmailMailer()
+	# or
+	mailer:
+		factory: Contributte\Mail\Mailer\SendmailMailer
+	# or
+	mailer: @mailerServiceName
 ```
 
 It is for case when it's useful to be more explicit about which services the extension should use instead of finding all services by an interface.
@@ -44,11 +44,11 @@ We are using it in [contributte/mail](https://github.com/contributte/mail/blob/e
 ```php
 public function getConfigSchema(): Schema
 {
-  return Expect::structure([
-    'mode' => Expect::anyOf(...self::MODES)->default(self::MODE_STANDALONE),
-    'mailer' => Expect::anyOf(Expect::string(), Expect::array(), Expect::type(Statement::class))->required(),
-    'debug' => Expect::bool(false),
-  ]);
+	return Expect::structure([
+		'mode' => Expect::anyOf(...self::MODES)->default(self::MODE_STANDALONE),
+		'mailer' => Expect::anyOf(Expect::string(), Expect::array(), Expect::type(Statement::class))->required(),
+		'debug' => Expect::bool(false),
+	]);
 }
 ```
 

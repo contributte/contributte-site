@@ -14,35 +14,35 @@ author: aleswita
 5. Ready for Symfony 5
 6. For implementation you need only 9 lines of code
 
-  Install dependencies:
+Install dependencies:
 
-  ```
-  composer require contributte/translation
-  ```
+```bash
+composer require contributte/translation
+```
 
-  File `app/config/contributte.neon`:
+File `app/config/contributte.neon`:
 
-  ```yaml
-  extensions:
-    translation: Contributte\Translation\DI\TranslationExtension
+```neon
+extensions:
+	translation: Contributte\Translation\DI\TranslationExtension
 
-  translation:
-    locales:
-        default: en
-    dirs:
-        - %appDir%/lang
-  ```
+translation:
+locales:
+	default: en
+	dirs:
+		- %appDir%/lang
+```
 
-  File `app/lang/messages.en_US.neon`:
+File `app/lang/messages.en_US.neon`:
 
-  ```
-  helloWorld: "Hello world"
-  ```
+```neon
+helloWorld: "Hello world"
+```
 
-  Some latte template:
+Some latte template:
 
-  ```smarty
-  latte: {_helloWorld}
-  ```
+```latte
+latte: {_helloWorld}
+```
 
 <Explanation class="mt-12" type="package"><a class="text-white" href="/packages/contributte/translation.html">Try contributte/translation package →</a></Explanation>

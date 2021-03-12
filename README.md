@@ -27,7 +27,7 @@ There is a template file for the README files which is used in generation phase.
 For the first time, you will have empty `data/vcs` folder. You gonna needed
 to download the repositories. And then generate markdown pages from the readmes.
 
-```
+```bash
 make load
 ```
 
@@ -37,12 +37,12 @@ If you need to just regenerate static packages, you can use this `make refresh`.
 
 ## Development
 
-```
+```bash
 # Install dependencies
 make install
 ```
 
-```
+```bash
 # Start dev server 
 make www-dev
 ```
@@ -50,12 +50,12 @@ make www-dev
 
 ## Deployment
 
-```
+```bash
 # Compile sources
 make www-build
 ```
 
-```
+```bash
 # Deploy to Vercel [preview]
 make www-deploy
 # Deploy to Vercel [production]

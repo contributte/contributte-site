@@ -3,8 +3,8 @@ import path from "path";
 import _ from "lodash-es";
 
 module.exports = {
-  title: "Contributte Status",
-  description: "Contribute Status",
+  title: "Contributte Dev",
+  description: "Contribute Dev",
   dest: path.resolve(__dirname, './../public'),
   themeConfig: {
     search: false

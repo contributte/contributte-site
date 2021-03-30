@@ -21,39 +21,31 @@ const organizations = {
   }
 };
 
-const vcsRoot = path.resolve(__dirname, 'data/vcs');
-
-const dataReleases = {
-  filepath: path.resolve(__dirname, 'data/releases.json'),
-  read: () => require(dataReleases.filepath),
-};
-
-// Resources
-
-const repositories = {
-  filepath: path.resolve(__dirname, 'resources/repositories.json'),
-  read: () => require(repositories.filepath),
-};
+const tmpDir = path.resolve(__dirname, 'tmp');
+const dataDir = path.resolve(__dirname, 'data');
+const sitesDir = path.resolve(__dirname, 'sites');
 
 const releases = {
-  filepath: path.resolve(__dirname, 'resources/releases.json'),
+  filepath: path.resolve(__dirname, 'data/releases.json'),
   read: () => require(releases.filepath),
 };
 
+const repositories = {
+  filepath: path.resolve(__dirname, 'data/repositories.json'),
+  read: () => require(repositories.filepath),
+};
+
 const team = {
-  filepath: path.resolve(__dirname, 'resources/team.json'),
+  filepath: path.resolve(__dirname, 'data/team.json'),
   read: () => require(team.filepath),
 };
 
 module.exports = {
-  data: {
-    organizations,
-    vcsRoot,
-    releases: dataReleases
-  },
-  resources: {
-    repositories,
-    releases,
-    team,
-  },
+  organizations,
+  releases,
+  repositories,
+  team,
+  tmpDir,
+  dataDir,
+  sitesDir
 };

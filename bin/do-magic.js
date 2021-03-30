@@ -2,12 +2,12 @@ const _ = require("lodash");
 const fs = require("fs");
 
 // Config
-const CONFIG = require('./../../contributte');
-const REPOS = _.cloneDeep(CONFIG.resources.repositories.read());
+const CONFIG = require('./../contributte');
+const REPOS = _.cloneDeep(CONFIG.repositories.read());
 
 function sync() {
   _.forEach(REPOS, r => syncPackageManager(r));
-  fs.writeFileSync(CONFIG.resources.repositories.filepath, JSON.stringify(REPOS, null, 2));
+  fs.writeFileSync(CONFIG.repositories.filepath, JSON.stringify(REPOS, null, 2));
 }
 
 function syncPackageManager(repo) {
@@ -26,7 +26,7 @@ function syncPackageManager(repo) {
 
 function tryComposer(repo) {
   try {
-    const file = fs.readFileSync(`${CONFIG.data.vcsRoot}/${repo.org}/${repo.name}/composer.json`);
+    const file = fs.readFileSync(`${CONFIG.tmpDir}/${repo.org}/${repo.name}/composer.json`);
     const composer = JSON.parse(file);
     return composer.name;
   } catch (e) {
@@ -36,7 +36,7 @@ function tryComposer(repo) {
 
 function tryNpm(repo) {
   try {
-    const file = fs.readFileSync(`${CONFIG.data.vcsRoot}/${repo.org}/${repo.name}/package.json`);
+    const file = fs.readFileSync(`${CONFIG.tmpDir}/${repo.org}/${repo.name}/package.json`);
     const npm = JSON.parse(file);
     return npm.name;
   } catch (e) {

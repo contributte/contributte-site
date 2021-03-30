@@ -2,16 +2,15 @@
 /node_modules
 /npm-debug.log
 
-# Git repos
-/data/vcs/*
-!/data/vcs
+# Tmp
+/tmp
 
-# ZEIT
-.now
+# Vercel
+.vercel
 
 # VuePress
 /sites/contributte/public
-/sites/status/public
+/sites/dev/public
 
 # Tools
 /tools/secret.js

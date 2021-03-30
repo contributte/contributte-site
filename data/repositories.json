@@ -250,9 +250,9 @@
         "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"wolf\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f43a.png\">🐺</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/event-dispatcher-extra/compare/v0.7.1...v0.8.0\"><tt>v0.7.1...v0.8.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>PHP 8</li>\n<li>Travis -&gt; Github Actions</li>\n</ul>"
       }
     },
-    "stars": 4,
-    "watchers": 4,
-    "forks": 3,
+    "stars": 5,
+    "watchers": 5,
+    "forks": 4,
     "composer": {
       "nette": [
         "3.0"
@@ -266,7 +266,7 @@
     "pm": {
       "composer": "contributte/event-dispatcher-extra"
     },
-    "updated": "2021-01-08T13:36:42Z"
+    "updated": "2021-03-28T17:00:18Z"
   },
   "contributte/codeception": {
     "org": "contributte",
@@ -622,9 +622,9 @@
     },
     "updated": "2021-03-12T22:48:01Z"
   },
-  "contributte/deployer-extension": {
+  "contributte/deployer": {
     "org": "contributte",
-    "name": "deployer-extension",
+    "name": "deployer",
     "title": "FTP deployer",
     "category": "other",
     "enabled": true,
@@ -632,22 +632,22 @@
     "docs": {
       "v": "v1"
     },
-    "description": "🏇 FTP deployment (by @dg) extension for Nette Framework",
+    "description": "🏇 FTP deployment (by @dg) extension for Nette Framework (@nette).",
     "releases": {
       "last": {
         "org": "contributte",
-        "repo": "deployer-extension",
+        "repo": "deployer",
         "tag": "v3.2.1",
         "name": "v3.2.1",
         "created_at": "2021-01-20T10:03:27Z",
         "published_at": "2021-01-20T10:04:14Z",
-        "html_url": "https://github.com/contributte/deployer-extension/releases/tag/v3.2.1",
-        "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"cloud_with_rain\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f327.png\">🌧️</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/deployer-extension/compare/v3.2.0...v3.2.1\"><tt>v3.2.0...v3.2.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Fix of runtime errors caused by new DI schema (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"784477779\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/deployer-extension/issues/12\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/deployer-extension/pull/12/hovercard\" href=\"https://github.com/contributte/deployer-extension/pull/12\">#12</a>) [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/deployer-extension/commit/d5742de5af429c84b5c150afc4b64e49f9c36117/hovercard\" href=\"https://github.com/contributte/deployer-extension/commit/d5742de5af429c84b5c150afc4b64e49f9c36117\"><tt>d5742de</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/vagovszky/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/vagovszky\">@vagovszky</a>)</li>\n</ul>"
+        "html_url": "https://github.com/contributte/deployer/releases/tag/v3.2.1",
+        "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"cloud_with_rain\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f327.png\">🌧️</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/deployer/compare/v3.2.0...v3.2.1\"><tt>v3.2.0...v3.2.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Fix of runtime errors caused by new DI schema (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"784477779\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/deployer/issues/12\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/deployer/pull/12/hovercard\" href=\"https://github.com/contributte/deployer/pull/12\">#12</a>) [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/deployer/commit/d5742de5af429c84b5c150afc4b64e49f9c36117/hovercard\" href=\"https://github.com/contributte/deployer/commit/d5742de5af429c84b5c150afc4b64e49f9c36117\"><tt>d5742de</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/vagovszky/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/vagovszky\">@vagovszky</a>)</li>\n</ul>"
       }
     },
     "stars": 9,
     "watchers": 9,
-    "forks": 4,
+    "forks": 5,
     "composer": {
       "nette": [
         "2.4"
@@ -661,7 +661,7 @@
     "pm": {
       "composer": "contributte/deployer-extension"
     },
-    "updated": "2021-01-20T10:03:31Z"
+    "updated": "2021-03-12T22:47:55Z"
   },
   "contributte/dev": {
     "org": "contributte",
@@ -766,7 +766,7 @@
     },
     "stars": 6,
     "watchers": 6,
-    "forks": 3,
+    "forks": 4,
     "composer": {
       "nette": [
         "3.0"
@@ -795,7 +795,7 @@
     "description": "🔍 Tiny Elastica integration into Nette Framework (@nette)",
     "stars": 1,
     "watchers": 1,
-    "forks": 0,
+    "forks": 1,
     "composer": {
       "nette": [
         "3.0"
@@ -809,7 +809,7 @@
     "pm": {
       "composer": "contributte/elasticsearch"
     },
-    "updated": "2020-12-27T12:54:08Z",
+    "updated": "2021-03-12T22:36:08Z",
     "releases": {
       "last": {
         "org": "contributte",
@@ -1574,7 +1574,7 @@
         "7.4"
       ]
     },
-    "issues": 1,
+    "issues": 2,
     "pm": {
       "composer": "contributte/wordcha"
     },
@@ -2160,12 +2160,12 @@
       "last": {
         "org": "nettrine",
         "repo": "extensions-knplabs",
-        "tag": "v0.1.0",
-        "name": "v0.1.0",
-        "created_at": "2019-12-04T00:17:13Z",
-        "published_at": "2019-12-11T12:10:33Z",
-        "html_url": "https://github.com/nettrine/extensions-knplabs/releases/tag/v0.1.0",
-        "body": "<p>Initial release</p>"
+        "tag": "v0.2.0",
+        "name": "v0.2.0",
+        "created_at": "2021-03-30T12:29:05Z",
+        "published_at": "2021-03-30T12:30:29Z",
+        "html_url": "https://github.com/nettrine/extensions-knplabs/releases/tag/v0.2.0",
+        "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"scissors\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2702.png\">✂️</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/nettrine/extensions-knplabs/compare/v0.1.0...v0.2.0\"><tt>v0.1.0...v0.2.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Update readme [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/extensions-knplabs/commit/5e72e27cdece63fef6e33cd772cf0abe40977740/hovercard\" href=\"https://github.com/nettrine/extensions-knplabs/commit/5e72e27cdece63fef6e33cd772cf0abe40977740\"><tt>5e72e27</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Gappa/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Gappa\">@Gappa</a>)</li>\n<li>Composer: relax PHP version [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/extensions-knplabs/commit/5e56cd33aa7a462ab022ef6e8bd3e15743225d2b/hovercard\" href=\"https://github.com/nettrine/extensions-knplabs/commit/5e56cd33aa7a462ab022ef6e8bd3e15743225d2b\"><tt>5e56cd3</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/f3l1x/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/f3l1x\">@f3l1x</a>)</li>\n<li>Improved QA [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/extensions-knplabs/commit/963460e944c295c96b4877a857883236e77ebe5c/hovercard\" href=\"https://github.com/nettrine/extensions-knplabs/commit/963460e944c295c96b4877a857883236e77ebe5c\"><tt>963460e</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/petrparolek/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/petrparolek\">@petrparolek</a>)</li>\n<li>Bump contributte/di dependency version (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"783120140\" data-permission-text=\"Title is private\" data-url=\"https://github.com/nettrine/extensions-knplabs/issues/8\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/nettrine/extensions-knplabs/pull/8/hovercard\" href=\"https://github.com/nettrine/extensions-knplabs/pull/8\">#8</a>) [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/extensions-knplabs/commit/0a64c85f2ad395b0aa381784ef7079cce95fbdee/hovercard\" href=\"https://github.com/nettrine/extensions-knplabs/commit/0a64c85f2ad395b0aa381784ef7079cce95fbdee\"><tt>0a64c85</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Gappa/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Gappa\">@Gappa</a>)</li>\n<li>PHPUnit -&gt; Nette Tester [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/nettrine/extensions-knplabs/commit/a142c464faff90b69f1b6ee830007a32b859cf33/hovercard\" href=\"https://github.com/nettrine/extensions-knplabs/commit/a142c464faff90b69f1b6ee830007a32b859cf33\"><tt>a142c46</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/petrparolek/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/petrparolek\">@petrparolek</a>)</li>\n</ul>"
       }
     },
     "stars": 4,
@@ -2182,7 +2182,7 @@
     "pm": {
       "composer": "nettrine/extensions-knplabs"
     },
-    "updated": "2021-02-28T12:56:35Z"
+    "updated": "2021-03-30T12:29:12Z"
   },
   "nettrine/extensions-oroinc": {
     "org": "nettrine",
@@ -2319,7 +2319,7 @@
     },
     "stars": 5,
     "watchers": 5,
-    "forks": 8,
+    "forks": 9,
     "composer": {
       "php": [
         "7.2",
@@ -2333,7 +2333,7 @@
     "pm": {
       "composer": "contributte/flysystem"
     },
-    "updated": "2020-12-26T13:34:34Z"
+    "updated": "2021-03-12T22:34:00Z"
   },
   "contributte/guzzlette": {
     "org": "contributte",
@@ -2395,9 +2395,9 @@
         "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"large_orange_diamond\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f536.png\">🔶</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/redis/compare/v0.2.2...v0.3.0\"><tt>v0.2.2...v0.3.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Travis to github actions [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/redis/commit/5a17a6d287ed91533224112f514bbeabe34175a0/hovercard\" href=\"https://github.com/contributte/redis/commit/5a17a6d287ed91533224112f514bbeabe34175a0\"><tt>5a17a6d</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/vody105/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/vody105\">@vody105</a>)</li>\n<li>Open for php8 [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/redis/commit/288105f4152c99824c027f1a7ec1de11c6c24c1d/hovercard\" href=\"https://github.com/contributte/redis/commit/288105f4152c99824c027f1a7ec1de11c6c24c1d\"><tt>288105f</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/vody105/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/vody105\">@vody105</a>)</li>\n<li>Readme: modernize [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/redis/commit/f63f1802aad44e8db18b5377c549d58ce22e57da/hovercard\" href=\"https://github.com/contributte/redis/commit/f63f1802aad44e8db18b5377c549d58ce22e57da\"><tt>f63f180</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Roman3349/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Roman3349\">@Roman3349</a>)</li>\n<li>License: MIT [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/redis/commit/7852dd96e4843ee903e3ee7d8ed18b6030314684/hovercard\" href=\"https://github.com/contributte/redis/commit/7852dd96e4843ee903e3ee7d8ed18b6030314684\"><tt>7852dd9</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/vody105/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/vody105\">@vody105</a>)</li>\n<li>Add support for multiple hosts (connections to cluster) [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/redis/commit/a6db3b6c261b7a0f5970886ed0c9be7fad017860/hovercard\" href=\"https://github.com/contributte/redis/commit/a6db3b6c261b7a0f5970886ed0c9be7fad017860\"><tt>a6db3b6</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/fmasa/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/fmasa\">@fmasa</a>)</li>\n<li>show correctly tracy panel when using array of hosts [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/redis/commit/615f67c073826955b035557744917c1267dec6e9/hovercard\" href=\"https://github.com/contributte/redis/commit/615f67c073826955b035557744917c1267dec6e9\"><tt>615f67c</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/dakorpar/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dakorpar\">@dakorpar</a>)</li>\n<li>serialize data before writing it to redis [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/redis/commit/95e324e57d6350d2ec28eff35a77474f2e07b4ea/hovercard\" href=\"https://github.com/contributte/redis/commit/95e324e57d6350d2ec28eff35a77474f2e07b4ea\"><tt>95e324e</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/dakorpar/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dakorpar\">@dakorpar</a>)</li>\n<li>Clear only current database, not all of them [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/redis/commit/26d4f3614f09bf9663af35971f238e8af4d4b553/hovercard\" href=\"https://github.com/contributte/redis/commit/26d4f3614f09bf9663af35971f238e8af4d4b553\"><tt>26d4f36</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/dakorpar/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dakorpar\">@dakorpar</a>)</li>\n<li>Std [004]: kodiak [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/redis/commit/69554b0bb87a7ab3df4327d13bcec2a9e8cf9803/hovercard\" href=\"https://github.com/contributte/redis/commit/69554b0bb87a7ab3df4327d13bcec2a9e8cf9803\"><tt>69554b0</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/f3l1x/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/f3l1x\">@f3l1x</a>)</li>\n<li>Update readme: add sessions and cache config example [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/redis/commit/e2bb2111540aca152df558c7794cd5a0fc007ed0/hovercard\" href=\"https://github.com/contributte/redis/commit/e2bb2111540aca152df558c7794cd5a0fc007ed0\"><tt>e2bb211</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/dakorpar/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dakorpar\">@dakorpar</a>)</li>\n</ul>"
       }
     },
-    "stars": 10,
-    "watchers": 10,
-    "forks": 8,
+    "stars": 12,
+    "watchers": 12,
+    "forks": 10,
     "composer": {
       "nette": [],
       "php": [
@@ -2409,7 +2409,7 @@
     "pm": {
       "composer": "contributte/redis"
     },
-    "updated": "2021-01-09T17:21:48Z"
+    "updated": "2021-03-28T17:00:19Z"
   },
   "contributte/monolog": {
     "org": "contributte",
@@ -2433,9 +2433,9 @@
         "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"penguin\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f427.png\">🐧</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/monolog/compare/v0.4.1...v0.5.0\"><tt>v0.4.1...v0.5.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>PHP 8</li>\n<li>Travis -&gt; Github Actions</li>\n</ul>"
       }
     },
-    "stars": 14,
-    "watchers": 14,
-    "forks": 3,
+    "stars": 16,
+    "watchers": 16,
+    "forks": 4,
     "composer": {
       "php": [
         "7.2",
@@ -2449,7 +2449,7 @@
     "pm": {
       "composer": "contributte/monolog"
     },
-    "updated": "2021-01-10T14:41:16Z"
+    "updated": "2021-03-28T17:00:19Z"
   },
   "contributte/image-storage": {
     "org": "contributte",
@@ -2673,9 +2673,9 @@
         "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"scarf\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f9e3.png\">🧣</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/comgate/compare/v0.1.0...v0.2.0\"><tt>v0.1.0...v0.2.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Price in payment with possible two decimal numbers (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"534533900\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/comgate/issues/4\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/comgate/pull/4/hovercard\" href=\"https://github.com/contributte/comgate/pull/4\">#4</a>) [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/comgate/commit/26767b9d5a064aae113a9a05f4d7b424fa88550b/hovercard\" href=\"https://github.com/contributte/comgate/commit/26767b9d5a064aae113a9a05f4d7b424fa88550b\"><tt>26767b9</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/cendak/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/cendak\">@cendak</a>)</li>\n<li>Composer: open v0.2.x [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/comgate/commit/73d25f39f0314e40df5190977a81b95873d795f5/hovercard\" href=\"https://github.com/contributte/comgate/commit/73d25f39f0314e40df5190977a81b95873d795f5\"><tt>73d25f3</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/f3l1x/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/f3l1x\">@f3l1x</a>)</li>\n<li>QA: codestyle typos [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/comgate/commit/fda139a79d14308f940d8c18dcec21c29bf23551/hovercard\" href=\"https://github.com/contributte/comgate/commit/fda139a79d14308f940d8c18dcec21c29bf23551\"><tt>fda139a</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/f3l1x/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/f3l1x\">@f3l1x</a>)</li>\n<li>Feature: payments outside the Czech Republic (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"548628331\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/comgate/issues/5\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/comgate/pull/5/hovercard\" href=\"https://github.com/contributte/comgate/pull/5\">#5</a>) [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/comgate/commit/aeb2f85072f47af058d03fc01349ab4d8170aad5/hovercard\" href=\"https://github.com/contributte/comgate/commit/aeb2f85072f47af058d03fc01349ab4d8170aad5\"><tt>aeb2f85</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/cendak/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/cendak\">@cendak</a>)</li>\n<li>LangCode: fix PL (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"549263813\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/comgate/issues/6\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/comgate/pull/6/hovercard\" href=\"https://github.com/contributte/comgate/pull/6\">#6</a>) [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/comgate/commit/958f739c1843bc2706d432c520852ce66ef27011/hovercard\" href=\"https://github.com/contributte/comgate/commit/958f739c1843bc2706d432c520852ce66ef27011\"><tt>958f739</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/cendak/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/cendak\">@cendak</a>)</li>\n<li>Readme: typo [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/comgate/commit/ce5a40a209972e0fd2943e0e46f9b33fda8605cf/hovercard\" href=\"https://github.com/contributte/comgate/commit/ce5a40a209972e0fd2943e0e46f9b33fda8605cf\"><tt>ce5a40a</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Sikipiki/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Sikipiki\">@Sikipiki</a>)</li>\n<li>Readme: update docs section configuration (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"665418889\" data-permission-text=\"Title is private\" data-url=\"https://github.com/contributte/comgate/issues/9\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/contributte/comgate/pull/9/hovercard\" href=\"https://github.com/contributte/comgate/pull/9\">#9</a>), Merchant number must be in quotes. Otherwise get exception: The option 'comgate › merchant' expects to be string, int 12345678 given. [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/comgate/commit/fd70441a03b16c8617311fea66e0b09e51b410e8/hovercard\" href=\"https://github.com/contributte/comgate/commit/fd70441a03b16c8617311fea66e0b09e51b410e8\"><tt>fd70441</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Sikipiki/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Sikipiki\">@Sikipiki</a>)</li>\n<li>Fix docs: change \"from\" to \"of\" in payment status [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/comgate/commit/70c653e6ba8dbf69394f0930116a6ca933cf529b/hovercard\" href=\"https://github.com/contributte/comgate/commit/70c653e6ba8dbf69394f0930116a6ca933cf529b\"><tt>70c653e</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Sikipiki/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Sikipiki\">@Sikipiki</a>)</li>\n<li>Update guzzlette &amp; php version [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/comgate/commit/9d643896a5d66f34e6b8f0aa2216f4816c4d3c61/hovercard\" href=\"https://github.com/contributte/comgate/commit/9d643896a5d66f34e6b8f0aa2216f4816c4d3c61\"><tt>9d64389</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/trejjam/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/trejjam\">@trejjam</a>)</li>\n<li>Use stable PHP 7.4 [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/comgate/commit/32c57a4ab7375fdebe2d755044d79c7604a9d22c/hovercard\" href=\"https://github.com/contributte/comgate/commit/32c57a4ab7375fdebe2d755044d79c7604a9d22c\"><tt>32c57a4</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/trejjam/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/trejjam\">@trejjam</a>)</li>\n<li>Replace deprecated parse_query with Query::parse [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/comgate/commit/f50e529299cf7d605ace69dcc4621e1cdf522c91/hovercard\" href=\"https://github.com/contributte/comgate/commit/f50e529299cf7d605ace69dcc4621e1cdf522c91\"><tt>f50e529</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/trejjam/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/trejjam\">@trejjam</a>)</li>\n<li>Fix tests [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/comgate/commit/c5f6f27f16ff38dc3ecbcab6d76551698ea42fae/hovercard\" href=\"https://github.com/contributte/comgate/commit/c5f6f27f16ff38dc3ecbcab6d76551698ea42fae\"><tt>c5f6f27</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/trejjam/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/trejjam\">@trejjam</a>)</li>\n<li>Std [004]: kodiak [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/comgate/commit/d687ea3fad15c4af9017ed7266ed5a26f2adea20/hovercard\" href=\"https://github.com/contributte/comgate/commit/d687ea3fad15c4af9017ed7266ed5a26f2adea20\"><tt>d687ea3</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/f3l1x/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/f3l1x\">@f3l1x</a>)</li>\n<li>Add Brick/Money support [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/comgate/commit/cedaf6067e13601226091f74f82da26c2721247d/hovercard\" href=\"https://github.com/contributte/comgate/commit/cedaf6067e13601226091f74f82da26c2721247d\"><tt>cedaf60</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/trejjam/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/trejjam\">@trejjam</a>)</li>\n<li>Use Money::getCurrency [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/comgate/commit/b9d3c5de7c24efc3f6b67b137f1449728e3f4ecc/hovercard\" href=\"https://github.com/contributte/comgate/commit/b9d3c5de7c24efc3f6b67b137f1449728e3f4ecc\"><tt>b9d3c5d</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/trejjam/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/trejjam\">@trejjam</a>)</li>\n<li>Fix tests, update README.md [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/comgate/commit/556a4e5138d50d5fb9d90b189ec515df3f989526/hovercard\" href=\"https://github.com/contributte/comgate/commit/556a4e5138d50d5fb9d90b189ec515df3f989526\"><tt>556a4e5</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/trejjam/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/trejjam\">@trejjam</a>)</li>\n<li>New README.md [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/comgate/commit/e5dd1ec875fc186f101128a2071b530e674b3d49/hovercard\" href=\"https://github.com/contributte/comgate/commit/e5dd1ec875fc186f101128a2071b530e674b3d49\"><tt>e5dd1ec</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/radimvaculik/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/radimvaculik\">@radimvaculik</a>)</li>\n<li>Travis -&gt; Github Actions [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/comgate/commit/d67ebd05735167fbd42e5dfe8160f6b0e39f847f/hovercard\" href=\"https://github.com/contributte/comgate/commit/d67ebd05735167fbd42e5dfe8160f6b0e39f847f\"><tt>d67ebd0</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/radimvaculik/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/radimvaculik\">@radimvaculik</a>)</li>\n<li>Remove PHPStan extension-installer [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/comgate/commit/3ed315fa42c4879496db6216eb1ecfcf864f148d/hovercard\" href=\"https://github.com/contributte/comgate/commit/3ed315fa42c4879496db6216eb1ecfcf864f148d\"><tt>3ed315f</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/radimvaculik/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/radimvaculik\">@radimvaculik</a>)</li>\n<li>Sync .editorconfig [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/comgate/commit/be51048080546a09feb36e51a113ca926e6480bb/hovercard\" href=\"https://github.com/contributte/comgate/commit/be51048080546a09feb36e51a113ca926e6480bb\"><tt>be51048</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/radimvaculik/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/radimvaculik\">@radimvaculik</a>)</li>\n<li>Set guzzlehttp/guzzle with carret dependency [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/comgate/commit/551c5671816eeec2fb14ba45ee1dee84e40c86bc/hovercard\" href=\"https://github.com/contributte/comgate/commit/551c5671816eeec2fb14ba45ee1dee84e40c86bc\"><tt>551c567</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/jelen07/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/jelen07\">@jelen07</a>)</li>\n</ul>"
       }
     },
-    "stars": 13,
-    "watchers": 13,
-    "forks": 7,
+    "stars": 15,
+    "watchers": 15,
+    "forks": 8,
     "composer": {
       "php": [
         "7.2",
@@ -2686,11 +2686,11 @@
         "3.0"
       ]
     },
-    "issues": 0,
+    "issues": 1,
     "pm": {
       "composer": "contributte/comgate"
     },
-    "updated": "2021-02-02T09:20:09Z"
+    "updated": "2021-03-28T17:05:44Z"
   },
   "contributte/anabelle": {
     "org": "contributte",
@@ -2756,7 +2756,7 @@
     },
     "stars": 4,
     "watchers": 4,
-    "forks": 0,
+    "forks": 1,
     "composer": {
       "php": [
         "7.2",
@@ -3051,9 +3051,9 @@
         "body": "<p>Bump!</p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/translation/compare/v0.8.2...v0.8.3\"><tt>v0.8.2...v0.8.3</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>compatibility with Latte 2.9.2 <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/translation/commit/4fb5704217be31d36d8fdb0c9771bec5e39fd775/hovercard\" href=\"https://github.com/contributte/translation/commit/4fb5704217be31d36d8fdb0c9771bec5e39fd775\"><tt>4fb5704</tt></a></li>\n</ul>"
       }
     },
-    "stars": 34,
-    "watchers": 34,
-    "forks": 14,
+    "stars": 39,
+    "watchers": 39,
+    "forks": 16,
     "composer": {
       "php": [
         "7.1",
@@ -3063,11 +3063,11 @@
         "2.4"
       ]
     },
-    "issues": 4,
+    "issues": 7,
     "pm": {
       "composer": "contributte/translation"
     },
-    "updated": "2021-01-28T16:16:40Z"
+    "updated": "2021-03-28T17:05:44Z"
   },
   "contributte/gosms": {
     "org": "contributte",
@@ -3093,7 +3093,7 @@
     },
     "stars": 3,
     "watchers": 3,
-    "forks": 2,
+    "forks": 3,
     "composer": {
       "php": [
         "7.2",
@@ -3107,7 +3107,7 @@
     "pm": {
       "composer": "contributte/gosms"
     },
-    "updated": "2020-12-26T13:34:19Z"
+    "updated": "2021-03-12T22:30:42Z"
   },
   "contributte/czech-post": {
     "org": "contributte",
@@ -3144,11 +3144,11 @@
         "2.4"
       ]
     },
-    "issues": 1,
+    "issues": 0,
     "pm": {
       "composer": "contributte/czech-post"
     },
-    "updated": "2021-01-14T15:51:05Z"
+    "updated": "2021-03-12T22:48:08Z"
   },
   "contributte/oauth2-client": {
     "org": "contributte",
@@ -3173,9 +3173,9 @@
         "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"kazakhstan\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f1f0-1f1ff.png\">🇰🇿</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/oauth2-client/compare/v0.2.0...v0.3.0\"><tt>v0.2.0...v0.3.0</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Readme: change highlighting [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/oauth2-client/commit/e0c35b7e21dcc5430fb8a3ba23651389f8bfef2a/hovercard\" href=\"https://github.com/contributte/oauth2-client/commit/e0c35b7e21dcc5430fb8a3ba23651389f8bfef2a\"><tt>e0c35b7</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/f3l1x/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/f3l1x\">@f3l1x</a>)</li>\n<li>Typo in documentation [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/oauth2-client/commit/ff1d155e2bbdb291a7d3aec7f9b1b9e61f4c9a1c/hovercard\" href=\"https://github.com/contributte/oauth2-client/commit/ff1d155e2bbdb291a7d3aec7f9b1b9e61f4c9a1c\"><tt>ff1d155</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/michalhlavka/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/michalhlavka\">@michalhlavka</a>)</li>\n<li>License: MIT [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/oauth2-client/commit/8145ebb8382991ba437494527df6ecde919cfddc/hovercard\" href=\"https://github.com/contributte/oauth2-client/commit/8145ebb8382991ba437494527df6ecde919cfddc\"><tt>8145ebb</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/vody105/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/vody105\">@vody105</a>)</li>\n<li>Std [004]: kodiak [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/oauth2-client/commit/2f9ebf0743d210f4c7d3b41e914593a5de15ae3c/hovercard\" href=\"https://github.com/contributte/oauth2-client/commit/2f9ebf0743d210f4c7d3b41e914593a5de15ae3c\"><tt>2f9ebf0</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/f3l1x/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/f3l1x\">@f3l1x</a>)</li>\n<li>Makefile: update [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/oauth2-client/commit/32cf0070fcaee290cc96aad2c4223ee878591ef3/hovercard\" href=\"https://github.com/contributte/oauth2-client/commit/32cf0070fcaee290cc96aad2c4223ee878591ef3\"><tt>32cf007</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/f3l1x/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/f3l1x\">@f3l1x</a>)</li>\n<li>CI: update, travis -&gt; github actions [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/oauth2-client/commit/9193129db4d32a8fa58ba523279ce1ced7f00b5d/hovercard\" href=\"https://github.com/contributte/oauth2-client/commit/9193129db4d32a8fa58ba523279ce1ced7f00b5d\"><tt>9193129</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/f3l1x/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/f3l1x\">@f3l1x</a>)</li>\n<li>Composer: allow PHP 8 [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/oauth2-client/commit/72fe710eb50f38f477649906549febfa99be255e/hovercard\" href=\"https://github.com/contributte/oauth2-client/commit/72fe710eb50f38f477649906549febfa99be255e\"><tt>72fe710</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/f3l1x/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/f3l1x\">@f3l1x</a>)</li>\n<li>QA: update codesniffer [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/oauth2-client/commit/104a532a022cb0afd218b1d81c2e8d5269692626/hovercard\" href=\"https://github.com/contributte/oauth2-client/commit/104a532a022cb0afd218b1d81c2e8d5269692626\"><tt>104a532</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/f3l1x/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/f3l1x\">@f3l1x</a>)</li>\n<li>EditorConfig: update [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/oauth2-client/commit/f8c0cee0cccb1c640b3845161948f2948d68e63d/hovercard\" href=\"https://github.com/contributte/oauth2-client/commit/f8c0cee0cccb1c640b3845161948f2948d68e63d\"><tt>f8c0cee</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/f3l1x/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/f3l1x\">@f3l1x</a>)</li>\n<li>Phpstan: v0.12 [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/oauth2-client/commit/555d167d906170db3313b26abd62a889f42f0413/hovercard\" href=\"https://github.com/contributte/oauth2-client/commit/555d167d906170db3313b26abd62a889f42f0413\"><tt>555d167</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/f3l1x/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/f3l1x\">@f3l1x</a>)</li>\n<li>Tests: phpunit -&gt; nette/tester [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/oauth2-client/commit/e6729b726503823e98504221e977a8fb5180176b/hovercard\" href=\"https://github.com/contributte/oauth2-client/commit/e6729b726503823e98504221e977a8fb5180176b\"><tt>e6729b7</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/f3l1x/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/f3l1x\">@f3l1x</a>)</li>\n<li>Composer: change lincese [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/oauth2-client/commit/1ecef7329a5d1cd1fb7d030a82b44d58027eaff3/hovercard\" href=\"https://github.com/contributte/oauth2-client/commit/1ecef7329a5d1cd1fb7d030a82b44d58027eaff3\"><tt>1ecef73</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/f3l1x/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/f3l1x\">@f3l1x</a>)</li>\n<li>Composer: updat authors [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/oauth2-client/commit/55ad1d0f155a8a7c4f0bfcbdb1dfe79a665cbfba/hovercard\" href=\"https://github.com/contributte/oauth2-client/commit/55ad1d0f155a8a7c4f0bfcbdb1dfe79a665cbfba\"><tt>55ad1d0</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/f3l1x/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/f3l1x\">@f3l1x</a>)</li>\n<li>Composer: upgrade deps (temporary rely on oauth2-facebook fork with PHP 8) [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/oauth2-client/commit/1741097a9e5963638ee79dc77a1d5805bab7b432/hovercard\" href=\"https://github.com/contributte/oauth2-client/commit/1741097a9e5963638ee79dc77a1d5805bab7b432\"><tt>1741097</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/f3l1x/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/f3l1x\">@f3l1x</a>)</li>\n<li>Readme: update [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/oauth2-client/commit/f4f21c19f58b9b25829452b301d2ae7a2344f923/hovercard\" href=\"https://github.com/contributte/oauth2-client/commit/f4f21c19f58b9b25829452b301d2ae7a2344f923\"><tt>f4f21c1</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/f3l1x/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/f3l1x\">@f3l1x</a>)</li>\n<li>Tests: fixtures folder name [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/oauth2-client/commit/0868a549946679bbb0e1fb72bc09f720c811129b/hovercard\" href=\"https://github.com/contributte/oauth2-client/commit/0868a549946679bbb0e1fb72bc09f720c811129b\"><tt>0868a54</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/f3l1x/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/f3l1x\">@f3l1x</a>)</li>\n<li>Composer: fix autoload-dev [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/oauth2-client/commit/1342c27176818c64d6b87a1d754bb62763161fcc/hovercard\" href=\"https://github.com/contributte/oauth2-client/commit/1342c27176818c64d6b87a1d754bb62763161fcc\"><tt>1342c27</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/f3l1x/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/f3l1x\">@f3l1x</a>)</li>\n<li>CI: use composer v2 [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/oauth2-client/commit/430d41feff69a5537b99cffd35f7464c159498be/hovercard\" href=\"https://github.com/contributte/oauth2-client/commit/430d41feff69a5537b99cffd35f7464c159498be\"><tt>430d41f</tt></a>] (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/f3l1x/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/f3l1x\">@f3l1x</a>)</li>\n</ul>"
       }
     },
-    "stars": 7,
-    "watchers": 7,
-    "forks": 5,
+    "stars": 8,
+    "watchers": 8,
+    "forks": 6,
     "composer": {
       "php": [
         "7.2",
@@ -3187,7 +3187,7 @@
     "pm": {
       "composer": "contributte/oauth2-client"
     },
-    "updated": "2021-01-12T13:45:21Z"
+    "updated": "2021-03-28T17:00:19Z"
   },
   "contributte/psr6-caching": {
     "org": "contributte",
@@ -3365,9 +3365,9 @@
         "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"ear_of_rice\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f33e.png\">🌾</g-emoji><br>\nDiff: <a class=\"commit-link\" href=\"https://github.com/contributte/forms-bootstrap/compare/v0.4...v0.4.1\"><tt>v0.4...v0.4.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>nette/forms locked to 3.1.3</li>\n<li>support for Html label on checkbox</li>\n</ul>"
       }
     },
-    "stars": 6,
-    "watchers": 6,
-    "forks": 2,
+    "stars": 8,
+    "watchers": 8,
+    "forks": 4,
     "issues": 0,
     "composer": {
       "php": [
@@ -3381,7 +3381,7 @@
     "pm": {
       "composer": "contributte/forms-bootstrap"
     },
-    "updated": "2020-12-26T22:14:57Z"
+    "updated": "2021-03-30T08:36:48Z"
   },
   "contributte/eet": {
     "org": "contributte",
@@ -3392,7 +3392,7 @@
     "docs": {
       "v": "v1"
     },
-    "description": "💵 EET integration into Nette",
+    "description": "💵  EET integration for Nette Framework (@nette)",
     "releases": {
       "last": {
         "org": "contributte",
@@ -3407,7 +3407,7 @@
     },
     "stars": 3,
     "watchers": 3,
-    "forks": 0,
+    "forks": 2,
     "issues": 0,
     "composer": {
       "php": [
@@ -3421,7 +3421,7 @@
     "pm": {
       "composer": "contributte/eet"
     },
-    "updated": "2020-12-27T12:53:14Z"
+    "updated": "2021-03-20T18:57:10Z"
   },
   "contributte/menu-control": {
     "org": "contributte",
@@ -3465,7 +3465,7 @@
     },
     "stars": 2,
     "watchers": 2,
-    "forks": 0,
+    "forks": 1,
     "issues": 0,
     "description": "🙅‍♀️ Validator (symfony/validator) to Nette Framework (@nette)",
     "releases": {
@@ -3483,7 +3483,7 @@
     "pm": {
       "composer": "contributte/validator"
     },
-    "updated": "2020-12-27T12:53:25Z"
+    "updated": "2021-03-11T09:17:12Z"
   },
   "nettrine/odm": {
     "org": "nettrine",
@@ -3558,13 +3558,13 @@
     },
     "stars": 1,
     "watchers": 1,
-    "forks": 2,
+    "forks": 4,
     "issues": 0,
     "description": "🖨 Contributte Bare Repository Template",
     "pm": {
       "composer": "contributte/bare"
     },
-    "updated": "2020-12-21T17:01:09Z"
+    "updated": "2021-03-12T22:42:14Z"
   },
   "contributte/rabbitmq": {
     "org": "contributte",
@@ -3608,7 +3608,7 @@
     },
     "stars": 3,
     "watchers": 3,
-    "forks": 1,
+    "forks": 2,
     "issues": 0,
     "description": "📞 JSON-RPC toolset build on top of psr-7 (guzzlehttp), league/json-guard, league/json-reference, league/flysystem and nette/di",
     "releases": {
@@ -3626,7 +3626,7 @@
     "pm": {
       "composer": "contributte/jsonrpc"
     },
-    "updated": "2021-01-09T16:35:11Z"
+    "updated": "2021-03-10T21:58:41Z"
   },
   "contributte/newrelic": {
     "org": "contributte",
@@ -3702,11 +3702,11 @@
     "pm": {
       "composer": "contributte/oauth2-server"
     },
-    "updated": "2020-12-27T12:53:37Z",
+    "updated": "2021-03-12T22:12:32Z",
     "stars": 2,
     "watchers": 2,
-    "forks": 1,
-    "issues": 1,
+    "forks": 2,
+    "issues": 0,
     "description": "🔒 OAuth2 server for Nette Framework",
     "releases": {
       "last": {

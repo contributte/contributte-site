@@ -24,16 +24,14 @@ There is a template file for the README files which is used in generation phase.
 
 ## Data
 
-For the first time, you will have empty `data/vcs` folder. You gonna needed
+For the first time, you will have empty `tmp` folder. You gonna needed
 to download the repositories. And then generate markdown pages from the readmes.
 
 ```bash
-make load
+make refresh
 ```
 
-Everytime you would like to redownload a regenerate all data, just call `make load`.
-
-If you need to just regenerate static packages, you can use this `make refresh`.
+Everytime you would like to redownload a regenerate all data, just call `make refresh`.
 
 ## Development
 

@@ -6,12 +6,12 @@ const emoji = require('node-emoji');
 const LOGGER = require('debug')('github');
 
 // Config
-const CONFIG = require('./../../contributte');
+const CONFIG = require('./../contributte');
 
-function merge() {
+async function merge() {
   const data = {};
 
-  _.forEach(CONFIG.resources.repositories.read(), (repo, name) => {
+  _.forEach(CONFIG.repositories.read(), (repo, name) => {
     data[name] = repo;
 
     mergeGithub(data[name]);
@@ -19,13 +19,13 @@ function merge() {
   });
 
   fs.writeFileSync(
-    CONFIG.resources.repositories.filepath,
+    CONFIG.repositories.filepath,
     JSON.stringify(data, null, 2)
   );
 }
 
 function mergeGithub(repo) {
-  const repos = CONFIG.data.organizations[repo.org].read();
+  const repos = CONFIG.organizations[repo.org].read();
   const matchedRepo = repos.find(r => r.full_name === `${repo.org}/${repo.name}`);
 
   if (!matchedRepo) {
@@ -42,7 +42,7 @@ function mergeGithub(repo) {
 }
 
 function mergeComposer(repo) {
-  const repoPath = path.resolve(__dirname, '../data/vcs', repo.org, repo.name);
+  const repoPath = path.resolve(CONFIG.dataDir, repo.org, repo.name);
 
   // Parse composer.json
   const composer = _parseComposer(repoPath);
@@ -110,7 +110,33 @@ function _parseComposer(path) {
   return JSON.parse(fs.readFileSync(`${path}/composer.json`));
 }
 
+function lastReleases() {
+  const repos = _.cloneDeep(CONFIG.repositories.read());
+  _.forEach(repos, r => pairLastRelease(r));
+  fs.writeFileSync(CONFIG.repositories.filepath, JSON.stringify(repos, null, 2));
+}
+
+function pairLastRelease(repo) {
+  const lastRelease = findLastRelease(repo);
+
+  if (!lastRelease) {
+    console.log(`No release  ${repo.org}/${repo.name}`);
+    return;
+  }
+
+  repo.releases = repo.releases || {};
+  repo.releases.last = lastRelease;
+}
+
+function findLastRelease(repo) {
+  return _(CONFIG.releases.read())
+    .filter(r => r.repo + "/" + r.org === repo.name + "/" + repo.org)
+    .orderBy(["created_at"], ["desc"])
+    .head();
+}
+
 // @fire
 (async () => {
-  merge();
+  await merge();
+  await lastReleases();
 })();

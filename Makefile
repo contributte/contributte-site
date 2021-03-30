@@ -1,9 +1,7 @@
 install:
 	npm ci
 
-load: data-sync-git resources-generate-packages
-
-refresh: resources-generate-packages
+refresh: bin-github bin-releases bin-metadata bin-team
 
 ##################################################
 # CONTRIBUTTE ####################################
@@ -22,52 +20,39 @@ www-public:
 	cd sites/www && vercel -c --prod
 
 ##################################################
-# STATUS #########################################
+# DEV ############################################
 ##################################################
 
-status-dev:
-	npx vuepress dev sites/status
+dev-dev:
+	npx vuepress dev sites/dev
 
-status-build:
-	npx vuepress build sites/status
+dev-build:
+	npx vuepress build sites/dev
 
-status-deploy:
-	cd sites/status && vercel -c
+dev-deploy:
+	cd sites/dev && vercel -c
 
-status-publish:
-	cd sites/status && vercel -c --prod
-
-##################################################
-# DATA ###########################################
-##################################################
-
-data-sync-git:
-	./butt bin/data/git
-
-data-sync-orgs:
-	./butt bin/data/orgs
-
-data-sync-releases:
-	./butt bin/data/releases
+dev-publish:
+	cd sites/dev && vercel -c --prod
 
 ##################################################
-# RESOURCES ######################################
+# BIN ############################################
 ##################################################
 
-resources-sync-metadata:
-	./butt bin/resources/metadata
+bin-github:
+	./butt bin/bump-github
 
-resources-sync-last-release:
-	./butt bin/resources/last-release
+bin-git:
+	./butt bin/git-clone
 
-resources-sync-team:
-	./butt bin/resources/team
+bin-releases:
+	./butt bin/bump-releases
 
-resources-generate-packages:
-	./butt bin/generate/packages
+bin-metadata:
+	./butt bin/bump-metadata
 
-resources-missing:
-	./butt bin/misc/missing
+bin-team:
+	./butt bin/bump-team
 
-resources-releases:
-	./butt bin/resources/releases
+bin-generate:
+	./butt bin/generate

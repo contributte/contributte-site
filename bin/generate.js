@@ -2,21 +2,21 @@ const _ = require('lodash');
 const fs = require("fs");
 const path = require("path");
 const glob = require("glob");
-const strings = require("./../../tools/utils/strings");
+const utils = require("./utils");
 
 // Config
-const CONFIG = require('./../../contributte');
+const CONFIG = require('./../contributte');
 
 function loadDoc(repo) {
   if (repo.docs.v === 'v0') {
-    return path.resolve(path.resolve(__dirname, `../../data/vcs/${repo.org}/${repo.name}/README.md`));
+    return path.resolve(path.resolve(CONFIG.tmpDir, `${repo.org}/${repo.name}/README.md`));
   } else if (repo.docs.v === 'v1') {
-    return path.resolve(path.resolve(__dirname, `../../data/vcs/${repo.org}/${repo.name}/.docs/README.md`));
+    return path.resolve(path.resolve(CONFIG.tmpDir, `${repo.org}/${repo.name}/.docs/README.md`));
   } else if (repo.docs.v === 'v2') {
     return glob.sync("*.md", {
       absolute: true,
       ignore: ["README.md"],
-      cwd: path.resolve(__dirname, `../../data/vcs/${repo.org}/${repo.name}/${repo.docs.folder || '.docs'}/`)
+      cwd: path.resolve(CONFIG.tmpDir, `${repo.org}/${repo.name}/${repo.docs.folder || '.docs'}/`)
     });
   } else {
     throw Error('Invalid doc versions');
@@ -24,14 +24,14 @@ function loadDoc(repo) {
 }
 
 function generateTemplate(repo, srcPath, destPath) {
-  const template = fs.readFileSync(path.resolve(__dirname, '../../resources/templates/package.tpl'));
+  const template = fs.readFileSync(path.resolve(CONFIG.dataDir, 'package.tpl'));
 
   const readme = loadReadme(srcPath);
   const compiler = _.template(template);
   const compiled = compiler({
     $readme: readme,
     $repository: repo,
-    $title: strings.capitalize(repo.org) + ' ' + strings.capitalize(repo.name),
+    $title: utils.capitalize(repo.org) + ' ' + utils.capitalize(repo.name),
   });
 
   if (!fs.existsSync(path.dirname(destPath))) {
@@ -57,15 +57,15 @@ function loadReadme(file) {
 }
 
 function filterEnabled() {
-  return _.filter(CONFIG.resources.repositories.read(), r => r.enabled);
+  return _.filter(CONFIG.repositories.read(), r => r.enabled);
 }
 
 // @fire
 (async () => {
 
   // Clean folders
-  Object.keys(CONFIG.data.organizations).forEach(org => {
-    const folder = path.resolve(__dirname, `../../sites/www/packages/${org}`);
+  Object.keys(CONFIG.organizations).forEach(org => {
+    const folder = path.resolve(CONFIG.sitesDir, `www/packages/${org}`);
     console.log(`Purging ${folder}`);
 
     fs.rmdirSync(folder, { recursive: true });
@@ -77,10 +77,10 @@ function filterEnabled() {
 
     if (Array.isArray(file)) {
       file.forEach(f => {
-        generateTemplate(repo, f, path.resolve(__dirname, `../../sites/www/packages/${repo.org}/${repo.name}/${path.basename(f)}`));
+        generateTemplate(repo, f, path.resolve(CONFIG.sitesDir, `www/packages/${repo.org}/${repo.name}/${path.basename(f)}`));
       });
     } else {
-      generateTemplate(repo, file, path.resolve(__dirname, `../../sites/www/packages/${repo.org}/${repo.name}.md`));
+      generateTemplate(repo, file, path.resolve(CONFIG.sitesDir, `www/packages/${repo.org}/${repo.name}.md`));
     }
   });
 })();

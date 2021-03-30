@@ -39,6 +39,8 @@ Setup your configuration in NEON files.
 
 ```neon
 extensions:
+  # General
+  annotations: Nettrine\Annotations\DI\AnnotationsExtension
 
 	# Dbal
 	dbal: Nettrine\DBAL\DI\DbalExtension
@@ -51,9 +53,10 @@ extensions:
 	orm.annotations: Nettrine\ORM\DI\OrmAnnotationsExtension
 
 dbal:
-	debug: %debugMode%
+	debug:
+		panel: %debugMode%
 	connection:
-		driver: %database.driver%
+		driver: pdo_mysql
 		host: %database.host%
 		user: %database.user%
 		password: %database.password%
@@ -65,11 +68,8 @@ orm:
 
 orm.annotations:
 	debug: %debugMode%
-	paths:
-		- %appDir%/model/Database/Entity
-
-orm.cache:
-	defaultDriver: apcu
+	mapping:
+		App\Model: %appDir%/Model
 ```
 
 Setup connection to database in `config.local.neon`.
@@ -90,23 +90,20 @@ parameters:
 
 namespace App\Model;
 
-use App\Model\Database\EntityManager;
+use Doctrine\ORM\EntityManagerInterface;
 
 final class Foobar
 {
+	private EntityManagerInterface $entityManager;
 
-	/** @var EntityManager */
-	private $em;
-
-	public function __construct(EntityManager $em)
+	public function __construct(EntityManagerInterface $entityManager)
 	{
-		$this->em = $em;
+		$this->entityManager = $entityManager;
 	}
 
-  public function foo():
-  {
-    $user = $this->em->getUserRepository()->findOneBy(['email' => 'milan@sulc.dev']);
-  }
-
+	public function foo(): void
+	{
+		$user = $this->entityManager->getUserRepository()->findOneBy(['email' => 'milan@sulc.dev']);
+	}
 }
 ```

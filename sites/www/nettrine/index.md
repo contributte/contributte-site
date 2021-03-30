@@ -67,7 +67,6 @@ orm:
 		autoGenerateProxyClasses: %debugMode%
 
 orm.annotations:
-	debug: %debugMode%
 	mapping:
 		App\Model: %appDir%/Model
 ```

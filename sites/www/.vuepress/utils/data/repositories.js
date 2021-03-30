@@ -1,4 +1,4 @@
-import repositories from './../../../../../resources/repositories.json';
+import repositories from './../../../../../data/repositories.json';
 import {filter, find} from 'lodash';
 
 export function getRepositories() {

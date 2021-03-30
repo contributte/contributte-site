@@ -1,4 +1,4 @@
-import heroes from './../../../../../resources/heroes.json';
+import heroes from './../../../../../data/heroes.json';
 
 export function getHeroes() {
   return heroes;

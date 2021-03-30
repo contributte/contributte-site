@@ -1,4 +1,4 @@
-import repositories from './../../../resources/repositories.json';
+import repositories from './../../../data/repositories.json';
 import path from "path";
 import _ from "lodash-es";
 

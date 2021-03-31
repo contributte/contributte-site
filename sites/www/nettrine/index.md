@@ -39,8 +39,8 @@ Setup your configuration in NEON files.
 
 ```neon
 extensions:
-  # General
-  annotations: Nettrine\Annotations\DI\AnnotationsExtension
+	# General
+	annotations: Nettrine\Annotations\DI\AnnotationsExtension
 
 	# Dbal
 	dbal: Nettrine\DBAL\DI\DbalExtension

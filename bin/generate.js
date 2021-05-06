@@ -26,7 +26,7 @@ function loadDoc(repo) {
 function generateTemplate(repo, srcPath, destPath) {
   const template = fs.readFileSync(path.resolve(CONFIG.dataDir, 'package.tpl'));
 
-  const readme = loadReadme(srcPath);
+  const readme = loadReadme(repo, srcPath);
   const compiler = _.template(template);
   const compiled = compiler({
     $readme: readme,
@@ -40,7 +40,7 @@ function generateTemplate(repo, srcPath, destPath) {
   fs.writeFileSync(destPath, compiled);
 }
 
-function loadReadme(file) {
+function loadReadme(repo, file) {
   let output = '';
   const content = fs.readFileSync(file);
 
@@ -49,6 +49,9 @@ function loadReadme(file) {
 
   // Filter-out <!-- contributte/hidden -->
   output = _.replace(output, /<!--\scontributte\/hidden\s-->([\s\S]*?)<!--\s\/contributte\/hidden\s-->/g, '');
+
+  // Replace relative images ![]()
+  output = _.replace(output, /\!\[\]\(([^http].+)\)/g, `![](https://github.com/${repo.org}/${repo.name}/raw/master/$1)`);
 
   // Filter-out whitespaces
   output = output.trim();
@@ -62,13 +65,15 @@ function filterEnabled() {
 
 // @fire
 (async () => {
-
   // Clean folders
   Object.keys(CONFIG.organizations).forEach(org => {
     const folder = path.resolve(CONFIG.sitesDir, `www/packages/${org}`);
     console.log(`Purging ${folder}`);
 
-    fs.rmdirSync(folder, { recursive: true });
+    try {
+      fs.rmdirSync(folder, { recursive: true });
+    } catch(e) {
+    }
   })
 
   // Generate new pages

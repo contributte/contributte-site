@@ -4053,8 +4053,8 @@
   "contributte/componette-site": {
     "org": "contributte",
     "name": "componette-site",
-    "category": "unkwnown",
-    "enabled": false,
+    "category": "project",
+    "enabled": true,
     "docs": {
       "v": "v0"
     },
@@ -4752,8 +4752,8 @@
   "contributte/code-checker": {
     "org": "contributte",
     "name": "code-checker",
-    "category": "unkwnown",
-    "enabled": false,
+    "category": "dev",
+    "enabled": true,
     "docs": {
       "v": "v0"
     },
@@ -4762,13 +4762,16 @@
     "forks": 1,
     "issues": 0,
     "description": "Enhanced code checker based on nette/code-checker.",
-    "updated": "2021-04-29T19:43:47Z"
+    "updated": "2021-04-29T19:43:47Z",
+    "pm": {
+      "composer": "contributte/code-checker"
+    }
   },
   "contributte/qa": {
     "org": "contributte",
     "name": "qa",
-    "category": "unkwnown",
-    "enabled": false,
+    "category": "dev",
+    "enabled": true,
     "docs": {
       "v": "v0"
     },
@@ -4777,7 +4780,10 @@
     "forks": 1,
     "issues": 0,
     "description": "[WIP] :neckbeard: Quality Assurance. Code standards for @contributte ecosystem.",
-    "updated": "2021-04-12T12:36:16Z"
+    "updated": "2021-04-12T12:36:16Z",
+    "pm": {
+      "composer": "contributte/qa"
+    }
   },
   "contributte/componette-design": {
     "org": "contributte",
@@ -4797,8 +4803,8 @@
   "contributte/tester": {
     "org": "contributte",
     "name": "tester",
-    "category": "unkwnown",
-    "enabled": false,
+    "category": "dev",
+    "enabled": true,
     "docs": {
       "v": "v0"
     },
@@ -4807,7 +4813,10 @@
     "forks": 1,
     "issues": 2,
     "description": "🧪 Nette\\Tester with extra horse power.",
-    "updated": "2021-03-12T22:02:56Z"
+    "updated": "2021-03-12T22:02:56Z",
+    "pm": {
+      "composer": "contributte/tester"
+    }
   },
   "contributte/ui": {
     "org": "contributte",
@@ -4902,8 +4911,8 @@
   "contributte/code-rules": {
     "org": "contributte",
     "name": "code-rules",
-    "category": "unkwnown",
-    "enabled": false,
+    "category": "dev",
+    "enabled": true,
     "docs": {
       "v": "v0"
     },
@@ -4924,6 +4933,9 @@
         "html_url": "https://github.com/contributte/code-rules/releases/tag/v1.0.0",
         "body": "<p>First bump! <g-emoji class=\"g-emoji\" alias=\"fist_oncoming\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png\">👊</g-emoji></p>"
       }
+    },
+    "pm": {
+      "composer": "contributte/code-rules"
     }
   },
   "apitte/events": {

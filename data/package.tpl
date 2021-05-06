@@ -1,8 +1,8 @@
 ---
-metaTitle: '<%= $repository.org+" / "+$repository.name %> - <%= $repository.description %>'
+metaTitle: '<%= $repository.org+" / "+$repository.name %> - <%= _.replace($repository.description, "'", "`").trim() %>'
 meta:
   - name: description
-    content: '<%= $repository.description %>'
+    content: '<%= _.replace($repository.description, "'", "`").trim() %>'
   - name: keywords
     content: nette, nette framework, contributte, php, composer, npm, library, <%= $repository.org %>, <%= $repository.name %>
 layout: PackageLayout
@@ -20,10 +20,10 @@ git:
       <img class="opacity-50" loading="lazy" src="https://obr.now.sh/fa/b/github/16"/>
       <a href="https://github.com/<%= $repository.org+"/"+$repository.name %>">github.com/<%= $repository.org+"/"+$repository.name %></a>
     </div>
-    <% if($repository.pm.composer){ %><div class="flex flex-row space-x-2 items-center">
+    <% if($repository.pm && $repository.pm.composer){ %><div class="flex flex-row space-x-2 items-center">
       <img class="opacity-50" loading="lazy" src="https://obr.now.sh/fa/s/download/16"/>
       <a href="https://packagist.org/packages/<%= $repository.pm.composer %>" target="_blank">packagist.org/packages/<%= $repository.pm.composer %></a>
-    </div><% } %><% if($repository.pm.npm){ %><div class="flex flex-row space-x-2 items-center">
+    </div><% } %><% if($repository.pm && $repository.pm.npm){ %><div class="flex flex-row space-x-2 items-center">
       <img class="opacity-50" loading="lazy" src="https://obr.now.sh/fa/s/download/16"/>
       <a href="https://npmjs.com/package/<%= $repository.pm.npm %>" target="_blank">npmjs.com/package/<%= $repository.pm.npm %></a>
     </div><% } %>

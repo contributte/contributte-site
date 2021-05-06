@@ -9,7 +9,7 @@
 .vercel
 
 # VuePress
-/sites/contributte/public
+/sites/www/public
 /sites/dev/public
 
 # Tools

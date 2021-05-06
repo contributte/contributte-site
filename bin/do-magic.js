@@ -5,12 +5,27 @@ const fs = require("fs");
 const CONFIG = require('./../contributte');
 const REPOS = _.cloneDeep(CONFIG.repositories.read());
 
-function sync() {
-  _.forEach(REPOS, r => syncPackageManager(r));
+const BULK = []
+
+function syncPackageManager() {
+  _.forEach(REPOS, r => tryPackageManager(r));
   fs.writeFileSync(CONFIG.repositories.filepath, JSON.stringify(REPOS, null, 2));
 }
 
-function syncPackageManager(repo) {
+function syncBulk() {
+  BULK.forEach(repo => {
+    const [org, name] = repo.split("/");
+    REPOS[repo] = {
+      "org": "contributte",
+      "name": name,
+      "category": "unkwnown",
+      "enabled": false
+    }
+  });
+  fs.writeFileSync(CONFIG.repositories.filepath, JSON.stringify(REPOS, null, 2));
+}
+
+function tryPackageManager(repo) {
   repo.pm = {};
 
   const composer = tryComposer(repo);
@@ -46,5 +61,6 @@ function tryNpm(repo) {
 
 // @fire
 (async () => {
-  sync();
+  syncPackageManager();
+  // syncBulk();
 })();

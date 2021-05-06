@@ -6,24 +6,7 @@ const CONFIG = require('./../contributte');
 const TMP_ORGS = {};
 const TMP_REPOS = {};
 
-const IGNORED = [
-  'contributte/contributte',
-  'contributte/website',
-  'contributte/api',
-  'contributte/advisories',
-  'contributte/nextras-criteria',
-  'contributte/datagrid-elasticsearch-data-source',
-  'contributte/datagrid-dibi-data-source',
-  'contributte/datagrid-doctrine-data-source',
-  'contributte/datagrid-nextras-data-source',
-  'contributte/datagrid-leanmapper-data-source',
-  'contributte/cnb',
-  'contributte/gopay-api',
-  'apitte/events',
-  'apitte/mapping',
-  'apitte/apitte-org',
-  'apitte/openapi-toolkit'
-]
+const IGNORED = [];
 
 async function outdated() {
   _.forEach(getRepositories(), (repo, repoName) => {

@@ -4495,6 +4495,9 @@
         "html_url": "https://github.com/contributte/api-router-skeleton/releases/tag/v1.0.0",
         "body": "<h1>ublaboo/api-router-project is out!</h1>\n<ul>\n<li><code>/api/login</code> endpoint</li>\n</ul>"
       }
+    },
+    "pm": {
+      "composer": "contributte/api-router-skeleton"
     }
   },
   "contributte/phpdoc": {
@@ -4537,7 +4540,10 @@
     "forks": 12,
     "issues": 4,
     "description": "🎁  API / REST API / JSON API / PSR-7 / Middlewares project skeleton based on Nette Framework (@nette), Apitte (@apitte), Doctrine (@nettrine) and Contributte (@contributte) libraries by @f3l1x.",
-    "updated": "2021-05-03T08:55:28Z"
+    "updated": "2021-05-03T08:55:28Z",
+    "pm": {
+      "composer": "contributte/apitte-skeleton"
+    }
   },
   "contributte/contributte": {
     "org": "contributte",
@@ -4606,7 +4612,10 @@
     "forks": 1,
     "issues": 0,
     "description": "🎁 Micro project skeleton based on Nette Framework (@nette) and Contributte (@contributte) libraries for really small projects or sites by @f3l1x.",
-    "updated": "2021-04-11T15:39:24Z"
+    "updated": "2021-04-11T15:39:24Z",
+    "pm": {
+      "composer": "contributte/micro-skeleton"
+    }
   },
   "contributte/starter-skeleton": {
     "org": "contributte",
@@ -4621,7 +4630,10 @@
     "forks": 1,
     "issues": 2,
     "description": "🎁  Starter project skeleton based on Nette Framework (@nette) and Contributte (@contributte) libraries by @f3l1x.",
-    "updated": "2021-04-28T07:18:26Z"
+    "updated": "2021-04-28T07:18:26Z",
+    "pm": {
+      "composer": "contributte/starter-skeleton"
+    }
   },
   "contributte/console-skeleton": {
     "org": "contributte",
@@ -4636,7 +4648,10 @@
     "forks": 1,
     "issues": 0,
     "description": "🎁 Console (CLI) project skeleton based on Nette Framework (@nette),  Symfony (@symfony) and Contributte (@contributte) libraries by @f3l1x.",
-    "updated": "2021-04-28T07:16:11Z"
+    "updated": "2021-04-28T07:16:11Z",
+    "pm": {
+      "composer": "contributte/console-skeleton"
+    }
   },
   "contributte/advisories": {
     "org": "contributte",
@@ -4666,7 +4681,10 @@
     "forks": 8,
     "issues": 1,
     "description": "🎁 Webpack v4/v5 project skeleton based on Nette Framework (@nette) and Contributte (@contributte) libraries by @f3l1x.",
-    "updated": "2021-05-06T08:00:15Z"
+    "updated": "2021-05-06T08:00:15Z",
+    "pm": {
+      "composer": "contributte/webpack-skeleton"
+    }
   },
   "contributte/contributte-site": {
     "org": "contributte",
@@ -4711,7 +4729,10 @@
     "forks": 16,
     "issues": 1,
     "description": "🎁 Web application project skeleton based on Nette Framework (@nette), Doctrine (@nettrine) and Contributte (@contributte) libraries by @f3l1x.",
-    "updated": "2021-05-02T10:18:09Z"
+    "updated": "2021-05-02T10:18:09Z",
+    "pm": {
+      "composer": "contributte/webapp-skeleton"
+    }
   },
   "contributte/planette-micro-site": {
     "org": "contributte",
@@ -4828,6 +4849,9 @@
         "html_url": "https://github.com/contributte/aop/releases/tag/v2.0.0",
         "body": "<p>Bump! <g-emoji class=\"g-emoji\" alias=\"star_struck\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f929.png\">🤩</g-emoji></p>\n<p>Many BCs here, see Upgrade to v2 info: <a href=\"https://github.com/contributte/aop/tree/master/.docs#upgrade-to-v2\">https://github.com/contributte/aop/tree/master/.docs#upgrade-to-v2</a></p>\n<p>Changes:</p>\n<ul>\n<li>apply contributte codestyle</li>\n<li>switch to phpunit</li>\n<li>apply phpstan lvl 7</li>\n<li>move annotations to Contributte\\Aop\\Annotations namespace</li>\n<li>move exceptions to Contributte\\Aop\\Exceptions</li>\n<li>PSR4 autoloading</li>\n<li>minimum php version to 7.4</li>\n<li>add type hints everywhere</li>\n</ul>"
       }
+    },
+    "pm": {
+      "composer": "contributte/aop"
     }
   },
   "contributte/doctrine-gedmo": {

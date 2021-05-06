@@ -15,30 +15,30 @@
 export default {
   props: {
     type: {
-      type: String
-    }
+      type: String,
+    },
   },
   computed: {
     cls() {
       if (this.type === "package") {
         return {
           wrapper: "border-blue-600 explanation--package",
-          inner: "bg-blue-500 text-white"
+          inner: "bg-blue-500 text-white",
         };
       }
 
       if (this.type === "hotness") {
         return {
           wrapper: "border-red-500 explanation--hotness",
-          inner: "bg-red-100 text-gray-800"
+          inner: "bg-red-100 text-gray-800",
         };
       }
 
       return {
         wrapper: "border-gray-500",
-        inner: "bg-gray-100 text-gray-800"
+        inner: "bg-gray-100 text-gray-800",
       };
-    }
-  }
+    },
+  },
 };
 </script>

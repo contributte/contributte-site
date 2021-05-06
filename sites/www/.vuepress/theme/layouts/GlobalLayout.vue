@@ -1,6 +1,6 @@
 <template>
   <div id="global-layout">
-    <component :is="layout" :class="'layout-'+layout.toLowerCase()" class="layout min-h-screen"/>
+    <component :is="layout" :class="'layout-' + layout.toLowerCase()" class="layout min-h-screen" />
   </div>
 </template>
 
@@ -15,7 +15,7 @@ export default {
         return "Layout";
       }
       return "NotFound";
-    }
-  }
+    },
+  },
 };
 </script>

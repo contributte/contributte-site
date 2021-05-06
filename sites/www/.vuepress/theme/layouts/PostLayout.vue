@@ -7,11 +7,9 @@
           <div class="mt-3 flex">
             <div class="text-left flex-1">
               By
-              <a
-                :href="'https://github.com/' + post.frontmatter.author"
-              >@{{post.frontmatter.author}}</a>
+              <a :href="'https://github.com/' + post.frontmatter.author">@{{ post.frontmatter.author }}</a>
             </div>
-            <div class="text-right flex-1">📆 {{post.frontmatter.date|date}}</div>
+            <div class="text-right flex-1">📆 {{ post.frontmatter.date | date }}</div>
           </div>
         </footer>
       </template>
@@ -27,12 +25,12 @@ import Layout from "@theme/layouts/Layout.vue";
 export default {
   components: {
     Footer,
-    Layout
+    Layout,
   },
   computed: {
     post() {
       return this.$page;
-    }
-  }
+    },
+  },
 };
 </script>

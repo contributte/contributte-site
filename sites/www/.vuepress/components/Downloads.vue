@@ -24,12 +24,16 @@ export default {
     },
   },
   async created() {
-    const res = await fetch("https://packagist.now.sh/stats/contributte+apitte+nettrine+ninjify");
-    const data = await res.json();
+    try {
+      const res = await fetch("https://packagist.now.sh/stats/contributte+apitte+nettrine+ninjify");
+      const data = await res.json();
 
-    this.total = data.downloads.total;
-    this.monthly = data.downloads.monthly;
-    this.daily = data.downloads.daily;
+      this.total = data.downloads.total;
+      this.monthly = data.downloads.monthly;
+      this.daily = data.downloads.daily;
+    } catch (e) {
+      console.error(e);
+    }
   },
 };
 </script>

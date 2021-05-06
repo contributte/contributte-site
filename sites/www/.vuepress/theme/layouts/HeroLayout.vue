@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Layout/>
-    <Footer/>
+    <Layout />
+    <Footer />
   </div>
 </template>
 
@@ -12,7 +12,7 @@ import Layout from "@theme/layouts/Layout.vue";
 export default {
   components: {
     Footer,
-    Layout
-  }
+    Layout,
+  },
 };
 </script>

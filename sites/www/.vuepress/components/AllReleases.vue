@@ -6,18 +6,13 @@
         <div class="text-lg px-4 py-2 bg-gray-100 rounded-t-lg flex flex-row">
           <div class="flex-1">
             <template v-if="$options.filters.link(release)">
-              <router-link
-                :to="release | link"
-              >[{{release.tag}}] {{ release.org }} / {{release.repo}}</router-link>
+              <router-link :to="release | link">[{{ release.tag }}] {{ release.org }} / {{ release.repo }}</router-link>
             </template>
-            <template v-else>[{{release.tag}}] {{ release.org }} / {{release.repo}}</template>
+            <template v-else>[{{ release.tag }}] {{ release.org }} / {{ release.repo }}</template>
           </div>
-          <span class="font-semibold">{{release.created_at|date}}</span>
+          <span class="font-semibold">{{ release.created_at | date }}</span>
         </div>
-        <div
-          class="release-notes p-4 bg-white rounded-b-lg"
-          v-html="release.body || '😢 No release notes'"
-        ></div>
+        <div class="release-notes p-4 bg-white rounded-b-lg" v-html="release.body || '😢 No release notes'"></div>
       </div>
     </div>
   </div>
@@ -31,7 +26,7 @@ export default {
   computed: {
     releases() {
       return this.$page.contributte.releases;
-    }
+    },
   },
   filters: {
     link(release) {
@@ -41,7 +36,7 @@ export default {
       } else {
         return link(repo);
       }
-    }
-  }
+    },
+  },
 };
 </script>

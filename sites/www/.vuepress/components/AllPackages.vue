@@ -22,6 +22,7 @@
         <div @click="toggleCatagory('webservices')" :class="[category === 'webservices' ? 'bg-blue-600 text-white' : '']" class="bg-gray-200 cursor-pointer rounded-lg px-2 py-1 font-bold mx-2 mb-2">webservices</div>
         <div @click="toggleCatagory('dev')" :class="[category === 'dev' ? 'bg-blue-600 text-white' : '']" class="bg-gray-200 cursor-pointer rounded-lg px-2 py-1 font-bold mx-2 mb-2">dev</div>
         <div @click="toggleCatagory('skeleton')" :class="[category === 'skeleton' ? 'bg-blue-600 text-white' : '']" class="bg-gray-200 cursor-pointer rounded-lg px-2 py-1 font-bold mx-2 mb-2">skeleton</div>
+        <div @click="toggleCatagory('project')" :class="[category === 'project' ? 'bg-blue-600 text-white' : '']" class="bg-gray-200 cursor-pointer rounded-lg px-2 py-1 font-bold mx-2 mb-2">project</div>
         <div @click="toggleCatagory('other')" :class="[category === 'other' ? 'bg-blue-600 text-white' : '']" class="bg-gray-200 cursor-pointer rounded-lg px-2 py-1 font-bold mx-2 mb-2">other</div>
       </div>
       <div v-if="filtered.length <= 0" class="text-center">No package found.</div>

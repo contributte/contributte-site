@@ -3,6 +3,7 @@
   "name": "contributte",
   "routes": [
     { "src": "/examples/", "status": 308, "headers": { "Location": "https://contributte.org/examples.html" } },
+    { "src": "/partners", "status": 308, "headers": { "Location": "https://contributte.org/partners.html" } },
     { "src": "/vision.html", "status": 308, "headers": { "Location": "https://contributte.org/roadmap/vision.html" } },
     { "src": "/roadmap/recap.html", "status": 308, "headers": { "Location": "https://contributte.org/roadmap/changelog.html" } },
     { "handle": "filesystem" },

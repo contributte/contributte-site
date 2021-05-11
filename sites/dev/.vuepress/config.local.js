@@ -18,7 +18,6 @@ module.exports = {
   extendPageData($page) {
     $page.contributte = {
       repositories: _(repositories)
-        .filter(r => r.enabled)
         .orderBy(['org', 'name'], ['asc', 'asc'])
         .value(),
     }

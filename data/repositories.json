@@ -203,7 +203,7 @@
     "enabled": true,
     "priority": 90,
     "docs": {
-      "v": "v0"
+      "v": "v1"
     },
     "description": "⛔ Nice client-side live form validation for Nette Forms.",
     "releases": {
@@ -2779,7 +2779,7 @@
     "enabled": true,
     "priority": 0,
     "docs": {
-      "v": "v0"
+      "v": "v1"
     },
     "description": "🔁 Form multiplier & replicator for Nette Framework",
     "releases": {
@@ -2817,7 +2817,7 @@
     "enabled": true,
     "priority": 0,
     "docs": {
-      "v": "v0"
+      "v": "v1"
     },
     "description": "🎩 Easy to use step-by-step form for Nette Framework",
     "releases": {
@@ -3728,7 +3728,7 @@
     "enabled": true,
     "priority": 0,
     "docs": {
-      "v": "v0"
+      "v": "v1"
     },
     "pm": {
       "composer": "ublaboo/datagrid-nette-database-data-source"
@@ -3759,7 +3759,7 @@
     "enabled": true,
     "priority": 0,
     "docs": {
-      "v": "v0"
+      "v": "v1"
     },
     "pm": {
       "composer": "contributte/webpack"
@@ -4137,10 +4137,10 @@
   "contributte/fileupload": {
     "org": "contributte",
     "name": "fileupload",
-    "category": "unkwnown",
-    "enabled": false,
+    "category": "ui",
+    "enabled": true,
     "docs": {
-      "v": "v0"
+      "v": "v1"
     },
     "stars": 26,
     "watchers": 26,
@@ -4881,10 +4881,10 @@
   "contributte/imagist": {
     "org": "contributte",
     "name": "imagist",
-    "category": "unkwnown",
-    "enabled": false,
+    "category": "ui",
+    "enabled": true,
     "docs": {
-      "v": "v0"
+      "v": "v1"
     },
     "stars": 0,
     "watchers": 0,

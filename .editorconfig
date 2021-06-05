@@ -1,17 +1,16 @@
-# editorconfig.org
+# EditorConfig is awesome: http://EditorConfig.org
+
 root = true
 
 [*]
-indent_size = 2
-indent_style = space
-end_of_line = lf
 charset = utf-8
-trim_trailing_whitespace = true
+end_of_line = lf
 insert_final_newline = true
-
-[*.md]
-trim_trailing_whitespace = false
-
-[Makefile]
-indent_size = 4
+trim_trailing_whitespace = true
 indent_style = tab
+indent_size = tab
+tab_width = 4
+
+[{*.json, *.yaml, *.yml, *.md}]
+indent_style = space
+indent_size = 2

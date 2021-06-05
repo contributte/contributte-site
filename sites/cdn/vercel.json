@@ -2,6 +2,9 @@
   "version": 2,
   "name": "contributte-cdn",
   "routes": [
-    { "src": "/(.*)", "dest": "https://ik.imagekit.io/nette/contributte/$1" }
+    {
+      "src": "/(.*)",
+      "dest": "https://ik.imagekit.io/nette/contributte/$1"
+    }
   ]
 }

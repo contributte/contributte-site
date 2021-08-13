@@ -8,11 +8,11 @@ meta:
 
 <header class="text-center">
   <h1>Apitte</h1>
-  <img class="m-auto" src="https://avatars.githubusercontent.com/apitte" alt="Apitte" title="Apitte logo" width="150" loading="lazy">
+  <img class="m-auto my-6" src="https://avatars.githubusercontent.com/apitte" alt="Apitte" title="Apitte logo" width="150" loading="lazy">
   <p class="text-2xl text-gray-600">
     Modern PHP/PSR7 API framework build on top of Nette Framework
   </p>
-    <p class="mt-6">
+  <p class="mt-6">
     <a href="/packages/apitte/core/" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Get Started →</a>
     <a href="/examples.html#apitte" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Playground</a>
   </p>
@@ -56,108 +56,22 @@ meta:
     <p>Create fully customizable and validated rich REST APIs. Make more versions of your REST API in moments.</p>
   </div>
 </div>
+
+
+<div class="text-center my-6">
+  <h2>Packages</h2>
+	<ul class="my-6">
+		<li><a class="underline hover:no-underline" href="https://github.com/apitte/core">apitte/core</a></li>
+		<li><a class="underline hover:no-underline" href="https://github.com/apitte/middlewares">apitte/middlewares</a></li>
+		<li><a class="underline hover:no-underline" href="https://github.com/apitte/openapi">apitte/openapi</a></li>
+		<li><a class="underline hover:no-underline" href="https://github.com/apitte/negotiation">apitte/negotiation</a></li>
+		<li><a class="underline hover:no-underline" href="https://github.com/apitte/debug">apitte/debug</a></li>
+		<li><a class="underline hover:no-underline" href="https://github.com/apitte/presenter">apitte/presenter</a></li>
+		<li><a class="underline hover:no-underline" href="https://github.com/apitte/console">apitte/console</a></li>
+  </ul>
+  <h2>Example projects</h2>
+	<ul class="my-6">
+		<li><a class="underline hover:no-underline" href="https://github.com/contributte/apitte-skeleton">contributte/apitte-skeleton</a></li>
+		<li><a class="underline hover:no-underline" href="https://github.com/contributte/playground">contributte/playground</a></li>
+  </ul>
 </div>
-
-## Installation
-
-Add to your current project using composer.
-
-```bash
-composer require apitte/fullstack
-```
-
-Or take a look at examples.
-
-```bash
-composer create-project --repository https://github.com/planette/playground
-```
-
-----
-
-## Examples
-
-### Simple controller
-
-Just return data as array and let **Apitte** to create correct response for you.
-
-[See more →](https://github.com/planette/playground/blob/master/apitte-fullstack/app/controllers/HomeController.php)
-
-```php
-/**
-  * @Controller
-  * @ControllerPath("/users")
-  * @ControllerId("users")
-  */
-final class UsersController extends BaseV2Controller
-{
-
-	/**
-	* @Id("index")
-	* @Path("/")
-	* @Method("GET")
-	*/
-	public function index()
-	{
-		return [
-			['id' => 1, 'nick' => 'Chuck Norris'],
-			['id' => 2, 'nick' => 'Felix'],
-		];
-	}
-}
-```
-
-### Prepared exceptions
-
-Use prepared exceptions and send correct error codes as simple as possible.
-
-[See more →](https://github.com/planette/playground/blob/master/apitte-fullstack/app/controllers/ErrorController.php)
-
-```php
-<?php
-
-	/**
-	 * @Controller
-	 * @ControllerPath("/error")
-	 */
-	final class ErrorController extends BaseV1Controller
-	{
-		/**
-		 * @Path("/client")
-		 * @Method("GET")
-		 */
-		public function client()
-		{
-			throw ClientErrorException::create()
-				->withCode(403)
-				->withContext(['a' => 'b']);
-		}
-  }
-```
-
-### Simple configuration
-
-Configure middlewares, setup plugins and register controllers in few lines of code.
-
-[See more →](https://github.com/planette/playground/blob/master/apitte-fullstack/app/config/config.neon)
-
-```neon
-extensions:
-	middlewares: Contributte\Middlewares\DI\MiddlewaresExtension
-	resource: Contributte\DI\Extension\ResourceExtension
-	api: Apitte\Core\DI\ApiExtension
-
-resource:
-	resources:
-		App\Controllers\:
-			paths: [%appDir%/controllers]
-			decorator:
-				inject: true
-api:
-	plugins:
-		Apitte\Debug\DI\DebugPlugin:
-		Apitte\Middlewares\DI\MiddlewaresPlugin:
-		Apitte\Negotiation\DI\NegotiationPlugin:
-			unification: on
-		Apitte\Mapping\DI\MappingPlugin:
-		Apitte\OpenApi\DI\OpenApiPlugin:
-```

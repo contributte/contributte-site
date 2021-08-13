@@ -11,21 +11,12 @@ editLink: false
 
 # Examples
 
-Take a look at [planette organization](https://github.com/planette) which is full of examples and demos including
-Contributte, Apitte, Nettrine and other packages for [Nette Framework](https://nette.org).
-
-If you want to test some example just clone this repository and take a look at [prepared examples](https://github.com/planette/playground).
-
-```bash
-git clone git@github.com:planette/playground.git
-```
-
-<h2>Projects</h2>
+<h2>Skeletons</h2>
 
 <div class="flex flex-wrap my-12">
   <div class="flex w-1/2">
-    <a href="https://github.com/planette/nutella-project" target="_blank" class="block w-full rounded overflow-hidden shadow-lg p-4 m-2">
-      <div class="font-bold text-center text-2xl">Nutella Project</div>
+    <a href="https://github.com/contributte/webapp-skeleton" target="_blank" class="block w-full rounded overflow-hidden shadow-lg p-4 m-2">
+      <div class="font-bold text-center text-2xl">Webapp Skeleton</div>
       <div class="flex justify-around px-8 mt-4">
         <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/nette" loading="lazy" class="max-h-16"></div>
         <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/contributte" loading="lazy" class="max-h-16"></div>
@@ -37,7 +28,7 @@ git clone git@github.com:planette/playground.git
       </div>
       <div class="mt-4">
         <div class="text-gray-700 my-4">
-          Nutella project is full featured web app kit based on Nette Framework + Contributte and many useful packages by <a class="underline" href="https://f3l1x.io">@f3l1x</a>.
+          Web application project skeleton based on Nette Framework, Doctrine and Contributte libraries by <a class="underline" href="https://f3l1x.io">@f3l1x</a>.
         </div>
         <div class="flex flex-wrap -mx-1 -my-1 text-sm">
           <div class="bg-gray-200 mx-1 my-1 px-2 py-1 rounded">contributte/*</div>
@@ -47,8 +38,8 @@ git clone git@github.com:planette/playground.git
     </a>
   </div>
   <div class="flex w-1/2">
-    <a href="https://github.com/planette/forest-project" target="_blank" class="block w-full rounded overflow-hidden shadow-lg p-4 m-2">
-      <div class="font-bold text-center text-2xl">FoREST Project</div>
+    <a href="https://github.com/contributte/apitte-skeleton" target="_blank" class="block w-full rounded overflow-hidden shadow-lg p-4 m-2">
+      <div class="font-bold text-center text-2xl">Apitte Skeleton</div>
       <div class="flex justify-around px-8 mt-4">
         <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/nette" loading="lazy" class="max-h-16"></div>
         <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/contributte" loading="lazy" class="max-h-16"></div>
@@ -61,7 +52,7 @@ git clone git@github.com:planette/playground.git
       </div>
       <div class="mt-4">
         <div class="text-gray-700 my-4">
-          Forest project is opinionated API-based kit based on Nette Framework + Apitte and many useful packages by <a class="underline" href="https://f3l1x.io">@f3l1x</a>.
+          API / REST API / JSON API / PSR-7 / Middlewares project skeleton based on Nette Framework, Apitte, Doctrine and Contributte libraries by <a class="underline" href="https://f3l1x.io">@f3l1x</a>.
         </div>
         <div class="flex flex-wrap -mx-1 -my-1 text-sm">
           <div class="bg-gray-200 mx-1 my-1 px-2 py-1 rounded">contributte/*</div>
@@ -72,8 +63,8 @@ git clone git@github.com:planette/playground.git
     </a>
   </div>
   <div class="flex w-1/2">
-    <a href="https://github.com/planette/cindy-project" target="_blank" class="block w-full rounded overflow-hidden shadow-lg p-4 m-2">
-      <div class="font-bold text-center text-2xl">Cindy Project</div>
+    <a href="https://github.com/contributte/console-skeleton" target="_blank" class="block w-full rounded overflow-hidden shadow-lg p-4 m-2">
+      <div class="font-bold text-center text-2xl">Console Skeleton</div>
       <div class="flex justify-around px-8 mt-4">
         <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/nette" loading="lazy" class="max-h-16"></div>
         <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/contributte" loading="lazy" class="max-h-16"></div>
@@ -82,7 +73,7 @@ git clone git@github.com:planette/playground.git
       </div>
       <div class="mt-4">
         <div class="text-gray-700 my-4">
-          Cindy Project is a CLI starter kit project for Nette Framework with Symfony Console and many useful libraries by <a class="underline" href="https://f3l1x.io">@f3l1x</a>.
+          Console (CLI) project skeleton based on Nette Framework, Symfony and Contributte libraries by <a class="underline" href="https://f3l1x.io">@f3l1x</a>.
         </div>
         <div class="flex flex-wrap -mx-1 -my-1 text-sm">
           <div class="bg-gray-200 mx-1 my-1 px-2 py-1 rounded">contributte/*</div>
@@ -92,8 +83,8 @@ git clone git@github.com:planette/playground.git
     </a>
   </div>
   <div class="flex w-1/2">
-    <a href="https://github.com/planette/snow-project" target="_blank" class="block w-full rounded overflow-hidden shadow-lg p-4 m-2">
-      <div class="font-bold text-center text-2xl">Snow Project</div>
+    <a href="https://github.com/contributte/webpack-skeleton" target="_blank" class="block w-full rounded overflow-hidden shadow-lg p-4 m-2">
+      <div class="font-bold text-center text-2xl">Webpack Skeleton</div>
       <div class="flex justify-around px-8 mt-4">
         <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/nette" loading="lazy" class="max-h-16"></div>
         <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/contributte" loading="lazy" class="max-h-16"></div>
@@ -102,11 +93,70 @@ git clone git@github.com:planette/playground.git
       </div>
       <div class="mt-4">
         <div class="text-gray-700 my-4">
-          Snow Project is a web starter kit project for Nette Framework with many useful libraries by <a class="underline" href="https://f3l1x.io">@f3l1x</a>.
+          Webpack project skeleton based on Nette Framework and Contributte libraries by <a class="underline" href="https://f3l1x.io">@f3l1x</a>.
         </div>
         <div class="flex flex-wrap -mx-1 -my-1 text-sm">
           <div class="bg-gray-200 mx-1 my-1 px-2 py-1 rounded">contributte/*</div>
           <div class="bg-gray-200 mx-1 my-1 px-2 py-1 rounded">phpstan/phpstan</div>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="flex w-1/2">
+    <a href="https://github.com/contributte/starter-skeleton" target="_blank" class="block w-full rounded overflow-hidden shadow-lg p-4 m-2">
+      <div class="font-bold text-center text-2xl">Starter Skeleton</div>
+      <div class="flex justify-around px-8 mt-4">
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/nette" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/contributte" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/ninjify" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/phpstan" loading="lazy" class="max-h-16"></div>
+      </div>
+      <div class="mt-4">
+        <div class="text-gray-700 my-4">
+          Starter project skeleton based on Nette Framework and Contributte libraries by <a class="underline" href="https://f3l1x.io">@f3l1x</a>.
+        </div>
+        <div class="flex flex-wrap -mx-1 -my-1 text-sm">
+          <div class="bg-gray-200 mx-1 my-1 px-2 py-1 rounded">contributte/*</div>
+          <div class="bg-gray-200 mx-1 my-1 px-2 py-1 rounded">phpstan/phpstan</div>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="flex w-1/2">
+    <a href="https://github.com/contributte/api-router-skeleton" target="_blank" class="block w-full rounded overflow-hidden shadow-lg p-4 m-2">
+      <div class="font-bold text-center text-2xl">API Router Skeleton</div>
+      <div class="flex justify-around px-8 mt-4">
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/nette" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/contributte" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/ninjify" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/phpstan" loading="lazy" class="max-h-16"></div>
+      </div>
+      <div class="mt-4">
+        <div class="text-gray-700 my-4">
+          API router project skeleton based on Nette Framework and Contributte libraries by <a class="underline" href="https://f3l1x.io">@f3l1x</a> & <a class="underline" href="https://paveljanda.com">@paveljanda</a>.
+        </div>
+        <div class="flex flex-wrap -mx-1 -my-1 text-sm">
+          <div class="bg-gray-200 mx-1 my-1 px-2 py-1 rounded">contributte/*</div>
+          <div class="bg-gray-200 mx-1 my-1 px-2 py-1 rounded">phpstan/phpstan</div>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="flex w-1/2">
+    <a href="https://github.com/contributte/micro-skeleton" target="_blank" class="block w-full rounded overflow-hidden shadow-lg p-4 m-2">
+      <div class="font-bold text-center text-2xl">Micro Skeleton</div>
+      <div class="flex justify-around px-8 mt-4">
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/nette" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/contributte" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/ninjify" loading="lazy" class="max-h-16"></div>
+        <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/phpstan" loading="lazy" class="max-h-16"></div>
+      </div>
+      <div class="mt-4">
+        <div class="text-gray-700 my-4">
+          Micro project skeleton based on Nette Framework and Contributte libraries for really small projects or sites by <a class="underline" href="https://f3l1x.io">@f3l1x</a>.
+        </div>
+        <div class="flex flex-wrap -mx-1 -my-1 text-sm">
+          <div class="bg-gray-200 mx-1 my-1 px-2 py-1 rounded">contributte/*</div>
         </div>
       </div>
     </a>
@@ -151,3 +201,11 @@ git clone git@github.com:planette/playground.git
     </a>
   </div>
 </div>
+
+<h2>Playground</h2>
+
+Take a look at [contributte/playground](https://github.com/contributte/playground) which is full of examples and demos including Contributte, Apitte, Nettrine and other packages for [Nette Framework](https://nette.org).
+
+```sh
+git clone git@github.com:contributte/playground.git
+```

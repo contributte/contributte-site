@@ -3982,6 +3982,9 @@
     "name": "latte-parsedown",
     "category": "deprecated",
     "enabled": true,
+    "docs": {
+      "v": "v0"
+    },
     "stars": 4,
     "watchers": 4,
     "forks": 1,
@@ -4576,6 +4579,9 @@
     "name": "apitte-mapping",
     "category": "deprecated",
     "enabled": true,
+    "docs": {
+      "v": "v0"
+    },
     "stars": 1,
     "watchers": 1,
     "forks": 1,

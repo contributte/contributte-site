@@ -8,101 +8,32 @@ meta:
 
 <header class="text-center">
   <h1>Nettrine</h1>
-  <img class="m-auto" src="https://avatars.githubusercontent.com/nettrine" alt="Nettrine" title="Nettrine logo" width="150">
+  <img class="m-auto my-6" src="https://avatars.githubusercontent.com/nettrine" alt="Nettrine" title="Nettrine logo" width="150">
   <p class="text-2xl text-gray-600">
     Easy & smart integration of Doctrine2 to Nette Framework
   </p>
-    <p class="mt-6">
-    <a href="/packages/nettrine/dbal.html" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">DBAL →</a>
-    <a href="/packages/nettrine/orm.html" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">ORM →</a>
+
+  <p class="mt-6">
+    <a href="/packages/nettrine/orm/" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Get Started →</a>
     <a href="/examples.html#nettrine" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Playground</a>
   </p>
-</header>
-
-## Installation
-
-Add to your current project using composer.
-
-```bash
-composer require nettrine/dbal nettrine/orm
-```
-
-Or take a look at examples.
-
-```bash
-composer create-project --repository https://github.com/planette/playground
-```
-
-## Configuration
-
-Setup your configuration in NEON files.
-
-```neon
-extensions:
-	# General
-	annotations: Nettrine\Annotations\DI\AnnotationsExtension
-
-	# Dbal
-	dbal: Nettrine\DBAL\DI\DbalExtension
-	dbal.console: Nettrine\DBAL\DI\DbalConsoleExtension
-
-	# Orm
-	orm: Nettrine\ORM\DI\OrmExtension
-	orm.cache: Nettrine\ORM\DI\OrmCacheExtension
-	orm.console: Nettrine\ORM\DI\OrmConsoleExtension
-	orm.annotations: Nettrine\ORM\DI\OrmAnnotationsExtension
-
-dbal:
-	debug:
-		panel: %debugMode%
-	connection:
-		driver: pdo_mysql
-		host: %database.host%
-		user: %database.user%
-		password: %database.password%
-		dbname: %database.dbname%
-
-orm:
-	configuration:
-		autoGenerateProxyClasses: %debugMode%
-
-orm.annotations:
-	mapping:
-		App\Model: %appDir%/Model
-```
-
-Setup connection to database in `config.local.neon`.
-
-```neon
-parameters:
-	database:
-		host: localhost
-		dbname: nutella
-		user: nutella
-		password: nutella
-```
-
-## Usage
-
-```php
-<?php declare(strict_types = 1);
-
-namespace App\Model;
-
-use Doctrine\ORM\EntityManagerInterface;
-
-final class Foobar
-{
-	private EntityManagerInterface $entityManager;
-
-	public function __construct(EntityManagerInterface $entityManager)
-	{
-		$this->entityManager = $entityManager;
-	}
-
-	public function foo(): void
-	{
-		$user = $this->entityManager->getUserRepository()->findOneBy(['email' => 'milan@sulc.dev']);
-	}
-}
-```
+</header> 
+   
+<div class="text-center my-6">
+	<h2>Packages</h2>
+	<ul class="my-6">
+		<li><a class="underline hover:no-underline" href="https://github.com/nettrine/dbal">nettrine/dbal</a></li>
+		<li><a class="underline hover:no-underline" href="https://github.com/nettrine/orm">nettrine/orm</a></li>
+		<li><a class="underline hover:no-underline" href="https://github.com/nettrine/migrations">nettrine/migrations</a></li>
+		<li><a class="underline hover:no-underline" href="https://github.com/nettrine/fixtures">nettrine/fixtures</a></li>
+		<li><a class="underline hover:no-underline" href="https://github.com/nettrine/annotations">nettrine/annotations</a></li>
+		<li><a class="underline hover:no-underline" href="https://github.com/nettrine/cache">nettrine/cache</a></li>
+	</ul>
+	<h2>Example projects</h2>
+	<ul class="my-6">
+		<li><a class="underline hover:no-underline" href="https://github.com/contributte/webapp-skeleton">contributte/webapp-skeleton</a></li>
+		<li><a class="underline hover:no-underline" href="https://github.com/contributte/apitte-skeleton">contributte/apitte-skeleton</a></li>
+		<li><a class="underline hover:no-underline" href="https://github.com/contributte/doctrine-skeleton">contributte/doctrine-skeleton</a></li>
+		<li><a class="underline hover:no-underline" href="https://github.com/contributte/playground">contributte/playground</a></li>
+	</ul>
+</div>

@@ -36,8 +36,7 @@ async function missing() {
 }
 
 function getOrganizations() {
-  return Object.keys(CONFIG.organizations)
-    .filter(org => org !== 'planette');
+  return Object.keys(CONFIG.organizations);
 }
 
 function getOrganization(org) {

@@ -4,7 +4,7 @@ layout: MarkdownLayout
 
 # Changelog
 
-What we actually did and why. Do you have some feedback? Please [let us know](/about.html). 
+What we actually did and why. Do you have some feedback? Please [let us know](/about.html).
 
 <div class="mt-16 pb-5 border-b border-gray-200">
   <div class="-ml-2 -mt-2 flex flex-wrap items-baseline">
@@ -100,7 +100,7 @@ We're working to bring you more packages from ublaboo to contributte.
 **Website**
 
 Static site generation proved its potential. Other world famouse sites are using static site generating.
-VuePress builds site into HTML + CSS + JS and these files are hosted on [ZEIT](https://zeit.co/). 
+VuePress builds site into HTML + CSS + JS and these files are hosted on [ZEIT](https://zeit.co/).
 
 <div class="pb-5 border-b border-gray-200 mt-16">
   <h2 class="text-2xl leading-6 font-medium">2018</h2>
@@ -195,7 +195,7 @@ We need to discuss it deeper.
 
 In Contributte we have the main goal to show **stable and working packages** to others, thus we are building our [**playground**](https://github.com/contributte/playground).
 
-For now, there is just API example, which is quite old and contributte/api has been transformed into Apitte anyway. Latest example of working API is in [apitte/playgroud](https://github.com/apitte/playground).
+For now, there is just API example, which is quite old and contributte/api has been transformed into Apitte anyway. Latest example of working API is in [contributte/apitte-skeleton](https://github.com/contributte/apitte-skeleton).
 
 We need to focus more on `playground`, examples and tutorials to spread our packages. Don't you think guys? Sure, you do.
 

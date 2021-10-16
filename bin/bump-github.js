@@ -7,7 +7,6 @@ const CONFIG = require("./../contributte");
 
 const LEVELS = {
   contributte: 2,
-  apitte: 1,
   nettrine: 1,
   ninjify: 1
 }

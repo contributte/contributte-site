@@ -7,10 +7,6 @@ const organizations = {
     filepath: path.resolve(__dirname, 'data/contributte.json'),
     read: () => require(organizations.contributte.filepath)
   },
-  apitte: {
-    filepath: path.resolve(__dirname, 'data/apitte.json'),
-    read: () => require(organizations.apitte.filepath)
-  },
   nettrine: {
     filepath: path.resolve(__dirname, 'data/nettrine.json'),
     read: () => require(organizations.nettrine.filepath)

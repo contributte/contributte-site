@@ -61,13 +61,13 @@ meta:
 <div class="text-center my-6">
   <h2>Packages</h2>
 	<ul class="my-6">
-		<li><a class="underline hover:no-underline" href="https://github.com/apitte/core">apitte/core</a></li>
-		<li><a class="underline hover:no-underline" href="https://github.com/apitte/middlewares">apitte/middlewares</a></li>
-		<li><a class="underline hover:no-underline" href="https://github.com/apitte/openapi">apitte/openapi</a></li>
-		<li><a class="underline hover:no-underline" href="https://github.com/apitte/negotiation">apitte/negotiation</a></li>
-		<li><a class="underline hover:no-underline" href="https://github.com/apitte/debug">apitte/debug</a></li>
-		<li><a class="underline hover:no-underline" href="https://github.com/apitte/presenter">apitte/presenter</a></li>
-		<li><a class="underline hover:no-underline" href="https://github.com/apitte/console">apitte/console</a></li>
+		<li><a class="underline hover:no-underline" href="https://github.com/contributte/apitte-core">apitte/core</a></li>
+		<li><a class="underline hover:no-underline" href="https://github.com/contributte/apitte-middlewares">apitte/middlewares</a></li>
+		<li><a class="underline hover:no-underline" href="https://github.com/contributte/apitte-openapi">apitte/openapi</a></li>
+		<li><a class="underline hover:no-underline" href="https://github.com/contributte/apitte-negotiation">apitte/negotiation</a></li>
+		<li><a class="underline hover:no-underline" href="https://github.com/contributte/apitte-debug">apitte/debug</a></li>
+		<li><a class="underline hover:no-underline" href="https://github.com/contributte/apitte-presenter">apitte/presenter</a></li>
+		<li><a class="underline hover:no-underline" href="https://github.com/contributte/apitte-console">apitte/console</a></li>
   </ul>
   <h2>Example projects</h2>
 	<ul class="my-6">

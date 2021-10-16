@@ -1,7 +1,7 @@
 <h1 align=center>Contributte</h1>
 
 <p align=center>
-Official website of the Contributte, Nettrine, Apitte & Ninjify.
+Official website of the Contributte, Nettrine & Ninjify.
 </p>
 
 <p align=center>
@@ -10,15 +10,14 @@ Official website of the Contributte, Nettrine, Apitte & Ninjify.
 
 <p align=center>
   <a href="https://contributte.org"><img src="https://raw.githubusercontent.com/contributte/website/master/.assets/contributte.png"></a>
-</p>  
+</p>
 
 ## Info
 
 This repository contains more websites at once.
 
 The main **contributte** is based on [VuePress 1.x](https://v1.vuepress.vuejs.org/). VuePress is static site (documentation) generator.
-Because we're lazy programmers, we reuse existing docs pages from the single repositories in [Contributte](https://github.com/contributte), 
-[Apitte](https://github.com/apitte), [Nettrine](https://github.com/nettrine) and [Ninjify](https://github.com/ninjify) organization.
+Because we're lazy programmers, we reuse existing docs pages from the single repositories in [Contributte](https://github.com/contributte), [Nettrine](https://github.com/nettrine) and [Ninjify](https://github.com/ninjify) organization.
 
 There is a template file for the README files which is used in generation phase. The resulting website contains about 150 pages (readmes) melted together.
 
@@ -41,7 +40,7 @@ make install
 ```
 
 ```bash
-# Start dev server 
+# Start dev server
 make www-dev
 ```
 

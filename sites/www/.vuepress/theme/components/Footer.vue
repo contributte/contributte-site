@@ -31,9 +31,6 @@
                 <a href="https://componette.org">Componette</a>
               </li>
               <li>
-                <a href="https://github.com/planette">Planette</a>
-              </li>
-              <li>
                 <a href="https://commits.nette.org">Nette Commits</a>
               </li>
               <li>

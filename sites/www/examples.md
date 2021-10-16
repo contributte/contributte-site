@@ -167,8 +167,8 @@ editLink: false
 
 <div class="flex flex-wrap my-12">
   <div class="flex w-1/3">
-    <a href="https://github.com/planette/playground/tree/master/nettrine" target="_blank" class="block w-full rounded overflow-hidden shadow-lg p-4 m-2">
-      <div class="font-bold text-center text-2xl">Doctrine Example</div>
+    <a href="https://github.com/contributte/doctrine-skeleton" target="_blank" class="block w-full rounded overflow-hidden shadow-lg p-4 m-2">
+      <div class="font-bold text-center text-2xl">Doctrine Skeleton</div>
       <div class="flex justify-around px-8 mt-4">
         <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/nette" loading="lazy" class="max-h-16"></div>
         <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/doctrine" loading="lazy" class="max-h-16"></div>
@@ -185,7 +185,7 @@ editLink: false
     </a>
   </div>
   <div class="flex w-1/3">
-    <a href="https://github.com/planette/playground/tree/master/nextras-orm-generator" target="_blank" class="block w-full rounded overflow-hidden shadow-lg p-4 m-2">
+    <a href="https://github.com/contributte/playground/tree/master/nextras-orm-generator" target="_blank" class="block w-full rounded overflow-hidden shadow-lg p-4 m-2">
       <div class="font-bold text-center text-2xl">Nextras Entity Generator</div>
       <div class="flex justify-around px-8 mt-4">
         <div class="flex items-center justify-center"><img src="https://avatars.githubusercontent.com/nextras" loading="lazy" class="max-h-16"></div>

@@ -114,7 +114,7 @@ metaTitle: Contributte - First class extensions, addons and plugins for Nette Fr
           <div class="bg-white text-black rounded-lg shadow-inner shadow-lg overflow-hidden">
             <div class="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
               <h3 class="text-lg font-medium p-3 pb-0 text-center tracking-wide">
-                Forest Project
+                Apitte Skeleton
               </h3>
               <p class="text-center pt-2 pb-6">API-based project skeleton.</p>
             </div>
@@ -124,7 +124,7 @@ metaTitle: Contributte - First class extensions, addons and plugins for Nette Fr
                   <div class=" rounded-full p-2 fill-current text-green-700">
                     <svg-circle />
                   </div>
-                  <span class="text-gray-700 text-lg ml-3">Nette 3.0</span>
+                  <span class="text-gray-700 text-lg ml-3">Nette 3.1</span>
                 </li>
                 <li class="flex items-center">
                   <div class=" rounded-full p-2 fill-current text-green-700">
@@ -147,7 +147,7 @@ metaTitle: Contributte - First class extensions, addons and plugins for Nette Fr
               </ul>
             </div>
             <div class="block flex items-center p-8  uppercase">
-              <a href="https://github.com/planette/forest-project" class="mt-3 text-lg text-center font-semibold bg-blue-800 w-full text-white rounded-lg px-6 py-3 block shadow-xl hover:bg-blue-700">
+              <a href="https://github.com/contributte/apitte-skeleton" class="mt-3 text-lg text-center font-semibold bg-blue-800 w-full text-white rounded-lg px-6 py-3 block shadow-xl hover:bg-blue-700">
                 Browse
               </a>
             </div>
@@ -159,7 +159,7 @@ metaTitle: Contributte - First class extensions, addons and plugins for Nette Fr
           </div>
           <div class="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
             <h3 class="text-lg font-medium p-3 pb-0 text-center tracking-wide">
-              Nutella Project
+              Webapp Skeleton
             </h3>
             <p class="text-center pt-2 pb-6">Mixed project skeleton.</p>
           </div>
@@ -169,7 +169,7 @@ metaTitle: Contributte - First class extensions, addons and plugins for Nette Fr
                 <div class=" rounded-full p-2 fill-current text-green-700">
                   <svg-circle />
                 </div>
-                <span class="text-gray-700 text-lg ml-3">Nette 3.0</span>
+                <span class="text-gray-700 text-lg ml-3">Nette 3.1</span>
               </li>
               <li class="flex items-center">
                 <div class=" rounded-full p-2 fill-current text-green-700">
@@ -192,7 +192,7 @@ metaTitle: Contributte - First class extensions, addons and plugins for Nette Fr
             </ul>
           </div>
           <div class="block flex items-center p-8  uppercase">
-            <a href="https://github.com/planette/nutella-project" class="mt-3 text-lg text-center font-semibold bg-blue-800 w-full text-white rounded-lg px-6 py-3 block shadow-xl hover:bg-blue-700">
+            <a href="https://github.com/contributte/webapp-skeleton" class="mt-3 text-lg text-center font-semibold bg-blue-800 w-full text-white rounded-lg px-6 py-3 block shadow-xl hover:bg-blue-700">
               Browse
             </a>
           </div>
@@ -201,7 +201,7 @@ metaTitle: Contributte - First class extensions, addons and plugins for Nette Fr
           <div class="bg-white text-black rounded-lg shadow-inner shadow-lg overflow-hidden">
             <div class="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
               <h3 class="text-lg font-medium p-3 pb-0 text-center tracking-wide">
-                Cindy Project
+                Console Skeleton
               </h3>
               <p class="text-center pt-2 pb-6">CLI-based project skeleton.</p>
             </div>
@@ -211,7 +211,7 @@ metaTitle: Contributte - First class extensions, addons and plugins for Nette Fr
                   <div class=" rounded-full p-2 fill-current text-green-700">
                     <svg-circle/>
                   </div>
-                  <span class="text-gray-700 text-lg ml-3">Nette 3.0</span>
+                  <span class="text-gray-700 text-lg ml-3">Nette 3.1</span>
                 </li>
                 <li class="flex items-center">
                   <div class=" rounded-full p-2 fill-current text-green-700">
@@ -228,7 +228,7 @@ metaTitle: Contributte - First class extensions, addons and plugins for Nette Fr
               </ul>
             </div>
             <div class="block flex items-center p-8  uppercase">
-              <a href="https://github.com/planette/cindy-project" class="mt-3 text-lg text-center font-semibold bg-blue-800 w-full text-white rounded-lg px-6 py-3 block shadow-xl hover:bg-blue-700">
+              <a href="https://github.com/contributte/console-skeleton" class="mt-3 text-lg text-center font-semibold bg-blue-800 w-full text-white rounded-lg px-6 py-3 block shadow-xl hover:bg-blue-700">
                 Browse
               </a>
             </div>

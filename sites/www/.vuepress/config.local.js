@@ -70,6 +70,7 @@ module.exports = {
     if ($page.regularPath === '/') {
       $page.contributte = {
         randomRepositories: _.sampleSize(repositories.getRepositories(), 6),
+        patrons: patrons.getPatrons(),
       }
     }
 

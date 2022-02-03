@@ -1,22 +1,27 @@
 [
   {
-    "name": "Tlapnet",
-    "website": "https://tlapnet.cz",
-    "avatar": "https://avatars.githubusercontent.com/tlapnet"
-  },
-  {
     "name": "NX1",
-    "website": "https://nx1.cz",
+    "website": "https://nx1.cz?ref=contributte",
     "avatar": "https://avatars.githubusercontent.com/netrixone"
   },
   {
     "name": "Blueweb",
-    "website": "https://blueweb.sk",
+    "website": "https://blueweb.sk?ref=contributte",
     "avatar": "https://avatars.githubusercontent.com/blueweb"
   },
   {
-    "name": "Ispalliance",
-    "website": "https://ispalliance.cz",
-    "avatar": "https://avatars.githubusercontent.com/ispalliance"
+    "name": "Involve",
+    "website": "https://involve.cz?ref=contributte",
+    "avatar": "https://cdn.contributte.org/partners/involve.png"
+  },
+  {
+    "name": "PeckaDesign",
+    "website": "https://peckadesign.cz?ref=contributte",
+    "avatar": "https://avatars.githubusercontent.com/peckadesign"
+  },
+  {
+    "name": "SledovaniTV",
+    "website": "https://sledovanitv.cz?ref=contributte",
+    "avatar": "https://avatars.githubusercontent.com/moderntv"
   }
 ]

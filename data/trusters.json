@@ -1,132 +1,142 @@
 [
   {
+    "name": "Tlapnet",
+    "website": "https://tlapnet.cz?ref=contributte",
+    "avatar": "https://avatars.githubusercontent.com/tlapnet"
+  },
+  {
+    "name": "Ispalliance",
+    "website": "https://ispalliance.cz?ref=contributte",
+    "avatar": "https://avatars.githubusercontent.com/ispalliance"
+  },
+  {
     "name": "Econea",
-    "website": "https://econea.cz",
+    "website": "https://econea.cz?ref=contributte",
     "avatar": "https://avatars.githubusercontent.com/econea"
   },
   {
     "name": "BeetFit",
-    "website": "https://beetfit.com",
+    "website": "https://beetfit.com?ref=contributte",
     "avatar": "https://avatars.githubusercontent.com/beetfit"
   },
   {
     "name": "SmartEmailing",
-    "website": "https://www.smartemailing.cz/",
+    "website": "https://www.smartemailing.cz?ref=contributte",
     "avatar": "https://cdn.contributte.org/partners/smartemailing.png"
   },
   {
     "name": "COFIS CZ, s.r.o.",
-    "website": "https://www.cofis.cz/",
+    "website": "https://www.cofis.cz?ref=contributte",
     "avatar": "https://cdn.contributte.org/partners/cofis.png"
   },
   {
     "name": "FAPI Business s.r.o.",
-    "website": "https://fapi.cz",
+    "website": "https://fapi.cz?ref=contributte",
     "avatar": "https://cdn.contributte.org/partners/fapi.png"
   },
   {
     "name": "2htech s.r.o.",
-    "website": "https://2htech.cz",
+    "website": "https://2htech.cz?ref=contributte",
     "avatar": "https://cdn.contributte.org/partners/2htech.png"
   },
   {
     "name": "CloudDock",
-    "website": "https://clouddock.cz",
+    "website": "https://clouddock.cz?ref=contributte",
     "avatar": "https://avatars.githubusercontent.com/clouddock"
   },
   {
     "name": "D5T5 s.r.o.",
-    "website": "https://d5t5.com",
+    "website": "https://d5t5.com?ref=contributte",
     "avatar": "https://cdn.contributte.org/partners/d5t5.png"
   },
   {
     "name": "Emailkampane.cz",
-    "website": "https://www.emailkampane.cz/",
+    "website": "https://www.emailkampane.cz?ref=contributte",
     "avatar": "https://cdn.contributte.org/partners/emailkampane.jpg"
   },
   {
     "name": "Tipli",
-    "website": "https://www.tipli.cz/",
+    "website": "https://www.tipli.cz?ref=contributte",
     "avatar": "https://cdn.contributte.org/partners/tipli.png"
   },
   {
     "name": "Clear 01 Development s.r.o.",
-    "website": "https://clear01.com",
+    "website": "https://clear01.com?ref=contributte",
     "avatar": "https://cdn.contributte.org/partners/clear01.png"
   },
   {
     "name": "Whalebone",
-    "website": "https://whalebone.io",
+    "website": "https://whalebone.io?ref=contributte",
     "avatar": "https://avatars.githubusercontent.com/whalebone"
   },
   {
     "name": "Beneš & Michl",
-    "website": "https://www.benes-michl.cz/",
+    "website": "https://www.benes-michl.cz?ref=contributte",
     "avatar": "https://cdn.contributte.org/partners/benesmichl.png"
   },
   {
     "name": "Redbit s.r.o.",
-    "website": "https://www.redbit.cz/",
+    "website": "https://www.redbit.cz?ref=contributte",
     "avatar": "https://cdn.contributte.org/partners/redbit.png"
   },
   {
     "name": "RTsoft",
-    "website": "https://www.rtsoft.cz/",
+    "website": "https://www.rtsoft.cz?ref=contributte",
     "avatar": "https://cdn.contributte.org/partners/rtsoft.png"
   },
   {
     "name": "#InColor studio s.r.o.",
-    "website": "https://www.incolorstudio.cz/",
+    "website": "https://www.incolorstudio.cz?ref=contributte",
     "avatar": "https://cdn.contributte.org/partners/incolorstudio.png"
   },
   {
     "name": "WAME s.r.o.",
-    "website": "https://wame.sk/",
+    "website": "https://wame.sk?ref=contributte",
     "avatar": "https://cdn.contributte.org/partners/wame.png"
   },
   {
     "name": "Freelo.cz",
-    "website": "https://www.freelo.cz/",
+    "website": "https://www.freelo.cz?ref=contributte",
     "avatar": "https://cdn.contributte.org/partners/freelo.png"
   },
   {
     "name": "FastyBird",
-    "website": "https://fastybird.com/",
+    "website": "https://fastybird.com?ref=contributte",
     "avatar": "https://cdn.contributte.org/partners/fastybird.png"
   },
   {
     "name": "Vioro",
-    "website": "https://vioro.cz/",
+    "website": "https://vioro.cz?ref=contributte",
     "avatar": "https://cdn.contributte.org/partners/vioro.png"
   },
   {
     "name": "Flatio",
-    "website": "https://flatio.com/",
+    "website": "https://flatio.com?ref=contributte",
     "avatar": "https://cdn.contributte.org/partners/flatio.png"
   },
   {
     "name": "iVenkov",
-    "website": "https://www.ivenkov.cz/",
+    "website": "https://www.ivenkov.cz?ref=contributte",
     "avatar": "https://cdn.contributte.org/partners/ivenkov.png"
   },
   {
     "name": "MICRORISC s.r.o.",
-    "website": "https://microrisc.com/",
+    "website": "https://microrisc.com?ref=contributte",
     "avatar": "https://cdn.contributte.org/partners/microrisc.png"
   },
   {
     "name": "MALL.CZ",
-    "website": "https://www.mall.cz",
+    "website": "https://www.mall.cz?ref=contributte",
     "avatar": "https://cdn.contributte.org/partners/mall.jpg"
   },
   {
     "name": "Future Rockstars",
-    "website": "https://www.futurerockstars.cz",
+    "website": "https://www.futurerockstars.cz?ref=contributte",
     "avatar": "https://cdn.contributte.org/partners/futurerockstars.png"
   },
   {
     "name": "MI:SU Design s.r.o.",
-    "website": "https://www.misudesign.sk",
+    "website": "https://www.misudesign.sk?ref=contributte",
     "avatar": "https://cdn.contributte.org/partners/misu.png"
   }
 ]

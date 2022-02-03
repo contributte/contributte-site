@@ -64,6 +64,38 @@ metaTitle: Contributte - First class extensions, addons and plugins for Nette Fr
 <section>
   <div class="container max-w-full mx-auto py-24">
     <h2 class="text-center text-4xl text-black font-medium leading-snug tracking-wider">
+      Partners
+    </h2>
+    <p class="text-center text-xl text-gray-500 mt-2 px-6">
+      Awesome collection of our beloved partners. Thank you.
+    </p>
+    <div class="h-1 mx-auto bg-blue-600 w-24 opacity-75 mt-4 rounded"></div>
+    <div class="flex flex-col md:flex-row my-12 justify-center items-center">
+        <div v-for="patron of $page.contributte.patrons" class="flex w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/4 xl:w-1/6 justify-center">
+            <a
+            class="block w-full max-w-sm rounded overflow-hidden shadow-lg px-6 m-2"
+            :href="patron.website"
+            :key="patron.name"
+            target="_blank"
+            >
+            <div class="h-32 flex items-center justify-center">
+                <img class="max-w-32 max-h-32" :src="patron.avatar" loading="lazy" :alt="patron.name" :title="patron.name" />
+            </div>
+            <div class="py-4 text-center">
+                <div class="font-bold">{{patron.name}}</div>
+            </div>
+        </a>
+        </div>
+    </div>
+    <p class="text-center text-sm text-gray-500 mt-2 px-6">
+      Do you want to be part of this group? <a href="/partners.html">Unlock the power.</a>
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="container max-w-full mx-auto py-24">
+    <h2 class="text-center text-4xl text-black font-medium leading-snug tracking-wider">
       Key Features
     </h2>
     <p class="text-center text-xl text-gray-500 mt-2 px-6">

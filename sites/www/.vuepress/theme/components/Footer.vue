@@ -140,10 +140,10 @@
         <a href="https://f3l1x.io">Felix</a>
         • Generated with
         <a href="https://vuepress.vuejs.org/">VuePress</a>
-        • Deployed to
-        <a href="https://vercel.com">Vercel</a>
-        • View
-        <a href="https://github.com/contributte/website">source code</a>
+        • Powered by
+        <a href="https://vercel.com?utm_source=milansulc&utm_campaign=oss">Vercel</a>
+        •
+        <a href="https://github.com/contributte/website">Open source code</a>
       </div>
     </div>
   </div>

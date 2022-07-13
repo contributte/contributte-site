@@ -1,5 +1,10 @@
 [
   {
+    "name": "Blackfire",
+    "website": "https://blackfire.io?ref=contributte",
+    "avatar": "https://cdn.contributte.org/partners/blackfire.png"
+  },
+  {
     "name": "NX1",
     "website": "https://nx1.cz?ref=contributte",
     "avatar": "https://avatars.githubusercontent.com/netrixone"
@@ -13,11 +18,6 @@
     "name": "Involve",
     "website": "https://involve.cz?ref=contributte",
     "avatar": "https://cdn.contributte.org/partners/involve.png"
-  },
-  {
-    "name": "PeckaDesign",
-    "website": "https://peckadesign.cz?ref=contributte",
-    "avatar": "https://avatars.githubusercontent.com/peckadesign"
   },
   {
     "name": "SledovaniTV",

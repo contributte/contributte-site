@@ -5,6 +5,11 @@
     "avatar": "https://cdn.contributte.org/partners/blackfire.png"
   },
   {
+    "name": "Vercel",
+    "website": "https://vercel.com/nx1?utm_source=milansulc&utm_campaign=oss",
+    "avatar": "https://avatars.githubusercontent.com/vercel"
+  },
+  {
     "name": "NX1",
     "website": "https://nx1.cz?ref=contributte",
     "avatar": "https://avatars.githubusercontent.com/netrixone"

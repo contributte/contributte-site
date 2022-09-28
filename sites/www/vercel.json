@@ -1,20 +1,18 @@
 {
-  "version": 2,
   "name": "contributte",
-  "routes": [
-    { "src": "/examples/", "status": 308, "headers": { "Location": "https://contributte.org/examples.html" } },
-    { "src": "/partners", "status": 308, "headers": { "Location": "https://contributte.org/partners.html" } },
-    { "src": "/donation", "status": 308, "headers": { "Location": "https://contributte.org/partners.html" } },
-    { "src": "/donations", "status": 308, "headers": { "Location": "https://contributte.org/partners.html" } },
-    { "src": "/donate", "status": 308, "headers": { "Location": "https://contributte.org/partners.html" } },
-    { "src": "/donates", "status": 308, "headers": { "Location": "https://contributte.org/partners.html" } },
-    { "src": "/sponsor", "status": 308, "headers": { "Location": "https://contributte.org/partners.html" } },
-    { "src": "/sponsors", "status": 308, "headers": { "Location": "https://contributte.org/partners.html" } },
-    { "src": "/sponsorship", "status": 308, "headers": { "Location": "https://contributte.org/partners.html" } },
-    { "src": "/vision.html", "status": 308, "headers": { "Location": "https://contributte.org/roadmap/vision.html" } },
-    { "src": "/roadmap/recap.html", "status": 308, "headers": { "Location": "https://contributte.org/roadmap/changelog.html" } },
-    { "src": "/packages/apitte/(?<pkg>[^/]+).*", "status": 308, "headers": { "Location": "https://contributte.org/packages/contributte/apitte-$pkg" } },
-    { "handle": "filesystem" },
-    { "src": "/.*", "status": 404, "dest": "404.html" }
+  "redirects": [
+    { "source": "/examples/", "destination": "/examples.html" },
+    { "source": "/partners", "destination": "/partners.html" },
+    { "source": "/donation", "destination": "/partners.html" },
+    { "source": "/donations", "destination": "/partners.html" },
+    { "source": "/donate", "destination": "/partners.html" },
+    { "source": "/donates", "destination": "/partners.html" },
+    { "source": "/sponsor", "destination": "/partners.html" },
+    { "source": "/sponsors", "destination": "/partners.html" },
+    { "source": "/sponsorship", "destination": "/partners.html" },
+    { "source": "/vision.html", "destination": "/roadmap/vision.html" },
+    { "source": "/roadmap/recap.html", "destination": "/roadmap/changelog.html" },
+    { "source": "/packages/apitte/(.*)", "destination": "/packages/contributte/apitte" },
+    { "source": "/packages/nettrine/(.+)", "destination": "/packages/contributte/doctrine-$1" }
   ]
 }

@@ -110,10 +110,10 @@
     "watchers": 13,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
+      "admin": true,
+      "maintain": true,
+      "push": true,
+      "triage": true,
       "pull": true
     }
   },
@@ -227,10 +227,10 @@
     "watchers": 8,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
+      "admin": true,
+      "maintain": true,
+      "push": true,
+      "triage": true,
       "pull": true
     }
   },
@@ -345,10 +345,10 @@
     "watchers": 3,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
+      "admin": true,
+      "maintain": true,
+      "push": true,
+      "triage": true,
       "pull": true
     }
   }

@@ -1584,6 +1584,7 @@
     "org": "contributte",
     "name": "apitte-core",
     "enabled": true,
+    "category": "deprecated",
     "priority": 0,
     "docs": {
       "v": "v2",
@@ -1600,7 +1601,6 @@
       }
     },
     "description": "🔧 Enjoyable [PSR-7 based] API framework for Nette Framework. Heart of the apitte stack.",
-    "category": "api",
     "releases": {
       "last": {
         "org": "contributte",
@@ -1631,16 +1631,73 @@
     },
     "updated": "2022-04-13T12:11:32Z"
   },
+  "contributte/apitte": {
+    "org": "contributte",
+    "name": "apitte",
+    "enabled": true,
+    "priority": 0,
+    "docs": {
+      "v": "v2",
+      "pages": {
+        "architecture": "Architecture",
+        "console": "Console",
+        "debug": "Debug",
+        "decorators": "Decorators",
+        "dispatcher": "Dispatcher",
+        "endpoints": "Endpoints",
+        "errors": "Errors",
+        "mapping": "Mapping",
+        "middlewares": "Middlewares",
+        "negotiation": "Negotiation",
+        "openapi": "OpenApi",
+        "presenter": "Presenter",
+        "request-and-response": "Request & Response",
+        "router": "Router",
+        "schema": "Schema"
+      }
+    },
+    "description": "🔧 An opinionated and enjoyable API framework based on Nette Framework. Supporting content negotiation, debugging, middlewares, attributes, annotations and loving openapi/swagger.",
+    "category": "api",
+    "releases": {
+      "last": {
+        "org": "contributte",
+        "repo": "apitte",
+        "tag": "v0.10.1",
+        "name": "v0.10.1",
+        "created_at": "2022-09-13T15:39:23Z",
+        "published_at": "2022-09-13T15:41:28Z",
+        "html_url": "https://github.com/contributte/apitte/releases/tag/v0.10.1",
+        "body": "<p>Bumped! <g-emoji class=\"g-emoji\" alias=\"japanese_goblin\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f47a.png\">👺</g-emoji></p>\n<p>Diff: <a class=\"commit-link\" href=\"https://github.com/contributte/apitte/compare/v0.10.0...v0.10.1\"><tt>v0.10.0...v0.10.1</tt></a></p>\n<p>Changes:</p>\n<ul>\n<li>Apply response decorators also on responses returned from request dispatchers by early return [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/apitte/commit/19fb13f58d353bda7b9753112587ff8663ac082c/hovercard\" href=\"https://github.com/contributte/apitte/commit/19fb13f58d353bda7b9753112587ff8663ac082c\"><tt>19fb13f</tt></a>] (<a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/MartinMystikJonas/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/MartinMystikJonas\">@MartinMystikJonas</a>)</li>\n<li>Custom mapping types [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/apitte/commit/298a55794b715bc24094a9ee561bacbd8d99838c/hovercard\" href=\"https://github.com/contributte/apitte/commit/298a55794b715bc24094a9ee561bacbd8d99838c\"><tt>298a557</tt></a>] (<a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/MartinMystikJonas/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/MartinMystikJonas\">@MartinMystikJonas</a>)</li>\n<li>Phpstan: upgrades [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/apitte/commit/870e0ac6b9a72f6cbe102675054732dc2e6b2302/hovercard\" href=\"https://github.com/contributte/apitte/commit/870e0ac6b9a72f6cbe102675054732dc2e6b2302\"><tt>870e0ac</tt></a>] (<a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/f3l1x/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/f3l1x\">@f3l1x</a>)</li>\n</ul>\n<p>Maintenance:</p>\n<ul>\n<li>Readme: improvements [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/apitte/commit/1aea9bf121a39f76c414b1c934e6301d9b63b75e/hovercard\" href=\"https://github.com/contributte/apitte/commit/1aea9bf121a39f76c414b1c934e6301d9b63b75e\"><tt>1aea9bf</tt></a>] (<a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/f3l1x/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/f3l1x\">@f3l1x</a>)</li>\n<li>Typo [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/apitte/commit/2331453dd261da9f679caf2bed7bde7aa81e0704/hovercard\" href=\"https://github.com/contributte/apitte/commit/2331453dd261da9f679caf2bed7bde7aa81e0704\"><tt>2331453</tt></a>] (<a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/f3l1x/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/f3l1x\">@f3l1x</a>)</li>\n<li>CI: specify PHP version [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/apitte/commit/3009450027332341402bfe5e753e40f04950089b/hovercard\" href=\"https://github.com/contributte/apitte/commit/3009450027332341402bfe5e753e40f04950089b\"><tt>3009450</tt></a>] (<a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/f3l1x/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/f3l1x\">@f3l1x</a>)</li>\n<li>Codesniffer: fixes [<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/contributte/apitte/commit/088f53a34f1a67a29012eeae154a896d85cbb200/hovercard\" href=\"https://github.com/contributte/apitte/commit/088f53a34f1a67a29012eeae154a896d85cbb200\"><tt>088f53a</tt></a>] (<a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/f3l1x/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/f3l1x\">@f3l1x</a>)</li>\n</ul>"
+      }
+    },
+    "stars": 50,
+    "watchers": 50,
+    "forks": 29,
+    "composer": {
+      "php": [
+        "7.2",
+        "7.4"
+      ],
+      "nette": [
+        "3.0"
+      ]
+    },
+    "issues": 8,
+    "pm": {
+      "composer": "apitte/core"
+    },
+    "updated": "2022-08-18T09:29:24Z"
+  },
   "contributte/apitte-debug": {
     "org": "contributte",
     "name": "apitte-debug",
     "enabled": true,
     "priority": 0,
+    "category": "deprecated",
     "docs": {
       "v": "v1"
     },
     "description": "⁉️ Debugging tools for Apitte stack",
-    "category": "api",
     "releases": {
       "last": {
         "org": "contributte",
@@ -1674,11 +1731,11 @@
     "name": "apitte-console",
     "enabled": true,
     "priority": 0,
+    "category": "deprecated",
     "docs": {
       "v": "v1"
     },
     "description": "💊 Symfony\\Console bridge for Apitte stack",
-    "category": "api",
     "releases": {
       "last": {
         "org": "contributte",
@@ -1715,11 +1772,11 @@
     "title": "OpenAPI",
     "enabled": true,
     "priority": 0,
+    "category": "deprecated",
     "docs": {
       "v": "v1"
     },
     "description": "👨‍👩‍👦 OpenAPI specification for Apitte stack",
-    "category": "api",
     "releases": {
       "last": {
         "org": "contributte",
@@ -1753,11 +1810,11 @@
     "name": "apitte-middlewares",
     "enabled": true,
     "priority": 0,
+    "category": "deprecated",
     "docs": {
       "v": "v1"
     },
     "description": "🚤 Middlewares support for Apitte stack",
-    "category": "api",
     "releases": {
       "last": {
         "org": "contributte",
@@ -1793,11 +1850,11 @@
     "name": "apitte-negotiation",
     "enabled": true,
     "priority": 0,
+    "category": "deprecated",
     "docs": {
       "v": "v1"
     },
     "description": "🎨 Content-Negotiation support for Apitte stack",
-    "category": "api",
     "releases": {
       "last": {
         "org": "contributte",
@@ -1833,11 +1890,11 @@
     "name": "apitte-presenter",
     "enabled": true,
     "priority": 0,
+    "category": "deprecated",
     "docs": {
       "v": "v1"
     },
     "description": "🌻 PSR-7 for Nette\\Presenters with Apitte stack",
-    "category": "api",
     "releases": {
       "last": {
         "org": "contributte",
@@ -1871,11 +1928,11 @@
     "name": "apitte-fullstack",
     "enabled": true,
     "priority": 0,
+    "category": "deprecated",
     "docs": {
       "v": "v0"
     },
     "description": "👍 Apitte meta package with all features",
-    "category": "api",
     "releases": {
       "last": {
         "org": "contributte",
@@ -5018,8 +5075,8 @@
   "contributte/apitte-events": {
     "org": "contributte",
     "name": "apitte-events",
-    "category": "api",
-    "enabled": false,
+    "category": "deprecated",
+    "enabled": true,
     "docs": {
       "v": "v0"
     },

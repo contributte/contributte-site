@@ -13,7 +13,7 @@ meta:
     Modern PHP/PSR7 API framework build on top of Nette Framework
   </p>
   <p class="mt-6">
-    <a href="/packages/apitte/core/" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Get Started →</a>
+    <a href="/packages/contributte/apitte/" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Get Started →</a>
     <a href="/examples.html#apitte" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Playground</a>
   </p>
 </header>
@@ -57,18 +57,7 @@ meta:
   </div>
 </div>
 
-
 <div class="text-center my-6">
-  <h2>Packages</h2>
-	<ul class="my-6">
-		<li><a class="underline hover:no-underline" href="https://github.com/contributte/apitte-core">apitte/core</a></li>
-		<li><a class="underline hover:no-underline" href="https://github.com/contributte/apitte-middlewares">apitte/middlewares</a></li>
-		<li><a class="underline hover:no-underline" href="https://github.com/contributte/apitte-openapi">apitte/openapi</a></li>
-		<li><a class="underline hover:no-underline" href="https://github.com/contributte/apitte-negotiation">apitte/negotiation</a></li>
-		<li><a class="underline hover:no-underline" href="https://github.com/contributte/apitte-debug">apitte/debug</a></li>
-		<li><a class="underline hover:no-underline" href="https://github.com/contributte/apitte-presenter">apitte/presenter</a></li>
-		<li><a class="underline hover:no-underline" href="https://github.com/contributte/apitte-console">apitte/console</a></li>
-  </ul>
   <h2>Example projects</h2>
 	<ul class="my-6">
 		<li><a class="underline hover:no-underline" href="https://github.com/contributte/apitte-skeleton">contributte/apitte-skeleton</a></li>

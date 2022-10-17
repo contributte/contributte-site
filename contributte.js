@@ -3,14 +3,14 @@ const path = require('path');
 // Data
 
 const organizations = {
-  contributte: {
-    filepath: path.resolve(__dirname, 'data/contributte.json'),
-    read: () => require(organizations.contributte.filepath)
-  },
-  ninjify: {
-    filepath: path.resolve(__dirname, 'data/ninjify.json'),
-    read: () => require(organizations.ninjify.filepath)
-  }
+	contributte: {
+		filepath: path.resolve(__dirname, 'data/contributte.json'),
+		read: () => require(organizations.contributte.filepath)
+	},
+	ninjify: {
+		filepath: path.resolve(__dirname, 'data/ninjify.json'),
+		read: () => require(organizations.ninjify.filepath)
+	}
 };
 
 const tmpDir = path.resolve(__dirname, 'tmp');
@@ -18,26 +18,26 @@ const dataDir = path.resolve(__dirname, 'data');
 const sitesDir = path.resolve(__dirname, 'sites');
 
 const releases = {
-  filepath: path.resolve(__dirname, 'data/releases.json'),
-  read: () => require(releases.filepath),
+	filepath: path.resolve(__dirname, 'data/releases.json'),
+	read: () => require(releases.filepath),
 };
 
 const repositories = {
-  filepath: path.resolve(__dirname, 'data/repositories.json'),
-  read: () => require(repositories.filepath),
+	filepath: path.resolve(__dirname, 'data/repositories.json'),
+	read: () => require(repositories.filepath),
 };
 
 const team = {
-  filepath: path.resolve(__dirname, 'data/team.json'),
-  read: () => require(team.filepath),
+	filepath: path.resolve(__dirname, 'data/team.json'),
+	read: () => require(team.filepath),
 };
 
 module.exports = {
-  organizations,
-  releases,
-  repositories,
-  team,
-  tmpDir,
-  dataDir,
-  sitesDir
+	organizations,
+	releases,
+	repositories,
+	team,
+	tmpDir,
+	dataDir,
+	sitesDir
 };

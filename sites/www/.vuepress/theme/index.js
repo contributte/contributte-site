@@ -1,4 +1,4 @@
 module.exports = {
-  extend: '@vuepress/theme-default',
-  globalLayout: __dirname + '/layouts/GlobalLayout.vue'
+	extend: '@vuepress/theme-default',
+	globalLayout: __dirname + '/layouts/GlobalLayout.vue'
 }

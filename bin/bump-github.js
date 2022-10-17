@@ -6,25 +6,25 @@ const utils = require("./utils");
 const CONFIG = require("./../contributte");
 
 const LEVELS = {
-  contributte: [1,2,3],
-  nettrine: [1],
-  ninjify: [1]
+	contributte: [1, 2, 3],
+	nettrine: [1],
+	ninjify: [1]
 }
 
 function sync() {
-  _.forEach(CONFIG.organizations, async (organization, name) => {
-    console.log(`Syncing ${name} organization`);
+	_.forEach(CONFIG.organizations, async (organization, name) => {
+		console.log(`Syncing ${name} organization`);
 
-    const repos = [];
-    for (const page in LEVELS[name]) {
-      console.log(`Syncing ${name} organization page ${page}`);
-      repos.push(...(await utils.githubGet(`/orgs/${name}/repos?per_page=100&page=${page}`)));
-    }
-    fs.writeFileSync(organization.filepath, JSON.stringify(repos, null, 2));
-  });
+		const repos = [];
+		for (const page in LEVELS[name]) {
+			console.log(`Syncing ${name} organization page ${page}`);
+			repos.push(...(await utils.githubGet(`/orgs/${name}/repos?per_page=100&page=${page}`)));
+		}
+		fs.writeFileSync(organization.filepath, JSON.stringify(repos, null, 2));
+	});
 }
 
 // @fire
 (async () => {
-  sync();
+	sync();
 })();

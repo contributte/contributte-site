@@ -49,6 +49,11 @@ module.exports = {
       { text: "Partners", link: "/partners" },
       { text: "About", link: "/about" }
     ],
+    head: [
+      ['meta', { name: 'googlebot', content: 'snippet,archive' }],
+      ['meta', { name: 'seznam-wmt', content: '1fVsTm9B92usQWXPRbUiUwwssvOnnyP9' }],
+      ['meta', { name: 'author', content: 'f3l1x' }]
+    ],
     lastUpdated: false,
     sidebar: sidebar.buildSidebar(),
     contributte: {

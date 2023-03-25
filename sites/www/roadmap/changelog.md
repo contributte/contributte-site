@@ -30,7 +30,6 @@ The year of getting all on board and set some standards to our ecosystem.
 
 Contributte organization has 2 new members.
 
-- [@petrparolek](https://github.com/petrparolek)
 - [@Roman3349](https://github.com/Roman3349)
 
 This year our hardworking member [@mabar](https://github.com/mabar) goes his own way. Thank you for the fish.

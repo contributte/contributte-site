@@ -13,6 +13,10 @@
     { "source": "/vision.html", "destination": "/roadmap/vision.html" },
     { "source": "/roadmap/recap.html", "destination": "/roadmap/changelog.html" },
     { "source": "/packages/apitte/(.*)", "destination": "/packages/contributte/apitte" },
-    { "source": "/packages/nettrine/(.+)", "destination": "/packages/contributte/doctrine-$1" }
+    { "source": "/packages/nettrine/(.+)", "destination": "/packages/contributte/doctrine-$1" },
+    { "source": "/ninjify", "destination": "/packages/contributte/qa.html" },
+    { "source": "/ninjify/(.*)", "destination": "/packages/contributte/qa.html" },
+    { "source": "/nettrine", "destination": "/packages/contributte/doctrine-dbal.html" }
+    { "source": "/nettrine/(.*)", "destination": "/packages/contributte/doctrine-dbal.html" }
   ]
 }

@@ -1,7 +1,7 @@
 <h1 align=center>Contributte</h1>
 
 <p align=center>
-Official website of the Contributte, Nettrine & Ninjify.
+Official website of the Contributte organization.
 </p>
 
 <p align=center>

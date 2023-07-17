@@ -75,7 +75,7 @@ function mergeComposer(repo) {
 		if (name === 'php') {
 			const phpVersions = [];
 			const sanitizedVersion = version.replace(/\|{1}/, '||');
-			const VERSIONS = ['5.6.999', '7.0.999', '7.1.999', '7.2.999', '7.3.999', '7.4.999', '8.0.999'];
+			const VERSIONS = ['5.6.999', '7.0.999', '7.1.999', '7.2.999', '7.3.999', '7.4.999', '8.0.999', '8.1.999', '8.2.999', '8.3.999'];
 
 			const minver = semver.minSatisfying(VERSIONS, sanitizedVersion);
 			const maxver = semver.maxSatisfying(VERSIONS, sanitizedVersion);

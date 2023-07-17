@@ -25,7 +25,7 @@ export default {
   },
   async created() {
     try {
-      const res = await fetch("https://packagist.now.sh/stats/contributte+apitte+nettrine+ninjify");
+      const res = await fetch("https://packagist.vercel.app/stats/contributte+apitte+nettrine+ninjify");
       const data = await res.json();
 
       this.total = data.downloads.total;

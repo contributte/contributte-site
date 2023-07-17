@@ -6,10 +6,6 @@ const organizations = {
 	contributte: {
 		filepath: path.resolve(__dirname, 'data/contributte.json'),
 		read: () => require(organizations.contributte.filepath)
-	},
-	ninjify: {
-		filepath: path.resolve(__dirname, 'data/ninjify.json'),
-		read: () => require(organizations.ninjify.filepath)
 	}
 };
 

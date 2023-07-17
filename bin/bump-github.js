@@ -6,9 +6,7 @@ const utils = require("./utils");
 const CONFIG = require("./../contributte");
 
 const LEVELS = {
-	contributte: [1, 2, 3],
-	nettrine: [1],
-	ninjify: [1]
+	contributte: [1, 2, 3]
 }
 
 function sync() {

@@ -16,7 +16,7 @@
     { "source": "/packages/nettrine/(.+)", "destination": "/packages/contributte/doctrine-$1" },
     { "source": "/ninjify", "destination": "/packages/contributte/qa.html" },
     { "source": "/ninjify/(.*)", "destination": "/packages/contributte/qa.html" },
-    { "source": "/nettrine", "destination": "/packages/contributte/doctrine-dbal.html" }
+    { "source": "/nettrine", "destination": "/packages/contributte/doctrine-dbal.html" },
     { "source": "/nettrine/(.*)", "destination": "/packages/contributte/doctrine-dbal.html" }
   ]
 }

@@ -17,14 +17,14 @@ git:
   <div></div>
   <div class="flex flex-col space-y-2 mt-2">
     <div class="flex flex-row space-x-2 items-center">
-      <img class="opacity-50" loading="lazy" src="https://obr.now.sh/fa/b/github/16"/>
+      <img class="opacity-50" loading="lazy" src="https://obr.vercel.app/fa/b/github/16"/>
       <a href="https://github.com/<%= $repository.org+"/"+$repository.name %>">github.com/<%= $repository.org+"/"+$repository.name %></a>
     </div>
     <% if($repository.pm && $repository.pm.composer){ %><div class="flex flex-row space-x-2 items-center">
-      <img class="opacity-50" loading="lazy" src="https://obr.now.sh/fa/s/download/16"/>
+      <img class="opacity-50" loading="lazy" src="https://obr.vercel.app/fa/s/download/16"/>
       <a href="https://packagist.org/packages/<%= $repository.pm.composer %>" target="_blank">packagist.org/packages/<%= $repository.pm.composer %></a>
     </div><% } %><% if($repository.pm && $repository.pm.npm){ %><div class="flex flex-row space-x-2 items-center">
-      <img class="opacity-50" loading="lazy" src="https://obr.now.sh/fa/s/download/16"/>
+      <img class="opacity-50" loading="lazy" src="https://obr.vercel.app/fa/s/download/16"/>
       <a href="https://npmjs.com/package/<%= $repository.pm.npm %>" target="_blank">npmjs.com/package/<%= $repository.pm.npm %></a>
     </div><% } %>
   </div>

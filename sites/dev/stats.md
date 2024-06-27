@@ -52,7 +52,7 @@ pageClass: status
     </td>
     <td>
       <a :href="`https://github.com/${repository.org}/${repository.name}/commits/master`" target="_blank">
-        <img lazy="true" :src="`https://badgen.net/https/label.now.sh/github/unreleased/${repository.org}/${repository.name}/`">
+        <img lazy="true" :src="`https://badgen.net/https/label.vercel.app/github/unreleased/${repository.org}/${repository.name}/`">
       </a>
     </td>
     <td>
